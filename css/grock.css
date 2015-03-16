@@ -1,13 +1,18 @@
-@media screen and (min-width: 640px) {
+@media screen and (min-device-width: 640px) {
   html {
     font-size: 16px;
   }
 }
 
-@media screen and (max-width: 639px) {
+@media screen and (max-device-width: 639px) {
   html {
-    font-size: 20px;
+    font-size: 32px;
   }
+}
+
+.socicon {
+    font-family: 'socicon' !important;
+    text-decoration: none;
 }
 
 html {
@@ -26,10 +31,22 @@ a {
 #header {
     margin-bottom: 8px;
     padding: 0 8px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 #header h1 {
+    margin: 4px 48px 4px 0;
+    float: left;
+}
+
+#header .header-navi {
     margin: 4px 0;
+    line-height: 3.2em;
+}
+
+#header .header-navi i {
+    vertical-align: bottom;
 }
 
 .media-embed {
@@ -54,6 +71,48 @@ a {
     margin: 0 auto;
 }
 
+.post-navi {
+    max-width: 1000px;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+.post-navi .arrow-left,
+.post-navi .arrow-right {
+    font-size: 3.6em;
+    display: block;
+}
+.post-navi .arrow-left {
+    text-align: left;
+    margin-left: 8px;
+    float: left;
+}
+.post-navi .arrow-right {
+    text-align: right;
+    margin-right: 8px;
+}
+
+#bands {
+    max-width: 1000px;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+
+.band .band-name {
+    margin: 4px 0;
+    font-size: 1.2em;
+}
+
+.band a {
+    margin-right: 12px;
+    font-size: 2.0em;
+}
+
+#posts {
+    max-width: 1000px;
+    padding: 0 8px;
+    margin: 80px auto;
+}
+
 #footer {
     padding: 0 8px;
     text-align: center;
@@ -63,8 +122,20 @@ a {
     padding: 24px 0 12px 0;
 }
 
+#footer div.link i {
+    font-size: 3.4em;
+}
+
 #footer div.copy {
     padding: 12px 0px 24px 0px;
     border-top: 1px solid rgba(0, 0, 0, 1);
     box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
+}
+
+.clear {
+    clear: both;
+}
+
+.no-line {
+    text-decoration: none;
 }

@@ -48,8 +48,16 @@ a {
     line-height: 3.2em;
 }
 
-#header .header-navi i {
-    vertical-align: bottom;
+#header .header-navi span {
+    float: right;
+    margin-left: 10px;
+}
+
+#header .header-navi span a {
+    text-decoration: none;
+}
+#header .header-navi span.current a {
+    text-decoration: underline;
 }
 
 .media-embed {

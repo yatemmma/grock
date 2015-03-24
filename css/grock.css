@@ -1,13 +1,45 @@
 @media screen and (min-device-width: 640px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 2.0em;
+    }
+    .block h2 {
+        margin-top: 40px;
+    }
+    .media-embed {
+        padding-bottom: 46.25%;
+    }
+    #header .header-navi {
+        margin: 4px 0;
+        line-height: 5.2em;
+    }
 }
 
 @media screen and (max-device-width: 639px) {
-  html {
-    font-size: 32px;
-  }
+    html {
+        font-size: 32px;
+    }
+    h2 {
+        font-size: 2.2em;
+        padding-bottom: 4px;
+        border-bottom: 1px solid rgba(0, 0, 0, 1);
+        box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
+    }
+    .block h2 {
+        margin-top: 120px;
+    }
+    li {
+        line-height: 60px;
+    }
+    .media-embed {
+        padding-bottom: 66.25%;
+    }
+    #header .header-navi {
+        margin: 4px 0;
+        line-height: 3.2em;
+    }
 }
 
 .socicon {
@@ -28,6 +60,14 @@ a {
     color: #EEE;   
 }
 
+h1 {
+    font-size: 3.4em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
 .inner {
     max-width: 1000px;
     padding: 0 8px;
@@ -36,6 +76,8 @@ a {
 
 #header {
     margin-bottom: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
 }
 
 #header h1 {
@@ -43,14 +85,9 @@ a {
     float: left;
 }
 
-#header .header-navi {
-    margin: 4px 0;
-    line-height: 3.2em;
-}
-
 #header .header-navi span {
     float: right;
-    margin-left: 10px;
+    margin-left: 16px;
 }
 
 #header .header-navi span a {
@@ -62,7 +99,6 @@ a {
 
 .media-embed {
     position: relative;
-    padding-bottom: 46.25%;
     padding-top: 30px;
     height: 0;
     overflow: hidden;

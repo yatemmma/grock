@@ -21,6 +21,13 @@ $(function() {
 			$modal.find(".listen").show().attr('href', listen);
 		}
 
+		var listen = $(this).attr('data-grock-free');
+		if (listen == '') {
+			$modal.find(".free").hide();
+		} else {
+			$modal.find(".free").show().attr('href', listen);
+		}
+
 		var itunes = $(this).attr('data-grock-itunes');
 		if (itunes == '') {
 			$modal.find(".itunes").hide();

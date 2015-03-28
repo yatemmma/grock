@@ -35,7 +35,8 @@ header h1 {
     margin: 16px 16px 8px 16px;
 }
 
-header h1 a {
+header h1 a,
+.page404 h1 a {
     text-decoration: none;
 }
 
@@ -233,6 +234,7 @@ footer .copy {
     background-size: contain;
     position: relative;
     float: left;
+    cursor: pointer;
 }
 
 .discs .desc {
@@ -257,4 +259,18 @@ footer .copy {
     display: block;
     width: 100%;
     height: 100%;
+}
+
+.page404 {
+    font-size: 2.0em;
+    text-align: center;
+    margin: 64px auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-center li {
+    list-style: none;
 }

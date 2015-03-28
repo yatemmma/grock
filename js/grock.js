@@ -1,4 +1,12 @@
 $(function() {
+	$('.disc').css('opacity', 0);
+	$('.disc').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+		if (isInView && visiblePartY == 'both') {
+			$(this).css('background-image', "url('" + $(this).attr('data-grock-img') + "')");
+			$(this).stop().animate({opacity: 1}, 800);
+		}
+	});
+
 	$(".disc").click(function() {
 		var $modal = $('[data-remodal-id=modal]');
 		$modal.find("#disc-modal-title").text($(this).attr('data-grock-title'));

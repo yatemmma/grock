@@ -1,45 +1,59 @@
-@media screen and (min-device-width: 640px) {
-    html {
-        font-size: 16px;
-    }
-    h2 {
-        font-size: 2.0em;
-    }
-    .block h2 {
-        margin-top: 40px;
-    }
-    .media-embed {
-        padding-bottom: 46.25%;
-    }
-    #header .header-navi {
-        margin: 4px 0;
-        line-height: 5.2em;
-    }
+body {
+    font-size: 16px;
+    background-color: #333;
 }
 
-@media screen and (max-device-width: 639px) {
-    html {
-        font-size: 32px;
-    }
-    h2 {
-        font-size: 2.2em;
-        padding-bottom: 4px;
-        border-bottom: 1px solid rgba(0, 0, 0, 1);
-        box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
-    }
-    .block h2 {
-        margin-top: 120px;
-    }
-    li {
-        line-height: 60px;
-    }
-    .media-embed {
-        padding-bottom: 66.25%;
-    }
-    #header .header-navi {
-        margin: 4px 0;
-        line-height: 3.2em;
-    }
+body,
+a {
+    color: #EEE;
+}
+
+body,
+.remodal, 
+.remodal *{
+    font-family: "Lato", Arial, Helvetica, Verdana, sans-serif !important;
+}
+
+header {
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
+}
+
+header h1 {
+    font-size: 1.6em;
+    margin: 16px 16px 8px 16px;
+}
+
+header h1 a {
+    text-decoration: none;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    width: 25%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 2.0em;
+    float: left;
+    color: #888;
+}
+
+footer {
+    text-align: center;
+}
+
+footer .link {
+    padding: 24px 0 12px 0;
+}
+
+footer .copy {
+    padding: 12px 0 24px 0;
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
 }
 
 .socicon {
@@ -47,170 +61,136 @@
     text-decoration: none;
 }
 
-html {
-    background-color: #333;
-    color: #EEE;
+.pw {
+    font-family: 'payment-webfont' !important;
 }
 
-body {
-    /*font-size: 1.0rem;*/
+.fa {
+    font-family: 'FontAwesome' !important;
 }
 
-a {
-    color: #EEE;   
+.icon {
+    font-size: 3.0em;
 }
 
-h1 {
-    font-size: 3.4em;
-}
-
-h3 {
-    font-size: 1.8em;
-}
-
-.inner {
-    max-width: 1000px;
-    padding: 0 8px;
-    margin: 0 auto;
-}
-
-#header {
-    margin-bottom: 8px;
-    border-bottom: 1px solid rgba(0, 0, 0, 1);
-    box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
-}
-
-#header h1 {
-    margin: 4px 48px 4px 0;
-    float: left;
-}
-
-#header .header-navi span {
-    float: right;
-    margin-left: 16px;
-}
-
-#header .header-navi span a {
-    text-decoration: none;
-}
-#header .header-navi span.current a {
-    text-decoration: underline;
-}
-
-.media-embed {
-    position: relative;
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-.media-embed iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-.content {
-    max-width: 1000px;
-    padding: 0 8px;
-    margin: 0 auto;
-}
-
-.post-navi {
-    max-width: 1000px;
-    padding: 0 8px;
-    margin: 0 auto;
-}
-.post-navi .arrow-left,
-.post-navi .arrow-right {
-    font-size: 3.6em;
-    display: block;
-}
-.post-navi .arrow-left {
-    text-align: left;
-    margin-left: 8px;
-    float: left;
-}
-.post-navi .arrow-right {
-    text-align: right;
-    margin-right: 8px;
-}
-
-.band {
-    margin-bottom: 12px;
-    font-size: 1.2em;
-}
-
-.band .band-name {
-    margin: 4px 0;
-    font-size: 1.2em;
-}
-
-.band a {
-    margin-right: 12px;
+.buy {
+    margin-top: 12px;
     font-size: 2.0em;
 }
 
-.band_recent a {
-    font-size: 0.82em;
-}
-
-#posts {
+.center {
     max-width: 1000px;
-    padding: 0 8px;
-    margin: 80px auto;
+    margin: 0 auto;
 }
 
-#footer {
-    padding: 0 8px;
-    text-align: center;
+.content {
+    width: 90%;
 }
 
-#footer div.link {
-    padding: 24px 0 12px 0;
+.headline {
+    margin: 0 auto 18px 8px;
 }
 
-#footer div.link i {
-    font-size: 3.4em;
+.list {
+    width: 90%;
+    margin: 0 auto 24px;
 }
 
-#footer div.copy {
-    padding: 12px 0px 24px 0px;
-    border-top: 1px solid rgba(0, 0, 0, 1);
-    box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
+.list li {
+    margin-bottom: 8px;
 }
 
 .clear {
     clear: both;
 }
 
-.no-line {
+.remodal {
+    min-height: 0;
+    padding-bottom: 15px;
+}
+
+.buy a {
+    color: #333;
+    text-decoration: none;
+    letter-spacing: 0.2em;
+}
+
+#disc-modal img {
+    float: left;
+    margin: 0 12px 30px 0;
+    width: 40%;
+}
+
+#disc-modal div {
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+#post h3 {
+    margin-top: 36px;
+}
+
+.info {
+    font-size: 1.4em;
+    letter-spacing: 0.4em;
+    margin: 0 auto 18px 8px;
+}
+
+.info a {
     text-decoration: none;
 }
 
-@media screen and (min-device-width: 640px) {
-  .discs .disc {
-    width: 240px;
-    height: 240px;
-  }
-  .discs .desc {
-    width: 240px;
-    height: 72;
-  }
+.block {
+    margin-bottom: 48px;
 }
 
+.media {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 46.25%;
+    height: 0;
+    overflow: hidden;
+}
+.media iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navi {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.navi .arrow-left,
+.navi .arrow-right {
+    display: block;
+}
+
+.navi .arrow-left {
+    text-align: left;
+    margin-left: 8px;
+    float: left;
+}
+.navi .arrow-right {
+    text-align: right;
+    margin-right: 8px;
+}
+
+@media screen and (min-device-width: 640px) {
+    .discs .disc {
+        width: 200px;
+        height: 200px;
+    }
+}
+ 
 @media screen and (max-device-width: 639px) {
-  .discs .disc {
-    width: 320px;
-    height: 320px;
-  }
-  .discs .desc {
-    width: 320px;
-    height: 96px;
-    font-size: 0.8em;
-  }
+    .discs .disc {
+        width: 33.333%;
+        padding-top: 33.333%;
+    }
 }
 
 .discs .disc {
@@ -223,6 +203,9 @@ h3 {
 }
 
 .discs .desc {
+    width: 100%;
+    height: 40%;
+    font-size: 0.8em;
     background-color: #333;
     opacity: 0.7;
     position: absolute;
@@ -230,7 +213,8 @@ h3 {
 }
 
 .discs .desc div {
-    margin-left: 8px;
+    height: 33.333%;
+    margin-left: 2px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;

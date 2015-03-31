@@ -51,7 +51,10 @@ nav a {
 
 @media screen and (min-device-width: 640px) {
     nav a {
-        width: 6%;
+        width: 60px;
+        float: left;
+    }
+    .nav-inner {
         float: right;
         margin-top: -30px;
     }
@@ -273,4 +276,74 @@ footer .copy {
 
 .text-center li {
     list-style: none;
+}
+
+.sns {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.sns ul,
+.sns li,
+.sns div {
+    margin: 0;
+    padding: 0;
+}
+
+.sns li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 4px;
+}
+
+.sns h1 {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 40px;
+    margin: 0 15px 20px;
+    color: #323232;
+}
+
+.sns p {
+    font-size: 14px;
+    margin: 0 15px 50px;
+    color: #555;
+}
+
+.sns .arrowBox {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    text-align: center;
+    margin-bottom: 8px;
+    display: none;
+}
+.sns .arrowBox:after,
+.sns .arrowBox:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.sns .arrowBox:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-top-color: #ffffff;
+    border-width: 5px;
+    margin-left: -5px;
+}
+
+.sns .arrowBox:before {
+    border-color: rgba(204, 204, 204, 0);
+    border-top-color: #cccccc;
+    border-width: 6px;
+    margin-left: -6px;
+}
+
+.sns .arrowBox span{
+    font-size: 13px;
 }

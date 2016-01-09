@@ -3,6 +3,9 @@ require 'sinatra/reloader' if development?
 require 'sequel'
 require 'yaml'
 require 'json'
+require 'active_support/core_ext/string'
+
+require './apps/models/label'
 
 config = YAML.load_file("apps/config/#{ENV['RACK_ENV']}.yml")
 DB = Sequel.connect(ENV['DATABASE_URL'] || config[:database])
@@ -20,6 +23,9 @@ end
 get '/data/:path' do |path|
   p "get:#{path}"
   p params
+  
+  model = Module.const_get(path.singularize.camelcase).new
+  p model.hoge
   items = DB[path.to_sym]
   
   content_type :json

@@ -1,14 +1,16 @@
 # bundle exec rackup
-# bundle exec sequel -m db/migrations sqlite://db/test.db
 
 require 'rake'
 require 'sequel'
 require 'sequel/extensions/migration'
+require 'yaml'
 
 namespace :db do
+  # bundle exec sequel -m db/migrations sqlite://db/development.db
   desc "migrate database"
   task :migrate do
-    DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres://localhost/grock' || "sqlite://db/test.db")
+    config = YAML.load_file("config/#{ENV['RAKE_ENV'] || 'development'}.yml")
+    DB = Sequel.connect(config[:database])
     Sequel::Migrator.apply(DB, './db/migrate')
   end
 end

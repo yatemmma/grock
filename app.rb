@@ -1,11 +1,13 @@
 require 'sinatra'
 require 'sequel'
 require 'yaml'
+require 'json'
 
 config = YAML.load_file("config/#{ENV['RACK_ENV']}.yml")
+DB = Sequel.connect(ENV['DATABASE_URL'] || config[:database])
 
+# dashboard request
 get '/' do
-  DB = Sequel.connect(ENV['DATABASE_URL'] || config[:database])
   items = DB[:items]
   if items.count <= 0
     items.insert(:name => 'fugafuga')
@@ -16,10 +18,21 @@ get '/' do
 end
 
 post '/update' do
-  DB = Sequel.connect(ENV['DATABASE_URL'] || config[:database])
   items = DB[:items]
 
   items.where(:id => 1).update(:name => params[:test])
   p params[:test]
   'updated'
+end
+
+# web api
+get '/data/name' do
+  items = DB[:items]
+  content_type :json
+  data = {name: items.where(:id => 1).first[:name]}
+  data.to_json
+end
+
+post '/data/name' do
+  p params[:name]
 end

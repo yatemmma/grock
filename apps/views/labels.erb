@@ -1,0 +1,130 @@
+<html>
+<head>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  <script src="list.js"></script>
+</head>
+<body>
+  <div id="list-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th class="sort" data-sort="id">id</th>
+        <th class="sort" data-sort="slug">slug</th>
+        <th class="sort" data-sort="name">name</th>
+        <th class="sort" data-sort="city">city</th>
+        <th class="sort" data-sort="site">site</th>
+        <th class="sort" data-sort="youtube">youtube</th>
+        <th colspan="2"><input type="text" class="search" placeholder="Search" /></th>
+      </tr>
+    </thead>
+    <tbody class="list">
+      <% labels.each do |label| %>
+      <tr>
+        <td class="id"><%= label[:id] %></td>
+        <td class="slug"><%= label[:slug] %></td>
+        <td class="name"><%= label[:name] %></td>
+        <td class="nick"><%= label[:inickd] %></td>
+        <td class="site"><%= label[:site] %></td>
+        <td class="youtube"><%= label[:youtube] %></td>
+        <td class="edit"><button class="edit-item-btn">Edit</button></td>
+        <td class="remove"><button class="remove-item-btn">Remove</button></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+  
+  <table>
+    <td class="id">
+      <input type="hidden" id="id-field" />
+    </td>
+    <td class="slug">
+      <input type="text" id="slug-field" class="adding-field" placeholder="slug" />
+    </td>
+    <td class="name">
+      <input type="text" id="name-field" class="adding-field" placeholder="name" />
+    </td>
+    <td class="nick">
+      <input type="text" id="nick-field" class="adding-field" placeholder="nick" />
+    </td>
+    <td class="site">
+      <input type="text" id="site-field" class="adding-field" placeholder="site" />
+    </td>
+    <td class="youtube">
+      <input type="text" id="youtube-field" class="adding-field" placeholder="youtube" />
+    </td>
+    <td class="add">
+      <button id="add-btn">Add</button>
+      <button id="edit-btn">Edit</button>
+    </td>
+  </table>
+
+<script>
+
+var options = {
+  valueNames: [ 'id', 'slug', 'name', 'nick', 'site', 'youtube' ]
+};
+
+var list = new List('list-wrapper', options);
+var addBtn = $('#add-btn'),
+    editBtn = $('#edit-btn').hide(),
+    removeBtns = $('.remove-item-btn'),
+    editBtns = $('.edit-item-btn'),
+    idField = $('#id-field');
+
+// Sets callbacks to the buttons in the list
+refreshCallbacks();
+
+addBtn.click(function() {
+  obj = {}
+  options.valueNames.forEach(function(item) {
+    if (item == 'id') {
+      obj.id = Math.floor(Math.random()*110000);
+    } else {
+      obj[item] = $('#'+item+'-field').val();
+    }
+  });
+  list.add(obj);
+  clearFields();
+  refreshCallbacks();
+});
+
+editBtn.click(function() {
+  var item = list.get('id', idField.val())[0];
+  obj = {}
+  options.valueNames.forEach(function(item) {
+    obj[item] = $('#'+item+'-field').val();
+  });
+  item.values(obj);
+  clearFields();
+  editBtn.hide();
+  addBtn.show();
+});
+
+function refreshCallbacks() {
+  // Needed to add new buttons to jQuery-extended object
+  removeBtns = $(removeBtns.selector);
+  editBtns = $(editBtns.selector);
+  
+  removeBtns.click(function() {
+    var itemId = $(this).closest('tr').find('.id').text();
+    list.remove('id', itemId);
+  });
+  
+  editBtns.click(function() {
+    var itemId = $(this).closest('tr').find('.id').text();
+    var itemValues = list.get('id', itemId)[0].values();
+    options.valueNames.forEach(function(item) {
+      $('#'+item+'-field').val(itemValues[item]);
+    });
+    
+    editBtn.show();
+    addBtn.hide();
+  });
+}
+
+function clearFields() {
+  $('.adding-field').val('');
+}
+</script>
+</body>
+</html>

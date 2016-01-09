@@ -9,6 +9,7 @@ gem 'config'
 
 group :development do
   gem 'sqlite3'
+  gem 'sinatra-contrib'
 end
 
 group :production do

@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'sinatra/reloader' if development?
 require 'sequel'
 require 'yaml'
 require 'json'
@@ -23,6 +24,12 @@ post '/update' do
   items.where(:id => 1).update(:name => params[:test])
   p params[:test]
   'updated'
+end
+
+get '/labels' do
+  labels = DB[:labels].all
+  labels << {:youtube => 'hoge'} if labels.empty?
+  erb :labels, :locals => {:labels => labels}
 end
 
 # web api

@@ -14,10 +14,11 @@ get '/' do
   erb :index, :locals => {}
 end
 
-get '/dashboard/labels' do
-  labels = Label.all
+get '/dashboard/:path' do |path|
+  model = Module.const_get(path.singularize.camelcase)
+  labels = model.all
   labels << {} if labels.empty?
-  erb :labels, :locals => {:cols => Label.cols, :items => labels}
+  erb path.to_sym, :locals => {:cols => model.cols, :items => labels}
 end
 
 get '/data/:path' do |path|
@@ -38,9 +39,7 @@ end
 put '/data/:path' do |path|
   p "put:#{path} #{params}"
   model = Module.const_get(path.singularize.camelcase)
-  p model.get(params[:id])
   item = model.new(params[:id]).update(params)
-  p item
   content_type :json
   {item: item}.to_json
 end

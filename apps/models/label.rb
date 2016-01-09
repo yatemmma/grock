@@ -20,8 +20,7 @@ class Label
   end
   
   def self.get(id)
-    items = DB[:labels]
-    items.where(:id => id).first
+    Label.new(id).first
   end
   
   def initialize(id)

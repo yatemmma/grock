@@ -10,7 +10,8 @@ namespace :db do
   desc "migrate database"
   task :migrate do
     config = YAML.load_file("config/#{ENV['RAKE_ENV'] || 'development'}.yml")
-    DB = Sequel.connect(config[:database])
+    # DB = Sequel.connect(config[:database])
+    DB = Sequel.connect('postgres://localhost/grock')
     Sequel::Migrator.apply(DB, './db/migrate')
   end
 end

@@ -1,8 +1,7 @@
 Sequel.migration do
   up do
     create_table(:labels) do
-      primary_key :id
-      String :slug, :unique=>true
+      String :id,   :primary_key=>true
       String :name, :null=>false
       String :nick, :null=>false
       String :site

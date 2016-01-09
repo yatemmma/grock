@@ -7,39 +7,48 @@ require 'json'
 config = YAML.load_file("apps/config/#{ENV['RACK_ENV']}.yml")
 DB = Sequel.connect(ENV['DATABASE_URL'] || config[:database])
 
-# dashboard request
 get '/' do
-  items = DB[:items]
-  if items.count <= 0
-    items.insert(:name => 'fugafuga')
-    items = DB[:items]
-  end
-  p items.where(:id => 1).first[:name]
-  erb :index, :locals => {:word => items.where(:id => 1).first[:name]}
+  erb :index, :locals => {}
 end
 
-post '/update' do
-  items = DB[:items]
-
-  items.where(:id => 1).update(:name => params[:test])
-  p params[:test]
-  'updated'
-end
-
-get '/labels' do
+get '/dashboard/labels' do
   labels = DB[:labels].all
-  labels << {:youtube => 'hoge'} if labels.empty?
-  erb :labels, :locals => {:labels => labels}
+  labels << {} if labels.empty?
+  erb :labels, :locals => {:cols => %w(id slug name nick site youtube), :items => labels}
 end
 
-# web api
-get '/data/name' do
-  items = DB[:items]
+get '/data/:path' do |path|
+  p "get:#{path}"
+  p params
+  items = DB[path.to_sym]
+  
   content_type :json
-  data = {name: items.where(:id => 1).first[:name]}
+  {items: items.all}.to_json
+end
+
+post '/data/:path' do |path|
+  p "post:#{path}"
+  p params
+  
+  items = DB[path.to_sym]
+  
+  content_type :json
+  data = {'success' => 0}
   data.to_json
 end
 
-post '/data/name' do
-  p params[:name]
+put '/data/:path' do |path|
+  p "put:#{path}"
+  p params
+  content_type :json
+  data = {'success' => 1}
+  data.to_json
+end
+
+delete '/data/:path' do |path|
+  p "delete:#{path}"
+  p params
+  content_type :json
+  data = {'success' => 3}
+  data.to_json
 end

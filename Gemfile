@@ -2,5 +2,8 @@ source "https://rubygems.org"
 
 gem 'rake'
 gem 'sinatra'
-gem 'sqlite3'
 gem 'sequel'
+
+group :development do
+  gem 'sqlite3'
+end

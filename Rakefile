@@ -8,7 +8,7 @@ require 'sequel/extensions/migration'
 namespace :db do
   desc "migrate database"
   task :migrate do
-    DB = Sequel.connect(ENV['DATABASE_URL'] || "sqlite://db/test.db")
+    DB = Sequel.connect(ENV['DATABASE_URL'] || 'postgres://localhost/grock' || "sqlite://db/test.db")
     Sequel::Migrator.apply(DB, './db/migrate')
   end
 end

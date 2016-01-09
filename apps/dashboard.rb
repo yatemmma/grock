@@ -15,46 +15,40 @@ get '/' do
 end
 
 get '/dashboard/labels' do
-  labels = DB[:labels].all
+  labels = Label.all
   labels << {} if labels.empty?
-  erb :labels, :locals => {:cols => %w(id slug name nick site youtube), :items => labels}
+  erb :labels, :locals => {:cols => Label.cols, :items => labels}
 end
 
 get '/data/:path' do |path|
-  p "get:#{path}"
-  p params
-  
-  model = Module.const_get(path.singularize.camelcase).new
-  p model.hoge
-  items = DB[path.to_sym]
-  
+  p "get:#{path} #{params}"
+  model = Module.const_get(path.singularize.camelcase)
   content_type :json
-  {items: items.all}.to_json
+  {items: model.all}.to_json
 end
 
 post '/data/:path' do |path|
-  p "post:#{path}"
-  p params
-  
-  items = DB[path.to_sym]
-  
+  p "post:#{path} #{params}"
+  model = Module.const_get(path.singularize.camelcase)
+  item = model.add(params)
   content_type :json
-  data = {'success' => 0}
-  data.to_json
+  {item: item}.to_json
 end
 
 put '/data/:path' do |path|
-  p "put:#{path}"
-  p params
+  p "put:#{path} #{params}"
+  model = Module.const_get(path.singularize.camelcase)
+  p model.get(params[:id])
+  item = model.new(params[:id]).update(params)
+  p item
   content_type :json
-  data = {'success' => 1}
-  data.to_json
+  {item: item}.to_json
 end
 
 delete '/data/:path' do |path|
-  p "delete:#{path}"
-  p params
+  p "delete:#{path} #{params}"
+  model = Module.const_get(path.singularize.camelcase)
+  item = model.new(params[:id]).delete
   content_type :json
-  data = {'success' => 3}
-  data.to_json
+  {item: item}.to_json
 end

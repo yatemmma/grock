@@ -5,7 +5,7 @@ require 'yaml'
 config = YAML.load_file("config/#{ENV['RACK_ENV']}.yml")
 
 get '/' do
-  DB = Sequel.connect(config[:database])
+  DB = Sequel.connect(ENV['DATABASE_URL'] || config[:database])
   items = DB[:items]
   if items.count <= 0
     items.insert(:name => 'fugafuga')
@@ -16,7 +16,7 @@ get '/' do
 end
 
 post '/update' do
-  DB = Sequel.connect(config[:database])
+  DB = Sequel.connect(ENV['DATABASE_URL'] || config[:database])
   items = DB[:items]
 
   items.where(:id => 1).update(:name => params[:test])

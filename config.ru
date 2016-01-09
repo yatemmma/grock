@@ -1,3 +1,3 @@
-require './app'
+require './apps/dashboard'
 
 run Sinatra::Application

@@ -3,7 +3,7 @@ require 'sequel'
 require 'yaml'
 require 'json'
 
-config = YAML.load_file("config/#{ENV['RACK_ENV']}.yml")
+config = YAML.load_file("apps/config/#{ENV['RACK_ENV']}.yml")
 DB = Sequel.connect(ENV['DATABASE_URL'] || config[:database])
 
 # dashboard request

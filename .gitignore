@@ -2,3 +2,5 @@
 
 /.bundle
 /vendor
+
+/db/*.db

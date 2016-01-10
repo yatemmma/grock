@@ -1,0 +1,11 @@
+<div class="navi center">
+  - if prev_post
+	    <div class="arrow-left">
+	    	<a href="#{@page[:path]}/posts/#{prev_post.key}.html"><i class="fa fa-arrow-circle-left icon"></i></a>
+	    </div>
+  - if next_post
+	    <div class="arrow-right">
+	    	<a href="#{@page[:path]}/posts/#{next_post.key}.html"><i class="fa fa-arrow-circle-right icon"></i></a>
+	    </div>
+  <div class="clear"></div>
+</div>

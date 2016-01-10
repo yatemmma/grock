@@ -1,6 +1,6 @@
 function request(method, params, success, failure) {
   $.ajax({
-    url: "/data/"+options.path,
+    url: "/data/"+path,
     method: method,
     data: params,
     dataType: "json"
@@ -19,7 +19,7 @@ refreshCallbacks();
 
 addBtn.click(function() {
   obj = {}
-  options.valueNames.forEach(function(item) {
+  cols.forEach(function(item) {
     obj[item] = $('#'+item+'-field').val();
   });
   request('post', obj, function(result) {
@@ -34,7 +34,7 @@ addBtn.click(function() {
 editBtn.click(function() {
   var item = list.get('id', idField.val())[0];
   obj = {}
-  options.valueNames.forEach(function(item) {
+  cols.forEach(function(item) {
     obj[item] = $('#'+item+'-field').val();
   });
   request('put', obj, function(result) {
@@ -66,7 +66,7 @@ function refreshCallbacks() {
   editBtns.click(function() {
     var itemId = $(this).closest('tr').find('.id').text();
     var itemValues = list.get('id', itemId)[0].values();
-    options.valueNames.forEach(function(item) {
+    cols.forEach(function(item) {
       $('#'+item+'-field').val(itemValues[item]);
     });
     

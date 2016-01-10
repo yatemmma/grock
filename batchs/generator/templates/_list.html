@@ -1,0 +1,3 @@
+ul class="center list"
+	- posts.each do |post|
+		<li><a href="#{@page[:path]}/posts/#{post.key}.html">#{post.title}</a></li>

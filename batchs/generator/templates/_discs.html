@@ -1,0 +1,11 @@
+<div class="discs">
+  - discs.each do |disc|
+		<div class="disc" style="" data-grock-band="#{disc.band_names}" data-grock-title="#{disc.title}" data-grock-label="#{disc.date} #{disc.label}" data-grock-img="#{image_url(disc.image)}" data-grock-listen="#{disc.listen}" data-grock-itunes="#{disc.itunes_link}" data-grock-amazon="#{disc.amazon_link}" data-grock-free="#{disc.free}">
+	    <div class="desc">
+	    	<div>#{disc.title}</div>
+	    	<div>#{disc.band_names}</div>
+	    	<div>#{disc.date} #{disc.label}</div>
+	    </div>
+		</div>
+</div>
+<div class="clear"></div>

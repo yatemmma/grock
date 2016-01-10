@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  == sub_template :html_head
+<body>
+	== sub_template :header
+
+	== sub_template :post, {:post => post}
+
+	== sub_template :sns, {:url => "#{@url}/posts/#{post.key}.html", :title => post.title}
+
+	== sub_template :navi, {:prev_post => prev_post, :next_post => next_post}
+
+	- post.bands.each do |band|
+	  div class="block center"
+			<h2 class="headline">#{band.name}</h2>
+		    == sub_template :list, {:posts => Post.band_posts(band)}
+		    == sub_template :info, {:band => band}
+		    == sub_template :discs, {:discs => Disc.band_releases(band.key)}
+
+	div class="block center"
+	  <h2 class="headline">Release Info</h2>
+	    == sub_template :discs, {:discs => Disc.new_releases}
+
+	div class="block center"
+	  <h2 class="headline">Recent Posts</h2>
+	    == sub_template :list, {:posts => Post.all[0,10]}
+
+	div class="block center"
+	  <h2 class="headline">Recommend</h2>
+	    == sub_template :discs, {:discs => Disc.recommends}
+
+	== sub_template :modal
+
+	== sub_template :footer
+</body>
+</html>

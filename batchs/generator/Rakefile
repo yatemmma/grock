@@ -1,0 +1,20 @@
+%w(model helper).each do |dir|
+	$:.unshift(File.dirname(File.expand_path(__FILE__)) + "/#{dir}")
+end
+
+require 'grock'
+require 'benchmark'
+
+task :default => :build
+
+task :build do
+	result = Benchmark.realtime do
+  	GRock.new.run
+	end
+	puts "Time: #{result}s"
+	system("cp -pir assets/* public")
+end
+
+task :s do
+	system("bundle exec ruby server.rb")
+end

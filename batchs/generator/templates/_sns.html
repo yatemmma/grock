@@ -1,0 +1,22 @@
+div class="sns center"
+  ul
+		<li class="twitter">
+			<div class="arrowBox"><span>0</span></div>
+			<a href="http://twitter.com/share?url=#{url}&text=#{title}" target="_blank"><img src="#{@page[:path]}/images/share_twitter.png"></a>
+		</li>
+		<li class="facebook">
+			<div class="arrowBox"><span>0</span></div>
+			<a href="http://www.facebook.com/share.php?u=#{url}" onclick="window.open(this.href, 'FBwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="#{@page[:path]}/images/share_facebook.png"></a>
+		</li>
+		<li class="gplus">
+			<div class="arrowBox"><span>0</span></div>
+			<a href="https://plus.google.com/share?url=#{url}" onclick="window.open(this.href, 'Gwindow', 'width=650, height=450, menubar=no, toolbar=no, scrollbars=yes'); return false;"><img src="#{@page[:path]}/images/share_gplus.png"></a>
+		</li>
+		<li class="hatena">
+			<div class="arrowBox"><span>0</span></div>
+			<a href="http://b.hatena.ne.jp/entry/#{url}" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple" title="#{title}"><img src="#{@page[:path]}/images/share_hatena.png" /></a>
+			<script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+		</li>
+		<li class="line">
+			<a href="http://line.me/R/msg/text/?#{title}#{url}" target="_blank"><img src="#{@page[:path]}/images/share_line.png"></a>
+		</li>

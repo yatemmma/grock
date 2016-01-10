@@ -1,0 +1,5 @@
+ul
+	- Label.all.each do |key, label|
+	  - if label.youtube
+		<li><a href="#{label.youtube}" target="_blank">#{label.name}</a></li>
+		

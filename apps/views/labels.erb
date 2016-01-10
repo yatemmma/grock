@@ -43,9 +43,10 @@
   </div>
 <script>
 var options = {
-  valueNames: [<%= cols.map{|col| "'#{col}'"}.join(',') %>],
-  path: 'labels'
+  valueNames: [<%= cols.map{|col| "'#{col}'"}.join(',') %>]
 };
+var cols = [<%= cols.map{|col| "'#{col}'"}.join(',') %>];
+var path = 'labels';
 </script>
 <script src="table.js"></script>
 </body>

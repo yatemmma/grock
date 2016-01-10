@@ -1,0 +1,6 @@
+<div class="posts inner block">
+	<h2>Recent Posts <a href="#{@page[:path]}/posts.html"><i class="fa fa-arrow-circle-o-right"></i></a></h2>
+	  ul
+	  	- @posts[0,10].each do |post|
+	  		<li><a href="#{@page[:path]}/posts/#{post.key}.html">#{post.title}</a></li>
+</div>

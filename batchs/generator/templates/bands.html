@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  == sub_template :html_head
+<body>
+	== sub_template :header
+
+	- Band.all.each do |key, band|
+	  div class="block center"
+			<h2 class="headline">#{band.name}</h2>
+		    == sub_template :list, {:posts => Post.band_posts(band)}
+		    == sub_template :info, {:band => band}
+		    == sub_template :discs, {:discs => Disc.band_releases(key)}
+
+	== sub_template :modal
+
+	== sub_template :footer
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  == sub_template :html_head
+<body>
+	
+	<div class="page404">
+		<h2>404 Not Found</h2>
+		<h1><a href="#{@page[:path]}/">G-ROCK</a></h1>
+	</div>
+
+	div class="block center text-center"
+	  <h2 class="headline">What are you looking for?</h2>
+	    == sub_template :list, {:posts => Post.all}
+
+	== sub_template :footer
+</body>
+</html>

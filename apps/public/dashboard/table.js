@@ -7,6 +7,14 @@ function request(method, params, success, failure) {
   }).done(success).fail(failure);
 }
 
+function linkify() {
+  $("td.youtube").each(function(i, td) {
+    if ($(td).children().length == 0 && $(td).text().length > 0) {
+      $(td).html("<a href='"+$(td).text()+"' target='_blank'>youtube</a>");
+    }
+  });
+}
+
 var list = new List('items', options);
 var addBtn = $('#add-btn'),
     editBtn = $('#edit-btn').hide(),
@@ -25,7 +33,7 @@ addBtn.click(function() {
   request('post', obj, function(result) {
     list.add(obj);
     clearFields();
-    refreshCallbacks();  
+    refreshCallbacks();
   }, function(message) {
     alert('error occured:'+message);
   });
@@ -42,6 +50,7 @@ editBtn.click(function() {
     clearFields();
     editBtn.hide();
     addBtn.show();
+    linkify();
   }, function(message) {
     alert('error occured:'+message);
   });

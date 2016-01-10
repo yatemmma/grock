@@ -6,6 +6,10 @@ require 'json'
 require 'active_support/core_ext/string'
 
 require './apps/models/label'
+require './apps/models/band'
+require './apps/models/disc'
+require './apps/models/video'
+require './apps/models/post'
 
 config = YAML.load_file("apps/config/#{ENV['RACK_ENV']}.yml")
 DB = Sequel.connect(ENV['DATABASE_URL'] || config[:database])

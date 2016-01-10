@@ -1,0 +1,18 @@
+navi ul li {
+  display: inline-block;
+}
+
+body.post label {
+  width: 80px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+body.post input {
+  width: 600px;
+}
+
+body.post textarea {
+  width: 600px;
+  height: 400px;
+}

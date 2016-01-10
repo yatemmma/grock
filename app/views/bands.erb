@@ -1,0 +1,6 @@
+<%= erb :_html_head, :locals => {:rel => '.'} %>
+<body>
+  <%= erb :_header, :locals => {:rel => '.'} %>
+  <%= erb :_items, :locals => {:path => path, :cols => cols, :items => items} %>
+</body>
+</html>

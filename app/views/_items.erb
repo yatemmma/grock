@@ -1,0 +1,43 @@
+<div id="items" class="items-<%= path %>">
+  <table>
+    <% cols.each do |col| %>
+    <td class="<%= col %>">
+      <input type="text" id="<%= col %>-field" class="adding-field" placeholder="<%= col %>" />
+    </td>
+    <% end %>
+    <td class="add">
+      <button id="add-btn">Add</button>
+      <button id="edit-btn">Edit</button>
+    </td>
+  </table>
+  
+  <table>
+    <thead>
+      <tr>
+        <% cols.each do |col| %>
+        <th class="sort" data-sort="<%= col %>"><%= col %></th>
+        <% end %>
+        <th colspan="2"><input type="text" class="search" placeholder="Search" /></th>
+      </tr>
+    </thead>
+    <tbody class="list">
+      <% items.each do |item| %>
+      <tr>
+        <% cols.each do |col| %>
+        <td class="<%= col %>"><%= item[col.to_sym] %></td>
+        <% end %>
+        <td class="edit"><button class="edit-item-btn">Edit</button></td>
+        <td class="remove"><button class="remove-item-btn">Remove</button></td>
+      </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
+<script>
+var options = {
+valueNames: [<%= cols.map{|col| "'#{col}'"}.join(',') %>]
+};
+var cols = [<%= cols.map{|col| "'#{col}'"}.join(',') %>];
+var path = '<%= path %>';
+</script>
+<script src="table.js"></script>

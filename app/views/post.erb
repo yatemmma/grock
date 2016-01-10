@@ -1,0 +1,52 @@
+<%= erb :_html_head, :locals => {:rel => '..'}  %>
+<body class="post">
+  <%= erb :_header, :locals => {:rel => '..'} %>
+  <form action="/api/posts" method="put">
+    <div>
+      <label>id</label>
+      <%= post[:id] %> <button>edit</button>
+      <input type="hidden" name="id" value="<%= post[:id] %>"></input>
+    </div>
+    <div>
+      <label>url</label>
+      <input type="text" name="url" value="<%= post[:url] %>"></input>
+    </div>
+    <div>
+      <label>title</label>
+      <input type="text" name="title" value="<%= post[:title] %>"></input>
+    </div>
+    <div>
+      <label>date</label>
+      <input type="text" name="date" value="<%= post[:date] %>"></input>
+    </div>
+    <div>
+      <label>bands</label>
+      <input type="text" name="bands" value="<%= post[:bands] %>"></input>
+    </div>
+    <div>
+      <label>type</label>
+      <input type="text" name="type" value="<%= post[:type] %>"></input>
+    </div>
+    <div>
+      <label>body</label>
+      <textarea name="body"><%= post[:body] %></textarea>
+    </div>
+  </form>
+<script>
+$('form').submit(function(event) {
+  event.preventDefault();
+  var $form = $(this);
+  $.ajax({
+    url: $form.attr('action'),
+    method: $form.attr('method'),
+    data: $form.serialize(),
+    dataType: "json"
+  }).done(function(result) {
+    alert('updated');
+  }).fail(function(msg) {
+    alert('error occurred');
+  });
+});
+</script>
+</body>
+</html>

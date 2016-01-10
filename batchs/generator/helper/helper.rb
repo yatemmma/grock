@@ -1,6 +1,6 @@
 module Helper
   def template(template, param={})
-    Slim::Template.new("templates/#{template}.html", {}).render(self, param)
+    Slim::Template.new("template/#{template}.html", {}).render(self, param)
   end
 
   def sub_template(template, param={})

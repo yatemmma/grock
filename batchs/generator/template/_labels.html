@@ -1,0 +1,5 @@
+ul
+	- @page[:labels].each do |label|
+	  - unless label['youtube'].empty?
+		<li><a href="#{label['youtube']}" target="_blank">#{label['name']}</a></li>
+		

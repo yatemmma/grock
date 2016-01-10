@@ -25,7 +25,8 @@ get '/data/:path' do |path|
   p "get:#{path} #{params}"
   model = Module.const_get(path.singularize.camelcase)
   content_type :json
-  {items: model.all}.to_json
+  items = model.all
+  {items: items}.to_json
 end
 
 post '/data/:path' do |path|

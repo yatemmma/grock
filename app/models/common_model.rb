@@ -46,7 +46,7 @@ class CommonModel
     if name == 'posts'
       result = []
       result += items.where(:date => "").all
-      result += items.where('date is not ""').order(Sequel.desc(:date)).all
+      result += items.exclude(:date => "").order(Sequel.desc(:date)).all
     elsif name == 'discs'
       sorted = items.all.sort do |a, b|
         p a

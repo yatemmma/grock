@@ -1,4 +1,4 @@
-<%= erb :_html_head, :locals => {:rel => '..'}  %>
+<%= erb :_html_head, :locals => {:rel => '..', :dev => dev}  %>
 <body class="post">
   <%= erb :_header, :locals => {:rel => '..'} %>
   <form action="/api/posts" method="put">

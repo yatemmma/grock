@@ -1,5 +1,5 @@
 <div class="discs">
-  <% discs.each_model('discs') do |disc| %>
+  <% disc_list.each_model('discs') do |disc| %>
 		<div class="disc"
         data-grock-band="<%= disc.band_names(bands) %>"
         data-grock-title="<%= disc['title'] %>"

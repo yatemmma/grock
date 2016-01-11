@@ -8,7 +8,7 @@
   
   <div class="block center text-center">
 	  <h2 class="headline">What are you looking for?</h2>
-      <%= partial :post_list, {:list => posts} %>
+    <%= partial :post_list, {:list => posts.shuffle.slice(0, 10)} %>
   </div>
 
 <%= partial :footer %>

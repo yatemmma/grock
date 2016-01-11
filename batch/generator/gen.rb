@@ -15,17 +15,17 @@ def run
   @posts.delete_if do |post|
     post['date'].empty?
   end if ENV['RAKE_ENV'] == 'production'
-  p @posts
+  # p @posts
   
   @bands = JSON.parse(client.get("#{API_URI}/api/bands").body)['items']
-  p @bands
+  # p @bands
   
   @discs = JSON.parse(client.get("#{API_URI}/api/discs").body)['items']
-  p @discs
+  # p @discs
   
   @labels = JSON.parse(client.get("#{API_URI}/api/labels").body)['items']
-  p @labels
-  p "---------"
+  # p @labels
+  # p "---------"
   
   @locals = {
     :posts => @posts,
@@ -37,6 +37,9 @@ def run
   generate_index_page
   generate_posts_page
   generate_post_page
+  generate_labels_page
+  generate_discs_page
+  generate_bands_page
   generate_404_page
 end
 
@@ -68,6 +71,18 @@ end
 
 def generate_posts_page
   output :posts, {:path => '.'}
+end
+
+def generate_labels_page
+  output :labels, {:path => '.'}
+end
+
+def generate_discs_page
+  output :discs, {:path => '.'}
+end
+
+def generate_bands_page
+  output :bands, {:path => '.'}
 end
 
 def generate_404_page

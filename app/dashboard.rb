@@ -24,22 +24,24 @@ end
 config = YAML.load_file("app/config/#{ENV['RACK_ENV']}.yml")
 DB = Sequel.connect(ENV['DATABASE_URL'] || config[:database])
 
+IS_DEV = development?
+
 get '/' do
   protect!
-  erb :index, :locals => {}
+  erb :index, :locals => {:dev => IS_DEV}
 end
 
 get '/:path' do |path|
   protect!
   items = CommonModel.all(path)
   items << {} if items.empty?
-  erb path.to_sym, :locals => {:path => path, :cols => CommonModel.cols(path), :items => items}
+  erb path.to_sym, :locals => {:dev => IS_DEV, :path => path, :cols => CommonModel.cols(path), :items => items}
 end
 
 get '/post/:id' do |id|
   protect!
   post = CommonModel.new('posts', id).to_h
-  erb :post, :locals => {:post => post}
+  erb :post, :locals => {:dev => IS_DEV, :post => post}
 end
 
 get '/api/:path' do |path|

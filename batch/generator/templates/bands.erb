@@ -1,0 +1,18 @@
+<%= partial :html_head %>
+
+<body>
+<%= partial :header %>
+
+<% bands.each_model('bands') do |band| %>
+<div class="block center">
+  <h2 class="headline"><%= band['name'] %></h2>
+  <%= partial :post_list, {:list => posts.select {|hash| hash['bands'].include? band['id']}} %>
+  <%= partial :band_detail, {:band => band} %>
+  <%= partial :disc_list, {:disc_list => discs.select {|hash| hash['bands'].include? band['id']}.reverse} %>
+</div>
+<% end %>
+
+<%= partial :modal %>
+<%= partial :footer %>
+</body>
+</html>

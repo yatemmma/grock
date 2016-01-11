@@ -1,0 +1,37 @@
+<%= partial :html_head %>
+
+<body>
+<%= partial :header %>
+
+<%= partial :post_detail %>
+<%= partial :sns %>
+<%= partial :post_navi %>
+
+<% post.relational_bands(bands).each_model('bands') do |band| %>
+  <div class="block center">
+    <h2 class="headline"><%= band['name'] %></h2>
+    <%= partial :post_list, {:list => posts.select {|hash| hash['bands'].include? band['id']}} %>
+    <%= partial :band_detail, {:band => band} %>
+    <%= partial :disc_list, {:discs => discs.select {|hash| hash['bands'].include? band['id']}} %>
+  </div>
+<% end %>
+
+<div class="block center">
+  <h2 class="headline">Release Info</h2>
+  <%= partial :disc_list, {:discs => discs.slice(0, 9)} %>
+</div>
+
+<div class="block center">
+  <h2 class="headline">Recent Posts</h2>
+    <%= partial :post_list, {:list => posts.slice(0, 10)} %>
+</div>
+
+<div class="block center">
+  <h2 class="headline">Recommend</h2>
+  <%= partial :disc_list, {:discs => discs.shuffle.slice(0, 9)} %>
+</div>
+
+<%= partial :modal %>
+<%= partial :footer %>
+</body>
+</html>

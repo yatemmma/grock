@@ -1,0 +1,2 @@
+class Label < Model
+end

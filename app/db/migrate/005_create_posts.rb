@@ -7,6 +7,8 @@ Sequel.migration do
       String :date,  :null=>false
       String :bands
       String :type
+      String :media
+      String :recommend
       String :body
     end
   end

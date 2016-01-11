@@ -1,0 +1,8 @@
+namespace :gen do
+	task :build do
+		system "rm -rf public"
+		system "mkdir -p public/posts"
+		system "bundle exec ruby generator/gen.rb"
+		system "cp -pir assets/* public/"
+	end
+end

@@ -11,6 +11,8 @@ Sequel.migration do
       String :itunes
       String :stream
       String :teaser
+      String :free
+      String :recommend
     end
   end
 

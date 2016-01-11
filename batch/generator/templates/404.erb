@@ -1,0 +1,16 @@
+<%= partial :html_head %>
+<body>
+  
+	<div class="page404">
+		<h1><a href="<%= path %>/index.html">G-ROCK</a></h1>
+  	<h2>404 Not Found</h2>
+	</div>
+  
+  <div class="block center text-center">
+	  <h2 class="headline">What are you looking for?</h2>
+      <%= partial :post_list, {:list => posts} %>
+  </div>
+
+<%= partial :footer %>
+</body>
+</html>

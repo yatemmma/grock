@@ -2,8 +2,9 @@ Sequel.migration do
   up do
     create_table(:bands) do
       String :id,   :primary_key=>true
+      String :ukey, :unique=>true
       String :name, :null=>false
-      String :nick
+      String :nick, :null=>false
       String :site
       String :wiki
       String :facebook
@@ -15,6 +16,7 @@ Sequel.migration do
       String :lastfm
       String :instagram
       String :tumblr
+      String :recommend
     end
   end
 

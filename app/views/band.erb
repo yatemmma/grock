@@ -1,0 +1,123 @@
+<!-- id ukey name nick site wiki facebook twitter youtube soundcloud myspace purevolume lastfm instagram tumblr recommend -->
+<%= erb :_html_head, :locals => {:rel => '..', :dev => dev}  %>
+<body class="label">
+  <%= erb :_header, :locals => {:rel => '..'} %>
+  <form action="/api/labels" method="put">
+    <div>
+      <label>id</label>
+      <%= item[:id] %> <button>edit</button>
+      <input type="hidden" name="id" value="<%= item[:id] %>"></input>
+    </div>
+    <div>
+      <label>ukey</label>
+      <input type="text" name="ukey" value="<%= item[:ukey] %>"></input>
+    </div>
+    <div>
+      <label>name</label>
+      <input type="text" name="name" value="<%= item[:name] %>"></input>
+    </div>
+    <div>
+      <label>nick</label>
+      <input type="text" name="nick" value="<%= item[:nick] %>"></input>
+    </div>
+    <div>
+      <label>site</label>
+      <input type="text" name="site" value="<%= item[:site] %>"></input>
+    </div>
+    <div id="site-result" class="search-result"></div>
+    <div>
+      <label>wiki</label>
+      <input type="text" name="wiki" value="<%= item[:wiki] %>"></input>
+    </div>
+    <div id="wiki-result" class="search-result"></div>
+    <div>
+      <label>facebook</label>
+      <input type="text" name="facebook" value="<%= item[:facebook] %>"></input>
+    </div>
+    <div id="facebook-result" class="search-result"></div>
+    <div>
+      <label>twitter</label>
+      <input type="text" name="twitter" value="<%= item[:twitter] %>"></input>
+    </div>
+    <div id="twitter-result" class="search-result"></div>
+    <div>
+      <label>youtube</label>
+      <input type="text" name="youtube" value="<%= item[:youtube] %>"></input>
+    </div>
+    <div id="youtube-result" class="search-result"></div>
+    <div>
+      <label>myspace</label>
+      <input type="text" name="myspace" value="<%= item[:myspace] %>"></input>
+    </div>
+    <div id="myspace-result" class="search-result"></div>
+    <div>
+      <label>purevolume</label>
+      <input type="text" name="purevolume" value="<%= item[:purevolume] %>"></input>
+    </div>
+    <div id="purevolume-result" class="search-result"></div>
+    <div>
+      <label>lastfm</label>
+      <input type="text" name="lastfm" value="<%= item[:lastfm] %>"></input>
+    </div>
+    <div id="lastfm-result" class="search-result"></div>
+    <div>
+      <label>instagram</label>
+      <input type="text" name="instagram" value="<%= item[:instagram] %>"></input>
+    </div>
+    <div id="instagram-result" class="search-result"></div>
+    <div>
+      <label>tumblr</label>
+      <input type="text" name="tumblr" value="<%= item[:tumblr] %>"></input>
+    </div>
+    <div id="tumblr-result" class="search-result"></div>
+    <div>
+    
+    <div>
+      <label>recommend</label>
+      <input type="text" name="recommend" value="<%= item[:recommend] %>"></input>
+    </div>
+  </form>
+<script>
+$('form').submit(function(event) {
+  event.preventDefault();
+  var $form = $(this);
+  $.ajax({
+    url: $form.attr('action'),
+    method: $form.attr('method'),
+    data: $form.serialize(),
+    dataType: "json"
+  }).done(function(result) {
+    alert('updated');
+  }).fail(function(error) {
+    console.log(error);
+    alert('error occurred');
+  });
+});
+
+$(function(){
+  ['site','wiki','facebook','twitter','youtube','soundcloud','myspace','purevolume','lastfm','instagram','tumblr'].forEach(function(name){
+    if (! $("input[name="+name+"]").val()) {
+      googleSearch(name+"-result", $("input[name=name]").val() + " " + name);
+    }
+  });
+});
+
+function googleSearch(id, word) {
+  $.ajax({
+    url: "../ajax/google/"+word,
+    method: 'get',
+    data: '',
+    dataType: "json"
+  }).done(function(result) {
+    console.log(result);
+    result.items.forEach(function(item){
+      $("#"+id).append("<div>"+item.htmlTitle+" | <a href='"+item.link+"' target='_blank'>"+item.link.substring(0, 40)+"...</a></div>");
+    });
+  }).fail(function(error) {
+    console.log(error);
+    alert('error occurred');
+  });
+}
+</script>
+</body>
+</html>

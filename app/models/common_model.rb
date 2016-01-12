@@ -1,16 +1,16 @@
 class CommonModel
   def self.cols(name)
     case name
-    when 'posts'
-      %w(id url title date bands type media recommend body)
-    when 'discs'
-      %w(id title bands date label image amazon itunes stream teaser free recommend)
-    when 'videos'
-      %w(id url type band title date)
-    when 'bands'
-      %w(id name nick site wiki facebook twitter youtube soundcloud myspace purevolume lastfm instagram tumblr)
     when 'labels'
-      %w(id name nick site youtube)
+      %w(id ukey name nick site youtube recommend)
+    when 'bands'
+      %w(id ukey name nick site wiki facebook twitter youtube soundcloud myspace purevolume lastfm instagram tumblr recommend)
+    when 'discs'
+      %w(id ukey title bands date label image amazon itunes stream teaser free recommend)
+    when 'videos'
+      %w(id ukey url type band title date recommend)
+    when 'posts'
+      %w(id ukey title date bands type media recommend body)
     else
       []
     end

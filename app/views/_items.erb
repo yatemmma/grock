@@ -1,33 +1,48 @@
-<div id="items" class="items-<%= path %>">
-  <table>
-    <% cols.each do |col| %>
-    <td class="<%= col %>">
-      <input type="text" id="<%= col %>-field" class="adding-field" placeholder="<%= col %>" />
-    </td>
-    <% end %>
-    <td class="add">
-      <button id="add-btn">Add</button>
-      <button id="edit-btn">Edit</button>
-    </td>
+<div id="<%= path %>" class="items">
+  <table class="edit-table">
+    <tr>
+      <% cols.each do |col| %>
+      <th class="<%= col %>">
+        <label><%= col %></label>
+      </td>
+      <% end %>
+    </tr>
+    <tr>
+      <% cols.each do |col| %>
+      <td class="<%= col %>" data-item-type="<%= path %>">
+        <input type="text" id="<%= col %>-field" class="adding-field" placeholder="<%= col %>" />
+      </td>
+      <% end %>
+    </tr>
+    <tr>
+      <td class="add">
+        <button id="add-btn">Add</button>
+        <button id="edit-btn">Edit</button>
+      </td>
+    </tr>
   </table>
   
-  <table>
+  <table class="item-table">
     <thead>
       <tr>
-        <% cols.each do |col| %>
-        <th class="sort" data-sort="<%= col %>"><%= col %></th>
-        <% end %>
         <th colspan="2"><input type="text" class="search" placeholder="Search" /></th>
+        <% cols.each do |col| %>
+          <th class="sort" data-sort="<%= col %>"><%= col %></th>
+        <% end %>
       </tr>
     </thead>
     <tbody class="list">
       <% items.each do |item| %>
       <tr>
-        <% cols.each do |col| %>
-        <td class="<%= col %>"><%= item[col.to_sym] %></td>
-        <% end %>
-        <td class="edit"><button class="edit-item-btn">Edit</button></td>
         <td class="remove"><button class="remove-item-btn">Remove</button></td>
+        <td class="edit"><button class="edit-item-btn">Edit</button></td>
+        <% cols.each do |col| %>
+          <% if col == "id" %>
+            <td class="<%= col %>"><a href="<%= path.singularize %>/<%= item[col.to_sym] %>"><%= item[col.to_sym] %></a></td>
+          <% else %>
+            <td class="<%= col %>"><%= item[col.to_sym] %></td>
+          <% end %>
+        <% end %>
       </tr>
       <% end %>
     </tbody>

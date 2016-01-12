@@ -3,6 +3,8 @@ require 'sinatra/reloader' if development?
 require 'sequel'
 require 'yaml'
 require 'json'
+require 'active_support/core_ext/string'
+require 'google_custom_search_api'
 
 require './app/models/common_model'
 
@@ -38,10 +40,25 @@ get '/:path' do |path|
   erb path.to_sym, :locals => {:dev => IS_DEV, :path => path, :cols => CommonModel.cols(path), :items => items}
 end
 
-get '/post/:id' do |id|
+get '/:path/:id' do |path, id|
   protect!
-  post = CommonModel.new('posts', id).to_h
-  erb :post, :locals => {:dev => IS_DEV, :post => post}
+  redirect "/", 303 unless %w(post label video disc band).include? path
+  item = CommonModel.new(path.pluralize, id).to_h
+  p item
+  erb path.to_sym, :locals => {:dev => IS_DEV, :item => item}
+end
+
+get '/ajax/google/:word' do |word|
+  p "----"
+  GOOGLE_API_KEY = "AIzaSyDxSuVjlOMsjC9RUmAlIO8OzVSDR3fUmgA"
+  GOOGLE_SEARCH_CX = "014438868063335466973:e_c5h0s_vgo"
+  results = GoogleCustomSearchApi.search(URI.decode(word))
+  
+  results["items"].each do |item|
+    puts "#{item['title']} #{item['link']}"
+  end
+  content_type :json
+  {items: results["items"]}.to_json
 end
 
 get '/api/:path' do |path|

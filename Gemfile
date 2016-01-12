@@ -5,6 +5,8 @@ ruby "2.3.0"
 gem 'rake'
 gem 'sinatra'
 gem 'sequel'
+gem 'activesupport'
+gem 'google_custom_search_api'
 
 group :development do
   gem 'sqlite3'

@@ -2,7 +2,7 @@ Sequel.migration do
   up do
     create_table(:posts) do
       String :id,    :primary_key=>true
-      String :url,   :unique=>true
+      String :ukey,  :unique=>true
       String :title, :null=>false
       String :date,  :null=>false
       String :bands

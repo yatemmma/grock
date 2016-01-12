@@ -2,17 +2,32 @@ navi ul li {
   display: inline-block;
 }
 
-body.post label {
-  width: 80px;
+.item-table td {
+  border: 1px #CCC solid;
+  padding: 4px;
+}
+
+form label {
+  width: 100px;
   display: inline-block;
   vertical-align: top;
 }
 
-body.post input {
+form input {
   width: 600px;
 }
 
-body.post textarea {
+form textarea {
   width: 600px;
   height: 400px;
+}
+
+.search-result {
+  padding-left: 160px;
+  font-size: 0.1em;
+}
+
+img.list-img {
+  width: 60px;
+  height: 60px;
 }

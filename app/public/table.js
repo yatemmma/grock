@@ -1,26 +1,26 @@
 function linkify() {
-  ['site','youtube'].forEach(function(label) {
+  var list = ['site','wiki','facebook','twitter','youtube','soundcloud','myspace','purevolume','lastfm','instagram','tumblr','itunes','stream','teaser','free'];
+  list.forEach(function(label) {
     $("td."+label).each(function(i, td) {
       if ($(td).children().length == 0 && $(td).text().indexOf('http') == 0) {
         $(td).html("<a href='"+$(td).text()+"' target='_blank'>"+'link'+"</a>");
       }
     });
   });
-  
-  $('.items-posts td.id').each(function(i, td) {
-    if ($(td).children().length == 0) {
-      $(td).html("<a href='post/"+$(td).text()+"'>"+$(td).text()+"</a>");
+  $("td.image").each(function(i, td) {
+    if ($(td).children().length == 0 && $(td).text().indexOf('http') == 0) {
+      
+      $(td).html("<a href='"+$(td).text()+"' target='_blank'><img class='list-img' src='"+$(td).text()+"'></img></a>");
     }
   });
   
-  $('.items-posts td.body').each(function(i, td) {
+  $('.items td.body').each(function(i, td) {
     if ($(td).children().length == 0) {
       $(td).text($(td).text().substring(0,10));
     }
   });
   
-  $('.items-posts td.id input').attr('type', 'hidden');
-  $('.items-posts td.body input').attr('type', 'hidden');
+  $('.items td.id input, .items td.body input').attr('type', 'hidden');
 }
 
 function request(method, params, success, failure) {

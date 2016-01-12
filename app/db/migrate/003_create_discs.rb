@@ -1,7 +1,8 @@
 Sequel.migration do
   up do
     create_table(:discs) do
-      String :id,   :primary_key=>true
+      String :id,    :primary_key=>true
+      String :ukey,  :unique=>true
       String :title, :null=>false
       String :bands, :null=>false
       String :date

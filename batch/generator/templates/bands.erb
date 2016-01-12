@@ -6,9 +6,9 @@
 <% bands.each_model('bands') do |band| %>
 <div class="block center">
   <h2 class="headline"><%= band['name'] %></h2>
-  <%= partial :post_list, {:list => posts.select {|hash| hash['bands'].include? band['id']}} %>
+  <%= partial :post_list, {:list => posts.select {|hash| hash['bands'].include? band['ukey']}} %>
   <%= partial :band_detail, {:band => band} %>
-  <%= partial :disc_list, {:disc_list => discs.select {|hash| hash['bands'].include? band['id']}.reverse} %>
+  <%= partial :disc_list, {:disc_list => discs.select {|hash| hash['bands'].include? band['ukey']}.reverse} %>
 </div>
 <% end %>
 

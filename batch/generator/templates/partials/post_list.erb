@@ -1,5 +1,5 @@
 <ul class="center list">
 	<% list.each do |post| %>
-		<li><a href="<%= path %>/posts/<%= post['url'] %>.html"><%= post['title'] %></a></li>
+		<li><a href="<%= path %>/posts/<%= post['ukey'] %>.html"><%= post['title'] %></a></li>
   <% end %>
 </ul>

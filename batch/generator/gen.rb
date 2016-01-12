@@ -65,7 +65,7 @@ def generate_post_page
       :prev_post => i == 0 ? nil : @posts[i-1],
       :next_post => i == @posts.size-1 ? nil : @posts[i+1]
     }
-    output :post, locals, "posts/#{post['url']}"
+    output :post, locals, "posts/#{post['ukey']}"
   end
 end
 

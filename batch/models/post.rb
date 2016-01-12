@@ -15,12 +15,12 @@ class HTMLRenderer < Redcarpet::Render::HTML
     band_link = /<a href=\":([^:]+):\" target=\"_blank\">([^<]+)<\/a>/
     matched = full_document.scan(band_link) # [["used", "The Used"],["dance_gavin_dance", "Dance Gavin Dacnce"]]
     matched.each do |m|
-      id, name = m
-      if @bands.find {|band| band['id'] == id}
-        full_document = full_document.gsub("<a href=\":#{id}:\" target=\"_blank\">#{name}<\/a>", "<a href=\"http://scream.your.name/bands/#{id}.html\">#{name}</a>")
+      ukey, name = m
+      if @bands.find {|band| band['ukey'] == ukey}
+        full_document = full_document.gsub("<a href=\":#{ukey}:\" target=\"_blank\">#{name}<\/a>", "<a href=\"http://scream.your.name/bands/#{ukey}.html\">#{name}</a>")
       else
-        p "[WARN] Band Not Found: #{id}"
-        full_document = full_document.gsub("<a href=\":#{id}:\" target=\"_blank\">#{name}<\/a>", name)
+        p "[WARN] Band Not Found: #{ukey}"
+        full_document = full_document.gsub("<a href=\":#{ukey}:\" target=\"_blank\">#{name}<\/a>", name)
       end
     end
     
@@ -30,7 +30,7 @@ end
 
 class Post < Model
   def sns_url
-    "http://scream.your.name/posts/#{@hash['url']}.html"
+    "http://scream.your.name/posts/#{@hash['ukey']}.html"
   end
   
   def sns_title
@@ -59,9 +59,9 @@ class Post < Model
   
   def relational_bands(bands)
     rel_band_names = relational_band_names
-    selected = bands.select {|band| rel_band_names.include? band['id']}
+    selected = bands.select {|band| rel_band_names.include? band['ukey']}
     unless selected.size == rel_band_names.size
-      p "[WARN] Band Not Found: #{rel_band_names - selected.map {|x| x['id']}}"
+      p "[WARN] Band Not Found: #{rel_band_names - selected.map {|x| x['ukey']}}"
     end
     selected
   end

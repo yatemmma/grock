@@ -1,12 +1,12 @@
 <div class="navi center">
   <% if prev_post %>
     <div class="arrow-left">
-    	<a href="<%= path %>/posts/<%= prev_post['url'] %>.html"><i class="fa fa-arrow-circle-left icon"></i></a>
+    	<a href="<%= path %>/posts/<%= prev_post['ukey'] %>.html"><i class="fa fa-arrow-circle-left icon"></i></a>
     </div>
   <% end %>
   <% if next_post %>
     <div class="arrow-right">
-    	<a href="<%= path %>/posts/<%= next_post['url'] %>.html"><i class="fa fa-arrow-circle-right icon"></i></a>
+    	<a href="<%= path %>/posts/<%= next_post['ukey'] %>.html"><i class="fa fa-arrow-circle-right icon"></i></a>
     </div>
   <% end %>
   <div class="clear"></div>

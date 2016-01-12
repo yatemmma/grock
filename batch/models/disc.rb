@@ -1,6 +1,6 @@
 class Disc < Model
   def band_names(bands)
-    bands.select {|band| @hash['bands'].split(',').include? band['id']}
+    bands.select {|band| @hash['bands'].split(',').include? band['ukey']}
          .map {|band| band['name']}
          .join(", ")
   end
@@ -36,18 +36,18 @@ class Disc < Model
   end
   
   def label_name(labels)
-    label = labels.find {|label| @hash['label'] == label['id']}
+    label = labels.find {|label| @hash['label'] == label['ukey']}
     label.nil? ? "" : label['name']
   end
   
   def label_nick(labels)
-    label = labels.find {|label| @hash['label'] == label['id']}
+    label = labels.find {|label| @hash['label'] == label['ukey']}
     label.nil? ? "" : label['nick']
   end
   
   def image_url
     if @hash['image'].empty?
-      p "[WARN] No Image: #{@hash['id']}"
+      p "[WARN] No Image: #{@hash['ukey']}"
       "http://scream.your.name/images/no_image.jpg"
     else
       @hash['image']

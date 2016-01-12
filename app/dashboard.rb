@@ -40,27 +40,6 @@ get '/:path' do |path|
   erb path.to_sym, :locals => {:dev => IS_DEV, :path => path, :cols => CommonModel.cols(path), :items => items}
 end
 
-get '/:path/:id' do |path, id|
-  protect!
-  redirect "/", 303 unless %w(post label video disc band).include? path
-  item = CommonModel.new(path.pluralize, id).to_h
-  p item
-  erb path.to_sym, :locals => {:dev => IS_DEV, :item => item}
-end
-
-get '/ajax/google/:word' do |word|
-  p "----"
-  GOOGLE_API_KEY = "AIzaSyDxSuVjlOMsjC9RUmAlIO8OzVSDR3fUmgA"
-  GOOGLE_SEARCH_CX = "014438868063335466973:e_c5h0s_vgo"
-  results = GoogleCustomSearchApi.search(URI.decode(word))
-  
-  results["items"].each do |item|
-    puts "#{item['title']} #{item['link']}"
-  end
-  content_type :json
-  {items: results["items"]}.to_json
-end
-
 get '/api/:path' do |path|
   p "get:#{path} #{params}"
   items = CommonModel.all(path)
@@ -88,4 +67,25 @@ delete '/api/:path' do |path|
   item = CommonModel.new(path, params[:id]).delete
   content_type :json
   {item: item}.to_json
+end
+
+get '/:path/:id' do |path, id|
+  protect!
+  redirect "/", 303 unless %w(post label video disc band).include? path
+  item = CommonModel.new(path.pluralize, id).to_h
+  p item
+  erb path.to_sym, :locals => {:dev => IS_DEV, :item => item}
+end
+
+get '/ajax/google/:word' do |word|
+  p "----"
+  GOOGLE_API_KEY = "AIzaSyDxSuVjlOMsjC9RUmAlIO8OzVSDR3fUmgA"
+  GOOGLE_SEARCH_CX = "014438868063335466973:e_c5h0s_vgo"
+  results = GoogleCustomSearchApi.search(URI.decode(word))
+  
+  results["items"].each do |item|
+    puts "#{item['title']} #{item['link']}"
+  end
+  content_type :json
+  {items: results["items"]}.to_json
 end

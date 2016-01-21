@@ -1,0 +1,10 @@
+/.bundle
+/vendor
+
+/db/*.db
+/db/*.csv
+/coverage
+
+.env_secret
+
+/gh-pages/*

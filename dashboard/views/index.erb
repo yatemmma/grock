@@ -1,0 +1,15 @@
+<header class="toolbar toolbar-header">
+  <h1 class="title">G-ROCK Dashboard</h1>
+
+  <div class="toolbar-actions">
+    <%= erb :_menu %>
+  </div>
+</header>
+
+<ul>
+  <li><%= link ENV['WRIPE_TODO'], "TODO" %></li>
+  <li><%= link ENV['GOOGLE_ANALYTICS'], "Google Analytics" %></li>
+  <li><%= link ENV['AMAZON_ASSOCIATES'], "Amazon Associates" %></li>
+  <li><%= link ENV['ITUNES'], "iTunes" %></li>
+  <li><%= link ENV['GOOGLE_CUSTOM_SEARCH_API_CONSOLE'], "Google Custom Search API" %></li>
+</ul>

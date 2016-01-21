@@ -1,0 +1,37 @@
+<%= partial :html_head %>
+
+<body>
+<%= partial :header %>
+
+<%= partial :post_detail %>
+<%= partial :sns %>
+<%= partial :post_navi %>
+
+<% post.related_bands.each do |band| %>
+  <div class="block center">
+    <h2 class="headline"><%= band['name'] %></h2>
+    <%= partial :post_list, {:list => band.related_posts_for_band} %>
+    <%= partial :band_detail, {:band => band} %>
+    <%= partial :disc_list, {:disc_list => band.related_discs_for_band} %>
+  </div>
+<% end %>
+
+<div class="block center">
+  <h2 class="headline">Recent Posts</h2>
+    <%= partial :post_list, {:list => posts.slice(0, 10)} %>
+</div>
+
+<div class="block center">
+  <h2 class="headline">Release Info</h2>
+  <%= partial :disc_list, {:disc_list => new_releases} %>
+</div>
+
+<div class="block center">
+  <h2 class="headline">Recommend</h2>
+  <%= partial :disc_list, {:disc_list => recommends(discs)} %>
+</div>
+
+<%= partial :modal %>
+<%= partial :footer %>
+</body>
+</html>

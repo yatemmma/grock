@@ -1,0 +1,18 @@
+<%= partial :html_head %>
+
+<body>
+<%= partial :header %>
+
+<% bands.each do |band| %>
+<div class="block center">
+  <h2 class="headline"><%= band[:name] %></h2>
+  <%= partial :post_list, {:list => band.related_posts_for_band} %>
+  <%= partial :band_detail, {:band => band} %>
+  <%= partial :disc_list, {:disc_list => band.related_discs_for_band} %>
+</div>
+<% end %>
+
+<%= partial :modal %>
+<%= partial :footer %>
+</body>
+</html>

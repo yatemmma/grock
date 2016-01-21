@@ -1,0 +1,32 @@
+<div class="info">
+	<% if band.link(:site) %>
+		<a href="<%= band.link(:site) %>" target="_blank"><i class="fa fa-home"></i></a>
+  <% end %>
+	<% if band.link(:wiki) %>
+		<a class="socicon" href="<%= band.link(:wiki) %>" target="_blank">N</a>
+	<% end %>
+	<% if band.link(:facebook) %>
+		<a class="socicon" href="<%= band.link(:facebook) %>" target="_blank">b</a>
+	<% end %>
+	<% if band.link(:twitter) %>
+		<a class="socicon" href="<%= band.link(:twitter) %>" target="_blank">a</a>
+	<% end %>
+	<% if band.link(:youtube) %>
+		<a class="socicon" href="<%= band.link(:youtube) %>" target="_blank">r</a>
+	<% end %>
+	<% if band.link(:soundcloud) %>
+		<a class="socicon" href="<%= band.link(:soundcloud) %>" target="_blank">n</a>
+	<% end %>
+	<% if band.link(:myspace) %>
+		<a class="socicon" href="<%= band.link(:myspace) %>" target="_blank">m</a>
+	<% end %>
+	<% if band.link(:purevolume) %>
+		<a href="<%= band.link(:purevolume) %>" target="_blank" class="no-line">p</a>
+	<% end %>
+	<% if band.link(:lastfm) %>
+		<a class="socicon" href="<%= band.link(:lastfm) %>" target="_blank">q</a>
+	<% end %>
+	<% if band.link(:tumblr) %>
+		<a class="socicon" href="<%= band.link(:tumblr) %>" target="_blank">z</a>
+	<% end %>
+</div>

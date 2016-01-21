@@ -1,0 +1,48 @@
+require 'sinatra/activerecord/rake'
+require 'rake/testtask'
+require './config/initialize'
+require './batch/batch_runner'
+
+namespace :dashboard do
+  desc "Start server."
+  task :start do
+    system "bundle exec rackup"
+  end
+end
+
+namespace :batch do
+  desc "Generate public html."
+  task :generate do
+    system "rm -rf gh-pages/*"
+    system "mkdir -p gh-pages/posts"
+    system "mkdir -p gh-pages/bands"
+    Grock::BatchRunner.run :generator
+    system "cp -pir assets/* gh-pages"
+  end
+  
+  task :conv do
+    Grock::BatchRunner.run :converter
+  end
+end
+
+namespace :test do
+  task :all do
+    ENV['APP_ENV'] = 'test'
+    Rake::TestTask.new do |t|
+      t.pattern = "test/**/*_test.rb"
+      t.pattern = ENV['TEST'] unless ENV['TEST'].nil?
+    end
+    Rake::Task['test'].invoke
+  end
+  
+  desc 'Generates a coverage report'
+  task :coverage do
+    ENV['COVERAGE'] = 'true'
+    Rake::Task['test:all'].execute
+  end
+end
+
+task :s => ["dashboard:start"]
+task :g => ["batch:generate"]
+task :t => ["test:all"]
+task :tg => ["test:coverage"]

@@ -1,0 +1,124 @@
+<header class="toolbar toolbar-header">
+  <h1 class="title"><%= name %></h1>
+
+  <div class="toolbar-actions">
+    <%= erb :_menu %>
+    <button class="btn btn-default" onclick="detailSearch()">
+      <span class="icon icon-search icon-text"></span>search
+    </button>
+    <button class="btn btn-default" type="submit" value="" form="save-form">
+      <span class="icon icon-floppy icon-text"></span>save
+    </button>
+    <button class="btn btn-default" type="submit" value="save" form="delete-form">
+      <span class="icon icon-cancel-circled icon-text"></span>delete
+    </button>
+  </div>
+</header>
+
+<div class="item-detail">
+  <form id="save-form" action="/<%= ['detail', name, item.id].join('/') %>" method="<%= item.id ? 'post' : 'put' %>">
+    <% columns.each do |col| %>
+      <div class="item-cell">
+        <% if (item.send(col).kind_of? String) && (item.send(col).start_with? 'http') %>
+          <label><a href="<%= item.send(col) %>" target="_blank"><%= col %></a></label>
+        <% else %>
+          <label><%= col %></label>
+        <% end %>
+        <% if %(id).include? col %>
+          <input name="<%= col %>" class="<%= col %>" type="text" value="<%= item.send(col) %>" disabled />
+        <% else %>
+          <input name="<%= col %>" class="<%= col %>" type="text" value="<%= item.send(col) %>" />
+        <% end %>
+        <div id="search-result-<%= col %>" class="search-result"></div>
+      </div>
+    <% end %>
+  </form>
+  <form id="delete-form" action="/<%= ['detail', name, item.id].join('/') %>" method="delete">
+    <input type="hidden" value="<%= item.id %>" />
+  </form>
+</div>
+
+<script>
+$(function() {
+  $('form').submit(function(event) {
+    event.preventDefault();
+    var $form = $(this);
+    $.ajax({
+      url: $form.attr('action'),
+      method: $form.attr('method'),
+      data: $form.serialize(),
+      dataType: "json"
+    }).done(function(result) {
+      var title = $('title').text();
+      $('title').text('');
+      setInterval(function() {
+        $('title').text(title);
+      }, 500);
+    }).fail(function(error) {
+      console.log(error);
+      alert('error occurred');
+    });
+  });
+  
+  $('input.key').change(function() {
+    var text = $(this).val();
+    text = text.toLowerCase();
+    text = text.replace(/[!-. =\/;:]/g, '_');
+    text = text.replace(/_+/g, '_');
+    text = text.replace(/_$/g, '');
+    $(this).val(text);
+  });
+});
+
+function detailSearch() {
+  var searchTargets = [
+    ['site', 'official page', ''],
+    ['youtube', 'youtube channel', 'youtube'],
+    ['wiki', 'wikipedia', 'wikipedia'],
+    ['facebook', 'facebook', 'facebook'],
+    ['twitter', 'twitter', 'twitter'],
+    ['myspace', 'myspace', 'myspace.com'],
+    ['purevolume', 'purevolume', 'purevolume'],
+    ['lastfm', 'lastfm', 'last.fm'],
+    ['instagram', 'instagram', 'instagram'],
+    ['tumblr', 'tumblr', 'tumblr'],
+    ['absolutepunk', 'absolutepunk', 'absolutepunk.net'],
+    ['altpress', 'altpress', 'altpress'],
+    ['underthegun', 'under the gun', 'underthegunreview.net/tag'],
+    ['lyrics', 'lyrics', 'lyrics'],
+    ['amazon', 'amazon', 'amazon'],
+    ['itunes', 'itunes', 'itunes'],
+  ];
+  searchTargets.forEach(function(target) {
+    if (!$('input.'+target[0])) return;
+    if (!$('input.'+target[0]).val()) {
+      googleSearch($('input.name').val()+' '+target[1], 'search-result-'+target[0], target[2]);  
+    }
+  });
+}
+
+function selectURL(target, url) {
+  $(target).parent().parent().parent().find('input').val(url);
+}
+
+function googleSearch(word, id, domain) {
+  $.ajax({
+    url: "/ajax/google/"+word,
+    method: 'get',
+    data: '',
+    dataType: "json"
+  }).done(function(result) {
+    console.log(result);
+    result.items.forEach(function(item) {
+      if (domain.length == 0 || item.link.indexOf(domain) >= 0) {
+        var span = "<span onclick='selectURL(this, \""+item.link+"\");'>"+item.htmlTitle+"</span>";
+        var a = "<a href='"+item.link+"' target='_blank'>"+item.link.substring(0, 40)+"...</a>";
+        $("#"+id).append("<div>"+span+" | "+a+"</div>");
+      }
+    });
+  }).fail(function(error) {
+    console.log(error);
+    alert('error occurred');
+  });
+}
+</script>

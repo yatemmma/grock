@@ -1,0 +1,13 @@
+<div class="navi center">
+  <% if prev_post %>
+    <div class="arrow-left">
+    	<a href="<%= path %>/posts/<%= prev_post[:key] %>.html"><i class="fa fa-arrow-circle-left icon"></i></a>
+    </div>
+  <% end %>
+  <% if next_post %>
+    <div class="arrow-right">
+    	<a href="<%= path %>/posts/<%= next_post[:key] %>.html"><i class="fa fa-arrow-circle-right icon"></i></a>
+    </div>
+  <% end %>
+  <div class="clear"></div>
+</div>

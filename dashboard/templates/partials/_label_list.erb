@@ -1,0 +1,7 @@
+<ul>
+	<% labels.each do |label| %>
+	  <% unless label[:youtube].empty? %>
+		  <li><a href="<%= label[:youtube] %>" target="_blank"><%= label[:name] %></a></li>
+    <% end %>
+  <% end %>
+</ul>

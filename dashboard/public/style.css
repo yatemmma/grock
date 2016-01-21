@@ -1,0 +1,34 @@
+.item-detail {
+      overflow-y: scroll;
+}
+
+.item-detail .item-cell {
+  margin-top: 12px;
+}
+
+.item-detail label {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 24px;
+  width: 110px;
+}
+
+.item-detail input {
+  display: inline-block;
+  width: 800px;
+}
+
+.item-detail .search-result {
+  margin-left: 120px;
+}
+
+/* override */
+.btn a {
+  text-decoration: none;
+}
+
+td.title,
+input.title {
+  text-align: left;
+}

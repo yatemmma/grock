@@ -26,6 +26,8 @@
         <% end %>
         <% if %(id).include? col %>
           <input name="<%= col %>" class="<%= col %>" type="text" value="<%= item.send(col) %>" disabled />
+        <% elsif %(body).include? col %>
+          <textarea name="<%= col %>" class="<%= col %>" ><%= item.send(col) %></textarea>
         <% else %>
           <input name="<%= col %>" class="<%= col %>" type="text" value="<%= item.send(col) %>" />
         <% end %>
@@ -50,10 +52,10 @@ $(function() {
       dataType: "json"
     }).done(function(result) {
       var title = $('title').text();
-      $('title').text('');
+      $('title').text('------------------');
       setInterval(function() {
         $('title').text(title);
-      }, 500);
+      }, 2000);
     }).fail(function(error) {
       console.log(error);
       alert('error occurred');

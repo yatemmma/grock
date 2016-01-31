@@ -22,7 +22,6 @@ module Grock
       generate_bands_page
       generate_band_page
       generate_404_page
-      generate_gh_config
       1
     end
     
@@ -128,11 +127,6 @@ module Grock
           :next_post => i == @posts.size-1 ? nil : @posts[i+1]
         }
         output :post, locals, "posts/#{post[:key]}"
-        
-        if post[:oldid]
-          locals = {:post => post}
-          output :oldpost, locals, "#{post[:oldid]}", ''
-        end
       end
     end
     
@@ -161,10 +155,6 @@ module Grock
     
     def generate_404_page
       output '404'
-    end
-    
-    def generate_gh_config
-      output '_config', {}, '_config.yml', ''
     end
   end
 end

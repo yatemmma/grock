@@ -5,12 +5,46 @@
 		<h1><a href="<%= path %>/index.html">G-ROCK</a></h1>
   	<h2>404 Not Found</h2>
 	</div>
-  
+
+  <div class="block center text-center" id="old-post" style="display: none;">
+    <h2 class="headline">Moved permanently</h2>
+    <ul class="center list">
+  		<li><a href="index.html">dummy</a></li>
+    </ul>
+    <p>Redirect after <span id="sec">3</span> seconds...</p>
+  </div>
+
   <div class="block center text-center">
-	  <h2 class="headline">What are you looking for?</h2>
+    <h2 class="headline">What are you looking for?</h2>
     <%= partial :post_list, {:list => posts.shuffle.slice(0, 10)} %>
   </div>
 
 <%= partial :footer %>
+
+<script>
+$(function() {
+  OLD_POST = {};
+  <% posts.each do |post| %>
+    <% if post[:oldid] %>
+      OLD_POST['<%= post[:oldid] %>'] = ['<%= post[:title] %>', '<%= post[:key] %>'];
+    <% end %>
+  <% end %>
+  if (location.href != 'http://scream.your.name/404.html') {
+    var words = location.href.split('/');
+    var post = OLD_POST[words[words.length - 1]];
+    if (!post) return;
+    $("#old-post li a").text(post[0]).attr('href', "<%= path %>/posts/"+post[1]+".html");
+    $("#old-post").show();
+    
+    setTimeout(function() {
+      window.location.href = "<%= path %>/posts/"+post[1]+".html";
+    }, 3000);
+    setInterval(function() {
+      var sec = $("#sec").text();
+      $("#sec").text(sec - 1);
+    }, 1000);
+  }
+});
+</script>
 </body>
 </html>

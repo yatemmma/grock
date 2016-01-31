@@ -30,6 +30,8 @@
               <td class="<%= col %>"><a href="/<%= ['detail', name, item.id].join('/') %>"><%= item.key %></a></td>
             <% elsif %(site youtube wiki facebook twitter youtube myspace purevolume lastfm instagram tumblr absolutepunk altpress underthegun lyrics itunes).include? col %>
               <td class="<%= col %>"><%= link(item.send(col), col, true) %></td>
+            <% elsif %(body).include? col %>
+              <td class="<%= col %>"><%= "#{item.send(col)[0, 20]}..." %></td>
             <% else %>
               <td class="<%= col %>"><%= item.send(col) %></td>
             <% end %>

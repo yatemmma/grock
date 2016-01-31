@@ -23,6 +23,11 @@
   margin-left: 120px;
 }
 
+.item-detail textarea {
+  width: 800px;
+  height: 400px;
+}
+
 /* override */
 .btn a {
   text-decoration: none;

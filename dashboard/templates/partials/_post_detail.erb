@@ -2,8 +2,8 @@
   <% if post.has_media? %>
     <%= post.media %>
   <% end %>
+  <h1 class="post-title center"><%= post['title'] %></h1>
   <div class="content center">
-    <h1><%= post['title'] %></h1>
     <%= post.body(bands) %>
   </div>
 </div>

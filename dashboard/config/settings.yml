@@ -1,6 +1,6 @@
 columns:
   label: [name,	nick,	site,	youtube, recommend]
   band:  [name, nick, site, wiki, facebook, twitter, youtube, myspace, purevolume, lastfm, instagram, tumblr, absolutepunk, altpress, underthegun, lyrics, itunes, recommend]
-  post:  [title, date, bands, tag, media, body, recommend]
+  post:  [title, date, bands, tag, media, body, oldid, recommend]
   disc:  [title, bands, date, label, image, amazon, itunes, stream, teaser, free, recommend]
   video: [title, date, band, guests, youtube, recommend]

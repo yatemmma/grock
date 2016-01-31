@@ -65,6 +65,15 @@ nav a {
         width: 25%;
         float: left;
     }
+    h1.post-title {
+        font-size: 1.5em;
+        padding-left: 12px;
+    }
+}
+
+h1.post-title {
+    margin-top: 36px;
+    margin-bottom: 60px;
 }
 
 footer {
@@ -152,7 +161,7 @@ footer .copy {
 }
 
 #post h3 {
-    margin-top: 36px;
+    margin-top: 48px;
 }
 
 .info {
@@ -165,6 +174,10 @@ footer .copy {
     text-decoration: none;
 }
 
+.info span {
+    color: #555;
+}
+
 .block {
     margin-bottom: 48px;
 }
@@ -173,11 +186,18 @@ footer .copy {
     .media {
         padding-bottom: 40%;
     }
+    .content .media {
+        padding-bottom: 50%;
+    }
 }
  
 @media screen and (max-device-width: 639px) {
     .media {
         padding-bottom: 46.25%;
+    }
+    
+    .content .media {
+        padding-bottom: 50%;
     }
 }
 
@@ -196,7 +216,35 @@ footer .copy {
 }
 
 .content .media {
-  margin-bottom: 24px;
+    margin-bottom: 24px;
+}
+.content .media iframe {
+    width: 95%;
+    height: 110%;
+}
+
+@media screen and (min-device-width: 640px) {
+    .content p,
+    .content h2,
+    .content h3,
+    .content h4,
+    .content .media,
+    .content .media iframe {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+ 
+@media screen and (max-device-width: 639px) {
+    .content p,
+    .content h2,
+    .content h3,
+    .content h4,
+    .content .media,
+    .content .media iframe {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 .navi {
@@ -350,4 +398,8 @@ footer .copy {
 
 .sns .arrowBox span{
     font-size: 13px;
+}
+
+.small-icon {
+  letter-spacing: 2px;
 }

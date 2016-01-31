@@ -1,9 +1,9 @@
 module ViewUtils
-  def link(url, title=nil)
-    if url
-      "<a href='#{url}' target='_blank'>#{title ||= url}</a>"
+  def link(url, title=nil, blank=false)
+    if url.nil? || url.empty?
+      blank ? '' : (title ||= url)
     else
-      title ||= url
+      "<a href='#{url}' target='_blank'>#{title ||= url}</a>"
     end
   end
 end

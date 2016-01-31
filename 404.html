@@ -24,27 +24,28 @@
     <ul class="center list">
   		<li><a href="index.html">dummy</a></li>
     </ul>
+    <p>Redirect after <span id="sec">3<span> seconds...</p>
   </div>
 
   <div class="block center text-center">
     <h2 class="headline">What are you looking for?</h2>
     <ul class="center list">
 	
+		<li><a href="./posts/myka_relocate_something_to_dream_about_acoustic.html">Myka Relocate - Something To Dream About (Acoustic)</a></li>
+  
+		<li><a href="./posts/palisades_player_haters_ball_music_video.html">Palisades - Player Haters' Ball (Lyric Video)</a></li>
+  
+		<li><a href="./posts/shreddy_krueger_hazel_the_apparition_music_video.html">Shreddy Krueger - Hazel The Apparition (Music Video)</a></li>
+  
 		<li><a href="./posts/i_see_stars_murder_mitten_music_video.html">I See Stars - Murder Mitten (Music Video)</a></li>
   
-		<li><a href="./posts/myka_relocate_something_to_dream_about_acoustic.html">Myka Relocate - Something To Dream About (Acoustic)</a></li>
+		<li><a href="./posts/storm_the_sky_same_graves_music_video.html">Storm The Sky - Same Graves (Music Video)</a></li>
+  
+		<li><a href="./posts/dance_gavin_dance_strawberry_swisher_pt3_music_video.html">Dance Gavin Dance - Strawberry Swisher pt.III (Music Video)</a></li>
   
 		<li><a href="./posts/dance_gavin_dance_stroke_god_millionaire.html">Dance Gavin Dance - Stroke God, Millionaire (Music Video)</a></li>
   
 		<li><a href="./posts/from_first_to_last_dead_trees_single.html">From First To Last - Dead Trees (New Song)</a></li>
-  
-		<li><a href="./posts/dance_gavin_dance_strawberry_swisher_pt3_music_video.html">Dance Gavin Dance - Strawberry Swisher pt.III (Music Video)</a></li>
-  
-		<li><a href="./posts/palisades_player_haters_ball_music_video.html">Palisades - Player Haters' Ball (Lyric Video)</a></li>
-  
-		<li><a href="./posts/storm_the_sky_same_graves_music_video.html">Storm The Sky - Same Graves (Music Video)</a></li>
-  
-		<li><a href="./posts/shreddy_krueger_hazel_the_apparition_music_video.html">Shreddy Krueger - Hazel The Apparition (Music Video)</a></li>
   
 </ul>
 
@@ -108,6 +109,14 @@ $(function() {
     if (!post) return;
     $("#old-post li a").text(post[0]).attr('href', "./posts/"+post[1]+".html");
     $("#old-post").show();
+    
+    setTimeout(function() {
+      window.location.href = "./posts/"+post[1]+".html";
+    }, 3000);
+    setInterval(function() {
+      var sec = $("#sec").text();
+      $("#sec").text(sec - 1);
+    }, 1000);
   }
 });
 </script>

@@ -403,3 +403,7 @@ footer .copy {
 .small-icon {
   letter-spacing: 2px;
 }
+
+.adDisplay {
+  display: none;
+}

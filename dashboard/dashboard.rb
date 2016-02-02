@@ -9,6 +9,7 @@ require 'google_custom_search_api'
 require './config/initialize'
 require './models/model'
 require './views/helper'
+require './lib/post_twitter'
 
 GOOGLE_API_KEY = ENV['GOOGLE_API_KEY']
 GOOGLE_SEARCH_CX = ENV['GOOGLE_SEARCH_CX']
@@ -91,6 +92,17 @@ module Grock
       end
       content_type :json
       {items: results["items"]}.to_json
+    end
+    
+    get '/job/generate' do
+      protect!
+      Grock::PostTwitter.new.post('test!')
+      "OK"
+    end
+    get '/job/post_twitter' do
+      protect!
+      Grock::PostTwitter.new.post('test!')
+      "OK"
     end
   end
 end

@@ -49,15 +49,15 @@ module Grock
       end
       @bands = @bands.sort_by {|item| item[:key]}
       
-      # TODO dateでそーと
       @discs = request_data(client, "disc") do |hash|
-        item = Item.new(hash)
+        Item.new(hash)
+      end
+      @discs = @discs.sort_by {|item| item.release_date}.reverse
+      @discs.each do |item|
         item.bands.each do |band|
           Item.band_discs(band, item)
         end
-        item
       end
-      @discs = @discs.sort_by {|item| item.release_date}.reverse
       
       @videos = request_data(client, "video") do |hash|
         Item.new(hash)
@@ -65,14 +65,15 @@ module Grock
       # TODO sort
       
       @posts = request_data(client, "post") do |hash|
-        item = Item.new(hash)
-        item.bands.each do |band|
-          Item.band_posts(band, item)
-        end
-        item
+        Item.new(hash)
       end
       @posts = @posts.delete_if {|post| post[:date].empty? } if ENV['RAKE_ENV'] == 'production'
       @posts = @posts.sort_by {|item| item[:date]}.reverse
+      @posts.each do |item|
+        item.bands.each do |band|
+          Item.band_posts(band, item)
+        end
+      end
       
       @locals = {
         :posts => @posts,

@@ -11,7 +11,7 @@ deployment:
     branch: master
     commands:
       - git clone https://github.com/yatemmma/grock.git
-      - mkdir grock/dashboard/gh-pages
+      - cd grock/dashboard && mkdir gh-pages
       - cd grock/dashboard/gh-pages && git clone https://github.com/yatemmma/grock.git && git checkout gh-pages
       - cd grock/dashboard && bundle install --path vendor/bundle
       - cd grock/dashboard && bundle exec rake g RACK_ENV=production API_URI=http://grock-dashboard.herokuapp.com/

@@ -1,18 +1,29 @@
+general:
+  branches:
+    ignore:
+      - gh-pages
+
 machine:
   timezone: Asia/Tokyo
 
 dependencies:
   pre:
-    - git config --global user.name "yatemmmaI"
+    - git config --global user.name "yatemmma"
     - git config --global user.email "yatemmma@gmail.com"
+
+test:
+  pre:
+    - git clone https://github.com/yatemmma/grock.git grock
+    - cd grock/dashboard && bundle install --path vendor/bundle
+    - cd grock/dashboard && bundle exec rake db:migrate RACK_ENV=test
+  override:
+    - cd grock/dashboard && bundle exec rake t TEST=test/models/*
 
 deployment:
   master:
     branch: master
     commands:
-      - git clone https://github.com/yatemmma/grock.git
-      - cd grock/dashboard && mkdir gh-pages
-      - cd grock/dashboard/gh-pages && git clone https://github.com/yatemmma/grock.git && git checkout gh-pages
-      - cd grock/dashboard && bundle install --path vendor/bundle
       - cd grock/dashboard && bundle exec rake g RACK_ENV=production API_URI=http://grock-dashboard.herokuapp.com/
-      - cd grock/dashboard/gh-pages && git commit -m "updated by circle ci" && git push origin gh-pages
+      - git clone https://github.com/yatemmma/grock.git gh-pages && cd gh-pages && git checkout gh-pages
+      - cp -pr grock/dashboard/gh-pages/* gh-pages
+      - cd gh-pages && git add . && git commit -m "updated by circle ci" && git push origin gh-pages

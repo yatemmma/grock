@@ -94,7 +94,8 @@ function detailSearch() {
   searchTargets.forEach(function(target) {
     if (!$('input.'+target[0])) return;
     if (!$('input.'+target[0]).val()) {
-      googleSearch($('input.name').val()+' '+target[1], 'search-result-'+target[0], target[2]);  
+      word = $('input.name').val() || ($('input.bands').val()+' '+$('input.title').val())
+      googleSearch(word+' '+target[1], 'search-result-'+target[0], target[2]);  
     }
   });
 }

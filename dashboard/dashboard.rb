@@ -1,9 +1,10 @@
 require 'sinatra'
 require 'sinatra/base'
-require 'sinatra/reloader' if development?
+# require 'sinatra/reloader' if development?
 require 'tilt/erb'
 require 'active_support/core_ext/string'
 require 'json'
+require 'date'
 require 'google_custom_search_api'
 
 require './config/initialize'
@@ -17,7 +18,7 @@ GOOGLE_SEARCH_CX = ENV['GOOGLE_SEARCH_CX']
 module Grock
   class Dashboard < Sinatra::Base
     configure :development do
-      register Sinatra::Reloader
+      # register Sinatra::Reloader
     end
     
     helpers do
@@ -94,14 +95,17 @@ module Grock
       {items: results["items"]}.to_json
     end
     
-    get '/job/generate' do
-      protect!
-      Grock::PostTwitter.new.post('test!')
-      "OK"
-    end
     get '/job/post_twitter' do
       protect!
-      Grock::PostTwitter.new.post('test!')
+      today = Date.today.strftime("%Y/%m/%d")
+      today_post = Grock::Post.load_hash.find do |post|
+        post['date'] == today
+      end
+      return if today_post.nil?
+      
+      text = "[G-ROCK] #{today_post['title']} http://scream.your.name/posts/#{today_post['key'].html}"
+      Grock::PostTwitter.new.post(text)
+      
       "OK"
     end
   end

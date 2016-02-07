@@ -103,7 +103,7 @@ module Grock
       end
       return if today_post.nil?
       
-      text = "[G-ROCK] #{today_post['title']} http://scream.your.name/posts/#{today_post['key'].html}"
+      text = "[G-ROCK] #{today_post['title']} http://scream.your.name/posts/#{today_post['key']}.html"
       Grock::PostTwitter.new.post(text)
       
       "OK"

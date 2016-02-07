@@ -220,7 +220,6 @@ footer .copy {
 }
 .content .media iframe {
     width: 95%;
-    height: 110%;
 }
 
 @media screen and (min-device-width: 640px) {

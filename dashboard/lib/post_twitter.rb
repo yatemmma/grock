@@ -10,7 +10,7 @@ module Grock
         access_token_secret: ENV['TWITTER_CONSUMER_KEY_SECRET']
       )
       timeline = client.user_timeline 'prettygereen'
-      matched = timeline.any? {|tweet| tweet.body('http').first == text.split('http').first}
+      matched = timeline.any? {|tweet| tweet.text.split('http').first == text.split('http').first}
       client.update text unless matched
     end
   end

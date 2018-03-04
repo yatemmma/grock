@@ -1,0 +1,13 @@
+<% labels = obj %>
+<html>
+<head>
+  <title>Labels</title>
+</head>
+<body>
+  <ul>
+  <% labels.each do |code, label| %>
+    <li><a href="label/<%= label[:code] %>.html"><%= label[:name] %></a></li>
+  <% end %>
+  </ul>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<% members = obj %>
+<html>
+<head>
+  <title>Members</title>
+</head>
+<body>
+  <ul>
+  <% members.each do |code, member| %>
+    <li><a href="member/<%= member[:code] %>.html"><%= member[:name] %></a></li>
+  <% end %>
+  </ul>
+</body>
+</html>

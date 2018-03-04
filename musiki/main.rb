@@ -1,13 +1,15 @@
 require "erb"
 require "fileutils"
+require "active_support/inflector"
+
 require "./musiki/metadata"
 
 def read_files(dir)
   data = {}
   Dir.glob("src/#{dir}/*").each do |path|
     text = File.read(path)
-    banddata = Metadata.new(text)
-    data[banddata[:code]] = banddata
+    metadata = Metadata.new(text)
+    data[metadata[:code]] = metadata
   end
   data
 end
@@ -19,15 +21,21 @@ def output_html(obj, template, file)
   File.write(path, ERB.new(contents).result(binding))
 end
 
+def output_items(items, name)
+  output_html(items, name.pluralize, name.pluralize)
+  items.each do |code, obj|
+    output_html(obj, name, "#{name}/#{obj[:code]}")
+  end
+end
+
 @labels = read_files("label")
 @members = read_files("member")
 @songs = read_files("song")
 @bands = read_files("band")
 @discs = read_files("disc")
 
-@labels.each do |code, label|
-  output_html(label, "label", "label/#{label[:code]}")
-end
+output_items(@labels, "label")
+output_items(@members, "member")
 
 puts @labels
 puts @members

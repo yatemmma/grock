@@ -7,45 +7,54 @@ class String
 end
 
 class Metadata
-  def initialize(text)
+  def initialize(text = "")
     @metadata = {}
     text.scan(/(\[.*\])/) do |item|
-      key, val = item.first[1..-2].split(":", 2)
-      @metadata[key.to_sym] = val
+      key = item.first[1..-2].split(":", 2).first
+      val = item.first[1..-2].split(":").last
+      self[key] = val
     end
   end
 
   def []=(key, val)
-    @metadata[key.to_sym] = val
+    if key.to_s.singular? || val.nil?
+      @metadata[key.to_sym] = val
+    else
+      @metadata[key.to_sym] = (val.instance_of? Array) ? val : [val]
+    end
   end
-
-  # def []<<(key, val)
-  #   if key.to_s.singular?
-  #     @metadata[key.to_sym] = val
-  #   else
-  #     if @metadata.has_key? key.to_sym
-  #       @metadata[key.to_sym] << val
-  #     else
-  #       @metadata[key.to_sym] = [val]
-  #     end
-  #   end
-  # end
 
   def [](key)
     @metadata[key.to_sym]
   end
 
-  def to_s
-    @metadata.to_s
+  def set(key, val)
+    self[key] = val
   end
 
-  def method_missing(method, *args)
-    if method[-1] == "="
-      self[method] = args
-    elsif method[-2, 2] == "<<"
-      self[method] << args
+  def get(key)
+    self[key]
+  end
+
+  def add(key, val)
+    if key.to_s.singular?
+      self[key.to_sym] = val
     else
-      self[method]
+      if @metadata[key.to_sym].instance_of? Array
+        if val.instance_of? Array
+          @metadata[key.to_sym] += val
+        elsif val.nil?
+          # nop
+        else
+          @metadata[key.to_sym] << val
+        end
+      else
+        @metadata[key.to_sym] = (val.nil? || (val.instance_of? Array)) ? val : [val]
+      end
     end
+  end
+
+  def to_s
+    @metadata.to_s
   end
 end

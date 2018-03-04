@@ -1,24 +1,23 @@
 require "./musiki/metadata"
 
-@bands = {}
-
-def read_band_files
-  puts "[info] load bands data..."
-  Dir.glob("src/band/*").each do |path|
+def read_files(dir)
+  data = {}
+  Dir.glob("src/#{dir}/*").each do |path|
     text = File.open(path).read
     banddata = Metadata.new(text)
-
-    banddata[:band_code] = "hoge1"
-    puts banddata[:band_code]
-    puts banddata["band_code"]
-    banddata["band_code"] = "hoge2"
-    puts banddata[:band_code]
-    puts banddata["band_code"]
-
-    @bands[banddata.band_code] = banddata
+    data[banddata[:code]] = banddata
   end
+  data
 end
 
-read_band_files
+@labels = read_files("label")
+@members = read_files("member")
+@songs = read_files("song")
+@bands = read_files("band")
+@discs = read_files("disc")
 
+puts @labels
+puts @members
+puts @songs
 puts @bands
+puts @discs

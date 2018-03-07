@@ -1,0 +1,13 @@
+<% discs = obj %>
+<html>
+<head>
+  <title>Discs</title>
+</head>
+<body>
+  <ul>
+  <% discs.each do |code, disc| %>
+    <li><a href="disc/<%= disc[:code] %>.html"><%= disc[:name] %></a></li>
+  <% end %>
+  </ul>
+</body>
+</html>

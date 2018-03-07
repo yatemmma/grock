@@ -28,6 +28,10 @@ def output_items(items, name)
   end
 end
 
+def output_index
+  output_html({}, "index", "index")
+end
+
 @labels = read_files("label")
 @members = read_files("member")
 @songs = read_files("song")
@@ -36,6 +40,10 @@ end
 
 output_items(@labels, "label")
 output_items(@members, "member")
+output_items(@songs, "song")
+output_items(@bands, "band")
+output_items(@discs, "disc")
+output_index
 
 puts @labels
 puts @members

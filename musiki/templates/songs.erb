@@ -1,0 +1,13 @@
+<% songs = obj %>
+<html>
+<head>
+  <title>Songs</title>
+</head>
+<body>
+  <ul>
+  <% songs.each do |code, song| %>
+    <li><a href="song/<%= song[:code] %>.html"><%= song[:name] %></a></li>
+  <% end %>
+  </ul>
+</body>
+</html>

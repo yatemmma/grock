@@ -1,4 +1,5 @@
 require "erb"
+require "yaml"
 require "fileutils"
 require "active_support/inflector"
 
@@ -43,6 +44,7 @@ output_items(@members, "member")
 output_items(@songs, "song")
 output_items(@bands, "band")
 output_items(@discs, "disc")
+
 output_index
 
 puts @labels

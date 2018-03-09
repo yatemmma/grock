@@ -17,7 +17,6 @@ class Reader
 
   def self.load_data(name)
     clazz = Object.const_get(name.camelize)
-    # p clazz.attributes
     metadata = {}
     Dir.glob("src/#{name}/*").each do |path|
       data = clazz.new(path)

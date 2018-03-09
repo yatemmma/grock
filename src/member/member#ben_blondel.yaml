@@ -1,6 +1,7 @@
 code: ben_blondel
 name: Ben Blondel
-origin: [australia, "Perth, Western Australia"]
+origin: Brisbane, Queensland Australia
+country: australia
 body: |
   hoge
   fuga
@@ -10,3 +11,4 @@ body: |
   ddd
 memo: |
   hogehoge
+  xxx

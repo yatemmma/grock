@@ -11,5 +11,6 @@ class Disc < Metadata
   attr_writer :apple
   attr_writer :songs
   attr_writer :body
+  attr_writer :public
   attr_writer :memo
 end

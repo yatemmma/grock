@@ -6,5 +6,6 @@ class Label < Metadata
   attr_writer :website
   attr_writer :wikipedia
   attr_writer :body
+  attr_writer :public
   attr_writer :memo
 end

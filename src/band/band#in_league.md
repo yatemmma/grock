@@ -1,6 +1,7 @@
 code: in_league
 name: In League
-origin: [australia, "Perth, Western Australia"]
+origin: Brisbane, Queensland Australia
+country: australia
 active: 2009-
 
 facebook: https://www.facebook.com/inleague/

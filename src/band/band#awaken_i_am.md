@@ -9,8 +9,8 @@ apple: https://itunes.apple.com/jp/artist/awaken-i-am/475768225
 soundcloud: https://soundcloud.com/awakeniam
 links: http://www.victoryrecords.com/awakeniam
 
-origin: [australia, "Brisbane, Queensland Australia"]
-
+origin: Brisbane, Queensland Australia
+country: australia
 members:
   - Luke McKenzie - Drums
   - Ned Jankovic - Guitar

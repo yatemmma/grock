@@ -8,5 +8,6 @@ class Song < Metadata
   attr_writer :youtube
   attr_writer :guests
   attr_writer :body
+  attr_writer :public
   attr_writer :memo
 end

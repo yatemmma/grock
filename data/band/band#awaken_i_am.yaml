@@ -23,8 +23,8 @@ members:
 - Ryan Oxford - Bass
 past_members: 
 discs:
-- - awaken_i_am-shields_and_crowns
-  - Shields & Crowns
+- code: awaken_i_am-shields_and_crowns
+  name: Shields & Crowns
 body: 
 public: 
 memo: 

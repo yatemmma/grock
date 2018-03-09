@@ -1,5 +1,4 @@
 require "yaml"
-require "active_support/all"
 
 class Metadata
   def self.attr_writer(*vars)
@@ -13,7 +12,7 @@ class Metadata
   end
 
   def initialize(yaml_path)
-    @metadata = HashWithIndifferentAccess.new(YAML.load_file(yaml_path))
+    @metadata = YAML.load_file(yaml_path)
   end
 
   def contents
@@ -26,7 +25,7 @@ class Metadata
 
   def method_missing(method_name, *args)
     if self.class.attributes.include? method_name
-      @metadata[method_name.to_sym]
+      @metadata[method_name.to_s]
     else
       super
     end

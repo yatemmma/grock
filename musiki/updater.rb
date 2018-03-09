@@ -9,7 +9,7 @@ class Updater
       items = data[name.to_sym]
       clazz = Object.const_get(name.camelize)
       items.each do |code, item|
-        path = "updated/#{name}/#{name}##{item.code}.yaml"
+        path = "data2/#{name}/#{name}##{item.code}.yaml"
         FileUtils.mkdir_p(File.dirname(path))
 
         diff = (item.contents.keys.map {|key| key.to_sym}) - clazz.attributes

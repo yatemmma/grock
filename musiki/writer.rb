@@ -15,7 +15,7 @@ class Writer
 
   def self.output_html(obj, name, file)
     contents = File.read("musiki/templates/#{name}.erb")
-    path = "output/#{file}.html"
+    path = "docs/#{file}.html"
     FileUtils.mkdir_p(File.dirname(path))
     File.write(path, ERB.new(contents).result(binding))
   end

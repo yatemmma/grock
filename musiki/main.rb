@@ -13,6 +13,9 @@ FileUtils.rm_rf "updated"
 
 Updater.update(@data, list)
 
+FileUtils.rm_rf "src"
+FileUtils.move "updated", "src"
+
 # output html
 FileUtils.rm_rf "output"
 

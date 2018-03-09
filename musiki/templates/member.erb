@@ -1,9 +1,11 @@
 <% member = obj %>
 <html>
 <head>
+  <meta charset="utf-8">
   <title><%= member.name %></title>
 </head>
 <body>
   <%= member.name %>
+  <%= country_name member.country %> <%= country_emoji member.country %>
 </body>
 </html>

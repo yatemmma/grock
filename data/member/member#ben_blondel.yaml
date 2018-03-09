@@ -2,15 +2,9 @@
 code: ben_blondel
 name: Ben Blondel
 origin: Brisbane, Queensland Australia
-country: australia
-body: |
-  hoge
-  fuga
-  [xxxxx:dddd]
-
-
-  ddd
-public: 
+country: au
+body: 
+public: true
 memo: |
   hogehoge
   xxx

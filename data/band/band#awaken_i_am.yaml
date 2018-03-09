@@ -2,7 +2,7 @@
 code: awaken_i_am
 name: Awaken I Am
 origin: Brisbane, Queensland Australia
-country: australia
+country: au
 active: 
 website: http://awakeniam.co/
 wikipedia: 
@@ -14,8 +14,9 @@ spotify: https://open.spotify.com/artist/3BwbgahlwovSpRfctWi8zY
 apple: https://itunes.apple.com/jp/artist/awaken-i-am/475768225
 soundcloud: https://soundcloud.com/awakeniam
 bandcamp: 
-labelpages: 
-links: http://www.victoryrecords.com/awakeniam
+labelpages:
+- http://www.victoryrecords.com/awakeniam
+links: 
 members:
 - Luke McKenzie - Drums
 - Ned Jankovic - Guitar

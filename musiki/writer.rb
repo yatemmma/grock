@@ -1,7 +1,10 @@
 require "erb"
 require "fileutils"
+require "./musiki/helpers/html_helper"
 
 class Writer
+  extend HtmlHelper
+
   def self.index
     output_html({}, "index", "index")
   end

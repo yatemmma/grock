@@ -6,7 +6,7 @@
 <body>
   <ul>
   <% members.each do |code, member| %>
-    <li><a href="member/<%= member[:code] %>.html"><%= member[:name] %></a></li>
+    <li><a href="member/<%= member.code %>.html"><%= member.name %></a></li>
   <% end %>
   </ul>
 </body>

@@ -1,49 +1,25 @@
-require "erb"
 require "fileutils"
-require "active_support/core_ext/string/inflections"
-require "./musiki/models/member"
+require "./musiki/reader"
+require "./musiki/updater"
+require "./musiki/writer"
 
-def load_data(name)
-  clazz = Object.const_get(name.camelize)
-  p clazz.attributes
-  metadata = {}
-  Dir.glob("src/#{name}/*").each do |path|
-    data = clazz.new(path)
-    metadata[data.code] = data
-  end
-  metadata
-end
+list = %w(member label song disc band)
 
-def output_html(obj, name, file)
-  contents = File.read("musiki/templates/#{name}.erb")
-  path = "output/#{file}.html"
-  FileUtils.mkdir_p(File.dirname(path))
-  File.write(path, ERB.new(contents).result(binding))
-end
+# read files
+@data = Reader.read(list)
 
-def output_items(items, name)
-  output_html(items, name.pluralize, name.pluralize)
-  items.each do |code, obj|
-   output_html(obj, name, "#{name}/#{obj.code}")
-  end
-end
+# update metadata
+FileUtils.rm_rf "updated"
 
-def output_index
-  output_html({}, "index", "index")
-end
+Updater.update(@data, list)
 
-FileUtils.rm_rf("output")
-
-list = %w(member)
-
-@data = {}
-list.each do |name|
-  @data[name.to_sym] = load_data(name)
-end
+# output html
+FileUtils.rm_rf "output"
 
 list.each do |name|
-  output_items(@data[name.to_sym], name)
+  Writer.page(@data[name.to_sym], name)
 end
-output_index
+Writer.index
 
+puts "---------------"
 puts @data

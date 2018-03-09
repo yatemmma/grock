@@ -1,11 +1,11 @@
 require "./musiki/models/metadata"
 
 class Member < Metadata
-  attr_accessor :name, :origin, :body
-
-  def name
-    @metadata[:name]
-  end
+  attr_writer :code
+  attr_writer :name
+  attr_writer :origin
+  attr_writer :body
+  attr_writer :memo
 
   def origin
     @metadata[:origin].last
@@ -13,9 +13,5 @@ class Member < Metadata
 
   def country
     @metadata[:origin].first
-  end
-
-  def body
-    @metadata[:body]
   end
 end

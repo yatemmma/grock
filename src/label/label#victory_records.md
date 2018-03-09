@@ -1,5 +1,6 @@
-[code:victory_records]
-[name:Victory Records]
-
-[website:http://www.victoryrecords.com/]
-[wikipedia:https://en.wikipedia.org/wiki/Victory_Records]
+code: victory_records
+name: Victory Records
+website: http://www.victoryrecords.com/
+wikipedia: https://en.wikipedia.org/wiki/Victory_Records
+body:
+memo:

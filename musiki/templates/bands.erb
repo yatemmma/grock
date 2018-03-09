@@ -6,7 +6,7 @@
 <body>
   <ul>
   <% bands.each do |code, band| %>
-    <li><a href="band/<%= band[:code] %>.html"><%= band[:name] %></a></li>
+    <li><a href="band/<%= band.code %>.html"><%= band.name %></a></li>
   <% end %>
   </ul>
 </body>

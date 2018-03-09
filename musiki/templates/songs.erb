@@ -7,8 +7,8 @@
   <ul>
   <% songs.each do |code, song| %>
     <li>
-      <a href="song/<%= song[:code] %>.html">
-        <%= song[:band] %> - <%= song[:name] %>
+      <a href="song/<%= song.code %>.html">
+        <%= song.name %>
       </a>
     </li>
   <% end %>

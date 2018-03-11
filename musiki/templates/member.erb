@@ -3,9 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title><%= member.name %></title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="../assets/style.css" media="all" rel="stylesheet" />
+  <script src="../assets/script.js" async></script>
 </head>
 <body>
   <%= member.name %>
-  <%= country_name member.country %> <%= country_emoji member.country %>
+  <%= member.country_name %> <%= member.country_emoji %>
 </body>
 </html>

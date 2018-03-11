@@ -1,5 +1,4 @@
 require "./musiki/models/metadata"
-require "./musiki/helpers/country_helper"
 
 class Member < Metadata
   attr_writer :code
@@ -9,6 +8,4 @@ class Member < Metadata
   attr_writer :body
   attr_writer :public
   attr_writer :memo
-
-  include CountryHelper
 end

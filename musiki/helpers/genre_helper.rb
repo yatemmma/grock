@@ -8,6 +8,7 @@ module GenreHelper
     raise "Genre name not found. code:#{code}" if result.nil?
     result
   end
+  
   def main_genre
     genres.nil? ? "" : GENRES[genres.first]
   end

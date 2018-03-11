@@ -9,9 +9,26 @@
     <table class="items">
       <thead>
         <tr>
-          <th><input type="text" class="search-name" placeholder="Band Name"></input></th>
-          <th><input type="text" class="search-country" placeholder="Country"></input></th>
-          <th><input type="text" class="search-genre" placeholder="Genre"></input></th>
+          <th>
+            <input type="text" class="search-name" placeholder="Band Name"></input>
+            <a href="#"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-country" placeholder="Country"></input>
+            <a href="#"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-genre" placeholder="Genre"></input>
+            <a href="#"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-active" placeholder="Active"></input>
+            <a href="#"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-note" placeholder="Note"></input>
+            <a href="#"><i class="fas fa-sort"></i></a>
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -25,6 +42,8 @@
             </a>
           </td>
           <td><a href="band/<%= band.code %>.html"><%= band.main_genre %></a></td>
+          <td><%= band.active_short %></td>
+          <td></td>
         </tr>
         <% end %>
       </tbody>

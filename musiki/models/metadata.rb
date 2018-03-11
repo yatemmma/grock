@@ -1,4 +1,7 @@
 require "yaml"
+require "./musiki/helpers/country_helper"
+require "./musiki/helpers/genre_helper"
+require "./musiki/helpers/active_helper"
 
 class Metadata
   def self.attr_writer(*vars)
@@ -30,4 +33,8 @@ class Metadata
       super
     end
   end
+
+  include CountryHelper
+  include GenreHelper
+  include ActiveHelper
 end

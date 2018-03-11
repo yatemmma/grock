@@ -1,6 +1,4 @@
 require "./musiki/models/metadata"
-require "./musiki/helpers/country_helper"
-require "./musiki/helpers/genre_helper"
 
 class Band < Metadata
   attr_writer :code
@@ -27,7 +25,4 @@ class Band < Metadata
   attr_writer :body
   attr_writer :public
   attr_writer :memo
-
-  include CountryHelper
-  include GenreHelper
 end

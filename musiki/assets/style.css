@@ -442,6 +442,25 @@ header {
   }
 }
 
+/* G-ROCK body ========================================================================== */
+.contents .items a {
+  text-decoration: none;
+}
+
+.contents .items .flag {
+  font-size: 2em;
+}
+
+.contents .items {
+  display: table;
+}
+
+.contents .items td {
+  display: table-cell;
+}
+.contents .items td span {
+  vertical-align: middle;
+}
 /* G-ROCK footer ========================================================================== */
 footer {
     text-align: center;

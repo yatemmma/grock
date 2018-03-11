@@ -6,11 +6,29 @@
 <body>
   <%= header %>
   <div class="contents">
-    <ul>
-    <% bands.each do |code, band| %>
-      <li><a href="band/<%= band.code %>.html"><%= band.name %></a></li>
-    <% end %>
-    </ul>
+    <table class="items">
+      <thead>
+        <tr>
+          <th><input type="text" class="search-name" placeholder="Band Name"></input></th>
+          <th><input type="text" class="search-country" placeholder="Country"></input></th>
+          <th><input type="text" class="search-genre" placeholder="Genre"></input></th>
+        </tr>
+      </thead>
+      <tbody>
+        <% bands.each do |code, band| %>
+        <tr>
+          <td><a href="band/<%= band.code %>.html"><%= band.name %></a></td>
+          <td>
+            <a href="band/<%= band.code %>.html">
+              <span class="flag"><%= band.country_emoji %></span>
+              <span><%= band.country_name %></span>
+            </a>
+          </td>
+          <td><a href="band/<%= band.code %>.html"><%= band.main_genre %></a></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
   </div>
   <%= footer %>
 </body>

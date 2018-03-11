@@ -8,7 +8,7 @@
   <div class="contents">
     <table class="items">
       <thead>
-        <tr>
+        <tr class="hidden-on-mobile">
           <th>
             <input type="text" class="search-name" placeholder="Band Name"></input>
             <a href="#"><i class="fas fa-sort"></i></a>
@@ -18,11 +18,11 @@
             <a href="#"><i class="fas fa-sort"></i></a>
           </th>
           <th>
-            <input type="text" class="search-genre" placeholder="Genre"></input>
+            <input type="text" class="search-active" placeholder="Active"></input>
             <a href="#"><i class="fas fa-sort"></i></a>
           </th>
           <th>
-            <input type="text" class="search-active" placeholder="Active"></input>
+            <input type="text" class="search-genre" placeholder="Genre"></input>
             <a href="#"><i class="fas fa-sort"></i></a>
           </th>
           <th>
@@ -38,12 +38,12 @@
           <td>
             <a href="band/<%= band.code %>.html">
               <span class="flag"><%= band.country_emoji %></span>
-              <span><%= band.country_name %></span>
+              <span class="hidden-on-mobile"><%= band.country_name %></span>
             </a>
           </td>
-          <td><a href="band/<%= band.code %>.html"><%= band.main_genre %></a></td>
           <td><%= band.active_short %></td>
-          <td></td>
+          <td><a href="band/<%= band.code %>.html"><%= band.main_genre %></a></td>
+          <td class="hidden-on-mobile"></td>
         </tr>
         <% end %>
       </tbody>

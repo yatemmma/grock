@@ -357,6 +357,12 @@ body {
     font-family: "Lato", Arial, Helvetica, Verdana, sans-serif !important;
 }
 
+@media screen and (max-device-width: 767px) {
+  .hidden-on-mobile {
+    display: none;
+  }
+}
+
 /* G-ROCK header ========================================================================== */
 header {
   border-bottom: 1px solid rgba(0, 0, 0, 1);

@@ -1,9 +1,10 @@
 <% member = obj %>
 <html>
 <head>
-  <%= headers(member.name + " | G-ROCK", 1) %>
+  <%= head(member.name + " | G-ROCK", 1) %>
 </head>
 <body>
+  <%= header %>
   <%= member.name %>
   <%= member.country_name %> <%= member.country_emoji %>
 </body>

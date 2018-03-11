@@ -1,9 +1,10 @@
 <% discs = obj %>
 <html>
 <head>
-  <%= headers("Discs | G-ROCK") %>
+  <%= head("Discs | G-ROCK") %>
 </head>
 <body>
+  <%= header %>
   <ul>
   <% discs.each do |code, disc| %>
     <li><a href="disc/<%= disc.code %>.html"><%= disc.code %></a></li>

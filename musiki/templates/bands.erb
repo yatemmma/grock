@@ -1,9 +1,10 @@
 <% bands = obj %>
 <html>
 <head>
-  <%= headers("Bands | G-ROCK") %>
+  <%= head("Bands | G-ROCK") %>
 </head>
 <body>
+  <%= header %>
   <ul>
   <% bands.each do |code, band| %>
     <li><a href="band/<%= band.code %>.html"><%= band.name %></a></li>

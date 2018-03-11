@@ -1,9 +1,10 @@
 <% members = obj %>
 <html>
 <head>
-  <%= headers("Members | G-ROCK") %>
+  <%= head("Members | G-ROCK") %>
 </head>
 <body>
+  <%= header %>
   <ul>
   <% members.each do |code, member| %>
     <li><a href="member/<%= member.code %>.html"><%= member.name %></a></li>

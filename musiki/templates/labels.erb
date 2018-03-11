@@ -1,9 +1,10 @@
 <% labels = obj %>
 <html>
 <head>
-  <%= headers("Labels | G-ROCK") %>
+  <%= head("Labels | G-ROCK") %>
 </head>
 <body>
+  <%= header %>
   <ul>
   <% labels.each do |code, label| %>
     <li><a href="label/<%= label.code %>.html"><%= label.name %></a></li>

@@ -25,6 +25,3 @@ end
 Writer.index
 
 FileUtils.cp_r "musiki/assets", "docs"
-
-puts "---------------"
-puts @data

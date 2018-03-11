@@ -5,15 +5,17 @@
 </head>
 <body>
   <%= header %>
-  <ul>
-  <% songs.each do |code, song| %>
-    <li>
-      <a href="song/<%= song.code %>.html">
-        <%= song.name %>
-      </a>
-    </li>
-  <% end %>
-  </ul>
+  <div class="contents">
+    <ul>
+    <% songs.each do |code, song| %>
+      <li>
+        <a href="song/<%= song.code %>.html">
+          <%= song.name %>
+        </a>
+      </li>
+    <% end %>
+    </ul>
+  </div>
   <%= footer %>
 </body>
 </html>

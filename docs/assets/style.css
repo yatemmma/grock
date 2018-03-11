@@ -370,10 +370,6 @@ header {
   justify-content: space-between;
 }
 
-header ul {
-  padding-bottom: 5px;
-}
-
 header ul li {
   display: inline;
   margin-left: 6px;
@@ -383,22 +379,39 @@ header div {
   padding-bottom: 24px;
 }
 
-@media screen and (min-device-width: 640px) {
-    header {
-      padding: 0 100px;
-    }
-    header div {
-      display: none;
-    }
+@media screen and (min-device-width: 768px) {
+  header {
+    padding: 0 108px;
+  }
+  header h1 {
+    font-size: 2.5em;
+    margin: 0.3em 0;
+  }
+  header div {
+    display: none;
+  }
 }
 
-@media screen and (max-device-width: 639px) {
-    header {
-      padding: 0 5%;
-    }
-    header ul {
-      display: none;
-    }
+@media screen and (max-device-width: 767px) {
+  header {
+    padding: 0 5%;
+  }
+  header ul {
+    display: none;
+  }
+}
+/* G-ROCK body ========================================================================== */
+
+@media screen and (min-device-width: 768px) {
+  .contents {
+    margin: 0 100px;
+  }
+}
+
+@media screen and (max-device-width: 767px) {
+  .contents {
+    margin: 0 1%;
+  }
 }
 
 /* G-ROCK footer ========================================================================== */

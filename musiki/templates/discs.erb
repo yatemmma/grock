@@ -5,11 +5,13 @@
 </head>
 <body>
   <%= header %>
-  <ul>
-  <% discs.each do |code, disc| %>
-    <li><a href="disc/<%= disc.code %>.html"><%= disc.code %></a></li>
-  <% end %>
-  </ul>
+  <div class="contents">
+    <ul>
+    <% discs.each do |code, disc| %>
+      <li><a href="disc/<%= disc.code %>.html"><%= disc.code %></a></li>
+    <% end %>
+    </ul>
+  </div>
   <%= footer %>
 </body>
 </html>

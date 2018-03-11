@@ -5,11 +5,13 @@
 </head>
 <body>
   <%= header %>
-  <ul>
-  <% labels.each do |code, label| %>
-    <li><a href="label/<%= label.code %>.html"><%= label.name %></a></li>
-  <% end %>
-  </ul>
+  <div class="contents">
+    <ul>
+    <% labels.each do |code, label| %>
+      <li><a href="label/<%= label.code %>.html"><%= label.name %></a></li>
+    <% end %>
+    </ul>
+  </div>
   <%= footer %>
 </body>
 </html>

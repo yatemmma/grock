@@ -5,11 +5,13 @@
 </head>
 <body>
   <%= header %>
-  <ul>
-  <% members.each do |code, member| %>
-    <li><a href="member/<%= member.code %>.html"><%= member.name %></a></li>
-  <% end %>
-  </ul>
+  <div class="contents">
+    <ul>
+    <% members.each do |code, member| %>
+      <li><a href="member/<%= member.code %>.html"><%= member.name %></a></li>
+    <% end %>
+    </ul>
+  </div>
   <%= footer %>
 </body>
 </html>

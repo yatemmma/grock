@@ -350,20 +350,17 @@ body {
 body,
 a {
     color: #EEE;
+    text-decoration: none;
 }
 
-* {
+body {
     font-family: "Lato", Arial, Helvetica, Verdana, sans-serif !important;
 }
 
 /* G-ROCK header ========================================================================== */
-
-header a {
-  text-decoration: none;
-}
-
 header {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+  box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
@@ -402,4 +399,20 @@ header div {
     header ul {
       display: none;
     }
+}
+
+/* G-ROCK footer ========================================================================== */
+footer {
+    text-align: center;
+}
+
+footer .link {
+    padding: 24px 0 12px 0;
+    font-size: 2em;
+}
+
+footer .copy {
+    padding: 12px 0 24px 0;
+    border-top: 1px solid rgba(0, 0, 0, 1);
+    box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
 }

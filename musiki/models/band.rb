@@ -25,4 +25,14 @@ class Band < Metadata
   attr_writer :body
   attr_writer :public
   attr_writer :memo
+
+  def json
+    data = {
+      name: name,
+      country: country_name,
+      active: active_short,
+      genre: main_genre
+    }
+    data.to_json
+  end
 end

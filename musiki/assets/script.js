@@ -4,6 +4,42 @@ function toggleMenu(){
   ul.classList.toggle("popup");
 }
 
+function sort(key){
+  const reverse = !(reversed[key])
+  reversed[key] = reverse
+
+  const items = []
+  if (displayed == null) displayed = originals.concat([])
+  displayed.forEach((item, index)=>{
+    const obj = Object.assign({}, item)
+    obj.index = index
+    items.push(obj)
+  })
+
+  const sorted = items.sort((a, b)=> {
+    const objA = a[key].toString().toUpperCase()
+    const objB = b[key].toString().toUpperCase()
+    if (objA < objB) {
+      return -1 * (reverse ? -1 : 1)
+    }
+    if (objA > objB) {
+      return 1 * (reverse ? -1 : 1)
+    }
+    return 0
+  })
+
+  const $rows = document.querySelectorAll(".items tbody tr")
+  const $tbody = document.querySelector(".items tbody")
+  while ($tbody.firstChild) {
+    $tbody.removeChild($tbody.firstChild)
+  }
+  displayed = sorted.map((item)=>{
+    $tbody.appendChild($rows[item.index])
+    delete item.index
+    return Object.assign({}, item)
+  })
+}
+
 function youtube(){
   (function() {
 

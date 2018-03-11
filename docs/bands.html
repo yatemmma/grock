@@ -29,23 +29,22 @@
         <tr class="hidden-on-mobile">
           <th>
             <input type="text" class="search-name" placeholder="Band Name"></input>
-            <a href="#"><i class="fas fa-sort"></i></a>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
           </th>
           <th>
             <input type="text" class="search-country" placeholder="Country"></input>
-            <a href="#"><i class="fas fa-sort"></i></a>
+            <a href="#" onclick="sort('country')"><i class="fas fa-sort"></i></a>
           </th>
           <th>
             <input type="text" class="search-active" placeholder="Active"></input>
-            <a href="#"><i class="fas fa-sort"></i></a>
+            <a href="#" onclick="sort('active')"><i class="fas fa-sort"></i></a>
           </th>
           <th>
             <input type="text" class="search-genre" placeholder="Genre"></input>
-            <a href="#"><i class="fas fa-sort"></i></a>
+            <a href="#" onclick="sort('genre')"><i class="fas fa-sort"></i></a>
           </th>
           <th>
             <input type="text" class="search-note" placeholder="Note"></input>
-            <a href="#"><i class="fas fa-sort"></i></a>
           </th>
         </tr>
       </thead>
@@ -59,7 +58,7 @@
               <span class="hidden-on-mobile">Australia</span>
             </a>
           </td>
-          <td></td>
+          <td class="hidden-on-mobile"></td>
           <td><a href="band/awaken_i_am.html">Post-Hardcore</a></td>
           <td class="hidden-on-mobile"></td>
         </tr>
@@ -72,7 +71,7 @@
               <span class="hidden-on-mobile">Australia</span>
             </a>
           </td>
-          <td></td>
+          <td class="hidden-on-mobile"></td>
           <td><a href="band/death_and_a_cure.html"></a></td>
           <td class="hidden-on-mobile"></td>
         </tr>
@@ -85,7 +84,7 @@
               <span class="hidden-on-mobile">Australia</span>
             </a>
           </td>
-          <td>2009-present</td>
+          <td class="hidden-on-mobile">2009-present</td>
           <td><a href="band/in_league.html"></a></td>
           <td class="hidden-on-mobile"></td>
         </tr>
@@ -100,5 +99,18 @@
         <div class="copy">&copy; 2009-2018 <a href="./index.html">G-ROCK</a></div>
       </footer>
 
+<script>
+const originals = [
+  
+    {"name":"Awaken I Am","country":"Australia","active":"","genre":"Post-Hardcore"},
+  
+    {"name":"Death and a Cure","country":"Australia","active":"","genre":""},
+  
+    {"name":"In League","country":"Australia","active":"2009-present","genre":""},
+  
+]
+let displayed = null
+const reversed = {}
+</script>
 </body>
 </html>

@@ -359,7 +359,7 @@ body {
 
 @media screen and (max-device-width: 767px) {
   .hidden-on-mobile {
-    display: none;
+    display: none !important;
   }
 }
 

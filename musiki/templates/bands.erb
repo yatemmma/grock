@@ -11,23 +11,22 @@
         <tr class="hidden-on-mobile">
           <th>
             <input type="text" class="search-name" placeholder="Band Name"></input>
-            <a href="#"><i class="fas fa-sort"></i></a>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
           </th>
           <th>
             <input type="text" class="search-country" placeholder="Country"></input>
-            <a href="#"><i class="fas fa-sort"></i></a>
+            <a href="#" onclick="sort('country')"><i class="fas fa-sort"></i></a>
           </th>
           <th>
             <input type="text" class="search-active" placeholder="Active"></input>
-            <a href="#"><i class="fas fa-sort"></i></a>
+            <a href="#" onclick="sort('active')"><i class="fas fa-sort"></i></a>
           </th>
           <th>
             <input type="text" class="search-genre" placeholder="Genre"></input>
-            <a href="#"><i class="fas fa-sort"></i></a>
+            <a href="#" onclick="sort('genre')"><i class="fas fa-sort"></i></a>
           </th>
           <th>
             <input type="text" class="search-note" placeholder="Note"></input>
-            <a href="#"><i class="fas fa-sort"></i></a>
           </th>
         </tr>
       </thead>
@@ -41,7 +40,7 @@
               <span class="hidden-on-mobile"><%= band.country_name %></span>
             </a>
           </td>
-          <td><%= band.active_short %></td>
+          <td class="hidden-on-mobile"><%= band.active_short %></td>
           <td><a href="band/<%= band.code %>.html"><%= band.main_genre %></a></td>
           <td class="hidden-on-mobile"></td>
         </tr>
@@ -50,5 +49,14 @@
     </table>
   </div>
   <%= footer %>
+<script>
+const originals = [
+  <% bands.each do |code, band| %>
+    <%= band.json %>,
+  <% end %>
+]
+let displayed = null
+const reversed = {}
+</script>
 </body>
 </html>

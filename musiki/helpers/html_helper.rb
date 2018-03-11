@@ -14,14 +14,15 @@ module HtmlHelper
     html = <<-"EOS"
       <header>
         <h1><a href="./#{"../"*level}index.html">G-ROCK</a></h1>
-        <ul>
-          <li><a href="./#{"../"*level}bands.html">Bands</a></li>
-          <li><a href="./#{"../"*level}discs.html">Discs</a></li>
-          <li><a href="./#{"../"*level}labels.html">Labels</a></li>
-          <li><a href="./#{"../"*level}songs.html">Songs</a></li>
-          <li><a href="./#{"../"*level}members.html">Members</a></li>
+        <ul class="default">
+          <li><a href="./#{"../"*level}bands.html">Band</a></li>
+          <li><a href="./#{"../"*level}discs.html">Disc</a></li>
+          <li><a href="./#{"../"*level}labels.html">Label</a></li>
+          <li><a href="./#{"../"*level}songs.html">Song</a></li>
+          <li><a href="./#{"../"*level}members.html">Member</a></li>
+          <li class="close"><a href="#" onclick="toggleMenu()">[x] close</a></li>
         </ul>
-        <div><a href="#" onclick="openMenu()">MENU</a></div>
+        <div><a href="#" onclick="toggleMenu()">MENU</a></div>
       </header>
     EOS
   end

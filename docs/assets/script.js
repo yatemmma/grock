@@ -1,3 +1,9 @@
+function toggleMenu(){
+  const ul = document.querySelector("header > ul")
+  ul.classList.toggle("default");
+  ul.classList.toggle("popup");
+}
+
 function youtube(){
   (function() {
 

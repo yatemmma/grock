@@ -1,7 +1,42 @@
+(function(){
+  addInputChangeListener()
+})()
+function addInputChangeListener() {
+  Array.from(document.querySelectorAll("input")).forEach((element)=>{
+    element.addEventListener('change', function(event){
+      filter(event.target.className.split("-")[1], event.target.value)
+    })
+    element.addEventListener('keypress', function(event){
+      filter(event.target.className.split("-")[1], event.target.value + event.key)
+    })
+    element.addEventListener('keyup', function(event){
+      if (event.keyCode == 46 || event.keyCode == 8) {
+        filter(event.target.className.split("-")[1], event.target.value)
+      }
+    })
+  })
+}
+
 function toggleMenu(){
   const ul = document.querySelector("header > ul")
   ul.classList.toggle("default");
   ul.classList.toggle("popup");
+}
+
+function filter(key, value){
+  if (filltered[key] == value) {
+    return
+  }
+  filltered[key] = value
+
+  const $rows = document.querySelectorAll(".items tbody tr")
+  $rows.forEach(($row, i)=>{
+    if (originals[i][key].toLowerCase().indexOf(value.toLowerCase()) >= 0) {
+      $row.style.display = ""
+    } else {
+      $row.style.display = "none"
+    }
+  })
 }
 
 function sort(key){

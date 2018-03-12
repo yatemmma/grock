@@ -31,7 +31,8 @@ class Band < Metadata
       name: name,
       country: country_name,
       active: active_short,
-      genre: main_genre
+      genre: main_genre,
+      note: ""
     }
     data.to_json
   end

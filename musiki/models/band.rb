@@ -33,7 +33,6 @@ class Band < Metadata
       active: active_short,
       genre: main_genre,
       note: ""
-    }
-    data.to_json
+    }.to_json
   end
 end

@@ -37,4 +37,13 @@ module HtmlHelper
       </footer>
     EOS
   end
+
+  def scripts(items)
+    html = <<-"EOS"
+      const originals = [#{items.map do |code, item|; item.json; end.join","}]
+      let displayed = null
+      const reversed = {}
+      const filltered = {}
+    EOS
+  end
 end

@@ -35,13 +35,11 @@
         <tr>
           <td><a href="band/<%= band.code %>.html"><%= band.name %></a></td>
           <td>
-            <a href="band/<%= band.code %>.html">
-              <span class="flag"><%= band.country_emoji %></span>
-              <span class="hidden-on-mobile"><%= band.country_name %></span>
-            </a>
+            <span class="flag"><%= band.country_emoji %></span>
+            <span class="hidden-on-mobile"><%= band.country_name %></span>
           </td>
           <td class="hidden-on-mobile"><%= band.active_short %></td>
-          <td><a href="band/<%= band.code %>.html"><%= band.main_genre %></a></td>
+          <td><%= band.main_genre %></td>
           <td class="hidden-on-mobile"></td>
         </tr>
         <% end %>
@@ -50,14 +48,7 @@
   </div>
   <%= footer %>
 <script>
-const originals = [
-  <% bands.each do |code, band| %>
-    <%= band.json %>,
-  <% end %>
-]
-let displayed = null
-const reversed = {}
-const filltered = {}
+<%= scripts(bands) %>
 </script>
 </body>
 </html>

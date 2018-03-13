@@ -6,16 +6,36 @@
 <body>
   <%= header %>
   <div class="contents">
-    <ul>
-    <% songs.each do |code, song| %>
-      <li>
-        <a href="song/<%= song.code %>.html">
-          <%= song.name %>
-        </a>
-      </li>
-    <% end %>
-    </ul>
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th>
+            <input type="text" class="search-name" placeholder="Song Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-band" placeholder="Band"></input>
+            <a href="#" onclick="sort('band')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <% songs.each do |code, song| %>
+        <tr>
+          <td><a href="song/<%= song.code %>.html"><%= song.name %></a></td>
+          <td><%= song.band %></td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
   </div>
   <%= footer %>
+<script>
+<%= scripts(songs) %>
+</script>
 </body>
 </html>

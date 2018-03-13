@@ -6,12 +6,31 @@
 <body>
   <%= header %>
   <div class="contents">
-    <ul>
-    <% labels.each do |code, label| %>
-      <li><a href="label/<%= label.code %>.html"><%= label.name %></a></li>
-    <% end %>
-    </ul>
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th>
+            <input type="text" class="search-name" placeholder="Label Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <% labels.each do |code, label| %>
+        <tr>
+          <td><a href="label/<%= label.code %>.html"><%= label.name %></a></td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
   </div>
   <%= footer %>
+<script>
+<%= scripts(labels) %>
+</script>
 </body>
 </html>

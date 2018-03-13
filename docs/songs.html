@@ -24,21 +24,38 @@
       </header>
 
   <div class="contents">
-    <ul>
-    
-      <li>
-        <a href="song/awaken_i_am-channeling.html">
-          Channeling
-        </a>
-      </li>
-    
-      <li>
-        <a href="song/in_league-moving_for_words.html">
-          Moving For Words
-        </a>
-      </li>
-    
-    </ul>
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th>
+            <input type="text" class="search-name" placeholder="Song Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-band" placeholder="Band"></input>
+            <a href="#" onclick="sort('band')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td><a href="song/awaken_i_am-channeling.html">Channeling</a></td>
+          <td>awaken_i_am</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr>
+          <td><a href="song/in_league-moving_for_words.html">Moving For Words</a></td>
+          <td>in_league</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+      </tbody>
+    </table>
   </div>
         <footer>
         <div class="link">
@@ -47,5 +64,12 @@
         <div class="copy">&copy; 2009-2018 <a href="./index.html">G-ROCK</a></div>
       </footer>
 
+<script>
+      const originals = [{"name":"Channeling","band":"awaken_i_am","note":""},{"name":"Moving For Words","band":"in_league","note":""}]
+      let displayed = null
+      const reversed = {}
+      const filltered = {}
+
+</script>
 </body>
 </html>

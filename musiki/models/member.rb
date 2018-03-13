@@ -8,4 +8,12 @@ class Member < Metadata
   attr_writer :body
   attr_writer :public
   attr_writer :memo
+
+  def json
+    data = {
+      name: name,
+      country: country_name,
+      note: ""
+    }.to_json
+  end
 end

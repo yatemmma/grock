@@ -16,4 +16,12 @@ class Song < Metadata
   attr_writer :body
   attr_writer :public
   attr_writer :memo
+
+  def json
+    data = {
+      name: name,
+      band: band,
+      note: ""
+    }.to_json
+  end
 end

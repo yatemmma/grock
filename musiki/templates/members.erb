@@ -6,12 +6,39 @@
 <body>
   <%= header %>
   <div class="contents">
-    <ul>
-    <% members.each do |code, member| %>
-      <li><a href="member/<%= member.code %>.html"><%= member.name %></a></li>
-    <% end %>
-    </ul>
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th>
+            <input type="text" class="search-name" placeholder="Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-country" placeholder="Country"></input>
+            <a href="#" onclick="sort('country')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <% members.each do |code, member| %>
+        <tr>
+          <td><a href="member/<%= member.code %>.html"><%= member.name %></a></td>
+          <td>
+            <span class="flag"><%= member.country_emoji %></span>
+            <span class="hidden-on-mobile"><%= member.country_name %></span>
+          </td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
   </div>
   <%= footer %>
+<script>
+<%= scripts(members) %>
+</script>
 </body>
 </html>

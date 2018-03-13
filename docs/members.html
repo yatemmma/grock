@@ -24,11 +24,35 @@
       </header>
 
   <div class="contents">
-    <ul>
-    
-      <li><a href="member/ben_blondel.html">Ben Blondel</a></li>
-    
-    </ul>
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th>
+            <input type="text" class="search-name" placeholder="Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-country" placeholder="Country"></input>
+            <a href="#" onclick="sort('country')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td><a href="member/ben_blondel.html">Ben Blondel</a></td>
+          <td>
+            <span class="flag">🇦🇺</span>
+            <span class="hidden-on-mobile">Australia</span>
+          </td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+      </tbody>
+    </table>
   </div>
         <footer>
         <div class="link">
@@ -37,5 +61,12 @@
         <div class="copy">&copy; 2009-2018 <a href="./index.html">G-ROCK</a></div>
       </footer>
 
+<script>
+      const originals = [{"name":"Ben Blondel","country":"Australia","note":""}]
+      let displayed = null
+      const reversed = {}
+      const filltered = {}
+
+</script>
 </body>
 </html>

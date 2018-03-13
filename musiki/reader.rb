@@ -11,6 +11,7 @@ class Reader
     data = {}
     names.each do |name|
       data[name.to_sym] = load_data(name)
+      Metadata.send("#{name}=",load_data(name))
     end
     data
   end

@@ -35,7 +35,7 @@
         <tr>
           <td><a href="disc/<%= disc.code %>.html"><%= disc.name %></a></td>
           <td>
-            <%= disc.band %>
+            <%= disc.band?.name %>
           </td>
           <td class="hidden-on-mobile"><%= disc.date %></td>
           <td><%= disc.type %></td>

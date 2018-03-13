@@ -26,12 +26,32 @@ class Metadata
     @metadata.to_s
   end
 
+  class << self
+    attr_accessor :band
+    attr_accessor :disc
+    attr_accessor :label
+    attr_accessor :member
+    attr_accessor :song
+  end
+
   def method_missing(method_name, *args)
     if self.class.attributes.include? method_name
-      @metadata[method_name.to_s]
-    else
-      super
+      return @metadata[method_name.to_s]
     end
+
+    method = method_name.to_s[0..-2]
+    if ((method_name.to_s[-1] == "?") &&
+         (self.class.attributes.include? method.to_sym))
+      item = Metadata.send(method)[@metadata[method]]
+      if item.nil?
+        puts "#{@metadata[method]} is missing at #{method}"
+        return @metadata[method]
+      else
+        return item
+      end
+    end
+
+    super
   end
 
   include CountryHelper

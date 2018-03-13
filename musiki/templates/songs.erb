@@ -26,7 +26,7 @@
         <% songs.each do |code, song| %>
         <tr>
           <td><a href="song/<%= song.code %>.html"><%= song.name %></a></td>
-          <td><%= song.band %></td>
+          <td><%= song.band?.name %></td>
           <td class="hidden-on-mobile"></td>
         </tr>
         <% end %>

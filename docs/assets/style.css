@@ -461,6 +461,10 @@ header {
   display: table;
 }
 
+.contents .items tr {
+  height: 32px;
+}
+
 .contents .items th {
   text-align: left;
 }

@@ -6,12 +6,48 @@
 <body>
   <%= header %>
   <div class="contents">
-    <ul>
-    <% discs.each do |code, disc| %>
-      <li><a href="disc/<%= disc.code %>.html"><%= disc.code %></a></li>
-    <% end %>
-    </ul>
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th>
+            <input type="text" class="search-name" placeholder="Disc Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-band" placeholder="Band Name"></input>
+            <a href="#" onclick="sort('band')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-date" placeholder="Date"></input>
+            <a href="#" onclick="sort('date')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-type" placeholder="Type"></input>
+            <a href="#" onclick="sort('type')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <% discs.each do |code, disc| %>
+        <tr>
+          <td><a href="disc/<%= disc.code %>.html"><%= disc.name %></a></td>
+          <td>
+            <%= disc.band %>
+          </td>
+          <td class="hidden-on-mobile"><%= disc.date %></td>
+          <td><%= disc.type %></td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
   </div>
   <%= footer %>
+<script>
+<%= scripts(discs) %>
+</script>
 </body>
 </html>

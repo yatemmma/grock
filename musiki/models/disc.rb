@@ -15,4 +15,14 @@ class Disc < Metadata
   attr_writer :body
   attr_writer :public
   attr_writer :memo
+
+  def json
+    data = {
+      name: name,
+      band: band,
+      date: date,
+      type: type,
+      note: ""
+    }.to_json
+  end
 end

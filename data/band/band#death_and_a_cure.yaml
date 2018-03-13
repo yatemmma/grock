@@ -23,5 +23,5 @@ past_members:
   - Ben Blondel
 discs: 
 body: 
-public: 
+public: true
 memo: 

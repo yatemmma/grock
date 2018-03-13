@@ -4,5 +4,5 @@ name: Victory Records
 website: http://www.victoryrecords.com/
 wikipedia: https://en.wikipedia.org/wiki/Victory_Records
 body: 
-public: 
+public: true
 memo: 

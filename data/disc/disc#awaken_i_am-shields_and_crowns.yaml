@@ -13,5 +13,5 @@ songs:
 - - awaken_i_am-channeling
   - 07. Channeling
 body: 
-public: 
+public: true
 memo: 

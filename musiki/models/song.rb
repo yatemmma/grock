@@ -6,6 +6,7 @@ class Song < Metadata
   attr_writer :band
   attr_writer :disc
   attr_writer :date
+  attr_writer :type
   attr_writer :label
   attr_writer :video_date
   attr_writer :youtube
@@ -16,6 +17,15 @@ class Song < Metadata
   attr_writer :body
   attr_writer :public
   attr_writer :memo
+
+  def title
+    items = []
+    items << "(#{type})" unless type.nil?
+    items << "#{band?.name} -" unless band.nil?
+    items << name
+    items << "[#{date_year}]" unless date.nil?
+    items.join(" ")
+  end
 
   def json
     data = {

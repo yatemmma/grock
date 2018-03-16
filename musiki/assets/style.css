@@ -481,6 +481,37 @@ header {
 .contents .items td span {
   vertical-align: middle;
 }
+
+.contents #player {
+  width: 100%;
+}
+
+@media (min-device-width: 768px) {
+  .contents #player { height: 448px; }
+}
+
+@media (min-device-width: 650px) and (max-device-width: 769px) {
+  .contents #player { height: 400px; }
+}
+
+@media (min-device-width: 320px) and (max-device-width: 649px) {
+  .contents #player { height: 280px; }
+}
+
+@media (max-device-width: 319px) {
+  .contents #player { height: 180px; }
+}
+
+.contents section.sns {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.contents section.sns a {
+  text-decoration: none;
+  margin-right: 8px;
+}
+
 /* G-ROCK footer ========================================================================== */
 footer {
     text-align: center;

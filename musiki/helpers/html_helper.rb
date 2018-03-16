@@ -1,8 +1,14 @@
 module HtmlHelper
+  include SNSHelper
+  def domain
+    "https://scream.your.name/"
+  end
+
   def head(title, level = 0)
     html = <<-"EOS"
       <meta charset="utf-8">
       <title>#{title}</title>
+      <link rel="shortcut icon" type="image/x-icon" href="./#{"../"*level}assets/images/favicon.ico" />
       <meta name="viewport" content="width=device-width,initial-scale=1">
       <link href="./#{"../"*level}assets/style.css" media="all" rel="stylesheet" />
       <link href="./#{"../"*level}assets/vendor/css/fontawesome-all.min.css" media="all" rel="stylesheet" />
@@ -35,6 +41,16 @@ module HtmlHelper
         </div>
         <div class="copy">&copy; 2009-#{Date.today.strftime("%Y")} <a href="./#{"../"*level}index.html">G-ROCK</a></div>
       </footer>
+    EOS
+  end
+
+  def sns(path, title, level = 0)
+    html = <<-"EOS"
+      <section class="sns">
+        <a href="#{twitter_share_link(domain + path, title)}" target="_blank">
+          <img src="./#{"../"*level}assets/images/share_twitter.png">
+        </a>
+      </section>
     EOS
   end
 

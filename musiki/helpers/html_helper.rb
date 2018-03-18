@@ -1,6 +1,5 @@
 module HtmlHelper
-  include SNSHelper
-  include ImageHelper
+  include Helper
 
   def head(title, level = 0)
     html = <<-"EOS"

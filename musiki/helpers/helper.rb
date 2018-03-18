@@ -7,3 +7,13 @@ require "./musiki/helpers/date_helper"
 require "./musiki/helpers/image_helper"
 
 DOMAIN = "https://scream.your.name/"
+
+module Helper
+  include ActiveHelper
+  include CountryHelper
+  include DateHelper
+  include GenreHelper
+  include ImageHelper
+  include SNSHelper
+  include VideoHelper
+end

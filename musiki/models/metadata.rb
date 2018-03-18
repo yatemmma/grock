@@ -52,11 +52,5 @@ class Metadata
     super
   end
 
-  include SNSHelper
-  include CountryHelper
-  include GenreHelper
-  include ActiveHelper
-  include VideoHelper
-  include DateHelper
-  include ImageHelper
+    include Helper
 end

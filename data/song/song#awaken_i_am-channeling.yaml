@@ -4,7 +4,7 @@ name: Channeling
 band: awaken_i_am
 disc: awaken_i_am-shields_and_crowns
 date: 
-type: Music Video
+type: 
 label: 
 video_date: 
 youtube: https://www.youtube.com/watch?v=MmrYBAiftX8
@@ -13,7 +13,7 @@ play:
 links: 
 guests:
 - code: ben_blondel
-  name: Ben Blondel (ex.In League)
+  label: Guest vocals
 body: 
 public: true
 memo: 

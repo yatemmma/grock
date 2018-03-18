@@ -44,14 +44,46 @@ module HtmlHelper
     EOS
   end
 
+  def body(text, level = 0)
+    html = <<-"EOS"
+      <div class="body">
+        #{text}
+      </div>
+    EOS
+  end
+
   def sns(path, title, level = 0)
     html = <<-"EOS"
-      <section class="sns">
+      <div class="sns">
         <a href="#{twitter_share_link(domain + path, title)}" target="_blank">
           <img src="./#{"../"*level}assets/images/share_twitter.png">
         </a>
-      </section>
+      </div>
     EOS
+  end
+
+  def band_block(label, band, path, level = 0)
+    html = <<-"EOS"
+      <a class="block" href="./#{"../"*level}/#{path}.html">
+        <div class="band">
+          <div class="image">
+            <img src="#{band.images.nil? ? '' : band.images.first}" />
+          </div>
+          <div class="name">
+            #{label.nil? ? "" : "<span class='label'>" + label + ":</span>"}
+            #{band.name} #{band.description.nil? ? "" : " (" + band.description + ")"}
+          </div>
+        </div>
+      </a>
+    EOS
+  end
+
+  def band_link(band, path, level = 0)
+    band_block(nil, band, path, level)
+  end
+
+  def guest_link(label, band, path, level = 0)
+    band_block(label, band, path, level)
   end
 
   def scripts(items)

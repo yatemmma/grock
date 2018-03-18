@@ -432,40 +432,61 @@ header {
   }
 }
 /* G-ROCK body ========================================================================== */
-.contents a {
+.contents-wrapper a {
   text-decoration: underline;
 }
 
 @media screen and (min-device-width: 768px) {
-  .contents {
+  .contents-wrapper {
     margin: 8px 100px 0;
   }
 }
 
 @media screen and (max-device-width: 767px) {
-  .contents {
+  .contents-wrapper {
     margin: 4px 1% 0;
   }
 }
 
+@media (min-device-width: 768px) {
+  .contents-wrapper {
+    clear: both;
+  }
+  .contents-wrapper .contents {
+    width: 65%;
+    float:left;
+    border-right: 1px solid rgba(0, 0, 0, 1);
+    box-shadow(rgba(255, 255, 255, 1) 0 1px 0);
+    margin-right: 16px;
+  }
+  .contents-wrapper .sub-contents {
+    width: 30%;
+    float:left;
+  }
+}
+
+@media (max-device-width: 319px) {
+  .contents-wrapper #player { height: 180px; }
+}
+
 /* G-ROCK body ========================================================================== */
-.contents .items a {
+.contents-wrapper .items a {
   text-decoration: none;
 }
 
-.contents .items .flag {
+.contents-wrapper .items .flag {
   font-size: 2em;
 }
 
-.contents .items {
+.contents-wrapper .items {
   display: table;
 }
 
-.contents .items tr {
+.contents-wrapper .items tr {
   height: 32px;
 }
 
-.contents .items th {
+.contents-wrapper .items th {
   text-align: left;
 }
 
@@ -474,47 +495,98 @@ header {
   display: inline-block;
 }
 
-.contents .items td {
+.contents-wrapper .items td {
   display: table-cell;
 }
 
-.contents .items td span {
+.contents-wrapper .items td span {
   vertical-align: middle;
 }
 
-.contents #player {
+.contents-wrapper #player {
   width: 100%;
 }
 
 @media (min-device-width: 768px) {
-  .contents #player { height: 448px; }
+  .contents-wrapper #player { height: 448px; }
 }
 
 @media (min-device-width: 650px) and (max-device-width: 769px) {
-  .contents #player { height: 400px; }
+  .contents-wrapper #player { height: 400px; }
 }
 
 @media (min-device-width: 320px) and (max-device-width: 649px) {
-  .contents #player { height: 280px; }
+  .contents-wrapper #player { height: 280px; }
 }
 
 @media (max-device-width: 319px) {
-  .contents #player { height: 180px; }
+  .contents-wrapper #player { height: 180px; }
 }
 
-.contents section.sns {
+.contents .body {
+  min-height: 40px;
+}
+
+.contents a.block {
+  text-decoration: none;
+}
+
+.contents div.sns {
   text-align: center;
-  margin-top: 24px;
+  margin: 24px auto;
 }
 
-.contents section.sns a {
+.contents div.sns a {
   text-decoration: none;
   margin-right: 8px;
+}
+
+.contents .band {
+  margin: 16px;
+  padding: 16px;
+  background-color: #444;
+}
+
+.contents .band .image {
+  position: relative;
+  width: 264px;
+  height: 184px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #333;
+  img {
+    vertical-align: middle;
+  }
+  float: left;
+}
+
+.contents .band .image img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contents .band .name {
+  height: 184px;
+  vertical-align: middle;
+  display: table-cell;
+  padding-left: 24px;
+  font-size: 1.2em;
+}
+
+.contents .band span.label {
+  font-size: 0.9em;
+  display: block;
+  margin-top: -40px;
+  margin-bottom: 40px;
 }
 
 /* G-ROCK footer ========================================================================== */
 footer {
     text-align: center;
+    clear: both;
 }
 
 footer .link {

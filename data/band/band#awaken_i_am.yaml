@@ -1,11 +1,13 @@
 ---
 code: awaken_i_am
 name: Awaken I Am
+description: 
 origin: Brisbane, Queensland Australia
 country: au
 active: 
 genres:
 - post-hardcore
+images: 
 website: http://awakeniam.co/
 wikipedia: 
 twitter: https://twitter.com/awakeniam

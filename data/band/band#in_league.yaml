@@ -1,10 +1,13 @@
 ---
 code: in_league
 name: In League
+description: 
 origin: Brisbane, Queensland Australia
 country: au
 active: 2009-
 genres: 
+images:
+- https://i.pinimg.com/originals/53/d8/0b/53d80b7b517af28c7e67239a4ecea116.jpg
 website: 
 wikipedia: 
 twitter: https://twitter.com/inleagueband

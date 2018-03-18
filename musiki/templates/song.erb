@@ -5,17 +5,28 @@
 </head>
 <body>
   <%= header(1) %>
-  <div class="contents">
+  <div class="contents-wrapper">
+
     <div id="player" data-key="<%= song.youtube_key%>"></div>
     <h2><%= song.title %></h2>
 
-    <section><%= song.body %></section>
+    <div class="contents">
+      <%= body(song.body, 1) %>
 
-    <%= sns("song/#{song.code}.html", song.title, 1) %>
+      <%= sns("song/#{song.code}.html", song.title, 1) %>
 
-    <div>
-      
+      <%= band_link(song.band?, "band/#{song.band?.code}", 1) %>
+
+      <% song.guests?.each do |items|%>
+        <% member, org = items %>
+        <%= guest_link(org["label"], member, "member/#{member.code}", 1) %>
+      <% end %>
     </div>
+
+    <div class="sub-contents">
+      xxxx
+    </div>
+
   </div>
   <%= footer(1) %>
 </body>

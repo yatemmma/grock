@@ -3,10 +3,12 @@ require "./musiki/models/metadata"
 class Band < Metadata
   attr_writer :code
   attr_writer :name
+  attr_writer :description
   attr_writer :origin
   attr_writer :country
   attr_writer :active
   attr_writer :genres
+  attr_writer :images
   attr_writer :website
   attr_writer :wikipedia
   attr_writer :twitter

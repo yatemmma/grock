@@ -5,8 +5,42 @@
 </head>
 <body>
   <%= header(1) %>
-  <div class="contents">
-    <%= disc.name %>
+  <div class="contents-wrapper">
+
+    <% if !disc.main_youtube.nil? %>
+      <div id="player" data-key="<%= disc.main_youtube_key %>"></div>
+    <% elsif !disc.images.nil? %>
+      <div class="main">
+        <div class="image">
+          <img src="<%= disc.images.nil? ? '' : disc.images.first %>" />
+        </div>
+      </div>
+    <% end %>
+    <h2><%= disc.name %></h2>
+
+    <div class="contents">
+      <%= body(disc.body, 1) %>
+
+      <%= sns("disc/#{disc.code}.html", disc.name, 1) %>
+
+      <%= disc_block(disc, 1) %>
+      
+      <%= band_link(disc.band?, "band/#{disc.band?.code}", 1) %>
+
+      <%= link_block("Apple Music", disc.apple) unless disc.apple.nil? %>
+      <%= link_block("Play Music", disc.play) unless disc.play.nil? %>
+      <%= link_block("Spotify", disc.spotify) unless disc.spotify.nil? %>
+      <%= link_block("Amazon", disc.amazon) unless disc.amazon.nil? %>
+      <%= link_block("Discogs", disc.discogs) unless disc.discogs.nil? %>
+      <% (disc.links || []).map do |link| %>
+        <%= link_block("Link", link) %>
+      <% end %>
+    </div>
+
+    <div class="sub-contents">
+      xxxx
+    </div>
+
   </div>
   <%= footer(1) %>
 </body>

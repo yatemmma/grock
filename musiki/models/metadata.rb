@@ -1,10 +1,5 @@
 require "yaml"
-require "./musiki/helpers/sns_helper"
-require "./musiki/helpers/country_helper"
-require "./musiki/helpers/genre_helper"
-require "./musiki/helpers/active_helper"
-require "./musiki/helpers/video_helper"
-require "./musiki/helpers/date_helper"
+require "./musiki/helpers/helper"
 
 class Metadata
   def self.attr_writer(*vars)
@@ -63,4 +58,5 @@ class Metadata
   include ActiveHelper
   include VideoHelper
   include DateHelper
+  include ImageHelper
 end

@@ -524,7 +524,7 @@ header {
 }
 
 .contents .body {
-  min-height: 40px;
+  min-height: 60px;
 }
 
 .contents a.block {
@@ -546,7 +546,14 @@ header {
   margin: 16px;
   padding: 16px;
   background-color: #444;
+}
+
+.contents .band {
   height: 188px;
+}
+
+.contents .disc {
+  height: 146px;
 }
 
 .contents .band .image,
@@ -568,8 +575,8 @@ header {
 }
 
 .contents .disc .image {
-  width: 184px;
-  height: 184px;
+  width: 142px;
+  height: 142px;
   margin-right: 16px;
 }
 
@@ -599,7 +606,7 @@ header {
 .contents .disc .title,
 .contents .disc .artist,
 .contents .disc .date {
-  margin-top: 30px;
+  margin-top: 21px;
 }
 
 

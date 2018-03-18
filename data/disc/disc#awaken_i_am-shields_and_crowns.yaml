@@ -6,11 +6,12 @@ type: Album
 date: 2015/05/12
 label: self-released
 images: 
-main_youtube: 
-discogs: https://www.discogs.com/ja/Awaken-I-Am-Shields-Crowns/release/8679964
-spotify: https://open.spotify.com/album/4Yo9nSsGit7VfhTtQOwWRm
+main_youtube: https://www.youtube.com/watch?v=fDNfOJh1aTE
 apple: https://itunes.apple.com/jp/album/shields-and-crowns/id1115269579
 play: 
+spotify: https://open.spotify.com/album/4Yo9nSsGit7VfhTtQOwWRm
+amazon: 
+discogs: https://www.discogs.com/ja/Awaken-I-Am-Shields-Crowns/release/8679964
 links: 
 songs:
 - - awaken_i_am-channeling

@@ -1,8 +1,6 @@
 module HtmlHelper
   include SNSHelper
-  def domain
-    "https://scream.your.name/"
-  end
+  include ImageHelper
 
   def head(title, level = 0)
     html = <<-"EOS"
@@ -55,7 +53,7 @@ module HtmlHelper
   def sns(path, title, level = 0)
     html = <<-"EOS"
       <div class="sns">
-        <a href="#{twitter_share_link(domain + path, title)}" target="_blank">
+        <a href="#{twitter_share_link(DOMAIN + path, title)}" target="_blank">
           <img src="./#{"../"*level}assets/images/share_twitter.png">
         </a>
       </div>
@@ -91,7 +89,7 @@ module HtmlHelper
       <a class="block" href="./#{"../"*level}/disc/#{disc.code}.html">
         <div class="disc">
           <div class="image">
-            <img src="#{disc.images.nil? ? '' : disc.images.first}" />
+            <img src="#{disc.disc_image(level)}" />
           </div>
           <div class="title">#{disc.name}</div>
           <div class="artist">#{disc.band?.name}</div>

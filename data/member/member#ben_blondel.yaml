@@ -4,7 +4,10 @@ name: Ben Blondel
 description: ex. In League
 origin: Brisbane, Queensland Australia
 country: au
-images: 
+images:
+- http://images.fasterlouder.com.au/1191/1191894.jpg
+links:
+- http://fasterlouder.junkee.com/ben-blondel/692545
 body: 
 public: true
 memo: |

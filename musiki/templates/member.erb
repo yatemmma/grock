@@ -5,9 +5,33 @@
 </head>
 <body>
   <%= header(1) %>
-  <div class="contents">
-    <%= member.name %>
-    <%= member.country_name %> <%= member.country_emoji %>
+  <div class="contents-wrapper">
+
+    <div class="main">
+      <div class="image">
+        <img src="<%= member.images.nil? ? '' : member.images.first %>" />
+      </div>
+    </div>
+    <h2>
+      <%= member.name %>
+      <%= " (#{member.description})" unless member.description.nil? %>
+    </h2>
+
+    <div class="contents">
+      <%= body(member.body, 1) %>
+
+      <%= sns("member/#{member.code}.html", member.name, 1) %>
+
+      <%= origin_block(member) unless member.country.nil?%>
+
+      <% (member.links || []).map do |link| %>
+        <%= link_block("Link", link) %>
+      <% end %>
+    </div>
+
+    <div class="sub-contents">
+      xxxx
+    </div>
   </div>
   <%= footer(1) %>
 </body>

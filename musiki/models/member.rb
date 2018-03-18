@@ -7,6 +7,7 @@ class Member < Metadata
   attr_writer :origin
   attr_writer :country
   attr_writer :images
+  attr_writer :links
   attr_writer :body
   attr_writer :public
   attr_writer :memo

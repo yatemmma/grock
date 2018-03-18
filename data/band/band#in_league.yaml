@@ -8,18 +8,20 @@ active: 2009-
 genres: 
 images:
 - https://i.pinimg.com/originals/53/d8/0b/53d80b7b517af28c7e67239a4ecea116.jpg
+main_youtube: https://www.youtube.com/watch?v=AWrZRkycnyQ
+apple: 
+play: 
+spotify: https://open.spotify.com/artist/7GucydECGmKhDmzohgQxdY
+soundcloud: 
+bandcamp: 
+youtube: https://www.youtube.com/user/inleagueband
 website: 
 wikipedia: 
 twitter: https://twitter.com/inleagueband
 facebook: https://www.facebook.com/inleague/
-youtube: https://www.youtube.com/user/inleagueband
 instagram: https://www.instagram.com/inleagueband/
-spotify: https://open.spotify.com/artist/7GucydECGmKhDmzohgQxdY
-apple: 
-soundcloud: 
-bandcamp: 
-labelpages: 
-links: https://www.spirit-of-metal.com/en/band/In_League
+links:
+- https://www.spirit-of-metal.com/en/band/In_League
 members:
 - Adam Chase - Bass/Vocals
 - Ben Hardy - Drums

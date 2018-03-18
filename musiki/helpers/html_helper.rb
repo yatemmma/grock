@@ -86,6 +86,38 @@ module HtmlHelper
     band_block(label, band, path, level)
   end
 
+  def disc_block(disc, level = 0)
+    html = <<-"EOS"
+      <a class="block" href="./#{"../"*level}/disc/#{disc.code}.html">
+        <div class="disc">
+          <div class="image">
+            <img src="#{disc.images.nil? ? '' : disc.images.first}" />
+          </div>
+          <div class="title">#{disc.name}</div>
+          <div class="artist">#{disc.band?.name}</div>
+          <div class="date">#{disc.date}</div>
+        </div>
+      </a>
+    EOS
+  end
+
+  def link_block(label, link)
+    html = <<-"EOS"
+      <a class="block link" href="#{link.is_a?(Hash) ? link["url"] : link}" target="_blank">
+        <div class="type">#{label}</div>
+        <div class="title">#{link.is_a?(Hash) ? link["title"] : link}</div>
+      </a>
+    EOS
+  end
+
+  def origin_block(item)
+    html = <<-"EOS"
+      <div class="block origin" href="#">
+        #{item.country_emoji} #{item.origin.nil? ? item.country_name : item.origin}
+      </div>
+    EOS
+  end
+
   def scripts(items)
     html = <<-"EOS"
       const originals = [#{items.map do |code, item|; item.json; end.join","}]

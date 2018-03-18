@@ -21,6 +21,12 @@
         <% member, org = items %>
         <%= guest_link(org["label"], member, "member/#{member.code}", 1) %>
       <% end %>
+
+      <%= link_block("Apple Music", song.apple) unless song.apple.nil? %>
+      <%= link_block("Play Music", song.play) unless song.play.nil? %>
+      <% (song.links || []).map do |link| %>
+        <%= link_block("Link", link) %>
+      <% end %>
     </div>
 
     <div class="sub-contents">

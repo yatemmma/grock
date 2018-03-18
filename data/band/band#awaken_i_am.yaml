@@ -8,19 +8,20 @@ active:
 genres:
 - post-hardcore
 images: 
+main_youtube: https://www.youtube.com/watch?v=WQxQOMdeshw
+apple: https://itunes.apple.com/jp/artist/awaken-i-am/475768225
+play: 
+spotify: https://open.spotify.com/artist/3BwbgahlwovSpRfctWi8zY
+soundcloud: https://soundcloud.com/awakeniam
+bandcamp: 
+youtube: 
 website: http://awakeniam.co/
 wikipedia: 
 twitter: https://twitter.com/awakeniam
 facebook: https://www.facebook.com/awakeniam/
-youtube: 
 instagram: 
-spotify: https://open.spotify.com/artist/3BwbgahlwovSpRfctWi8zY
-apple: https://itunes.apple.com/jp/artist/awaken-i-am/475768225
-soundcloud: https://soundcloud.com/awakeniam
-bandcamp: 
-labelpages:
+links:
 - http://www.victoryrecords.com/awakeniam
-links: 
 members:
 - Luke McKenzie - Drums
 - Ned Jankovic - Guitar
@@ -28,8 +29,7 @@ members:
 - Ryan Oxford - Bass
 past_members: 
 discs:
-- code: awaken_i_am-shields_and_crowns
-  name: Shields & Crowns
+- awaken_i_am-shields_and_crowns
 body: 
 public: true
 memo: 

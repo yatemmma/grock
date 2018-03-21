@@ -24,6 +24,7 @@
 
       <%= link_block("Apple Music", song.apple) unless song.apple.nil? %>
       <%= link_block("Play Music", song.play) unless song.play.nil? %>
+      <%= link_block("Spotify", song.spotify) unless song.spotify.nil? %>
       <% (song.links || []).map do |link| %>
         <%= link_block("Link", link) %>
       <% end %>

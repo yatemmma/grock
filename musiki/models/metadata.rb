@@ -1,4 +1,3 @@
-require "yaml"
 require "./musiki/helpers/helper"
 
 class Metadata
@@ -12,8 +11,8 @@ class Metadata
     @attributes || []
   end
 
-  def initialize(yaml_path)
-    @metadata = YAML.load_file(yaml_path)
+  def initialize(hash)
+    @metadata = hash
   end
 
   def contents

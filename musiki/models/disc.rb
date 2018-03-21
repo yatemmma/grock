@@ -14,6 +14,7 @@ class Disc < Metadata
   attr_writer :spotify
   attr_writer :amazon
   attr_writer :discogs
+  attr_writer :youtube
   attr_writer :links
   attr_writer :songs
   attr_writer :body

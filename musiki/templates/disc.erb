@@ -32,6 +32,7 @@
       <%= link_block("Spotify", disc.spotify) unless disc.spotify.nil? %>
       <%= link_block("Amazon", disc.amazon) unless disc.amazon.nil? %>
       <%= link_block("Discogs", disc.discogs) unless disc.discogs.nil? %>
+      <%= link_block("Youtube", disc.youtube) unless disc.youtube.nil? %>
       <% (disc.links || []).map do |link| %>
         <%= link_block("Link", link) %>
       <% end %>

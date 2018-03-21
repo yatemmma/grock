@@ -12,6 +12,7 @@ class Song < Metadata
   attr_writer :youtube
   attr_writer :apple
   attr_writer :play
+  attr_writer :spotify
   attr_writer :links
   attr_writer :guests
   attr_writer :body
@@ -23,7 +24,7 @@ class Song < Metadata
     items << "(#{type})" unless type.nil?
     items << "#{band?.name} -" unless band.nil?
     items << name
-    items << "[#{date_year}]" unless date.nil?
+    items << "[#{video_date_year}]" unless video_date.nil?
     items.join(" ")
   end
 

@@ -1,5 +1,6 @@
 require "active_support/core_ext/string/inflections"
 require "fileutils"
+require "yaml"
 require "./musiki/models/member"
 require "./musiki/models/label"
 require "./musiki/models/song"
@@ -20,8 +21,16 @@ class Reader
     clazz = Object.const_get(name.camelize)
     metadata = {}
     Dir.glob("data/#{name}/*").each do |path|
-      data = clazz.new(path)
-      metadata[data.code] = data
+      object = YAML.load_file(path)
+      if object.is_a? Array
+        object.each do |item|
+          data = clazz.new(item)
+          metadata[data.code] = data
+        end
+      else
+        data = clazz.new(object)
+        metadata[data.code] = data
+      end
     end
     metadata
   end

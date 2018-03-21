@@ -5,4 +5,7 @@ gem "rake"
 gem "activesupport"
 gem "countries"
 
+gem "sass"
+gem "sass-css-importer"
+
 gem "minitest-power_assert"

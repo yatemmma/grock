@@ -1,5 +1,11 @@
 require "./musiki/musiki"
 
+task :all => [:build, :gen]
+
+task :build do
+  system "bundle exec sass -r sass-css-importer musiki/styles/style.scss musiki/assets/style1.css"
+end
+
 task :gen do
   Musiki.gen
 end

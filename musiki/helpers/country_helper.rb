@@ -2,12 +2,20 @@ require "countries"
 
 module CountryHelper
   def country_name
-    c = ISO3166::Country.new(country)
-    c.name
+    if country.nil?
+      ""
+    else
+      c = ISO3166::Country.new(country)
+      c.name
+    end
   end
 
   def country_emoji
-    c = ISO3166::Country.new(country)
-    c.emoji_flag
+    if country.nil?
+      ""
+    else
+      c = ISO3166::Country.new(country)
+      c.emoji_flag
+    end
   end
 end

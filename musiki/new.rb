@@ -1,5 +1,6 @@
 require "fileutils"
 require "yaml"
+require "./musiki/models/band"
 
 band = ARGV.join(" ")
 p band
@@ -10,10 +11,13 @@ if File.exist? path
   p "already exist. #{path}"
   exit
 end
-
 FileUtils.mkdir_p(File.dirname(path))
-hash = {
-  code: code,
-  name: band
-}
+
+hash = {}
+Band.attributes.each do |key|
+  hash[key] = nil
+end
+hash[:code] = code
+hash[:name] = band
+
 YAML.dump(hash, File.open(path, "w"))

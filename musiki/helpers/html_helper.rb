@@ -17,15 +17,16 @@ module HtmlHelper
     html = <<-"EOS"
       <header>
         <h1><a href="./#{"../"*level}index.html">G-ROCK</a></h1>
-        <ul class="default">
-          <li><a href="./#{"../"*level}bands.html">Band</a></li>
-          <li><a href="./#{"../"*level}discs.html">Disc</a></li>
-          <li><a href="./#{"../"*level}labels.html">Label</a></li>
-          <li><a href="./#{"../"*level}songs.html">Song</a></li>
-          <li><a href="./#{"../"*level}members.html">Member</a></li>
-          <li class="close"><a href="#" onclick="toggleMenu()">[x] close</a></li>
-        </ul>
-        <div><a href="#" onclick="toggleMenu()">MENU</a></div>
+        <span><a target="#" onclick="toggleMenu()">Menu</a></span>
+        <nav>
+          <ul>
+            <li><a href="./#{"../"*level}bands.html">Band</a></li>
+            <li><a href="./#{"../"*level}discs.html">Disc</a></li>
+            <li><a href="./#{"../"*level}labels.html">Label</a></li>
+            <li><a href="./#{"../"*level}songs.html">Song</a></li>
+            <li><a href="./#{"../"*level}members.html">Member</a></li>
+          </ul>
+        </nav>
       </header>
     EOS
   end

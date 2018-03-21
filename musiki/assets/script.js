@@ -18,10 +18,13 @@ function addInputChangeListener() {
   })
 }
 
-function toggleMenu(){
-  const ul = document.querySelector("header > ul")
-  ul.classList.toggle("default");
-  ul.classList.toggle("popup");
+function toggleMenu() {
+  const nav = document.querySelector("header > nav")
+  if (nav.style.display == "block") {
+    nav.style.display = "none"
+  } else {
+    nav.style.display = "block"
+  }
 }
 
 function filter(key, value){

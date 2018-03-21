@@ -1,4 +1,42 @@
 ---
+- code: awaken_i_am-the_depths
+  name: The Depths
+  band: awaken_i_am
+  disc: awaken_i_am-shields_and_crowns
+  date: 
+  type: 
+  label: 
+  video_date: 
+  youtube: https://www.youtube.com/watch?v=TszCRnCys94
+  apple: 
+  play: 
+  spotify: 
+  links: 
+  guests:
+  - code: jonny_craig
+    label: Guest vocals
+  body: 
+  public: true
+  memo: 
+- code: awaken_i_am-shields
+  name: Shields
+  band: awaken_i_am
+  disc: awaken_i_am-shields_and_crowns
+  date: 
+  type: 
+  label: 
+  video_date: 
+  youtube: https://www.youtube.com/watch?v=EbRREcJdr38
+  apple: 
+  play: 
+  spotify: 
+  links: 
+  guests:
+  - code: ricky_thomas
+    label: Guest vocals
+  body: 
+  public: true
+  memo: 
 - code: awaken_i_am-channeling
   name: Channeling
   band: awaken_i_am

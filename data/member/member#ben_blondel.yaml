@@ -8,8 +8,10 @@ images:
 - http://images.fasterlouder.com.au/1191/1191894.jpg
 links:
 - http://fasterlouder.junkee.com/ben-blondel/692545
+bands:
+- in_league
+songs:
+- awaken_i_am-channeling
 body: 
 public: true
-memo: |
-  hogehoge
-  xxx
+memo: 

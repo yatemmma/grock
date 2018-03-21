@@ -8,6 +8,8 @@ class Member < Metadata
   attr_writer :country
   attr_writer :images
   attr_writer :links
+  attr_writer :bands
+  attr_writer :songs
   attr_writer :body
   attr_writer :public
   attr_writer :memo

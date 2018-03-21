@@ -542,7 +542,8 @@ header {
 }
 
 .contents .band,
-.contents .disc {
+.contents .disc,
+.contents .song {
   margin: 16px;
   padding: 16px;
   background-color: #444;
@@ -556,8 +557,13 @@ header {
   height: 146px;
 }
 
+.contents .song {
+  height: 182px;
+}
+
 .contents .band .image,
-.contents .disc .image {
+.contents .disc .image,
+.contents .song .image {
   position: relative;
   display: table-cell;
   vertical-align: middle;
@@ -580,8 +586,13 @@ header {
   margin-right: 16px;
 }
 
+.contents .song .image {
+  margin-right: 16px;
+}
+
 .contents .band .image img,
-.contents .disc .image img {
+.contents .disc .image img,
+.contents .song .image img {
   width: auto;
   height: auto;
   max-width: 100%;
@@ -608,7 +619,11 @@ header {
 .contents .disc .date {
   margin-top: 21px;
 }
-
+.contents .song .label,
+.contents .song .name,
+.contents .song .date {
+  margin-top: 31px;
+}
 
 .contents .active,
 .contents .genre,

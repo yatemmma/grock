@@ -85,7 +85,7 @@ module HtmlHelper
 
   def disc_block(disc, level = 0)
     html = <<-"EOS"
-      <a class="block" href="./#{"../"*level}/disc/#{disc.code}.html">
+      <a class="block" href="./#{"../"*level}disc/#{disc.code}.html">
         <div class="disc">
           <div class="image">
             <img src="#{disc.disc_image(level)}" />
@@ -93,6 +93,21 @@ module HtmlHelper
           <div class="title">#{disc.name}</div>
           <div class="artist">#{disc.band?.name}</div>
           <div class="date">#{disc.date}</div>
+        </div>
+      </a>
+    EOS
+  end
+
+  def video_block(song, level = 0)
+    html = <<-"EOS"
+      <a class="block" href="./#{"../"*level}song/#{song.code}.html">
+        <div class="song">
+          <div class="image">
+            <img src="#{song.youtube_thmbnail}" />
+          </div>
+          <div class="label">Music Video</div>
+          <div class="name">#{song.name}</div>
+          <div class="date">#{song.video_date}</div>
         </div>
       </a>
     EOS

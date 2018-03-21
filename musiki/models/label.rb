@@ -5,6 +5,7 @@ class Label < Metadata
   attr_writer :name
   attr_writer :website
   attr_writer :wikipedia
+  attr_writer :youtube
   attr_writer :links
   attr_writer :body
   attr_writer :public

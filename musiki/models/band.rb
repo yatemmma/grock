@@ -21,10 +21,12 @@ class Band < Metadata
   attr_writer :twitter
   attr_writer :facebook
   attr_writer :instagram
+  attr_writer :discogs
   attr_writer :links
   attr_writer :members
   attr_writer :past_members
   attr_writer :discs
+  attr_writer :videos
   attr_writer :body
   attr_writer :public
   attr_writer :memo
@@ -32,6 +34,12 @@ class Band < Metadata
   def discs?
     (discs || []).map do |disc|
       Metadata.disc[disc]
+    end
+  end
+
+  def videos?
+    (videos || []).map do |video|
+      Metadata.song[video]
     end
   end
 

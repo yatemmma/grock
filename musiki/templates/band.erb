@@ -48,12 +48,17 @@
       <%= link_block("Twitter", band.twitter) unless band.twitter.nil? %>
       <%= link_block("Facebook", band.facebook) unless band.facebook.nil? %>
       <%= link_block("Instagram", band.instagram) unless band.instagram.nil? %>
+      <%= link_block("Discogs", band.discogs) unless band.discogs.nil? %>
       <% (band.links || []).map do |link| %>
         <%= link_block("Link", link) %>
       <% end %>
 
       <% (band.discs? || []).map do |disc| %>
         <%= disc_block(disc, 1) %>
+      <% end %>
+
+      <% (band.videos? || []).map do |song| %>
+        <%= video_block(song, 1) %>
       <% end %>
     </div>
 

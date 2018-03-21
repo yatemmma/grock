@@ -24,7 +24,7 @@
       <%= sns("disc/#{disc.code}.html", disc.name, 1) %>
 
       <%= disc_block(disc, 1) %>
-      
+
       <%= band_link(disc.band?, "band/#{disc.band?.code}", 1) %>
 
       <%= link_block("Apple Music", disc.apple) unless disc.apple.nil? %>
@@ -35,6 +35,7 @@
       <% (disc.links || []).map do |link| %>
         <%= link_block("Link", link) %>
       <% end %>
+      <%= link_block("Search", disc.search_link) %>
     </div>
 
     <div class="sub-contents">

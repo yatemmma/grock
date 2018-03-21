@@ -61,7 +61,7 @@ module HtmlHelper
 
   def band_block(label, band, path, level = 0)
     html = <<-"EOS"
-      <a class="block" href="./#{"../"*level}/#{path}.html">
+      <a class="block" href="./#{"../"*level}#{path}.html">
         <div class="band">
           <div class="image">
             <img src="#{band.images.nil? ? '' : band.images.first}" />

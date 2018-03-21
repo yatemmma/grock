@@ -15,9 +15,9 @@ FileUtils.mkdir_p(File.dirname(path))
 
 hash = {}
 Band.attributes.each do |key|
-  hash[key] = nil
+  hash[key.to_s] = nil
 end
-hash[:code] = code
-hash[:name] = band
+hash["code"] = code
+hash["name"] = band
 
 YAML.dump(hash, File.open(path, "w"))

@@ -12,8 +12,6 @@ class Updater
       if name == "disc" || name == "song"
         hash_by_band = {}
         items.each do |code, item|
-          # path = "data2/#{name}/#{name}##{item.code}.yaml"
-          # FileUtils.mkdir_p(File.dirname(path))
 
           diff = (item.contents.keys.map {|key| key.to_sym}) - clazz.attributes
           raise "mismatched keys:#{diff} on #{clazz}" unless diff.empty?
@@ -24,7 +22,6 @@ class Updater
           contents = clazz.attributes.map do |attribute|
             [attribute.to_s, hash_object[attribute.to_s]]
           end.to_h
-          # YAML.dump(contents.to_h, File.open(path, "w"))
 
           if hash_by_band.has_key? contents["band"]
             hash_by_band[contents["band"]] << contents

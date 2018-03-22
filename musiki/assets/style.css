@@ -370,4 +370,44 @@ footer {
   footer div.copy {
     padding: 12px 0 24px 0; }
 
+@media screen and (max-width: 812px) {
+  .contents-wrapper .hidden-on-mobile {
+    display: none; } }
+.contents-wrapper table.items {
+  margin: 0 10px;
+  border-collapse: collapse; }
+  .contents-wrapper table.items thead th {
+    text-align: left;
+    min-width: 120px;
+    position: relative; }
+    .contents-wrapper table.items thead th input {
+      width: 100%;
+      padding-right: 20px; }
+    .contents-wrapper table.items thead th a {
+      position: absolute;
+      right: 6px;
+      top: 3px;
+      font-size: 1.2em;
+      color: #444; }
+  .contents-wrapper table.items thead th.name {
+    width: 520px; }
+  .contents-wrapper table.items thead th.note {
+    width: 300px; }
+    .contents-wrapper table.items thead th.note input {
+      width: 100%; }
+  .contents-wrapper table.items tbody tr {
+    height: 40px; }
+  .contents-wrapper table.items tbody tr.odd {
+    background-color: #444; }
+  .contents-wrapper table.items tbody td {
+    padding-left: 4px; }
+    .contents-wrapper table.items tbody td a {
+      display: block;
+      width: 100%; }
+  .contents-wrapper table.items tbody td.name {
+    width: 800px; }
+  @media screen and (max-width: 812px) {
+    .contents-wrapper table.items tbody {
+      font-size: 0.8em; } }
+
 /*# sourceMappingURL=style.css.map */

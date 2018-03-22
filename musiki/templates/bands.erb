@@ -9,7 +9,7 @@
     <table class="items">
       <thead>
         <tr class="hidden-on-mobile">
-          <th>
+          <th class="name">
             <input type="text" class="search-name" placeholder="Band Name"></input>
             <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
           </th>
@@ -25,21 +25,21 @@
             <input type="text" class="search-genre" placeholder="Genre"></input>
             <a href="#" onclick="sort('genre')"><i class="fas fa-sort"></i></a>
           </th>
-          <th>
+          <th class="note">
             <input type="text" class="search-note" placeholder="Note"></input>
           </th>
         </tr>
       </thead>
       <tbody>
-        <% bands.each do |code, band| %>
-        <tr>
-          <td><a href="band/<%= band.code %>.html"><%= band.name %></a></td>
+        <% bands.each_with_index do |(code, band), i| %>
+        <tr class="<%= "odd" unless i%2 == 0 %>">
+          <td class="name"><a href="band/<%= band.code %>.html"><%= band.name %></a></td>
           <td>
             <span class="flag"><%= band.country_emoji %></span>
             <span class="hidden-on-mobile"><%= band.country_name %></span>
           </td>
           <td class="hidden-on-mobile"><%= band.active_short %></td>
-          <td><%= band.main_genre %></td>
+          <td class="hidden-on-mobile"><%= band.main_genre %></td>
           <td class="hidden-on-mobile"></td>
         </tr>
         <% end %>

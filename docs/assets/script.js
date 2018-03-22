@@ -33,10 +33,16 @@ function filter(key, value){
   }
   filltered[key] = value
 
+  let showIndex = 0
   const $rows = document.querySelectorAll(".items tbody tr")
   $rows.forEach(($row, i)=>{
+    $row.classList.remove("odd")
     if (originals[i][key].toLowerCase().indexOf(value.toLowerCase()) >= 0) {
       $row.style.display = ""
+      if (showIndex%2 !== 0) {
+        $row.classList.add("odd")
+      }
+      showIndex++
     } else {
       $row.style.display = "none"
     }
@@ -72,8 +78,17 @@ function sort(key){
   while ($tbody.firstChild) {
     $tbody.removeChild($tbody.firstChild)
   }
-  displayed = sorted.map((item)=>{
-    $tbody.appendChild($rows[item.index])
+  let showIndex = 0
+  displayed = sorted.map((item, i)=>{
+    const $row = $rows[item.index]
+    $row.classList.remove("odd")
+    if ($row.style.display == "") {
+      if (showIndex%2 !== 0) {
+        $row.classList.add("odd")
+      }
+      showIndex++
+    }
+    $tbody.appendChild($row)
     delete item.index
     return Object.assign({}, item)
   })

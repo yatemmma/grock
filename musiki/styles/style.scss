@@ -1,42 +1,117 @@
 .contents-wrapper {
-  h2 {
-    padding: 0 8px;
-  }
-
-  .main-image {
-    width: 100%;
-  }
-  .image {
-    overflow: hidden;
-	  position: relative;
-    background-color: $SECONDARY_BG_COLOR;
-
-    img {
-      left: 50%;
-      max-height: 100%;
-      max-width: 100%;
-      position: absolute;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      -webkit-transition: opacity 0.5s ease-in;
-      transition: opacity 0.5s ease-in;
-      opacity: 0;
-    }
-
-    img.visible {
-      opacity: 1;
-    }
-  }
-
   @include screen-tablet {
-    .main-image {
-      height: 540px;
+    @include clearfix;
+
+    .contents {
+      width: 66%;
+      padding: 0 1%;
+      float: left;
+      @include line-right;
+    }
+
+    .sub-contents {
+      width: 30%;
+      padding: 0 1%;
+      float: left;
     }
   }
 
-  @include screen-mobile {
-    .main-image {
-      height: 200px;
+  .contents {
+    .body {
+      min-height: 48px;
+    }
+
+    .sns {
+      text-align: center;
+      padding: 16px 0;
+    }
+
+    .block {
+      display: block;
+      background-color: $SECONDARY_BG_COLOR;
+      padding: 16px;
+      margin: 8px 0;
+      @include clearfix;
+
+      .image {
+        background-color: $PRIMARY_BG_COLOR;
+        float: left;
+        margin-right: 32px;
+      }
+
+      .desc {
+        float: left;
+
+        div {
+          clear: both;
+        }
+      }
+    }
+
+    a.block {
+      display: block;
+      background-color: $CLICK_BGA_COLOR;
+      padding: 16px;
+      margin: 8px 0;
+      @include clearfix;
+
+      .type {
+        display: inline-block;
+        float: left;
+        width: 27%;
+        margin-right: 16px;
+        @include line-right;
+      }
+
+      .title {
+        display: inline-block;
+        float: left;
+        max-width: 68%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+
+    a.block:hover {
+      background-color: $SECONDARY_BG_COLOR;
+    }
+
+    .band {
+      .image {
+        width: 320px;
+        height: 200px;
+      }
+
+      .desc {
+        .label {
+          padding-top: 16px;
+          height: 74px;
+        }
+        .name {
+          font-size: 1.4em;
+        }
+      }
+    }
+
+    .disc {
+      .image {
+        width: 200px;
+        height: 200px;
+      }
+
+      .desc {
+        .name {
+          padding-top: 56px;
+          height: 40px;
+        }
+        .artist {
+          height: 40px;
+        }
+        .date {
+          height: 40px;
+        }
+      }
     }
   }
 }

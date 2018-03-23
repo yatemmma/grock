@@ -62,15 +62,17 @@ module HtmlHelper
 
   def band_block(label, band, path, level = 0)
     html = <<-"EOS"
-      <a class="block" href="./#{"../"*level}#{path}.html">
-        <div class="band">
-          <div class="image">
-            <img src="#{band.images.nil? ? '' : band.images.first}" />
+      <a class="block band" href="./#{"../"*level}#{path}.html">
+        <div class="image" data-image="#{band.images.nil? ? '' : band.images.first}">
+          <img>
+        </div>
+        <div class="desc">
+          <div class="label">
+            #{label.nil? ? "" : label}
           </div>
           <div class="name">
-            #{label.nil? ? "" : "<span class='label'>" + label + ":</span>"}
             #{band.name} #{band.description.nil? ? "" : " (" + band.description + ")"}
-          </div>
+         </div>
         </div>
       </a>
     EOS
@@ -86,12 +88,12 @@ module HtmlHelper
 
   def disc_block(disc, level = 0)
     html = <<-"EOS"
-      <a class="block" href="./#{"../"*level}disc/#{disc.code}.html">
-        <div class="disc">
-          <div class="image">
-            <img src="#{disc.disc_image(level)}" />
-          </div>
-          <div class="title">#{disc.name}</div>
+      <a class="block disc" href="./#{"../"*level}disc/#{disc.code}.html">
+        <div class="image" data-image="#{disc.disc_image(level)}">
+          <img>
+        </div>
+        <div class="desc">
+          <div class="name">#{disc.name}</div>
           <div class="artist">#{disc.band?.name}</div>
           <div class="date">#{disc.date}</div>
         </div>

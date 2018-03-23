@@ -10,15 +10,20 @@
 (function(){
   addInputChangeListener()
   setYoutubeVideo()
-  inView(".image").once("enter", showImage)
+  inView(".image").on("enter", showImage)
 })()
 
 function showImage(e) {
   const img = e.querySelector("img")
-  img.src = e.getAttribute("data-image")
-  setTimeout(()=>{
-    img.classList.toggle("visible")
-  }, 100)
+  if (!img.src) {
+    const url = e.getAttribute("data-image")
+    if (url) {
+      img.src = url
+      setTimeout(()=>{
+        img.classList.add("visible")
+      }, 100)
+    }
+  }
 }
 
 function addInputChangeListener() {

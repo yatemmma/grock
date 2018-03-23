@@ -1,0 +1,42 @@
+.contents-wrapper {
+  h2 {
+    padding: 0 8px;
+  }
+
+  .main-image {
+    width: 100%;
+  }
+  .image {
+    overflow: hidden;
+	  position: relative;
+    background-color: $SECONDARY_BG_COLOR;
+
+    img {
+      left: 50%;
+      max-height: 100%;
+      max-width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transition: opacity 0.5s ease-in;
+      transition: opacity 0.5s ease-in;
+      opacity: 0;
+    }
+
+    img.visible {
+      opacity: 1;
+    }
+  }
+
+  @include screen-tablet {
+    .main-image {
+      height: 540px;
+    }
+  }
+
+  @include screen-mobile {
+    .main-image {
+      height: 200px;
+    }
+  }
+}

@@ -1,14 +1,14 @@
-<% member = obj %>
+<% member = obj; level = 1 %>
 <html>
 <head>
-  <%= head(member.name + " | G-ROCK", 1) %>
+  <%= head(member.name + " | G-ROCK", level) %>
 </head>
 <body>
   <%= header(1) %>
   <div class="contents-wrapper">
 
     <div class="main-image image" data-image="<%= member.images.nil? ? '' : member.images.first %>">
-      <img src="">
+      <img>
     </div>
     <h2>
       <%= member.name %>
@@ -16,9 +16,9 @@
     </h2>
 
     <div class="contents">
-      <%= body(member.body, 1) %>
+      <%= body(member.body, level) %>
 
-      <%= sns("member/#{member.code}.html", member.name, 1) %>
+      <%= sns("member/#{member.code}.html", member.name, level) %>
 
       <%= origin_block(member) unless member.country.nil?%>
 
@@ -31,6 +31,6 @@
       xxxx
     </div>
   </div>
-  <%= footer(1) %>
+  <%= footer(level) %>
 </body>
 </html>

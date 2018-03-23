@@ -7,6 +7,7 @@ class Label < Metadata
   attr_writer :wikipedia
   attr_writer :youtube
   attr_writer :links
+  attr_writer :images
   attr_writer :body
   attr_writer :public
   attr_writer :memo

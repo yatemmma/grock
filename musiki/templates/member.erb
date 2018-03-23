@@ -7,10 +7,8 @@
   <%= header(1) %>
   <div class="contents-wrapper">
 
-    <div class="main">
-      <div class="image">
-        <img src="<%= member.images.nil? ? '' : member.images.first %>" />
-      </div>
+    <div class="main-image image" data-image="<%= member.images.nil? ? '' : member.images.first %>">
+      <img src="">
     </div>
     <h2>
       <%= member.name %>

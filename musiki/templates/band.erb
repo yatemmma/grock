@@ -10,11 +10,7 @@
     <% if !band.main_youtube.nil? %>
       <div id="player" data-key="<%= band.main_youtube_key %>"></div>
     <% elsif !band.images.nil? %>
-      <div class="main">
-        <div class="image">
-          <img src="<%= band.images.nil? ? '' : band.images.first %>" />
-        </div>
-      </div>
+      <div class="main-image" style="background-image:url(<%= band.images.nil? ? '' : band.images.first %>);"></div>
     <% end %>
     <h2><%= band.name %></h2>
 

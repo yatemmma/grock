@@ -5,8 +5,18 @@
 </head>
 <body>
   <%= header(1) %>
-  <div class="contents">
-    <%= label.name %>
+  <div class="contents-wrapper">
+
+    <div class="main-image" style="background-image:url(<%= label.images.nil? ? '' : label.images.first %>);"></div>
+    <h2>
+      <%= label.name %>
+    </h2>
+
+    <div class="contents">
+    </div>
+
+    <div class="sub-contents">
+    </div>
   </div>
   <%= footer(1) %>
 </body>

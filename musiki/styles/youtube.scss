@@ -1,0 +1,21 @@
+.contents-wrapper {
+  #player {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 970px) {
+    #player { height: 547px; }
+  }
+
+  @media screen and (min-width: 860px) and (max-width: 969px) {
+    #player { height: 480px; }
+  }
+
+  @media screen and (min-width: 660px) and (max-width: 859px) {
+    #player { height: 360px; }
+  }
+
+  @media screen and (max-width: 659px) {
+    #player { height: 240px; }
+  }
+}

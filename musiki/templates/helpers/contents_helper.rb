@@ -55,7 +55,7 @@ module ContentsHTMLHelper
       <a class="block song" href="#{link page_path(song)}">
         <div class="image" data-image="#{song.youtube_thmbnail}"><img></div>
         <div class="desc">
-          <div class="name">#{song.type}</div>
+          <div class="name">#{song.song_type_name}</div>
           <div class="artist">#{song.name}</div>
           <div class="date">#{song.video_date}</div>
         </div>
@@ -70,7 +70,7 @@ module ContentsHTMLHelper
   end
 
   def links_block(data, type = nil)
-    
+
     return if data.nil?
 
     type_name = type || "Link"

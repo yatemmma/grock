@@ -19,15 +19,6 @@ class Song < Metadata
   attr_writer :public
   attr_writer :memo
 
-  def title
-    items = []
-    items << "(#{song_type_name})" unless type.nil?
-    items << "#{band?.name} -" unless band.nil?
-    items << name
-    items << "[#{video_date_year}]" unless video_date.nil?
-    items.join(" ")
-  end
-
   def guests?
     (guests || []).map do |guest|
       [Metadata.member[guest["code"]], guest]

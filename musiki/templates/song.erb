@@ -15,13 +15,16 @@
     <% end %>
 
     <h2>
-      <%= song.title %>
+      <%= "(#{song.song_type_name}) " unless song.type.nil? %>
+      <%= "#{song.band?.name} - " unless song.band?.nil? %>
+      <%= song.name %>
+      <%= "[#{song.video_date_year}]" unless song.video_date.nil? %>
     </h2>
 
     <div class="contents">
-      <%= body(song.body, 1) %>
+      <%= body(song) %>
 
-      <%= sns("song/#{song.code}.html", song.title, 1) %>
+      <%= sns("song/#{song.code}.html", song.name, 1) %>
 
       <%= band_link(song.band?, "band/#{song.band?.code}", 1) %>
 

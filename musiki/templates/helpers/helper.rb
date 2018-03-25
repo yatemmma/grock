@@ -1,6 +1,7 @@
 require "./musiki/templates/helpers/head_helper"
 require "./musiki/templates/helpers/header_footer_helper"
 require "./musiki/templates/helpers/main_contents_helper"
+require "./musiki/templates/helpers/body_helper"
 
 module HTMLHelper
   include AttributeHelper
@@ -18,14 +19,7 @@ module HTMLHelper
   include HeadHTMLHelper
   include HeaderFooterHTMLHelper
   include MainContentsHTMLHelper
-
-  def body(text, l = 0)
-    html = <<-"EOS"
-      <div class="body">
-        #{text}
-      </div>
-    EOS
-  end
+  include BodyHTMLHelper
 
   def sns(path, title, level = 0)
     html = <<-"EOS"

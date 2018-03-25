@@ -469,6 +469,9 @@ footer {
     width: 30%;
     padding: 0 1%;
     float: left; } }
+@media screen and (max-width: 812px) {
+  .contents-wrapper .contents {
+    padding-bottom: 32px; } }
 .contents-wrapper .contents .body {
   min-height: 48px; }
 .contents-wrapper .contents .sns {
@@ -484,13 +487,18 @@ footer {
     content: "";
     display: block; }
   .contents-wrapper .contents .block .image {
-    background-color: #333;
-    float: left;
-    margin-right: 32px; }
-  .contents-wrapper .contents .block .desc {
-    float: left; }
-    .contents-wrapper .contents .block .desc div {
-      clear: both; }
+    background-color: #333; }
+  @media screen and (min-width: 813px) {
+    .contents-wrapper .contents .block .image {
+      float: left;
+      margin-right: 32px; }
+    .contents-wrapper .contents .block .desc {
+      float: left; }
+      .contents-wrapper .contents .block .desc div {
+        clear: both; } }
+  @media screen and (max-width: 812px) {
+    .contents-wrapper .contents .block .image {
+      margin: 0 auto 16px; } }
 .contents-wrapper .contents a.block {
   display: block;
   background-color: #444;
@@ -521,26 +529,30 @@ footer {
 .contents-wrapper .contents .band .image {
   width: 320px;
   height: 200px; }
-.contents-wrapper .contents .band .desc .label {
-  padding-top: 16px;
-  height: 74px; }
+@media screen and (min-width: 813px) {
+  .contents-wrapper .contents .band .desc .label {
+    padding-top: 16px;
+    height: 74px; } }
 .contents-wrapper .contents .band .desc .name {
   font-size: 1.4em; }
 .contents-wrapper .contents .disc .image {
   width: 200px;
   height: 200px; }
-.contents-wrapper .contents .disc .desc .name {
-  padding-top: 56px; }
+@media screen and (min-width: 813px) {
+  .contents-wrapper .contents .disc .desc .name {
+    padding-top: 56px; } }
 .contents-wrapper .contents .song .image {
   width: 300px;
   height: 170px; }
-.contents-wrapper .contents .song .desc .name {
-  padding-top: 38px; }
-.contents-wrapper .contents .disc .desc .name, .contents-wrapper .contents .song .desc .name {
-  height: 40px; }
-.contents-wrapper .contents .disc .desc .artist, .contents-wrapper .contents .song .desc .artist {
-  height: 40px; }
-.contents-wrapper .contents .disc .desc .date, .contents-wrapper .contents .song .desc .date {
-  height: 40px; }
+@media screen and (min-width: 813px) {
+  .contents-wrapper .contents .song .desc .name {
+    padding-top: 38px; } }
+@media screen and (min-width: 813px) {
+  .contents-wrapper .contents .disc .desc div, .contents-wrapper .contents .song .desc div {
+    height: 40px; } }
+@media screen and (max-width: 812px) {
+  .contents-wrapper .contents .disc .desc div, .contents-wrapper .contents .song .desc div {
+    height: 1.5em;
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */

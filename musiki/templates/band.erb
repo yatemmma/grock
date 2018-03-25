@@ -21,7 +21,7 @@
     <div class="contents">
       <%= body(band) %>
 
-      <%= sns("band/#{obj.code}.html", obj.name, 1) %>
+      <%= sns(band) %>
 
       <%= origin_block(obj) unless obj.country.nil?%>
 
@@ -37,28 +37,19 @@
         </div>
       <% end %>
 
-      <%= link_block("Apple Music", band.apple) unless band.apple.nil? %>
-      <%= link_block("Play Music", band.play) unless band.play.nil? %>
-      <%= link_block("Spotify", band.spotify) unless band.spotify.nil? %>
-      <%= link_block("SoundCloud", band.soundcloud) unless band.soundcloud.nil? %>
-      <%= link_block("Bandcamp", band.bandcamp) unless band.bandcamp.nil? %>
-      <%= link_block("YouTube", band.youtube) unless band.youtube.nil? %>
-      <%= link_block("Website", band.website) unless band.website.nil? %>
-      <%= link_block("Wikipedia", band.wikipedia) unless band.wikipedia.nil? %>
-      <%= link_block("Twitter", band.twitter) unless band.twitter.nil? %>
-      <%= link_block("Facebook", band.facebook) unless band.facebook.nil? %>
-      <%= link_block("Instagram", band.instagram) unless band.instagram.nil? %>
-      <%= link_block("Discogs", band.discogs) unless band.discogs.nil? %>
+      <% %w(apple play spotify soundcloud bandcamp youtube website wikipedia twitter facebook instagram discogs).each do |key| %>
+        <%= link_block(band, key) %>
+      <% end %>
       <% (band.links || []).map do |link| %>
-        <%= link_block("Link", link) %>
+        <%= links_block(link) %>
       <% end %>
 
-      <% (band.discs? || []).map do |disc| %>
-        <%= disc_block(disc, layer) %>
+      <% band.discs?.each do |disc| %>
+        <%= disc_block(disc) %>
       <% end %>
 
-      <% (band.videos? || []).map do |song| %>
-        <%= video_block(song, layer) %>
+      <% band.videos?.each do |song| %>
+        <%= video_block(song) %>
       <% end %>
     </div>
 

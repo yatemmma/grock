@@ -15,6 +15,14 @@ class Member < Metadata
   attr_writer :public
   attr_writer :memo
 
+  def id
+    "member"
+  end
+
+  def title
+    name
+  end
+
   def json
     data = {
       name: name,

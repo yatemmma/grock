@@ -21,6 +21,14 @@ class Disc < Metadata
   attr_writer :public
   attr_writer :memo
 
+  def id
+    "disc"
+  end
+
+  def title
+    name
+  end
+
   def json
     data = {
       name: name,

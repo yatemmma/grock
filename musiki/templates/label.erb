@@ -18,7 +18,14 @@
     <div class="contents">
       <%= body(label) %>
 
-      <%= sns("label/#{label.code}.html", label.name, 1) %>
+      <%= sns(label) %>
+
+      <% %w(website wikipedia youtube).each do |key| %>
+        <%= link_block(label, key) %>
+      <% end %>
+      <% (label.links || []).map do |link| %>
+        <%= links_block(link) %>
+      <% end %>
     </div>
 
     <div class="sub-contents">

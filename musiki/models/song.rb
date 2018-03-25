@@ -19,6 +19,14 @@ class Song < Metadata
   attr_writer :public
   attr_writer :memo
 
+  def id
+    "song"
+  end
+
+  def title
+    name
+  end
+
   def guests?
     (guests || []).map do |guest|
       [Metadata.member[guest["code"]], guest]

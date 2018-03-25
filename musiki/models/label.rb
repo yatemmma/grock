@@ -13,6 +13,14 @@ class Label < Metadata
   attr_writer :public
   attr_writer :memo
 
+  def id
+    "label"
+  end
+
+  def title
+    name
+  end
+
   def json
     data = {
       name: name,

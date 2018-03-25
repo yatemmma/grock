@@ -24,20 +24,20 @@
     <div class="contents">
       <%= body(song) %>
 
-      <%= sns("song/#{song.code}.html", song.name, 1) %>
+      <%= sns(song) %>
 
-      <%= band_link(song.band?, "band/#{song.band?.code}", 1) %>
+      <%= band_block(song.band?) %>
 
       <% song.guests?.each do |items|%>
         <% member, org = items %>
-        <%= guest_link(org["label"], member, "member/#{member.code}", 1) %>
+        <%= band_block(member, org["label"]) %>
       <% end %>
 
-      <%= link_block("Apple Music", song.apple) unless song.apple.nil? %>
-      <%= link_block("Play Music", song.play) unless song.play.nil? %>
-      <%= link_block("Spotify", song.spotify) unless song.spotify.nil? %>
-      <% (song.links || []).map do |link| %>
-        <%= link_block("Link", link) %>
+      <% %w(apple play spotify).each do |key| %>
+        <%= link_block(song, key) %>
+      <% end %>
+      <% (song.links || []).each do |link| %>
+        <%= links_block(link) %>
       <% end %>
     </div>
 

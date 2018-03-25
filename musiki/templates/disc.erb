@@ -22,22 +22,19 @@
     <div class="contents">
       <%= body(disc) %>
 
-      <%= sns("disc/#{disc.code}.html", disc.name, 1) %>
+      <%= sns(disc) %>
 
-      <%= disc_block(disc, 1) %>
+      <%= disc_block(disc) %>
 
-      <%= band_link(disc.band?, "band/#{disc.band?.code}", 1) %>
+      <%= band_block(disc.band?) %>
 
-      <%= link_block("Apple Music", disc.apple) unless disc.apple.nil? %>
-      <%= link_block("Play Music", disc.play) unless disc.play.nil? %>
-      <%= link_block("Spotify", disc.spotify) unless disc.spotify.nil? %>
-      <%= link_block("Amazon", disc.amazon) unless disc.amazon.nil? %>
-      <%= link_block("Discogs", disc.discogs) unless disc.discogs.nil? %>
-      <%= link_block("Youtube", disc.youtube) unless disc.youtube.nil? %>
-      <% (disc.links || []).map do |link| %>
-        <%= link_block("Link", link) %>
+      <% %w(apple play spotify amazon discogs youtube).each do |key| %>
+        <%= link_block(disc, key) %>
       <% end %>
-      <%= link_block("Search", disc.search_link) %>
+      <% (disc.links || []).map do |link| %>
+        <%= links_block(link) %>
+      <% end %>
+      <%= links_block(disc.search_link, "Search") %>
     </div>
 
     <div class="sub-contents">

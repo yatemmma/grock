@@ -21,12 +21,12 @@
     <div class="contents">
       <%= body(member) %>
 
-      <%= sns("member/#{member.code}.html", member.name, 1) %>
+      <%= sns(member) %>
 
       <%= origin_block(member) unless member.country.nil?%>
 
-      <% (member.links || []).map do |link| %>
-        <%= link_block("Link", link) %>
+      <% (member.links || []).each do |link| %>
+        <%= links_block(link) %>
       <% end %>
     </div>
 

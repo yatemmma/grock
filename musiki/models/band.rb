@@ -31,6 +31,14 @@ class Band < Metadata
   attr_writer :public
   attr_writer :memo
 
+  def id
+    "band"
+  end
+
+  def title
+    name
+  end
+
   def discs?
     (discs || []).map do |disc|
       Metadata.disc[disc]

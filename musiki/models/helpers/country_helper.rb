@@ -18,4 +18,8 @@ module CountryHelper
       c.emoji_flag
     end
   end
+
+  def origin_full
+    "#{country_emoji} #{origin.nil? ? country_name : origin}"
+  end
 end

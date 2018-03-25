@@ -26,12 +26,4 @@ module HTMLHelper
   include MainContentsHTMLHelper
   include BodyHTMLHelper
   include ContentsHTMLHelper
-
-  def origin_block(item)
-    html = <<-"EOS"
-      <div class="block origin" href="#">
-        #{item.country_emoji} #{item.origin.nil? ? item.country_name : item.origin}
-      </div>
-    EOS
-  end
 end

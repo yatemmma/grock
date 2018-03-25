@@ -23,19 +23,9 @@
 
       <%= sns(band) %>
 
-      <%= origin_block(obj) unless obj.country.nil?%>
-
-      <% unless obj.active.nil?%>
-        <div class="block active">
-          <%= obj.active %>
-        </div>
-      <% end %>
-
-      <% unless obj.genres.nil?%>
-        <div class="block genre">
-          <%= obj.all_genres %>
-        </div>
-      <% end %>
+      <%= info_block(band.origin_full, "origin") unless band.country.nil?%>
+      <%= info_block(band.active, "active") unless band.active.nil? %>
+      <%= info_block(band.all_genres, "genre") unless band.genres.nil? %>
 
       <% %w(apple play spotify soundcloud bandcamp youtube website wikipedia twitter facebook instagram discogs).each do |key| %>
         <%= link_block(band, key) %>

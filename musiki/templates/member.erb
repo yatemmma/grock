@@ -23,7 +23,7 @@
 
       <%= sns(member) %>
 
-      <%= origin_block(member) unless member.country.nil?%>
+      <%= info_block(member.origin_full, "origin") unless member.country.nil?%>
 
       <% (member.links || []).each do |link| %>
         <%= links_block(link) %>

@@ -11,6 +11,12 @@ module ContentsHTMLHelper
     EOS
   end
 
+  def info_block(text, class_names = "")
+    html = <<-"EOS"
+      <div class="block #{class_names}">#{text}</div>
+    EOS
+  end
+
   def band_block(item, label = "")
     image = item.images.nil? ? '' : item.images.first
     name = item.name
@@ -64,6 +70,7 @@ module ContentsHTMLHelper
   end
 
   def links_block(data, type = nil)
+    
     return if data.nil?
 
     type_name = type || "Link"

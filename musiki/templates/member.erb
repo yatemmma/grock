@@ -7,9 +7,9 @@
   <%= header(1) %>
   <div class="contents-wrapper">
 
-    <div class="main-image image" data-image="<%= member.images.nil? ? '' : member.images.first %>">
-      <img>
-    </div>
+    <% unless member.images.nil? %>
+      <div class="main-image image" data-image="<%= member.images.first %>"><img></div>
+    <% end %>
     <h2>
       <%= member.name %>
       <%= " (#{member.description})" unless member.description.nil? %>

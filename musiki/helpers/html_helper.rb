@@ -103,13 +103,13 @@ module HtmlHelper
 
   def video_block(song, level = 0)
     html = <<-"EOS"
-      <a class="block" href="./#{"../"*level}song/#{song.code}.html">
-        <div class="song">
-          <div class="image">
-            <img src="#{song.youtube_thmbnail}" />
-          </div>
-          <div class="label">Music Video</div>
-          <div class="name">#{song.name}</div>
+      <a class="block song" href="./#{"../"*level}song/#{song.code}.html">
+        <div class="image" data-image="#{song.youtube_thmbnail}">
+          <img>
+        </div>
+        <div class="desc">
+          <div class="name">#{song.type}</div>
+          <div class="artist">#{song.name}</div>
           <div class="date">#{song.video_date}</div>
         </div>
       </a>

@@ -7,15 +7,21 @@
   <%= header(1) %>
   <div class="contents-wrapper">
 
-    <div class="main-image" style="background-image:url(<%= label.images.nil? ? '' : label.images.first %>);"></div>
+    <% unless label.images.nil? %>
+      <div class="main-image image" data-image="<%= label.images.first %>"><img></div>
+    <% end %>
     <h2>
       <%= label.name %>
     </h2>
 
     <div class="contents">
+      <%= body(label.body, 1) %>
+
+      <%= sns("label/#{label.code}.html", label.name, 1) %>
     </div>
 
     <div class="sub-contents">
+      xxx
     </div>
   </div>
   <%= footer(1) %>

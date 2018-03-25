@@ -1,4 +1,4 @@
-require "./musiki/helpers/helper"
+require "./musiki/models/helpers/helper"
 
 class Metadata
   def self.attr_writer(*vars)
@@ -51,5 +51,5 @@ class Metadata
     super
   end
 
-    include Helper
+  include AttributeHelper
 end

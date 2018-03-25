@@ -1,17 +1,15 @@
-module HtmlHelper
-  include Helper
+require "./musiki/templates/helpers/head_helper"
+require "./musiki/templates/helpers/header_helper"
 
-  def head(title, level = 0)
-    html = <<-"EOS"
-      <meta charset="utf-8">
-      <title>#{title}</title>
-      <link rel="shortcut icon" type="image/x-icon" href="./#{"../"*level}assets/images/favicon.ico" />
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <link href="./#{"../"*level}assets/style.css" media="all" rel="stylesheet" />
-      <link href="./#{"../"*level}assets/vendor/css/fontawesome-all.min.css" media="all" rel="stylesheet" />
-      <script src="./#{"../"*level}assets/script.js" async></script>
-    EOS
+module HTMLHelper
+  include AttributeHelper
+
+  def link(path)
+    "./#{"../"*@layer}#{path}"
   end
+
+  include HeadHTMLHelper
+  include HeaderHTMLHelper
 
   def header(level = 0)
     html = <<-"EOS"

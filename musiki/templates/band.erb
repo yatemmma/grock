@@ -1,35 +1,35 @@
 <% band = obj %>
 <html>
 <head>
-  <%= head(band.name + " | G-ROCK", 1) %>
+  <%= head band.name %>
 </head>
 <body>
-  <%= header(1) %>
+  <%= header(layer) %>
   <div class="contents-wrapper">
 
-    <% if !band.main_youtube.nil? %>
-      <div id="player" data-key="<%= band.main_youtube_key %>"></div>
-    <% elsif !band.images.nil? %>
-      <div class="main-image" style="background-image:url(<%= band.images.nil? ? '' : band.images.first %>);"></div>
+    <% if !obj.main_youtube.nil? %>
+      <div id="player" data-key="<%= obj.main_youtube_key %>"></div>
+    <% elsif !obj.images.nil? %>
+      <div class="main-image" style="background-image:url(<%= obj.images.first %>);"></div>
     <% end %>
-    <h2><%= band.name %></h2>
+    <h2><%= obj.name %></h2>
 
     <div class="contents">
-      <%= body(band.body, 1) %>
+      <%= body(obj.body, 1) %>
 
-      <%= sns("band/#{band.code}.html", band.name, 1) %>
+      <%= sns("band/#{obj.code}.html", obj.name, 1) %>
 
-      <%= origin_block(band) unless band.country.nil?%>
+      <%= origin_block(obj) unless obj.country.nil?%>
 
-      <% unless band.active.nil?%>
+      <% unless obj.active.nil?%>
         <div class="block active">
-          <%= band.active %>
+          <%= obj.active %>
         </div>
       <% end %>
 
-      <% unless band.genres.nil?%>
+      <% unless obj.genres.nil?%>
         <div class="block genre">
-          <%= band.all_genres %>
+          <%= obj.all_genres %>
         </div>
       <% end %>
 
@@ -50,11 +50,11 @@
       <% end %>
 
       <% (band.discs? || []).map do |disc| %>
-        <%= disc_block(disc, 1) %>
+        <%= disc_block(disc, layer) %>
       <% end %>
 
       <% (band.videos? || []).map do |song| %>
-        <%= video_block(song, 1) %>
+        <%= video_block(song, layer) %>
       <% end %>
     </div>
 
@@ -63,6 +63,6 @@
     </div>
 
   </div>
-  <%= footer(1) %>
+  <%= footer(layer) %>
 </body>
 </html>

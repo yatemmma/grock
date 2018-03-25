@@ -1,7 +1,7 @@
-<% member = obj; level = 1 %>
+<% member = obj %>
 <html>
 <head>
-  <%= head(member.name + " | G-ROCK", level) %>
+  <%= head member.name %>
 </head>
 <body>
   <%= header(1) %>
@@ -16,9 +16,9 @@
     </h2>
 
     <div class="contents">
-      <%= body(member.body, level) %>
+      <%= body(member.body, 1) %>
 
-      <%= sns("member/#{member.code}.html", member.name, level) %>
+      <%= sns("member/#{member.code}.html", member.name, 1) %>
 
       <%= origin_block(member) unless member.country.nil?%>
 
@@ -31,6 +31,6 @@
       xxxx
     </div>
   </div>
-  <%= footer(level) %>
+  <%= footer(1) %>
 </body>
 </html>

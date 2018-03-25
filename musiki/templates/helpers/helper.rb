@@ -1,5 +1,5 @@
 require "./musiki/templates/helpers/head_helper"
-require "./musiki/templates/helpers/header_helper"
+require "./musiki/templates/helpers/header_footer_helper"
 
 module HTMLHelper
   include AttributeHelper
@@ -9,36 +9,10 @@ module HTMLHelper
   end
 
   include HeadHTMLHelper
-  include HeaderHTMLHelper
+  include HeaderFooterHTMLHelper
 
-  def header(level = 0)
-    html = <<-"EOS"
-      <header>
-        <h1><a href="./#{"../"*level}index.html">G-ROCK</a></h1>
-        <span><a target="#" onclick="toggleMenu()">Menu</a></span>
-        <nav>
-          <ul>
-            <li><a href="./#{"../"*level}bands.html">Band</a></li>
-            <li><a href="./#{"../"*level}discs.html">Disc</a></li>
-            <li><a href="./#{"../"*level}labels.html">Label</a></li>
-            <li><a href="./#{"../"*level}songs.html">Song</a></li>
-            <li><a href="./#{"../"*level}members.html">Member</a></li>
-          </ul>
-        </nav>
-      </header>
-    EOS
-  end
 
-  def footer(level = 0)
-    html = <<-"EOS"
-      <footer>
-        <div class="link">
-          <a href="https://twitter.com/prettygereen" target="_blank"><i class="fab fa-twitter"></i></a>
-        </div>
-        <div class="copy">&copy; 2009-#{Date.today.strftime("%Y")} <a href="./#{"../"*level}index.html">G-ROCK</a></div>
-      </footer>
-    EOS
-  end
+
 
   def body(text, level = 0)
     html = <<-"EOS"
@@ -128,15 +102,6 @@ module HTMLHelper
       <div class="block origin" href="#">
         #{item.country_emoji} #{item.origin.nil? ? item.country_name : item.origin}
       </div>
-    EOS
-  end
-
-  def scripts(items)
-    html = <<-"EOS"
-      const originals = [#{items.map do |code, item|; item.json; end.join","}]
-      let displayed = null
-      const reversed = {}
-      const filltered = {}
     EOS
   end
 end

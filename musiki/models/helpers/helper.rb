@@ -5,6 +5,7 @@ require "./musiki/models/helpers/active_helper"
 require "./musiki/models/helpers/video_helper"
 require "./musiki/models/helpers/date_helper"
 require "./musiki/models/helpers/image_helper"
+require "./musiki/models/helpers/disc_helper"
 
 DOMAIN = "https://scream.your.name/"
 
@@ -16,4 +17,5 @@ module AttributeHelper
   include ImageHelper
   include SNSHelper
   include VideoHelper
+  include DiscHelper
 end

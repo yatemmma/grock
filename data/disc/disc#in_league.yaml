@@ -2,7 +2,7 @@
 - code: in_league-where_the_silence_is_easy
   name: Where The Silence Is Easy
   band: in_league
-  type: Album
+  type: album
   date: 2011/01/11
   label: invogue_records
   images:
@@ -22,7 +22,7 @@
 - code: in_league-sleep_and_you_might_miss_this
   name: Sleep and You Might Miss This
   band: in_league
-  type: Album
+  type: album
   date: 2012/09/30
   label: invogue_records
   images:
@@ -42,7 +42,7 @@
 - code: in_league-moving_for_words
   name: Moving for Words
   band: in_league
-  type: Single
+  type: single
   date: 2015/07/06
   label: self-released
   images:

@@ -7,12 +7,16 @@
   <%= header %>
   <div class="contents-wrapper">
 
-    <% if !obj.main_youtube.nil? %>
-      <div id="player" data-key="<%= obj.main_youtube_key %>"></div>
-    <% elsif !obj.images.nil? %>
-      <div class="main-image" style="background-image:url(<%= obj.images.first %>);"></div>
+    <% if !band.main_youtube.nil? %>
+      <%= main_youtube_block(band.main_youtube_key) %>
+    <% elsif !band.images.nil? %>
+      <%= main_image_block(band.images.first) %>
     <% end %>
-    <h2><%= obj.name %></h2>
+
+    <h2>
+      <%= band.name %>
+      <%= " (#{band.active_short})" unless band.active.nil? %>
+    </h2>
 
     <div class="contents">
       <%= body(obj.body, 1) %>

@@ -7,12 +7,13 @@
   <%= header %>
   <div class="contents-wrapper">
 
-    <% unless label.images.nil? %>
-      <div class="main-image image" data-image="<%= label.images.first %>"><img></div>
+    <% if !label.main_youtube.nil? %>
+      <%= main_youtube_block(label.main_youtube_key) %>
+    <% elsif !label.images.nil? %>
+      <%= main_image_block(label.images.first) %>
     <% end %>
-    <h2>
-      <%= label.name %>
-    </h2>
+
+    <h2><%= label.name %></h2>
 
     <div class="contents">
       <%= body(label.body, 1) %>

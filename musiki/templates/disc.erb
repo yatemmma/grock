@@ -8,11 +8,16 @@
   <div class="contents-wrapper">
 
     <% if !disc.main_youtube.nil? %>
-      <div id="player" data-key="<%= disc.main_youtube_key %>"></div>
+      <%= main_youtube_block(disc.main_youtube_key) %>
     <% elsif !disc.images.nil? %>
-      <div class="main-image" style="background-image:url(<%= disc.images.nil? ? '' : disc.images.first %>);"></div>
+      <%= main_image_block(disc.images.first) %>
     <% end %>
-    <h2><%= disc.name %></h2>
+
+    <h2>
+      <%= disc.name %>
+      <%= " - #{disc.type_name}" unless (disc.type.nil? || disc.type == "album") %>
+      <%= " (#{disc.date_year})" unless disc.date.nil? %>
+    </h2>
 
     <div class="contents">
       <%= body(disc.body, 1) %>

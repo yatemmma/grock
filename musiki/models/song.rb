@@ -21,7 +21,7 @@ class Song < Metadata
 
   def title
     items = []
-    items << "(#{type})" unless type.nil?
+    items << "(#{song_type_name})" unless type.nil?
     items << "#{band?.name} -" unless band.nil?
     items << name
     items << "[#{video_date_year}]" unless video_date.nil?

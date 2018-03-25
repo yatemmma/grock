@@ -1,5 +1,6 @@
 require "./musiki/templates/helpers/head_helper"
 require "./musiki/templates/helpers/header_footer_helper"
+require "./musiki/templates/helpers/main_contents_helper"
 
 module HTMLHelper
   include AttributeHelper
@@ -8,13 +9,17 @@ module HTMLHelper
     "./#{"../"*@layer}#{path}"
   end
 
+  def image_block(image_link, class_names)
+    html = <<-"EOS"
+      <div class="image #{class_names}" data-image="#{image_link}"><img></div>
+    EOS
+  end
+
   include HeadHTMLHelper
   include HeaderFooterHTMLHelper
+  include MainContentsHTMLHelper
 
-
-
-
-  def body(text, level = 0)
+  def body(text, l = 0)
     html = <<-"EOS"
       <div class="body">
         #{text}

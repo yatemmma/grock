@@ -3,6 +3,7 @@ require "./musiki/models/metadata"
 class Label < Metadata
   attr_writer :code
   attr_writer :name
+  attr_writer :main_youtube
   attr_writer :website
   attr_writer :wikipedia
   attr_writer :youtube

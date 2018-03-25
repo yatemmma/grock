@@ -6,6 +6,7 @@ class Member < Metadata
   attr_writer :description
   attr_writer :origin
   attr_writer :country
+  attr_writer :main_youtube
   attr_writer :images
   attr_writer :links
   attr_writer :bands

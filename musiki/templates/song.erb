@@ -7,8 +7,16 @@
   <%= header %>
   <div class="contents-wrapper">
 
-    <div id="player" data-key="<%= song.youtube_key%>"></div>
-    <h2><%= song.title %></h2>
+
+    <% if !song.youtube.nil? %>
+      <%= main_youtube_block(song.youtube_key) %>
+    <% elsif !song.images.nil? %>
+      <%= main_image_block(song.images.first) %>
+    <% end %>
+
+    <h2>
+      <%= song.title %>
+    </h2>
 
     <div class="contents">
       <%= body(song.body, 1) %>

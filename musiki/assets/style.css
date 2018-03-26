@@ -389,6 +389,8 @@ footer {
       top: 3px;
       font-size: 1.2em;
       color: #444; }
+    .contents-wrapper table.items thead th a:hover {
+      background-color: #555; }
   .contents-wrapper table.items thead th.name {
     width: 520px; }
   .contents-wrapper table.items thead th.note {
@@ -554,5 +556,37 @@ footer {
   .contents-wrapper .contents .disc .desc div, .contents-wrapper .contents .song .desc div {
     height: 1.5em;
     text-align: center; } }
+
+.contents-wrapper .sub-contents .feeds .feed {
+  display: block;
+  margin-bottom: 40px; }
+  .contents-wrapper .sub-contents .feeds .feed a.title {
+    background-color: #444;
+    padding: 8px;
+    display: block;
+    border-bottom: 1px #010101;
+    -moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.1);
+    -webkit-box-shadow: 0px 1px rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 1px rgba(255, 255, 255, 0.1); }
+  .contents-wrapper .sub-contents .feeds .feed a:hover {
+    background-color: #555; }
+  .contents-wrapper .sub-contents .feeds .feed .date {
+    font-size: 0.8em;
+    text-align: right;
+    padding: 8px 4px 16px; }
+  .contents-wrapper .sub-contents .feeds .feed .body {
+    text-align: center;
+    padding: 0 4px;
+    line-height: 1.4em; }
+    .contents-wrapper .sub-contents .feeds .feed .body * {
+      padding: 0;
+      margin: 0; }
+    .contents-wrapper .sub-contents .feeds .feed .body p {
+      text-align: left;
+      overflow: hidden;
+      padding-bottom: 16px; }
+    .contents-wrapper .sub-contents .feeds .feed .body .image {
+      height: 200px;
+      background-color: inherit; }
 
 /*# sourceMappingURL=style.css.map */

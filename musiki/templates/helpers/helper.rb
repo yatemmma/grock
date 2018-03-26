@@ -3,6 +3,7 @@ require "./musiki/templates/helpers/header_footer_helper"
 require "./musiki/templates/helpers/main_contents_helper"
 require "./musiki/templates/helpers/body_helper"
 require "./musiki/templates/helpers/contents_helper"
+require "./musiki/templates/helpers/feed_helper"
 
 module HTMLHelper
   include AttributeHelper
@@ -26,4 +27,5 @@ module HTMLHelper
   include MainContentsHTMLHelper
   include BodyHTMLHelper
   include ContentsHTMLHelper
+  include FeedHTMLHelper
 end

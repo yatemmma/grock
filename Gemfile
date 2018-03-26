@@ -10,3 +10,6 @@ gem "sass-css-importer"
 gem "bourbon"
 
 gem "minitest-power_assert"
+
+
+gem "simple-rss"

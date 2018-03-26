@@ -1,10 +1,10 @@
 * SNS増やす
-* モバイル版スタイル修正
 * タイトルとるCrowler
 * Twitter最新とるCrowler
 * 404 checker crowler
 * https
 * custom domain
+* クロスブラウザテスト
 
 ====
 

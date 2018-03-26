@@ -16,4 +16,8 @@ module SNSHelper
   #TODO: instagram
   #TODO: pintarest
   #TODO: tumblr
+
+  def twitter_key
+    twitter.split("/").last unless twitter.nil?
+  end
 end

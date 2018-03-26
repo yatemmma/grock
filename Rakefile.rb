@@ -1,4 +1,5 @@
 require "./musiki/musiki"
+require "./musiki/crowler/crowl"
 
 task :all => [:build, :gen]
 
@@ -20,4 +21,8 @@ task :down do
   puts ARGV[1..-1].join(" ")
   puts ARGV[1..-1].join(" ").downcase.gsub(" ", "_")
   ARGV.slice(1, ARGV.size).each{|v| task v.to_sym do; end} # hack for natural arguments
+end
+
+task :crowl do
+  Crowler.new.run
 end

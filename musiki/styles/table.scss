@@ -26,6 +26,10 @@
         font-size: 1.2em;
         color: $CLICK_BGA_COLOR;
       }
+      
+      a:hover {
+        background-color: $SECONDARY_BG_COLOR;
+      }
     }
 
     th.name {

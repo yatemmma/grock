@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>DIVIDE</title>
+  <link href="./foundation.min.css" media="all" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" async></script>
+<style>
+  label {
+    display: inline-block;
+    width: 440px;
+    text-align: right; }
+  label input {
+    background-color: #EEE;
+    height: 2em;
+    width: 300px; }
+  label span {
+    display: inline-block;
+    text-align: left;
+    height: 2em;
+    width: 300px; }
+  label a {
+    display: inline-block;
+    font-size: 2em;
+    width: 40px; }
+</style>
+</head>
+<body>
+  <h1>DIVIDE</h1>
+
+  <div>
+    <label>
+      code: <input value="divide">
+      <a href="#"></a>
+    </label>
+    <label>
+      description: <input value="◆◆◆◆◆">
+      <a href="#"></a>
+    </label>
+  <div>
+
+  <div>
+    <label>
+      origin: <input value="Bintaro, Jakarta Selatan - Indonesia">
+      <a href="#"></a>
+    </label>
+    <label>
+      country: <input value="id">
+      <a href="https://ja.wikipedia.org/wiki/ISO_3166-1" target="_blank">🇮🇩</a>
+    </label>
+  </div>
+
+  <div>
+    <label>
+      active: <input value="2010-">
+      <a href="#"></a>
+    </label>
+    <label>
+      genres: <input value="post-hardcore">
+      <a href="#"></a>
+    </label>
+  <div>
+
+  <div>
+    <label>
+      wikipedia: <input value="◆◆◆◆◆">
+      <a href="https://www.google.co.jp/search?q=DIVIDE+Wikipedia" target="_blank">□</a>
+    </label>
+    <label>
+      title: <input value="◆◆◆◆◆">
+      <a href="#" onclick="getTitle(this)">□</a>
+    </label>
+  </div>
+
+  <div>
+    <label>
+      website: <input value="◆◆◆◆◆">
+      <a href="https://www.google.co.jp/search?q=DIVIDE+Website" target="_blank">□</a>
+    </label>
+    <label>
+      title: <input value="◆◆◆◆◆">
+      <a href="#" onclick="getTitle(this)">□</a>
+    </label>
+  </div>
+
+  
+  <div>
+    <pre>{
+  "code": "divide",
+  "name": "DIVIDE",
+  "description": ◆◆◆◆◆,
+  "origin": "Bintaro, Jakarta Selatan - Indonesia",
+  "country": "id",
+  "active": "2010-",
+  "genres": "post-hardcore",
+  "images": ◆◆◆◆◆,
+  "main_youtube": <a href="https://www.youtube.com/watch?v=-BvEAyoNwY4" target="_blank">https://www.youtube.com/watch?v=-BvEAyoNwY4</a>,
+  "apple": ◆◆◆◆◆,
+  "play": ◆◆◆◆◆,
+  "spotify": ◆◆◆◆◆,
+  "soundcloud": <a href="https://soundcloud.com/dividejkt" target="_blank">https://soundcloud.com/dividejkt</a>,
+  "bandcamp": ◆◆◆◆◆,
+  "youtube": <a href="https://www.youtube.com/user/Dividejkt" target="_blank">https://www.youtube.com/user/Dividejkt</a>,
+  "website": ◆◆◆◆◆,
+  "wikipedia": ◆◆◆◆◆,
+  "twitter": <a href="https://twitter.com/dividejkt" target="_blank">https://twitter.com/dividejkt</a>,
+  "facebook": <a href="https://www.facebook.com/DIVIDEjkt/" target="_blank">https://www.facebook.com/DIVIDEjkt/</a>,
+  "instagram": ◆◆◆◆◆,
+  "discogs": ◆◆◆◆◆,
+  "links": ◆◆◆◆◆,
+  "members": ◆◆◆◆◆,
+  "past_members": ◆◆◆◆◆,
+  "discs": ◆◆◆◆◆,
+  "videos": ◆◆◆◆◆,
+  "body": ◆◆◆◆◆,
+  "public": ◆◆◆◆◆,
+  "memo": ◆◆◆◆◆
+}</pre>
+  </div>
+<script>
+window.onload = ()=>{
+  document.querySelectorAll("input").forEach((element)=>{
+    element.onfocus = function() {
+      this.select(0, this.value.length)
+    }
+  })
+}
+function getTitle(element) {
+  const url = element.parentElement.parentElement.querySelectorAll("input")[0].value
+  $.ajax({
+    url: url,
+    success: function(html) {
+      const title = $(html).filter('title').text()
+      element.parentElement.querySelector("input").value = title
+    }
+  })
+}
+</script>
+</body>
+</html>

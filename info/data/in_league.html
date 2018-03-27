@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>In League</title>
+  <link href="./foundation.min.css" media="all" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" async></script>
+<style>
+  label {
+    display: inline-block;
+    width: 440px;
+    text-align: right; }
+  label input {
+    background-color: #EEE;
+    height: 2em;
+    width: 300px; }
+  label span {
+    display: inline-block;
+    text-align: left;
+    height: 2em;
+    width: 300px; }
+  label a {
+    display: inline-block;
+    font-size: 2em;
+    width: 40px; }
+</style>
+</head>
+<body>
+  <h1>In League</h1>
+
+  <div>
+    <label>
+      code: <input value="in_league">
+      <a href="#"></a>
+    </label>
+    <label>
+      description: <input value="◆◆◆◆◆">
+      <a href="#"></a>
+    </label>
+  <div>
+
+  <div>
+    <label>
+      origin: <input value="Brisbane, Queensland Australia">
+      <a href="#"></a>
+    </label>
+    <label>
+      country: <input value="au">
+      <a href="https://ja.wikipedia.org/wiki/ISO_3166-1" target="_blank">🇦🇺</a>
+    </label>
+  </div>
+
+  <div>
+    <label>
+      active: <input value="2009-2015">
+      <a href="#"></a>
+    </label>
+    <label>
+      genres: <input value="post-hardcore">
+      <a href="#"></a>
+    </label>
+  <div>
+
+  <div>
+    <label>
+      wikipedia: <input value="◆◆◆◆◆">
+      <a href="https://www.google.co.jp/search?q=In+League+Wikipedia" target="_blank">□</a>
+    </label>
+    <label>
+      title: <input value="◆◆◆◆◆">
+      <a href="#" onclick="getTitle(this)">□</a>
+    </label>
+  </div>
+
+  <div>
+    <label>
+      website: <input value="◆◆◆◆◆">
+      <a href="https://www.google.co.jp/search?q=In+League+Website" target="_blank">□</a>
+    </label>
+    <label>
+      title: <input value="◆◆◆◆◆">
+      <a href="#" onclick="getTitle(this)">□</a>
+    </label>
+  </div>
+
+  
+  <div>
+    <pre>{
+  "code": "in_league",
+  "name": "In League",
+  "description": ◆◆◆◆◆,
+  "origin": "Brisbane, Queensland Australia",
+  "country": "au",
+  "active": "2009-2015",
+  "genres": "post-hardcore",
+  "images": [
+    <a href="https://i.pinimg.com/originals/53/d8/0b/53d80b7b517af28c7e67239a4ecea116.jpg" target="_blank">https://i.pinimg.com/originals/53/d8/0b/53d80b7b517af28c7e67239a4ecea116.jpg</a>
+  ],
+  "main_youtube": <a href="https://www.youtube.com/watch?v=AWrZRkycnyQ" target="_blank">https://www.youtube.com/watch?v=AWrZRkycnyQ</a>,
+  "apple": <a href="https://itunes.apple.com/au/artist/in-league/412521690" target="_blank">https://itunes.apple.com/au/artist/in-league/412521690</a>,
+  "play": ◆◆◆◆◆,
+  "spotify": <a href="https://open.spotify.com/artist/7GucydECGmKhDmzohgQxdY" target="_blank">https://open.spotify.com/artist/7GucydECGmKhDmzohgQxdY</a>,
+  "soundcloud": ◆◆◆◆◆,
+  "bandcamp": ◆◆◆◆◆,
+  "youtube": <a href="https://www.youtube.com/user/inleagueband" target="_blank">https://www.youtube.com/user/inleagueband</a>,
+  "website": ◆◆◆◆◆,
+  "wikipedia": ◆◆◆◆◆,
+  "twitter": <a href="https://twitter.com/inleagueband" target="_blank">https://twitter.com/inleagueband</a>,
+  "facebook": <a href="https://www.facebook.com/inleague/" target="_blank">https://www.facebook.com/inleague/</a>,
+  "instagram": <a href="https://www.instagram.com/inleagueband/" target="_blank">https://www.instagram.com/inleagueband/</a>,
+  "discogs": <a href="https://www.discogs.com/ja/artist/1500958-In-League" target="_blank">https://www.discogs.com/ja/artist/1500958-In-League</a>,
+  "links": [
+    <a href="https://www.spirit-of-metal.com/en/band/In_League" target="_blank">https://www.spirit-of-metal.com/en/band/In_League</a>
+  ],
+  "members": [
+    "Adam Chase - Bass/Vocals",
+    "Ben Hardy - Drums",
+    "Daniel Rose - Guitar",
+    "Mat Dwyer - Guitar",
+    "Ricky Thomas - Vocals",
+    "Colyn Prater - Bass"
+  ],
+  "past_members": [
+    [
+      "ben_blondel",
+      "Ben Blondel - Vocals/Keyboard"
+    ],
+    "Ben Broadley - Bass",
+    "Darcy Shaw - Drums"
+  ],
+  "discs": [
+    "in_league-moving_for_words",
+    "in_league-sleep_and_you_might_miss_this",
+    "in_league-where_the_silence_is_easy"
+  ],
+  "videos": [
+    "in_league-moving_for_words"
+  ],
+  "body": ◆◆◆◆◆,
+  "public": true,
+  "memo": ◆◆◆◆◆
+}</pre>
+  </div>
+<script>
+window.onload = ()=>{
+  document.querySelectorAll("input").forEach((element)=>{
+    element.onfocus = function() {
+      this.select(0, this.value.length)
+    }
+  })
+}
+function getTitle(element) {
+  const url = element.parentElement.parentElement.querySelectorAll("input")[0].value
+  $.ajax({
+    url: url,
+    success: function(html) {
+      const title = $(html).filter('title').text()
+      element.parentElement.querySelector("input").value = title
+    }
+  })
+}
+</script>
+</body>
+</html>

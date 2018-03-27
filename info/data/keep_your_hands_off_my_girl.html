@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>KEEP YOUR HANDs OFF MY GIRL</title>
+  <link href="./foundation.min.css" media="all" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" async></script>
+<style>
+  label {
+    display: inline-block;
+    width: 440px;
+    text-align: right; }
+  label input {
+    background-color: #EEE;
+    height: 2em;
+    width: 300px; }
+  label span {
+    display: inline-block;
+    text-align: left;
+    height: 2em;
+    width: 300px; }
+  label a {
+    display: inline-block;
+    font-size: 2em;
+    width: 40px; }
+</style>
+</head>
+<body>
+  <h1>KEEP YOUR HANDs OFF MY GIRL</h1>
+
+  <div>
+    <label>
+      code: <input value="keep_your_hands_off_my_girl">
+      <a href="#"></a>
+    </label>
+    <label>
+      description: <input value="◆◆◆◆◆">
+      <a href="#"></a>
+    </label>
+  <div>
+
+  <div>
+    <label>
+      origin: <input value="Japan">
+      <a href="#"></a>
+    </label>
+    <label>
+      country: <input value="jp">
+      <a href="https://ja.wikipedia.org/wiki/ISO_3166-1" target="_blank">🇯🇵</a>
+    </label>
+  </div>
+
+  <div>
+    <label>
+      active: <input value="2008-2017">
+      <a href="#"></a>
+    </label>
+    <label>
+      genres: <input value="post-hardcore">
+      <a href="#"></a>
+    </label>
+  <div>
+
+  <div>
+    <label>
+      wikipedia: <input value="◆◆◆◆◆">
+      <a href="https://www.google.co.jp/search?q=KEEP+YOUR+HANDs+OFF+MY+GIRL+Wikipedia" target="_blank">□</a>
+    </label>
+    <label>
+      title: <input value="◆◆◆◆◆">
+      <a href="#" onclick="getTitle(this)">□</a>
+    </label>
+  </div>
+
+  <div>
+    <label>
+      website: <input value="http://www.kyhomg.com/">
+      <a href="https://www.google.co.jp/search?q=KEEP+YOUR+HANDs+OFF+MY+GIRL+Website" target="_blank">□</a>
+    </label>
+    <label>
+      title: <input value="◆◆◆◆◆">
+      <a href="#" onclick="getTitle(this)">□</a>
+    </label>
+  </div>
+
+  
+  <div>
+    <pre>{
+  "code": "keep_your_hands_off_my_girl",
+  "name": "KEEP YOUR HANDs OFF MY GIRL",
+  "description": ◆◆◆◆◆,
+  "origin": "Japan",
+  "country": "jp",
+  "active": "2008-2017",
+  "genres": "post-hardcore",
+  "images": [
+    <a href="http://i.ytimg.com/vi/hC7u_v6l7Ak/maxresdefault.jpg" target="_blank">http://i.ytimg.com/vi/hC7u_v6l7Ak/maxresdefault.jpg</a>
+  ],
+  "main_youtube": ◆◆◆◆◆,
+  "apple": ◆◆◆◆◆,
+  "play": ◆◆◆◆◆,
+  "spotify": ◆◆◆◆◆,
+  "soundcloud": ◆◆◆◆◆,
+  "bandcamp": ◆◆◆◆◆,
+  "youtube": ◆◆◆◆◆,
+  "website": <a href="http://www.kyhomg.com/" target="_blank">http://www.kyhomg.com/</a>,
+  "wikipedia": ◆◆◆◆◆,
+  "twitter": <a href="https://twitter.com/kyhomg_jpn" target="_blank">https://twitter.com/kyhomg_jpn</a>,
+  "facebook": <a href="https://www.facebook.com/kyhomg" target="_blank">https://www.facebook.com/kyhomg</a>,
+  "instagram": ◆◆◆◆◆,
+  "discogs": ◆◆◆◆◆,
+  "links": ◆◆◆◆◆,
+  "members": ◆◆◆◆◆,
+  "past_members": ◆◆◆◆◆,
+  "discs": ◆◆◆◆◆,
+  "videos": [
+    "keep_your_hands_off_my_girl-stand_by_you"
+  ],
+  "body": ◆◆◆◆◆,
+  "public": ◆◆◆◆◆,
+  "memo": ◆◆◆◆◆
+}</pre>
+  </div>
+<script>
+window.onload = ()=>{
+  document.querySelectorAll("input").forEach((element)=>{
+    element.onfocus = function() {
+      this.select(0, this.value.length)
+    }
+  })
+}
+function getTitle(element) {
+  const url = element.parentElement.parentElement.querySelectorAll("input")[0].value
+  $.ajax({
+    url: url,
+    success: function(html) {
+      const title = $(html).filter('title').text()
+      element.parentElement.querySelector("input").value = title
+    }
+  })
+}
+</script>
+</body>
+</html>

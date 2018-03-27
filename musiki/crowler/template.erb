@@ -1,0 +1,134 @@
+<%
+  empty = "◆◆◆◆◆"
+  link_url = Proc.new {|item|
+    if item.nil?
+      empty
+    else
+      (item.is_a? Hash) ? item["url"] : item
+    end
+  }
+  link_title = Proc.new {|item|
+    if item.nil?
+      empty
+    else
+      (item.is_a? Hash) ? item["title"] : empty
+    end
+  }
+  search_url = Proc.new{|band, label|
+    "https://www.google.co.jp/search?q=" + URI.encode_www_form_component(band.name + " " + label)
+  }
+%>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%= band.name %></title>
+  <link href="./foundation.min.css" media="all" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" async></script>
+<style>
+  label {
+    display: inline-block;
+    width: 440px;
+    text-align: right; }
+  label input {
+    background-color: #EEE;
+    height: 2em;
+    width: 300px; }
+  label span {
+    display: inline-block;
+    text-align: left;
+    height: 2em;
+    width: 300px; }
+  label a {
+    display: inline-block;
+    font-size: 2em;
+    width: 40px; }
+</style>
+</head>
+<body>
+  <h1><%= band.name %></h1>
+
+  <div>
+    <label>
+      code: <input value="<%= band.code %>">
+      <a href="#"></a>
+    </label>
+    <label>
+      description: <input value="<%= band.description || empty %>">
+      <a href="#"></a>
+    </label>
+  <div>
+
+  <div>
+    <label>
+      origin: <input value="<%= band.origin || empty %>">
+      <a href="#"></a>
+    </label>
+    <label>
+      country: <input value="<%= band.country || empty %>">
+      <a href="https://ja.wikipedia.org/wiki/ISO_3166-1" target="_blank"><%= band.country_emoji || "□" %></a>
+    </label>
+  </div>
+
+  <div>
+    <label>
+      active: <input value="<%= band.active || empty %>">
+      <a href="#"></a>
+    </label>
+    <label>
+      genres: <input value="<%= band.genres || empty %>">
+      <a href="#"></a>
+    </label>
+  <div>
+
+  <div>
+    <label>
+      wikipedia: <input value="<%= link_url.call(band.wikipedia) %>">
+      <a href="<%= search_url.call(band, "Wikipedia") %>" target="_blank">□</a>
+    </label>
+    <label>
+      title: <input value="<%= link_title.call(band.wikipedia) %>">
+      <a href="#" onclick="getTitle(this)">□</a>
+    </label>
+  </div>
+
+  <div>
+    <label>
+      website: <input value="<%= link_url.call(band.website) %>">
+      <a href="<%= search_url.call(band, "Website") %>" target="_blank">□</a>
+    </label>
+    <label>
+      title: <input value="<%= link_title.call(band.website) %>">
+      <a href="#" onclick="getTitle(this)">□</a>
+    </label>
+  </div>
+
+  <%
+    hash = JSON.pretty_generate(band.contents)
+                    .gsub("null", empty)
+                    .gsub(/"(http[^"]*)"/){"<a href=\"#{$1}\" target=\"_blank\">#{$1}</a>"}
+  %>
+  <div>
+    <pre><%= hash %></pre>
+  </div>
+<script>
+window.onload = ()=>{
+  document.querySelectorAll("input").forEach((element)=>{
+    element.onfocus = function() {
+      this.select(0, this.value.length)
+    }
+  })
+}
+function getTitle(element) {
+  const url = element.parentElement.parentElement.querySelectorAll("input")[0].value
+  $.ajax({
+    url: url,
+    success: function(html) {
+      const title = $(html).filter('title').text()
+      element.parentElement.querySelector("input").value = title
+    }
+  })
+}
+</script>
+</body>
+</html>

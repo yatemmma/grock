@@ -4,7 +4,7 @@ module FeedHTMLHelper
   def feeds(band)
     path = "info/feeds/feed##{band.code}.yaml"
     data_list = YAML.load_file(path) if File.exists? path
-    feed_num = 30
+    feed_num = 20
 
     html_list = (data_list || [])[0, feed_num].map do |data|
       feed(data)

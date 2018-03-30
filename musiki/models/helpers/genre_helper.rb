@@ -23,7 +23,7 @@ module GenreHelper
 
   def all_genres
     if genres.nil?
-      ""
+      nil
     elsif genres.is_a? String
       genre_name(genres)
     else

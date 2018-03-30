@@ -8,7 +8,8 @@ task :build do
 end
 
 task :gen do
-  Musiki.gen
+  is_admin = (ENV["ADMIN"].to_s == "true")
+  Musiki.gen(is_admin)
 end
 
 task :band do

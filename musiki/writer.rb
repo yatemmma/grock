@@ -5,21 +5,21 @@ require "./musiki/templates/helpers/helper"
 class Writer
   extend HTMLHelper
 
-  def self.index
-    output_html({}, "index", "index")
+  def self.index(output_dir)
+    output_html({}, "index", "index", output_dir)
   end
 
-  def self.page(items, name)
-    output_html(items, name.pluralize, name.pluralize)
+  def self.page(items, name, output_dir)
+    output_html(items, name.pluralize, name.pluralize, output_dir)
     items.each do |code, obj|
-     output_html(obj, name, "#{name}/#{obj.code}", 1)
+     output_html(obj, name, "#{name}/#{obj.code}", output_dir, 1)
     end
   end
 
-  def self.output_html(obj, name, file, layer = 0)
+  def self.output_html(obj, name, file, dir, layer = 0)
     @layer = layer
     contents = File.read("musiki/templates/#{name}.erb")
-    path = "docs/#{file}.html"
+    path = "#{dir}/#{file}.html"
     FileUtils.mkdir_p(File.dirname(path))
     File.write(path, ERB.new(contents).result(binding))
   end

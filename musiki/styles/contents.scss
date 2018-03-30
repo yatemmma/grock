@@ -48,20 +48,16 @@
           float: left;
           margin-right: 32px;
         }
-
-        .desc {
-          float: left;
-
-          div {
-            clear: both;
-          }
-        }
       }
       @include screen-mobile {
         .image {
           margin: 0 auto 16px;
         }
       }
+    }
+
+    .admin {
+      background-color: $ADMIN_BG_COLOR !important;
     }
 
     a.block {
@@ -99,29 +95,26 @@
         height: 200px;
       }
 
-      .desc {
-        @include screen-tablet {
-          .label {
-            padding-top: 16px;
-            height: 74px;
-          }
+      @include screen-tablet {
+        .label {
+          padding-top: 16px;
+          height: 40px;
         }
-        .name {
-          font-size: 1.4em;
-        }
+      }
+      .name {
+        font-size: 1.4em;
       }
     }
 
-    .disc {
-      .image {
-        width: 200px;
-        height: 200px;
-      }
+    .image {
+      width: 200px;
+      height: 200px;
+    }
 
-      @include screen-tablet {
-        .desc .name {
-          padding-top: 56px;
-        }
+    @include screen-tablet {
+      .name, .artist, .date {
+        height: 24px;
+        margin-top: 32px;
       }
     }
 
@@ -132,22 +125,8 @@
       }
 
       @include screen-tablet {
-        .desc .name {
+        .name {
           padding-top: 38px;
-        }
-      }
-    }
-
-    .disc, .song {
-      @include screen-tablet {
-        .desc div {
-          height: 40px;
-        }
-      }
-      @include screen-mobile {
-        .desc div {
-          height: 1.5em;
-          text-align: center;
         }
       }
     }

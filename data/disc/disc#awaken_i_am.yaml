@@ -5,18 +5,39 @@
   type: album
   date: 2015/05/12
   label: self-released
-  images: 
+  images:
+  - https://images-na.ssl-images-amazon.com/images/I/91nOxl4BgpL._SX522_.jpg
   main_youtube: https://www.youtube.com/watch?v=fDNfOJh1aTE
   apple: https://itunes.apple.com/jp/album/shields-and-crowns/id1115269579
   play: 
   spotify: https://open.spotify.com/album/4Yo9nSsGit7VfhTtQOwWRm
-  amazon: 
+  amazon: https://www.amazon.co.jp/dp/B00SG478VQ/
   discogs: https://www.discogs.com/ja/Awaken-I-Am-Shields-Crowns/release/8679964
   youtube: 
   links: 
   songs:
   - - awaken_i_am-channeling
     - 07. Channeling
+  body: 
+  public: true
+  memo: 
+- code: awaken_i_am-blind_love
+  name: Blind Love
+  band: awaken_i_am
+  type: album
+  date: 2017/09/29
+  label: victory_records
+  images:
+  - https://images-na.ssl-images-amazon.com/images/I/513cJw2EqSL.jpg
+  main_youtube: https://www.youtube.com/watch?v=t7w_7aJGkiQ
+  apple: 
+  play: 
+  spotify: 
+  amazon: https://www.amazon.co.jp/dp/B074HDRMX7/
+  discogs: 
+  youtube: https://www.youtube.com/watch?v=99OeLZK_WZw&list=PLMx9IHnJeRpx8Nha-ft0QBbUm_fQBKGrM
+  links: 
+  songs: 
   body: 
   public: true
   memo: 

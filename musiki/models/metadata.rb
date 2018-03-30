@@ -23,6 +23,10 @@ class Metadata
     @metadata.to_s
   end
 
+  def admin?
+    ENV["ADMIN"].to_s == "true"
+  end
+
   class << self
     attr_accessor :band
     attr_accessor :disc

@@ -11,10 +11,19 @@ module ContentsHTMLHelper
     EOS
   end
 
-  def info_block(text, class_names = "")
-    html = <<-"EOS"
-      <div class="block #{class_names}">#{text}</div>
-    EOS
+  def info_block(item, key, class_names = "")
+    return if item.nil?
+
+    text = item.send(key)
+    if text.nil?
+      html = <<-"EOS"
+        <div class="block admin #{class_names}">#{key}:#{text}</div>
+      EOS
+    else
+      html = <<-"EOS"
+        <div class="block #{class_names}">#{text}</div>
+      EOS
+    end
   end
 
   def band_block(item, label = "")
@@ -27,10 +36,8 @@ module ContentsHTMLHelper
         <div class="image" data-image="#{image}">
           <img>
         </div>
-        <div class="desc">
-          <div class="label">#{label}</div>
-          <div class="name">#{item.name}</div>
-        </div>
+        <div class="label">#{label}</div>
+        <div class="name">#{item.name}</div>
       </a>
     EOS
   end
@@ -41,11 +48,9 @@ module ContentsHTMLHelper
         <div class="image" data-image="#{disc.images.first unless disc.images.nil?}">
           <img>
         </div>
-        <div class="desc">
-          <div class="name">#{disc.name}</div>
-          <div class="artist">#{disc.band?.name}</div>
-          <div class="date">#{disc.date}</div>
-        </div>
+        <div class="name">#{disc.name}</div>
+        <div class="artist">#{disc.band?.name}</div>
+        <div class="date">#{disc.date}</div>
       </a>
     EOS
   end
@@ -53,12 +58,12 @@ module ContentsHTMLHelper
   def video_block(song)
     html = <<-"EOS"
       <a class="block song" href="#{link page_path(song)}">
-        <div class="image" data-image="#{song.youtube_thmbnail}"><img></div>
-        <div class="desc">
-          <div class="name">#{song.song_type_name}</div>
-          <div class="artist">#{song.name}</div>
-          <div class="date">#{song.video_date}</div>
+        <div class="image" data-image="#{song.youtube_thmbnail}">
+          <img>
         </div>
+        <div class="name">#{song.song_type_name}</div>
+        <div class="artist">#{song.name}</div>
+        <div class="date">#{song.video_date}</div>
       </a>
     EOS
   end
@@ -70,7 +75,6 @@ module ContentsHTMLHelper
   end
 
   def links_block(data, type = nil)
-
     return if data.nil?
 
     type_name = type || "Link"

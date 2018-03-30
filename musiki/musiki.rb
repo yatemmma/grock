@@ -5,7 +5,8 @@ require "./musiki/updater"
 require "./musiki/writer"
 
 module Musiki
-  def self.gen
+  def self.gen(admin = false)
+    output_dir = admin ? "admin" : "docs"
     list = %w(member label song disc band)
 
     # read files
@@ -20,14 +21,14 @@ module Musiki
     FileUtils.move "data2", "data"
 
     # output html
-    FileUtils.rm_rf "docs"
+    FileUtils.rm_rf output_dir
 
     list.each do |name|
-      Writer.page(@data[name.to_sym], name)
+      Writer.page(@data[name.to_sym], name, output_dir)
     end
-    Writer.index
+    Writer.index output_dir
 
-    FileUtils.cp_r "musiki/assets", "docs"
+    FileUtils.cp_r "musiki/assets", output_dir
   end
 
   def self.band(name)

@@ -1,12 +1,12 @@
 require "minitest/autorun"
 require "minitest/unit"
 require "minitest-power_assert"
-require "./src/data/writer"
+require "./binder-rack/core/data/writer"
 
 MiniTest.autorun
 
-class ReaderTest < Minitest::Test
-  class Testee < GROCK::Metadata
+class WriterTest < Minitest::Test
+  class Testee < BinderRack::Core::Metadata
 
   end
 
@@ -15,9 +15,9 @@ class ReaderTest < Minitest::Test
       "code" => "sample_code",
       "name" => "Sample Code",
     }
-    path = "./test/data/write_sample.yaml"
-    GROCK::Writer.new.write_item(Testee.new(expect), path)
-    result = GROCK::Reader.new.read_item(Testee, path)
+    path = "./binder-rack/test/data/write_sample.yaml"
+    BinderRack::Core::Writer.new.write_item(Testee.new(expect), path)
+    result = BinderRack::Core::Reader.new.read_item(Testee, path)
 
     assert { expect == result.metadata }
   end
@@ -31,9 +31,9 @@ class ReaderTest < Minitest::Test
       "code" => "sample_code2",
       "name" => "Sample Code 2",
     }
-    path = "./test/data/write_sample_list.yaml"
-    GROCK::Writer.new.write_items([Testee.new(expect1), Testee.new(expect2)], path)
-    results = GROCK::Reader.new.read_items(Testee, path)
+    path = "./binder-rack/test/data/write_sample_list.yaml"
+    BinderRack::Core::Writer.new.write_items([Testee.new(expect1), Testee.new(expect2)], path)
+    results = BinderRack::Core::Reader.new.read_items(Testee, path)
 
     assert { [expect1, expect2] == results.map {|r| r.metadata} }
   end

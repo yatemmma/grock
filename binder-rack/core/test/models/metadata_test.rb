@@ -5,7 +5,7 @@ require_relative "../../models/metadata"
 
 MiniTest.autorun
 
-class ContentsTest < Minitest::Test
+class MetadataTest < Minitest::Test
   class Testee1 < BinderRack::Core::Metadata
     prop :prop1
     prop :prop2, Array
@@ -30,12 +30,12 @@ class ContentsTest < Minitest::Test
   def test_new
     data = {
       "prop1" => "val1",
-      "prop2" => "val2"
+      "prop2" => ["val2"]
     }
 
-    # testee = Testee1.new(data)
-    # assert { "val1" == testee.prop1 }
-    # assert { ["val2"] == testee.prop2 }
-
+    testee = Testee1.new(data)
+    assert { "val1" == testee.prop1 }
+    assert { ["val2"] == testee.prop2 }
+    assert_raises(NoMethodError) { testee.prop3 }
   end
 end

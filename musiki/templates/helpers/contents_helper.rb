@@ -75,22 +75,32 @@ module ContentsHTMLHelper
   end
 
   def links_block(data, type = nil)
-    return if data.nil?
-
     type_name = type || "Link"
-    if data.is_a? Hash
-      title = data["title"]
-      url = data["url"]
+
+    if data.nil?
+      url = "https://www.google.co.jp/search?q=" + URI.encode_www_form_component(@obj.name + " " + type_name)
+      html = <<-"EOS"
+        <a class="block link admin" href="#{url}" target="_blank">
+          <div class="type">#{type_name}</div>
+          <div class="title"></div>
+        </a>
+      EOS
     else
-      title = data
-      url = data
+      if data.is_a? Hash
+        title = data["title"]
+        url = data["url"]
+      else
+        title = data
+        url = data
+      end
+
+      html = <<-"EOS"
+        <a class="block link" href="#{url}" target="_blank">
+          <div class="type">#{type_name}</div>
+          <div class="title">#{title}</div>
+        </a>
+      EOS
     end
 
-    html = <<-"EOS"
-      <a class="block link" href="#{url}" target="_blank">
-        <div class="type">#{type_name}</div>
-        <div class="title">#{title}</div>
-      </a>
-    EOS
   end
 end

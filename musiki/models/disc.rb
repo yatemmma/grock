@@ -17,6 +17,7 @@ class Disc < Metadata
   attr_writer :youtube
   attr_writer :links
   attr_writer :songs
+  attr_writer :guests
   attr_writer :body
   attr_writer :public
   attr_writer :memo
@@ -27,6 +28,12 @@ class Disc < Metadata
 
   def title
     name
+  end
+
+  def guests?
+    (guests || []).map do |guest|
+      [Metadata.member[guest["code"]], guest]
+    end
   end
 
   def json

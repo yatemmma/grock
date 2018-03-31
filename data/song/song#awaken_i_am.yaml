@@ -1,4 +1,42 @@
 ---
+- code: awaken_i_am-lumineux
+  name: Lumineux
+  band: awaken_i_am
+  disc: awaken_i_am-resonance
+  date: 
+  type: 
+  label: 
+  video_date: 
+  youtube: https://www.youtube.com/watch?v=gYOCl_dntE4
+  apple: 
+  play: 
+  spotify: 
+  links: 
+  guests:
+  - code: mansur_zennelli
+    label: Guest vocals
+  body: 
+  public: true
+  memo: 
+- code: awaken_i_am-consider_the_thought
+  name: Consider the Thought
+  band: awaken_i_am
+  disc: awaken_i_am-resonance
+  date: 
+  type: 
+  label: 
+  video_date: 
+  youtube: https://www.youtube.com/watch?v=LtTyGOG3BXs
+  apple: 
+  play: 
+  spotify: 
+  links: 
+  guests:
+  - code: trenton_woodley
+    label: Guest vocals
+  body: 
+  public: true
+  memo: 
 - code: awaken_i_am-the_depths
   name: The Depths
   band: awaken_i_am

@@ -16,6 +16,7 @@
   youtube: 
   links: 
   songs: 
+  guests: 
   body: 
   public: true
   memo: 
@@ -36,6 +37,7 @@
   youtube: https://www.youtube.com/watch?v=SEQbyTpe_iQ&list=PL7ztMO7prrmunkNPVSTXfDBCf8DG0fpju
   links: 
   songs: 
+  guests: 
   body: 
   public: true
   memo: 
@@ -56,6 +58,7 @@
   youtube: 
   links: 
   songs: 
+  guests: 
   body: 
   public: true
   memo: 

@@ -18,6 +18,7 @@ class Writer
 
   def self.output_html(obj, name, file, dir, layer = 0)
     @layer = layer
+    @obj = obj
     contents = File.read("musiki/templates/#{name}.erb")
     path = "#{dir}/#{file}.html"
     FileUtils.mkdir_p(File.dirname(path))

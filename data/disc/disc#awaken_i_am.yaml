@@ -1,4 +1,29 @@
 ---
+- code: awaken_i_am-resonance
+  name: Resonance
+  band: awaken_i_am
+  type: ep
+  date: 2011/10/20
+  label: self-released
+  images:
+  - https://lh3.googleusercontent.com/6bsdRxH2sphDm_cgBTDEXAJ_Na4P2krjI06_lsd54zN3Ex4luujc0SAl0lOrjEs_7rv3omenRA=w300-rw
+  main_youtube: https://www.youtube.com/watch?v=LtTyGOG3BXs
+  apple: 
+  play: https://play.google.com/store/music/album/Awaken_I_Am_Resonance?id=Brwhtopqxjahrbcjnfsakbnonhe
+  spotify: 
+  amazon: 
+  discogs: 
+  youtube: https://www.youtube.com/watch?v=cAurCBmeuCQ&index=2&list=PL0E3F39951F22A590
+  links: 
+  songs: 
+  guests:
+  - code: mansur_zennelli
+    label: Guest vocals
+  - code: trenton_woodley
+    label: Guest vocals
+  body: 
+  public: true
+  memo: 
 - code: awaken_i_am-shields_and_crowns
   name: Shields & Crowns
   band: awaken_i_am
@@ -18,6 +43,11 @@
   songs:
   - - awaken_i_am-channeling
     - 07. Channeling
+  guests:
+  - code: jonny_craig
+    label: Guest vocals
+  - code: ricky_thomas
+    label: Guest vocals
   body: 
   public: true
   memo: 
@@ -38,6 +68,7 @@
   youtube: https://www.youtube.com/watch?v=99OeLZK_WZw&list=PLMx9IHnJeRpx8Nha-ft0QBbUm_fQBKGrM
   links: 
   songs: 
+  guests: 
   body: 
   public: true
   memo: 

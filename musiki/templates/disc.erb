@@ -29,6 +29,11 @@
 
       <%= band_block(disc.band?) %>
 
+      <% disc.guests?.each do |items|%>
+        <% member, org = items %>
+        <%= band_block(member, org["label"]) %>
+      <% end %>
+
       <% %w(apple play spotify amazon discogs youtube).each do |key| %>
         <%= link_block(disc, key) %>
       <% end %>

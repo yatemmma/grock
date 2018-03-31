@@ -497,6 +497,8 @@ footer {
   @media screen and (max-width: 812px) {
     .contents-wrapper .contents .block .image {
       margin: 0 auto 16px; } }
+.contents-wrapper .contents .admin {
+  background-color: #673AB7 !important; }
 .contents-wrapper .contents a.block {
   display: block;
   background-color: #444;

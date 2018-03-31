@@ -1,17 +1,17 @@
 require "./musiki/models/metadata"
 
 class Label < Metadata
-  attr_writer :code
-  attr_writer :name
-  attr_writer :main_youtube
-  attr_writer :website
-  attr_writer :wikipedia
-  attr_writer :youtube
-  attr_writer :links
-  attr_writer :images
-  attr_writer :body
-  attr_writer :public
-  attr_writer :memo
+  prop :code
+  prop :name
+  prop :main_youtube
+  prop :website
+  prop :wikipedia
+  prop :youtube
+  prop :links
+  prop :images
+  prop :body
+  prop :public
+  prop :memo
 
   def id
     "label"

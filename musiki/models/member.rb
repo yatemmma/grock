@@ -1,19 +1,19 @@
 require "./musiki/models/metadata"
 
 class Member < Metadata
-  attr_writer :code
-  attr_writer :name
-  attr_writer :description
-  attr_writer :origin
-  attr_writer :country
-  attr_writer :main_youtube
-  attr_writer :images
-  attr_writer :links
-  attr_writer :bands
-  attr_writer :songs
-  attr_writer :body
-  attr_writer :public
-  attr_writer :memo
+  prop :code
+  prop :name
+  prop :description
+  prop :origin
+  prop :country
+  prop :main_youtube
+  prop :images
+  prop :links
+  prop :bands
+  prop :songs
+  prop :body
+  prop :public
+  prop :memo
 
   def id
     "member"

@@ -1,23 +1,23 @@
 require "./musiki/models/metadata"
 
 class Song < Metadata
-  attr_writer :code
-  attr_writer :name
-  attr_writer :band
-  attr_writer :disc
-  attr_writer :date
-  attr_writer :type
-  attr_writer :label
-  attr_writer :video_date
-  attr_writer :youtube
-  attr_writer :apple
-  attr_writer :play
-  attr_writer :spotify
-  attr_writer :links
-  attr_writer :guests
-  attr_writer :body
-  attr_writer :public
-  attr_writer :memo
+  prop :code
+  prop :name
+  prop :band
+  prop :disc
+  prop :date
+  prop :type
+  prop :label
+  prop :video_date
+  prop :youtube
+  prop :apple
+  prop :play
+  prop :spotify
+  prop :links
+  prop :guests
+  prop :body
+  prop :public
+  prop :memo
 
   def id
     "song"

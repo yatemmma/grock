@@ -16,7 +16,7 @@ class ReaderTest < Minitest::Test
       "name" => "Sample Code",
     }
     path = "./test/data/sample.yaml"
-    result = GROCK::Reader.new.read(Testee, path)
+    result = GROCK::Reader.new.read_item(Testee, path)
 
     assert { expect == result.metadata }
   end
@@ -33,7 +33,7 @@ class ReaderTest < Minitest::Test
       }
     ]
     path = "./test/data/sample_list.yaml"
-    results = GROCK::Reader.new.read(Testee, path)
+    results = GROCK::Reader.new.read_items(Testee, path)
 
     assert { expect == results.map {|r| r.metadata} }
   end

@@ -14,7 +14,7 @@ module GROCK
         (@properties || {})[sym]
       end
     end
-    
+
     def initialize(hash)
       @metadata = hash
     end

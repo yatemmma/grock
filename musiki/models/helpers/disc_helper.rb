@@ -1,4 +1,10 @@
 module DiscHelper
+  def discs?
+    (discs || []).map do |disc|
+      Metadata.disc[disc]
+    end
+  end
+  
   DISC_TYPES = {
     "album":  "Album",
     "ep":     "EP",

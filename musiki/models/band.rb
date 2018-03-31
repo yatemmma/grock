@@ -21,6 +21,8 @@ class Band < Metadata
   attr_writer :twitter
   attr_writer :facebook
   attr_writer :instagram
+  attr_writer :purevolume
+  attr_writer :myspace
   attr_writer :discogs
   attr_writer :links
   attr_writer :members
@@ -37,18 +39,6 @@ class Band < Metadata
 
   def title
     name
-  end
-
-  def discs?
-    (discs || []).map do |disc|
-      Metadata.disc[disc]
-    end
-  end
-
-  def videos?
-    (videos || []).map do |video|
-      Metadata.song[video]
-    end
   end
 
   def json

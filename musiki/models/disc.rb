@@ -30,12 +30,6 @@ class Disc < Metadata
     name
   end
 
-  def guests?
-    (guests || []).map do |guest|
-      [Metadata.member[guest["code"]], guest]
-    end
-  end
-
   def json
     data = {
       name: name,

@@ -18,4 +18,18 @@ module LinkHelper
     LINKS[key.to_sym]
   end
 
+
+  class Nil
+
+  end
+
+  class String
+  end
+
+  class Array
+  end
+
+  class Hash
+  end
+  
 end

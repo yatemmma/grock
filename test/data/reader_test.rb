@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require "minitest/unit"
 require "minitest-power_assert"
-require "./src/reader/reader"
+require "./src/data/reader"
 
 MiniTest.autorun
 

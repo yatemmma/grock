@@ -23,6 +23,24 @@ class Metadata
     @metadata.to_s
   end
 
+  def videos?
+    (videos || []).map do |video|
+      Metadata.song[video]
+    end
+  end
+
+  def discs?
+    (discs || []).map do |disc|
+      Metadata.disc[disc]
+    end
+  end
+
+  def guests?
+    (guests || []).map do |guest|
+      [Metadata.member[guest["code"]], guest]
+    end
+  end
+
   def admin?
     ENV["ADMIN"].to_s == "true"
   end

@@ -1,12 +1,6 @@
 require "uri"
 
 module VideoHelper
-  def videos?
-    (videos || []).map do |video|
-      Metadata.song[video]
-    end
-  end
-
   def youtube_key
     if youtube.nil?
       nil

@@ -3,6 +3,8 @@ module BinderRack
     class Metadata
       attr_reader :metadata
 
+      @@alldata = {}
+
       class << self
         def prop(sym, clazz=String)
           @properties ||= {}
@@ -15,6 +17,18 @@ module BinderRack
 
         def prop_type(sym)
           (@properties || {})[sym]
+        end
+
+        def id
+          self.name.split('::').last.underscore
+        end
+
+        def add_data(key, data)
+          @@alldata[key] = data
+        end
+
+        def alldata(key)
+          @@alldata[key]
         end
       end
 

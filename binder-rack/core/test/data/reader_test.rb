@@ -8,7 +8,7 @@ MiniTest.autorun
 
 class ReaderTest < Minitest::Test
   class Testee < BinderRack::Core::Metadata
-
+    
   end
 
   def test_read_hash

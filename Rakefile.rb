@@ -4,5 +4,5 @@ require "./binder-rack/grock/grock"
 task :hoge do
   # p GROCK::Label.new({"name" => nil}).name
 
-  GROCK::GROCK.new.read
+  GROCK::GROCK.new.gen_html
 end

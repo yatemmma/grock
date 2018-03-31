@@ -4,23 +4,23 @@ require "fileutils"
 module BinderRack
   module Core
     class Generator
-      def output_list(obj, clazz, template_dir, output_dir, extension="")
-        template_path = "#{template_dir}/#{clazz.id.pluralize}#{extension}.erb"
-        output_path = "#{output_dir}/#{clazz.id.pluralize}#{extension}"
-        output(obj, template_path, output_path)
+      def output_page(obj, file_name, template_dir, output_dir, options={}, extension="")
+        template_path = "#{template_dir}/#{file_name}#{extension}.erb"
+        output_path = "#{output_dir}/#{file_name}#{extension}"
+        output(obj, template_path, output_path, options)
       end
 
-      def output_pages(data_list, clazz, template_dir, output_dir, extension="")
+      def output_pages(data_list, file_name, template_dir, output_dir, options={}, extension="")
         data_list.each do |key, obj|
-          template_path = "#{template_dir}/#{clazz.id}#{extension}.erb"
-          output_path = "#{output_dir}/#{clazz.id}/#{key}#{extension}"
-          output(obj, template_path, output_path, 1)
+          template_path = "#{template_dir}/#{file_name}#{extension}.erb"
+          output_path = "#{output_dir}/#{file_name}/#{key}#{extension}"
+          output(obj, template_path, output_path, options)
         end
       end
 
-      def output(obj, template_path, output_path, dir_layer=0)
-        @layer = dir_layer
+      def output(obj, template_path, output_path, options)
         @obj = obj
+        @options = options
         contents = File.read(template_path)
         FileUtils.mkdir_p(File.dirname(output_path))
         File.write(output_path, ERB.new(contents).result(binding))

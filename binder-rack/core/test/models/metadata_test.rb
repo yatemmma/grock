@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require "minitest/unit"
 require "minitest-power_assert"
-require "./binder-rack/core/models/metadata"
+require_relative "../../models/metadata"
 
 MiniTest.autorun
 

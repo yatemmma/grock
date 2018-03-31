@@ -1,8 +1,8 @@
 require "minitest/autorun"
 require "minitest/unit"
 require "minitest-power_assert"
-require "./binder-rack/core/data/reader"
-require "./binder-rack/core/models/metadata"
+require_relative "../../data/reader"
+require_relative "../../models/metadata"
 
 MiniTest.autorun
 
@@ -16,7 +16,7 @@ class ReaderTest < Minitest::Test
       "code" => "sample_code",
       "name" => "Sample Code",
     }
-    path = "./binder-rack/test/data/sample.yaml"
+    path = "#{File.dirname(__FILE__)}/sample.yaml"
     result = BinderRack::Core::Reader.new.read_item(Testee, path)
 
     assert { expect == result.metadata }
@@ -33,7 +33,7 @@ class ReaderTest < Minitest::Test
         "name" => "Sample Code 2",
       }
     ]
-    path = "./binder-rack/test/data/sample_list.yaml"
+    path = "#{File.dirname(__FILE__)}/sample_list.yaml"
     results = BinderRack::Core::Reader.new.read_items(Testee, path)
 
     assert { expect == results.map {|r| r.metadata} }

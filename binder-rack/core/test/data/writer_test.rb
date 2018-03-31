@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require "minitest/unit"
 require "minitest-power_assert"
-require "./binder-rack/core/data/writer"
+require_relative "../../data/writer"
 
 MiniTest.autorun
 
@@ -15,7 +15,7 @@ class WriterTest < Minitest::Test
       "code" => "sample_code",
       "name" => "Sample Code",
     }
-    path = "./binder-rack/test/data/write_sample.yaml"
+    path = "#{File.dirname(__FILE__)}/write_sample.yaml"
     BinderRack::Core::Writer.new.write_item(Testee.new(expect), path)
     result = BinderRack::Core::Reader.new.read_item(Testee, path)
 
@@ -31,7 +31,7 @@ class WriterTest < Minitest::Test
       "code" => "sample_code2",
       "name" => "Sample Code 2",
     }
-    path = "./binder-rack/test/data/write_sample_list.yaml"
+    path = "#{File.dirname(__FILE__)}/write_sample_list.yaml"
     BinderRack::Core::Writer.new.write_items([Testee.new(expect1), Testee.new(expect2)], path)
     results = BinderRack::Core::Reader.new.read_items(Testee, path)
 

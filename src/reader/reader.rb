@@ -1,5 +1,3 @@
-require "active_support/core_ext/string/inflections"
-require "fileutils"
 require "yaml"
 require "./src/models/models"
 

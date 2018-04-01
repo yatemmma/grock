@@ -56,12 +56,14 @@ function filter(key, value){
     return
   }
   filltered[key] = value
+  const isReversed = reversed[key]
 
   let showIndex = 0
   const $rows = document.querySelectorAll(".items tbody tr")
   $rows.forEach(($row, i)=>{
     $row.classList.remove("odd")
-    if (originals[i][key].toLowerCase().indexOf(value.toLowerCase()) >= 0) {
+    index = isReversed ? (originals.length - 1 - i) : i
+    if (displayed[index][key].toLowerCase().indexOf(value.toLowerCase()) >= 0) {
       $row.style.display = ""
       if (showIndex%2 !== 0) {
         $row.classList.add("odd")

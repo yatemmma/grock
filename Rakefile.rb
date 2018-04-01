@@ -14,10 +14,10 @@ task :build do
 
     system "bundle exec sass -r sass-css-importer #{org}/styles/index.scss #{org}/assets/style.css"
 
-    FileUtils.rm_rf dist
-    FileUtils.rm_rf dist_admin
-    FileUtils.cp_r "#{org}/assets", dist
-    FileUtils.cp_r "#{org}/assets", dist_admin
+    FileUtils.rm_rf "#{dist}/assets"
+    FileUtils.rm_rf "#{dist_admin}/assets"
+    FileUtils.cp_r "#{org}/assets", "#{dist}"
+    FileUtils.cp_r "#{org}/assets", "#{dist_admin}"
 
   else
     puts "unknown arguments: #{ARGV}"

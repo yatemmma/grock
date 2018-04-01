@@ -19,6 +19,10 @@
             <input type="text" class="search-band" placeholder="Band"></input>
             <a href="#" onclick="sort('band')"><i class="fas fa-sort"></i></a>
           </th>
+          <th>
+            <input type="text" class="search-type" placeholder="Type"></input>
+            <a href="#" onclick="sort('type')"><i class="fas fa-sort"></i></a>
+          </th>
           <th class="note">
             <input type="text" class="search-note" placeholder="Note"></input>
           </th>
@@ -29,6 +33,7 @@
         <tr class="<%= "odd" unless i%2 == 0 %>">
           <td class="name"><a href="song/<%= song.code %>.html"><%= song.name %></a></td>
           <td class="name"><%= song.band?.name %></td>
+          <td class="name"><%= song.type.name %></td>
           <td class="hidden-on-mobile"></td>
         </tr>
         <% end %>

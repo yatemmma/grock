@@ -8,7 +8,7 @@ module GROCK
     prop :band
     prop :disc
     prop :date, GDate
-    prop :type, GDiscType
+    prop :type, GSongType
     prop :label
     prop :video_date, GDate
     prop :youtube, GLink
@@ -25,6 +25,7 @@ module GROCK
       data = {
         name: name,
         band: band,
+        band: type.name,
         note: ""
       }.to_json
     end

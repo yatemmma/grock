@@ -4,6 +4,10 @@ module GROCK
       @data = data
     end
 
+    def url
+      @data
+    end
+
     def to_s
       @data
     end

@@ -11,7 +11,7 @@ module GROCK
     prop :type, GSongType
     prop :label
     prop :video_date, GDate
-    prop :youtube, GLink
+    prop :youtube, GVideo
     prop :apple, GLink
     prop :play, GLink
     prop :spotify, GLink
@@ -21,11 +21,22 @@ module GROCK
     prop :public
     prop :memo
 
+    def title
+      #(type) band - name [year]
+      words = []
+      words << "(#{type.name})" unless type.name.nil?
+      words << "#{band?.name}"
+      words << "-"
+      words << "#{name}"
+      words << "[#{video_date.year}]" unless video_date.year.nil?
+      words.join(" ")
+    end
+
     def json
       data = {
         name: name,
         band: band,
-        band: type.name,
+        type: type.name,
         note: ""
       }.to_json
     end

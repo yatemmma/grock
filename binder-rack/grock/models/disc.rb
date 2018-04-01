@@ -6,7 +6,6 @@ module GROCK
     prop :code
     prop :name, GName
     prop :band
-
     prop :type, GDiscType
     prop :date, GDate
     prop :label
@@ -24,6 +23,17 @@ module GROCK
     prop :body, GBody
     prop :public
     prop :memo
+
+    def title
+      # band - name type (year)
+      words = []
+      words << "[#{type.short_name}]" unless type.short_name.nil?
+      words << band?.name
+      words << "-"
+      words << name
+      words << "(#{date.year})" unless date.year.nil?
+      words.join(" ")
+    end
 
     def json
       data = {

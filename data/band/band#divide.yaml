@@ -7,9 +7,10 @@ country: id
 active: 2010-
 genres:
 - post-hardcore
+videos:
+- https://www.youtube.com/watch?v=-BvEAyoNwY4
 images:
 - http://i.ytimg.com/vi/-BvEAyoNwY4/maxres1.jpg
-main_youtube: https://www.youtube.com/watch?v=-BvEAyoNwY4
 apple:
 play:
 spotify:
@@ -28,7 +29,6 @@ links:
 members:
 past_members:
 discs:
-videos:
 body:
 public:
 memo:

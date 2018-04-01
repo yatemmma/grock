@@ -7,6 +7,11 @@
 <body>
   <%= header %>
   <div class="contents-wrapper">
+
+    <%= main_video_block(band.videos.first) %>
+    <%= main_image_block(band.images.first) if band.videos.empty? %>
+    <h2><%= band.title %></h2>
+
     <div class="contents">
 
     </div>

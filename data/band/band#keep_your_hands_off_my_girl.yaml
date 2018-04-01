@@ -7,9 +7,9 @@ country: jp
 active: 2008-2017
 genres:
 - post-hardcore
+videos:
 images:
 - http://i.ytimg.com/vi/hC7u_v6l7Ak/maxresdefault.jpg
-main_youtube:
 apple:
 play:
 spotify:
@@ -28,8 +28,6 @@ links:
 members:
 past_members:
 discs:
-videos:
-- keep_your_hands_off_my_girl-stand_by_you
 body:
 public:
 memo:

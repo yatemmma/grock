@@ -20,6 +20,14 @@ module GROCK
       end
     end
 
+    def short_name
+      if @data == "album"
+        nil
+      else
+        name
+      end
+    end
+
     def to_s
       @data
     end

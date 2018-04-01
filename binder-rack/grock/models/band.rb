@@ -34,6 +34,13 @@ module GROCK
     prop :public
     prop :memo
 
+    def title
+      words = []
+      words << name
+      words << "(#{active.short})" unless active.short.nil?
+      words.join(" ")
+    end
+
     def json
       data = {
         name: name,

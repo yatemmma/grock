@@ -5,5 +5,6 @@ module GROCK
   class Song < BinderRack::Core::Metadata
     prop :code
     prop :name, GName
+    prop :band
   end
 end

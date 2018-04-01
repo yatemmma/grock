@@ -37,13 +37,23 @@ module BinderRack
       end
 
       def method_missing(method_sym, *args)
+        # get property instance
         if self.class.props.include? method_sym
           data = @metadata[method_sym.to_s]
           clazz = self.class.prop_type(method_sym)
-          clazz.new(data)
-        else
-          super
+          return clazz.new(data)
         end
+
+        # ex. band?
+        if method_sym.to_s.end_with?("?")
+          method = method_sym.to_s[0..-2]
+          data = self.class.alldata(method)
+          if self.respond_to?(method) || (self.class.props.include? method.to_sym)
+            return data[self.send(method)]
+          end
+        end
+
+        super
       end
     end
   end

@@ -5,5 +5,6 @@ module GROCK
   class Disc < BinderRack::Core::Metadata
     prop :code
     prop :name, GName
+    prop :band
   end
 end

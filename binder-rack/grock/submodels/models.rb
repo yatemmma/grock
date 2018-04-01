@@ -1,1 +1,5 @@
+require_relative "./g_body"
+require_relative "./g_image"
+require_relative "./g_link"
 require_relative "./g_name"
+require_relative "./g_video"

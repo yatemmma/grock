@@ -40,8 +40,16 @@ module BinderRack
         # get property instance
         if self.class.props.include? method_sym
           data = @metadata[method_sym.to_s]
-          clazz = self.class.prop_type(method_sym)
-          return clazz.new(data)
+          if method_sym.to_s == method_sym.to_s.pluralize
+            return [] if data.nil?
+            clazz = self.class.prop_type(method_sym)
+            return data.map do |obj|
+              clazz.new(obj)
+            end
+          else
+            clazz = self.class.prop_type(method_sym)
+            return clazz.new(data)
+          end
         end
 
         # ex. band?

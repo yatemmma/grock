@@ -13,7 +13,19 @@
     <h2><%= band.title %></h2>
 
     <div class="contents">
+      <%= body_block(band) %>
+      <%= sns_block(band) %>
 
+      <%= info_block(band.country_origin, "origin") %>
+      <%= info_block(band.active.full, "active") %>
+      <%= info_block(band.all_genres.join(", "), "genre") %>
+
+      <% %w(apple play spotify soundcloud bandcamp youtube website wikipedia twitter facebook instagram discogs purevolume myspace).each do |key| %>
+        <%= link_block(band, key.to_sym) %>
+      <% end %>
+      <% band.links.each do |link| %>
+        <%= link_block(link, "Link") %>
+      <% end %>
     </div>
 
     <div class="sub-contents">

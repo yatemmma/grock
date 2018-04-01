@@ -13,6 +13,16 @@
     <h2><%= disc.title %></h2>
 
     <div class="contents">
+      <%= body_block(disc) %>
+      <%= sns_block(disc) %>
+
+      <% %w(apple play spotify amazon discogs youtube).each do |key| %>
+        <%= link_block(disc, key.to_sym) %>
+      <% end %>
+      <% disc.links.each do |link| %>
+        <%= link_block(link, "Link") %>
+      <% end %>
+      <%= link_block(disc.search_link, "Search") %>
 
     </div>
 

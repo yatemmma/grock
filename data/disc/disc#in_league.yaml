@@ -13,7 +13,7 @@
   play:
   spotify: https://open.spotify.com/album/3mcGB6bnHl5ictgQheIWC0
   amazon:
-  discogs: https://www.discogs.com/ja/In-League-Where-The-Silence-Is-Easy/release/9902747
+  discogs_link: https://www.discogs.com/ja/In-League-Where-The-Silence-Is-Easy/release/9902747
   youtube:
   links:
   songs:
@@ -34,7 +34,7 @@
   play:
   spotify: https://open.spotify.com/album/2Iz95vmzXh17SCFruLi3KK
   amazon:
-  discogs:
+  discogs_link:
   youtube: https://www.youtube.com/watch?v=SEQbyTpe_iQ&list=PL7ztMO7prrmunkNPVSTXfDBCf8DG0fpju
   links:
   songs:
@@ -56,7 +56,7 @@
   play:
   spotify: https://open.spotify.com/album/4LsSydO6GWb8EXhMYYkCHj
   amazon:
-  discogs:
+  discogs_link:
   youtube:
   links:
   songs:

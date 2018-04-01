@@ -4,6 +4,9 @@ require_relative "./url_helper"
 require_relative "./header_footer_helper"
 require_relative "./feed_helper"
 require_relative "./main_contents_helper"
+require_relative "./body_helper"
+require_relative "./sns_helper"
+require_relative "./contents_helper"
 
 module BinderRack
   module Core
@@ -13,6 +16,9 @@ module BinderRack
       include GROCK::HeaderFooterHelper
       include GROCK::FeedHelper
       include GROCK::MainContentsHelper
+      include GROCK::BodyHelper
+      include GROCK::SNSHelper
+      include GROCK::ContentsHelper
     end
   end
 end

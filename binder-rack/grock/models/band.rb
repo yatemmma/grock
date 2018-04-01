@@ -5,8 +5,8 @@ module GROCK
   class Band < BinderRack::Core::Metadata
     prop :code
     prop :name, GName
-    prop :description
-    prop :origin
+    prop :description, GText
+    prop :origin, GText
     prop :country, GCountry
     prop :active, GActive
     prop :genres, GGenre
@@ -39,6 +39,17 @@ module GROCK
       words << name
       words << "(#{active.short})" unless active.short.nil?
       words.join(" ")
+    end
+
+    def country_origin
+      words = []
+      words << country.emoji unless country.emoji.nil?
+      words << origin.to_s unless origin.to_s.nil?
+      words.join(" ")
+    end
+
+    def all_genres
+      genres.map {|genre| genre.name }
     end
 
     def json

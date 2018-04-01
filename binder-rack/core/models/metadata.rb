@@ -38,12 +38,16 @@ module BinderRack
         @metadata = hash
       end
 
+      def plural?(text)
+        text == text.pluralize
+      end
+
       def method_missing(method_sym, *args)
         # get property instance
         if self.class.props.include? method_sym
           data = @metadata[method_sym.to_s]
-          
-          if method_sym.to_s == method_sym.to_s.pluralize
+
+          if plural?(method_sym.to_s)
             return [] if data.nil?
             clazz = self.class.prop_type(method_sym)
             return data.map do |obj|

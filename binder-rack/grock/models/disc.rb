@@ -35,6 +35,15 @@ module GROCK
       words.join(" ")
     end
 
+    def search_link
+      text = URI.encode_www_form_component("#{band?.name} #{name} full album")
+      data = {
+        "title" => "#{band?.name} - #{name}",
+        "url" => "https://www.youtube.com/results?search_query=" + text
+      }
+      GLink.new(data)
+    end
+
     def json
       data = {
         name: name,

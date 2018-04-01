@@ -13,6 +13,15 @@
     <h2><%= label.name %></h2>
 
     <div class="contents">
+      <%= body_block(label) %>
+      <%= sns_block(label) %>
+
+      <% %w(website wikipedia youtube).each do |key| %>
+        <%= link_block(label, key.to_sym) %>
+      <% end %>
+      <% label.links.map do |link| %>
+        <%= link_block(link, "Link") %>
+      <% end %>
 
     </div>
 

@@ -7,17 +7,18 @@ module GROCK
     prop :name, GName
     prop :videos, GVideo
     prop :images, GImage
-
     prop :website, GLink
     prop :wikipedia, GLink
     prop :youtube, GLink
     prop :links, GLink
-
     prop :body, GBody
     prop :public
     prop :memo
 
-
+    def title
+      name.to_s
+    end
+    
     def json
       data = {
         name: name,

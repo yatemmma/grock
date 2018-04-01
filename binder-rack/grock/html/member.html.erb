@@ -13,7 +13,14 @@
     <h2><%= member.name %></h2>
 
     <div class="contents">
+      <%= body_block(member) %>
+      <%= sns_block(member) %>
 
+      <%= info_block(member.country_origin, "origin") %>
+
+      <% member.links.each do |link| %>
+        <%= link_block(link, "Link") %>
+      <% end %>
     </div>
 
     <div class="sub-contents">

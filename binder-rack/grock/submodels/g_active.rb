@@ -13,6 +13,15 @@ module GROCK
       end
     end
 
+    def full
+      if @data.nil?
+        nil
+      else
+        text = (@data[-1] == "-") ? "#{@data}present" : @data
+        text
+      end
+    end
+
     def to_s
       @data
     end

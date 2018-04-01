@@ -12,7 +12,15 @@
     <h2><%= song.title %></h2>
 
     <div class="contents">
+      <%= body_block(song) %>
+      <%= sns_block(song) %>
 
+      <% %w(apple play spotify).each do |key| %>
+        <%= link_block(song, key.to_sym) %>
+      <% end %>
+      <% song.links.each do |link| %>
+        <%= link_block(link, "Link") %>
+      <% end %>
     </div>
 
     <div class="sub-contents">

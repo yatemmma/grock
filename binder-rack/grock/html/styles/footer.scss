@@ -1,0 +1,13 @@
+footer {
+  text-align: center;
+
+  div.link {
+    @include line-bottom;
+    padding: 48px 0 12px 0;
+    font-size: 2em;
+  }
+
+  div.copy {
+    padding: 12px 0 24px 0;
+  }
+}

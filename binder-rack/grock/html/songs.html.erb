@@ -1,13 +1,42 @@
 <% songs = obj %>
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <%= head "Songs" %>
 </head>
 <body>
   <%= header %>
   <div class="contents-wrapper">
+
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th class="name">
+            <input type="text" class="search-name" placeholder="Song Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th class="name">
+            <input type="text" class="search-band" placeholder="Band"></input>
+            <a href="#" onclick="sort('band')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th class="note">
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <% songs.each_with_index do |(code, song), i| %>
+        <tr class="<%= "odd" unless i%2 == 0 %>">
+          <td class="name"><a href="song/<%= song.code %>.html"><%= song.name %></a></td>
+          <td class="name"><%= song.band?.name %></td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+
   </div>
   <%= footer %>
+<%= list_scripts songs %>
 </body>
 </html>

@@ -1,3 +1,5 @@
+require "json"
+
 module BinderRack
   module Core
     class Metadata
@@ -40,6 +42,7 @@ module BinderRack
         # get property instance
         if self.class.props.include? method_sym
           data = @metadata[method_sym.to_s]
+          
           if method_sym.to_s == method_sym.to_s.pluralize
             return [] if data.nil?
             clazz = self.class.prop_type(method_sym)

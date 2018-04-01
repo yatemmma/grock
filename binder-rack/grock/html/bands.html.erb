@@ -1,13 +1,55 @@
 <% bands = obj %>
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <%= head "Bands" %>
 </head>
 <body>
   <%= header %>
   <div class="contents-wrapper">
+
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th class="name">
+            <input type="text" class="search-name" placeholder="Band Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-country" placeholder="Country"></input>
+            <a href="#" onclick="sort('country')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-active" placeholder="Active"></input>
+            <a href="#" onclick="sort('active')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-genre" placeholder="Genre"></input>
+            <a href="#" onclick="sort('genre')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th class="note">
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <% bands.each_with_index do |(code, band), i| %>
+        <tr class="<%= "odd" unless i%2 == 0 %>">
+          <td class="name"><a href="band/<%= band.code %>.html"><%= band.name %></a></td>
+          <td>
+            <span class="flag"><%= band.country.emoji %></span>
+            <span class="hidden-on-mobile"><%= band.country.name %></span>
+          </td>
+          <td class="hidden-on-mobile"><%= band.active.short %></td>
+          <td class="hidden-on-mobile"><%= band.genres.first %></td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+
   </div>
   <%= footer %>
+<%= list_scripts bands %>
 </body>
 </html>

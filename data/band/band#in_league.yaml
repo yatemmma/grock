@@ -1,27 +1,28 @@
 ---
 code: in_league
 name: In League
-description: 
+description:
 origin: Brisbane, Queensland Australia
 country: au
 active: 2009-2015
-genres: post-hardcore
+genres:
+- post-hardcore
 images:
 - http://i.ytimg.com/vi/JLfPQFguu_I/maxresdefault.jpg
 main_youtube: https://www.youtube.com/watch?v=AWrZRkycnyQ
 apple: https://itunes.apple.com/au/artist/in-league/412521690
-play: 
+play:
 spotify: https://open.spotify.com/artist/7GucydECGmKhDmzohgQxdY
-soundcloud: 
-bandcamp: 
+soundcloud:
+bandcamp:
 youtube: https://www.youtube.com/user/inleagueband
-website: 
-wikipedia: 
+website:
+wikipedia:
 twitter: https://twitter.com/inleagueband
 facebook: https://www.facebook.com/inleague/
 instagram: https://www.instagram.com/inleagueband/
-purevolume: 
-myspace: 
+purevolume:
+myspace:
 discogs: https://www.discogs.com/ja/artist/1500958-In-League
 links:
 - https://www.spirit-of-metal.com/en/band/In_League
@@ -43,6 +44,6 @@ discs:
 - in_league-where_the_silence_is_easy
 videos:
 - in_league-moving_for_words
-body: 
+body:
 public: true
-memo: 
+memo:

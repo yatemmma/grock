@@ -6,5 +6,27 @@ module GROCK
     prop :code
     prop :name, GName
     prop :band
+    prop :disc
+    prop :date, GDate
+    prop :type, GDiscType
+    prop :label
+    prop :video_date, GDate
+    prop :youtube, GLink
+    prop :apple, GLink
+    prop :play, GLink
+    prop :spotify, GLink
+    prop :links, GLink
+    prop :guests
+    prop :body, GBody
+    prop :public
+    prop :memo
+
+    def json
+      data = {
+        name: name,
+        band: band,
+        note: ""
+      }.to_json
+    end
   end
 end

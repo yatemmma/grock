@@ -1,13 +1,54 @@
 <% discs = obj %>
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <%= head "Discs" %>
 </head>
 <body>
   <%= header %>
   <div class="contents-wrapper">
+
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th class="name">
+            <input type="text" class="search-name" placeholder="Disc Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th class="name">
+            <input type="text" class="search-band" placeholder="Band Name"></input>
+            <a href="#" onclick="sort('band')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-date" placeholder="Date"></input>
+            <a href="#" onclick="sort('date')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-type" placeholder="Type"></input>
+            <a href="#" onclick="sort('type')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th class="note">
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <% discs.each_with_index do |(code, disc), i| %>
+        <tr class="<%= "odd" unless i%2 == 0 %>">
+          <td class="name"><a href="disc/<%= disc.code %>.html"><%= disc.name %></a></td>
+          <td class="name">
+            <%= disc.band?.name %>
+          </td>
+          <td class="hidden-on-mobile"><%= disc.date %></td>
+          <td class="hidden-on-mobile"><%= disc.type.name %></td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
+
   </div>
   <%= footer %>
+<%= list_scripts discs %>
 </body>
 </html>

@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
           <meta charset="utf-8">
         <title>Songs | G-ROCK</title>
@@ -27,6 +27,88 @@
         </header>
 
   <div class="contents-wrapper">
+
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th class="name">
+            <input type="text" class="search-name" placeholder="Song Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th class="name">
+            <input type="text" class="search-band" placeholder="Band"></input>
+            <a href="#" onclick="sort('band')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th class="note">
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr class="">
+          <td class="name"><a href="song/awaken_i_am-lumineux.html">Lumineux</a></td>
+          <td class="name">Awaken I Am</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="odd">
+          <td class="name"><a href="song/awaken_i_am-consider_the_thought.html">Consider the Thought</a></td>
+          <td class="name">Awaken I Am</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="">
+          <td class="name"><a href="song/awaken_i_am-the_depths.html">The Depths</a></td>
+          <td class="name">Awaken I Am</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="odd">
+          <td class="name"><a href="song/awaken_i_am-shields.html">Shields</a></td>
+          <td class="name">Awaken I Am</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="">
+          <td class="name"><a href="song/awaken_i_am-channeling.html">Channeling</a></td>
+          <td class="name">Awaken I Am</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="odd">
+          <td class="name"><a href="song/divide_4th.html">4th</a></td>
+          <td class="name">DIVIDE</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="">
+          <td class="name"><a href="song/in_league-this_will_be_the_end_of_us.html">This Will Be The End Of Us</a></td>
+          <td class="name">In League</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="odd">
+          <td class="name"><a href="song/in_league-danindra.html">Danindra</a></td>
+          <td class="name">In League</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="">
+          <td class="name"><a href="song/in_league-moving_for_words.html">Moving For Words</a></td>
+          <td class="name">In League</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="odd">
+          <td class="name"><a href="song/keep_your_hands_off_my_girl-stand_by_you.html">stand by you</a></td>
+          <td class="name">KEEP YOUR HANDs OFF MY GIRL</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+      </tbody>
+    </table>
+
   </div>
           <footer>
           <div class="link">
@@ -34,6 +116,13 @@
           </div>
           <div class="copy">&copy; 2009-2018 <a href="./index.html">G-ROCK</a></div>
         </footer>
+
+        <script>
+          const originals = [{"name":"Lumineux","band":"awaken_i_am","note":""},{"name":"Consider the Thought","band":"awaken_i_am","note":""},{"name":"The Depths","band":"awaken_i_am","note":""},{"name":"Shields","band":"awaken_i_am","note":""},{"name":"Channeling","band":"awaken_i_am","note":""},{"name":"4th","band":"divide","note":""},{"name":"This Will Be The End Of Us","band":"in_league","note":""},{"name":"Danindra","band":"in_league","note":""},{"name":"Moving For Words","band":"in_league","note":""},{"name":"stand by you","band":"keep_your_hands_off_my_girl","note":""}]
+          let displayed = null
+          const reversed = {}
+          const filltered = {}
+        </script>
 
 </body>
 </html>

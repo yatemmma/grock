@@ -33,7 +33,7 @@ module GROCK
 
     def list_scripts(items)
       data = items.map {|code, item|
-         item.json
+        item.json
       }.join(",")
 
       html = <<-"EOS"

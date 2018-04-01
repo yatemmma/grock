@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
           <meta charset="utf-8">
         <title>Labels | G-ROCK</title>
@@ -27,6 +27,34 @@
         </header>
 
   <div class="contents-wrapper">
+
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th class="name">
+            <input type="text" class="search-name" placeholder="Label Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr class="">
+          <td class="name"><a href="label/invogue_records.html">InVogue Records</a></td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="odd">
+          <td class="name"><a href="label/victory_records.html">Victory Records</a></td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+      </tbody>
+    </table>
+
   </div>
           <footer>
           <div class="link">
@@ -34,6 +62,13 @@
           </div>
           <div class="copy">&copy; 2009-2018 <a href="./index.html">G-ROCK</a></div>
         </footer>
+
+        <script>
+          const originals = [{"name":"InVogue Records","note":""},{"name":"Victory Records","note":""}]
+          let displayed = null
+          const reversed = {}
+          const filltered = {}
+        </script>
 
 </body>
 </html>

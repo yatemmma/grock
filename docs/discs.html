@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
           <meta charset="utf-8">
         <title>Discs | G-ROCK</title>
@@ -27,6 +27,96 @@
         </header>
 
   <div class="contents-wrapper">
+
+    <table class="items">
+      <thead>
+        <tr class="hidden-on-mobile">
+          <th class="name">
+            <input type="text" class="search-name" placeholder="Disc Name"></input>
+            <a href="#" onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th class="name">
+            <input type="text" class="search-band" placeholder="Band Name"></input>
+            <a href="#" onclick="sort('band')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-date" placeholder="Date"></input>
+            <a href="#" onclick="sort('date')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input type="text" class="search-type" placeholder="Type"></input>
+            <a href="#" onclick="sort('type')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th class="note">
+            <input type="text" class="search-note" placeholder="Note"></input>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr class="">
+          <td class="name"><a href="disc/awaken_i_am-resonance.html">Resonance</a></td>
+          <td class="name">
+            Awaken I Am
+          </td>
+          <td class="hidden-on-mobile">2011/10/20</td>
+          <td class="hidden-on-mobile">EP</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="odd">
+          <td class="name"><a href="disc/awaken_i_am-shields_and_crowns.html">Shields & Crowns</a></td>
+          <td class="name">
+            Awaken I Am
+          </td>
+          <td class="hidden-on-mobile">2015/05/12</td>
+          <td class="hidden-on-mobile">Album</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="">
+          <td class="name"><a href="disc/awaken_i_am-blind_love.html">Blind Love</a></td>
+          <td class="name">
+            Awaken I Am
+          </td>
+          <td class="hidden-on-mobile">2017/09/29</td>
+          <td class="hidden-on-mobile">Album</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="odd">
+          <td class="name"><a href="disc/in_league-where_the_silence_is_easy.html">Where The Silence Is Easy</a></td>
+          <td class="name">
+            In League
+          </td>
+          <td class="hidden-on-mobile">2011/01/11</td>
+          <td class="hidden-on-mobile">Album</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="">
+          <td class="name"><a href="disc/in_league-sleep_and_you_might_miss_this.html">Sleep and You Might Miss This</a></td>
+          <td class="name">
+            In League
+          </td>
+          <td class="hidden-on-mobile">2012/09/30</td>
+          <td class="hidden-on-mobile">Album</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+        <tr class="odd">
+          <td class="name"><a href="disc/in_league-moving_for_words.html">Moving for Words</a></td>
+          <td class="name">
+            In League
+          </td>
+          <td class="hidden-on-mobile">2015/07/06</td>
+          <td class="hidden-on-mobile">Single</td>
+          <td class="hidden-on-mobile"></td>
+        </tr>
+        
+      </tbody>
+    </table>
+
   </div>
           <footer>
           <div class="link">
@@ -34,6 +124,13 @@
           </div>
           <div class="copy">&copy; 2009-2018 <a href="./index.html">G-ROCK</a></div>
         </footer>
+
+        <script>
+          const originals = [{"name":"Resonance","band":"awaken_i_am","date":"2011/10/20","type":"ep","note":""},{"name":"Shields & Crowns","band":"awaken_i_am","date":"2015/05/12","type":"album","note":""},{"name":"Blind Love","band":"awaken_i_am","date":"2017/09/29","type":"album","note":""},{"name":"Where The Silence Is Easy","band":"in_league","date":"2011/01/11","type":"album","note":""},{"name":"Sleep and You Might Miss This","band":"in_league","date":"2012/09/30","type":"album","note":""},{"name":"Moving for Words","band":"in_league","date":"2015/07/06","type":"single","note":""}]
+          let displayed = null
+          const reversed = {}
+          const filltered = {}
+        </script>
 
 </body>
 </html>

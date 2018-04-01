@@ -1,37 +1,37 @@
 ---
 code: death_and_a_cure
 name: Death and a Cure
-description: 
+description:
 origin: Perth, Western Australia
 country: au
-active: 
+active:
 genres:
-- indie-rock
+- indie_rock
 - acoustic
 images:
 - https://f4.bcbits.com/img/0004925280_10.jpg
 main_youtube: https://www.youtube.com/watch?v=P8A6pSUfSeg
-apple: 
-play: 
-spotify: 
-soundcloud: 
+apple:
+play:
+spotify:
+soundcloud:
 bandcamp: https://deathandacure.bandcamp.com/
 youtube: https://www.youtube.com/user/Deathandacure
-website: 
-wikipedia: 
-twitter: 
-facebook: 
-instagram: 
-purevolume: 
-myspace: 
-discogs: 
-links: 
-members: 
+website:
+wikipedia:
+twitter:
+facebook:
+instagram:
+purevolume:
+myspace:
+discogs:
+links:
+members:
 past_members:
 - - ben_blondel
   - Ben Blondel
-discs: 
-videos: 
-body: 
+discs:
+videos:
+body:
 public: true
-memo: 
+memo:

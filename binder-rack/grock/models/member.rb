@@ -12,20 +12,28 @@ module GROCK
     prop :images, GImage
     prop :links, GLink
     prop :bands
-    prop :songs
     prop :body, GBody
     prop :public
     prop :memo
 
     def title
-      name.to_s
+      words = []
+      words << name.to_s
+      words << "(#{description.to_s})" unless description.to_s.nil?
+      words.join(" ")
     end
 
     def country_origin
       words = []
       words << country.emoji unless country.emoji.nil?
       words << origin.to_s unless origin.to_s.nil?
-      words.empty? ? nil : words.join(" ") 
+      words.empty? ? nil : words.join(" ")
+    end
+
+    def songs
+      self.class.alldata("song").select do |_, song|
+        song.guests.map {|guest| guest.code}.include?(code)
+      end.values
     end
 
     def json

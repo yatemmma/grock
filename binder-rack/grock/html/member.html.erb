@@ -10,16 +10,24 @@
 
     <%= main_video_block(member.videos.first) %>
     <%= main_image_block(member.images.first) if member.videos.empty? %>
-    <h2><%= member.name %></h2>
+    <h2><%= member.title %></h2>
 
     <div class="contents">
       <%= body_block(member) %>
       <%= sns_block(member) %>
 
       <%= info_block(member.country_origin, "origin") %>
+      
+      <% member.bands.each do |band_code| %>
+        <%= band_block(member.class.alldata("band")[band_code]) %>
+      <% end %>
 
       <% member.links.each do |link| %>
         <%= link_block(link, "Link") %>
+      <% end %>
+
+      <% member.songs.each do |song| %>
+        <%= song_block(song) %>
       <% end %>
     </div>
 

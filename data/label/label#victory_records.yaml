@@ -1,12 +1,13 @@
 ---
 code: victory_records
 name: Victory Records
-videos: 
+videos:
 website: http://www.victoryrecords.com/
 wikipedia: https://en.wikipedia.org/wiki/Victory_Records
 youtube:
 links:
 images:
+- https://upload.wikimedia.org/wikipedia/en/c/c2/VictoryRecords.png
 body:
 public: true
 memo:

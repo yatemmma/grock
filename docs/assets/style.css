@@ -526,28 +526,35 @@ footer {
     text-overflow: ellipsis; }
 .contents-wrapper .contents a.block:hover {
   background-color: #555; }
+@media screen and (max-width: 812px) {
+  .contents-wrapper .contents .band, .contents-wrapper .contents .disc, .contents-wrapper .contents .song {
+    text-align: center; } }
 .contents-wrapper .contents .band .image {
   width: 320px;
   height: 200px; }
 @media screen and (min-width: 813px) {
   .contents-wrapper .contents .band .label {
     padding-top: 16px;
-    height: 40px; } }
+    height: 68px; } }
 .contents-wrapper .contents .band .name {
   font-size: 1.4em; }
+  .contents-wrapper .contents .band .name .description {
+    font-size: 0.8em;
+    margin-top: 8px; }
 .contents-wrapper .contents .image {
   width: 200px;
   height: 200px; }
 @media screen and (min-width: 813px) {
-  .contents-wrapper .contents .name, .contents-wrapper .contents .artist, .contents-wrapper .contents .date {
+  .contents-wrapper .contents .desc {
     height: 24px;
     margin-top: 32px; } }
 .contents-wrapper .contents .song .image {
   width: 300px;
   height: 170px; }
 @media screen and (min-width: 813px) {
-  .contents-wrapper .contents .song .name {
-    padding-top: 38px; } }
+  .contents-wrapper .contents .song .desc {
+    height: 24px;
+    margin-top: 26px; } }
 
 .contents-wrapper .sub-contents .feeds .feed {
   display: block;

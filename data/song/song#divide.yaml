@@ -2,19 +2,19 @@
 - code: divide_4th
   name: 4th
   band: divide
-  disc: 
-  date: 
-  type: 
-  label: 
-  video_date: 
+  disc:
+  date:
+  type: guest
+  label:
+  video_date:
   youtube: https://www.youtube.com/watch?v=cRBSiOHNqlY
-  apple: 
-  play: 
-  spotify: 
-  links: 
+  apple:
+  play:
+  spotify:
+  links:
   guests:
   - code: ricky_thomas
     label: Guest vocals
-  body: 
+  body:
   public: true
-  memo: 
+  memo:

@@ -14,6 +14,12 @@ module GROCK
       end
     end
 
+    # size: mq, hq, maxres
+    # num: default, 1, 2, 3
+    def youtube_thumbnail(size="mq", num="default")
+      "http://i.ytimg.com/vi/#{youtube_key}/#{size}#{num}.jpg"
+    end
+
     def to_s
       @data
     end

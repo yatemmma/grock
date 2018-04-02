@@ -12,7 +12,7 @@ module GROCK
       "twitter":      "Twitter",
       "facebook":     "Facebook",
       "instagram":    "Instagram",
-      "discogs_link": "Discogs",
+      "discogs": "Discogs",
       "purevolume":   "purevolume",
       "myspace":      "Myspace",
       "amazon":       "Amazon"

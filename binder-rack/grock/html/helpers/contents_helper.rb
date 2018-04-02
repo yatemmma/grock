@@ -11,66 +11,79 @@ module GROCK
     end
 
     def band_block(item, label = "")
+      path = "#{item.class.id}/#{item.code}.html"
       image = item.images.nil? ? '' : item.images.first
-      name = item.name
-      name += item.description unless item.description.nil?
+
+      words = []
+      words << item.name.to_s
+      words << "<div class='description'>(#{item.description.to_s})</div>" unless item.description.to_s.nil?
 
       html = <<-"EOS"
-        <a class="block band" href="#{link page_path(item)}">
+        <a class="block band" href="#{link path}">
           <div class="image" data-image="#{image}">
             <img>
           </div>
           <div class="label">#{label}</div>
-          <div class="name">#{item.name}</div>
+          <div class="name">#{words.join(" ")}</div>
         </a>
       EOS
     end
 
     def disc_block(disc)
+      return if disc.nil?
+
+      path = "disc/#{disc.code}.html"
+      title = disc.band?.name.to_s
+      title += " - #{disc.type.short_name}" unless disc.type.short_name.nil?
+
       html = <<-"EOS"
-        <a class="block disc" href="#{link page_path(disc)}">
+        <a class="block disc" href="#{link path}">
           <div class="image" data-image="#{disc.images.first unless disc.images.nil?}">
             <img>
           </div>
-          <div class="name">#{disc.name}</div>
-          <div class="artist">#{disc.band?.name}</div>
-          <div class="date">#{disc.date}</div>
+          <div class="desc">#{disc.name}</div>
+          <div class="desc">#{title}</div>
+          <div class="desc">#{disc.date}</div>
         </a>
       EOS
     end
 
-    def video_block(song)
+    def song_block(song)
+      path = "song/#{song.code}.html"
+      case song.type.to_s
+      when "music_video"
+        text = song.video_date.to_s
+      when "guest"
+        guest = song.guest(song.guests.first.code)
+        text = "feat. #{guest.name}"
+      end
+
       html = <<-"EOS"
-        <a class="block song" href="#{link page_path(song)}">
-          <div class="image" data-image="#{song.youtube_thmbnail}">
+        <a class="block song" href="#{link path}">
+          <div class="image" data-image="#{song.youtube.youtube_thumbnail}">
             <img>
           </div>
-          <div class="name">#{song.song_type_name}</div>
-          <div class="artist">#{song.name}</div>
-          <div class="date">#{song.video_date}</div>
+          <div class="desc">#{song.type.name}:</div>
+          <div class="desc">#{song.name.to_s}</div>
+          <div class="desc">#{text}</div>
         </a>
       EOS
     end
 
     def link_block(item, key)
-
       if key.is_a? String
-        url = item.url
-        title = item.title
+        link = item
         type = key
       else
         link = item.send(key)
         return if link.empty?
-
-        url = link.url
-        title = link.title
         type = link.type_name(key.to_s)
       end
 
       html = <<-"EOS"
-        <a class="block link" href="#{url}" target="_blank">
+        <a class="block link" href="#{link.url}" target="_blank">
           <div class="type">#{type}</div>
-          <div class="title">#{title || url}</div>
+          <div class="title">#{link.title || link.url}</div>
         </a>
       EOS
     end

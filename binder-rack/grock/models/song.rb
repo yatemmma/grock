@@ -16,7 +16,7 @@ module GROCK
     prop :play, GLink
     prop :spotify, GLink
     prop :links, GLink
-    prop :guests
+    prop :guests, GGuest
     prop :body, GBody
     prop :public
     prop :memo
@@ -30,6 +30,10 @@ module GROCK
       words << "#{name}"
       words << "[#{video_date.year}]" unless video_date.year.nil?
       words.join(" ")
+    end
+
+    def guest(code)
+      self.class.alldata("member")[code]
     end
 
     def json

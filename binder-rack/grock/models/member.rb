@@ -25,7 +25,7 @@ module GROCK
       words = []
       words << country.emoji unless country.emoji.nil?
       words << origin.to_s unless origin.to_s.nil?
-      words.join(" ")
+      words.empty? ? nil : words.join(" ") 
     end
 
     def json

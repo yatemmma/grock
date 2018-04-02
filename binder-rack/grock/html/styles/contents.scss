@@ -89,6 +89,12 @@
       background-color: $SECONDARY_BG_COLOR;
     }
 
+    @include screen-mobile {
+      .band, .disc, .song {
+        text-align: center;
+      }
+    }
+
     .band {
       .image {
         width: 320px;
@@ -98,11 +104,16 @@
       @include screen-tablet {
         .label {
           padding-top: 16px;
-          height: 40px;
+          height: 68px;
         }
       }
       .name {
         font-size: 1.4em;
+
+        .description {
+          font-size: 0.8em;
+          margin-top: 8px;
+        }
       }
     }
 
@@ -112,7 +123,7 @@
     }
 
     @include screen-tablet {
-      .name, .artist, .date {
+      .desc {
         height: 24px;
         margin-top: 32px;
       }
@@ -125,8 +136,9 @@
       }
 
       @include screen-tablet {
-        .name {
-          padding-top: 38px;
+        .desc {
+          height: 24px;
+          margin-top: 26px;
         }
       }
     }

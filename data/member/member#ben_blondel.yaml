@@ -4,7 +4,7 @@ name: Ben Blondel
 description: ex. In League
 origin: Brisbane, Queensland Australia
 country: au
-main_youtube: 
+videos:
 images:
 - http://images.fasterlouder.com.au/1191/1191894.jpg
 links:
@@ -13,6 +13,6 @@ bands:
 - in_league
 songs:
 - awaken_i_am-channeling
-body: 
+body:
 public: true
-memo: 
+memo:

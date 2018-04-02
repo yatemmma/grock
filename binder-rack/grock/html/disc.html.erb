@@ -16,6 +16,9 @@
       <%= body_block(disc) %>
       <%= sns_block(disc) %>
 
+      <%= disc_block(disc) %>
+      <%= band_block(disc.band?) %>
+
       <% %w(apple play spotify amazon discogs youtube).each do |key| %>
         <%= link_block(disc, key.to_sym) %>
       <% end %>
@@ -24,6 +27,10 @@
       <% end %>
       <%= link_block(disc.search_link, "Search") %>
 
+      <% disc.guests.each do |info| %>
+        <% guest, label = info %>
+        <%= band_block(guest, label) %>
+      <% end %>
     </div>
 
     <div class="sub-contents">

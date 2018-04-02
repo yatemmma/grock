@@ -15,6 +15,12 @@
       <%= body_block(song) %>
       <%= sns_block(song) %>
 
+      <% song.guests.each do |guest| %>
+        <%= band_block(song.guest(guest.code), guest.label) %>
+      <% end %>
+
+      <%= disc_block(song.disc?) %>
+
       <% %w(apple play spotify).each do |key| %>
         <%= link_block(song, key.to_sym) %>
       <% end %>

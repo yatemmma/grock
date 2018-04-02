@@ -26,6 +26,14 @@
       <% band.links.each do |link| %>
         <%= link_block(link, "Link") %>
       <% end %>
+
+      <% band.discs.each do |disc| %>
+        <%= disc_block(disc) %>
+      <% end %>
+
+      <% band.songs.each do |song| %>
+        <%= song_block(song) %>
+      <% end %>
     </div>
 
     <div class="sub-contents">

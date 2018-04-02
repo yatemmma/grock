@@ -44,6 +44,13 @@ module GROCK
       GLink.new(data)
     end
 
+    def guests
+      song_list = self.class.alldata("song")
+      song_list.select do |song_code, song|
+         (song.disc == code) && (song.type.to_s == "guest")
+      end.values.reverse.map {|song| [song.guest(song.guests.first.code), song.guests.first.label]}
+    end
+
     def json
       data = {
         name: name,

@@ -1,12 +1,14 @@
 ---
 code: invogue_records
 name: InVogue Records
-main_youtube:
+videos:
 website: http://www.invoguerecords.com/
 wikipedia: https://en.wikipedia.org/wiki/InVogue_Records
 youtube: https://www.youtube.com/channel/UCVaf7zeM1URZNRZCs-5V5Iw
 links:
 images:
+- http://i.ytimg.com/vi/muPzzaELDaQ/maxresdefault.jpg
+- https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/InVogue_Records_Logo.svg/1600px-InVogue_Records_Logo.svg.png
 body:
 public: true
 memo:

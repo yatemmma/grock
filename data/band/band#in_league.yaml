@@ -24,7 +24,7 @@ facebook: https://www.facebook.com/inleague/
 instagram: https://www.instagram.com/inleagueband/
 purevolume:
 myspace:
-discogs_link: https://www.discogs.com/ja/artist/1500958-In-League
+discogs: https://www.discogs.com/ja/artist/1500958-In-League
 links:
 - https://www.spirit-of-metal.com/en/band/In_League
 members:
@@ -39,10 +39,6 @@ past_members:
   - Ben Blondel - Vocals/Keyboard
 - Ben Broadley - Bass
 - Darcy Shaw - Drums
-discs:
-- in_league-moving_for_words
-- in_league-sleep_and_you_might_miss_this
-- in_league-where_the_silence_is_easy
 body:
 public: true
 memo:

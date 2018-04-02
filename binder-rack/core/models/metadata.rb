@@ -55,7 +55,12 @@ module BinderRack
             end
           else
             clazz = self.class.prop_type(method_sym)
-            return clazz.new(data)
+            if data.nil? && clazz == String
+              return nil
+            else
+              return clazz.new(data)
+            end
+
           end
         end
 

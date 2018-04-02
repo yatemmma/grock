@@ -24,7 +24,7 @@ facebook: https://www.facebook.com/awakeniam/
 instagram:
 purevolume:
 myspace:
-discogs_link:
+discogs:
 links:
 - http://www.victoryrecords.com/awakeniam
 - https://gekirock.com/news/artist_index/awaken_i_am/
@@ -34,10 +34,6 @@ members:
 - Connor Oakley - Guitar
 - Ryan Oxford - Bass
 past_members:
-discs:
-- awaken_i_am-blind_love
-- awaken_i_am-shields_and_crowns
-- awaken_i_am-resonance
 body:
 public: true
 memo:

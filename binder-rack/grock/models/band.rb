@@ -29,7 +29,6 @@ module GROCK
     prop :links, GLink
     prop :members
     prop :past_members
-    prop :discs
     prop :body, GBody
     prop :public
     prop :memo
@@ -50,6 +49,20 @@ module GROCK
 
     def all_genres
       genres.map {|genre| genre.name }
+    end
+
+    def discs
+      disc_list = self.class.alldata("disc")
+      disc_list.select do |disc_code, disc|
+        disc.band == code
+      end.values.reverse
+    end
+
+    def songs
+      song_list = self.class.alldata("song")
+      song_list.select do |song_code, song|
+        song.band == code
+      end.values.reverse
     end
 
     def json

@@ -14,7 +14,7 @@
   links:
   guests:
   - code: mansur_zennelli
-    label: Guest vocals
+    label: Guest
   body:
   public: true
   memo:

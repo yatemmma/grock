@@ -1,0 +1,89 @@
+---
+- code: closure_in_moscow-the_penance_and_the_patience
+  name: The Penance and the Patience
+  band: closure_in_moscow
+  type: ep
+  date: 2008/04/18
+  label: Taperjean Records
+  videos:
+  - https://www.youtube.com/watch?v=W8FVIWPrEhw
+  images:
+  - https://images-na.ssl-images-amazon.com/images/I/61bth8xtNQL.jpg
+  apple:
+  play:
+  spotify:
+  amazon: http://amzn.asia/9kPB4xm
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: closure_in_moscow-first_temple
+  name: First Temple
+  band: closure_in_moscow
+  type: album
+  date: 2009/05/05
+  label: Equal Vision
+  videos:
+  - https://www.youtube.com/watch?v=Pi08y-A39S0
+  images:
+  - https://images-na.ssl-images-amazon.com/images/I/415piY-k4JL.jpg
+  apple:
+  play:
+  spotify:
+  amazon: http://amzn.asia/3pmUYwU
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: closure_in_moscow-the_impeccable_beast
+  name: The Impeccable Beast
+  band: closure_in_moscow
+  type: single
+  date: 2012/01/18
+  label:
+  videos:
+  - https://www.youtube.com/watch?v=I2CNHESJKcU
+  images:
+  - https://static1.squarespace.com/static/52d4a0f3e4b0d4862e3e094f/t/52e71bcde4b0c5a06f82af4e/1390877647042/1.jpg
+  apple:
+  play:
+  spotify:
+  amazon: http://amzn.asia/3pmUYwU
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: closure_in_moscow-pink_lemonade
+  name: Pink Lemonade
+  band: closure_in_moscow
+  type: album
+  date: 2014/05/09
+  label:
+  videos:
+  - https://www.youtube.com/watch?v=aq0DOBZa_S4
+  images:
+  - https://static1.squarespace.com/static/52d4a0f3e4b0d4862e3e094f/t/531d27d8e4b0baf9a0e95edb/1394419740143/CIM_cover_sml.jpg
+  apple:
+  play:
+  spotify:
+  amazon: http://amzn.asia/2bJOqlj
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:

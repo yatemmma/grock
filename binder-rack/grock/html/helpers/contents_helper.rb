@@ -1,5 +1,13 @@
 module GROCK
   module ContentsHelper
+    def sub_video_block(video)
+      return nil if (video.nil? || video.to_s.nil?)
+
+      html = <<-"EOS"
+        <div id="sub-player" data-key="#{video.youtube_key}"></div>
+      EOS
+    end
+
     def info_block(prop, class_names = "")
       if prop.nil?
         nil

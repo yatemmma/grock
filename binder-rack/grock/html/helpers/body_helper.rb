@@ -3,7 +3,7 @@ module GROCK
     def body_block(item)
       html = <<-"EOS"
         <div class="body">
-          #{item.body.to_s}
+          #{item.body.html}
         </div>
       EOS
     end

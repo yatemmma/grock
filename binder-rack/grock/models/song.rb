@@ -12,6 +12,7 @@ module GROCK
     prop :label
     prop :video_date, GDate
     prop :youtube, GVideo
+    prop :original, GVideo
     prop :apple, GLink
     prop :play, GLink
     prop :spotify, GLink

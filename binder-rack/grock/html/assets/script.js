@@ -121,26 +121,29 @@ function sort(key){
 }
 
 function setYoutubeVideo(){
-  const element = document.querySelector("#player")
-  if (element === null) {
-    return
-  }
+
   const tag = document.createElement("script")
   tag.src = "https://www.youtube.com/iframe_api"
   const firstScriptTag = document.getElementsByTagName("script")[0]
   firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
 
   function onYouTubeIframeAPIReady() {
-    new YT.Player("player", {
-      width: "100%",
-      height: "100%",
-      videoId: element.getAttribute('data-key'),
-      playerVars: {
-          playsinline: 1 // インライン再生を指定
-      },
-      events: {
-          "onReady": onPlayerReady,
-          "onStateChange": onPlayerStateChange
+
+    ["player", "sub-player"].forEach((id)=>{
+      const element = document.querySelector("#" + id)
+      if (element !== null) {
+        new YT.Player(id, {
+          width: "100%",
+          height: "100%",
+          videoId: element.getAttribute('data-key'),
+          playerVars: {
+              playsinline: 1 // インライン再生を指定
+          },
+          events: {
+              "onReady": onPlayerReady,
+              "onStateChange": onPlayerStateChange
+          }
+        })
       }
     })
   }

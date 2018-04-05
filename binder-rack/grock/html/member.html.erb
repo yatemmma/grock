@@ -17,7 +17,7 @@
       <%= sns_block(member) %>
 
       <%= info_block(member.country_origin, "origin") %>
-      
+
       <% member.bands.each do |band_code| %>
         <%= band_block(member.class.alldata("band")[band_code]) %>
       <% end %>

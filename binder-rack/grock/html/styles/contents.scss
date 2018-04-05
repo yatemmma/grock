@@ -25,6 +25,11 @@
   .contents {
     .body {
       min-height: 48px;
+      margin: 24px 8px;
+
+      p {
+        min-height: 1em;
+      }
     }
 
     .sns {

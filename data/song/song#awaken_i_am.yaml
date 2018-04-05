@@ -37,6 +37,29 @@
   body:
   public: true
   memo:
+- code: awaken_i_am-its_just_business_acoustic
+  name: It's Just Business (Acoustic)
+  band: awaken_i_am
+  disc:
+  date:
+  type: acoustic
+  label:
+  video_date:
+  youtube: https://www.youtube.com/watch?v=DfkdOUj3X3g
+  original: https://www.youtube.com/watch?v=kkjadMj5qNs
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body: |
+    ほげ
+    ほげ [In League](band#in_league) ほげ。こんにちは[世界](http://magazine.rubyist.net/?0009-YAML)ふええ
+    ほげホゲホゲ
+
+    ですへ
+  public: true
+  memo:
 - code: awaken_i_am-the_depths
   name: The Depths
   band: awaken_i_am

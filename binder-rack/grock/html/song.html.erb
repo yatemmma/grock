@@ -13,6 +13,7 @@
 
     <div class="contents">
       <%= body_block(song) %>
+      <%= sub_video_block(song.original) %>
       <%= sns_block(song) %>
 
       <% song.guests.each do |guest| %>

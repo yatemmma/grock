@@ -9,6 +9,8 @@ module GROCK
     def name
       if @data.nil?
         nil
+      elsif @data.to_s == "us"
+        "USA"
       else
         c = ISO3166::Country.new(@data)
         c.name

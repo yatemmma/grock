@@ -3,7 +3,10 @@ module GROCK
     GENRES = {
       "acoustic":      "Acoustic",
       "indie_rock":    "Indie Rock",
-      "post-hardcore": "Post-Hardcore"
+      "post-hardcore": "Post-Hardcore",
+      "blues_rock":    "Blues Rock",
+      "metalcore":     "Metalcore",
+      "christian_metalcore": "Christian metalcore"
     }
 
     def initialize(data)

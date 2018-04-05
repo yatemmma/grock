@@ -1,0 +1,111 @@
+---
+- code: hands_like_houses-ground_dweller
+  name: Ground Dweller
+  band: hands_like_houses
+  type: album
+  date: 2012/03/13
+  label: Rise Records
+  videos:
+  - https://www.youtube.com/watch?v=yB4viq204Ik
+  images:
+  - https://upload.wikimedia.org/wikipedia/en/3/3a/HLHgrounddweller.png
+  apple:
+  play:
+  spotify:
+  amazon: http://amzn.asia/aC3ePnA
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: hands_like_houses-unimagine
+  name: Unimagine
+  band: hands_like_houses
+  type: album
+  date: 2013/07/23
+  label: Rise Records
+  videos:
+  - https://www.youtube.com/watch?v=dExY5zQ0k-I
+  images:
+  - https://upload.wikimedia.org/wikipedia/en/c/cd/HLHUnimagine.jpg
+  apple:
+  play:
+  spotify:
+  amazon: http://amzn.asia/iMfWvAn
+  discogs:
+  youtube: https://www.youtube.com/watch?v=PTTuh8jWsAM&list=PLS5e42xTvh35ongtDSuODV4WUG5hVNj-s
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: hands_like_houses-reimagine
+  name: reimagine
+  band: hands_like_houses
+  type: ep
+  date: 2014/09/11
+  label: Rise Records
+  videos:
+  - https://www.youtube.com/watch?v=RJx-7ZagAC8
+  images:
+  - https://is4-ssl.mzstatic.com/image/thumb/Music1/v4/f7/48/11/f7481133-cc6f-5ece-4051-427cd90bdd89/819531015519.jpg/268x0w.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube: https://www.youtube.com/watch?v=_gSA5AFh9u8&list=PLbHumxRWunHWe6B98O4emS7zlrKUjXPbr
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: hands_like_houses-dissonants
+  name: Dissonants
+  band: hands_like_houses
+  type: album
+  date: 2016/02/26
+  label: Rise Records
+  videos:
+  - https://www.youtube.com/watch?v=4P3anLLuLO8
+  images:
+  - https://upload.wikimedia.org/wikipedia/en/4/4b/Dissonantsalbumartwork.png
+  apple:
+  play:
+  spotify:
+  amazon: http://amzn.asia/2qA8O1g
+  discogs:
+  youtube: https://www.youtube.com/watch?v=4P3anLLuLO8&list=PLF7orUe9jg4ylmM6DinT_EPdwAsTFKDXx
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: hands_like_houses-drift
+  name: Drift
+  band: hands_like_houses
+  type: single
+  date: 2017/06/15
+  label: Rise Records
+  videos:
+  - https://www.youtube.com/watch?v=anz9R2VbS8c
+  images:
+  - https://is5-ssl.mzstatic.com/image/thumb/Music127/v4/62/b9/a0/62b9a07c-8971-d503-9225-20711b6ae5eb/790692241163.jpg/268x0w.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube: https://www.youtube.com/watch?v=_gSA5AFh9u8&list=PLbHumxRWunHWe6B98O4emS7zlrKUjXPbr
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:

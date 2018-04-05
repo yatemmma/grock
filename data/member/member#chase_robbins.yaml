@@ -1,0 +1,19 @@
+---
+code: chase_robbins
+name: Chase "Ryan" Robbins
+description: The Virgin Wolves, ex. Memphis May Fire
+origin:
+country: us
+videos:
+- https://www.youtube.com/watch?v=4c1HQJ069N0
+images:
+- http://i.ytimg.com/vi/4c1HQJ069N0/hqdefault.jpg
+links:
+- https://www.reverbnation.com/thevirginwolves
+bands:
+- the_virgin_wolves
+- memphis_may_fire
+songs:
+body:
+public: true
+memo:

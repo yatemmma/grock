@@ -1,0 +1,41 @@
+---
+- code: hands_like_houses-lion_skin
+  name: Lion Skin
+  band: hands_like_houses
+  disc: hands_like_houses-ground_dweller
+  date:
+  type: guest
+  label:
+  video_date:
+  youtube: https://www.youtube.com/watch?v=MrLXXlLKzAc
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: tyler_carter
+    label: Guest vocals
+  - code: jonny_craig
+    label: Guest vocals
+  body:
+  public: true
+  memo:
+- code: hands_like_houses-watchmaker
+  name: Watchmaker
+  band: hands_like_houses
+  disc: hands_like_houses-ground_dweller
+  date:
+  type: guest
+  label:
+  video_date:
+  youtube: https://www.youtube.com/watch?v=UUqGyOW5xJI
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: matty_mullins
+    label: Guest vocals
+  body:
+  public: true
+  memo:

@@ -1,3 +1,6 @@
+<%
+  item, posted = featured(obj)
+%>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -5,7 +8,38 @@
 </head>
 <body>
   <%= header %>
-  <div class="contents">
+  <div class="contents-wrapper">
+
+    <%= main_video_block(item.videos.first) %>
+    <%= main_image_block(item.images.first) if item.videos.empty? %>
+    <h2><%= item.title %></h2>
+
+    <div class="contents">
+      <%= body_block(item) %>
+      <%= info_block(posted, "posted") %>
+      <%= sns_block(item) %>
+
+      <%= disc_block(item) if item.is_a?(GROCK::Disc) %>
+      <%= song_block(item) if item.is_a?(GROCK::Song) %>
+      <%= band_block(item.band?) %>
+
+      <% %w(apple play spotify amazon discogs youtube).each do |key| %>
+        <%= link_block(item, key.to_sym) %>
+      <% end %>
+      <% item.links.each do |link| %>
+        <%= link_block(link, "Link") %>
+      <% end %>
+      <%= link_block(item.search_link, "Search") unless item.search_link.nil? %>
+
+      <% item.guests.each do |info| %>
+        <% guest, label = info %>
+        <%= band_block(guest, label) if guest.is_a?(GROCK::Band)%>
+      <% end %>
+    </div>
+
+    <div class="sub-contents">
+      <%= releases(obj) %>
+    </div>
   </div>
   <%= footer %>
 </body>

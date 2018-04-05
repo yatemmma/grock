@@ -37,6 +37,14 @@ module GROCK
       self.class.alldata("member")[code]
     end
 
+    def videos
+      [youtube]
+    end
+
+    def search_link
+      nil
+    end
+
     def json
       data = {
         name: name,

@@ -60,6 +60,11 @@
         }
       }
     }
+    
+    .posted {
+      text-align: right;
+      background: inherit;
+    }
 
     .admin {
       background-color: $ADMIN_BG_COLOR !important;

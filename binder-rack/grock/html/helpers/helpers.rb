@@ -7,6 +7,8 @@ require_relative "./main_contents_helper"
 require_relative "./body_helper"
 require_relative "./sns_helper"
 require_relative "./contents_helper"
+require_relative "./index_helper"
+require_relative "./release_helper"
 
 module BinderRack
   module Core
@@ -19,6 +21,8 @@ module BinderRack
       include GROCK::BodyHelper
       include GROCK::SNSHelper
       include GROCK::ContentsHelper
+      include GROCK::IndexHelper
+      include GROCK::ReleaseHelper
     end
   end
 end

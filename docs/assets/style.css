@@ -508,6 +508,9 @@ footer {
   @media screen and (max-width: 812px) {
     .contents-wrapper .contents .block .image {
       margin: 0 auto 16px; } }
+.contents-wrapper .contents .posted {
+  text-align: right;
+  background: inherit; }
 .contents-wrapper .contents .admin {
   background-color: #673AB7 !important; }
 .contents-wrapper .contents a.block {
@@ -598,5 +601,14 @@ footer {
     .contents-wrapper .sub-contents .feeds .feed .body .image {
       height: 200px;
       background-color: inherit; }
+.contents-wrapper .sub-contents .releases .release {
+  display: block;
+  margin-bottom: 32px;
+  text-align: center; }
+  .contents-wrapper .sub-contents .releases .release .image {
+    height: 240px;
+    background-color: inherit; }
+  .contents-wrapper .sub-contents .releases .release .desc {
+    margin-top: 1em; }
 
 /*# sourceMappingURL=style.css.map */

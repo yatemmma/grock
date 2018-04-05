@@ -55,7 +55,7 @@ module GROCK
       data = {
         name: name,
         band: band,
-        date: date || "",
+        date: date.to_x || "",
         type: type || "",
         note: ""
       }.to_json

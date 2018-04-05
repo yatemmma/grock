@@ -41,15 +41,16 @@ module GROCK
       return if disc.nil?
 
       path = "disc/#{disc.code}.html"
+      name = disc.name.to_s
+      name += " - #{disc.type.short_name}" unless disc.type.short_name.nil?
       title = disc.band?.name.to_s
-      title += " - #{disc.type.short_name}" unless disc.type.short_name.nil?
 
       html = <<-"EOS"
         <a class="block disc" href="#{link path}">
           <div class="image" data-image="#{disc.images.first unless disc.images.nil?}">
             <img>
           </div>
-          <div class="desc">#{disc.name}</div>
+          <div class="desc">#{name}</div>
           <div class="desc">#{title}</div>
           <div class="desc">#{disc.date}</div>
         </a>

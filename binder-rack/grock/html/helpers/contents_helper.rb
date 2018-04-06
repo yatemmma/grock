@@ -84,7 +84,7 @@ module GROCK
         link = item
         type = key
       else
-        return unless item.respond_to?(key)
+        # return unless item.respond_to?(key)
         link = item.send(key)
         return if link.empty?
         type = link.type_name(key.to_s)

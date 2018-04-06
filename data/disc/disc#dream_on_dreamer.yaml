@@ -1,0 +1,23 @@
+---
+- code: dream_on_dreamer-it_comes_and_goes
+  name: It Comes and Goes
+  band: dream_on_dreamer
+  type: album
+  date: 2018/05/25
+  label:
+  videos:
+  - https://www.youtube.com/watch?v=vMo0Uea1mmw
+  images:
+  - https://is2-ssl.mzstatic.com/image/thumb/Music118/v4/09/aa/02/09aa02b4-5d09-86f6-2a63-51772c1286ff/cover.jpg/268x0w.jpg
+  apple: https://itunes.apple.com/album/1353246139
+  play:
+  spotify:
+  amazon: http://amzn.asia/aC3ePnA
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:

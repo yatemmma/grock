@@ -1,0 +1,23 @@
+---
+- code: house_vs_hurricane-forfeiture
+  name: Forfeiture
+  band: house_vs_hurricane
+  type: ep
+  date: 2008/07/08
+  label:
+  videos:
+  - https://www.youtube.com/watch?v=IpvWSPBypIo
+  images:
+  - https://images-na.ssl-images-amazon.com/images/I/511Kyam0xML.jpg
+  apple:
+  play:
+  spotify:
+  amazon: http://amzn.asia/fwWsY52
+  discogs: https://www.discogs.com/House-Vs-Hurricane-Forfeiture/release/2104158
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:

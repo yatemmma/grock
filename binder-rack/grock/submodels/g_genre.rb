@@ -6,7 +6,8 @@ module GROCK
       "post-hardcore": "Post-Hardcore",
       "blues_rock":    "Blues Rock",
       "metalcore":     "Metalcore",
-      "christian_metalcore": "Christian metalcore"
+      "christian_metalcore": "Christian metalcore",
+      "electronicore": "Electronicore"
     }
 
     def initialize(data)

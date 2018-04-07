@@ -2,12 +2,14 @@ module GROCK
   class GGenre
     GENRES = {
       "acoustic":      "Acoustic",
-      "indie_rock":    "Indie Rock",
-      "post-hardcore": "Post-Hardcore",
       "blues_rock":    "Blues Rock",
-      "metalcore":     "Metalcore",
-      "christian_metalcore": "Christian metalcore",
       "electronicore": "Electronicore",
+      "techno_rock":   "Techno Rock",
+      "christian_hardcore": "Christian Hardcore",
+      "indie_rock":    "Indie Rock",
+      "indie_pop":     "Indie Pop",
+      "post-hardcore": "Post-Hardcore",
+      "metalcore":     "Metalcore",
       "melodic_rock":  "Melodic Rock"
     }
 

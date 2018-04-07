@@ -1,0 +1,67 @@
+---
+- code: a_bullet_for_pretty_boy-beauty_in_the_eyes_of_the_beholder
+  name: Beauty in the Eyes of the Beholder
+  band: a_bullet_for_pretty_boy
+  type: ep
+  date: 2008/05/08
+  label: self-released
+  videos:
+  - https://www.youtube.com/watch?v=vMGP6sqMtuI
+  images:
+  - https://vignette.wikia.nocookie.net/lyricwiki/images/5/5c/A_Bullet_For_Pretty_Boy_-_Beauty_In_The_Eyes_Of_The_Beholder.jpg/revision/latest?cb=20110117035823
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: a_bullet_for_pretty_boy-revision_revise
+  name: Revision:Revise
+  band: a_bullet_for_pretty_boy
+  type: album
+  date: 2010/11/09
+  label: Artery Recordings
+  videos:
+  - https://www.youtube.com/watch?v=8BnVlkn9el0
+  images:
+  - https://images-na.ssl-images-amazon.com/images/I/911ffMDn51L._SY355_.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: a_bullet_for_pretty_boy-beauty_symbiosis
+  name: Symbiosis
+  band: a_bullet_for_pretty_boy
+  type: album
+  date: 2012/07/31
+  label: Artery Recordings
+  videos:
+  - https://www.youtube.com/watch?v=H-SGkkAXC6Y
+  images:
+  - https://is4-ssl.mzstatic.com/image/thumb/Music/v4/b1/70/36/b170362f-6113-bf93-a35c-cc0b26b03643/Cover.jpg/268x0w.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:

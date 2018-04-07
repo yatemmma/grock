@@ -4,7 +4,8 @@ module GROCK
       "music_video": "Music Video",
       "guest":       "Special Guest",
       "acoustic":    "Acoustic",
-      "cover":       "Cover"
+      "cover":       "Cover",
+      "xmas":        "X'mas Song"
     }
 
     def initialize(data)

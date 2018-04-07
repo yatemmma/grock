@@ -1,0 +1,34 @@
+---
+code: "1997"
+name: "1997"
+description:
+origin: Chicago, Illinois, USA
+country: us
+active: 2005-2010
+genres:
+- indie_rock
+- indie_pop
+videos:
+- https://www.youtube.com/watch?v=GG8GqEFIWcc
+images:
+- http://i.ytimg.com/vi/TUgiY1kF9wo/hqdefault.jpg
+apple:
+play:
+spotify:
+soundcloud:
+bandcamp:
+youtube:
+website:
+wikipedia: https://en.wikipedia.org/wiki/1997_(band)
+twitter:
+facebook:
+instagram:
+purevolume:
+myspace: https://myspace.com/nineteenninetyseven
+discogs:
+links:
+members:
+past_members:
+body:
+public: true
+memo:

@@ -1,0 +1,54 @@
+---
+- code: and_then_there_were_none-heaven_cover
+  name: Heaven (Bryan Adams Cover)
+  band: and_then_there_were_none
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=1x9QN1r8PCQ
+  original: https://www.youtube.com/watch?v=s6TtwR2Dbjg
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:
+- code: and_then_there_were_none-if_you_had_a_bad_time_cover
+  name: If You Had A Bad Time (Alkaline Trio Cover)
+  band: and_then_there_were_none
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=wO8xZ8MSjkI
+  original: https://www.youtube.com/watch?v=sqT1tX_GFMo
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:
+- code: and_then_there_were_none-where_wre_you_christmas
+  name: Where Are You, Christmas?
+  band: and_then_there_were_none
+  disc:
+  date:
+  type: xmas
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=XCDtTGtvRx8
+  apple: https://itunes.apple.com/us/album/where-are-you-christmas-single/716241501
+  play:
+  spotify: https://open.spotify.com/album/5MRzliKAxDuXzeJozOYDOt
+  links:
+  guests:
+  body:
+  public: true
+  memo:

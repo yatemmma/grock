@@ -1,0 +1,20 @@
+---
+- code: a_bullet_for_pretty_boy-i_will_destroy_the_wisdome_of_the_wise
+  name: I Will Destroy the Wisdome of the Wise
+  band: a_bullet_for_pretty_boy
+  disc: a_bullet_for_pretty_boy-revision_revise
+  date:
+  type: guest
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=pcADXYPmULg
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: tyler_carter
+    label: Guest vocals
+  body:
+  public: true
+  memo:

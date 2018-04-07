@@ -1,0 +1,44 @@
+---
+- code: kill_your_ex-the_circulist
+  name: The Circulist
+  band: kill_your_ex
+  type: ep
+  date: "2005"
+  label:
+  videos:
+  images:
+  - https://t2.genius.com/unsafe/220x0/https%3A%2F%2Fimages.genius.com%2Fbafd30eaa069a22dc004d8458179a8a1.200x200x1.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube: 
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: kill_your_ex-from_words_to_motion
+  name: From Words to Motion
+  band: kill_your_ex
+  type: album
+  date: "2008"
+  label: Mediaskare Records
+  videos:
+  - https://www.youtube.com/watch?v=kLH_ElpbGz4
+  images:
+  - https://img.discogs.com/BQIpNporA8OrfzK7jrYBq2Q6aUA=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-1745181-1240623076.jpeg.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube: https://www.youtube.com/watch?v=fcOJuDTXzCk&list=RDfcOJuDTXzCk
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:

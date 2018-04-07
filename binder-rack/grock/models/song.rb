@@ -38,7 +38,7 @@ module GROCK
     end
 
     def videos
-      [youtube]
+      [video]
     end
 
     def search_link

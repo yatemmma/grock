@@ -73,7 +73,7 @@
   videos:
   - https://www.youtube.com/watch?v=6vFZvXYKaiM
   images:
-  - https://itunes.apple.com/jp/album/imperial/375635614
+  - https://is3-ssl.mzstatic.com/image/thumb/Music/99/1f/3c/mzi.oyvuhgsr.jpg/268x0w.jpg
   apple:
   play:
   spotify:
@@ -107,7 +107,7 @@
   public: true
   memo:
 - code: in_fear_and_faith-in_fear_and_faith
-  name: SympIn Fear and Faithhonies
+  name: In Fear and Faith
   band: in_fear_and_faith
   type: album
   date: 2012/10/16
@@ -115,7 +115,7 @@
   videos:
   - https://www.youtube.com/watch?v=nL7WENopFuQ
   images:
-  - https://en.wikipedia.org/wiki/In_Fear_and_Faith_(album)
+  - https://upload.wikimedia.org/wikipedia/en/b/b1/In_Fear_and_Faith_-_In_Fear_and_Faith.jpeg
   apple:
   play:
   spotify:

@@ -1,4 +1,23 @@
 ---
+- code: in_fear_and_faith-gangstas_paradise_cover
+  name: Gangsta's Paradise (Coolio Cover)
+  band: in_fear_and_faith
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=BsiPDC-Xl6c
+  original: https://www.youtube.com/watch?v=fPO76Jlnz6c
+  apple:
+  play:
+  spotify:
+  links:
+  - https://www.tweetforatrack.com/InFearAndFaith
+  guests:
+  body:
+  public: true
+  memo:
 - code: in_fear_and_faith-the_road_to_hell_is_paved_with_good_intentions
   name: The Road to Hell Is Paved with Good Intentions
   band: in_fear_and_faith
@@ -114,7 +133,7 @@
   public: true
   memo:
 - code: in_fear_and_faith-billie_jean_cover
-  name: Billie Jean (Cover)
+  name: Billie Jean (Michael Jackson Cover)
   band: in_fear_and_faith
   disc: 2012/06/26
   date:

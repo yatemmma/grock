@@ -65,6 +65,7 @@ module GROCK
       when "guest"
         guest = song.guest(song.guests.first.code)
         text = "feat. #{guest.name}"
+        text += " (#{guest.description})" unless guest.description.nil?
       end
 
       html = <<-"EOS"

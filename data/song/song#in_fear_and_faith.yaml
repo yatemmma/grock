@@ -7,7 +7,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=H7R8OWnMjfs
+  video: https://www.youtube.com/watch?v=H7R8OWnMjfs
   apple:
   play:
   spotify:
@@ -26,7 +26,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=oEdnAawSV8A
+  video: https://www.youtube.com/watch?v=oEdnAawSV8A
   apple:
   play:
   spotify:
@@ -45,7 +45,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=6vFZvXYKaiM
+  video: https://www.youtube.com/watch?v=6vFZvXYKaiM
   apple:
   play:
   spotify:
@@ -64,7 +64,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=kbdOO1gVgIM
+  video: https://www.youtube.com/watch?v=kbdOO1gVgIM
   apple:
   play:
   spotify:
@@ -83,7 +83,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=0M4o7erhD-4
+  video: https://www.youtube.com/watch?v=0M4o7erhD-4
   apple:
   play:
   spotify:
@@ -102,7 +102,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=0M4o7erhD-4
+  video: https://www.youtube.com/watch?v=0M4o7erhD-4
   apple:
   play:
   spotify:
@@ -110,6 +110,24 @@
   guests:
   - code: caleb_shomo
     label: Guest vocals
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-billie_jean_cover
+  name: Billie Jean (Cover)
+  band: in_fear_and_faith
+  disc: 2012/06/26
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=ZycuWt_2lRI
+  original: https://www.youtube.com/watch?v=Zi_XLOBDo_Y
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
   body:
   public: true
   memo:

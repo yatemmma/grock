@@ -69,7 +69,7 @@ module GROCK
 
       html = <<-"EOS"
         <a class="block song" href="#{link path}">
-          <div class="image" data-image="#{song.youtube.youtube_thumbnail}">
+          <div class="image" data-image="#{song.video.youtube_thumbnail}">
             <img>
           </div>
           <div class="desc">#{song.type.name}:</div>

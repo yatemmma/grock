@@ -7,7 +7,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=gYOCl_dntE4
+  video: https://www.youtube.com/watch?v=gYOCl_dntE4
   apple:
   play:
   spotify:
@@ -26,7 +26,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=LtTyGOG3BXs
+  video: https://www.youtube.com/watch?v=LtTyGOG3BXs
   apple:
   play:
   spotify:
@@ -45,7 +45,7 @@
   type: acoustic
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=DfkdOUj3X3g
+  video: https://www.youtube.com/watch?v=DfkdOUj3X3g
   original: https://www.youtube.com/watch?v=kkjadMj5qNs
   apple:
   play:
@@ -68,7 +68,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=TszCRnCys94
+  video: https://www.youtube.com/watch?v=TszCRnCys94
   apple:
   play:
   spotify:
@@ -87,7 +87,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=EbRREcJdr38
+  video: https://www.youtube.com/watch?v=EbRREcJdr38
   apple:
   play:
   spotify:
@@ -106,7 +106,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=MmrYBAiftX8
+  video: https://www.youtube.com/watch?v=MmrYBAiftX8
   apple:
   play:
   spotify:

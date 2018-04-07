@@ -7,7 +7,7 @@
   type: music_video
   label: invogue_records
   video_date: 2011/03/01
-  youtube: https://www.youtube.com/watch?v=AWrZRkycnyQ
+  video: https://www.youtube.com/watch?v=AWrZRkycnyQ
   apple: https://itunes.apple.com/us/album/where-the-silence-is-easy/id1033736124
   play:
   spotify: https://open.spotify.com/track/50RVcExw9wefK8zLGC5EWm
@@ -24,7 +24,7 @@
   type: music_video
   label: invogue_records
   video_date: 2012/08/24
-  youtube: https://www.youtube.com/watch?v=hndDVYB7AlE
+  video: https://www.youtube.com/watch?v=hndDVYB7AlE
   apple:
   play:
   spotify:
@@ -41,7 +41,7 @@
   type: music_video
   label: self_released
   video_date: 2015/08/19
-  youtube: https://www.youtube.com/watch?v=MIViaiyAbZw
+  video: https://www.youtube.com/watch?v=MIViaiyAbZw
   apple:
     title: Moving for Words - Single by In League on Apple Music
     url: https://itunes.apple.com/au/album/moving-for-words-single/id1015991020

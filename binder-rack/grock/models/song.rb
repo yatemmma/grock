@@ -11,7 +11,7 @@ module GROCK
     prop :type, GSongType
     prop :label
     prop :video_date, GDate
-    prop :youtube, GVideo
+    prop :video, GVideo
     prop :original, GVideo
     prop :apple, GLink
     prop :play, GLink

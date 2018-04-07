@@ -7,7 +7,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=MrLXXlLKzAc
+  video: https://www.youtube.com/watch?v=MrLXXlLKzAc
   apple:
   play:
   spotify:
@@ -28,7 +28,7 @@
   type: guest
   label:
   video_date:
-  youtube: https://www.youtube.com/watch?v=UUqGyOW5xJI
+  video: https://www.youtube.com/watch?v=UUqGyOW5xJI
   apple:
   play:
   spotify:

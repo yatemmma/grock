@@ -20,6 +20,10 @@ module GROCK
       "http://i.ytimg.com/vi/#{youtube_key}/#{size}#{num}.jpg"
     end
 
+    def empty?
+      @data.nil? || @data.empty?
+    end
+
     def to_s
       @data
     end

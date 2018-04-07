@@ -3,7 +3,8 @@ module GROCK
     SONG_TYPES = {
       "music_video": "Music Video",
       "guest":       "Special Guest",
-      "acoustic":    "Acoustic"
+      "acoustic":    "Acoustic",
+      "cover":       "Cover"
     }
 
     def initialize(data)

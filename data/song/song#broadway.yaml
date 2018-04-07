@@ -1,0 +1,57 @@
+---
+- code: broadway-dont_jump_the_shark_before_you_save_the_whale
+  name: Don’t Jump The Shark Before You Save The Whale
+  band: broadway
+  disc: broadway-kingdoms
+  date:
+  type: guest
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=04_nrGdZ26k
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: jonny_craig
+    label: Guest Vocals
+  body:
+  public: true
+  memo:
+- code: broadway-same_thing_we_do_everyday_pinky
+  name: Same Thing We Do Everyday Pinky
+  band: broadway
+  disc: broadway-kingdoms
+  date:
+  type: guest
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=g5P_AYwTr2A
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: craig_owens
+    label: Guest Vocals
+  body:
+  public: true
+  memo:
+- code: broadway-im_on_a_boat
+  name: I'm On A Boat (The Lonely Island Cover)
+  band: broadway
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=pSIWmP9yveg
+  original: https://www.youtube.com/watch?v=avaSdC0QOUM
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:

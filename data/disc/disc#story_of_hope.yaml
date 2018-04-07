@@ -1,0 +1,47 @@
+---
+- code: story_of_hope-historia
+  name: Historia
+  band: story_of_hope
+  type: ep
+  date: 2015/04/15
+  label: garimpeiro records
+  videos:
+  - https://www.youtube.com/watch?v=OYYiDnQ94XY
+  images:
+  - http://cdn.tower.jp/za/o/3W/zaP2_G8008643W.JPG
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube:
+  links:
+  - http://tower.jp/item/3816415/Historia-EP
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: story_of_hope-alethea
+  name: Alethea
+  band: story_of_hope
+  type: ep
+  date: 2016/01/06
+  label: garimpeiro records
+  videos:
+  - https://www.youtube.com/watch?v=f8aCemLHDdw
+  images:
+  - http://cdn.tower.jp/za/o/8W/zaP2_G8168958W.JPG
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube:
+  links:
+  - http://tower.jp/item/4137811/Alethea-EP
+  songs:
+  guests:
+  body:
+  public: true
+  memo:

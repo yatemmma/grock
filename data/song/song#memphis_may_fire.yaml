@@ -1,0 +1,37 @@
+---
+- code: memphis_may_fire-grenade_cover
+  name: Grenade (Bruno Mars Cover)
+  band: memphis_may_fire
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=-Fg4JPORYWs
+  original: https://www.youtube.com/watch?v=SR6iYWJxHqs
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:
+- code: memphis_may_fire-interstate_love_song_cover
+  name: Interstate Love Song (Stone Temple Pilots Cover)
+  band: memphis_may_fire
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=wVG0IqhVzZI
+  original: https://www.youtube.com/watch?v=yjJL9DGU7Gg
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:

@@ -1,0 +1,38 @@
+---
+- code: icarus_the_owl-a_thousand_niles_cover
+  name: A Thousand Miles (Vanessa Carlton Cover)
+  band: icarus_the_owl
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=ge2a031Dy8U
+  original: https://www.youtube.com/watch?v=Cwkej79U3ek
+  apple:
+  play:
+  spotify:
+  links:
+  - https://icarustheowl.bandcamp.com/track/a-thousand-miles-vanessa-carlton-cover
+  guests:
+  body:
+  public: true
+  memo:
+- code: icarus_the_owl-
+  name: You Know How I Do (Taking Back Sunday Cover)
+  band: icarus_the_owl
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=ZpfjBzgSe2Q
+  original: https://www.youtube.com/watch?v=Uz4X44v5oig
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:

@@ -1,0 +1,67 @@
+---
+- code: broadway-kingdoms
+  name: Kingdoms
+  band: broadway
+  type: album
+  date: 2009/07/07
+  label: Uprising Records
+  videos:
+  - https://www.youtube.com/watch?v=XcQbMNKEk1s
+  images:
+  - https://images-na.ssl-images-amazon.com/images/I/61rbyYF8MzL.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: broadway-gentlemens_brawl
+  name: Gentlemen's Brawl
+  band: broadway
+  type: album
+  date: 2012/06/19
+  label: Uprising Records
+  videos:
+  - https://www.youtube.com/watch?v=SxsmytBsucs
+  images:
+  - https://images-na.ssl-images-amazon.com/images/I/61irgSt0ykL.jpg
+  apple: https://itunes.apple.com/us/album/better-things/530367732
+  play: https://play.google.com/music/preview/Bqprxxogkgp4iyo6rs343ec2nzm
+  spotify:
+  amazon:
+  discogs:
+  youtube: https://www.youtube.com/watch?v=SxsmytBsucs&list=RDSxsmytBsucs
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: broadway-contexture_fods_men_and_the_infinite_cosmos
+  name: "Contexture: Gods, Men, And the Infinite Cosmos"
+  band: broadway
+  type: album
+  date: 2015/03/10
+  label: self-released
+  videos:
+  - https://www.youtube.com/watch?v=5Wjos9Vsa6U
+  images:
+  - https://images-fe.ssl-images-amazon.com/images/I/51yNqy9mxrL._SS500.jpg
+  apple: https://itunes.apple.com/us/album/artificial-love/967321482
+  play:
+  spotify:
+  amazon: https://www.amazon.co.jp/Contexture-Gods-Infinite-Cosmos-Explicit/dp/B00TKU65PA
+  discogs:
+  youtube:
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:

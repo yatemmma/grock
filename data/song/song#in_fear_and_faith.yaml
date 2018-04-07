@@ -1,0 +1,115 @@
+---
+- code: in_fear_and_faith-the_road_to_hell_is_paved_with_good_intentions
+  name: The Road to Hell Is Paved with Good Intentions
+  band: in_fear_and_faith
+  disc: in_fear_and_faith-your_world_on_fire
+  date:
+  type: guest
+  label:
+  video_date:
+  youtube: https://www.youtube.com/watch?v=H7R8OWnMjfs
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: craig_owens
+    label: Guest vocals
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-the_strength_in_numbers
+  name: Strength in Numbers
+  band: in_fear_and_faith
+  disc: in_fear_and_faith-your_world_on_fire
+  date:
+  type: guest
+  label:
+  video_date:
+  youtube: https://www.youtube.com/watch?v=oEdnAawSV8A
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: jeremy_mcKinnon
+    label: Guest vocals
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-bones
+  name: Bones
+  band: in_fear_and_faith
+  disc: in_fear_and_faith-symphonies
+  date:
+  type: guest
+  label:
+  video_date:
+  youtube: https://www.youtube.com/watch?v=6vFZvXYKaiM
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: nick_martin
+    label: Guest
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-the_taste_of_regret
+  name: The Taste of Regret
+  band: in_fear_and_faith
+  disc: in_fear_and_faith-symphonies
+  date:
+  type: guest
+  label:
+  video_date:
+  youtube: https://www.youtube.com/watch?v=kbdOO1gVgIM
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: tyler_telle_smith
+    label: Guest vocals
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-the_solitary_life
+  name: The Solitary Life
+  band: in_fear_and_faith
+  disc: in_fear_and_faith-symphonies
+  date:
+  type: guest
+  label:
+  video_date:
+  youtube: https://www.youtube.com/watch?v=0M4o7erhD-4
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: caleb_shomo
+    label: Guest vocals
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-the_solitary_life
+  name: The Solitary Life
+  band: in_fear_and_faith
+  disc: in_fear_and_faith-symphonies
+  date:
+  type: guest
+  label:
+  video_date:
+  youtube: https://www.youtube.com/watch?v=0M4o7erhD-4
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  - code: caleb_shomo
+    label: Guest vocals
+  body:
+  public: true
+  memo:

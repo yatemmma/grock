@@ -1,0 +1,129 @@
+---
+- code: in_fear_and_faith-2006_demos
+  name: In Fear and Faith (demo)
+  band: in_fear_and_faith
+  type: ep
+  date: "2006"
+  label: self-released
+  videos:
+  - https://www.youtube.com/watch?v=rWZqweapP-E
+  images:
+  - https://www.spirit-of-metal.com/les%20goupes/I/In%20Fear%20And%20Faith/2006%20Demo/2006%20Demo.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube: https://www.youtube.com/watch?v=rWZqweapP-E
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-voyage
+  name: Voyage
+  band: in_fear_and_faith
+  type: ep
+  date: 2007/12/18
+  label: self-released
+  videos:
+  - https://www.youtube.com/watch?v=VZmPm3xskRE
+  images:
+  - https://upload.wikimedia.org/wikipedia/en/0/03/Infearandfaithvoyage.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube: https://www.youtube.com/watch?v=VZmPm3xskRE
+  links:
+  songs:
+  guests:
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-your_world_on_fire
+  name: Your World on Fire
+  band: in_fear_and_faith
+  type: album
+  date: 2009/01/06
+  label: Rise Records
+  videos:
+  - https://www.youtube.com/watch?v=H7R8OWnMjfs
+  images:
+  - https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/InFaF_YWoF_.jpg/220px-InFaF_YWoF_.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube: https://www.youtube.com/watch?v=5aX9p2QS0EM&list=PL3B3EFA888F0933C8
+  links:
+  songs:
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-imperial
+  name: Imperial
+  band: in_fear_and_faith
+  type: album
+  date: 2010/06/15
+  label: Rise Records
+  videos:
+  - https://www.youtube.com/watch?v=6vFZvXYKaiM
+  images:
+  - https://itunes.apple.com/jp/album/imperial/375635614
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube: https://www.youtube.com/watch?v=_UUn3kHSFBw&list=PL5A79283C52FCB34B
+  links:
+  songs:
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-symphonies
+  name: Symphonies
+  band: in_fear_and_faith
+  type: ep
+  date: 2011/05/03
+  label: Rise Records
+  videos:
+  - https://www.youtube.com/watch?v=0M4o7erhD-4
+  images:
+  - https://upload.wikimedia.org/wikipedia/en/thumb/b/b2/Symphonies_InFaF.jpg/220px-Symphonies_InFaF.jpg
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube: https://www.youtube.com/watch?v=sNYlk0apQEI&list=PLE417474A9E1A6330
+  links:
+  songs:
+  body:
+  public: true
+  memo:
+- code: in_fear_and_faith-in_fear_and_faith
+  name: SympIn Fear and Faithhonies
+  band: in_fear_and_faith
+  type: album
+  date: 2012/10/16
+  label: Rise Records
+  videos:
+  - https://www.youtube.com/watch?v=nL7WENopFuQ
+  images:
+  - https://en.wikipedia.org/wiki/In_Fear_and_Faith_(album)
+  apple:
+  play:
+  spotify:
+  amazon:
+  discogs:
+  youtube: https://www.youtube.com/watch?v=lP1vAwcStVs&list=PLKcGEIO7V0rWswjPSb4-isgF9iEqncYP6
+  links:
+  songs:
+  body:
+  public: true
+  memo:

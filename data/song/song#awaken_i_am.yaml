@@ -117,3 +117,21 @@
   body:
   public: true
   memo:
+- code: awaken_i_am-silhouette_cover
+  name: Silhouette (Thrice Live Cover)
+  band: awaken_i_am
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=c0CPGovW3mw
+  original: https://www.youtube.com/watch?v=CkY-RMrkALU
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:

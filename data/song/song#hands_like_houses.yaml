@@ -39,3 +39,57 @@
   body:
   public: true
   memo:
+- code: hands_like_houses-lion_skin_acoustic
+  name: Lion Skin (Acoustic)
+  band: hands_like_houses
+  disc:
+  date:
+  type: acoustic
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=jw8DoHzoYQk
+  original:
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:
+- code: hands_like_houses-torn_cover
+  name: Torn (Natalie Imbruglia Cover)
+  band: hands_like_houses
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=M58IJO7N32s
+  original: https://www.youtube.com/watch?v=VV1XWJN3nJo
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:
+- code: hands_like_houses-anas_song
+  name: Ana's Song (Open Fire) (Silverchair Cover)
+  band: hands_like_houses
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=QN3HyrFI6p0
+  original: https://www.youtube.com/watch?v=zNK_r2QAXAo
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:

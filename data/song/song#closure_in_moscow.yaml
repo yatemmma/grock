@@ -18,3 +18,21 @@
   body:
   public: true
   memo:
+- code: closure_in_moscow-pony_cover
+  name: Pony (Ginuwine Live Cover)
+  band: closure_in_moscow
+  disc:
+  date:
+  type: cover
+  label:
+  video_date:
+  video: https://www.youtube.com/watch?v=TU9y9tGKWQY
+  original: https://www.youtube.com/watch?v=lbnoG2dsUk0
+  apple:
+  play:
+  spotify:
+  links:
+  guests:
+  body:
+  public: true
+  memo:

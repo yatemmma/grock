@@ -1,4 +1,4 @@
-const Base = require("../../core/models/base")
+const Base = require("../../../core/models/base")
 
 class Link extends Base {
   static props() {

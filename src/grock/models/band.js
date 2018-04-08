@@ -1,5 +1,5 @@
 const Base = require("../../core/models/base")
-const SubModels = require("../submodels/submodels")
+const SubModels = require("./submodels/submodels")
 
 class Band extends Base {
   static props() {

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build1": "node_modules/.bin/babel --presets react  --out-dir test",
+    "build": "node_modules/.bin/babel --presets react src/grock/components/ --out-dir src/grock/build/",
     "build2": "./node_modules/.bin/webpack-cli test/app.js -o test/hoge.js"
   },
   "author": "",

@@ -1,6 +1,6 @@
 const Base = require("../../core/models/base")
 const Band = require("./band.js")
-const SubModels = require("../submodels/submodels")
+const SubModels = require("./submodels/submodels")
 
 class Label extends Base {
   static props() {

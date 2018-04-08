@@ -1,4 +1,4 @@
-const Base = require("../../core/models/base")
+const Base = require("../../../core/models/base")
 
 class Origin extends Base {
   static props() {

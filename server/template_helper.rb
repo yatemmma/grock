@@ -31,6 +31,8 @@ module TemplateHelper
 
   def genre_labels
     {
+      "acoustic" => "Acoustic",
+      "acoustic_cover" => "Acoustic Cover",
       "indie_rock" => "Indie Rock",
       "cover" => "Cover",
       "guest" => "Guest Appearance",

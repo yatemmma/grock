@@ -1,0 +1,7 @@
+<% unless (link_text.nil? || link_text.empty?) %>
+  <% url, title = link_and_title(link_text) %>
+  <a class="block link" href="<%= url %>" target="_blank">
+    <div class="type"><%= site_labels[site] %></div>
+    <div class="title"><%= title %></div>
+  </a>
+<% end %>

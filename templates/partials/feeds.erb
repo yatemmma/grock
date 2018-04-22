@@ -1,0 +1,23 @@
+<% if admin? && (@item.class.name != "Disc") %>
+<div class="admin" style="margin:16px;">
+  <button onclick="updateFeeds('<%= @item.code %>')">Update Feeds</button>
+</div>
+<script>
+function updateFeeds(id) {
+  const url = "<%= link("api/feeds?id=") %>" + id
+  getRequest(url, (result)=>{
+    console.log(result)
+  })
+}
+</script>
+<% end %>
+
+<div class="feeds">
+  <% @item.all_feeds.each do |feed| %>
+    <div class="feed">
+      <a class="title" href="<%= feed["url"] %>" target="_blank"><%= feed["title"] %></a>
+      <div class="date"><%= feed["date"] %></div>
+      <div class="body"><%= feed["body"] %></div>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,20 @@
+$FONT_STACK:         "Lato", Arial, Helvetica, Verdana, sans-serif !important;
+$PRIMARY_COLOR:      #CCC;
+$PRIMARY_A_COLOR:    #F8F8F8;
+$PRIMARY_BG_COLOR:   #333;
+$SECONDARY_BG_COLOR: #555;
+$CLICK_BGA_COLOR:    #444;
+$ADMIN_BG_COLOR:     #673AB7;
+
+$HEADER_MARGIN:    16px;
+
+body {
+  font-family: $FONT_STACK;
+  color: $PRIMARY_COLOR;
+  background-color: $PRIMARY_BG_COLOR;
+}
+
+a {
+  color: $PRIMARY_A_COLOR;
+  text-decoration: none;
+}

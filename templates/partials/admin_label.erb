@@ -1,0 +1,92 @@
+<% if admin? %>
+<div class="block admin">
+  <label>
+    <span>code: </span>
+    <input form="form1" id="code" name="code" type="text" value="<%= @item.code %>" />
+  </label>
+  <label>
+    <span>name: </span>
+    <input form="form1" name="name" type="text" onchange="onChangeName(this)" value="<%= @item.name %>" />
+  </label>
+  <label>
+    <span>image: </span>
+    <input form="form1" name="image" type="text" value="<%= @item.image %>" />
+  </label>
+  <label>
+    <span>video: </span>
+    <input form="form1" name="video" type="text" value="<%= @item.video %>" />
+  </label>
+
+  <% label_sites.each do |site| %>
+    <label>
+      <span>
+        <a href="<%= search_link(:google, "#{@item.name} #{site_labels[site]}")%>" target="_blank"><%= site %></a>:
+        <button onclick="onClickSite(this)">T</button>
+      </span>
+      <input form="form1" name="<%= site %>" type="text" value="<%= @item.send(site) %>" />
+    </label>
+  <% end %>
+
+  <% (@item.all_links + [nil]).each do |site| %>
+    <label>
+      <span>links:
+        <button onclick="onClickSite(this)">T</button>
+      </span>
+      <input form="form1" name="links[]" type="text" value="<%= site %>" />
+    </label>
+  <% end %>
+
+  <label>
+    <span>body: </span>
+    <textarea form="form1" name="body"><%= @item.body %></textarea>
+  </label>
+
+  <form id="form1" name="form1" method="post">
+    <a href="<%= link("tools") %>" target="_blank">Thumbnail</a>
+    <a href="<%= link("export") %>" target="_blank">Export</a>
+    <button onclick="update()">Update</button>
+    <button onclick="del()">Delete</button>
+  </form>
+</div>
+<script>
+function update() {
+  document.form1.action = "<%= link("#{@item.class.to_s.downcase}/") %>" + document.querySelector("#code").value
+  document.form1.submit()
+}
+
+function del() {
+  if (window.confirm("delete?")) {
+    document.form1.action = "<%= link("#{@item.class.to_s.downcase}/delete") %>"
+    document.form1.submit()
+	}
+}
+
+function onChangeName(e) {
+  const code = e.value.toLowerCase().replace(/\s/g, "_")
+  document.querySelector("#code").value = code
+}
+
+function onSelectValue(e, name) {
+  if (document.querySelector("[name=" + name + "]").value) {
+    document.querySelector("[name=" + name + "]").value += ("," + e.value)
+  } else {
+    document.querySelector("[name=" + name + "]").value = e.value
+  }
+}
+
+function onClickSite(e) {
+  const input = e.parentElement.parentElement.lastElementChild
+  if (input.value) {
+    console.log(input.value)
+    const words = input.value.split(" ")
+    const url = encodeURIComponent(words.shift())
+    const title = words.join(" ")
+    if (!title) {
+      getRequest("<%= link("api/site_title?url=") %>" + url, (result)=>{
+        input.value += " " + result
+      })
+    }
+  }
+}
+</script>
+<% end %>

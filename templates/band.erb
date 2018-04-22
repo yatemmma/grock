@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <%= partial :head, locals: {title: @item.name} %>
+</head>
+<body>
+  <%= partial :header %>
+
+  <div class="contents-wrapper">
+    <%= partial :main %>
+
+    <div class="contents">
+      <%= partial :body %>
+      <%= partial :sns %>
+
+      <%= partial :band_block, locals: {band: @item, label: ""} %>
+      <%= partial :text_block, locals: {text: @item.origin_full, class_names: "origin"} %>
+      <%= partial :text_block, locals: {text: @item.active, class_names: "active"} %>
+      <% genres_text = (@item.genres || "").split(",").map{|x| genre_labels[x]}.join(", ") %>
+      <%= partial :text_block, locals: {text: genres_text, class_names: "genre"} %>
+
+      <% band_sites.each do |site| %>
+        <%= partial :site_block, locals: {site: site, link_text: @item.send(site)} %>
+      <% end %>
+      <% @item.all_links.each do |site| %>
+        <%= partial :site_block, locals: {site: "link", link_text: site} %>
+      <% end %>
+
+      <% all_items(Band, @item.member_of).each do |band| %>
+        <%= partial :band_block, locals: {band: band, label: ""} %>
+      <% end %>
+
+      <% all_items(Band, @item.ex_member_of).each do |band| %>
+        <%= partial :band_block, locals: {band: band, label: ""} %>
+      <% end %>
+
+      <%= partial :admin_band %>
+
+      <% @item.all_discs.each do |disc| %>
+        <%= partial :disc_block, locals: {disc: disc} %>
+      <% end %>
+
+      <% all_relations(Band, "member_of", @item.code).each do |band| %>
+        <%= partial :band_block, locals: {band: band, label: "Member"} %>
+      <% end %>
+
+      <% all_relations(Band, "ex_member_of", @item.code).each do |band| %>
+        <%= partial :band_block, locals: {band: band, label: "Past Member"} %>
+      <% end %>
+
+    </div>
+
+    <div class="sub-contents">
+      <%= partial :feeds %>
+    </div>
+  </div>
+
+  <%= partial :footer %>
+</body>
+</html>

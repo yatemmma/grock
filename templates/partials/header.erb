@@ -1,0 +1,44 @@
+<header>
+  <h1><a href="<%= link("index.html") %>">G-ROCK</a></h1>
+  <span><a id="menu" onclick="toggleMenu()">Menu</a></span>
+  <nav>
+    <ul>
+      <% if admin? %>
+        <li><a onclick="admin_toggleAdmin()">Admin</a></li>
+      <% end %>
+      <li><a href="<%= link("bands.html") %>">Band</a></li>
+      <li><a href="<%= link("discs.html") %>">Disc</a></li>
+      <li><a href="<%= link("labels.html") %>">Label</a></li>
+    </ul>
+  </nav>
+</header>
+
+<script>
+function toggleMenu() {
+  const nav = document.querySelector("header > nav")
+  const menu = document.querySelector("#menu")
+  if (nav.style.display == "block") {
+    nav.style.display = "none"
+    menu.text = "Menu"
+  } else {
+    nav.style.display = "block"
+    menu.text = "Close"
+  }
+}
+</script>
+
+
+<% if admin? %>
+<script>
+function admin_toggleAdmin() {
+  const elements = document.querySelectorAll(".admin")
+  elements.forEach((element)=>{
+    if (element.style.display == "none") {
+      element.style.display = "block"
+    } else {
+      element.style.display = "none"
+    }
+  })
+}
+</script>
+<% end %>

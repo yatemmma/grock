@@ -1,0 +1,76 @@
+@include screen-mobile {
+  .contents-wrapper .hidden-on-mobile {
+    display: none;
+  }
+}
+
+.contents-wrapper #items {
+  margin: 0 1%;
+  border-collapse: collapse;
+  width: 98%;
+
+  thead {
+    th {
+      text-align: left;
+      min-width: 120px;
+      position: relative;
+
+      input {
+        width: 100%;
+      }
+
+      a {
+        position: absolute;
+        right: 6px;
+        top: 3px;
+        font-size: 1.2em;
+        color: $CLICK_BGA_COLOR;
+      }
+
+      a:hover {
+        cursor: pointer;
+      }
+    }
+
+    th.name {
+      width: 520px;
+    }
+
+    th.note {
+      width: 300px;
+
+      input {
+        width: 100%;
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      height: 40px;
+    }
+
+    tr.odd {
+      background-color: $CLICK_BGA_COLOR;
+    }
+
+    td {
+      padding-left: 4px;
+
+      a {
+        display: block;
+        width: 100%;
+      }
+    }
+
+    td.name {
+      width: 800px;
+    }
+  }
+
+  @include screen-mobile {
+    tbody {
+      font-size: 0.8em;
+    }
+  }
+}

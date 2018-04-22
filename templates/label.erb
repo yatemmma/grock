@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <%= partial :head, locals: {title: @item.name} %>
+</head>
+<body>
+  <%= partial :header %>
+
+  <div class="contents-wrapper">
+    <%= partial :main %>
+
+    <div class="contents">
+      <%= partial :body %>
+      <%= partial :sns %>
+
+      <% label_sites.each do |site| %>
+        <%= partial :site_block, locals: {site: site, link_text: @item.send(site)} %>
+      <% end %>
+      <% @item.all_links.each do |site| %>
+        <%= partial :site_block, locals: {site: "link", link_text: site} %>
+      <% end %>
+
+      <%= partial :admin_label %>
+    </div>
+
+    <div class="sub-contents">
+      <%= partial :feeds %>
+    </div>
+  </div>
+
+  <%= partial :footer %>
+</body>
+</html>

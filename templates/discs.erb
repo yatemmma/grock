@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <%= partial :head, locals: {title: "Discs"} %>
+</head>
+<body>
+  <%= partial :header %>
+
+  <div class="contents-wrapper">
+    <% if admin? %>
+      <div class="admin" style="margin:16px;">
+        <a href="./disc/new">[Create New Disc]</a>
+      </div>
+    <% end %>
+    <table id="items">
+      <thead class="hidden-on-mobile">
+        <tr>
+          <th>
+            <input id="search-name" type="text" placeholder="Disc Name"></input>
+            <a onclick="sort('name')"><i class="fas fa-sort"></i></a>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @items.each_with_index do |item, i| %>
+          <tr>
+            <td><a href="<%= link("disc/#{item.code}.html") %>"><%= item.name %></a></td>
+          </tr>
+        <% end %>
+      </tbody>
+      <template id="item-row">
+          <tr style="display:none;">
+          </tr>
+      </template>
+    </table>
+  </dev>
+
+  <%= partial :footer %>
+</body>
+</html>

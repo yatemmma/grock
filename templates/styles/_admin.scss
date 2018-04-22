@@ -1,0 +1,24 @@
+.admin {
+  label {
+    span {
+      width: 18%;
+      display: inline-block;
+      text-align: right;
+      vertical-align: top;
+    }
+
+    input, select, textarea {
+      width: 80%;
+      margin-bottom: 4px;
+    }
+
+    textarea {
+      height: 200px;
+    }
+  }
+
+  form {
+    text-align: right;
+    margin: 16px 0;
+  }
+}

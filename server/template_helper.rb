@@ -12,7 +12,7 @@ module TemplateHelper
   end
 
   def all_items(clazz, codes)
-    (codes || "").split(",").map{|x| clazz.find_by(code: x)}
+    (codes || "").split(",").map{|x| clazz.find_by(code: x.split("(").first)}
   end
 
   def all_relations(clazz, column, code)
@@ -33,6 +33,7 @@ module TemplateHelper
     {
       "indie_rock" => "Indie Rock",
       "cover" => "Cover",
+      "guest" => "Guest Appearance",
       "post-hardcore" => "Post-Hardcore",
       "xmas" => "Christmas"
     }
@@ -45,6 +46,7 @@ module TemplateHelper
       "spotify" => "Spotify",
       "soundcloud" => "SoundCloud",
       "bandcamp" => "Bandcamp",
+      "amazon" => "Amazon",
       "youtube" => "YouTube",
       "website" => "Website",
       "wikipedia" => "Wikipedia",
@@ -91,7 +93,7 @@ module TemplateHelper
   end
 
   def band_sites
-    %w(apple play spotify soundcloud bandcamp youtube website wikipedia twitter facebook instagram purevolume myspace lastfm discogs)
+    %w(apple play spotify soundcloud bandcamp amazon youtube website wikipedia twitter facebook instagram purevolume myspace lastfm discogs)
   end
 
   def label_sites
@@ -99,7 +101,7 @@ module TemplateHelper
   end
 
   def disc_sites
-    %w(apple play spotify soundcloud bandcamp amazon lastfm discogs teaser playlist search)
+    %w(apple play spotify soundcloud bandcamp amazon wikipedia lastfm discogs teaser playlist search)
   end
 
   def link_and_title(url_text)

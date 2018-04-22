@@ -8,16 +8,16 @@
   origin: Orlando, Florida, USA
   active: 2007-2015
   genres: post-hardcore
-  apple: ''
+  apple: https://itunes.apple.com/artist/917084 Broadway on Apple Music
   play: ''
   spotify: ''
   soundcloud: ''
   bandcamp: ''
-  youtube: ''
+  youtube: https://www.youtube.com/user/BroadwayRock
   website: ''
-  wikipedia: ''
+  wikipedia: https://en.wikipedia.org/wiki/Broadway_(band)
   twitter: https://twitter.com/broadwayband BROADWAY(@Broadwayband) | Twitter
-  facebook: ''
+  facebook: https://www.facebook.com/BroadwayBand/
   instagram: ''
   purevolume: http://www.purevolume.com/broadway Broadway on PureVolume
   myspace: https://myspace.com/broadwayfl Broadway | Listen and  Stream Free Music,
@@ -42,6 +42,7 @@
     tweet-text\"  lang=\"en\"\u003eWHO''S READY FOR THIS SATURDAY?!   \u003ca target=\"_blank\"
     href=\"http://m.ticketweb.com/t3/sale/SaleEventDetail?dispatch=loadSelectionData\u0026amp;eventId=6400335\u0026amp;pl=bbooth\"\u003ehttp://m.ticketweb.com/t3/sale/SaleEventDetail?dispatch=loadSelectionData\u0026amp;eventId=6400335\u0026amp;pl=bbooth\u0026nbsp;\u0026hellip;\u003c/a\u003e
     \u003c/p\u003e \u003cdiv class=\"image\" data-image=\"https://pbs.twimg.com/media/CYtrCXYUMAAUyA2.jpg\"\u003e\u003cimg\u003e\u003c/div\u003e","image":""}]'
+  amazon: ''
 - code: in_league
   name: In League
   description: ''
@@ -59,7 +60,7 @@
   youtube: https://www.youtube.com/user/inleagueband
   website: ''
   wikipedia: ''
-  twitter: https://twitter.com/inleagueband
+  twitter: https://twitter.com/inleagueband In League (@Inleagueband) | Twitter
   facebook: https://www.facebook.com/inleague
   instagram: https://www.instagram.com/inleagueband
   purevolume: ''
@@ -67,7 +68,7 @@
   lastfm: ''
   discogs: https://www.discogs.com/ja/artist/1500958-In-League
   links: '["https://www.spirit-of-metal.com/en/band/In_League In League - discography,
-    line-up, biography, interviews, photos"]'
+    line-up, biography, interviews, photos", ""]'
   member_of: ''
   ex_member_of: ''
   body: ''
@@ -163,6 +164,7 @@
     tweet-text\"  lang=\"en\"\u003eBig ups to  \u003ca class=\"twitter-atreply pretty-link
     js-nav\"  dir=\"ltr\" target=\"_blank\" href=\"https://twitter.com/unearthedplays\"\u003e@\u003cb\u003eunearthedplays\u003c/b\u003e\u003c/a\u003e
     for the constant love on our latest trek!!  \u003ca target=\"_blank\" href=\"https://twitter.com/unearthedplays/status/726643399688855552\"\u003ehttps://twitter.com/unearthedplays/status/726643399688855552\u0026nbsp;\u0026hellip;\u003c/a\u003e\u003c/p\u003e","image":""}]'
+  amazon: 
 - code: ben_blondel
   name: Ben Blondel
   description: ex. In League
@@ -180,7 +182,7 @@
   youtube: ''
   website: ''
   wikipedia: ''
-  twitter: ''
+  twitter: https://twitter.com/deathandacure Ben Blondel (@DeathandaCure) | Twitter
   facebook: ''
   instagram: ''
   purevolume: ''
@@ -191,4 +193,148 @@
   member_of: ''
   ex_member_of: in_league
   body: ''
+  feeds: '[{"type":"twitter","title":"@deathandacure on Twitter","url":"https://twitter.com/DeathandaCure/status/724978271163576324","date":"2016/04/27
+    00:07:43","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eNew video clip just released :) Check it out!!  \u003ca
+    target=\"_blank\" href=\"https://youtu.be/HveeOfI7QJ4\"\u003ehttps://youtu.be/HveeOfI7QJ4\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/662208077442244608","date":"2015/11/05
+    19:01:23","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eNEXT FRIDAY NIGHT!! D\u0026amp;AC with a full band
+    - Check my profile the ticket link @ Foxhole Studios   \u003ca target=\"_blank\"
+    href=\"https://instagram.com/p/9svO4cjPq9/\"\u003ehttps://instagram.com/p/9svO4cjPq9/\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/655872709629464576","date":"2015/10/19
+    07:26:54","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eBehind the scenes on a photo shoot with the incredibly
+    talented shaedynbrowne for the upcoming Death\u0026hellip;   \u003ca target=\"_blank\"
+    href=\"https://instagram.com/p/8_uPWpDPtl/\"\u003ehttps://instagram.com/p/8_uPWpDPtl/\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/646203362749325312","date":"2015/09/22
+    15:04:22","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eThanks for the Birthday love so far everyone! You''ll
+    be happy to know that being confined to a desk\u0026hellip;   \u003ca target=\"_blank\"
+    href=\"https://instagram.com/p/77BIasjPpx/\"\u003ehttps://instagram.com/p/77BIasjPpx/\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/642897263803662340","date":"2015/09/13
+    12:07:06","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eAnyone unfortunate enough to have missed this incredible
+    moment with  \u003ca class=\"twitter-atreply pretty-link js-nav\"  dir=\"ltr\"
+    target=\"_blank\" href=\"https://twitter.com/datsea\"\u003e@\u003cb\u003edatsea\u003c/b\u003e\u003c/a\u003e
+    last night, don''t be\u0026hellip;   \u003ca target=\"_blank\" href=\"https://instagram.com/p/7jhsJkDPgV/\"\u003ehttps://instagram.com/p/7jhsJkDPgV/\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/642650742860288000","date":"2015/09/12
+    19:47:31","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eSound check with D at Sea, so pumped to see this
+    guy perform tonight!   \u003ca target=\"_blank\" href=\"https://instagram.com/p/7hxlfjjPir/\"\u003ehttps://instagram.com/p/7hxlfjjPir/\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/641946806084091904","date":"2015/09/10
+    21:10:20","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eSettling in for a good night of acoustic tunes
+    upstairs at Defectors bar for Beaufort St Songwriters\u0026hellip;   \u003ca target=\"_blank\"
+    href=\"https://instagram.com/p/7cxeUVjPvI/\"\u003ehttps://instagram.com/p/7cxeUVjPvI/\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/595890482468687872","date":"2015/05/06
+    18:58:56","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eOne if my latest tracks is getting a spin tonight
+    on  \u003ca class=\"twitter-atreply pretty-link js-nav\"  dir=\"ltr\" target=\"_blank\"
+    href=\"https://twitter.com/triplej\"\u003e@\u003cb\u003etriplej\u003c/b\u003e\u003c/a\u003e
+    after 9pm on  \u003ca class=\"twitter-atreply pretty-link js-nav\"  dir=\"ltr\"
+    target=\"_blank\" href=\"https://twitter.com/homeandhosed\"\u003e@\u003cb\u003ehomeandhosed\u003c/b\u003e\u003c/a\u003e
+    hosted by  \u003ca class=\"twitter-atreply pretty-link js-nav\"  dir=\"ltr\" target=\"_blank\"
+    href=\"https://twitter.com/domalessio\"\u003e@\u003cb\u003edomalessio\u003c/b\u003e\u003c/a\u003e
+    tune in to see which one!\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/589305895030542336","date":"2015/04/18
+    14:54:08","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eMy new album is officially out today! Get it from
+    itunes, amazon, spotify or even better, head to the\u0026hellip;   \u003ca target=\"_blank\"
+    href=\"https://instagram.com/p/1mvKL3jPuM/\"\u003ehttps://instagram.com/p/1mvKL3jPuM/\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/588324605770739712","date":"2015/04/15
+    21:54:51","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eOnly 3 days to go before my new album comes out!
+    Just uploaded the title track for you to hear. Link\u0026hellip;   \u003ca target=\"_blank\"
+    href=\"https://instagram.com/p/1fw646DPqW/\"\u003ehttps://instagram.com/p/1fw646DPqW/\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/585942872911781888","date":"2015/04/09
+    08:10:41","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003e@GianpiRusso thanks for all your support. Hope
+    you enjoy the new album as much as the last!\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/585661687736467456","date":"2015/04/08
+    13:33:22","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eNow taking pre-orders for the new album coming
+    out on the 18th of April!!   \u003ca target=\"_blank\" href=\"https://deathandacure.bandcamp.com/album/red-sky-night\"\u003ehttps://deathandacure.bandcamp.com/album/red-sky-night\u0026nbsp;\u0026hellip;\u003c/a\u003e
+    \u003ca class=\"twitter-timeline-link u-hidden\"  dir=\"ltr\" target=\"_blank\"
+    href=\"http://t.co/UCueboYefp\"\u003epic.twitter.com/UCueboYefp\u003c/a\u003e\u003c/p\u003e
+    \u003cdiv class=\"image\" data-image=\"https://pbs.twimg.com/media/CCCwMtuWAAInqiH.jpg\"\u003e\u003cimg\u003e\u003c/div\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/566936217653362688","date":"2015/02/15
+    21:25:02","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eMy New Single Just Dropped! \u003ca class=\"twitter-timeline-link
+    u-hidden\"  dir=\"ltr\" target=\"_blank\" href=\"http://t.co/QVBLxDaQSG\" rel=\"nofollow
+    noopener\"  title=\"http://aweber.com/t/Bv5Dp\"\u003ehttp://aweber.com/t/Bv5Dp\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/285985602984361985","date":"2013/01/01
+    14:47:35","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eBest app ever!  \u003ca class=\"twitter-hashtag
+    pretty-link js-nav\"  dir=\"ltr\" target=\"_blank\" href=\"https://twitter.com/hashtag/idcapthat?src=hash\"\u003e#\u003cb\u003eidcapthat\u003c/b\u003e\u003c/a\u003e  \u003ca
+    class=\"twitter-timeline-link\"  dir=\"ltr\" target=\"_blank\" href=\"http://t.co/vlxf0y2b\"
+    rel=\"nofollow noopener\"  title=\"http://instagr.am/p/T7g6CrjPkg/\"\u003ehttp://instagr.am/p/T7g6CrjPkg/\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/284993247338713088","date":"2012/12/29
+    21:04:19","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eAll happening at Amplifier tonight!  \u003ca class=\"twitter-timeline-link\"  dir=\"ltr\"
+    target=\"_blank\" href=\"http://t.co/MwaTzii9\" rel=\"nofollow noopener\"  title=\"http://instagr.am/p/T0dwLOjPqB/\"\u003ehttp://instagr.am/p/T0dwLOjPqB/\u0026nbsp;\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@deathandacure
+    on Twitter","url":"https://twitter.com/DeathandaCure/status/255927559403999233","date":"2012/10/10
+    16:07:39","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eHead down to Mojos Fremantle tomorrow night to
+    catch myself, Bedouin Sea, Nicole Turner, Tyto Kings and Shontay Snow!\u003c/p\u003e","image":""}]'
+  amazon: ''
+- code: jonny_craig
+  name: Jonny Craig
+  description: Slaves / ex. Emarosa
+  image: http://i.ytimg.com/vi/Z4lfIbReD8M/maxresdefault.jpg
+  video: ''
+  country: us
+  origin: Minot, North Dakota, USA
+  active: ''
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  youtube: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Jonny_Craig
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: '[""]'
+  member_of: ''
+  ex_member_of: ''
+  body: ''
   feeds: 
+  amazon: ''
+- code: craig_owens
+  name: Craig Owens
+  description: Chiodos
+  image: http://i.ytimg.com/vi/MCtJcjT1VB8/maxres1.jpg
+  video: ''
+  country: us
+  origin: Davison, Michigan, USA
+  active: ''
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  youtube: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Craig_Owens
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: '[""]'
+  member_of: ''
+  ex_member_of: ''
+  body: ''
+  feeds: 
+  amazon: ''

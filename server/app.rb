@@ -26,8 +26,12 @@ end
 
 get "/api/site_title" do
   uri = URI.parse(params["url"])
-  body = Net::HTTP.get(uri)
-  body.match(/<title.*?>(.+)<\/title>/i)[1]
+  http = Net::HTTP.new(uri.host, uri.port)
+  http.use_ssl = true if uri.scheme == 'https'
+  req = Net::HTTP::Get.new(uri)
+  req.add_field("Accept-Language", "en-US")
+  res = http.start { |http| http.request req }
+  res.body.match(/<title.*?>(.+)<\/title>/i)[1]
 end
 
 get "/api/feeds" do

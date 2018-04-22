@@ -5,21 +5,21 @@
 
   @media screen and (min-width: 970px) {
     #main-video { height: 547px; }
-    #sub-video { height: 364px; }
+    .sub-video { height: 364px; }
   }
 
   @media screen and (min-width: 860px) and (max-width: 969px) {
     #main-video { height: 480px; }
-    #sub-video { height: 320px; }
+    .sub-video { height: 320px; }
   }
 
   @media screen and (min-width: 660px) and (max-width: 859px) {
     #main-video { height: 360px; }
-    #sub-video { height: 360px; }
+    .sub-video { height: 360px; }
   }
 
   @media screen and (max-width: 659px) {
     #main-video { height: 240px; }
-    #sub-video { height: 240px; }
+    .sub-video { height: 240px; }
   }
 }

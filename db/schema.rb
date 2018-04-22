@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2018_04_16_135028) do
+ActiveRecord::Schema.define(version: 2018_04_16_135031) do
 
   create_table "bands", id: false, force: :cascade do |t|
     t.string "code", null: false
@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 2018_04_16_135028) do
     t.string "ex_member_of"
     t.text "body"
     t.string "feeds"
+    t.string "amazon"
     t.index ["code"], name: "index_bands_on_code", unique: true
   end
 
@@ -72,6 +73,11 @@ ActiveRecord::Schema.define(version: 2018_04_16_135028) do
     t.string "guests"
     t.text "body"
     t.string "disc_type"
+    t.string "description"
+    t.string "wikipedia"
+    t.string "original_videos"
+    t.string "original_bands"
+    t.string "original_discs"
     t.index ["code"], name: "index_discs_on_code", unique: true
   end
 

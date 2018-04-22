@@ -3,9 +3,39 @@
   name: Kingdoms
   date: 2009/07/07
   bands: broadway
-  labels: ''
+  labels: uprising_records
   genres: post-hardcore
   video: https://www.youtube.com/watch?v=XcQbMNKEk1s
+  image: https://images-na.ssl-images-amazon.com/images/I/61rbyYF8MzL.jpg
+  apple: https://itunes.apple.com/album/317488378 Kingdoms by Broadway
+  play: https://play.google.com/store/music/album/Broadway_Kingdoms?id=Bkny6gjfqkqlaexhfalyw3bsbyy
+  spotify: https://open.spotify.com/album/2qhMpQafyTBtpJ2oDJBgjj
+  soundcloud: https://soundcloud.com/broadway-official/sets/kingdoms-2
+  bandcamp: ''
+  amazon: https://www.amazon.co.jp/Kingdoms-Broadway/dp/B002AOWXQS
+  lastfm: https://www.last.fm/music/Broadway/Kingdoms
+  discogs: https://www.discogs.com/ja/Broadway-Kingdoms/release/3066558
+  teaser: ''
+  playlist: ''
+  search: https://www.youtube.com/results?search_query=broadway+kingdoms+full+album
+  links: '[""]'
+  songs: ''
+  discs: ''
+  guests: ''
+  body: ''
+  disc_type: album
+  description: 
+  wikipedia: 
+  original_videos: 
+  original_bands: 
+  original_discs: 
+- code: broadway-dont_jump_the_shark_before_you_save_the_whale
+  name: Don’t Jump The Shark Before You Save The Whale
+  date: ''
+  bands: broadway
+  labels: ''
+  genres: guest
+  video: https://www.youtube.com/watch?v=04_nrGdZ26k
   image: https://images-na.ssl-images-amazon.com/images/I/61rbyYF8MzL.jpg
   apple: ''
   play: ''
@@ -19,8 +49,133 @@
   playlist: ''
   search: ''
   links: '[""]'
-  songs: ''
+  songs: 
+  discs: broadway-kingdoms
+  guests: jonny_craig(Guest Vocals)
+  body: ''
+  disc_type: song
+  description: feat. Jonny Craig
+  wikipedia: ''
+  original_videos: 
+  original_bands: 
+  original_discs: 
+- code: broadway-gentlemens_brawl
+  name: Gentlemen's Brawl
+  date: 2012/06/19
+  bands: broadway
+  labels: uprising_records
+  genres: post-hardcore
+  video: https://www.youtube.com/watch?v=SxsmytBsucs
+  image: https://images-na.ssl-images-amazon.com/images/I/61irgSt0ykL.jpg
+  apple: https://itunes.apple.com/us/album/better-things/530367732
+  play: https://play.google.com/music/preview/Bqprxxogkgp4iyo6rs343ec2nzm
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=SxsmytBsucs&list=RDSxsmytBsucs
+  search: ''
+  links: '[""]'
+  songs: 
   discs: ''
   guests: ''
   body: ''
   disc_type: album
+  description: ''
+  wikipedia: ''
+  original_videos: 
+  original_bands: 
+  original_discs: 
+- code: broadway-contexture_gods_men_and_the_infinite_cosmos
+  name: 'Contexture: Gods, Men, And the Infinite Cosmos'
+  date: 2015/03/10
+  bands: broadway
+  labels: ''
+  genres: post-hardcore
+  video: https://www.youtube.com/watch?v=5Wjos9Vsa6U
+  image: https://images-fe.ssl-images-amazon.com/images/I/51yNqy9mxrL._SS500.jpg
+  apple: https://itunes.apple.com/us/album/artificial-love/967321482
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: https://www.amazon.co.jp/Contexture-Gods-Infinite-Cosmos-Explicit/dp/B00TKU65PA
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: '[""]'
+  songs: 
+  discs: ''
+  guests: ''
+  body: ''
+  disc_type: album
+  description: ''
+  wikipedia: ''
+  original_videos: 
+  original_bands: 
+  original_discs: 
+- code: broadway-same_thing_we_do_everyday_pinky
+  name: Same Thing We Do Everyday Pinky
+  date: ''
+  bands: broadway
+  labels: ''
+  genres: guest
+  video: https://www.youtube.com/watch?v=g5P_AYwTr2A
+  image: http://i.ytimg.com/vi/g5P_AYwTr2A/hq2.jpg
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: '[""]'
+  songs: 
+  discs: broadway-kingdoms
+  guests: craig_owens(Guest Vocals)
+  body: ''
+  disc_type: video
+  description: feat. Craig Owens
+  wikipedia: ''
+  original_videos: 
+  original_bands: 
+  original_discs: 
+- code: broadway-im_on_a_boat_cover
+  name: I'm On A Boat (The Lonely Island Cover)
+  date: ''
+  bands: broadway
+  labels: ''
+  genres: cover,post-hardcore
+  video: https://www.youtube.com/watch?v=pSIWmP9yveg
+  image: http://i.ytimg.com/vi/pSIWmP9yveg/maxresdefault.jpg
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: '[""]'
+  songs: 
+  discs: ''
+  guests: ''
+  body: ''
+  disc_type: song
+  description: ''
+  wikipedia: ''
+  original_videos: https://www.youtube.com/watch?v=avaSdC0QOUM
+  original_bands: ''
+  original_discs: ''

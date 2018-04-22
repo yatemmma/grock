@@ -14,7 +14,7 @@
       <%= partial :sns %>
 
       <%= partial :disc_block, locals: {disc: @item} %>
-      <% @item.all_bands.each do |band| %>
+      <% all_items(Band, @item.bands).each do |band| %>
         <%= partial :band_block, locals: {band: band, label: ""} %>
       <% end %>
 

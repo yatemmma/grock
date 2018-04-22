@@ -16,8 +16,7 @@
       <%= partial :band_block, locals: {band: @item, label: ""} %>
       <%= partial :text_block, locals: {text: @item.origin_full, class_names: "origin"} %>
       <%= partial :text_block, locals: {text: @item.active, class_names: "active"} %>
-      <% genres_text = (@item.genres || "").split(",").map{|x| genre_labels[x]}.join(", ") %>
-      <%= partial :text_block, locals: {text: genres_text, class_names: "genre"} %>
+      <%= partial :text_block, locals: {text: @item.genres_text, class_names: "genre"} %>
 
       <% band_sites.each do |site| %>
         <%= partial :site_block, locals: {site: site, link_text: @item.send(site)} %>

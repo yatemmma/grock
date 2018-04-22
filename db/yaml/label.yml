@@ -1,15 +1,15 @@
 ---
 - code: rise_records
   name: Rise Records
-  body: ''
   image: https://www.creativeman.co.jp/wp-content/uploads/2016/07/riserecords-1.jpg
   video: ''
   website: http://www.riserecords.com/ Rise Records - Home
   wikipedia: https://en.wikipedia.org/wiki/Rise_Records Rise Records - Wikipedia
   youtube: https://www.youtube.com/user/riserecords riserecords - YouTube
-  links: '[""]'
   twitter: https://twitter.com/riserecords Rise Records(@riserecords) | Twitter
   facebook: ''
+  links: '[""]'
+  body: ''
   feeds: '[{"type":"twitter","title":"@riserecords on Twitter","url":"https://twitter.com/riserecords/status/987514076916994048","date":"2018/04/21
     11:11:17","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
     tweet-text\"  lang=\"en\"\u003e40% off vinyl! Go go go\n\u0026#x27A1;\u0026#xFE0F;   \u003ca

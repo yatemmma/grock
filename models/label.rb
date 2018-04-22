@@ -12,4 +12,21 @@ class Label < ActiveRecord::Base
 	def title
 		name || ""
 	end
+
+	def search_data
+		{
+			search: {
+				code: code,
+				name: name
+			},
+			display: {
+				code: code,
+				name: name
+			}
+		}
+	end
+
+	def self.search_json
+		Label.all.map {|x| x.search_data}.to_json
+	end
 end

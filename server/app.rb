@@ -21,7 +21,6 @@ before do
 end
 
 get "/index.html" do
-  content_type :json
 	erb :index
 end
 

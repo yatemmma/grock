@@ -19,21 +19,141 @@
             <input id="search-name" type="text" placeholder="Disc Name"></input>
             <a onclick="sort('name')"><i class="fas fa-sort"></i></a>
           </th>
+          <th>
+            <input id="search-band" type="text" placeholder="Band Name"></input>
+            <a onclick="sort('band')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th style="width:128px;">
+            <input id="search-type" type="text" placeholder="Type"></input>
+            <a onclick="sort('type')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th style="width:128px;">
+            <input id="search-date" type="text" placeholder="Release"></input>
+            <a onclick="sort('date')"><i class="fas fa-sort"></i></a>
+          </th>
+          <th>
+            <input id="search-genre" type="text" placeholder="Genre"></input>
+            <a onclick="sort('genre')"><i class="fas fa-sort"></i></a>
+          </th>
         </tr>
       </thead>
       <tbody>
         <% @items.each_with_index do |item, i| %>
-          <tr>
-            <td><a href="<%= link("disc/#{item.code}.html") %>"><%= item.name %></a></td>
+          <tr class="<%= "odd" unless i%2 == 0 %>" onclick="location.href = '<%= link("disc/#{item.code}.html") %>'">
+            <td><%= item.name %></td>
+            <td><%= item.band_name %></td>
+            <td class="hidden-on-mobile"><%= disc_types[item.disc_type] %></td>
+            <td><%= item.date_name %></td>
+            <td class="hidden-on-mobile"><%= item.genres_text %></td>
           </tr>
         <% end %>
       </tbody>
       <template id="item-row">
-          <tr style="display:none;">
+          <tr style="display:none;" onclick="onClickRow(this)">
+            <td></td>
+            <td></td>
+            <td class="hidden-on-mobile"></td>
+            <td></td>
+            <td class="hidden-on-mobile"></td>
           </tr>
       </template>
     </table>
   </dev>
+
+<script>
+
+Array.from(document.querySelectorAll("input")).forEach((element)=>{
+  element.addEventListener('change', function(event){
+    filter(event.target.id.split("-")[1], event.target.value)
+  })
+  element.addEventListener('keypress', function(event){
+    filter(event.target.id.split("-")[1], event.target.value + event.key)
+  })
+  element.addEventListener('keyup', function(event){
+    if (event.keyCode == 46 || event.keyCode == 8) {
+      filter(event.target.id.split("-")[1], event.target.value)
+    }
+  })
+})
+
+function onClickRow(e) {
+  location.href = "./disc/" + e.getAttribute("data-code") + ".html"
+}
+
+const searchData = <%= Disc.search_json %>
+let sortConditions = []
+let filterConditions = {}
+
+function sort(key) {
+  const newConditions = []
+  let reverse = false
+  sortConditions.forEach((cond)=>{
+    if (cond.key == key) {
+      reverse = !cond.reverse
+    } else {
+      newConditions.push(cond)
+    }
+  })
+  newConditions.push({key: key, reverse: reverse})
+  sortConditions = newConditions
+  refresh()
+}
+
+function filter(key, value) {
+  filterConditions[key] = value
+  refresh()
+}
+
+function refresh() {
+  let items = [].concat(searchData)
+  sortConditions.forEach((cond)=>{
+    items = items.sort((a, b)=> {
+      const objA = (a.search[cond.key] || "").toString().toUpperCase()
+      const objB = (b.search[cond.key] || "").toString().toUpperCase()
+      if (objA < objB) {
+        return -1 * (cond.reverse ? -1 : 1)
+      }
+      if (objA > objB) {
+        return 1 * (cond.reverse ? -1 : 1)
+      }
+      return 0
+    })
+  })
+
+  const tbody = document.querySelector("#items > tbody")
+  while (tbody.firstChild) {
+    tbody.removeChild(tbody.firstChild)
+  }
+  let i = 0
+  items.forEach((item)=>{
+    if (filtered(item.search, filterConditions)) {
+      const t = document.querySelector("#item-row")
+      const tr = t.content.querySelector("tr")
+      tr.style.display = "table-row"
+      tr.className = (i%2 == 0) ? "" : "odd"
+      tr.setAttribute("data-code", item.search.code)
+      const tds = t.content.querySelectorAll("td")
+      tds[0].innerText = item.display.name
+      tds[1].innerText = item.display.band
+      tds[2].innerText = item.display.type
+      tds[3].innerText = item.display.date
+      tds[4].innerText = item.display.genre
+      tbody.appendChild(document.importNode(t.content, true))
+      i++
+    }
+  })
+}
+
+function filtered(item, cond) {
+  const contains = Object.keys(cond).every((key)=>{
+    if (!cond[key]) {
+      return true
+    }
+    return (item[key].toLowerCase().indexOf(cond[key].toLowerCase()) >= 0)
+  })
+  return contains
+}
+</script>
 
   <%= partial :footer %>
 </body>

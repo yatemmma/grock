@@ -3,7 +3,6 @@
   name: Broadway
   description: ''
   image: https://pbs.twimg.com/media/CYtrCXYUMAAUyA2.jpg
-  body: ''
   video: https://www.youtube.com/watch?v=g5P_AYwTr2A
   country: us
   origin: Orlando, Florida, USA
@@ -23,11 +22,12 @@
   purevolume: http://www.purevolume.com/broadway Broadway on PureVolume
   myspace: https://myspace.com/broadwayfl Broadway | Listen and  Stream Free Music,
     Albums, New Releases, Photos, Videos
+  lastfm: ''
   discogs: ''
   links: '[""]'
-  lastfm: ''
   member_of: ''
   ex_member_of: ''
+  body: ''
   feeds: '[{"type":"twitter","title":"@broadwayband on Twitter","url":"https://twitter.com/Broadwayband/status/804534582594965505","date":"2016/12/02
     12:56:06","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
     tweet-text\"  lang=\"en\"\u003eHoly. Crap. This is sick!  \u003ca target=\"_blank\"
@@ -46,7 +46,6 @@
   name: In League
   description: ''
   image: http://i.ytimg.com/vi/JLfPQFguu_I/maxresdefault.jpg
-  body: ''
   video: https://www.youtube.com/watch?v=AWrZRkycnyQ
   country: au
   origin: Brisbane, Queensland Australia
@@ -65,12 +64,13 @@
   instagram: https://www.instagram.com/inleagueband
   purevolume: ''
   myspace: ''
+  lastfm: ''
   discogs: https://www.discogs.com/ja/artist/1500958-In-League
   links: '["https://www.spirit-of-metal.com/en/band/In_League In League - discography,
     line-up, biography, interviews, photos"]'
-  lastfm: ''
   member_of: ''
   ex_member_of: ''
+  body: ''
   feeds: '[{"type":"twitter","title":"@inleagueband on Twitter","url":"https://twitter.com/Inleagueband/status/821860433619513344","date":"2017/01/19
     08:22:51","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
     tweet-text\"  lang=\"en\"\u003eMeanwhile over in the UK, Adam''s mixing it up!   \u003ca
@@ -167,7 +167,6 @@
   name: Ben Blondel
   description: ex. In League
   image: http://images.fasterlouder.com.au/1191/1191894.jpg
-  body: ''
   video: ''
   country: au
   origin: Brisbane, Queensland Australia
@@ -186,9 +185,10 @@
   instagram: ''
   purevolume: ''
   myspace: ''
+  lastfm: ''
   discogs: ''
   links: '["http://fasterlouder.junkee.com/ben-blondel/692545", ""]'
-  lastfm: ''
   member_of: ''
   ex_member_of: in_league
+  body: ''
   feeds: 

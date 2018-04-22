@@ -54,6 +54,11 @@
       background-color: $CLICK_BGA_COLOR;
     }
 
+    tr:hover {
+      background-color: $SECONDARY_BG_COLOR !important;
+      cursor: pointer;
+    }
+
     td {
       padding-left: 4px;
 

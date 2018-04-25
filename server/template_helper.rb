@@ -41,6 +41,7 @@ module TemplateHelper
       "idle" => "Idle",
       "indie_pop" => "Indie Pop",
       "indie_rock" => "Indie Rock",
+      "melodic_rock" => "Melodic Rock",
       "metalcore" => "Metalcore",
       "post-hardcore" => "Post-Hardcore"
     }

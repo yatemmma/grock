@@ -1050,8 +1050,8 @@
   lastfm: ''
   discogs: ''
   links: '[""]'
-  member_of: ''
-  ex_member_of: ''
+  member_of: icarus_the_owl
+  ex_member_of: kill_your_ex
   body: ''
   feeds: '[{"type":"twitter","title":"@joeyito on Twitter","url":"https://twitter.com/JoeyITO/status/951326817939410945","date":"2018/01/11
     14:36:02","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
@@ -1672,4 +1672,83 @@
     19:10:34","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
     tweet-text\"  lang=\"ja\"\u003e\u0026#x6628;\u0026#x65E5;\u0026#x306F;\u0026#x3042;\u0026#x308A;\u0026#x304C;\u0026#x3068;\u0026#x3046;\u0026#x3054;\u0026#x3056;\u0026#x3044;\u0026#x307E;\u0026#x3057;\u0026#x305F;\u0026#x3002;
     \u003c/p\u003e \u003cdiv class=\"image\" data-image=\"https://pbs.twimg.com/media/C35M-ALVcAAa3SE.jpg\"\u003e\u003cimg\u003e\u003c/div\u003e","image":""}]'
+  amazon: ''
+- code: kill_your_ex
+  name: Kill Your Ex
+  description: ''
+  image: http://i.ytimg.com/vi/ne2MTPr7C0I/hqdefault.jpg
+  video: https://www.youtube.com/watch?v=fcOJuDTXzCk
+  country: us
+  origin: Portland, Oregon, USA
+  active: 2005-2008
+  genres: melodic_rock,post-hardcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  youtube: ''
+  website: ''
+  wikipedia: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: https://myspace.com/killyourex
+  lastfm: ''
+  discogs: https://www.discogs.com/artist/1436226-Kill-Your-Ex
+  links: '["https://genius.com/artists/Kill-your-ex", "https://www.bandmix.com/rubio182xsx/"]'
+  member_of: ''
+  ex_member_of: ''
+  body: ''
+  feeds: 
+  amazon: ''
+- code: icarus_the_owl
+  name: Icarus the Owl
+  description: ''
+  image: http://i.ytimg.com/vi/q2i8WHl9kFY/maxresdefault.jpg
+  video: https://www.youtube.com/watch?v=Tm0iIafkVDQ
+  country: us
+  origin: Portland, Oregon, USA
+  active: 2009-
+  genres: indie_rock,post-hardcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  youtube: ''
+  website: https://icarustheowl.com/
+  wikipedia: https://en.wikipedia.org/wiki/Icarus_the_Owl
+  twitter: https://twitter.com/icarustheowl
+  facebook: https://www.facebook.com/Icarustheowl/
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: '[""]'
+  member_of: ''
+  ex_member_of: ''
+  body: ''
+  feeds: '[{"type":"twitter","title":"@icarustheowl on Twitter","url":"https://twitter.com/Icarustheowl/status/983912314851282944","date":"2018/04/11
+    12:39:10","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003e\u0026ldquo;Icarus And The Owl\u0026rdquo; -  \u003ca
+    class=\"twitter-atreply pretty-link js-nav\"  dir=\"ltr\" target=\"_blank\" href=\"https://twitter.com/elliotcoleman\"\u003e@\u003cb\u003eelliotcoleman\u003c/b\u003e\u003c/a\u003e  \u003ca
+    class=\"twitter-atreply pretty-link js-nav\"  dir=\"ltr\" target=\"_blank\" href=\"https://twitter.com/GoodTiger\"\u003e@\u003cb\u003eGoodTiger\u003c/b\u003e\u003c/a\u003e\u003c/p\u003e","image":""},{"type":"twitter","title":"@icarustheowl
+    on Twitter","url":"https://twitter.com/Icarustheowl/status/968984750193983488","date":"2018/03/01
+    08:02:21","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eJoey will be playing second guitar with Dance Gavin
+    Dance in Europe this March!\u003c/p\u003e","image":""},{"type":"twitter","title":"@icarustheowl
+    on Twitter","url":"https://twitter.com/Icarustheowl/status/966095154389008385","date":"2018/02/21
+    08:40:08","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eSo excited to hit the toad with  \u003ca class=\"twitter-atreply
+    pretty-link js-nav\"  dir=\"ltr\" target=\"_blank\" href=\"https://twitter.com/GoodTiger\"\u003e@\u003cb\u003eGoodTiger\u003c/b\u003e\u003c/a\u003e
+    and  \u003ca class=\"twitter-atreply pretty-link js-nav\"  dir=\"ltr\" target=\"_blank\"
+    href=\"https://twitter.com/Megoshband\"\u003e@\u003cb\u003eMegoshband\u003c/b\u003e\u003c/a\u003e
+    this Spring! \u003c/p\u003e \u003cdiv class=\"image\" data-image=\"https://pbs.twimg.com/media/DWhCVSWVAAIiREo.jpg\"\u003e\u003cimg\u003e\u003c/div\u003e","image":""},{"type":"twitter","title":"@icarustheowl
+    on Twitter","url":"https://twitter.com/Icarustheowl/status/925772510263615488","date":"2017/11/02
+    02:12:21","body":"\u003cp class=\"TweetTextSize TweetTextSize--normal js-tweet-text
+    tweet-text\"  lang=\"en\"\u003eNEW SINGLE! All stop-motion! RT!  \u003ca target=\"_blank\"
+    href=\"https://www.youtube.com/watch?v=Yfi8E_Bu-Z4\"\u003ehttps://www.youtube.com/watch?v=Yfi8E_Bu-Z4\u0026nbsp;\u0026hellip;\u003c/a\u003e\u003c/p\u003e","image":""}]'
   amazon: ''

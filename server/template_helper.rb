@@ -33,11 +33,16 @@ module TemplateHelper
     {
       "acoustic" => "Acoustic",
       "acoustic_cover" => "Acoustic Cover",
-      "indie_rock" => "Indie Rock",
+      "blues_rock" => "Blues Rock",
       "cover" => "Cover",
+      "christian_hardcore" => "Christian Hardcore",
+      "xmas" => "Christmas",
       "guest" => "Guest Appearance",
-      "post-hardcore" => "Post-Hardcore",
-      "xmas" => "Christmas"
+      "idle" => "Idle",
+      "indie_pop" => "Indie Pop",
+      "indie_rock" => "Indie Rock",
+      "metalcore" => "Metalcore",
+      "post-hardcore" => "Post-Hardcore"
     }
   end
 

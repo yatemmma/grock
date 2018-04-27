@@ -20,7 +20,7 @@
     <span> </span>
     <select onchange="onSelectValue(this, 'bands')">
       <option value="">----</option>
-      <% @bands.each do |band| %>
+      <% @bands.reverse.each do |band| %>
         <option value="<%= band.code %>"><%= band.name %></option>
       <% end %>
     </select>

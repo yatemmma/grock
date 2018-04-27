@@ -31,19 +31,22 @@ module TemplateHelper
 
   def genre_labels
     {
+      "post-hardcore" => "Post-Hardcore",
       "acoustic" => "Acoustic",
       "acoustic_cover" => "Acoustic Cover",
       "blues_rock" => "Blues Rock",
       "cover" => "Cover",
       "christian_hardcore" => "Christian Hardcore",
       "xmas" => "Christmas",
+      "electronica" => "Electronica",
       "guest" => "Guest Appearance",
       "idle" => "Idle",
       "indie_pop" => "Indie Pop",
       "indie_rock" => "Indie Rock",
       "melodic_rock" => "Melodic Rock",
       "metalcore" => "Metalcore",
-      "post-hardcore" => "Post-Hardcore"
+      "psychedelic_rock" => "Psychedelic Rock",
+      "techno" => "Techno"
     }
   end
 

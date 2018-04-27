@@ -105,7 +105,7 @@ post "/:type/delete" do |type|
   clazz = Object.const_get(type.capitalize)
 	@item = clazz.find_by(code: params[:code])
 	@item.destroy
-  redirect "/#{type.pluralize}.html"
+  redirect "/#{URI.escape(type.pluralize)}.html"
 end
 
 post "/:type/:id" do |type, id|
@@ -121,5 +121,5 @@ post "/:type/:id" do |type, id|
     @item.update(params)
   end
   @item.save
-  redirect "/#{type}/#{id}.html"
+  redirect "/#{type}/#{URI.escape(id)}.html"
 end

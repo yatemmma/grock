@@ -36,6 +36,7 @@ module TemplateHelper
       "acoustic_cover" => "Acoustic Cover",
       "blues_rock" => "Blues Rock",
       "cover" => "Cover",
+      "covered" => "Covered Artist",
       "christian_hardcore" => "Christian Hardcore",
       "xmas" => "Christmas",
       "electronica" => "Electronica",

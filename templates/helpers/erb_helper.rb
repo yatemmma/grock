@@ -1,6 +1,6 @@
 require "erb"
 # require "ruby2js"
-require "rexml/document"
+# require "rexml/document"
 
 class JSableERB < ERB
   def result(_binding)

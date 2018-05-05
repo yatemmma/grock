@@ -1,13 +1,16 @@
 require "sinatra/base"
 require "sinatra/reloader"
+require "sinatra/activerecord"
 
+require "./models/models"
 require "./templates/helpers/erb_helper"
 
 class App < Sinatra::Base
   configure :development do
     register Sinatra::Reloader
+    register Sinatra::ActiveRecordExtension
   end
-
+  set :database, {adapter: "sqlite3", database: "db/database.sqlite3"}
   set :public_folder, "docs"
   set :bind, "0.0.0.0"
 

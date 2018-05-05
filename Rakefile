@@ -1,7 +1,13 @@
-require "sinatra/activerecord/rake"
 require "sassc"
+require "sinatra/activerecord/rake"
 
 require "./utils/generator"
+
+namespace :db do
+  task :load_config do
+    require "./server/app"
+  end
+end
 
 task :sass do
   css = Dir.chdir("styles") do

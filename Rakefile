@@ -2,8 +2,10 @@ require "sinatra/activerecord/rake"
 require "sassc"
 
 task :sass do
-  sass = File.read("styles/index.scss")
-  css = SassC::Engine.new(sass, style: :compressed).render
+  css = Dir.chdir("styles") do
+    sass = File.read("index.scss")
+    SassC::Engine.new(sass, style: :compressed).render
+  end
   File.write("docs/assets/style.css", css)
 end
 

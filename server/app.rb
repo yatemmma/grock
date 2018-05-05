@@ -8,13 +8,26 @@ class App < Sinatra::Base
     register Sinatra::Reloader
   end
 
+  set :public_folder, "docs"
+  set :bind, "0.0.0.0"
+
   include ERBHelper
 
+  before do
+    @floor = request.path.split("/").size - 2
+  end
+
   get "/" do
-    "Hello world!"
+    redirect "/index.html"
   end
 
   get "/index.html" do
-    erb :index
+    erb :index, {title: nil}
+  end
+
+
+
+  def link(path)
+    "./#{"../"*@floor}#{path}"
   end
 end

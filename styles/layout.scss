@@ -1,0 +1,81 @@
+header {
+  @include line-bottom;
+  @include clearfix;
+
+  position: relative;
+
+  h1 {
+    margin-left: $HEADER_MARGIN;
+    padding-bottom: 0.3em;
+  }
+
+  @include screen-tablet {
+    span {
+      display: none;
+    }
+
+    nav {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-right: $HEADER_MARGIN;
+
+      ul li {
+    	  display: inline-block;
+    	  float: left;
+    	  margin-left: 16px;
+      }
+    }
+  }
+
+  @include screen-mobile {
+    span {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+      margin-right: $HEADER_MARGIN;
+      margin-top: 8px;
+      width: 60px;
+      text-align: right;
+    }
+
+    nav {
+      display: none;
+
+      ul {
+        padding-left: 0px;
+
+        li {
+          padding: 0.4em 0;
+          font-size: 1.2em;
+          list-style: none;
+          text-align: center;
+          background-color: $CLICK_BGA_COLOR;
+          margin-bottom: 2px;
+
+          a {
+            display: block;
+            width: 100%;
+            padding: 10px 15px;
+          }
+        }
+      }
+    }
+  }
+}
+
+footer {
+  text-align: center;
+
+  div.link {
+    @include line-bottom;
+    padding: 48px 0 12px 0;
+    font-size: 2em;
+  }
+
+  div.copy {
+    padding: 12px 0 24px 0;
+  }
+}

@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 1) do
     t.datetime "date"
     t.string "title"
     t.text "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.index ["code"], name: "index_feeds_on_code", unique: true
   end
 
@@ -36,7 +38,7 @@ ActiveRecord::Schema.define(version: 1) do
     t.string "facebook"
     t.string "links"
     t.text "body"
-    t.boolean "public"
+    t.datetime "published_at"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["code"], name: "index_labels_on_code", unique: true

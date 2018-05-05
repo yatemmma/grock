@@ -8,6 +8,8 @@ class CreateFeeds < ActiveRecord::Migration[5.2]
         t.datetime :date
         t.string   :title
         t.text     :body
+        t.datetime :created_at
+        t.datetime :updated_at
     end
     add_index :feeds, :code, unique: true
   end

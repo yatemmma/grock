@@ -3,6 +3,7 @@ require "sinatra/reloader"
 require "sinatra/activerecord"
 
 require "./models/models"
+require "./utils/importer"
 require "./templates/helpers/erb_helper"
 
 class App < Sinatra::Base
@@ -28,6 +29,17 @@ class App < Sinatra::Base
 
   get "/index.html" do
     erb :index, {title: nil}
+  end
+
+
+  get "/admin/api/export" do
+    Importer.export(params["model"])
+    200
+  end
+
+  get "/admin/api/import" do
+    Importer.import(params["model"])
+    200
   end
 end
 

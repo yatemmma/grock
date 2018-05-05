@@ -20,6 +20,10 @@ class JSableERB < ERB
 end
 
 module ERBHelper
+  def admin?
+    @is_admin
+  end
+
   def link(path)
     "./#{"../"*@floor}#{path}"
   end

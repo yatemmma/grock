@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link media="all" rel="stylesheet" href="<%= link("assets/style.css") %>" />
   <script src="<%= link("assets/script.js") %>"></script>
+  <% if admin? %>
+  <script src="<%= link("assets/admin_script.js") %>"></script>
+  <% end %>
 </head>
 <body>
   <header>
@@ -14,6 +17,10 @@
     <span><a id="menu" onclick="toggleMenu()">Menu</a></span>
     <nav>
       <ul>
+        <% if admin? %>
+        <li><a href="<%= link("admin") %>">Admin</a></li>
+        <li> | </li>
+        <% end %>
         <li><a href="<%= link("bands.html") %>">Band</a></li>
         <li><a href="<%= link("discs.html") %>">Disc</a></li>
         <li><a href="<%= link("labels.html") %>">Label</a></li>

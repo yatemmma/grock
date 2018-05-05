@@ -10,6 +10,7 @@ class App < Sinatra::Base
     register Sinatra::Reloader
     register Sinatra::ActiveRecordExtension
   end
+
   set :database, {adapter: "sqlite3", database: "db/database.sqlite3"}
   set :public_folder, "docs"
   set :bind, "0.0.0.0"
@@ -17,6 +18,7 @@ class App < Sinatra::Base
   include ERBHelper
 
   before do
+    @is_admin = true
     @floor = request.path.split("/").size - 2
   end
 
@@ -27,8 +29,7 @@ class App < Sinatra::Base
   get "/index.html" do
     erb :index, {title: nil}
   end
-
-  get "/band/:code.html" do |code|
-    erb :band, {title: "band!!!"}
-  end
 end
+
+require_relative "./label_controller"
+require_relative "./admin_controller"

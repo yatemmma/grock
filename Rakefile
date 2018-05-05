@@ -10,5 +10,5 @@ task :sass do
 end
 
 task :start do
-  system "rackup -p 4567"
+  system "bundle exec rackup -p 4567"
 end

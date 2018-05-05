@@ -6,7 +6,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="<%= link("assets/images/favicon.ico") %>" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link media="all" rel="stylesheet" href="<%= link("assets/style.css") %>" />
-  <link media="all" rel="stylesheet" href="<%= link("assets/vendor/css/fontawesome-all.min.css") %>" />
+  <script src="<%= link("assets/script.js") %>"></script>
 </head>
 <body>
   <header>
@@ -21,17 +21,7 @@
     </nav>
   </header>
   <script>
-    function toggleMenu() {
-      const nav = document.querySelector("header > nav")
-      const menu = document.querySelector("#menu")
-      if (nav.style.display == "block") {
-        nav.style.display = "none"
-        menu.text = "Menu"
-      } else {
-        nav.style.display = "block"
-        menu.text = "Close"
-      }
-    }
+
   </script>
 
   <div class="contents-wrapper">

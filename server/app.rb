@@ -25,9 +25,7 @@ class App < Sinatra::Base
     erb :index, {title: nil}
   end
 
-
-
-  def link(path)
-    "./#{"../"*@floor}#{path}"
+  get "/band/:code.html" do |code|
+    erb :band, {title: "band!!!"}
   end
 end

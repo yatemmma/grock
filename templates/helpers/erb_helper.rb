@@ -1,32 +1,36 @@
 require "erb"
-require "opal"
+# require "ruby2js"
 require "rexml/document"
 
-class OpalERB < ERB
+class JSableERB < ERB
   def result(_binding)
     text = super
 
-    doc = REXML::Document.new(text)
-    doc.elements.each("html/body/script[@type='text/ruby']") do |element|
-      js_code = Opal::Compiler.new(element.text).compile
-      script_tag = REXML::Element.new("script")
-      script_tag.add(REXML::CData.new(js_code))
-      element.replace_with(script_tag)
-    end
-
-    doc = doc.to_s.gsub(/\<\!\[CDATA\[/, "//<![CDATA[")
-                  .gsub(/\]\]\>/, "//]]>\n")
+    # doc = REXML::Document.new(text)
+    # doc.elements.each("html/body/script[@type='text/ruby']") do |element|
+    #   js_code = Ruby2JS.convert(element.text)
+    #   script_tag = REXML::Element.new("script")
+    #   script_tag.add(REXML::CData.new(js_code))
+    #   element.replace_with(script_tag)
+    # end
+    #
+    # doc = doc.to_s.gsub(/\<\!\[CDATA\[/, "//<![CDATA[")
+    #               .gsub(/\]\]\>/, "//]]>\n")
   end
 end
 
 module ERBHelper
+  def link(path)
+    "./#{"../"*@floor}#{path}"
+  end
+
   def page_title(title)
     [title, "G-ROCK"].compact.join(" | ")
   end
 
   def erb(name, locals = {})
     @locals = locals
-    template = OpalERB.new(File.read("templates/#{name}.erb"))
+    template = JSableERB.new(File.read("templates/#{name}.erb"))
     context = template.result(binding)
 
     template = ERB.new(File.read("templates/layout.erb"))
@@ -35,7 +39,7 @@ module ERBHelper
 
   def partial(name, locals = {})
     @partial_locals = locals
-    template = OpalERB.new(File.read("templates/partials/#{name}.erb"))
+    template = JSableERB.new(File.read("templates/partials/#{name}.erb"))
     context = template.result(binding)
   end
 

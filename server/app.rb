@@ -18,8 +18,16 @@ class App < Sinatra::Base
 
   include ERBHelper
 
-  before do
+  def initialize(app = nil)
     @is_admin = true
+    super
+
+    @labels = Label.all
+    @feeds = Feed.all
+    @settings = Setting.all
+  end
+
+  before do
     @floor = request.path.split("/").size - 2
   end
 
@@ -31,14 +39,20 @@ class App < Sinatra::Base
     erb :index, {title: nil}
   end
 
-
-  get "/admin/api/export" do
-    Importer.export(params["model"])
-    200
+  get "/labels.html" do
+    erb :labels, {title: "Labels"}
   end
 
-  get "/admin/api/import" do
-    Importer.import(params["model"])
+  get "/label/:id.html" do |id|
+    @label = Label.find_by(code: id)
+    erb :label, {title: "Labels", label: @label}
+  end
+
+  post "/admin/api/settings" do
+    setting = Setting.find_by(code: params["code"])
+    setting.json = params["json"]
+    setting.save
+    @settings = Setting.all
     200
   end
 end

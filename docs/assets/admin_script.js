@@ -20,3 +20,14 @@ function importData(e, sender) {
       console.log(result)
     })
 }
+
+function updateSetting(e, sender, id) {
+  e.preventDefault()
+  const data = JSON.parse(document.querySelector("#"+id).value)
+  const model = sender.text
+  sender.text = "..."
+  ajaxPostRequest("./admin/api/settings", {code: id, json: JSON.stringify(data)}, function(result) {
+      sender.text = model
+      console.log(result)
+    })
+}

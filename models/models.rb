@@ -2,3 +2,4 @@
 # require_relative "./disc"
 require_relative "./feed"
 require_relative "./label"
+require_relative "./setting"

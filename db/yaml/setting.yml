@@ -1,0 +1,9 @@
+---
+- code: genres
+  json: '{"hoge":"hogehoge","hoge2":"hogehoge2","hoge3":"hogehoge2xxx"}'
+- code: sites
+  json: '{"hoge":"hogehoge","hoge2":"hogehoge2","hoge3":"hogehoge2xxx"}'
+- code: disc_types
+  json: '{"hoge":"hogehoge","hoge2":"hogehoge2","hoge3":"hogehoge2xxx"}'
+- code: date_labels
+  json: '{"hoge":"hogehoge","hoge2":"hogehoge2","hoge3":"hogehoge2xxx"}'

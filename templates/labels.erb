@@ -1,9 +1,3 @@
-band
-
-<% labels.each do |label| %>
-  <%= label.code %>
+<% @labels.each do |label| %>
+  <li><a href="./label/<%= label.code %>.html"><%= label.name %></a></li>
 <% end %>
-
-<%= partial :main, {hoge: 444} %>
-
-hoge

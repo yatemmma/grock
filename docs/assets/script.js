@@ -27,3 +27,21 @@ function ajaxRequest(url, params, callback) {
   xhr.open("GET", url, true)
   xhr.send()
 }
+
+function ajaxPostRequest(url, params, callback) {
+  const xhr = new XMLHttpRequest()
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == XMLHttpRequest.DONE) {
+       if (xhr.status !== 200) console.log(xhr.status)
+       callback(xhr.responseText)
+    }
+  }
+  params = Object.keys(params).reduce((a,k)=>{
+    a.push(k + '=' + encodeURIComponent(params[k]))
+    return a
+  }, []).join('&')
+
+  xhr.open("POST", url, true)
+  xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
+  xhr.send(params)
+}

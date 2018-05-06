@@ -44,6 +44,10 @@ class Label < ActiveRecord::Base
 		words.join(" ")
 	end
 
+	def twitter_key
+		self.twitter.split(" ").first.split("/").last unless self.twitter.nil?
+	end
+
 	def feeds
 		[]
 	end

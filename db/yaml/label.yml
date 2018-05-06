@@ -1,19 +1,19 @@
 ---
 - code: rise_records
   name: Rise Records
-  founded: 
-  origin: 
+  founded: '1991'
+  origin: us United States
   images: https://www.creativeman.co.jp/wp-content/uploads/2016/07/riserecords-1.jpg
   videos: ''
   website: http://www.riserecords.com/ Rise Records - Home
   wikipedia: https://en.wikipedia.org/wiki/Rise_Records Rise Records - Wikipedia
   youtube: https://www.youtube.com/user/riserecords riserecords - YouTube
   twitter: https://twitter.com/riserecords Rise Records(@riserecords) | Twitter
-  facebook: ''
-  links: '[""]'
+  facebook: https://www.facebook.com/RiseRecords/ Rise Records - Home | Facebook
+  links: ''
   body: ''
   created_at: 2018-05-05 16:35:43.365881000 Z
-  updated_at: 2018-05-05 16:35:43.365881000 Z
+  updated_at: 2018-05-06 08:54:27.029487000 Z
 - code: uprising_records
   name: Uprising Records
   founded: 

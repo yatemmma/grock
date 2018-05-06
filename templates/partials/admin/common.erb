@@ -14,9 +14,13 @@
   .admin label textarea {
     height: 200px;}
 
+  .admin button {
+    color: #333;
+    background: white;}
+
   .admin form {
-      text-align: right;
-      margin: 16px 0;}
+    text-align: right;
+    margin: 16px 0;}
 
   .admin label input[disabled] {
     background: lightgray;}
@@ -35,6 +39,21 @@ function del() {
     document.form1.action = "<%= link("#{item.class.to_s.downcase}/delete") %>" + code
     document.form1.submit()
 	}
+}
+
+function feed(e, sender) {
+  e.preventDefault()
+  const code = document.querySelector("#form1").getAttribute("data-code")
+  if (code) {
+    const title = sender.innerText
+    sender.innerText = "..."
+    ajaxRequest("<%= link("admin/api/update_feed") %>", {model: "<%= item.class.to_s.downcase %>", code: code}, (result, status)=>{
+      sender.innerText = title
+      if (status == 200) {
+        console.log(result)
+      }
+    })
+  }
 }
 
 function onChangeText(key, e) {

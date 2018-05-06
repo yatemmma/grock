@@ -3,7 +3,6 @@ require "sinatra/reloader"
 require "sinatra/activerecord"
 
 require "./models/models"
-require "./utils/importer"
 require "./templates/helpers/erb_helper"
 
 class App < Sinatra::Base
@@ -28,6 +27,12 @@ class App < Sinatra::Base
 
   before do
     @floor = request.path.split("/").size - 2
+  end
+
+  before :method => :post do
+    params.delete("id")
+    params.delete("type")
+    params.delete("captures")
   end
 
   get "/" do

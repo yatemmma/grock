@@ -1,0 +1,11 @@
+<%
+  desc1, desc2, desc3 = text
+%>
+<a class="block wide" href="<%= link("#{item.class.to_s.downcase}/#{item.code}.html") %>">
+  <div class="image" data-image="<%= item.main_image %>">
+    <img>
+  </div>
+  <div class="desc"><%= desc1 %></div>
+  <div class="desc"><%= desc2 %></div>
+  <div class="desc"><%= desc3 %></div>
+</a>

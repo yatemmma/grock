@@ -82,7 +82,7 @@ function ajaxRequest(url, params, callback) {
   xhr.onreadystatechange = function() {
     if (xhr.readyState == XMLHttpRequest.DONE) {
        if (xhr.status !== 200) console.log(xhr.status)
-       callback(xhr.responseText)
+       callback(xhr.responseText, xhr.status)
     }
   }
   if (params) {
@@ -100,7 +100,7 @@ function ajaxPostRequest(url, params, callback) {
   xhr.onreadystatechange = function() {
     if (xhr.readyState == XMLHttpRequest.DONE) {
        if (xhr.status !== 200) console.log(xhr.status)
-       callback(xhr.responseText)
+       callback(xhr.responseText, xhr.status)
     }
   }
   params = Object.keys(params).reduce((a,k)=>{

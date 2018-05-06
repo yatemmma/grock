@@ -1,7 +1,14 @@
+require "./utils/importer"
+require "./utils/site"
+
 class App < Sinatra::Base
 
   get "/admin" do
     erb :admin, {title: "Admin Console"}
+  end
+
+  get "/admin/api/site_title" do
+    Site.get_title(URI.unescape(params["url"]))
   end
 
   post "/admin/api/settings" do

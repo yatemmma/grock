@@ -1,6 +1,7 @@
 ---
 - code: rise_records_https://twitter.com/riserecords/status/992978801268215808
   owner: rise_records
+  owner_name: Rise Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg
   url: https://twitter.com/riserecords/status/992978801268215808
@@ -11,9 +12,10 @@
     href="https://twitter.com/VansWarpedTour">@<b>VansWarpedTour</b></a> date?  <a
     target="_blank" href="https://twitter.com/radicalhockey/status/992961537114505218">https://twitter.com/radicalhockey/status/992961537114505218&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 11:49:41.378286000 Z
-  updated_at: 2018-05-06 11:49:41.378286000 Z
+  updated_at: 2018-05-06 15:29:37.546780000 Z
 - code: rise_records_https://twitter.com/riserecords/status/992831144147042304
   owner: rise_records
+  owner_name: Rise Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg
   url: https://twitter.com/riserecords/status/992831144147042304
@@ -25,9 +27,10 @@
     stops?! </p> <a target="_blank" href="https://twitter.com/riserecords/status/992831144147042304"
     target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/Dcc-o1sV0AEE7ig.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.382908000 Z
-  updated_at: 2018-05-06 11:49:41.382908000 Z
+  updated_at: 2018-05-06 15:29:37.552016000 Z
 - code: rise_records_https://twitter.com/riserecords/status/992520249122537472
   owner: rise_records
+  owner_name: Rise Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg
   url: https://twitter.com/riserecords/status/992520249122537472
@@ -36,9 +39,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="und">&#x1F64C;   <a
     target="_blank" href="https://twitter.com/SXMOctane/status/992517339919896576">https://twitter.com/SXMOctane/status/992517339919896576&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 11:49:41.386178000 Z
-  updated_at: 2018-05-06 11:49:41.386178000 Z
+  updated_at: 2018-05-06 15:29:37.555014000 Z
 - code: rise_records_https://twitter.com/riserecords/status/992478997220020224
   owner: rise_records
+  owner_name: Rise Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg
   url: https://twitter.com/riserecords/status/992478997220020224
@@ -53,9 +57,10 @@
     <a dir="ltr" target="_blank" href="https://twitter.com/hashtag/MayTheFourthBeWithYou?src=hash">
     </a>  <a target="_blank" href="http://www.syfy.com/syfywire/watch-galactic-empire-a-heavy-metal-star-wars-story">http://www.syfy.com/syfywire/watch-galactic-empire-a-heavy-metal-star-wars-story&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 11:49:41.389775000 Z
-  updated_at: 2018-05-06 11:49:41.389775000 Z
+  updated_at: 2018-05-06 15:29:37.558260000 Z
 - code: rise_records_yt:video:IPaYPlcEiYg
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=IPaYPlcEiYg
@@ -65,9 +70,10 @@
     href="https://www.youtube.com/watch?v=IPaYPlcEiYg" target="_blank"><div class="image"
     data-image="https://i2.ytimg.com/vi/IPaYPlcEiYg/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.393123000 Z
-  updated_at: 2018-05-06 11:49:41.393123000 Z
+  updated_at: 2018-05-06 15:29:37.561365000 Z
 - code: rise_records_yt:video:UOvBPG0RCfA
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=UOvBPG0RCfA
@@ -76,9 +82,10 @@
   body: <p>Dance Gavin Dance - Son Of Robot</p><a href="https://www.youtube.com/watch?v=UOvBPG0RCfA"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/UOvBPG0RCfA/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.396312000 Z
-  updated_at: 2018-05-06 11:49:41.396312000 Z
+  updated_at: 2018-05-06 15:29:37.564124000 Z
 - code: rise_records_yt:video:wYURYvj9Meo
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=wYURYvj9Meo
@@ -87,9 +94,10 @@
   body: <p>Mayday Parade - Piece Of Your Heart (Official Music Video)</p><a href="https://www.youtube.com/watch?v=wYURYvj9Meo"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/wYURYvj9Meo/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.399593000 Z
-  updated_at: 2018-05-06 11:49:41.399593000 Z
+  updated_at: 2018-05-06 15:29:37.566868000 Z
 - code: rise_records_yt:video:NxXxdlWiDio
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=NxXxdlWiDio
@@ -98,9 +106,10 @@
   body: <p>Modern Maps - Autopilot</p><a href="https://www.youtube.com/watch?v=NxXxdlWiDio"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/NxXxdlWiDio/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.403235000 Z
-  updated_at: 2018-05-06 11:49:41.403235000 Z
+  updated_at: 2018-05-06 15:29:37.569652000 Z
 - code: rise_records_yt:video:1G0PDgr73NA
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=1G0PDgr73NA
@@ -109,9 +118,10 @@
   body: <p>Of Mice &amp; Men - Instincts (Official Music Video)</p><a href="https://www.youtube.com/watch?v=1G0PDgr73NA"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/1G0PDgr73NA/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.407655000 Z
-  updated_at: 2018-05-06 11:49:41.407655000 Z
+  updated_at: 2018-05-06 15:29:37.572628000 Z
 - code: rise_records_yt:video:oAYw2vg9cGI
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=oAYw2vg9cGI
@@ -120,9 +130,10 @@
   body: <p>Chelsea Grin - Dead Rose (Official Music Video)</p><a href="https://www.youtube.com/watch?v=oAYw2vg9cGI"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/oAYw2vg9cGI/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.411590000 Z
-  updated_at: 2018-05-06 11:49:41.411590000 Z
+  updated_at: 2018-05-06 15:29:37.575341000 Z
 - code: rise_records_yt:video:fUwwE4l8uS4
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=fUwwE4l8uS4
@@ -131,9 +142,10 @@
   body: <p>Tiger Army - Dark Paradise</p><a href="https://www.youtube.com/watch?v=fUwwE4l8uS4"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/fUwwE4l8uS4/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.416718000 Z
-  updated_at: 2018-05-06 11:49:41.416718000 Z
+  updated_at: 2018-05-06 15:29:37.578234000 Z
 - code: rise_records_yt:video:WLOl0e0ylGM
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=WLOl0e0ylGM
@@ -142,9 +154,10 @@
   body: <p>Like Moths To Flames - Empty The Same (Official Music Video)</p><a href="https://www.youtube.com/watch?v=WLOl0e0ylGM"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/WLOl0e0ylGM/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.435870000 Z
-  updated_at: 2018-05-06 11:49:41.435870000 Z
+  updated_at: 2018-05-06 15:29:37.581648000 Z
 - code: rise_records_yt:video:lZaaekGyzBI
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=lZaaekGyzBI
@@ -153,9 +166,10 @@
   body: <p>Modern Maps - hope you're happy. album teaser</p><a href="https://www.youtube.com/watch?v=lZaaekGyzBI"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/lZaaekGyzBI/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.442220000 Z
-  updated_at: 2018-05-06 11:49:41.442220000 Z
+  updated_at: 2018-05-06 15:29:37.585027000 Z
 - code: rise_records_yt:video:B87Hh5tN5E0
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=B87Hh5tN5E0
@@ -164,9 +178,10 @@
   body: <p>Galactic Empire - Rey's Theme</p><a href="https://www.youtube.com/watch?v=B87Hh5tN5E0"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/B87Hh5tN5E0/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.447481000 Z
-  updated_at: 2018-05-06 11:49:41.447481000 Z
+  updated_at: 2018-05-06 15:29:37.591611000 Z
 - code: rise_records_yt:video:-rGB9q8yv1Y
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=-rGB9q8yv1Y
@@ -175,9 +190,10 @@
   body: <p>Dead Letter Circus - The Armour You Own (Official Music Video)</p><a href="https://www.youtube.com/watch?v=-rGB9q8yv1Y"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/-rGB9q8yv1Y/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.454905000 Z
-  updated_at: 2018-05-06 11:49:41.454905000 Z
+  updated_at: 2018-05-06 15:29:37.596438000 Z
 - code: rise_records_yt:video:TqVLhYoWQGo
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=TqVLhYoWQGo
@@ -186,9 +202,10 @@
   body: <p>Kublai Khan - True Fear (Official Music Video)</p><a href="https://www.youtube.com/watch?v=TqVLhYoWQGo"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/TqVLhYoWQGo/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.459384000 Z
-  updated_at: 2018-05-06 11:49:41.459384000 Z
+  updated_at: 2018-05-06 15:29:37.599471000 Z
 - code: rise_records_yt:video:4M3Q6cotguw
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=4M3Q6cotguw
@@ -197,9 +214,10 @@
   body: <p>Gone Is Gone - Phantom Limb (Official Music Video)</p><a href="https://www.youtube.com/watch?v=4M3Q6cotguw"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/4M3Q6cotguw/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.463444000 Z
-  updated_at: 2018-05-06 11:49:41.463444000 Z
+  updated_at: 2018-05-06 15:29:37.602532000 Z
 - code: rise_records_yt:video:vQlyanSkeTk
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=vQlyanSkeTk
@@ -208,9 +226,10 @@
   body: <p>Mayday Parade - Rise Announcement</p><a href="https://www.youtube.com/watch?v=vQlyanSkeTk"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/vQlyanSkeTk/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.467364000 Z
-  updated_at: 2018-05-06 11:49:41.467364000 Z
+  updated_at: 2018-05-06 15:29:37.606369000 Z
 - code: rise_records_yt:video:x0l2zzIh6W0
   owner: rise_records
+  owner_name: Rise Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=x0l2zzIh6W0
@@ -219,9 +238,10 @@
   body: <p>Sevendust - Not Original (Official Music Video)</p><a href="https://www.youtube.com/watch?v=x0l2zzIh6W0"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/x0l2zzIh6W0/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 11:49:41.471086000 Z
-  updated_at: 2018-05-06 11:49:41.471086000 Z
+  updated_at: 2018-05-06 15:29:37.612735000 Z
 - code: uprising_records_http://www.uprisingrecords.com/news/broadway-gentlemans-brawl-out-now/
   owner: uprising_records
+  owner_name: Uprising Records
   feed_type: site
   icon: 
   url: http://www.uprisingrecords.com/news/broadway-gentlemans-brawl-out-now/
@@ -232,9 +252,10 @@
     fret board acrobatics of Jack Fowler with the driving rhythms of Jake Garland
     and Misha Camacho&#8217;s lead vocal melodies&#8230;</p>"
   created_at: 2018-05-06 13:59:48.985850000 Z
-  updated_at: 2018-05-06 13:59:48.985850000 Z
+  updated_at: 2018-05-06 15:29:37.627948000 Z
 - code: uprising_records_http://www.uprisingrecords.com/news/dr-acula-release-on-4-20/
   owner: uprising_records
+  owner_name: Uprising Records
   feed_type: site
   icon: 
   url: http://www.uprisingrecords.com/news/dr-acula-release-on-4-20/
@@ -248,9 +269,10 @@
     and bonus tracks as well&#8230;
     If you buy from Districtlines, Merchnow or Smartpunk you <a href="http://www.uprisingrecords.com/news/dr-acula-release-on-4-20/" target="_blank">[...]</a></p>
   created_at: 2018-05-06 13:59:48.990233000 Z
-  updated_at: 2018-05-06 13:59:48.990233000 Z
+  updated_at: 2018-05-06 15:29:37.631015000 Z
 - code: uprising_records_http://www.uprisingrecords.com/artists/rock-division/her-demise-my-rise-2/
   owner: uprising_records
+  owner_name: Uprising Records
   feed_type: site
   icon: 
   url: http://www.uprisingrecords.com/artists/rock-division/her-demise-my-rise-2/
@@ -262,9 +284,10 @@
     of aggressive hardcore that you can party to&#8230;the &#8220;takeover &#8221;
     starts now&#8230;</p>"
   created_at: 2018-05-06 13:59:48.993342000 Z
-  updated_at: 2018-05-06 13:59:48.993342000 Z
+  updated_at: 2018-05-06 15:29:37.634567000 Z
 - code: uprising_records_http://www.uprisingrecords.com/artists/urban-division/tmills/
   owner: uprising_records
+  owner_name: Uprising Records
   feed_type: site
   icon: 
   url: http://www.uprisingrecords.com/artists/urban-division/tmills/
@@ -277,9 +300,10 @@
     &#8220;Ladies and Gentleman.&#8221; His &#8216;Finders Keepers&#8217; EP is <a
     href="http://www.uprisingrecords.com/artists/urban-division/tmills/" target="_blank">[...]</a></p>
   created_at: 2018-05-06 13:59:48.998277000 Z
-  updated_at: 2018-05-06 13:59:48.998277000 Z
+  updated_at: 2018-05-06 15:29:37.640341000 Z
 - code: uprising_records_http://www.uprisingrecords.com/news/new-website-launched/
   owner: uprising_records
+  owner_name: Uprising Records
   feed_type: site
   icon: 
   url: http://www.uprisingrecords.com/news/new-website-launched/
@@ -287,9 +311,10 @@
   title: New Website Launched
   body: "<p>New Website Launched</p><p></p>"
   created_at: 2018-05-06 13:59:49.001988000 Z
-  updated_at: 2018-05-06 13:59:49.001988000 Z
+  updated_at: 2018-05-06 15:29:37.643084000 Z
 - code: uprising_records_http://www.uprisingrecords.com/news/her-demise-my-rise-sign-to-uprisingthis-city-is-burning/
   owner: uprising_records
+  owner_name: Uprising Records
   feed_type: site
   icon: 
   url: http://www.uprisingrecords.com/news/her-demise-my-rise-sign-to-uprisingthis-city-is-burning/
@@ -297,9 +322,10 @@
   title: Her Demise My Rise sign to Uprising/This City Is Burning
   body: "<p>Her Demise My Rise sign to Uprising/This City Is Burning</p><p></p>"
   created_at: 2018-05-06 13:59:49.005315000 Z
-  updated_at: 2018-05-06 13:59:49.005315000 Z
+  updated_at: 2018-05-06 15:29:37.646197000 Z
 - code: uprising_records_http://www.uprisingrecords.com/artists/rock-division/dr-acula/
   owner: uprising_records
+  owner_name: Uprising Records
   feed_type: site
   icon: 
   url: http://www.uprisingrecords.com/artists/rock-division/dr-acula/
@@ -312,9 +338,10 @@
     DIY touring, energetic performances, <a href="http://www.uprisingrecords.com/artists/rock-division/dr-acula/"
     target="_blank">[...]</a></p>
   created_at: 2018-05-06 13:59:49.008843000 Z
-  updated_at: 2018-05-06 13:59:49.008843000 Z
+  updated_at: 2018-05-06 15:29:37.648789000 Z
 - code: uprising_records_http://www.uprisingrecords.com/artists/the-archive/racetraitor/
   owner: uprising_records
+  owner_name: Uprising Records
   feed_type: site
   icon: 
   url: http://www.uprisingrecords.com/artists/the-archive/racetraitor/
@@ -327,9 +354,10 @@
     the incendiary Chicago hardcore band is no more, members <a href="http://www.uprisingrecords.com/artists/the-archive/racetraitor/"
     target="_blank">[...]</a></p>
   created_at: 2018-05-06 13:59:49.012685000 Z
-  updated_at: 2018-05-06 13:59:49.012685000 Z
+  updated_at: 2018-05-06 15:29:37.652742000 Z
 - code: uprising_records_http://www.uprisingrecords.com/artists/the-archive/vietnom/
   owner: uprising_records
+  owner_name: Uprising Records
   feed_type: site
   icon: 
   url: http://www.uprisingrecords.com/artists/the-archive/vietnom/
@@ -339,9 +367,10 @@
     <p>Vietnom</p><p>Envision Vietnam, the country: war-torn, savage and bloody through the lens of the West. A picture of political instability, restlessness and battle, embroiled in decades-long dispute and violence. A kill-or-be-killed environment where only the strong survive.
     Now step into the world of Vietnom, the band: a DMS hardcore outfit that has crawled up from the mean <a href="http://www.uprisingrecords.com/artists/the-archive/vietnom/" target="_blank">[...]</a></p>
   created_at: 2018-05-06 13:59:49.016387000 Z
-  updated_at: 2018-05-06 13:59:49.016387000 Z
+  updated_at: 2018-05-06 15:29:37.657655000 Z
 - code: uprising_records_http://www.uprisingrecords.com/artists/rock-division/vegan-reich/
   owner: uprising_records
+  owner_name: Uprising Records
   feed_type: site
   icon: 
   url: http://www.uprisingrecords.com/artists/rock-division/vegan-reich/
@@ -354,9 +383,10 @@
     and equally influential, ideologically spawning the band Earth Crisis <a href="http://www.uprisingrecords.com/artists/rock-division/vegan-reich/"
     target="_blank">[...]</a></p>
   created_at: 2018-05-06 13:59:49.020438000 Z
-  updated_at: 2018-05-06 13:59:49.020438000 Z
+  updated_at: 2018-05-06 15:29:37.661020000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/963789467516637184
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/963789467516637184
@@ -367,9 +397,10 @@
     target="_blank" href="https://twitter.com/Chasehuglin">@<b>Chasehuglin</b></a>
     single "June Bug" RT  <a target="_blank" href="https://youtu.be/yXFEfgFp3ig">https://youtu.be/yXFEfgFp3ig&nbsp;</a></p>
   created_at: 2018-05-06 14:05:27.775721000 Z
-  updated_at: 2018-05-06 14:05:27.775721000 Z
+  updated_at: 2018-05-06 15:29:37.664580000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/992102926951833601
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/992102926951833601
@@ -384,9 +415,10 @@
     class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/heavythingsrock">@<b>heavythingsrock</b></a>
     SING/SCREAM/SPEAK/LOVE</p>'
   created_at: 2018-05-06 14:05:27.780351000 Z
-  updated_at: 2018-05-06 14:05:27.780351000 Z
+  updated_at: 2018-05-06 15:29:37.668746000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/992028463623262208
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/992028463623262208
@@ -401,9 +433,10 @@
     </p> <a target="_blank" href="https://twitter.com/invoguerecords/status/992028463623262208"
     target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DcRkn43U0AAcgxe.jpg"><img></div></a>'
   created_at: 2018-05-06 14:05:27.784105000 Z
-  updated_at: 2018-05-06 14:05:27.784105000 Z
+  updated_at: 2018-05-06 15:29:37.671945000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/991701656822829056
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/991701656822829056
@@ -418,9 +451,10 @@
     class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/heavythingsrock">@<b>heavythingsrock</b></a>
     SING/SCREAM/SPEAK/LOVE</p>
   created_at: 2018-05-06 14:05:27.787632000 Z
-  updated_at: 2018-05-06 14:05:27.787632000 Z
+  updated_at: 2018-05-06 15:29:37.678536000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/991520989908492289
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/991520989908492289
@@ -431,9 +465,10 @@
     on the road playing some shows. </p> <a target="_blank" href="https://twitter.com/invoguerecords/status/991520989908492289"
     target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DcKW8DpWAAAtxLY.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.790922000 Z
-  updated_at: 2018-05-06 14:05:27.790922000 Z
+  updated_at: 2018-05-06 15:29:37.682640000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/991478878915973120
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/991478878915973120
@@ -446,9 +481,10 @@
     listeners. Keep sharing these guys, soundtrack to the summer right here.  <a target="_blank"
     href="https://open.spotify.com/artist/6A0ejxipRaytN3ndpuXnQk?si=gftKDjraSNmk75MXF-ZTdQ">https://open.spotify.com/artist/6A0ejxipRaytN3ndpuXnQk?si=gftKDjraSNmk75MXF-ZTdQ&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:05:27.794428000 Z
-  updated_at: 2018-05-06 14:05:27.794428000 Z
+  updated_at: 2018-05-06 15:29:37.686348000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/991380832253366272
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/991380832253366272
@@ -463,9 +499,10 @@
     class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/heavythingsrock">@<b>heavythingsrock</b></a>
     LINE UP IS &#x1F525; </p>
   created_at: 2018-05-06 14:05:27.797896000 Z
-  updated_at: 2018-05-06 14:05:27.797896000 Z
+  updated_at: 2018-05-06 15:29:37.690399000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/991349712296046592
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/991349712296046592
@@ -476,9 +513,10 @@
     pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/heavythingsrock">@<b>heavythingsrock</b></a>
     yet, you're really Missing Out.  <a target="_blank" href="https://twitter.com/heavythingsrock/status/991345004256874496">https://twitter.com/heavythingsrock/status/991345004256874496&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:05:27.801802000 Z
-  updated_at: 2018-05-06 14:05:27.801802000 Z
+  updated_at: 2018-05-06 15:29:37.694822000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/991014319578992642
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/991014319578992642
@@ -492,9 +530,10 @@
     </p> <a target=\"_blank\" href=\"https://twitter.com/invoguerecords/status/991014319578992642\"
     target=\"_blank\"><div class=\"image\" data-image=\"https://pbs.twimg.com/media/DcCwzpbWAAAYxJX.jpg\"><img></div></a>"
   created_at: 2018-05-06 14:05:27.805156000 Z
-  updated_at: 2018-05-06 14:05:27.805156000 Z
+  updated_at: 2018-05-06 15:29:37.698168000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/990999927789678592
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/990999927789678592
@@ -506,9 +545,10 @@
     pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/merchnow">@<b>merchnow</b></a>
     NOW   <a target="_blank" href="http://invoguerecords.merchnow.com/catalogs/Chase-Huglin">http://invoguerecords.merchnow.com/catalogs/Chase-Huglin&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:05:27.808846000 Z
-  updated_at: 2018-05-06 14:05:27.808846000 Z
+  updated_at: 2018-05-06 15:29:37.710952000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/990988035893415937
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/990988035893415937
@@ -523,9 +563,10 @@
     class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/heavythingsrock">@<b>heavythingsrock</b></a>
     SING/SCREAM/SPEAK/LOVE.  Come see a very diverse show.  Be loud.  Live louder.</p>
   created_at: 2018-05-06 14:05:27.812398000 Z
-  updated_at: 2018-05-06 14:05:27.812398000 Z
+  updated_at: 2018-05-06 15:29:37.713880000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/990985046663286786
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/990985046663286786
@@ -536,9 +577,10 @@
 
     Pic:  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/stephh_rios">@<b>stephh_rios</b></a> </p> <a target="_blank" href="https://twitter.com/invoguerecords/status/990985046663286786" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DcCtUsnWAAAOLwl.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.816136000 Z
-  updated_at: 2018-05-06 14:05:27.816136000 Z
+  updated_at: 2018-05-06 15:29:37.720052000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/990630581993115648
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/990630581993115648
@@ -553,9 +595,10 @@
     href="https://twitter.com/hashtag/poppunksnotdead?src=hash">#<b>poppunksnotdead</b></a>  <a
     target="_blank" href="https://open.spotify.com/user/spotify/playlist/37i9dQZF1DX1ewVhAJ17m4?si=DVTbuhKaSwKEucwGD_-lSw">https://open.spotify.com/user/spotify/playlist/37i9dQZF1DX1ewVhAJ17m4?si=DVTbuhKaSwKEucwGD_-lSw&nbsp;&hellip;</a></p>'
   created_at: 2018-05-06 14:05:27.819896000 Z
-  updated_at: 2018-05-06 14:05:27.819896000 Z
+  updated_at: 2018-05-06 15:29:37.725790000 Z
 - code: invogue_records_https://twitter.com/invoguerecords/status/990626812895129602
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/954549881259151360/TkfFMYhm_400x400.jpg
   url: https://twitter.com/invoguerecords/status/990626812895129602
@@ -567,9 +610,10 @@
     class="twitter-hashtag pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/hashtag/tourlife?src=hash">#<b>tourlife</b></a>
     looks like.</p>
   created_at: 2018-05-06 14:05:27.823525000 Z
-  updated_at: 2018-05-06 14:05:27.823525000 Z
+  updated_at: 2018-05-06 15:29:37.729006000 Z
 - code: invogue_records_yt:video:w37ijfHmj2g
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=w37ijfHmj2g
@@ -578,9 +622,10 @@
   body: <p>Chase Huglin - Both Of Us</p><a href="https://www.youtube.com/watch?v=w37ijfHmj2g"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/w37ijfHmj2g/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.826965000 Z
-  updated_at: 2018-05-06 14:05:27.826965000 Z
+  updated_at: 2018-05-06 15:29:37.731776000 Z
 - code: invogue_records_yt:video:k411Ke-slN8
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=k411Ke-slN8
@@ -589,9 +634,10 @@
   body: <p>Heavy Things - Missing Out (Official Music Video)</p><a href="https://www.youtube.com/watch?v=k411Ke-slN8"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/k411Ke-slN8/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.830854000 Z
-  updated_at: 2018-05-06 14:05:27.830854000 Z
+  updated_at: 2018-05-06 15:29:37.734785000 Z
 - code: invogue_records_yt:video:Aq8A4RpHcc8
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=Aq8A4RpHcc8
@@ -600,9 +646,10 @@
   body: <p>Convictions - Voices (Official Music Video)</p><a href="https://www.youtube.com/watch?v=Aq8A4RpHcc8"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/Aq8A4RpHcc8/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.835902000 Z
-  updated_at: 2018-05-06 14:05:27.835902000 Z
+  updated_at: 2018-05-06 15:29:37.738266000 Z
 - code: invogue_records_yt:video:F1bnVhkMTdA
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=F1bnVhkMTdA
@@ -612,9 +659,10 @@
     href="https://www.youtube.com/watch?v=F1bnVhkMTdA" target="_blank"><div class="image"
     data-image="https://i3.ytimg.com/vi/F1bnVhkMTdA/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.840808000 Z
-  updated_at: 2018-05-06 14:05:27.840808000 Z
+  updated_at: 2018-05-06 15:29:37.741350000 Z
 - code: invogue_records_yt:video:QIGkTd9P6E0
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=QIGkTd9P6E0
@@ -623,9 +671,10 @@
   body: <p>Smash Into Pieces - Superstar In Me</p><a href="https://www.youtube.com/watch?v=QIGkTd9P6E0"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/QIGkTd9P6E0/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.844918000 Z
-  updated_at: 2018-05-06 14:05:27.844918000 Z
+  updated_at: 2018-05-06 15:29:37.748096000 Z
 - code: invogue_records_yt:video:2QIbc-RifD8
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=2QIbc-RifD8
@@ -634,9 +683,10 @@
   body: <p>Heavy Things -  Low Lives</p><a href="https://www.youtube.com/watch?v=2QIbc-RifD8"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/2QIbc-RifD8/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.848665000 Z
-  updated_at: 2018-05-06 14:05:27.848665000 Z
+  updated_at: 2018-05-06 15:29:37.750703000 Z
 - code: invogue_records_yt:video:lYJryrcTbkw
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=lYJryrcTbkw
@@ -645,9 +695,10 @@
   body: <p>Heavy Things - Feeding Flowers</p><a href="https://www.youtube.com/watch?v=lYJryrcTbkw"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/lYJryrcTbkw/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.853186000 Z
-  updated_at: 2018-05-06 14:05:27.853186000 Z
+  updated_at: 2018-05-06 15:29:37.753312000 Z
 - code: invogue_records_yt:video:IORf81AJlIY
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=IORf81AJlIY
@@ -656,9 +707,10 @@
   body: <p>Heavy Things -  Tangent</p><a href="https://www.youtube.com/watch?v=IORf81AJlIY"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/IORf81AJlIY/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.856863000 Z
-  updated_at: 2018-05-06 14:05:27.856863000 Z
+  updated_at: 2018-05-06 15:29:37.756488000 Z
 - code: invogue_records_yt:video:Adgv_BWagOQ
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=Adgv_BWagOQ
@@ -667,9 +719,10 @@
   body: <p>Heavy Things - Wasting Time</p><a href="https://www.youtube.com/watch?v=Adgv_BWagOQ"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/Adgv_BWagOQ/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.860471000 Z
-  updated_at: 2018-05-06 14:05:27.860471000 Z
+  updated_at: 2018-05-06 15:29:37.760197000 Z
 - code: invogue_records_yt:video:xTbp44VNjao
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=xTbp44VNjao
@@ -678,9 +731,10 @@
   body: <p>Heavy Things - Vices</p><a href="https://www.youtube.com/watch?v=xTbp44VNjao"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/xTbp44VNjao/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.863323000 Z
-  updated_at: 2018-05-06 14:05:27.863323000 Z
+  updated_at: 2018-05-06 15:29:37.763388000 Z
 - code: invogue_records_yt:video:RE7tErkVrRs
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=RE7tErkVrRs
@@ -689,9 +743,10 @@
   body: <p>Heavy Things - Glimpse</p><a href="https://www.youtube.com/watch?v=RE7tErkVrRs"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/RE7tErkVrRs/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.866743000 Z
-  updated_at: 2018-05-06 14:05:27.866743000 Z
+  updated_at: 2018-05-06 15:29:37.766644000 Z
 - code: invogue_records_yt:video:E4o9KqSN1cY
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=E4o9KqSN1cY
@@ -700,9 +755,10 @@
   body: <p>Heavy Things - Last Night</p><a href="https://www.youtube.com/watch?v=E4o9KqSN1cY"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/E4o9KqSN1cY/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.870581000 Z
-  updated_at: 2018-05-06 14:05:27.870581000 Z
+  updated_at: 2018-05-06 15:29:37.769738000 Z
 - code: invogue_records_yt:video:ZNl0BHtAths
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=ZNl0BHtAths
@@ -711,9 +767,10 @@
   body: <p>Heavy Things - Worn Out</p><a href="https://www.youtube.com/watch?v=ZNl0BHtAths"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/ZNl0BHtAths/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.874272000 Z
-  updated_at: 2018-05-06 14:05:27.874272000 Z
+  updated_at: 2018-05-06 15:29:37.777021000 Z
 - code: invogue_records_yt:video:TNeAwfOZvNA
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=TNeAwfOZvNA
@@ -722,9 +779,10 @@
   body: <p>Heavy Things - Lately</p><a href="https://www.youtube.com/watch?v=TNeAwfOZvNA"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/TNeAwfOZvNA/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.876976000 Z
-  updated_at: 2018-05-06 14:05:27.876976000 Z
+  updated_at: 2018-05-06 15:29:37.780005000 Z
 - code: invogue_records_yt:video:iMPT2ACBwcc
   owner: invogue_records
+  owner_name: InVogue Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=iMPT2ACBwcc
@@ -733,9 +791,10 @@
   body: <p>Discrepancies - Get Hype</p><a href="https://www.youtube.com/watch?v=iMPT2ACBwcc"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/iMPT2ACBwcc/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:05:27.879934000 Z
-  updated_at: 2018-05-06 14:05:27.879934000 Z
+  updated_at: 2018-05-06 15:29:37.783268000 Z
 - code: victory_records_https://twitter.com/victoryrecords/status/984838845366665217
   owner: victory_records
+  owner_name: Victory Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/750321011317354496/94wK4sMO_400x400.jpg
   url: https://twitter.com/victoryrecords/status/984838845366665217
@@ -746,9 +805,10 @@
 
     Get  <a class="twitter-hashtag pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/hashtag/Alchemy?src=hash">#<b>Alchemy</b></a> pre-order packages now   <a target="_blank" href="http://VictoryMerch.com">http://VictoryMerch.com&nbsp;</a>! Alchemy comes out everywhere June 15th! </p>
   created_at: 2018-05-06 14:09:25.740191000 Z
-  updated_at: 2018-05-06 14:09:25.740191000 Z
+  updated_at: 2018-05-06 15:29:37.787022000 Z
 - code: victory_records_https://twitter.com/victoryrecords/status/992839669565059077
   owner: victory_records
+  owner_name: Victory Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/750321011317354496/94wK4sMO_400x400.jpg
   url: https://twitter.com/victoryrecords/status/992839669565059077
@@ -757,9 +817,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">&#x2B07;&#xFE0F;  Don&rsquo;t
     miss out on this! &#x2B07;&#xFE0F;   <a target="_blank" href="https://twitter.com/dgaband/status/992774790900428800">https://twitter.com/dgaband/status/992774790900428800&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:09:25.744516000 Z
-  updated_at: 2018-05-06 14:09:25.744516000 Z
+  updated_at: 2018-05-06 15:29:37.790067000 Z
 - code: victory_records_https://twitter.com/victoryrecords/status/992756743741505536
   owner: victory_records
+  owner_name: Victory Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/750321011317354496/94wK4sMO_400x400.jpg
   url: https://twitter.com/victoryrecords/status/992756743741505536
@@ -775,9 +836,10 @@
     </p> <a target=\"_blank\" href=\"https://twitter.com/victoryrecords/status/992756743741505536\"
     target=\"_blank\"><div class=\"image\" data-image=\"https://pbs.twimg.com/media/Dcb6_iyWsAEIcvO.jpg\"><img></div></a>"
   created_at: 2018-05-06 14:09:25.747584000 Z
-  updated_at: 2018-05-06 14:09:25.747584000 Z
+  updated_at: 2018-05-06 15:29:37.792864000 Z
 - code: victory_records_https://twitter.com/victoryrecords/status/991855236074614784
   owner: victory_records
+  owner_name: Victory Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/750321011317354496/94wK4sMO_400x400.jpg
   url: https://twitter.com/victoryrecords/status/991855236074614784
@@ -789,9 +851,10 @@
     href="https://twitter.com/chorusfm">@<b>chorusfm</b></a> &ldquo;50 Bands You Need
     to Hear in 2018&rdquo; list!  <a target="_blank" href="https://twitter.com/chorusfm/status/991792324056236032">https://twitter.com/chorusfm/status/991792324056236032&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:09:25.750546000 Z
-  updated_at: 2018-05-06 14:09:25.750546000 Z
+  updated_at: 2018-05-06 15:29:37.795780000 Z
 - code: victory_records_https://twitter.com/victoryrecords/status/991387440744157184
   owner: victory_records
+  owner_name: Victory Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/750321011317354496/94wK4sMO_400x400.jpg
   url: https://twitter.com/victoryrecords/status/991387440744157184
@@ -802,9 +865,10 @@
     dropped a new single and music video yesterday for "Dissolution"! Watch/stream
     it everywhere:  <a target="_blank" href="http://smarturl.it/AIAdissolution">http://smarturl.it/AIAdissolution&nbsp;</a></p>'
   created_at: 2018-05-06 14:09:25.753992000 Z
-  updated_at: 2018-05-06 14:09:25.753992000 Z
+  updated_at: 2018-05-06 15:29:37.798957000 Z
 - code: victory_records_https://twitter.com/victoryrecords/status/991170113033392133
   owner: victory_records
+  owner_name: Victory Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/750321011317354496/94wK4sMO_400x400.jpg
   url: https://twitter.com/victoryrecords/status/991170113033392133
@@ -816,9 +880,10 @@
     on  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/Spotify">@<b>Spotify</b></a>.  <a
     target="_blank" href="https://open.spotify.com/track/3C8O9qGmNGLc4yGTOGCc9P?si=4xZcUiiwR-6wDf2Nl8ykFg">https://open.spotify.com/track/3C8O9qGmNGLc4yGTOGCc9P?si=4xZcUiiwR-6wDf2Nl8ykFg&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:09:25.757326000 Z
-  updated_at: 2018-05-06 14:09:25.757326000 Z
+  updated_at: 2018-05-06 15:29:37.802337000 Z
 - code: victory_records_https://twitter.com/victoryrecords/status/991167987926302720
   owner: victory_records
+  owner_name: Victory Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/750321011317354496/94wK4sMO_400x400.jpg
   url: https://twitter.com/victoryrecords/status/991167987926302720
@@ -830,9 +895,10 @@
     target="_blank" href="https://twitter.com/AppleMusic">@<b>AppleMusic</b></a>!  <a
     target="_blank" href="https://itunes.apple.com/us/album/dissolution/1370608745?i=1370609326">https://itunes.apple.com/us/album/dissolution/1370608745?i=1370609326&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:09:25.760738000 Z
-  updated_at: 2018-05-06 14:09:25.760738000 Z
+  updated_at: 2018-05-06 15:29:37.810241000 Z
 - code: victory_records_yt:video:obake9iIeV8
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=obake9iIeV8
@@ -841,9 +907,10 @@
   body: <p>Awaken I Am - Dissolution</p><a href="https://www.youtube.com/watch?v=obake9iIeV8"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/obake9iIeV8/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.764240000 Z
-  updated_at: 2018-05-06 14:09:25.764240000 Z
+  updated_at: 2018-05-06 15:29:37.813966000 Z
 - code: victory_records_yt:video:K-Bl7lpgvXs
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=K-Bl7lpgvXs
@@ -852,9 +919,10 @@
   body: <p>Awaken I Am - Dissolution [Coming Soon]</p><a href="https://www.youtube.com/watch?v=K-Bl7lpgvXs"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/K-Bl7lpgvXs/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.767728000 Z
-  updated_at: 2018-05-06 14:09:25.767728000 Z
+  updated_at: 2018-05-06 15:29:37.817297000 Z
 - code: victory_records_yt:video:w0RN_uLcTgo
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=w0RN_uLcTgo
@@ -863,9 +931,10 @@
   body: <p>Dead Girls Academy - No Way Out</p><a href="https://www.youtube.com/watch?v=w0RN_uLcTgo"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/w0RN_uLcTgo/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.770936000 Z
-  updated_at: 2018-05-06 14:09:25.770936000 Z
+  updated_at: 2018-05-06 15:29:37.820260000 Z
 - code: victory_records_yt:video:MTTvMWQ4Ito
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=MTTvMWQ4Ito
@@ -874,9 +943,10 @@
   body: <p>Dead Girls Academy - No Way Out (Uncut)</p><a href="https://www.youtube.com/watch?v=MTTvMWQ4Ito"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/MTTvMWQ4Ito/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.774772000 Z
-  updated_at: 2018-05-06 14:09:25.774772000 Z
+  updated_at: 2018-05-06 15:29:37.824553000 Z
 - code: victory_records_yt:video:Qehoq_ziHDY
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=Qehoq_ziHDY
@@ -885,9 +955,10 @@
   body: <p>Jungle Rot - The Unstoppable</p><a href="https://www.youtube.com/watch?v=Qehoq_ziHDY"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/Qehoq_ziHDY/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.778481000 Z
-  updated_at: 2018-05-06 14:09:25.778481000 Z
+  updated_at: 2018-05-06 15:29:37.827413000 Z
 - code: victory_records_yt:video:sKfmW0maVlU
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=sKfmW0maVlU
@@ -896,9 +967,10 @@
   body: <p>Shattered Sun - Blame</p><a href="https://www.youtube.com/watch?v=sKfmW0maVlU"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/sKfmW0maVlU/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.781854000 Z
-  updated_at: 2018-05-06 14:09:25.781854000 Z
+  updated_at: 2018-05-06 15:29:37.830188000 Z
 - code: victory_records_yt:video:zrZ94oxOW8U
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=zrZ94oxOW8U
@@ -907,9 +979,10 @@
   body: <p>We Were Sharks - Drop The Act</p><a href="https://www.youtube.com/watch?v=zrZ94oxOW8U"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/zrZ94oxOW8U/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.786473000 Z
-  updated_at: 2018-05-06 14:09:25.786473000 Z
+  updated_at: 2018-05-06 15:29:37.832571000 Z
 - code: victory_records_yt:video:LdKikLpLhdw
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=LdKikLpLhdw
@@ -918,9 +991,10 @@
   body: <p>We Were Sharks - Always You</p><a href="https://www.youtube.com/watch?v=LdKikLpLhdw"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/LdKikLpLhdw/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.790485000 Z
-  updated_at: 2018-05-06 14:09:25.790485000 Z
+  updated_at: 2018-05-06 15:29:37.835721000 Z
 - code: victory_records_yt:video:qffTDKZDGI4
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=qffTDKZDGI4
@@ -929,9 +1003,10 @@
   body: <p>We Were Sharks - Sober</p><a href="https://www.youtube.com/watch?v=qffTDKZDGI4"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/qffTDKZDGI4/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.794739000 Z
-  updated_at: 2018-05-06 14:09:25.794739000 Z
+  updated_at: 2018-05-06 15:29:37.839050000 Z
 - code: victory_records_yt:video:o-Zhs7x4iOo
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=o-Zhs7x4iOo
@@ -940,9 +1015,10 @@
   body: <p>We Were Sharks - July</p><a href="https://www.youtube.com/watch?v=o-Zhs7x4iOo"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/o-Zhs7x4iOo/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.798594000 Z
-  updated_at: 2018-05-06 14:09:25.798594000 Z
+  updated_at: 2018-05-06 15:29:37.842477000 Z
 - code: victory_records_yt:video:utlJMBEVt1Y
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=utlJMBEVt1Y
@@ -951,9 +1027,10 @@
   body: <p>We Were Sharks - Never Looked Better</p><a href="https://www.youtube.com/watch?v=utlJMBEVt1Y"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/utlJMBEVt1Y/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.802598000 Z
-  updated_at: 2018-05-06 14:09:25.802598000 Z
+  updated_at: 2018-05-06 15:29:37.845548000 Z
 - code: victory_records_yt:video:qp4391zxe8M
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=qp4391zxe8M
@@ -962,9 +1039,10 @@
   body: <p>We Were Sharks - Late Bloomer</p><a href="https://www.youtube.com/watch?v=qp4391zxe8M"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/qp4391zxe8M/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.805910000 Z
-  updated_at: 2018-05-06 14:09:25.805910000 Z
+  updated_at: 2018-05-06 15:29:37.849087000 Z
 - code: victory_records_yt:video:BxjYN5FKKxc
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=BxjYN5FKKxc
@@ -973,9 +1051,10 @@
   body: <p>We Were Sharks - Hotel Beds</p><a href="https://www.youtube.com/watch?v=BxjYN5FKKxc"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/BxjYN5FKKxc/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.810412000 Z
-  updated_at: 2018-05-06 14:09:25.810412000 Z
+  updated_at: 2018-05-06 15:29:37.852472000 Z
 - code: victory_records_yt:video:TSDDvZ3D8-c
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=TSDDvZ3D8-c
@@ -984,9 +1063,10 @@
   body: <p>Conveyer - New Low</p><a href="https://www.youtube.com/watch?v=TSDDvZ3D8-c"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/TSDDvZ3D8-c/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.813937000 Z
-  updated_at: 2018-05-06 14:09:25.813937000 Z
+  updated_at: 2018-05-06 15:29:37.856355000 Z
 - code: victory_records_yt:video:uLXkpK9zajI
   owner: victory_records
+  owner_name: Victory Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=uLXkpK9zajI
@@ -995,9 +1075,10 @@
   body: <p>We Were Sharks - Ashley</p><a href="https://www.youtube.com/watch?v=uLXkpK9zajI"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/uLXkpK9zajI/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:09:25.817150000 Z
-  updated_at: 2018-05-06 14:09:25.817150000 Z
+  updated_at: 2018-05-06 15:29:37.859458000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/931586533202776066
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/931586533202776066
@@ -1006,9 +1087,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Artery
     Recordings has decided to part ways with Slaves.</p>
   created_at: 2018-05-06 14:12:48.824514000 Z
-  updated_at: 2018-05-06 14:12:48.824514000 Z
+  updated_at: 2018-05-06 15:29:37.862425000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/911670715023110144
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/911670715023110144
@@ -1021,9 +1103,10 @@
 
     New&hellip;   <a target="_blank" href="https://www.instagram.com/p/BZZRsmnHta9/">https://www.instagram.com/p/BZZRsmnHta9/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.829121000 Z
-  updated_at: 2018-05-06 14:12:48.829121000 Z
+  updated_at: 2018-05-06 15:29:37.865347000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/911301058990952450
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/911301058990952450
@@ -1034,9 +1117,10 @@
 
     Check out  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/FalsifierBand">@<b>falsifierband</b></a>'s new music video for "Choke" on&hellip;   <a target="_blank" href="https://www.instagram.com/p/BZWpmNWH-oN/">https://www.instagram.com/p/BZWpmNWH-oN/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.832064000 Z
-  updated_at: 2018-05-06 14:12:48.832064000 Z
+  updated_at: 2018-05-06 15:29:37.868901000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/910913205312028674
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/910913205312028674
@@ -1049,9 +1133,10 @@
     class="twitter-hashtag pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/hashtag/WorldDemise?src=hash">#<b>WorldDemise</b></a>   <a
     target="_blank" href="https://www.instagram.com/p/BZT5OJLnVVb/">https://www.instagram.com/p/BZT5OJLnVVb/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.835040000 Z
-  updated_at: 2018-05-06 14:12:48.835040000 Z
+  updated_at: 2018-05-06 15:29:37.872639000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/903320289047707649
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/903320289047707649
@@ -1062,9 +1147,10 @@
 
      <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/FalsifierBand">@<b>falsifierband</b></a>'s new single R.I.D. (Rest In Dirt) (Lyric Video) off their new album&hellip;   <a target="_blank" href="https://www.instagram.com/p/BYd8XB5jJpp/">https://www.instagram.com/p/BYd8XB5jJpp/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.838420000 Z
-  updated_at: 2018-05-06 14:12:48.838420000 Z
+  updated_at: 2018-05-06 15:29:37.875714000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/902970809710505985
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/902970809710505985
@@ -1075,9 +1161,10 @@
     target="_blank" href="https://twitter.com/shemustburn">@<b>shemustburn</b></a>!   <a
     target="_blank" href="https://www.instagram.com/p/BYbdcR8DPpc/">https://www.instagram.com/p/BYbdcR8DPpc/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.841491000 Z
-  updated_at: 2018-05-06 14:12:48.841491000 Z
+  updated_at: 2018-05-06 15:29:37.878960000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/902247340848934915
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/902247340848934915
@@ -1088,9 +1175,10 @@
 
      <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/HeartachesBand">@<b>HeartachesBand</b></a> just dropped a new video for "Ruthless" of their album&hellip;   <a target="_blank" href="https://www.instagram.com/p/BYWUcORn87R/">https://www.instagram.com/p/BYWUcORn87R/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.844766000 Z
-  updated_at: 2018-05-06 14:12:48.844766000 Z
+  updated_at: 2018-05-06 15:29:37.881998000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/900786684530311172
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/900786684530311172
@@ -1101,9 +1189,10 @@
     on hitting a million view for "Burning Our Morals Away" on&hellip;   <a target="_blank"
     href="https://www.instagram.com/p/BYL8NdEHEpC/">https://www.instagram.com/p/BYL8NdEHEpC/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.848636000 Z
-  updated_at: 2018-05-06 14:12:48.848636000 Z
+  updated_at: 2018-05-06 15:29:37.884873000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/898639497885175808
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/898639497885175808
@@ -1116,9 +1205,10 @@
 
     iTunes -&hellip;   <a target="_blank" href="https://www.instagram.com/p/BX8ryFonLWR/">https://www.instagram.com/p/BX8ryFonLWR/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.852217000 Z
-  updated_at: 2018-05-06 14:12:48.852217000 Z
+  updated_at: 2018-05-06 15:29:37.888431000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/898608968926339074
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/898608968926339074
@@ -1130,9 +1220,10 @@
      <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/AlexRimplerCB">@<b>alexrimplercb</b></a>'s debut album "Circles" is out now!
     iTunes:&hellip;   <a target="_blank" href="https://www.instagram.com/p/BX8d6CenEAo/">https://www.instagram.com/p/BX8d6CenEAo/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.855783000 Z
-  updated_at: 2018-05-06 14:12:48.855783000 Z
+  updated_at: 2018-05-06 15:29:37.894995000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/896121640811020288
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/896121640811020288
@@ -1144,9 +1235,10 @@
     has a new column "11 ways to completely destroy your&hellip;   <a target="_blank"
     href="https://www.instagram.com/p/BXqyy3mn7ua/">https://www.instagram.com/p/BXqyy3mn7ua/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.860762000 Z
-  updated_at: 2018-05-06 14:12:48.860762000 Z
+  updated_at: 2018-05-06 15:29:37.898136000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/895768150913892352
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/895768150913892352
@@ -1156,9 +1248,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Shoutout to  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/outburnmag">@<b>outburnmag</b></a> on the review of siamese_band new album "Shameless"!
     iTunes -&hellip;   <a target="_blank" href="https://www.instagram.com/p/BXoSDHUHxQr/">https://www.instagram.com/p/BXoSDHUHxQr/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.876831000 Z
-  updated_at: 2018-05-06 14:12:48.876831000 Z
+  updated_at: 2018-05-06 15:29:37.900729000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/892122635324329984
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/892122635324329984
@@ -1170,9 +1263,10 @@
      <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/setonend">@<b>setonend</b></a> announced a tour of Australia and New Zealand!
     14th&hellip;   <a target="_blank" href="https://www.instagram.com/p/BXOYN9UHQhZ/">https://www.instagram.com/p/BXOYN9UHQhZ/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.883897000 Z
-  updated_at: 2018-05-06 14:12:48.883897000 Z
+  updated_at: 2018-05-06 15:29:37.904206000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/892117291709681665
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/892117291709681665
@@ -1182,9 +1276,10 @@
     to  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/conquerdivide">@<b>conquerdivide</b></a>
     on hitting a million play for their music video&hellip;   <a target="_blank" href="https://www.instagram.com/p/BXOV073HFLJ/">https://www.instagram.com/p/BXOV073HFLJ/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.888014000 Z
-  updated_at: 2018-05-06 14:12:48.888014000 Z
+  updated_at: 2018-05-06 15:29:37.908217000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/891411352820084737
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/891411352820084737
@@ -1195,9 +1290,10 @@
 
     Check out  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/setonend">@<b>setonend</b></a> new lyric video for "Wayfarer" premiering on  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/HEAVYmagAU">@<b>HEAVYmagAU</b></a>&hellip;   <a target="_blank" href="https://www.instagram.com/p/BXJUzWEH9al/">https://www.instagram.com/p/BXJUzWEH9al/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.891856000 Z
-  updated_at: 2018-05-06 14:12:48.891856000 Z
+  updated_at: 2018-05-06 15:29:37.912586000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/891020828694806528
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/891020828694806528
@@ -1209,9 +1305,10 @@
      <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/SLPTVLK">@<b>slptvlk</b></a>'s NEW debut album is out now!
     iTunes -&hellip;   <a target="_blank" href="https://www.instagram.com/p/BXGjN1uH8yV/">https://www.instagram.com/p/BXGjN1uH8yV/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.896657000 Z
-  updated_at: 2018-05-06 14:12:48.896657000 Z
+  updated_at: 2018-05-06 15:29:37.915952000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/890627285186772993
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/890627285186772993
@@ -1222,9 +1319,10 @@
     target="_blank" href="https://twitter.com/SLPTVLK">@<b>slptvlk</b></a>!   <a target="_blank"
     href="https://www.instagram.com/p/BXDv6o5H9iz/">https://www.instagram.com/p/BXDv6o5H9iz/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.900891000 Z
-  updated_at: 2018-05-06 14:12:48.900891000 Z
+  updated_at: 2018-05-06 15:29:37.919278000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/890302953378152448
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/890302953378152448
@@ -1235,9 +1333,10 @@
     js-nav"  dir="ltr" target="_blank" href="https://twitter.com/arteryrcdings">@<b>arteryrcdings</b></a>.
     Everyone wish him a happy&hellip;   <a target="_blank" href="https://www.instagram.com/p/BXBcw3rHNQ_/">https://www.instagram.com/p/BXBcw3rHNQ_/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.909357000 Z
-  updated_at: 2018-05-06 14:12:48.909357000 Z
+  updated_at: 2018-05-06 15:29:37.923840000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/889553547221753857
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/889553547221753857
@@ -1248,9 +1347,10 @@
 
     Get ready for  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/FalsifierBand">@<b>falsifierband</b></a> on The World Demise Tour with  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/AltPerceptions_">@<b>AltPerceptions_</b></a>,&hellip;   <a target="_blank" href="https://www.instagram.com/p/BW8H9gzHgnN/">https://www.instagram.com/p/BW8H9gzHgnN/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.913221000 Z
-  updated_at: 2018-05-06 14:12:48.913221000 Z
+  updated_at: 2018-05-06 15:29:37.926603000 Z
 - code: artery_recordings_https://twitter.com/arteryrecording/status/888604447995199488
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/864955690317619200/zx_-V63v_400x400.jpg
   url: https://twitter.com/arteryrecording/status/888604447995199488
@@ -1261,9 +1361,10 @@
     crystallake777 - "True North" Check it out!
     Physical Copy:&hellip;   <a target="_blank" href="https://www.instagram.com/p/BW1YWuiHzWh/">https://www.instagram.com/p/BW1YWuiHzWh/&nbsp;</a></p>
   created_at: 2018-05-06 14:12:48.916740000 Z
-  updated_at: 2018-05-06 14:12:48.916740000 Z
+  updated_at: 2018-05-06 15:29:37.931226000 Z
 - code: artery_recordings_yt:video:tYQAhjfwWKA
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=tYQAhjfwWKA
@@ -1272,9 +1373,10 @@
   body: <p>Falsifier - Choke (Music Video)</p><a href="https://www.youtube.com/watch?v=tYQAhjfwWKA"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/tYQAhjfwWKA/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.920278000 Z
-  updated_at: 2018-05-06 14:12:48.920278000 Z
+  updated_at: 2018-05-06 15:29:37.934154000 Z
 - code: artery_recordings_yt:video:q4T-lbvENbc
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=q4T-lbvENbc
@@ -1283,9 +1385,10 @@
   body: <p>Falsifier - R.I.D. (Rest In Dirt) (Lyric Video)</p><a href="https://www.youtube.com/watch?v=q4T-lbvENbc"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/q4T-lbvENbc/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.924630000 Z
-  updated_at: 2018-05-06 14:12:48.924630000 Z
+  updated_at: 2018-05-06 15:29:37.937324000 Z
 - code: artery_recordings_yt:video:-KMZaHq0yVw
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=-KMZaHq0yVw
@@ -1294,9 +1397,10 @@
   body: <p>Heartaches - Ruthless (Live Music Video)</p><a href="https://www.youtube.com/watch?v=-KMZaHq0yVw"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/-KMZaHq0yVw/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.929007000 Z
-  updated_at: 2018-05-06 14:12:48.929007000 Z
+  updated_at: 2018-05-06 15:29:37.941246000 Z
 - code: artery_recordings_yt:video:BXj8vXgEMB8
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=BXj8vXgEMB8
@@ -1305,9 +1409,10 @@
   body: <p>Cold Black - Miles &amp; Miles (Music Video)</p><a href="https://www.youtube.com/watch?v=BXj8vXgEMB8"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/BXj8vXgEMB8/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.932309000 Z
-  updated_at: 2018-05-06 14:12:48.932309000 Z
+  updated_at: 2018-05-06 15:29:37.947737000 Z
 - code: artery_recordings_yt:video:hn8CQdXry44
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=hn8CQdXry44
@@ -1316,9 +1421,10 @@
   body: <p>Set on End - The Wayfarer (Lyric Video)</p><a href="https://www.youtube.com/watch?v=hn8CQdXry44"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/hn8CQdXry44/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.936386000 Z
-  updated_at: 2018-05-06 14:12:48.936386000 Z
+  updated_at: 2018-05-06 15:29:37.950576000 Z
 - code: artery_recordings_yt:video:rzMvl7GkzVk
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=rzMvl7GkzVk
@@ -1327,9 +1433,10 @@
   body: <p>Sleeptalk - Bright Eyes (Music Video)</p><a href="https://www.youtube.com/watch?v=rzMvl7GkzVk"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/rzMvl7GkzVk/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.940709000 Z
-  updated_at: 2018-05-06 14:12:48.940709000 Z
+  updated_at: 2018-05-06 15:29:37.953689000 Z
 - code: artery_recordings_yt:video:1ps41mGe-UQ
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=1ps41mGe-UQ
@@ -1338,9 +1445,10 @@
   body: <p>Cold Black - Dead End Eyes (Track Video)</p><a href="https://www.youtube.com/watch?v=1ps41mGe-UQ"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/1ps41mGe-UQ/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.946065000 Z
-  updated_at: 2018-05-06 14:12:48.946065000 Z
+  updated_at: 2018-05-06 15:29:37.958155000 Z
 - code: artery_recordings_yt:video:QXmCaz7DYQo
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=QXmCaz7DYQo
@@ -1349,9 +1457,10 @@
   body: <p>Siamese (Thank You)</p><a href="https://www.youtube.com/watch?v=QXmCaz7DYQo"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/QXmCaz7DYQo/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.955774000 Z
-  updated_at: 2018-05-06 14:12:48.955774000 Z
+  updated_at: 2018-05-06 15:29:37.961518000 Z
 - code: artery_recordings_yt:video:cfjFNXYRHTk
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=cfjFNXYRHTk
@@ -1360,9 +1469,10 @@
   body: <p>Sleeptalk - Bright Eyes (Track Video)</p><a href="https://www.youtube.com/watch?v=cfjFNXYRHTk"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/cfjFNXYRHTk/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.960232000 Z
-  updated_at: 2018-05-06 14:12:48.960232000 Z
+  updated_at: 2018-05-06 15:29:37.964499000 Z
 - code: artery_recordings_yt:video:UoWYy-3DeQQ
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=UoWYy-3DeQQ
@@ -1371,9 +1481,10 @@
   body: <p>Siamese - One Night Thing (Track Video)</p><a href="https://www.youtube.com/watch?v=UoWYy-3DeQQ"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/UoWYy-3DeQQ/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.964354000 Z
-  updated_at: 2018-05-06 14:12:48.964354000 Z
+  updated_at: 2018-05-06 15:29:37.967487000 Z
 - code: artery_recordings_yt:video:tPHitwNMSpI
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=tPHitwNMSpI
@@ -1382,9 +1493,10 @@
   body: <p>Siamese - The Promise (Track Video)</p><a href="https://www.youtube.com/watch?v=tPHitwNMSpI"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/tPHitwNMSpI/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.971945000 Z
-  updated_at: 2018-05-06 14:12:48.971945000 Z
+  updated_at: 2018-05-06 15:29:37.970470000 Z
 - code: artery_recordings_yt:video:tq_TorID-9w
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=tq_TorID-9w
@@ -1393,9 +1505,10 @@
   body: <p>Siamese - Brother (Track Video)</p><a href="https://www.youtube.com/watch?v=tq_TorID-9w"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/tq_TorID-9w/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.983686000 Z
-  updated_at: 2018-05-06 14:12:48.983686000 Z
+  updated_at: 2018-05-06 15:29:37.976013000 Z
 - code: artery_recordings_yt:video:Oz0OqAAnuVQ
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=Oz0OqAAnuVQ
@@ -1404,9 +1517,10 @@
   body: <p>Siamese - My Turn (Track Video)</p><a href="https://www.youtube.com/watch?v=Oz0OqAAnuVQ"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/Oz0OqAAnuVQ/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:48.992608000 Z
-  updated_at: 2018-05-06 14:12:48.992608000 Z
+  updated_at: 2018-05-06 15:29:37.981683000 Z
 - code: artery_recordings_yt:video:SjZo2DfgjzM
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=SjZo2DfgjzM
@@ -1415,9 +1529,10 @@
   body: <p>Siamese - Make It Out (Track Video)</p><a href="https://www.youtube.com/watch?v=SjZo2DfgjzM"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/SjZo2DfgjzM/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:49.000882000 Z
-  updated_at: 2018-05-06 14:12:49.000882000 Z
+  updated_at: 2018-05-06 15:29:37.985295000 Z
 - code: artery_recordings_yt:video:HDtlZClncDc
   owner: artery_recordings
+  owner_name: Artery Recordings
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=HDtlZClncDc
@@ -1426,9 +1541,10 @@
   body: <p>Siamese - Cities (Track Video)</p><a href="https://www.youtube.com/watch?v=HDtlZClncDc"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/HDtlZClncDc/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:12:49.004867000 Z
-  updated_at: 2018-05-06 14:12:49.004867000 Z
+  updated_at: 2018-05-06 15:29:37.988322000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/989778960526360577
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/989778960526360577
@@ -1437,9 +1553,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="ja">FFTH3&#x5E74;&#x3076;&#x308A;&#x306E;&#x30E9;&#x30A4;&#x30D6;&#x3001;&#x30F4;&#x30A9;&#x30FC;&#x30AB;&#x30EB;&#x306F;&#x8AB0;&#xFF1F;&#x3066;&#x65B9;&#x3082;&#x591A;&#x3044;&#x304B;&#x3082;&#x3057;&#x308C;&#x307E;&#x305B;&#x3093;&#x304C;&#x3001;Lidy&#x541B;&#x304C;&#x5FA9;&#x5E30;&#x3057;&#x305F;&#x4F53;&#x5236;&#x3067;&#x306E;&#x30E9;&#x30A4;&#x30D6;&#x306B;&#x306A;&#x308A;&#x307E;&#x3059;&#xFF01;  <a
     target="_blank" href="https://twitter.com/HIROFFTH/status/989778465866989568">https://twitter.com/HIROFFTH/status/989778465866989568&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:18:38.421837000 Z
-  updated_at: 2018-05-06 14:18:38.421837000 Z
+  updated_at: 2018-05-06 15:29:37.991117000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/989776766016221185
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/989776766016221185
@@ -1448,9 +1565,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="ja">&#x3068;&#x3044;&#x3046;&#x308F;&#x3051;&#x3067;&#x3001;FFTH&#x7D04;3&#x5E74;&#x3076;&#x308A;&#x306E;&#x30E9;&#x30A4;&#x30D6;&#x6C7A;&#x5B9A;&#xFF01;&#x6614;&#x89B3;&#x306B;&#x884C;&#x3063;&#x3066;&#x305F;&#x4EBA;&#x3082;&#x89B3;&#x305F;&#x3053;&#x3068;&#x306A;&#x3044;&#x4EBA;&#x3082;&#x662F;&#x975E;&#x306B;&#xFF01;  <a
     target="_blank" href="https://twitter.com/ffth_official/status/989776243988942848">https://twitter.com/ffth_official/status/989776243988942848&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:18:38.426457000 Z
-  updated_at: 2018-05-06 14:18:38.426457000 Z
+  updated_at: 2018-05-06 15:29:37.993948000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/989701778919870464
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/989701778919870464
@@ -1459,9 +1577,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="und">&#xFF01;&#xFF01;&#xFF01;  <a
     target="_blank" href="https://twitter.com/ffth_official/status/989700720147378176">https://twitter.com/ffth_official/status/989700720147378176&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:18:38.429725000 Z
-  updated_at: 2018-05-06 14:18:38.429725000 Z
+  updated_at: 2018-05-06 15:29:37.996853000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/987648075001839616
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/987648075001839616
@@ -1471,9 +1590,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="ja">ALL IN VAIN &#x30C7;&#x30D3;&#x30E5;&#x30FC;&#x30B7;&#x30F3;&#x30B0;&#x30EB;
     iTunes :  <a target="_blank" href="http://itunes.apple.com/jp/album/id1374104143&amp;app=itunes">http://itunes.apple.com/jp/album/id1374104143&amp;app=itunes&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:18:38.432917000 Z
-  updated_at: 2018-05-06 14:18:38.432917000 Z
+  updated_at: 2018-05-06 15:29:38.000252000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/987647329959227392
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/987647329959227392
@@ -1484,9 +1604,10 @@
     &#x30B5;&#x30F3;&#x30D7;&#x30EB;&#x30C8;&#x30E9;&#x30C3;&#x30AF; :   <a target="_blank" href="https://soundcloud.com/user-532808123/gloomy-sunday-sample">https://soundcloud.com/user-532808123/gloomy-sunday-sample&nbsp;&hellip;</a>
     iTunes :  <a target="_blank" href="http://itunes.apple.com/jp/album/id1374104143&amp;app=itunes">http://itunes.apple.com/jp/album/id1374104143&amp;app=itunes&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:18:38.436793000 Z
-  updated_at: 2018-05-06 14:18:38.436793000 Z
+  updated_at: 2018-05-06 15:29:38.003464000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/976458437772001281
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/976458437772001281
@@ -1496,9 +1617,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="ja">&#x53F0;&#x6E7E;&#x767A;&#x306E;&#x52D5;&#x753B;&#x30B9;&#x30C8;&#x30EA;&#x30FC;&#x30DF;&#x30F3;&#x30B0;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&rdquo;17Live&rdquo;&#x306E;&#x53D6;&#x308A;&#x6271;&#x3044;&#x3092;&#x958B;&#x59CB;&#x3057;&#x307E;&#x3057;&#x305F;&#x3002;&#x30D7;&#x30ED;&#x30E2;&#x30FC;&#x30B7;&#x30E7;&#x30F3;&#x306B;&#x5727;&#x5012;&#x7684;&#x306A;&#x5F37;&#x307F;&#x3092;&#x8A87;&#x308B;&#x3053;&#x306E;&#x30B5;&#x30FC;&#x30D3;&#x30B9;&#x306B;&#x8208;&#x5473;&#x3042;&#x308B;&#x65B9;&#x306F;&#x4E0B;&#x8A18;&#x3092;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#xFF01;
       <a target="_blank" href="http://anchor-w.jp/streming/">http://anchor-w.jp/streming/&nbsp;</a></p>
   created_at: 2018-05-06 14:18:38.439752000 Z
-  updated_at: 2018-05-06 14:18:38.439752000 Z
+  updated_at: 2018-05-06 15:29:38.007203000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/974287991106560001
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/974287991106560001
@@ -1507,9 +1629,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="ja">&#x660E;&#x65E5;&#x306E;14&#x6642;&#x3067;&#x53D7;&#x6CE8;&#x7DE0;&#x3081;&#x5207;&#x308A;&#x3067;&#x3059;&#xFF01;  <a
     target="_blank" href="https://twitter.com/garimpeiro_jp/status/972467761346625536">https://twitter.com/garimpeiro_jp/status/972467761346625536&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:18:38.443384000 Z
-  updated_at: 2018-05-06 14:18:38.443384000 Z
+  updated_at: 2018-05-06 15:29:38.011960000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/973559506973073409
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/973559506973073409
@@ -1520,9 +1643,10 @@
     Designed by TAKU (ex.DIEA)
       <a target="_blank" href="http://garimpeirostore.ocnk.net/product/292">http://garimpeirostore.ocnk.net/product/292&nbsp;</a></p>
   created_at: 2018-05-06 14:18:38.447067000 Z
-  updated_at: 2018-05-06 14:18:38.447067000 Z
+  updated_at: 2018-05-06 15:29:38.018220000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/972467761346625536
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/972467761346625536
@@ -1532,9 +1656,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="ja">&#x300C;Story of Hope&#x300D;&#x89E3;&#x6563;&#x304B;&#x3089;&#x7D04;1&#x5E74;&#x3002;&#x30F4;&#x30A9;&#x30FC;&#x30AB;&#x30EA;&#x30B9;&#x30C8;m!sa&#x306E;&#x30BD;&#x30ED;&#x30D7;&#x30ED;&#x30B8;&#x30A7;&#x30AF;&#x30C8;ALL IN VAIN&#x304C;&#x3068;&#x3046;&#x3068;&#x3046;&#x59CB;&#x52D5;&#xFF01;&#x6700;&#x521D;&#x306E;&#x30EA;&#x30EA;&#x30FC;&#x30B9;&#x306F;&#x97F3;&#x6E90;&#x3067;&#x306F;&#x306A;&#x304F;&#x6562;&#x3048;&#x3066;&#x306E;&#x30DE;&#x30FC;&#x30C1;&#xFF01;&#x30C7;&#x30B6;&#x30A4;&#x30F3;&#x306F;ex.DOES IT ESCAPE AGAIN&#x306E;TAKU&#x6C0F;&#x306B;&#x3088;&#x308B;&#x3082;&#x306E;&#xFF01;&#x4E0B;&#x8A18;&#x304B;&#x3089;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#xFF01;
       <a target="_blank" href="http://garimpeirostore.ocnk.net/product/292">http://garimpeirostore.ocnk.net/product/292&nbsp;</a> </p> <a target="_blank" href="https://twitter.com/garimpeiro_jp/status/972467761346625536" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DX7mRP6UMAAqLW8.jpg"><img></div></a>
   created_at: 2018-05-06 14:18:38.451002000 Z
-  updated_at: 2018-05-06 14:18:38.451002000 Z
+  updated_at: 2018-05-06 15:29:38.025276000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/971775373548568577
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/971775373548568577
@@ -1543,9 +1668,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="ja">&#x3042;&#x3068;&#x7D04;&#x4E00;&#x9031;&#x9593;&#x3067;&#x53D7;&#x6CE8;&#x7DE0;&#x3081;&#x5207;&#x308A;&#x307E;&#x3059;&#xFF01;&#x304A;&#x65E9;&#x3081;&#x306B;&#xFF01;  <a
     target="_blank" href="https://twitter.com/misareamo/status/970627368028053505">https://twitter.com/misareamo/status/970627368028053505&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:18:38.454397000 Z
-  updated_at: 2018-05-06 14:18:38.454397000 Z
+  updated_at: 2018-05-06 15:29:38.028952000 Z
 - code: garimpeiro_records_https://twitter.com/garimpeiro_jp/status/970992449433739265
   owner: garimpeiro_records
+  owner_name: Garimpeiro Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/473729331080859648/Wqf6g8S7_400x400.png
   url: https://twitter.com/garimpeiro_jp/status/970992449433739265
@@ -1556,9 +1682,10 @@
     Designed by TAKU (ex.DIEA)
       <a target="_blank" href="http://garimpeirostore.ocnk.net/product/292">http://garimpeirostore.ocnk.net/product/292&nbsp;</a> </p> <a target="_blank" href="https://twitter.com/garimpeiro_jp/status/970992449433739265" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DXmetuXU0AEznBM.jpg"><img></div></a>
   created_at: 2018-05-06 14:18:38.459153000 Z
-  updated_at: 2018-05-06 14:18:38.459153000 Z
+  updated_at: 2018-05-06 15:29:38.032021000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/918331475556052992
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/918331475556052992
@@ -1569,9 +1696,10 @@
     href=\"https://twitter.com/Suffokate\">@<b>Suffokate</b></a> \n&ldquo;It&rsquo;s
     Fading Away&rdquo;  <a target=\"_blank\" href=\"https://youtu.be/IbSyXP8-Zgk\">https://youtu.be/IbSyXP8-Zgk&nbsp;</a></p>"
   created_at: 2018-05-06 14:31:44.782666000 Z
-  updated_at: 2018-05-06 14:31:44.782666000 Z
+  updated_at: 2018-05-06 15:29:38.035200000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/917953433037967360
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/917953433037967360
@@ -1584,9 +1712,10 @@
     pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/andyblack">@<b>andyblack</b></a>
     + MORE!  <a target="_blank" href="http://bit.ly/2yakW0e">http://bit.ly/2yakW0e&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.787150000 Z
-  updated_at: 2018-05-06 14:31:44.787150000 Z
+  updated_at: 2018-05-06 15:29:38.039144000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/917214644753784832
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/917214644753784832
@@ -1596,9 +1725,10 @@
     the cold with something from our Merch store! Limited sizes available.  <a target="_blank"
     href="https://www.merchconnectioninc.com/collections/mediaskare-records">https://www.merchconnectioninc.com/collections/mediaskare-records&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:31:44.790013000 Z
-  updated_at: 2018-05-06 14:31:44.790013000 Z
+  updated_at: 2018-05-06 15:29:38.042803000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/916452653869056000
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/916452653869056000
@@ -1610,9 +1740,10 @@
     pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/andyblack">@<b>andyblack</b></a>
     + John Bradley (GoT) + MORE!  <a target="_blank" href="http://bit.ly/2wCgNhF">http://bit.ly/2wCgNhF&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.793001000 Z
-  updated_at: 2018-05-06 14:31:44.793001000 Z
+  updated_at: 2018-05-06 15:29:38.045771000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/916242724277252096
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/916242724277252096
@@ -1622,9 +1753,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">. <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/Adaliahfl">@<b>Adaliahfl</b></a>
     &ldquo;Transitions&rdquo;  <a target="_blank" href="https://youtu.be/bZ4h2UbwN7g">https://youtu.be/bZ4h2UbwN7g&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.796119000 Z
-  updated_at: 2018-05-06 14:31:44.796119000 Z
+  updated_at: 2018-05-06 15:29:38.048789000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/915787753022828544
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/915787753022828544
@@ -1635,9 +1767,10 @@
     target="_blank" href="https://twitter.com/SilentCivilianO">@<b>SilentCivilianO</b></a>?  <a
     target="_blank" href="https://youtu.be/uXodKChBfq0">https://youtu.be/uXodKChBfq0&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.799645000 Z
-  updated_at: 2018-05-06 14:31:44.799645000 Z
+  updated_at: 2018-05-06 15:29:38.052155000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/915044256095518721
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/915044256095518721
@@ -1647,9 +1780,10 @@
     things are getting colder, be sure and swing by our Merch Connection Store! Stock
     is limited!  <a target="_blank" href="https://www.merchconnectioninc.com/collections/mediaskare-records">https://www.merchconnectioninc.com/collections/mediaskare-records&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:31:44.803108000 Z
-  updated_at: 2018-05-06 14:31:44.803108000 Z
+  updated_at: 2018-05-06 15:29:38.055666000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/914684002715410432
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/914684002715410432
@@ -1659,9 +1793,10 @@
     October 1st, which means bring out the Halloween stuff! How will YOU be celebrating?
     What&rsquo;s on your playlist?</p>
   created_at: 2018-05-06 14:31:44.806582000 Z
-  updated_at: 2018-05-06 14:31:44.806582000 Z
+  updated_at: 2018-05-06 15:29:38.059358000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/913571623587823616
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/913571623587823616
@@ -1672,9 +1807,10 @@
     target="_blank" href="https://twitter.com/MerchConnection">@<b>MerchConnection</b></a>
     store and pick up some of our remaining stock!  <a target="_blank" href="https://www.merchconnectioninc.com/collections/mediaskare-records">https://www.merchconnectioninc.com/collections/mediaskare-records&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:31:44.810388000 Z
-  updated_at: 2018-05-06 14:31:44.810388000 Z
+  updated_at: 2018-05-06 15:29:38.066512000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/913400083290271744
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/913400083290271744
@@ -1683,9 +1819,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">One
     of our oldest videos in the vault!  <a target="_blank" href="https://youtu.be/e5psjMzLhPs">https://youtu.be/e5psjMzLhPs&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.813708000 Z
-  updated_at: 2018-05-06 14:31:44.813708000 Z
+  updated_at: 2018-05-06 15:29:38.069469000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/912882754743758853
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/912882754743758853
@@ -1695,9 +1832,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">. <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/redenemymetal">@<b>redenemymetal</b></a>
     &ldquo;Anchorless&rdquo;  <a target="_blank" href="https://youtu.be/ke9mH-H3oZU">https://youtu.be/ke9mH-H3oZU&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.817254000 Z
-  updated_at: 2018-05-06 14:31:44.817254000 Z
+  updated_at: 2018-05-06 15:29:38.073149000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/911978642925772801
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/911978642925772801
@@ -1708,9 +1846,10 @@
     href=\"https://twitter.com/redenemymetal\">@<b>redenemymetal</b></a> \n&ldquo;Night
     Eyes&rdquo;  <a target=\"_blank\" href=\"http://bit.ly/2fjCMTF\">http://bit.ly/2fjCMTF&nbsp;</a></p>"
   created_at: 2018-05-06 14:31:44.821736000 Z
-  updated_at: 2018-05-06 14:31:44.821736000 Z
+  updated_at: 2018-05-06 15:29:38.076075000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/911727759210061825
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/911727759210061825
@@ -1720,9 +1859,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="es">. <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/ThePrestigeMtl">@<b>ThePrestigemtl</b></a>
     &ldquo;Revival&rdquo;  <a target="_blank" href="https://youtu.be/lEKHVsVKmEs">https://youtu.be/lEKHVsVKmEs&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.826351000 Z
-  updated_at: 2018-05-06 14:31:44.826351000 Z
+  updated_at: 2018-05-06 15:29:38.079069000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/911078171973345280
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/911078171973345280
@@ -1731,9 +1871,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">How
     about this for a throwback?  <a target="_blank" href="https://youtu.be/sdU_pT0KXSI">https://youtu.be/sdU_pT0KXSI&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.834863000 Z
-  updated_at: 2018-05-06 14:31:44.834863000 Z
+  updated_at: 2018-05-06 15:29:38.082023000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/910297463465984000
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/910297463465984000
@@ -1743,9 +1884,10 @@
     out the official trailer for American Satan, which hits theaters Friday, October
     13th! &#x1F918;   <a target="_blank" href="https://youtu.be/AX35prUFlBk">https://youtu.be/AX35prUFlBk&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.850255000 Z
-  updated_at: 2018-05-06 14:31:44.850255000 Z
+  updated_at: 2018-05-06 15:29:38.085248000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/909764276017029120
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/909764276017029120
@@ -1756,9 +1898,10 @@
     href=\"https://twitter.com/redenemymetal\">@<b>redenemymetal</b></a> \n&ldquo;Anchorless&rdquo;
     \ <a target=\"_blank\" href=\"http://bit.ly/2f5khSM\">http://bit.ly/2f5khSM&nbsp;</a></p>"
   created_at: 2018-05-06 14:31:44.854226000 Z
-  updated_at: 2018-05-06 14:31:44.854226000 Z
+  updated_at: 2018-05-06 15:29:38.091766000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/909333690160783360
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/909333690160783360
@@ -1768,9 +1911,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">. <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/LionheartCA">@<b>lionheartca</b></a>
     "From Nothing"  <a target="_blank" href="https://youtu.be/dDW8J5l9lMM">https://youtu.be/dDW8J5l9lMM&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.858630000 Z
-  updated_at: 2018-05-06 14:31:44.858630000 Z
+  updated_at: 2018-05-06 15:29:38.094846000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/908890137869770755
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/908890137869770755
@@ -1781,9 +1925,10 @@
     href="https://twitter.com/MerchConnection">@<b>MerchConnection</b></a> store and
     pick something up! More items are close to sold out.  <a target="_blank" href="http://bit.ly/2nWKky8">http://bit.ly/2nWKky8&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.865642000 Z
-  updated_at: 2018-05-06 14:31:44.865642000 Z
+  updated_at: 2018-05-06 15:29:38.097516000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/908593970254569472
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/908593970254569472
@@ -1793,9 +1938,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">American Satan comes out on Friday, October 13th. Get ready!
       <a target="_blank" href="http://bit.ly/2xEkKqc">http://bit.ly/2xEkKqc&nbsp;</a>  <a target="_blank" href="http://bit.ly/2xCFDCj">http://bit.ly/2xCFDCj&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.869389000 Z
-  updated_at: 2018-05-06 14:31:44.869389000 Z
+  updated_at: 2018-05-06 15:29:38.101063000 Z
 - code: mediaskare_records_https://twitter.com/Mediaskare/status/908210437203750912
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/378800000049780450/f9d5e2aff87525a6abcd4ae72e18d828_400x400.jpeg
   url: https://twitter.com/Mediaskare/status/908210437203750912
@@ -1805,9 +1951,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">.@redeemerhc
     &ldquo;See Red&rdquo;  <a target="_blank" href="http://bit.ly/2xApWM2">http://bit.ly/2xApWM2&nbsp;</a></p>
   created_at: 2018-05-06 14:31:44.873273000 Z
-  updated_at: 2018-05-06 14:31:44.873273000 Z
+  updated_at: 2018-05-06 15:29:38.109997000 Z
 - code: mediaskare_records_yt:video:6GcRSoR50go
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=6GcRSoR50go
@@ -1816,9 +1963,10 @@
   body: <p>Bermuda - Crown Crusher</p><a href="https://www.youtube.com/watch?v=6GcRSoR50go"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/6GcRSoR50go/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.877423000 Z
-  updated_at: 2018-05-06 14:31:44.877423000 Z
+  updated_at: 2018-05-06 15:29:38.124318000 Z
 - code: mediaskare_records_yt:video:NukG51UwxwY
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=NukG51UwxwY
@@ -1827,9 +1975,10 @@
   body: <p>Bermuda - Use Your Burdens</p><a href="https://www.youtube.com/watch?v=NukG51UwxwY"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/NukG51UwxwY/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.880899000 Z
-  updated_at: 2018-05-06 14:31:44.880899000 Z
+  updated_at: 2018-05-06 15:29:38.129533000 Z
 - code: mediaskare_records_yt:video:J9qzNXtbnn4
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=J9qzNXtbnn4
@@ -1838,9 +1987,10 @@
   body: <p>Bermuda - The Cancer Speaks</p><a href="https://www.youtube.com/watch?v=J9qzNXtbnn4"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/J9qzNXtbnn4/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.884780000 Z
-  updated_at: 2018-05-06 14:31:44.884780000 Z
+  updated_at: 2018-05-06 15:29:38.132351000 Z
 - code: mediaskare_records_yt:video:fmV_SrxwyF8
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=fmV_SrxwyF8
@@ -1849,9 +1999,10 @@
   body: <p>Bermuda - Orphans</p><a href="https://www.youtube.com/watch?v=fmV_SrxwyF8"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/fmV_SrxwyF8/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.888693000 Z
-  updated_at: 2018-05-06 14:31:44.888693000 Z
+  updated_at: 2018-05-06 15:29:38.135512000 Z
 - code: mediaskare_records_yt:video:69D82deUhjo
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=69D82deUhjo
@@ -1860,9 +2011,10 @@
   body: <p>Bermuda - The Recluse</p><a href="https://www.youtube.com/watch?v=69D82deUhjo"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/69D82deUhjo/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.893119000 Z
-  updated_at: 2018-05-06 14:31:44.893119000 Z
+  updated_at: 2018-05-06 15:29:38.139008000 Z
 - code: mediaskare_records_yt:video:jzybDKL1TmM
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=jzybDKL1TmM
@@ -1871,9 +2023,10 @@
   body: <p>Bermuda - Arachiel</p><a href="https://www.youtube.com/watch?v=jzybDKL1TmM"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/jzybDKL1TmM/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.896918000 Z
-  updated_at: 2018-05-06 14:31:44.896918000 Z
+  updated_at: 2018-05-06 15:29:38.142832000 Z
 - code: mediaskare_records_yt:video:yt-IPPACLRA
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=yt-IPPACLRA
@@ -1882,9 +2035,10 @@
   body: <p>Bermuda - Shiryo Yokai (Feat. Tommy Vext of Westfield Massacre)</p><a href="https://www.youtube.com/watch?v=yt-IPPACLRA"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/yt-IPPACLRA/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.901444000 Z
-  updated_at: 2018-05-06 14:31:44.901444000 Z
+  updated_at: 2018-05-06 15:29:38.146395000 Z
 - code: mediaskare_records_yt:video:Al0baIjPvZI
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=Al0baIjPvZI
@@ -1893,9 +2047,10 @@
   body: <p>Bermuda - Kuma</p><a href="https://www.youtube.com/watch?v=Al0baIjPvZI"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/Al0baIjPvZI/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.907070000 Z
-  updated_at: 2018-05-06 14:31:44.907070000 Z
+  updated_at: 2018-05-06 15:29:38.151293000 Z
 - code: mediaskare_records_yt:video:cqpn71b_QR0
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=cqpn71b_QR0
@@ -1904,9 +2059,10 @@
   body: <p>Bermuda - Grave Dancers</p><a href="https://www.youtube.com/watch?v=cqpn71b_QR0"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/cqpn71b_QR0/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.913248000 Z
-  updated_at: 2018-05-06 14:31:44.913248000 Z
+  updated_at: 2018-05-06 15:29:38.154479000 Z
 - code: mediaskare_records_yt:video:SVefMmYY1gw
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=SVefMmYY1gw
@@ -1915,9 +2071,10 @@
   body: <p>Bermuda - Vertebroken</p><a href="https://www.youtube.com/watch?v=SVefMmYY1gw"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/SVefMmYY1gw/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.918705000 Z
-  updated_at: 2018-05-06 14:31:44.918705000 Z
+  updated_at: 2018-05-06 15:29:38.158975000 Z
 - code: mediaskare_records_yt:video:lEKHVsVKmEs
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=lEKHVsVKmEs
@@ -1926,9 +2083,10 @@
   body: <p>The Prestige - Revival</p><a href="https://www.youtube.com/watch?v=lEKHVsVKmEs"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/lEKHVsVKmEs/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.922823000 Z
-  updated_at: 2018-05-06 14:31:44.922823000 Z
+  updated_at: 2018-05-06 15:29:38.161912000 Z
 - code: mediaskare_records_yt:video:Gdg7tkMoNUY
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=Gdg7tkMoNUY
@@ -1937,9 +2095,10 @@
   body: <p>Adaliah - Death's Counterfeit (Official Music Video)</p><a href="https://www.youtube.com/watch?v=Gdg7tkMoNUY"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/Gdg7tkMoNUY/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.939951000 Z
-  updated_at: 2018-05-06 14:31:44.939951000 Z
+  updated_at: 2018-05-06 15:29:38.164628000 Z
 - code: mediaskare_records_yt:video:ke9mH-H3oZU
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=ke9mH-H3oZU
@@ -1948,9 +2107,10 @@
   body: <p>Red Enemy - Anchorless (Official Music Video)</p><a href="https://www.youtube.com/watch?v=ke9mH-H3oZU"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/ke9mH-H3oZU/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.944513000 Z
-  updated_at: 2018-05-06 14:31:44.944513000 Z
+  updated_at: 2018-05-06 15:29:38.167636000 Z
 - code: mediaskare_records_yt:video:WpJ1TlTkl6Y
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=WpJ1TlTkl6Y
@@ -1959,9 +2119,10 @@
   body: <p>Runaway Kids - Afraid</p><a href="https://www.youtube.com/watch?v=WpJ1TlTkl6Y"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/WpJ1TlTkl6Y/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.952630000 Z
-  updated_at: 2018-05-06 14:31:44.952630000 Z
+  updated_at: 2018-05-06 15:29:38.169908000 Z
 - code: mediaskare_records_yt:video:mudf9pUVHMQ
   owner: mediaskare_records
+  owner_name: Mediaskare Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=mudf9pUVHMQ
@@ -1970,9 +2131,10 @@
   body: <p>Runaway Kids - No Direction</p><a href="https://www.youtube.com/watch?v=mudf9pUVHMQ"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/mudf9pUVHMQ/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:31:44.956063000 Z
-  updated_at: 2018-05-06 14:31:44.956063000 Z
+  updated_at: 2018-05-06 15:29:38.173758000 Z
 - code: zestone_records_https://twitter.com/zestonethj/status/990914369213972481
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/1935762630/zestone-twitter-logo_400x400.png
   url: https://twitter.com/zestonethj/status/990914369213972481
@@ -1986,9 +2148,10 @@
     Spotify:   <a target="_blank" href="https://goo.gl/r2tfAv">https://goo.gl/r2tfAv&nbsp;</a>
     iTunes:   <a target="_blank" href="https://goo.gl/VU4r8S">https://goo.gl/VU4r8S&nbsp;</a> </p> <a target="_blank" href="https://twitter.com/zestonethj/status/990914369213972481" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DcBvD2BUwAMIpGC.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.704302000 Z
-  updated_at: 2018-05-06 14:39:00.704302000 Z
+  updated_at: 2018-05-06 15:29:38.176763000 Z
 - code: zestone_records_https://twitter.com/zestonethj/status/986223656484331521
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/1935762630/zestone-twitter-logo_400x400.png
   url: https://twitter.com/zestonethj/status/986223656484331521
@@ -2001,9 +2164,10 @@
 
       <a target="_blank" href="http://www.zestonline.jp/">http://www.zestonline.jp/&nbsp;</a> </p> <a target="_blank" href="https://twitter.com/zestonethj/status/986223656484331521" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/Da_FK7rVMAAoPgS.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.709456000 Z
-  updated_at: 2018-05-06 14:39:00.709456000 Z
+  updated_at: 2018-05-06 15:29:38.179665000 Z
 - code: zestone_records_https://twitter.com/zestonethj/status/981138129238159360
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/1935762630/zestone-twitter-logo_400x400.png
   url: https://twitter.com/zestonethj/status/981138129238159360
@@ -2017,9 +2181,10 @@
     </p> <a target=\"_blank\" href=\"https://twitter.com/zestonethj/status/981138129238159360\"
     target=\"_blank\"><div class=\"image\" data-image=\"https://pbs.twimg.com/media/DZ2zpPwVwAEH1eh.jpg\"><img></div></a>"
   created_at: 2018-05-06 14:39:00.712832000 Z
-  updated_at: 2018-05-06 14:39:00.712832000 Z
+  updated_at: 2018-05-06 15:29:38.182601000 Z
 - code: zestone_records_https://twitter.com/zestonethj/status/974946125181370369
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/1935762630/zestone-twitter-logo_400x400.png
   url: https://twitter.com/zestonethj/status/974946125181370369
@@ -2033,9 +2198,10 @@
 
       <a target="_blank" href="http://zestone.jp/archives/4871">http://zestone.jp/archives/4871&nbsp;</a></p>
   created_at: 2018-05-06 14:39:00.715651000 Z
-  updated_at: 2018-05-06 14:39:00.715651000 Z
+  updated_at: 2018-05-06 15:29:38.185991000 Z
 - code: zestone_records_https://twitter.com/zestonethj/status/974435240126177284
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/1935762630/zestone-twitter-logo_400x400.png
   url: https://twitter.com/zestonethj/status/974435240126177284
@@ -2047,9 +2213,10 @@
     It In&#x300F;&#x5148;&#x884C;&#x914D;&#x4FE1;&#x4E2D;&#xFF01;...   <a target="_blank"
     href="https://fb.me/JfSvxMdQ">https://fb.me/JfSvxMdQ&nbsp;</a></p>
   created_at: 2018-05-06 14:39:00.719711000 Z
-  updated_at: 2018-05-06 14:39:00.719711000 Z
+  updated_at: 2018-05-06 15:29:38.191464000 Z
 - code: zestone_records_https://twitter.com/zestonethj/status/974435099449221121
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/1935762630/zestone-twitter-logo_400x400.png
   url: https://twitter.com/zestonethj/status/974435099449221121
@@ -2061,9 +2228,10 @@
     &#x914D;&#x4FE1;&#x3055;&#x308C;&#x3066;&#x3044;&#x308B;&#x30B9;&#x30C8;&#x30A2;&#x306E;&#x30EA;&#x30B9;&#x30C8;&#x3001;MV&#x306E;&#x60C5;&#x5831;&#x306A;&#x3069;&#x3001;&#x8A73;&#x7D30;&#x306F;&#x30AA;&#x30D5;&#x30A3;&#x30B7;&#x30E3;&#x30EB;&#x30B5;&#x30A4;&#x30C8;&#x3067;&#x30C1;&#x30A7;&#x30C3;&#x30AF;&#x3057;&#x3066;&#x4E0B;&#x3055;&#x3044;&#xFF01;
       <a target="_blank" href="http://zestone.jp/archives/4871">http://zestone.jp/archives/4871&nbsp;</a> </p> <a target="_blank" href="https://twitter.com/zestonethj/status/974435099449221121" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DYXjjsMW4AU6V69.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.723463000 Z
-  updated_at: 2018-05-06 14:39:00.723463000 Z
+  updated_at: 2018-05-06 15:29:38.195320000 Z
 - code: zestone_records_https://twitter.com/zestonethj/status/973182721462685697
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/1935762630/zestone-twitter-logo_400x400.png
   url: https://twitter.com/zestonethj/status/973182721462685697
@@ -2076,9 +2244,10 @@
 
       <a target="_blank" href="http://www.zestonline.jp/">http://www.zestonline.jp/&nbsp;</a> </p> <a target="_blank" href="https://twitter.com/zestonethj/status/973182721462685697" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DYFwazFVQAAkA-O.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.729067000 Z
-  updated_at: 2018-05-06 14:39:00.729067000 Z
+  updated_at: 2018-05-06 15:29:38.199831000 Z
 - code: zestone_records_https://twitter.com/zestonethj/status/969189602874466305
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/1935762630/zestone-twitter-logo_400x400.png
   url: https://twitter.com/zestonethj/status/969189602874466305
@@ -2093,9 +2262,10 @@
 
       <a target="_blank" href="http://www.zestonline.jp/">http://www.zestonline.jp/&nbsp;</a> </p> <a target="_blank" href="https://twitter.com/zestonethj/status/969189602874466305" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DXNAVkhUMAIFnm0.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.733372000 Z
-  updated_at: 2018-05-06 14:39:00.733372000 Z
+  updated_at: 2018-05-06 15:29:38.203029000 Z
 - code: zestone_records_https://twitter.com/zestonethj/status/962237480161259521
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/1935762630/zestone-twitter-logo_400x400.png
   url: https://twitter.com/zestonethj/status/962237480161259521
@@ -2110,9 +2280,10 @@
 
       <a target="_blank" href="http://www.zestonline.jp/">http://www.zestonline.jp/&nbsp;</a> </p> <a target="_blank" href="https://twitter.com/zestonethj/status/962237480161259521" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DVqN25_VMAAqztS.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.738158000 Z
-  updated_at: 2018-05-06 14:39:00.738158000 Z
+  updated_at: 2018-05-06 15:29:38.205996000 Z
 - code: zestone_records_yt:video:g8b-ZDg101Y
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=g8b-ZDg101Y
@@ -2121,9 +2292,10 @@
   body: <p>KEEP YOUR HANDs OFF MY GIRL- Making of &quot;stand by you&quot;</p><a href="https://www.youtube.com/watch?v=g8b-ZDg101Y"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/g8b-ZDg101Y/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.745562000 Z
-  updated_at: 2018-05-06 14:39:00.745562000 Z
+  updated_at: 2018-05-06 15:29:38.209582000 Z
 - code: zestone_records_yt:video:JaEGxrORg8Q
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=JaEGxrORg8Q
@@ -2132,9 +2304,10 @@
   body: <p>VILLES, WELCOME TO JAPAN MESSAGE VIDEO</p><a href="https://www.youtube.com/watch?v=JaEGxrORg8Q"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/JaEGxrORg8Q/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.749455000 Z
-  updated_at: 2018-05-06 14:39:00.749455000 Z
+  updated_at: 2018-05-06 15:29:38.213609000 Z
 - code: zestone_records_yt:video:XkRRcYbkUMg
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=XkRRcYbkUMg
@@ -2144,9 +2317,10 @@
     href="https://www.youtube.com/watch?v=XkRRcYbkUMg" target="_blank"><div class="image"
     data-image="https://i1.ytimg.com/vi/XkRRcYbkUMg/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.753851000 Z
-  updated_at: 2018-05-06 14:39:00.753851000 Z
+  updated_at: 2018-05-06 15:29:38.227515000 Z
 - code: zestone_records_yt:video:IZz75QKG6ms
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=IZz75QKG6ms
@@ -2155,9 +2329,10 @@
   body: <p>VILLES JOINS ZESTONE FAMILY</p><a href="https://www.youtube.com/watch?v=IZz75QKG6ms"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/IZz75QKG6ms/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.759380000 Z
-  updated_at: 2018-05-06 14:39:00.759380000 Z
+  updated_at: 2018-05-06 15:29:38.230610000 Z
 - code: zestone_records_yt:video:Do4DRigyRFM
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=Do4DRigyRFM
@@ -2166,9 +2341,10 @@
   body: <p>PIANO / DISAPPEARING INK(Official lyric video)</p><a href="https://www.youtube.com/watch?v=Do4DRigyRFM"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/Do4DRigyRFM/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.763436000 Z
-  updated_at: 2018-05-06 14:39:00.763436000 Z
+  updated_at: 2018-05-06 15:29:38.234665000 Z
 - code: zestone_records_yt:video:ZNgn-yTHKjU
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=ZNgn-yTHKjU
@@ -2178,9 +2354,10 @@
     href="https://www.youtube.com/watch?v=ZNgn-yTHKjU" target="_blank"><div class="image"
     data-image="https://i3.ytimg.com/vi/ZNgn-yTHKjU/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.767381000 Z
-  updated_at: 2018-05-06 14:39:00.767381000 Z
+  updated_at: 2018-05-06 15:29:38.237511000 Z
 - code: zestone_records_yt:video:RSLUS8NqVc8
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=RSLUS8NqVc8
@@ -2189,9 +2366,10 @@
   body: <p>Message for Japanese fans from Dreamshade</p><a href="https://www.youtube.com/watch?v=RSLUS8NqVc8"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/RSLUS8NqVc8/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.770939000 Z
-  updated_at: 2018-05-06 14:39:00.770939000 Z
+  updated_at: 2018-05-06 15:29:38.240418000 Z
 - code: zestone_records_yt:video:6sCdFTMETT4
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=6sCdFTMETT4
@@ -2200,9 +2378,10 @@
   body: <p>Prepared Like A Bride Video Message for Japanese fans</p><a href="https://www.youtube.com/watch?v=6sCdFTMETT4"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/6sCdFTMETT4/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.777134000 Z
-  updated_at: 2018-05-06 14:39:00.777134000 Z
+  updated_at: 2018-05-06 15:29:38.243052000 Z
 - code: zestone_records_yt:video:RC5ujo4YMR4
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=RC5ujo4YMR4
@@ -2212,9 +2391,10 @@
     href="https://www.youtube.com/watch?v=RC5ujo4YMR4" target="_blank"><div class="image"
     data-image="https://i3.ytimg.com/vi/RC5ujo4YMR4/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.782479000 Z
-  updated_at: 2018-05-06 14:39:00.782479000 Z
+  updated_at: 2018-05-06 15:29:38.245551000 Z
 - code: zestone_records_yt:video:6NueceQ3u0A
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=6NueceQ3u0A
@@ -2224,9 +2404,10 @@
     href="https://www.youtube.com/watch?v=6NueceQ3u0A" target="_blank"><div class="image"
     data-image="https://i3.ytimg.com/vi/6NueceQ3u0A/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.786756000 Z
-  updated_at: 2018-05-06 14:39:00.786756000 Z
+  updated_at: 2018-05-06 15:29:38.248310000 Z
 - code: zestone_records_yt:video:AKquICqoOOU
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=AKquICqoOOU
@@ -2235,9 +2416,10 @@
   body: <p>KEEP YOUR HANDs OFF MY GIRL / By The Way If (Live Clip Trailer)</p><a href="https://www.youtube.com/watch?v=AKquICqoOOU"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/AKquICqoOOU/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.793992000 Z
-  updated_at: 2018-05-06 14:39:00.793992000 Z
+  updated_at: 2018-05-06 15:29:38.250885000 Z
 - code: zestone_records_yt:video:QpsOIJsUq5w
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=QpsOIJsUq5w
@@ -2246,9 +2428,10 @@
   body: <p>KEEP YOUR HANDs OFF MY GIRL Signs To ZESTONE</p><a href="https://www.youtube.com/watch?v=QpsOIJsUq5w"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/QpsOIJsUq5w/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.797355000 Z
-  updated_at: 2018-05-06 14:39:00.797355000 Z
+  updated_at: 2018-05-06 15:29:38.253505000 Z
 - code: zestone_records_yt:video:IsL1kDS5JS8
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=IsL1kDS5JS8
@@ -2257,9 +2440,10 @@
   body: <p>LOST - &quot;Ghostface Trash Talker&quot; Official Trailer</p><a href="https://www.youtube.com/watch?v=IsL1kDS5JS8"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/IsL1kDS5JS8/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.801069000 Z
-  updated_at: 2018-05-06 14:39:00.801069000 Z
+  updated_at: 2018-05-06 15:29:38.256284000 Z
 - code: zestone_records_yt:video:-BaKNkFTeR0
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=-BaKNkFTeR0
@@ -2268,9 +2452,10 @@
   body: <p>Message from Greeley Estates</p><a href="https://www.youtube.com/watch?v=-BaKNkFTeR0"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/-BaKNkFTeR0/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.804707000 Z
-  updated_at: 2018-05-06 14:39:00.804707000 Z
+  updated_at: 2018-05-06 15:29:38.259827000 Z
 - code: zestone_records_yt:video:i0nbxYWJesc
   owner: zestone_records
+  owner_name: ZESTONE RECORDS
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=i0nbxYWJesc
@@ -2279,9 +2464,10 @@
   body: <p>IZP &quot;The belief&quot; (OFFICIAL MUSIC VIDEO)</p><a href="https://www.youtube.com/watch?v=i0nbxYWJesc"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/i0nbxYWJesc/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:39:00.809402000 Z
-  updated_at: 2018-05-06 14:39:00.809402000 Z
+  updated_at: 2018-05-06 15:29:38.262918000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/992811164202450944
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/992811164202450944
@@ -2292,9 +2478,10 @@
     target="_blank" href="https://twitter.com/lume_band">@<b>lume_band</b></a> | "Loss
     Leader"  <a target="_blank" href="https://open.spotify.com/track/6dYw1dVvlER3maB333C5Ea?si=uazFVYyEQkGkFflmsMeH3g">https://open.spotify.com/track/6dYw1dVvlER3maB333C5Ea?si=uazFVYyEQkGkFflmsMeH3g&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:45:35.731480000 Z
-  updated_at: 2018-05-06 14:45:35.731480000 Z
+  updated_at: 2018-05-06 15:29:38.265530000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/992478976089047041
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/992478976089047041
@@ -2305,9 +2492,10 @@
     target="_blank" href="https://twitter.com/waterparks">@<b>waterparks</b></a> |
     "Sleep Alone"  <a target="_blank" href="https://open.spotify.com/track/4WxkqmbuOZD9xruYGp85rp?si=_pwNq3_KT0uUElfd165ROQ">https://open.spotify.com/track/4WxkqmbuOZD9xruYGp85rp?si=_pwNq3_KT0uUElfd165ROQ&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:45:35.736577000 Z
-  updated_at: 2018-05-06 14:45:35.736577000 Z
+  updated_at: 2018-05-06 15:29:38.268601000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/992435420536295425
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/992435420536295425
@@ -2321,9 +2509,10 @@
     </p> <a target=\"_blank\" href=\"https://twitter.com/equalvision/status/992435420536295425\"
     target=\"_blank\"><div class=\"image\" data-image=\"https://pbs.twimg.com/media/DcXVkdDV0AApS57.jpg\"><img></div></a>"
   created_at: 2018-05-06 14:45:35.739645000 Z
-  updated_at: 2018-05-06 14:45:35.739645000 Z
+  updated_at: 2018-05-06 15:29:38.275333000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/992116581697277953
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/992116581697277953
@@ -2335,9 +2524,10 @@
     class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/tilianpearson">@<b>tilianpearson</b></a>
     | "Silver Tongues"  <a target="_blank" href="https://open.spotify.com/track/2qcalqblY6RQZuztvQ72t7?si=7NmfLUpUR8KHSbkKNnaUGA">https://open.spotify.com/track/2qcalqblY6RQZuztvQ72t7?si=7NmfLUpUR8KHSbkKNnaUGA&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:45:35.743081000 Z
-  updated_at: 2018-05-06 14:45:35.743081000 Z
+  updated_at: 2018-05-06 15:29:38.278630000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/992086542410756101
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/992086542410756101
@@ -2353,9 +2543,10 @@
     href=\"https://twitter.com/equalvision/status/992086542410756101\" target=\"_blank\"><div
     class=\"image\" data-image=\"https://pbs.twimg.com/media/DcSU1PkW0AcRorr.jpg\"><img></div></a>"
   created_at: 2018-05-06 14:45:35.746805000 Z
-  updated_at: 2018-05-06 14:45:35.746805000 Z
+  updated_at: 2018-05-06 15:29:38.281862000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/991769534515335179
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/991769534515335179
@@ -2368,9 +2559,10 @@
     on the road this summer. Don't miss this &#x1F64C;  </p> <a target="_blank" href="https://twitter.com/equalvision/status/991769534515335179"
     target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DcN0aqDXcAA4G2u.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.750835000 Z
-  updated_at: 2018-05-06 14:45:35.750835000 Z
+  updated_at: 2018-05-06 15:29:38.285592000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/991754197707079680
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/991754197707079680
@@ -2381,9 +2573,10 @@
     target="_blank" href="https://twitter.com/NightVerses">@<b>NightVerses</b></a>
     | "Vantablonde"  <a target="_blank" href="https://open.spotify.com/track/41OxxUgH3XEbcCTTBgA2QB?si=RawnPKtnTgOsYJCGB8MaJA">https://open.spotify.com/track/41OxxUgH3XEbcCTTBgA2QB?si=RawnPKtnTgOsYJCGB8MaJA&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:45:35.754019000 Z
-  updated_at: 2018-05-06 14:45:35.754019000 Z
+  updated_at: 2018-05-06 15:29:38.289475000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/991693898081816576
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/991693898081816576
@@ -2398,9 +2591,10 @@
     Friday &#x1F68C; &#x1F3B6;  </p> <a target="_blank" href="https://twitter.com/equalvision/status/991693898081816576"
     target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DcMvuHYX0AAqfZm.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.757476000 Z
-  updated_at: 2018-05-06 14:45:35.757476000 Z
+  updated_at: 2018-05-06 15:29:38.292751000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/991422122894483457
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/991422122894483457
@@ -2413,9 +2607,10 @@
     released their third album 'Manipulator' &#x1F49B;  </p> <a target="_blank" href="https://twitter.com/equalvision/status/991422122894483457"
     target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DcI4g0lX4AMeCT6.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.760979000 Z
-  updated_at: 2018-05-06 14:45:35.760979000 Z
+  updated_at: 2018-05-06 15:29:38.297587000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/991406909046452224
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/991406909046452224
@@ -2426,9 +2621,10 @@
     target="_blank" href="https://twitter.com/greyhavenband">@<b>greyhavenband</b></a>
     | "Sweet Machine"  <a target="_blank" href="https://open.spotify.com/track/6TPCtZCH1Mm9J7TzdvXdle?si=JS2dKm3DTPSDGhvKj6xoVg">https://open.spotify.com/track/6TPCtZCH1Mm9J7TzdvXdle?si=JS2dKm3DTPSDGhvKj6xoVg&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:45:35.764526000 Z
-  updated_at: 2018-05-06 14:45:35.764526000 Z
+  updated_at: 2018-05-06 15:29:38.302470000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/991380082877841409
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/991380082877841409
@@ -2442,9 +2638,10 @@
     </p> <a target="_blank" href="https://twitter.com/equalvision/status/991380082877841409"
     target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DcIVwcOUQAAxiiP.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.769299000 Z
-  updated_at: 2018-05-06 14:45:35.769299000 Z
+  updated_at: 2018-05-06 15:29:38.305960000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/991014931477610496
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/991014931477610496
@@ -2455,9 +2652,10 @@
     target="_blank" href="https://twitter.com/gatherersband">@<b>gatherersband</b></a>
     | "The Floorboards Are Breathing"  <a target="_blank" href="https://open.spotify.com/track/5SLbJI6C5TJgBy2UpinyKe?si=mRgX2udTSAyFp52PwdvlqQ">https://open.spotify.com/track/5SLbJI6C5TJgBy2UpinyKe?si=mRgX2udTSAyFp52PwdvlqQ&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:45:35.773515000 Z
-  updated_at: 2018-05-06 14:45:35.773515000 Z
+  updated_at: 2018-05-06 15:29:38.310111000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/990298148085022720
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/990298148085022720
@@ -2467,9 +2665,10 @@
     no living in the present...we are alive beyond repair &#x1F3B6;   <a target="_blank"
     href="https://www.youtube.com/watch?v=rM81UciVwmw">https://www.youtube.com/watch?v=rM81UciVwmw&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:45:35.777527000 Z
-  updated_at: 2018-05-06 14:45:35.777527000 Z
+  updated_at: 2018-05-06 15:29:38.313518000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/990274450934427648
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/990274450934427648
@@ -2480,9 +2679,10 @@
     target="_blank" href="https://twitter.com/StolasOfficial">@<b>StolasOfficial</b></a>
     | "Bellwether"  <a target="_blank" href="https://open.spotify.com/track/3qZrFs34d49XkmWuNiZQbQ?si=0Fg2VrPUS9-S2N45Ohl-yg">https://open.spotify.com/track/3qZrFs34d49XkmWuNiZQbQ?si=0Fg2VrPUS9-S2N45Ohl-yg&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:45:35.782214000 Z
-  updated_at: 2018-05-06 14:45:35.782214000 Z
+  updated_at: 2018-05-06 15:29:38.319360000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/989989068627820544
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/989989068627820544
@@ -2496,9 +2696,10 @@
     </p> <a target="_blank" href="https://twitter.com/equalvision/status/989989068627820544"
     target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/Db0lmkeVQAAjo5S.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.786112000 Z
-  updated_at: 2018-05-06 14:45:35.786112000 Z
+  updated_at: 2018-05-06 15:29:38.330608000 Z
 - code: equal_vision_records_https://twitter.com/equalvision/status/989942257586356224
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/793484404127440897/d2VjG8yW_400x400.jpg
   url: https://twitter.com/equalvision/status/989942257586356224
@@ -2509,9 +2710,10 @@
     target="_blank" href="https://twitter.com/hailthesun">@<b>hailthesun</b></a> |
     "Human Target Practice"  <a target="_blank" href="https://open.spotify.com/track/22lfbnvupek3j4scoA55Hx?si=3CKDXrsyRyi7j1ECAIDPTQ">https://open.spotify.com/track/22lfbnvupek3j4scoA55Hx?si=3CKDXrsyRyi7j1ECAIDPTQ&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:45:35.790826000 Z
-  updated_at: 2018-05-06 14:45:35.790826000 Z
+  updated_at: 2018-05-06 15:29:38.334824000 Z
 - code: equal_vision_records_yt:video:rM81UciVwmw
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=rM81UciVwmw
@@ -2520,9 +2722,10 @@
   body: <p>Gatherers &quot;The Floorboards Are Breathing&quot;</p><a href="https://www.youtube.com/watch?v=rM81UciVwmw"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/rM81UciVwmw/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.794988000 Z
-  updated_at: 2018-05-06 14:45:35.794988000 Z
+  updated_at: 2018-05-06 15:29:38.338604000 Z
 - code: equal_vision_records_yt:video:AlkxwqSc7Ts
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=AlkxwqSc7Ts
@@ -2531,9 +2734,10 @@
   body: <p>The End of the Ocean sign to Equal Vision Records!</p><a href="https://www.youtube.com/watch?v=AlkxwqSc7Ts"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/AlkxwqSc7Ts/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.800318000 Z
-  updated_at: 2018-05-06 14:45:35.800318000 Z
+  updated_at: 2018-05-06 15:29:38.343025000 Z
 - code: equal_vision_records_yt:video:_tQjk0x_7Ow
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=_tQjk0x_7Ow
@@ -2542,9 +2746,10 @@
   body: <p>Lume &quot;Unglued&quot;</p><a href="https://www.youtube.com/watch?v=_tQjk0x_7Ow"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/_tQjk0x_7Ow/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.807134000 Z
-  updated_at: 2018-05-06 14:45:35.807134000 Z
+  updated_at: 2018-05-06 15:29:38.345540000 Z
 - code: equal_vision_records_yt:video:HcakHYR9hpE
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=HcakHYR9hpE
@@ -2553,9 +2758,10 @@
   body: <p>Lume &quot;Shudder&quot;</p><a href="https://www.youtube.com/watch?v=HcakHYR9hpE"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/HcakHYR9hpE/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.810952000 Z
-  updated_at: 2018-05-06 14:45:35.810952000 Z
+  updated_at: 2018-05-06 15:29:38.348495000 Z
 - code: equal_vision_records_yt:video:ks-WKzRI5YM
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=ks-WKzRI5YM
@@ -2564,9 +2770,10 @@
   body: <p>Lume &quot;Lean&quot;</p><a href="https://www.youtube.com/watch?v=ks-WKzRI5YM"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/ks-WKzRI5YM/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.819882000 Z
-  updated_at: 2018-05-06 14:45:35.819882000 Z
+  updated_at: 2018-05-06 15:29:38.351292000 Z
 - code: equal_vision_records_yt:video:-qdlD4HwuQ0
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=-qdlD4HwuQ0
@@ -2575,9 +2782,10 @@
   body: <p>Lume &quot;Already Low&quot;</p><a href="https://www.youtube.com/watch?v=-qdlD4HwuQ0"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/-qdlD4HwuQ0/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.823674000 Z
-  updated_at: 2018-05-06 14:45:35.823674000 Z
+  updated_at: 2018-05-06 15:29:38.354391000 Z
 - code: equal_vision_records_yt:video:3CzmNPIyTNM
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=3CzmNPIyTNM
@@ -2586,9 +2794,10 @@
   body: <p>Lume &quot;Wrung Out&quot;</p><a href="https://www.youtube.com/watch?v=3CzmNPIyTNM"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/3CzmNPIyTNM/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.827363000 Z
-  updated_at: 2018-05-06 14:45:35.827363000 Z
+  updated_at: 2018-05-06 15:29:38.357366000 Z
 - code: equal_vision_records_yt:video:OJ8ggRT8Idw
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=OJ8ggRT8Idw
@@ -2597,9 +2806,10 @@
   body: <p>Lume &quot;31st Street&quot;</p><a href="https://www.youtube.com/watch?v=OJ8ggRT8Idw"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/OJ8ggRT8Idw/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.831022000 Z
-  updated_at: 2018-05-06 14:45:35.831022000 Z
+  updated_at: 2018-05-06 15:29:38.360030000 Z
 - code: equal_vision_records_yt:video:1Et73gODc0c
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=1Et73gODc0c
@@ -2608,9 +2818,10 @@
   body: <p>Lume &quot;Gaze&quot;</p><a href="https://www.youtube.com/watch?v=1Et73gODc0c"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/1Et73gODc0c/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.834320000 Z
-  updated_at: 2018-05-06 14:45:35.834320000 Z
+  updated_at: 2018-05-06 15:29:38.362631000 Z
 - code: equal_vision_records_yt:video:3r6cuH3nhp0
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=3r6cuH3nhp0
@@ -2619,9 +2830,10 @@
   body: <p>All Get Out &quot;However Long&quot;</p><a href="https://www.youtube.com/watch?v=3r6cuH3nhp0"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/3r6cuH3nhp0/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.837936000 Z
-  updated_at: 2018-05-06 14:45:35.837936000 Z
+  updated_at: 2018-05-06 15:29:38.365455000 Z
 - code: equal_vision_records_yt:video:8oJYud7TV58
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=8oJYud7TV58
@@ -2630,9 +2842,10 @@
   body: <p>Hopesfall &quot;H.A. Wallace Space Academy&quot;</p><a href="https://www.youtube.com/watch?v=8oJYud7TV58"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/8oJYud7TV58/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.841239000 Z
-  updated_at: 2018-05-06 14:45:35.841239000 Z
+  updated_at: 2018-05-06 15:29:38.369343000 Z
 - code: equal_vision_records_yt:video:pKmsMhZBAE0
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=pKmsMhZBAE0
@@ -2641,9 +2854,10 @@
   body: <p>Lume &quot;Loss Leader&quot;</p><a href="https://www.youtube.com/watch?v=pKmsMhZBAE0"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/pKmsMhZBAE0/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.845493000 Z
-  updated_at: 2018-05-06 14:45:35.845493000 Z
+  updated_at: 2018-05-06 15:29:38.372708000 Z
 - code: equal_vision_records_yt:video:JGz6uWxjnTk
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=JGz6uWxjnTk
@@ -2652,9 +2866,10 @@
   body: <p>Household &quot;Dark Matter&quot;</p><a href="https://www.youtube.com/watch?v=JGz6uWxjnTk"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/JGz6uWxjnTk/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.849362000 Z
-  updated_at: 2018-05-06 14:45:35.849362000 Z
+  updated_at: 2018-05-06 15:29:38.376265000 Z
 - code: equal_vision_records_yt:video:TD-oHtwZbV4
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=TD-oHtwZbV4
@@ -2663,9 +2878,10 @@
   body: <p>Lume &quot;Unending&quot;</p><a href="https://www.youtube.com/watch?v=TD-oHtwZbV4"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/TD-oHtwZbV4/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.854640000 Z
-  updated_at: 2018-05-06 14:45:35.854640000 Z
+  updated_at: 2018-05-06 15:29:38.379601000 Z
 - code: equal_vision_records_yt:video:KuW08hIcwdw
   owner: equal_vision_records
+  owner_name: Equal Vision Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=KuW08hIcwdw
@@ -2675,9 +2891,10 @@
     href="https://www.youtube.com/watch?v=KuW08hIcwdw" target="_blank"><div class="image"
     data-image="https://i4.ytimg.com/vi/KuW08hIcwdw/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:45:35.858532000 Z
-  updated_at: 2018-05-06 14:45:35.858532000 Z
+  updated_at: 2018-05-06 15:29:38.382284000 Z
 - code: solid_state_records_https://twitter.com/solidstate/status/992818778428837888
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/734898262113538048/QDWiqjea_400x400.jpg
   url: https://twitter.com/solidstate/status/992818778428837888
@@ -2687,9 +2904,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Who is rocking some  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/demonhunterband">@<b>demonhunterband</b></a> merch today?
       <a target="_blank" href="http://bit.ly/2jusmCL">http://bit.ly/2jusmCL&nbsp;</a> </p> <a target="_blank" href="https://twitter.com/solidstate/status/992818778428837888" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DcczarjV0AAOQw8.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.276724000 Z
-  updated_at: 2018-05-06 14:47:11.276724000 Z
+  updated_at: 2018-05-06 15:29:38.385982000 Z
 - code: solid_state_records_https://twitter.com/solidstate/status/992203950601506816
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/734898262113538048/QDWiqjea_400x400.jpg
   url: https://twitter.com/solidstate/status/992203950601506816
@@ -2700,9 +2918,10 @@
 
     Also, you gotta watch their new mini-doc, 'Touring Dark Flag':   <a target="_blank" href="http://bit.ly/touringdarkflag">http://bit.ly/touringdarkflag&nbsp;</a> </p>
   created_at: 2018-05-06 14:47:11.280929000 Z
-  updated_at: 2018-05-06 14:47:11.280929000 Z
+  updated_at: 2018-05-06 15:29:38.388858000 Z
 - code: solid_state_records_https://twitter.com/solidstate/status/991799511155707904
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/734898262113538048/QDWiqjea_400x400.jpg
   url: https://twitter.com/solidstate/status/991799511155707904
@@ -2717,9 +2936,10 @@
 
     Get yours now:   <a target="_blank" href="http://bit.ly/deathgrip2018">http://bit.ly/deathgrip2018&nbsp;</a> </p> <a target="_blank" href="https://twitter.com/solidstate/status/991799511155707904" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DcOUZhqX4AUeKyh.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.284605000 Z
-  updated_at: 2018-05-06 14:47:11.284605000 Z
+  updated_at: 2018-05-06 15:29:38.391746000 Z
 - code: solid_state_records_https://twitter.com/solidstate/status/990675844589932549
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/734898262113538048/QDWiqjea_400x400.jpg
   url: https://twitter.com/solidstate/status/990675844589932549
@@ -2730,9 +2950,10 @@
 
     If you still want one, check our webstore before they sell out:   <a target="_blank" href="http://smarturl.it/solidstore">http://smarturl.it/solidstore&nbsp;</a> &#x1F6B2; &#x1F526;  </p> <a target="_blank" href="https://twitter.com/solidstate/status/990675844589932549" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/Db-WbcxWAAQ9cw5.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.290029000 Z
-  updated_at: 2018-05-06 14:47:11.290029000 Z
+  updated_at: 2018-05-06 15:29:38.395020000 Z
 - code: solid_state_records_https://twitter.com/solidstate/status/990282076657143808
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/734898262113538048/QDWiqjea_400x400.jpg
   url: https://twitter.com/solidstate/status/990282076657143808
@@ -2743,9 +2964,10 @@
 
     [ <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/earthgroans">@<b>EarthGroans</b></a> shot by Adam Nantz] </p> <a target="_blank" href="https://twitter.com/solidstate/status/990282076657143808" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/Db4wTNoXUAEsW8U.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.293667000 Z
-  updated_at: 2018-05-06 14:47:11.293667000 Z
+  updated_at: 2018-05-06 15:29:38.399181000 Z
 - code: solid_state_records_https://twitter.com/solidstate/status/990029621709197312
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/734898262113538048/QDWiqjea_400x400.jpg
   url: https://twitter.com/solidstate/status/990029621709197312
@@ -2755,9 +2977,10 @@
     our Essentials playlist to stay updated on all upcoming Solid State releases.
     There is some real heat coming your way. &#x1F525;   <a target="_blank" href="https://spoti.fi/2HVooRr">https://spoti.fi/2HVooRr&nbsp;</a></p>
   created_at: 2018-05-06 14:47:11.296775000 Z
-  updated_at: 2018-05-06 14:47:11.296775000 Z
+  updated_at: 2018-05-06 15:29:38.401859000 Z
 - code: solid_state_records_https://twitter.com/solidstate/status/989574958652186625
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/734898262113538048/QDWiqjea_400x400.jpg
   url: https://twitter.com/solidstate/status/989574958652186625
@@ -2768,9 +2991,10 @@
     href="https://twitter.com/PhinehasBand">@<b>PhinehasBand</b></a> this summer!
     Who is gonna be there?  <a target="_blank" href="https://twitter.com/PhinehasBand/status/989534876901756928">https://twitter.com/PhinehasBand/status/989534876901756928&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:47:11.300483000 Z
-  updated_at: 2018-05-06 14:47:11.300483000 Z
+  updated_at: 2018-05-06 15:29:38.406494000 Z
 - code: solid_state_records_https://twitter.com/solidstate/status/987767937640562688
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/734898262113538048/QDWiqjea_400x400.jpg
   url: https://twitter.com/solidstate/status/987767937640562688
@@ -2780,9 +3004,10 @@
     class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/fitforaking">@<b>fitforaking</b></a>
     track has the best breakdown? &#x1F918; </p>
   created_at: 2018-05-06 14:47:11.304831000 Z
-  updated_at: 2018-05-06 14:47:11.304831000 Z
+  updated_at: 2018-05-06 15:29:38.409405000 Z
 - code: solid_state_records_https://twitter.com/solidstate/status/987450556552630272
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/734898262113538048/QDWiqjea_400x400.jpg
   url: https://twitter.com/solidstate/status/987450556552630272
@@ -2792,9 +3017,10 @@
     run / Summer fun  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank"
     href="https://twitter.com/SLNTPLNT">@<b>SLNTPLNT</b></a>  <a target="_blank" href="https://twitter.com/SLNTPLNT/status/987363448714440704">https://twitter.com/SLNTPLNT/status/987363448714440704&nbsp;&hellip;</a></p>
   created_at: 2018-05-06 14:47:11.307993000 Z
-  updated_at: 2018-05-06 14:47:11.307993000 Z
+  updated_at: 2018-05-06 15:29:38.412215000 Z
 - code: solid_state_records_yt:video:xyY5OYPI_Rg
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=xyY5OYPI_Rg
@@ -2803,9 +3029,10 @@
   body: '<p>TOURING DARK FLAG: Mark Lewis</p><a href="https://www.youtube.com/watch?v=xyY5OYPI_Rg"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/xyY5OYPI_Rg/hqdefault.jpg"><img></div></a>'
   created_at: 2018-05-06 14:47:11.312715000 Z
-  updated_at: 2018-05-06 14:47:11.312715000 Z
+  updated_at: 2018-05-06 15:29:38.415899000 Z
 - code: solid_state_records_yt:video:PpgHVrwsRPQ
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=PpgHVrwsRPQ
@@ -2814,9 +3041,10 @@
   body: '<p>TOURING DARK FLAG: Dan Gailey</p><a href="https://www.youtube.com/watch?v=PpgHVrwsRPQ"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/PpgHVrwsRPQ/hqdefault.jpg"><img></div></a>'
   created_at: 2018-05-06 14:47:11.317093000 Z
-  updated_at: 2018-05-06 14:47:11.317093000 Z
+  updated_at: 2018-05-06 15:29:38.418123000 Z
 - code: solid_state_records_yt:video:Nbfpb75Zi3c
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=Nbfpb75Zi3c
@@ -2825,9 +3053,10 @@
   body: '<p>TOURING DARK FLAG: Sean McCulloch</p><a href="https://www.youtube.com/watch?v=Nbfpb75Zi3c"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/Nbfpb75Zi3c/hqdefault.jpg"><img></div></a>'
   created_at: 2018-05-06 14:47:11.325847000 Z
-  updated_at: 2018-05-06 14:47:11.325847000 Z
+  updated_at: 2018-05-06 15:29:38.420729000 Z
 - code: solid_state_records_yt:video:OSLo98Z3pl8
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=OSLo98Z3pl8
@@ -2836,9 +3065,10 @@
   body: '<p>TOURING DARK FLAG: Isaiah Perez</p><a href="https://www.youtube.com/watch?v=OSLo98Z3pl8"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/OSLo98Z3pl8/hqdefault.jpg"><img></div></a>'
   created_at: 2018-05-06 14:47:11.329846000 Z
-  updated_at: 2018-05-06 14:47:11.329846000 Z
+  updated_at: 2018-05-06 15:29:38.425744000 Z
 - code: solid_state_records_yt:video:SRHsY80etIY
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=SRHsY80etIY
@@ -2847,9 +3077,10 @@
   body: '<p>TOURING DARK FLAG: Phinehas</p><a href="https://www.youtube.com/watch?v=SRHsY80etIY"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/SRHsY80etIY/hqdefault.jpg"><img></div></a>'
   created_at: 2018-05-06 14:47:11.340156000 Z
-  updated_at: 2018-05-06 14:47:11.340156000 Z
+  updated_at: 2018-05-06 15:29:38.429321000 Z
 - code: solid_state_records_yt:video:5CPFXtrLUDw
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=5CPFXtrLUDw
@@ -2858,9 +3089,10 @@
   body: '<p>TOURING DARK FLAG: Bryce Kelley</p><a href="https://www.youtube.com/watch?v=5CPFXtrLUDw"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/5CPFXtrLUDw/hqdefault.jpg"><img></div></a>'
   created_at: 2018-05-06 14:47:11.346395000 Z
-  updated_at: 2018-05-06 14:47:11.346395000 Z
+  updated_at: 2018-05-06 15:29:38.433849000 Z
 - code: solid_state_records_yt:video:qW_4jQ8jwtw
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=qW_4jQ8jwtw
@@ -2869,9 +3101,10 @@
   body: <p>August Burns Red - The Eleventh Hour (Remixed)</p><a href="https://www.youtube.com/watch?v=qW_4jQ8jwtw"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/qW_4jQ8jwtw/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.353792000 Z
-  updated_at: 2018-05-06 14:47:11.353792000 Z
+  updated_at: 2018-05-06 15:29:38.439167000 Z
 - code: solid_state_records_yt:video:uyWQJFl3Pzk
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=uyWQJFl3Pzk
@@ -2880,9 +3113,10 @@
   body: <p>August Burns Red - Vital Signs (Remixed)</p><a href="https://www.youtube.com/watch?v=uyWQJFl3Pzk"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/uyWQJFl3Pzk/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.361908000 Z
-  updated_at: 2018-05-06 14:47:11.361908000 Z
+  updated_at: 2018-05-06 15:29:38.443093000 Z
 - code: solid_state_records_yt:video:DXFL34QWymI
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=DXFL34QWymI
@@ -2891,9 +3125,10 @@
   body: <p>August Burns Red - Up Against The Ropes (Remixed)</p><a href="https://www.youtube.com/watch?v=DXFL34QWymI"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/DXFL34QWymI/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.365587000 Z
-  updated_at: 2018-05-06 14:47:11.365587000 Z
+  updated_at: 2018-05-06 15:29:38.446123000 Z
 - code: solid_state_records_yt:video:zDhdbpc0NfQ
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=zDhdbpc0NfQ
@@ -2902,9 +3137,10 @@
   body: <p>August Burns Red - The Balance (Remixed)</p><a href="https://www.youtube.com/watch?v=zDhdbpc0NfQ"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/zDhdbpc0NfQ/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.369993000 Z
-  updated_at: 2018-05-06 14:47:11.369993000 Z
+  updated_at: 2018-05-06 15:29:38.450497000 Z
 - code: solid_state_records_yt:video:2iltcQzrqgc
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=2iltcQzrqgc
@@ -2913,9 +3149,10 @@
   body: <p>August Burns Red - Truth Of A Liar (Remixed)</p><a href="https://www.youtube.com/watch?v=2iltcQzrqgc"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/2iltcQzrqgc/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.373946000 Z
-  updated_at: 2018-05-06 14:47:11.373946000 Z
+  updated_at: 2018-05-06 15:29:38.453731000 Z
 - code: solid_state_records_yt:video:xnCA3R6gibs
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=xnCA3R6gibs
@@ -2924,9 +3161,10 @@
   body: <p>August Burn Red - Redemption (Remixed)</p><a href="https://www.youtube.com/watch?v=xnCA3R6gibs"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/xnCA3R6gibs/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.380890000 Z
-  updated_at: 2018-05-06 14:47:11.380890000 Z
+  updated_at: 2018-05-06 15:29:38.459015000 Z
 - code: solid_state_records_yt:video:ZHOTzQF_Z-g
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=ZHOTzQF_Z-g
@@ -2935,9 +3173,10 @@
   body: <p>August Burns Red - Back Burner (Remixed)</p><a href="https://www.youtube.com/watch?v=ZHOTzQF_Z-g"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/ZHOTzQF_Z-g/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.384847000 Z
-  updated_at: 2018-05-06 14:47:11.384847000 Z
+  updated_at: 2018-05-06 15:29:38.465205000 Z
 - code: solid_state_records_yt:video:QnamzbcZMUo
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=QnamzbcZMUo
@@ -2946,9 +3185,10 @@
   body: <p>August Burns Red - An American Dream (Remixed)</p><a href="https://www.youtube.com/watch?v=QnamzbcZMUo"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/QnamzbcZMUo/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.388322000 Z
-  updated_at: 2018-05-06 14:47:11.388322000 Z
+  updated_at: 2018-05-06 15:29:38.468991000 Z
 - code: solid_state_records_yt:video:OovlWt91kek
   owner: solid_state_records
+  owner_name: Solid State Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=OovlWt91kek
@@ -2957,9 +3197,10 @@
   body: <p>August Burns Red - Black Sheep (Remixed)</p><a href="https://www.youtube.com/watch?v=OovlWt91kek"
     target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/OovlWt91kek/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:47:11.391971000 Z
-  updated_at: 2018-05-06 14:47:11.391971000 Z
+  updated_at: 2018-05-06 15:29:38.471685000 Z
 - code: tooth_and_nail_records_https://twitter.com/toothandnail/status/992452671608119296
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/971515028665810945/MB4ZVXHw_400x400.jpg
   url: https://twitter.com/toothandnail/status/992452671608119296
@@ -2974,9 +3215,10 @@
     -&gt;   <a target=\"_blank\" href=\"http://smarturl.it/TalkAllNight\">http://smarturl.it/TalkAllNight&nbsp;</a>
     </p>"
   created_at: 2018-05-06 14:48:50.700711000 Z
-  updated_at: 2018-05-06 14:48:50.700711000 Z
+  updated_at: 2018-05-06 15:29:38.475531000 Z
 - code: tooth_and_nail_records_https://twitter.com/toothandnail/status/991724150694776833
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/971515028665810945/MB4ZVXHw_400x400.jpg
   url: https://twitter.com/toothandnail/status/991724150694776833
@@ -2990,9 +3232,10 @@
     href=\"https://twitter.com/YouTube\">@<b>YouTube</b></a>:   <a target=\"_blank\"
     href=\"http://youtu.be/9AN8n-M0eRk\">http://youtu.be/9AN8n-M0eRk&nbsp;</a> </p>"
   created_at: 2018-05-06 14:48:50.704298000 Z
-  updated_at: 2018-05-06 14:48:50.704298000 Z
+  updated_at: 2018-05-06 15:29:38.481384000 Z
 - code: tooth_and_nail_records_https://twitter.com/toothandnail/status/991532988612653062
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/971515028665810945/MB4ZVXHw_400x400.jpg
   url: https://twitter.com/toothandnail/status/991532988612653062
@@ -3001,9 +3244,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Less
     than 2 weeks until this record drops. &#x1F680;   <a target="_blank" href="http://bit.ly/lvstomach">http://bit.ly/lvstomach&nbsp;</a></p>
   created_at: 2018-05-06 14:48:50.711005000 Z
-  updated_at: 2018-05-06 14:48:50.711005000 Z
+  updated_at: 2018-05-06 15:29:38.484180000 Z
 - code: tooth_and_nail_records_https://twitter.com/toothandnail/status/989925503674003457
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/971515028665810945/MB4ZVXHw_400x400.jpg
   url: https://twitter.com/toothandnail/status/989925503674003457
@@ -3017,9 +3261,10 @@
     href=\"https://twitter.com/bestfitmusic\">@<b>bestfitmusic</b></a>:   <a target=\"_blank\"
     href=\"http://bit.ly/stomachlv\">http://bit.ly/stomachlv&nbsp;</a> </p>"
   created_at: 2018-05-06 14:48:50.715216000 Z
-  updated_at: 2018-05-06 14:48:50.715216000 Z
+  updated_at: 2018-05-06 15:29:38.487006000 Z
 - code: tooth_and_nail_records_https://twitter.com/toothandnail/status/989639078269210624
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/971515028665810945/MB4ZVXHw_400x400.jpg
   url: https://twitter.com/toothandnail/status/989639078269210624
@@ -3030,9 +3275,10 @@
     this debut album so special.\n\n  <a target=\"_blank\" href=\"http://flyt.it/labeledpodcast\">http://flyt.it/labeledpodcast&nbsp;</a>
     </p>"
   created_at: 2018-05-06 14:48:50.719432000 Z
-  updated_at: 2018-05-06 14:48:50.719432000 Z
+  updated_at: 2018-05-06 15:29:38.491512000 Z
 - code: tooth_and_nail_records_https://twitter.com/toothandnail/status/988567737789104128
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/971515028665810945/MB4ZVXHw_400x400.jpg
   url: https://twitter.com/toothandnail/status/988567737789104128
@@ -3045,9 +3291,10 @@
     </p> <a target="_blank" href="https://twitter.com/toothandnail/status/988567737789104128"
     target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DbgZCG5V0AEtHX8.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.723000000 Z
-  updated_at: 2018-05-06 14:48:50.723000000 Z
+  updated_at: 2018-05-06 15:29:38.494465000 Z
 - code: tooth_and_nail_records_https://twitter.com/toothandnail/status/988996283183616001
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/971515028665810945/MB4ZVXHw_400x400.jpg
   url: https://twitter.com/toothandnail/status/988996283183616001
@@ -3057,9 +3304,10 @@
     class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/ItsLeVoyageur">@<b>itslevoyageur</b></a>
     track is your favorite so far? &#x1F680;   <a target="_blank" href="https://spoti.fi/2HpTehn">https://spoti.fi/2HpTehn&nbsp;</a></p>
   created_at: 2018-05-06 14:48:50.726687000 Z
-  updated_at: 2018-05-06 14:48:50.726687000 Z
+  updated_at: 2018-05-06 15:29:38.497801000 Z
 - code: tooth_and_nail_records_https://twitter.com/toothandnail/status/986676870648283137
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/971515028665810945/MB4ZVXHw_400x400.jpg
   url: https://twitter.com/toothandnail/status/986676870648283137
@@ -3071,9 +3319,10 @@
 
     The new  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/HeartsLikeLions">@<b>HeartsLikeLions</b></a> video for "Get This Through" is still on heavy rotation over here. Check it out!   <a target="_blank" href="http://bit.ly/2I5ZT0f">http://bit.ly/2I5ZT0f&nbsp;</a> &#x2B50;  </p> <a target="_blank" href="https://twitter.com/toothandnail/status/986676870648283137" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DbFhQ7xV4AAZR2k.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.733570000 Z
-  updated_at: 2018-05-06 14:48:50.733570000 Z
+  updated_at: 2018-05-06 15:29:38.502932000 Z
 - code: tooth_and_nail_records_https://twitter.com/toothandnail/status/983494524939984896
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/971515028665810945/MB4ZVXHw_400x400.jpg
   url: https://twitter.com/toothandnail/status/983494524939984896
@@ -3087,9 +3336,10 @@
 
     Introducing "Punk Rawk Show": a brand new Tooth &amp; Nail-curated playlist featuring all your favorite T&amp;N pop punk jams. Which other songs should we add? </p> <a target="_blank" href="https://twitter.com/toothandnail/status/983494524939984896" target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/DaYTDqoXUAAlxlU.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.739441000 Z
-  updated_at: 2018-05-06 14:48:50.739441000 Z
+  updated_at: 2018-05-06 15:29:38.506394000 Z
 - code: tooth_and_nail_records_yt:video:OJsA5s96mqI
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=OJsA5s96mqI
@@ -3099,9 +3349,10 @@
     href="https://www.youtube.com/watch?v=OJsA5s96mqI" target="_blank"><div class="image"
     data-image="https://i4.ytimg.com/vi/OJsA5s96mqI/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.744655000 Z
-  updated_at: 2018-05-06 14:48:50.744655000 Z
+  updated_at: 2018-05-06 15:29:38.509747000 Z
 - code: tooth_and_nail_records_yt:video:9AN8n-M0eRk
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=9AN8n-M0eRk
@@ -3110,9 +3361,10 @@
   body: <p>LOYALS - IDC (Official Listening Video)</p><a href="https://www.youtube.com/watch?v=9AN8n-M0eRk"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/9AN8n-M0eRk/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.750336000 Z
-  updated_at: 2018-05-06 14:48:50.750336000 Z
+  updated_at: 2018-05-06 15:29:38.512734000 Z
 - code: tooth_and_nail_records_yt:video:Ugi30CyR2lk
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=Ugi30CyR2lk
@@ -3121,9 +3373,10 @@
   body: <p>Le Voyageur - Stomach</p><a href="https://www.youtube.com/watch?v=Ugi30CyR2lk"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/Ugi30CyR2lk/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.755671000 Z
-  updated_at: 2018-05-06 14:48:50.755671000 Z
+  updated_at: 2018-05-06 15:29:38.518186000 Z
 - code: tooth_and_nail_records_yt:video:-JAYbL6kXNk
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=-JAYbL6kXNk
@@ -3132,9 +3385,10 @@
   body: <p>Le Voyageur - Not Alone (Longevity)</p><a href="https://www.youtube.com/watch?v=-JAYbL6kXNk"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/-JAYbL6kXNk/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.761100000 Z
-  updated_at: 2018-05-06 14:48:50.761100000 Z
+  updated_at: 2018-05-06 15:29:38.521282000 Z
 - code: tooth_and_nail_records_yt:video:qQ4kdtdoOTc
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=qQ4kdtdoOTc
@@ -3143,9 +3397,10 @@
   body: <p>Le Voyageur - Lose Control (Official Audio)</p><a href="https://www.youtube.com/watch?v=qQ4kdtdoOTc"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/qQ4kdtdoOTc/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.776314000 Z
-  updated_at: 2018-05-06 14:48:50.776314000 Z
+  updated_at: 2018-05-06 15:29:38.525560000 Z
 - code: tooth_and_nail_records_yt:video:TZAT0OaNRLs
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=TZAT0OaNRLs
@@ -3154,9 +3409,10 @@
   body: <p>Hearts Like Lions - Get This Through (Official Video)</p><a href="https://www.youtube.com/watch?v=TZAT0OaNRLs"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/TZAT0OaNRLs/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.788116000 Z
-  updated_at: 2018-05-06 14:48:50.788116000 Z
+  updated_at: 2018-05-06 15:29:38.535110000 Z
 - code: tooth_and_nail_records_yt:video:2ehgxIsIEco
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=2ehgxIsIEco
@@ -3165,9 +3421,10 @@
   body: <p>Tyson Motsenbocker - Rust (Live)</p><a href="https://www.youtube.com/watch?v=2ehgxIsIEco"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/2ehgxIsIEco/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.792147000 Z
-  updated_at: 2018-05-06 14:48:50.792147000 Z
+  updated_at: 2018-05-06 15:29:38.540200000 Z
 - code: tooth_and_nail_records_yt:video:4ioSlwQ1rkY
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=4ioSlwQ1rkY
@@ -3176,9 +3433,10 @@
   body: '<p>Off Road Minivan: About The Band (Pt. 4)</p><a href="https://www.youtube.com/watch?v=4ioSlwQ1rkY"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/4ioSlwQ1rkY/hqdefault.jpg"><img></div></a>'
   created_at: 2018-05-06 14:48:50.797653000 Z
-  updated_at: 2018-05-06 14:48:50.797653000 Z
+  updated_at: 2018-05-06 15:29:38.545501000 Z
 - code: tooth_and_nail_records_yt:video:X7vh0wdIH-E
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=X7vh0wdIH-E
@@ -3187,9 +3445,10 @@
   body: '<p>Off Road Minivan: About The Band (Pt. 3)</p><a href="https://www.youtube.com/watch?v=X7vh0wdIH-E"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/X7vh0wdIH-E/hqdefault.jpg"><img></div></a>'
   created_at: 2018-05-06 14:48:50.802033000 Z
-  updated_at: 2018-05-06 14:48:50.802033000 Z
+  updated_at: 2018-05-06 15:29:38.548360000 Z
 - code: tooth_and_nail_records_yt:video:Y03pTA4qwzw
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=Y03pTA4qwzw
@@ -3198,9 +3457,10 @@
   body: <p>Off Road Minivan - 17 Years (Official Lyric Video)</p><a href="https://www.youtube.com/watch?v=Y03pTA4qwzw"
     target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/Y03pTA4qwzw/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.805713000 Z
-  updated_at: 2018-05-06 14:48:50.805713000 Z
+  updated_at: 2018-05-06 15:29:38.554728000 Z
 - code: tooth_and_nail_records_yt:video:rLYWT7DkdK0
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=rLYWT7DkdK0
@@ -3209,9 +3469,10 @@
   body: <p>Off Road Minivan - Light Up the Room (Official Lyric Video)</p><a href="https://www.youtube.com/watch?v=rLYWT7DkdK0"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/rLYWT7DkdK0/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.809520000 Z
-  updated_at: 2018-05-06 14:48:50.809520000 Z
+  updated_at: 2018-05-06 15:29:38.559664000 Z
 - code: tooth_and_nail_records_yt:video:j6Nuz_yyvEo
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=j6Nuz_yyvEo
@@ -3220,9 +3481,10 @@
   body: <p>Off Road Minivan - Glow (Official Lyric Video)</p><a href="https://www.youtube.com/watch?v=j6Nuz_yyvEo"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/j6Nuz_yyvEo/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.815097000 Z
-  updated_at: 2018-05-06 14:48:50.815097000 Z
+  updated_at: 2018-05-06 15:29:38.563141000 Z
 - code: tooth_and_nail_records_yt:video:F48fn5zGGAk
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=F48fn5zGGAk
@@ -3231,9 +3493,10 @@
   body: '<p>Off Road Minivan: About The Band (Pt. 2)</p><a href="https://www.youtube.com/watch?v=F48fn5zGGAk"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/F48fn5zGGAk/hqdefault.jpg"><img></div></a>'
   created_at: 2018-05-06 14:48:50.819421000 Z
-  updated_at: 2018-05-06 14:48:50.819421000 Z
+  updated_at: 2018-05-06 15:29:38.567298000 Z
 - code: tooth_and_nail_records_yt:video:pgK6T9zmclM
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=pgK6T9zmclM
@@ -3242,9 +3505,10 @@
   body: <p>Off Road Minivan - Spiral Gaze (Official Music Video)</p><a href="https://www.youtube.com/watch?v=pgK6T9zmclM"
     target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/pgK6T9zmclM/hqdefault.jpg"><img></div></a>
   created_at: 2018-05-06 14:48:50.825705000 Z
-  updated_at: 2018-05-06 14:48:50.825705000 Z
+  updated_at: 2018-05-06 15:29:38.570432000 Z
 - code: tooth_and_nail_records_yt:video:jVvSgbj3itQ
   owner: tooth_and_nail_records
+  owner_name: Tooth and Nail Records
   feed_type: youtube
   icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
   url: https://www.youtube.com/watch?v=jVvSgbj3itQ
@@ -3253,9 +3517,10 @@
   body: '<p>Off Road Minivan: About The Band (Pt. 1)</p><a href="https://www.youtube.com/watch?v=jVvSgbj3itQ"
     target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/jVvSgbj3itQ/hqdefault.jpg"><img></div></a>'
   created_at: 2018-05-06 14:48:50.833211000 Z
-  updated_at: 2018-05-06 14:48:50.833211000 Z
+  updated_at: 2018-05-06 15:29:38.576307000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/236300917853548545
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/236300917853548545
@@ -3266,9 +3531,10 @@
 
     Full details here  <a class="twitter-timeline-link"  dir="ltr" target="_blank" href="http://t.co/CQ0DZzb0" rel="nofollow noopener"  title="http://tinyurl.com/9o2snul">http://tinyurl.com/9o2snul&nbsp;</a></p>
   created_at: 2018-05-06 14:51:27.287034000 Z
-  updated_at: 2018-05-06 14:51:27.287034000 Z
+  updated_at: 2018-05-06 15:29:38.581909000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/234817387780767744
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/234817387780767744
@@ -3280,9 +3546,10 @@
     href=\"http://t.co/j7YHZNkG\" rel=\"nofollow noopener\"  title=\"http://tinyurl.com/7mcjj78\">http://tinyurl.com/7mcjj78&nbsp;</a>
     \nTix selling fast BNE &amp; SYD also</p>"
   created_at: 2018-05-06 14:51:27.291855000 Z
-  updated_at: 2018-05-06 14:51:27.291855000 Z
+  updated_at: 2018-05-06 15:29:38.586057000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/220715449137119232
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/220715449137119232
@@ -3292,9 +3559,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Excited to announce Jonah Matranga's Aus tour this Sept. For More info
      <a class="twitter-timeline-link"  dir="ltr" target="_blank" href="http://t.co/1bKsQYby" rel="nofollow noopener"  title="http://tinyurl.com/8yfocoa">http://tinyurl.com/8yfocoa&nbsp;</a></p>
   created_at: 2018-05-06 14:51:27.294975000 Z
-  updated_at: 2018-05-06 14:51:27.294975000 Z
+  updated_at: 2018-05-06 15:29:38.590729000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/216056541026062336
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/216056541026062336
@@ -3307,9 +3575,10 @@
     \ dir=\"ltr\" target=\"_blank\" href=\"http://t.co/fQkDWyEY\" rel=\"nofollow noopener\"
     \ title=\"http://tinyurl.com/6mln598\">http://tinyurl.com/6mln598&nbsp;</a></p>"
   created_at: 2018-05-06 14:51:27.298288000 Z
-  updated_at: 2018-05-06 14:51:27.298288000 Z
+  updated_at: 2018-05-06 15:29:38.595680000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/215950120104108033
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/215950120104108033
@@ -3319,9 +3588,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">TICKETS ON SALE NOW FOR  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/Cartel">@<b>cartel</b></a>  AUS TOUR. First 50 pre sale tix at each show receives a cartel tour poster upon entry.
      <a class="twitter-timeline-link"  dir="ltr" target="_blank" href="http://t.co/fQkDWyEY" rel="nofollow noopener"  title="http://tinyurl.com/6mln598">http://tinyurl.com/6mln598&nbsp;</a></p>
   created_at: 2018-05-06 14:51:27.303096000 Z
-  updated_at: 2018-05-06 14:51:27.303096000 Z
+  updated_at: 2018-05-06 15:29:38.599436000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/215676282426503168
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/215676282426503168
@@ -3331,9 +3601,10 @@
     <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">Check out this sweet review for We Rob Banks Debut EP ' The House Of Gonzo'
      <a class="twitter-timeline-link"  dir="ltr" target="_blank" href="http://t.co/4GZecMBZ" rel="nofollow noopener"  title="http://tinyurl.com/6ty5xmv">http://tinyurl.com/6ty5xmv&nbsp;</a></p>
   created_at: 2018-05-06 14:51:27.306860000 Z
-  updated_at: 2018-05-06 14:51:27.306860000 Z
+  updated_at: 2018-05-06 15:29:38.602384000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/215673968072474624
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/215673968072474624
@@ -3345,9 +3616,10 @@
     9.00am. A new Melbourne All Ages show has been added . For more info :  <a class="twitter-timeline-link"  dir="ltr"
     target="_blank" href="http://t.co/fQkDWyEY" rel="nofollow noopener"  title="http://tinyurl.com/6mln598">http://tinyurl.com/6mln598&nbsp;</a></p>'
   created_at: 2018-05-06 14:51:27.310813000 Z
-  updated_at: 2018-05-06 14:51:27.310813000 Z
+  updated_at: 2018-05-06 15:29:38.607002000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/213058776016752640
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/213058776016752640
@@ -3356,9 +3628,10 @@
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">We
     are excited to be announcing a new tour today at 12pm. Any guesses.</p>
   created_at: 2018-05-06 14:51:27.314361000 Z
-  updated_at: 2018-05-06 14:51:27.314361000 Z
+  updated_at: 2018-05-06 15:29:38.610276000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/203050647858327552
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/203050647858327552
@@ -3369,9 +3642,10 @@
     href="https://twitter.com/themish">@<b>themish</b></a> tour starts tomorrow on
     the Goldy! Who has tickets to shows in their city?!</p>
   created_at: 2018-05-06 14:51:27.318368000 Z
-  updated_at: 2018-05-06 14:51:27.318368000 Z
+  updated_at: 2018-05-06 15:29:38.614626000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/134583334704644096
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/134583334704644096
@@ -3381,9 +3655,10 @@
     hey dude were you looking for Andrew? Is everything sorted for what you were after?
     -fiona</p>
   created_at: 2018-05-06 14:51:27.322877000 Z
-  updated_at: 2018-05-06 14:51:27.322877000 Z
+  updated_at: 2018-05-06 15:29:38.620022000 Z
 - code: taperjean_records_https://twitter.com/Taperjeanrec/status/123639141689864192
   owner: taperjean_records
+  owner_name: Taperjean Records
   feed_type: twitter
   icon: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
   url: https://twitter.com/Taperjeanrec/status/123639141689864192
@@ -3394,4 +3669,4 @@
     pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/homeandhosed">@<b>homeandhosed</b></a>
     , tune in from 9pm!!! RT</p>
   created_at: 2018-05-06 14:51:27.329439000 Z
-  updated_at: 2018-05-06 14:51:27.329439000 Z
+  updated_at: 2018-05-06 15:29:38.623664000 Z

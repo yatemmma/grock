@@ -1,5 +1,6 @@
 require "./utils/importer"
 require "./utils/site"
+require "./utils/crowler"
 
 class App < Sinatra::Base
 
@@ -9,6 +10,12 @@ class App < Sinatra::Base
 
   get "/admin/api/site_title" do
     Site.get_title(URI.unescape(params["url"]))
+  end
+
+  get "/admin/api/update_feed" do
+    feed = Crowler.new(params["model"], params["code"])
+    feed.update
+    200
   end
 
   post "/admin/api/settings" do

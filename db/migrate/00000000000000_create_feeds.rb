@@ -3,6 +3,7 @@ class CreateFeeds < ActiveRecord::Migration[5.2]
     create_table :feeds, id: false do |t|
         t.string   :code, null: false
         t.string   :owner
+        t.string   :owner_name
         t.string   :feed_type
         t.string   :icon
         t.string   :url

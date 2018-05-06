@@ -1,1 +1,6 @@
-main
+<% unless (item.videos.nil? || item.videos.empty?) %>
+  <div id="main-video" class="youtube" data-key="<%= item.videos %>"></div>
+<% else %>
+  <div class="image main-image" data-image="<%= item.main_image %>"><img></div>
+<% end %>
+<h2><%= item.title %></h2>

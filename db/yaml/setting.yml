@@ -2,7 +2,7 @@
 - code: genres
   json: '{"hoge":"hogehoge","hoge2":"hogehoge2","hoge3":"hogehoge2xxx"}'
 - code: sites
-  json: '{"hoge":"hogehoge","hoge2":"hogehoge2","hoge3":"hogehoge2xxx"}'
+  json: '{"apple":"Apple Music","play":"Google Play","spotify":"Spotify","soundcloud":"SoundCloud","bandcamp":"Bandcamp","amazon":"Amazon","youtube":"YouTube","website":"Website","wikipedia":"Wikipedia","twitter":"Twitter","facebook":"Facebook","instagram":"Instagram","purevolume":"PureVolume","myspace":"MySpace","lastfm":"Last.fm","discogs":"Discogs","teaser":"Teaser","playlist":"Playlist","search":"Search","link":"Link"}'
 - code: disc_types
   json: '{"hoge":"hogehoge","hoge2":"hogehoge2","hoge3":"hogehoge2xxx"}'
 - code: date_labels

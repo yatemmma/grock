@@ -24,7 +24,6 @@ class App < Sinatra::Base
 
     @labels = Label.all
     @feeds = Feed.all
-    @settings = Setting.all
   end
 
   before do
@@ -37,23 +36,6 @@ class App < Sinatra::Base
 
   get "/index.html" do
     erb :index, {title: nil}
-  end
-
-  get "/labels.html" do
-    erb :labels, {title: "Labels"}
-  end
-
-  get "/label/:id.html" do |id|
-    @label = Label.find_by(code: id)
-    erb :label, {title: "Labels", label: @label}
-  end
-
-  post "/admin/api/settings" do
-    setting = Setting.find_by(code: params["code"])
-    setting.json = params["json"]
-    setting.save
-    @settings = Setting.all
-    200
   end
 end
 

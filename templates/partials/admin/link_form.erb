@@ -1,0 +1,7 @@
+<label>
+  <span>
+    <a href="<%= search_link(:google, "#{item.name} #{Setting.sites.to_hash[site]}") %>" target="_blank"><%= site %></a>:
+    <button onclick="onClickSite(this)">T</button>
+  </span>
+  <input form="form1" name="<%= site %>" type="text" value="<%= item.send(site) %>" />
+</label>

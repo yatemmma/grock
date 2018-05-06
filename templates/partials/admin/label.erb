@@ -1,0 +1,20 @@
+<% if admin? %>
+<%= partial :"admin/common", {item: @label} %>
+
+<div class="block admin">
+  <%= partial :"admin/text_form", {item: @label, key: "code"} %>
+  <%= partial :"admin/text_form", {item: @label, key: "name"} %>
+  <%= partial :"admin/text_form", {item: @label, key: "origin"} %>
+  <%= partial :"admin/text_form", {item: @label, key: "images"} %>
+  <%= partial :"admin/text_form", {item: @label, key: "videos"} %>
+  <% Label.site_keys.each do |site| %>
+    <%= partial :"admin/link_form", {item: @label, site: site} %>
+  <% end %>
+  <%= partial :"admin/text_form", {item: @label, key: "links"} %>
+  <%= partial :"admin/text_block", {item: @label, key: "published_at"} %>
+  <%= partial :"admin/text_block", {item: @label, key: "created_at"} %>
+  <%= partial :"admin/text_block", {item: @label, key: "updated_at"} %>
+  <%= partial :"admin/body_form", {item: @label} %>
+  <%= partial :"admin/submit", {item: @label} %>
+</div>
+<% end %>

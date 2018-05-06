@@ -4,6 +4,13 @@ class App < Sinatra::Base
     erb :admin, {title: "Admin Console"}
   end
 
+  post "/admin/api/settings" do
+    setting = Setting.find_by(code: params["code"])
+    setting.json = params["json"]
+    setting.save
+    200
+  end
+
   get "/admin/api/export" do
     Importer.export(params["model"])
     200

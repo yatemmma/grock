@@ -1,7 +1,19 @@
-<%= partial :main %>
+<%= partial :main, {item: @label} %>
 
 <div class="contents">
+  <%= partial :body, {item: @label} %>
+  <%= partial :sns, {item: @label} %>
+
+  <% Label.site_keys.each do |site| %>
+    <%= partial :site, {site: site, link_value: @label.send(site)} %>
+  <% end %>
+  <% @label.link_list.each do |site| %>
+    <%= partial :site, {site: "link", link_value: site} %>
+  <% end %>
+
+  <%= partial :"admin/label" %>
 </div>
 
 <div class="sub-contents">
+  <%= partial :feeds, {item: @label} %>
 </div>

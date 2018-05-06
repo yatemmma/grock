@@ -1,0 +1,42 @@
+<style>
+  .admin label span {
+    width: 18%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top; }
+
+  .admin label input,
+  .admin label select,
+  .admin label textarea {
+    width: 80%;
+    margin-bottom: 4px; }
+
+  .admin label textarea {
+    height: 200px; }
+
+  .admin form {
+      text-align: right;
+      margin: 16px 0; }
+</style>
+
+<script>
+function update() {
+  const code = document.querySelector("#form1").getAttribute("data-code")
+  document.form1.action = "<%= link("#{item.class.to_s.downcase}/") %>" + (code ? "update" : "create") + "/" + code
+  document.form1.submit()
+}
+
+function del() {
+  if (window.confirm("delete?")) {
+    document.form1.action = "<%= link("#{item.class.to_s.downcase}/delete") %>"
+    document.form1.submit()
+	}
+}
+
+function onChangeText(key, e) {
+  if (key == "name" && !document.querySelector("#form1").getAttribute("data-code")) {
+    const code = e.value.toLowerCase().replace(/\s/g, "_")
+    document.querySelector("#code").value = code
+  }
+}
+</script>

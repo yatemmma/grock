@@ -19,6 +19,15 @@ class JSableERB < ERB
   end
 end
 
+class String
+  def divide
+    words = self.split(" ")
+    code = words.shift
+    title = words.empty? ? code : words.join(" ")
+    [code, title]
+  end
+end
+
 module ERBHelper
   def admin?
     @is_admin
@@ -30,6 +39,18 @@ module ERBHelper
 
   def page_title(title)
     [title, "G-ROCK"].compact.join(" | ")
+  end
+
+  def search_link(type_sym, word)
+    text = URI.encode_www_form_component(word)
+    case type_sym
+    when :google
+      "https://www.google.co.jp/search?q=" + text
+    when :youtube
+      "https://www.youtube.com/results?search_query=" + text
+    else
+      nil
+    end
   end
 
   def erb(name, locals = {})

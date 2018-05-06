@@ -1,0 +1,9 @@
+<div class="feeds">
+  <% item.feeds.each do |feed| %>
+    <div class="feed">
+      <a class="title" href="<%= feed["url"] %>" target="_blank"><%= feed["title"] %></a>
+      <div class="date"><%= feed["date"] %></div>
+      <div class="body"><%= feed["body"] %></div>
+    </div>
+  <% end %>
+</div>

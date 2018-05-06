@@ -11,9 +11,10 @@
   twitter: https://twitter.com/riserecords Rise Records(@riserecords) | Twitter
   facebook: https://www.facebook.com/RiseRecords/ Rise Records - Home | Facebook
   links: ''
+  feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.365881000 Z
-  updated_at: 2018-05-06 12:37:55.243261000 Z
+  updated_at: 2018-05-06 13:19:03.737738000 Z
 - code: uprising_records
   name: Uprising Records
   founded: '1994'
@@ -27,9 +28,10 @@
   twitter: ''
   facebook: ''
   links: ''
+  feeds: http://www.uprisingrecords.com/feed/rss/
   body: ''
   created_at: 2018-05-05 16:35:43.369937000 Z
-  updated_at: 2018-05-06 12:46:23.170827000 Z
+  updated_at: 2018-05-06 13:19:25.720252000 Z
 - code: invogue_records
   name: InVogue Records
   founded: 
@@ -42,6 +44,7 @@
   twitter: https://twitter.com/invoguerecords
   facebook: ''
   links: '[""]'
+  feeds: 
   body: ''
   created_at: 2018-05-05 16:35:43.373819000 Z
   updated_at: 2018-05-05 16:35:43.373819000 Z
@@ -57,6 +60,7 @@
   twitter: https://twitter.com/victoryrecords
   facebook: https://www.facebook.com/VictoryRecords/
   links: '[""]'
+  feeds: 
   body: ''
   created_at: 2018-05-05 16:35:43.378230000 Z
   updated_at: 2018-05-05 16:35:43.378230000 Z
@@ -72,6 +76,7 @@
   twitter: https://twitter.com/arteryrecording
   facebook: https://www.facebook.com/ArteryRecordings
   links: '[""]'
+  feeds: 
   body: ''
   created_at: 2018-05-05 16:35:43.384479000 Z
   updated_at: 2018-05-05 16:35:43.384479000 Z
@@ -87,6 +92,7 @@
   twitter: ''
   facebook: ''
   links: '[""]'
+  feeds: 
   body: ''
   created_at: 2018-05-05 16:35:43.388163000 Z
   updated_at: 2018-05-05 16:35:43.388163000 Z
@@ -102,6 +108,7 @@
   twitter: https://twitter.com/mediaskare
   facebook: https://www.facebook.com/mediaskare/
   links: '[""]'
+  feeds: 
   body: ''
   created_at: 2018-05-05 16:35:43.392938000 Z
   updated_at: 2018-05-05 16:35:43.392938000 Z
@@ -117,6 +124,7 @@
   twitter: https://twitter.com/zestonethj
   facebook: https://www.facebook.com/zestonerecords/
   links: '[""]'
+  feeds: 
   body: ''
   created_at: 2018-05-05 16:35:43.397717000 Z
   updated_at: 2018-05-05 16:35:43.397717000 Z
@@ -132,6 +140,7 @@
   twitter: https://twitter.com/taperjeanrec
   facebook: ''
   links: '["https://taperjean.bandcamp.com/"]'
+  feeds: 
   body: ''
   created_at: 2018-05-05 16:35:43.403015000 Z
   updated_at: 2018-05-05 16:35:43.403015000 Z
@@ -147,6 +156,7 @@
   twitter: https://twitter.com/equalvision
   facebook: ''
   links: '[""]'
+  feeds: 
   body: ''
   created_at: 2018-05-05 16:35:43.408173000 Z
   updated_at: 2018-05-05 16:35:43.408173000 Z
@@ -162,6 +172,7 @@
   twitter: https://twitter.com/solidstate
   facebook: https://www.facebook.com/solidstate
   links: '[""]'
+  feeds: 
   body: ''
   created_at: 2018-05-05 16:35:43.414223000 Z
   updated_at: 2018-05-05 16:35:43.414223000 Z
@@ -177,6 +188,7 @@
   twitter: https://twitter.com/toothandnail
   facebook: https://www.facebook.com/toothandnail
   links: '[""]'
+  feeds: 
   body: ''
   created_at: 2018-05-05 16:35:43.437010000 Z
   updated_at: 2018-05-05 16:35:43.437010000 Z

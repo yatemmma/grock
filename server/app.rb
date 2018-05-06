@@ -99,7 +99,7 @@ class FeedParser
         body = body.gsub(/(\[\.\.\.\])/){
           "<a href=\"#{item[:link]}\" target=\"_blank\">#{$1}</a>"
         }
-        body = "<p>#{body}</p>"
+        body = "<p>#{item[:title]}</p><p>#{body}</p>"
 
         info = {
            code: "#{code}_#{item[:id] || item[:link]}",

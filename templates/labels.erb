@@ -1,3 +1,27 @@
-<% @labels.each do |label| %>
-  <li><a href="./label/<%= label.code %>.html"><%= label.name %></a></li>
-<% end %>
+<table id="items">
+  <thead class="hidden-on-mobile">
+    <tr>
+      <th>
+        <input id="search-name" type="text" placeholder="Label Name"></input>
+        <a onclick="sort('name')"><i class="fas fa-sort"></i></a>
+      </th>
+      <th>
+        <input id="search-country" type="text" placeholder="Country"></input>
+        <a onclick="sort('country')"><i class="fas fa-sort"></i></a>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @labels.each_with_index do |item, i| %>
+      <tr class="<%= "odd" unless i%2 == 0 %>" onclick="location.href = '<%= link("label/#{item.code}.html") %>'">
+        <td><%= item.name %></td>
+        <td><%= item.origin_full %></td>
+      </tr>
+    <% end %>
+  </tbody>
+  <template id="item-row">
+      <tr style="display:none;" onclick="onClickRow(this)">
+        <td></td>
+      </tr>
+  </template>
+</table>

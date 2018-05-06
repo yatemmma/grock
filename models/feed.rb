@@ -11,4 +11,8 @@ class Feed < ActiveRecord::Base
 			self.url.split("/").last.split("=").last
 		end
 	end
+
+	def feed_date
+		self.date.getlocal.strftime("%Y/%m/%d %H:%M:%S")
+	end
 end

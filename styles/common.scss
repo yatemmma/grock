@@ -53,3 +53,9 @@ a {
   color: $PRIMARY_A_COLOR;
   text-decoration: none;
 }
+
+@include screen-mobile {
+  .hidden-on-mobile {
+    display: none !important;
+  }
+}

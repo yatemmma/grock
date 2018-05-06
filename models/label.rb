@@ -70,4 +70,8 @@ class Label < ActiveRecord::Base
 	def link_list
 		self.links.nil? ? [] : self.links.split(",")
 	end
+
+	def updated_date
+		self.updated_at.getlocal.strftime("%Y/%m/%d %H:%M:%S")
+	end
 end

@@ -1,9 +1,3 @@
-@include screen-mobile {
-  .contents-wrapper .hidden-on-mobile {
-    display: none;
-  }
-}
-
 .contents-wrapper #items {
   margin: 0 1%;
   border-collapse: collapse;

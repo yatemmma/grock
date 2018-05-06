@@ -4,7 +4,7 @@
   <%= partial :body, {item: @label} %>
   <%= partial :sns, {item: @label} %>
 
-  <%= partial :band, {item: @label, text: ["", @label.name]} %>
+  <%= partial :band, {item: @label, text: ["", @label.name], class_names: ""} %>
 
   <%= partial :text, {text: @label.founded, class_names: "active"} %>
   <%= partial :text, {text: @label.origin_full, class_names: "origin"} %>

@@ -1,17 +1,23 @@
+<%
+  video_list = "NNHGABwme50,9uar92t7Fzw,sdnLavmbtUQ,_RRbVhobb9o"
+%>
+<div id="main-video" class="youtube" data-key="<%= video_list %>"></div>
 
 <div class="sub-contents">
   <h3>Latest Updates</h3>
   <div class="posts">
   <%
-    items = Label.all.sort_by {|item| item.updated_at}.reverse
-    items.each do |item|
+    items = Label.all.limit(30)
+    items = items.sort_by {|item| item.updated_at}.reverse[0, 30]
+    items.each_with_index do |item, i|
       case item.class.to_s
       when "Label"
         type = "band"
-        args = ["", item.name, item.updated_at]
+        args = ["", item.name, item.updated_date]
       end
+      class_name = (i < 3) ? "" : "hidden-on-mobile"
   %>
-    <%= partial type.to_sym, {item: item, text: args} %>
+    <%= partial type.to_sym, {item: item, text: args, class_names: class_name} %>
   <% end %>
   </div>
 </div>

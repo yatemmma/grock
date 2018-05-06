@@ -66,22 +66,40 @@
       }
     }
 
+    .posts,
     .releases {
-
-      .release {
+      .block {
         display: block;
-        margin-bottom: 32px;
+        background-color: $CLICK_BGA_COLOR;
+        padding: 16px;
+        margin: 8px 0;
         text-align: center;
+        @include clearfix;
 
         .image {
-          height: 240px;
-          background-color: inherit;
+          width: 200px;
+          height: 200px;
+          background-color: $PRIMARY_BG_COLOR;
+          margin: 0 auto;
         }
 
         .desc {
-          margin-top: 1em;
+          text-align: center;
+          margin-bottom: 8px;
+        }
+      }
+
+      a.block:hover {
+        background-color: $SECONDARY_BG_COLOR;
+      }
+
+      .wide {
+        .image {
+          width: 80%;
+          min-width: 206px;
         }
       }
     }
+
   }
 }

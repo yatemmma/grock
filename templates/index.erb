@@ -1,3 +1,29 @@
+
 <div class="sub-contents">
+  <h3>Latest Updates</h3>
+  <div class="posts">
+  <%
+    items = Label.all.sort_by {|item| item.updated_at}.reverse
+    items.each do |item|
+      case item.class.to_s
+      when "Label"
+        type = "band"
+        args = ["", item.name, item.updated_at]
+      end
+  %>
+    <%= partial type.to_sym, {item: item, text: args} %>
+  <% end %>
+  </div>
+</div>
+
+<div class="sub-contents">
+  <h3>Releases</h3>
+  <div class="releases">
+
+  </div>
+</div>
+
+<div class="sub-contents">
+  <h3>News Feeds</h3>
   <%= partial :feeds, {item: nil} %>
 </div>

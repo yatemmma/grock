@@ -40,6 +40,16 @@ class App < Sinatra::Base
   get "/index.html" do
     erb :index, {title: nil}
   end
+
+  get "/admin/work" do
+    puts "its works!"
+    Feed.all.each do |feed|
+      item = Label.find_by(code: feed.owner)
+      feed["owner_name"] = item.name
+      feed.save
+    end
+    200
+  end
 end
 
 require_relative "./label_controller"

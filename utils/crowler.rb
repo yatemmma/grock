@@ -27,6 +27,7 @@ class Crowler
 
     feed_ids = Feed.where(owner: @item.code) {|x| x.code}
     results.each do |result|
+      result[:owner_name] = @item.name
       unless (feed_ids || []).include?(result[:code])
         begin
           feed = Feed.create(result)

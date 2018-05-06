@@ -36,7 +36,7 @@ function del() {
 function onChangeText(key, e) {
   if (key == "name" && !document.querySelector("#form1").getAttribute("data-code")) {
     const code = e.value.toLowerCase().replace(/\s/g, "_")
-    document.querySelector("#code").value = code
+    document.querySelector("[name=code]").value = code
   }
 }
 </script>

@@ -1,6 +1,8 @@
 <style>
   .admin h2 {
-    color: lightseagreen;}
+    margin-top: 32px;
+    color: lightseagreen;
+    border-bottom: 1px #444 solid;}
   .admin span a {
     text-decoration: underline;
     font-size: 1.5em;
@@ -17,6 +19,7 @@
   <span><a href="./label/new">label</a></span>
 
   <h2>YouTube Thumbnails</h2>
+  <input type="text" id="url" onchange="changed(this)" style="height:20px;width:600px;" />
 
   <h2>Export</h2>
   <span><a href="/" onclick="exportData(event, this)">band</a></span>

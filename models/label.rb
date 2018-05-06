@@ -8,7 +8,7 @@ class Label < ActiveRecord::Base
 	end
 
 	def title
-		self.name
+		self.name || ""
 	end
 
 	def feeds
@@ -16,10 +16,10 @@ class Label < ActiveRecord::Base
 	end
 
 	def main_image
-		self.images.split(",").first
+		self.images.split(",").first unless self.images.nil?
 	end
 
 	def link_list
-		self.links.split(",")
+		self.links.nil? ? [] : self.links.split(",")
 	end
 end

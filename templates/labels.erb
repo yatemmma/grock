@@ -1,27 +1,24 @@
-<table id="items">
-  <thead class="hidden-on-mobile">
-    <tr>
-      <th>
-        <input id="search-name" type="text" placeholder="Label Name"></input>
-        <a onclick="sort('name')"><i class="fas fa-sort"></i></a>
-      </th>
-      <th>
-        <input id="search-country" type="text" placeholder="Country"></input>
-        <a onclick="sort('country')"><i class="fas fa-sort"></i></a>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <% @labels.each_with_index do |item, i| %>
-      <tr class="<%= "odd" unless i%2 == 0 %>" onclick="location.href = '<%= link("label/#{item.code}.html") %>'">
-        <td><%= item.name %></td>
-        <td><%= item.origin_full %></td>
-      </tr>
-    <% end %>
-  </tbody>
-  <template id="item-row">
-      <tr style="display:none;" onclick="onClickRow(this)">
-        <td></td>
-      </tr>
-  </template>
-</table>
+<div id="items" class="items table">
+  <div class="table-row table-header hidden-on-mobile">
+    <%= partial :table_header, {key: "name", hint:"Label Name"}%>
+    <%= partial :table_header, {key: "country", hint:"Country"}%>
+  </div>
+
+  <% @labels.each_with_index do |item, i| %>
+    <a id="<%= item.code %>" class="table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("label/#{item.code}.html") %>">
+      <div class="table-cell">
+        <%= item.name %>
+      </div>
+      <div class="table-cell">
+        <%= item.origin_full %>
+      </div>
+    </a>
+  <% end %>
+</div>
+
+<script>
+
+
+searchData = <%= Label.search_json %>
+initTable()
+</script>

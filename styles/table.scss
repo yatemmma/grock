@@ -1,21 +1,35 @@
 .contents-wrapper #items {
   margin: 0 1%;
+  display: table;
   border-collapse: collapse;
   width: 98%;
 
-  thead {
-    th {
+  .table-row {
+    display: table-row;
+  }
+
+  .table-cell {
+    display: table-cell;
+    vertical-align: middle;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  .table-header {
+
+    .table-cell {
       text-align: left;
       min-width: 120px;
       position: relative;
 
       input {
-        width: 100%;
+        width: 98%;
       }
 
       a {
         position: absolute;
-        right: 6px;
+        right: 2%;
         top: 3px;
         font-size: 1.2em;
         color: $CLICK_BGA_COLOR;
@@ -26,49 +40,27 @@
       }
     }
 
-    th.name {
-      width: 520px;
-    }
+  }
 
-    th.note {
-      width: 300px;
+  .table-body {
+    height: 40px;
 
-      input {
-        width: 100%;
-      }
+    .table-cell {
+      padding-left: 4px;
     }
   }
 
-  tbody {
-    tr {
-      height: 40px;
-    }
+  .odd {
+    background-color: $CLICK_BGA_COLOR;
+  }
 
-    tr.odd {
-      background-color: $CLICK_BGA_COLOR;
-    }
-
-    tr:hover {
-      background-color: $SECONDARY_BG_COLOR !important;
-      cursor: pointer;
-    }
-
-    td {
-      padding-left: 4px;
-
-      a {
-        display: block;
-        width: 100%;
-      }
-    }
-
-    td.name {
-      width: 800px;
-    }
+  a.table-body:hover {
+    cursor: pointer;
+    background-color: $SECONDARY_BG_COLOR;
   }
 
   @include screen-mobile {
-    tbody {
+    .table-body .table-cell {
       font-size: 0.8em;
     }
   }

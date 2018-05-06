@@ -9,6 +9,7 @@ window.onload = ()=>{
   loadYoutubeScript()
   inView(".image").on("enter", showImage)
   showImage(document.querySelector(".main-image"))
+  addEventListenerForTable()
 }
 
 function showImage(e) {
@@ -75,6 +76,99 @@ function toggleMenu() {
     nav.style.display = "block"
     menu.text = "Close"
   }
+}
+
+function addEventListenerForTable() {
+  Array.from(document.querySelectorAll("#items input")).forEach((element)=>{
+    element.addEventListener('change', function(event){
+      filter(event.target.id.split("-")[1], event.target.value)
+    })
+    element.addEventListener('keypress', function(event){
+      filter(event.target.id.split("-")[1], event.target.value + event.key)
+    })
+    element.addEventListener('keyup', function(event){
+      if (event.keyCode == 46 || event.keyCode == 8) {
+        filter(event.target.id.split("-")[1], event.target.value)
+      }
+    })
+  })
+}
+
+let searchData = []
+let sortConditions = [{key: "name", reverse: false}]
+let filterConditions = {}
+
+function sort(key) {
+  const newConditions = []
+  let reverse = false
+  sortConditions.forEach((cond)=>{
+    if (cond.key == key) {
+      reverse = !cond.reverse
+    } else {
+      newConditions.push(cond)
+    }
+  })
+  newConditions.push({key: key, reverse: reverse})
+  sortConditions = newConditions
+  refresh()
+}
+
+function filter(key, value) {
+  filterConditions[key] = value
+  refresh()
+}
+
+function filtered(item, cond) {
+  const contains = Object.keys(cond).every((key)=>{
+    if (!cond[key]) {
+      return true
+    }
+    return (item[key].toLowerCase().indexOf(cond[key].toLowerCase()) >= 0)
+  })
+  return contains
+}
+
+function initTable() {
+  searchData.forEach((item)=>{
+    const row = document.querySelector("#"+item.code)
+    item.element = row
+  })
+}
+
+function refresh() {
+  let items = [].concat(searchData)
+
+  sortConditions.forEach((cond)=>{
+    items = items.sort((a, b)=> {
+      const objA = (a[cond.key] || "").toString().toUpperCase()
+      const objB = (b[cond.key] || "").toString().toUpperCase()
+      if (objA < objB) {
+        return -1 * (cond.reverse ? -1 : 1)
+      }
+      if (objA > objB) {
+        return 1 * (cond.reverse ? -1 : 1)
+      }
+      return 0
+    })
+  })
+
+  const table = document.querySelector("#items")
+  searchData.forEach((item)=>{
+    try {
+      table.removeChild(item.element)
+    } catch (e) {
+      // nop
+    }
+  })
+
+  let i = 0
+  items.forEach((item)=>{
+    if (filtered(item, filterConditions)) {
+      item.element.className = "table-row table-body " + (i%2 == 0 ? "" : "odd")
+      table.appendChild(item.element)
+      i++
+    }
+  })
 }
 
 function ajaxRequest(url, params, callback) {

@@ -13,7 +13,6 @@ class App < Sinatra::Base
 
   set :database, {adapter: "sqlite3", database: "db/database.sqlite3"}
   set :public_folder, "public"
-  set :bind, "0.0.0.0"
 
   include ERBHelper
 
@@ -22,7 +21,6 @@ class App < Sinatra::Base
     super
 
     @labels = Label.all
-    @feeds = Feed.all
   end
 
   before do
@@ -80,8 +78,12 @@ class Crowler
     feed_ids = Feed.where(owner: @item.code) {|x| x.code}
     results.each do |result|
       unless (feed_ids || []).include?(result[:code])
-        feed = Feed.create(result)
-        feed.save
+        begin
+          feed = Feed.create(result)
+          feed.save
+        rescue ActiveRecord::RecordNotUnique => ex
+          puts ex
+        end
       end
     end
   end

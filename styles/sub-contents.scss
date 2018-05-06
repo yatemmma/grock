@@ -9,9 +9,21 @@
 
         a.title {
           background-color: $CLICK_BGA_COLOR;
-          padding: 8px;
+          padding: 2px;
           display: block;
           @include line-bottom;
+
+          .image {
+            width: 48px;
+            height: 48px;
+            display: inline-block;
+            vertical-align: middle;
+            background: inherit;
+
+            img {
+              border-radius: 50%;
+            }
+          }
         }
 
         a:hover {

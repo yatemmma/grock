@@ -45,7 +45,7 @@ class App < Sinatra::Base
 
   get "/admin/api/update_feed" do
     feed = Crowler.new(params["model"], params["code"])
-    feed.twitter_update
+    feed.update
     200
   end
 end
@@ -62,15 +62,50 @@ class Crowler
     @item = clazz.find_by(code: code)
   end
 
-  def twitter_update
-    return if @item.twitter_key.nil?
-    results = Twitter.rss(@item.code, @item.twitter_key)
-    feed_ids = Feed.find_by(owner: @item.code) {|x| x.code}
+  def update
+    results = []
+    unless @item.twitter_key.nil?
+      results += Twitter.rss(@item.code, @item.twitter_key)
+    end
+    unless @item.youtube.nil?
+      key, value = @item.youtube_key
+      results += YouTube.atom(@item.code, key, value)
+    end
+
+    feed_ids = Feed.where(owner: @item.code) {|x| x.code}
     results.each do |result|
       unless (feed_ids || []).include?(result[:code])
         feed = Feed.create(result)
         feed.save
       end
+    end
+  end
+end
+
+class YouTube
+  class << self
+    def atom(code, key, value)
+      key = (key == "user" ? "user" : "channel_id")
+      url = "https://www.youtube.com/feeds/videos.xml?#{key}=#{value}"
+      rss = SimpleRSS.parse open(url)
+      results = []
+      rss.items.each do |item|
+        body = "<p>#{item[:title]}</p>"
+        body += "<div class=\"image\" data-image=\"#{item[:media_thumbnail_url]}\"><img></div>"
+
+        info = {
+           code: "#{code}_#{item[:id]}",
+           owner: code,
+           feed_type: :youtube,
+           icon: "https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg",
+           url: item[:link],
+           date: item[:published],
+           title: item[:title],
+           body: body
+        }
+        results << info
+      end
+      results
     end
   end
 end
@@ -96,8 +131,8 @@ class Twitter
           info = {
             code: "#{code}_#{item[:guid]}",
             owner: code,
-            type: "twitter",
-            icon: rss.channel.image,
+            feed_type: :twitter,
+            icon: rss.channel.image.match(/^<url>(.*)<\/url>$/)[1],
             url: item[:link],
             date: item[:pubDate],
             title: "@#{twitter_key} on Twitter",

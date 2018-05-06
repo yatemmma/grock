@@ -1,9 +1,15 @@
+<%
+  feeds = Feed.where(owner: item.code).order("date DESC").limit(20)
+%>
 <div class="feeds">
-  <% item.feeds.each do |feed| %>
+  <% feeds.each do |feed| %>
     <div class="feed">
-      <a class="title" href="<%= feed["url"] %>" target="_blank"><%= feed["title"] %></a>
-      <div class="date"><%= feed["date"] %></div>
-      <div class="body"><%= feed["body"] %></div>
+      <a class="title" href="<%= feed.url %>" target="_blank">
+        <div class="image feed-icon" data-image="<%= feed.icon_image %>"><img></div>
+        <%= feed.title %>
+      </a>
+      <div class="date"><%= feed.date %></div>
+      <div class="body"><%= feed.body %></div>
     </div>
   <% end %>
 </div>

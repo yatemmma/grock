@@ -48,6 +48,10 @@ class Label < ActiveRecord::Base
 		self.twitter.split(" ").first.split("/").last unless self.twitter.nil?
 	end
 
+	def youtube_key
+		self.youtube.split(" ").first.split("/")[-2, 2] unless self.youtube.nil?
+	end
+
 	def feeds
 		[]
 	end

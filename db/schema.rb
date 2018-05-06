@@ -15,7 +15,8 @@ ActiveRecord::Schema.define(version: 4) do
   create_table "feeds", id: false, force: :cascade do |t|
     t.string "code", null: false
     t.string "owner"
-    t.string "type"
+    t.string "feed_type"
+    t.string "icon"
     t.string "url"
     t.datetime "date"
     t.string "title"

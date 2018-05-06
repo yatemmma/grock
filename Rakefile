@@ -22,5 +22,5 @@ task :html do
 end
 
 task :start do
-  system "bundle exec rackup -p 4567"
+  system "bundle exec rackup -p 4567 -o 0.0.0.0"
 end

@@ -12,6 +12,7 @@
     <%= partial :"admin/link_form", {item: @label, site: site} %>
   <% end %>
   <%= partial :"admin/text_form", {item: @label, key: "links"} %>
+  <%= partial :"admin/text_form", {item: @label, key: "feeds"} %>
   <%= partial :"admin/text_block", {item: @label, key: "created_at"} %>
   <%= partial :"admin/text_block", {item: @label, key: "updated_at"} %>
   <%= partial :"admin/body_form", {item: @label} %>

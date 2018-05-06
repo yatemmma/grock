@@ -64,12 +64,17 @@ class Crowler
 
   def update
     results = []
-    unless @item.twitter_key.nil?
+    unless (@item.twitter.nil? || @item.twitter.empty?)
       results += Twitter.rss(@item.code, @item.twitter_key)
     end
-    unless @item.youtube.nil?
+    unless (@item.youtube.nil? || @item.youtube.empty?)
       key, value = @item.youtube_key
       results += YouTube.atom(@item.code, key, value)
+    end
+    unless (@item.feeds.nil? || @item.feeds.empty?)
+      @item.feeds.split(",").each do |feed_url|
+        results += FeedParser.rss(@item.code, feed_url)
+      end
     end
 
     feed_ids = Feed.where(owner: @item.code) {|x| x.code}
@@ -78,6 +83,37 @@ class Crowler
         feed = Feed.create(result)
         feed.save
       end
+    end
+  end
+end
+
+class FeedParser
+  class << self
+    def rss(code, url)
+      rss = SimpleRSS.parse open(url)
+      results = []
+      p 111, rss.channel
+      rss.items.each do |item|
+
+        body = item[:description] || ""
+        body = body.gsub(/(\[\.\.\.\])/){
+          "<a href=\"#{item[:link]}\" target=\"_blank\">#{$1}</a>"
+        }
+        body = "<p>#{body}</p>"
+
+        info = {
+           code: "#{code}_#{item[:id] || item[:link]}",
+           owner: code,
+           feed_type: :site,
+           icon: nil,
+           url: item[:link],
+           date: item[:published] || rss.channel.lastBuildDate,
+           title: item[:title],
+           body: body
+        }
+        results << info
+      end
+      results
     end
   end
 end

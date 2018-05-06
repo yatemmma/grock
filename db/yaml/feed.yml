@@ -2,7 +2,7 @@
 - code: rise_records_https://twitter.com/riserecords/status/992978801268215808
   owner: rise_records
   feed_type: twitter
-  icon: "<url>https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg</url>"
+  icon: https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg
   url: https://twitter.com/riserecords/status/992978801268215808
   date: 2018-05-06 04:06:09.000000000 Z
   title: "@riserecords on Twitter"
@@ -10,36 +10,37 @@
     sure. Which  <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank"
     href="https://twitter.com/VansWarpedTour">@<b>VansWarpedTour</b></a> date?  <a
     target="_blank" href="https://twitter.com/radicalhockey/status/992961537114505218">https://twitter.com/radicalhockey/status/992961537114505218&nbsp;&hellip;</a></p>
-  created_at: 2018-05-06 10:17:13.037801000 Z
-  updated_at: 2018-05-06 10:17:13.037801000 Z
+  created_at: 2018-05-06 11:49:41.378286000 Z
+  updated_at: 2018-05-06 11:49:41.378286000 Z
 - code: rise_records_https://twitter.com/riserecords/status/992831144147042304
   owner: rise_records
   feed_type: twitter
-  icon: "<url>https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg</url>"
+  icon: https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg
   url: https://twitter.com/riserecords/status/992831144147042304
   date: 2018-05-05 18:19:25.000000000 Z
   title: "@riserecords on Twitter"
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="en">.
     <a class="twitter-atreply pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/ChapelUSA">@<b>ChapelUSA</b></a>
     sets off on tour in Europe next week! Who&rsquo;s catching them at one of their
-    stops?! </p> <div class="image" data-image="https://pbs.twimg.com/media/Dcc-o1sV0AEE7ig.jpg"><img></div>
-  created_at: 2018-05-06 10:17:13.042766000 Z
-  updated_at: 2018-05-06 10:17:13.042766000 Z
+    stops?! </p> <a target="_blank" href="https://twitter.com/riserecords/status/992831144147042304"
+    target="_blank"><div class="image" data-image="https://pbs.twimg.com/media/Dcc-o1sV0AEE7ig.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.382908000 Z
+  updated_at: 2018-05-06 11:49:41.382908000 Z
 - code: rise_records_https://twitter.com/riserecords/status/992520249122537472
   owner: rise_records
   feed_type: twitter
-  icon: "<url>https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg</url>"
+  icon: https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg
   url: https://twitter.com/riserecords/status/992520249122537472
   date: 2018-05-04 21:44:02.000000000 Z
   title: "@riserecords on Twitter"
   body: <p class="TweetTextSize TweetTextSize--normal js-tweet-text tweet-text"  lang="und">&#x1F64C;   <a
     target="_blank" href="https://twitter.com/SXMOctane/status/992517339919896576">https://twitter.com/SXMOctane/status/992517339919896576&nbsp;&hellip;</a></p>
-  created_at: 2018-05-06 10:17:13.047167000 Z
-  updated_at: 2018-05-06 10:17:13.047167000 Z
+  created_at: 2018-05-06 11:49:41.386178000 Z
+  updated_at: 2018-05-06 11:49:41.386178000 Z
 - code: rise_records_https://twitter.com/riserecords/status/992478997220020224
   owner: rise_records
   feed_type: twitter
-  icon: "<url>https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg</url>"
+  icon: https://pbs.twimg.com/profile_images/956594234198388736/MKW1-j3N_400x400.jpg
   url: https://twitter.com/riserecords/status/992478997220020224
   date: 2018-05-04 19:00:06.000000000 Z
   title: "@riserecords on Twitter"
@@ -51,5 +52,171 @@
     pretty-link js-nav"  dir="ltr" target="_blank" href="https://twitter.com/hashtag/MayTheFourthBeWithYou?src=hash">#<b>MayTheFourthBeWithYou</b></a>
     <a dir="ltr" target="_blank" href="https://twitter.com/hashtag/MayTheFourthBeWithYou?src=hash">
     </a>  <a target="_blank" href="http://www.syfy.com/syfywire/watch-galactic-empire-a-heavy-metal-star-wars-story">http://www.syfy.com/syfywire/watch-galactic-empire-a-heavy-metal-star-wars-story&nbsp;&hellip;</a></p>
-  created_at: 2018-05-06 10:17:13.050872000 Z
-  updated_at: 2018-05-06 10:17:13.050872000 Z
+  created_at: 2018-05-06 11:49:41.389775000 Z
+  updated_at: 2018-05-06 11:49:41.389775000 Z
+- code: rise_records_yt:video:IPaYPlcEiYg
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=IPaYPlcEiYg
+  date: 2018-05-04 15:56:33.000000000 Z
+  title: Galactic Empire - March Of The Resistance (Official Music Video)
+  body: <p>Galactic Empire - March Of The Resistance (Official Music Video)</p><a
+    href="https://www.youtube.com/watch?v=IPaYPlcEiYg" target="_blank"><div class="image"
+    data-image="https://i2.ytimg.com/vi/IPaYPlcEiYg/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.393123000 Z
+  updated_at: 2018-05-06 11:49:41.393123000 Z
+- code: rise_records_yt:video:UOvBPG0RCfA
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=UOvBPG0RCfA
+  date: 2018-05-04 03:57:16.000000000 Z
+  title: Dance Gavin Dance - Son Of Robot
+  body: <p>Dance Gavin Dance - Son Of Robot</p><a href="https://www.youtube.com/watch?v=UOvBPG0RCfA"
+    target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/UOvBPG0RCfA/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.396312000 Z
+  updated_at: 2018-05-06 11:49:41.396312000 Z
+- code: rise_records_yt:video:wYURYvj9Meo
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=wYURYvj9Meo
+  date: 2018-05-03 19:59:11.000000000 Z
+  title: Mayday Parade - Piece Of Your Heart (Official Music Video)
+  body: <p>Mayday Parade - Piece Of Your Heart (Official Music Video)</p><a href="https://www.youtube.com/watch?v=wYURYvj9Meo"
+    target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/wYURYvj9Meo/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.399593000 Z
+  updated_at: 2018-05-06 11:49:41.399593000 Z
+- code: rise_records_yt:video:NxXxdlWiDio
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=NxXxdlWiDio
+  date: 2018-04-30 18:55:14.000000000 Z
+  title: Modern Maps - Autopilot
+  body: <p>Modern Maps - Autopilot</p><a href="https://www.youtube.com/watch?v=NxXxdlWiDio"
+    target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/NxXxdlWiDio/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.403235000 Z
+  updated_at: 2018-05-06 11:49:41.403235000 Z
+- code: rise_records_yt:video:1G0PDgr73NA
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=1G0PDgr73NA
+  date: 2018-04-27 16:57:13.000000000 Z
+  title: Of Mice &amp; Men - Instincts (Official Music Video)
+  body: <p>Of Mice &amp; Men - Instincts (Official Music Video)</p><a href="https://www.youtube.com/watch?v=1G0PDgr73NA"
+    target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/1G0PDgr73NA/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.407655000 Z
+  updated_at: 2018-05-06 11:49:41.407655000 Z
+- code: rise_records_yt:video:oAYw2vg9cGI
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=oAYw2vg9cGI
+  date: 2018-04-27 16:00:00.000000000 Z
+  title: Chelsea Grin - Dead Rose (Official Music Video)
+  body: <p>Chelsea Grin - Dead Rose (Official Music Video)</p><a href="https://www.youtube.com/watch?v=oAYw2vg9cGI"
+    target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/oAYw2vg9cGI/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.411590000 Z
+  updated_at: 2018-05-06 11:49:41.411590000 Z
+- code: rise_records_yt:video:fUwwE4l8uS4
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=fUwwE4l8uS4
+  date: 2018-04-25 22:55:03.000000000 Z
+  title: Tiger Army - Dark Paradise
+  body: <p>Tiger Army - Dark Paradise</p><a href="https://www.youtube.com/watch?v=fUwwE4l8uS4"
+    target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/fUwwE4l8uS4/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.416718000 Z
+  updated_at: 2018-05-06 11:49:41.416718000 Z
+- code: rise_records_yt:video:WLOl0e0ylGM
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=WLOl0e0ylGM
+  date: 2018-04-25 16:00:37.000000000 Z
+  title: Like Moths To Flames - Empty The Same (Official Music Video)
+  body: <p>Like Moths To Flames - Empty The Same (Official Music Video)</p><a href="https://www.youtube.com/watch?v=WLOl0e0ylGM"
+    target="_blank"><div class="image" data-image="https://i4.ytimg.com/vi/WLOl0e0ylGM/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.435870000 Z
+  updated_at: 2018-05-06 11:49:41.435870000 Z
+- code: rise_records_yt:video:lZaaekGyzBI
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=lZaaekGyzBI
+  date: 2018-04-20 19:30:37.000000000 Z
+  title: Modern Maps - hope you're happy. album teaser
+  body: <p>Modern Maps - hope you're happy. album teaser</p><a href="https://www.youtube.com/watch?v=lZaaekGyzBI"
+    target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/lZaaekGyzBI/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.442220000 Z
+  updated_at: 2018-05-06 11:49:41.442220000 Z
+- code: rise_records_yt:video:B87Hh5tN5E0
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=B87Hh5tN5E0
+  date: 2018-04-20 16:58:05.000000000 Z
+  title: Galactic Empire - Rey's Theme
+  body: <p>Galactic Empire - Rey's Theme</p><a href="https://www.youtube.com/watch?v=B87Hh5tN5E0"
+    target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/B87Hh5tN5E0/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.447481000 Z
+  updated_at: 2018-05-06 11:49:41.447481000 Z
+- code: rise_records_yt:video:-rGB9q8yv1Y
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=-rGB9q8yv1Y
+  date: 2018-04-19 13:57:17.000000000 Z
+  title: Dead Letter Circus - The Armour You Own (Official Music Video)
+  body: <p>Dead Letter Circus - The Armour You Own (Official Music Video)</p><a href="https://www.youtube.com/watch?v=-rGB9q8yv1Y"
+    target="_blank"><div class="image" data-image="https://i2.ytimg.com/vi/-rGB9q8yv1Y/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.454905000 Z
+  updated_at: 2018-05-06 11:49:41.454905000 Z
+- code: rise_records_yt:video:TqVLhYoWQGo
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=TqVLhYoWQGo
+  date: 2018-04-12 18:56:32.000000000 Z
+  title: Kublai Khan - True Fear (Official Music Video)
+  body: <p>Kublai Khan - True Fear (Official Music Video)</p><a href="https://www.youtube.com/watch?v=TqVLhYoWQGo"
+    target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/TqVLhYoWQGo/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.459384000 Z
+  updated_at: 2018-05-06 11:49:41.459384000 Z
+- code: rise_records_yt:video:4M3Q6cotguw
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=4M3Q6cotguw
+  date: 2018-04-10 16:58:55.000000000 Z
+  title: Gone Is Gone - Phantom Limb (Official Music Video)
+  body: <p>Gone Is Gone - Phantom Limb (Official Music Video)</p><a href="https://www.youtube.com/watch?v=4M3Q6cotguw"
+    target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/4M3Q6cotguw/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.463444000 Z
+  updated_at: 2018-05-06 11:49:41.463444000 Z
+- code: rise_records_yt:video:vQlyanSkeTk
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=vQlyanSkeTk
+  date: 2018-04-10 15:59:54.000000000 Z
+  title: Mayday Parade - Rise Announcement
+  body: <p>Mayday Parade - Rise Announcement</p><a href="https://www.youtube.com/watch?v=vQlyanSkeTk"
+    target="_blank"><div class="image" data-image="https://i3.ytimg.com/vi/vQlyanSkeTk/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.467364000 Z
+  updated_at: 2018-05-06 11:49:41.467364000 Z
+- code: rise_records_yt:video:x0l2zzIh6W0
+  owner: rise_records
+  feed_type: youtube
+  icon: https://i.ytimg.com/vi/IC6m249zvI0/hqdefault.jpg
+  url: https://www.youtube.com/watch?v=x0l2zzIh6W0
+  date: 2018-04-06 16:58:57.000000000 Z
+  title: Sevendust - Not Original (Official Music Video)
+  body: <p>Sevendust - Not Original (Official Music Video)</p><a href="https://www.youtube.com/watch?v=x0l2zzIh6W0"
+    target="_blank"><div class="image" data-image="https://i1.ytimg.com/vi/x0l2zzIh6W0/hqdefault.jpg"><img></div></a>
+  created_at: 2018-05-06 11:49:41.471086000 Z
+  updated_at: 2018-05-06 11:49:41.471086000 Z

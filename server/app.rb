@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
 
   set :database, {adapter: "sqlite3", database: "db/database.sqlite3"}
-  set :public_folder, "docs"
+  set :public_folder, "public"
   set :bind, "0.0.0.0"
 
   include ERBHelper
@@ -91,7 +91,7 @@ class YouTube
       results = []
       rss.items.each do |item|
         body = "<p>#{item[:title]}</p>"
-        body += "<div class=\"image\" data-image=\"#{item[:media_thumbnail_url]}\"><img></div>"
+        body += "<a href=\"#{item[:link]}\" target=\"_blank\"><div class=\"image\" data-image=\"#{item[:media_thumbnail_url]}\"><img></div></a>"
 
         info = {
            code: "#{code}_#{item[:id]}",
@@ -124,7 +124,7 @@ class Twitter
           body = body.gsub(/(<img[^>]* alt="([^"]*)" [^>]*><\/img>)/){"#{$2} "}
           body = body.gsub(/<a class=\"twitter-timeline-link[^<]*<\/a><\/a>/){""}
           body = body.gsub(/(<img[^>]* src="([^"]*)" [^>]*\/>)/){
-            "<div class=\"image\" data-image=\"#{$2}\"><img></div>"
+            "<a href=\"#{item[:link]}\" target=\"_blank\"><div class=\"image\" data-image=\"#{$2}\"><img></div></a>"
           }
           body = body.gsub(/ href=/){" target=\"_blank\" href="}
 

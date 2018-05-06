@@ -5,8 +5,16 @@
   <% feeds.each do |feed| %>
     <div class="feed">
       <a class="title" href="<%= feed.url %>" target="_blank">
-        <div class="image feed-icon" data-image="<%= feed.icon_image %>"><img></div>
-        <%= feed.title %>
+        <div class="image feed-icon" data-image="<%= feed.icon %>"><img></div>
+        <%
+          case feed.feed_type
+          when "twitter"
+            feed_label = "Tweet"
+          when "youtube"
+            feed_label = "YouTube"
+          end
+        %>
+        <%= "#{feed_label} from #{item.name}" %>
       </a>
       <div class="date"><%= feed.date %></div>
       <div class="body"><%= feed.body %></div>

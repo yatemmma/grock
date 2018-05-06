@@ -11,6 +11,9 @@
           background-color: $CLICK_BGA_COLOR;
           padding: 2px;
           display: block;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
           @include line-bottom;
 
           .image {

@@ -13,6 +13,7 @@ class CreateLabels < ActiveRecord::Migration[5.2]
         t.string :twitter
         t.string :facebook
         t.string :links
+        t.string :feeds
         t.text   :body
         t.datetime :created_at
         t.datetime :updated_at

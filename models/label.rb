@@ -52,12 +52,15 @@ class Label < ActiveRecord::Base
 		self.youtube.split(" ").first.split("/")[-2, 2] unless self.youtube.nil?
 	end
 
-	def feeds
-		[]
-	end
-
 	def main_image
 		self.images.split(",").first unless self.images.nil?
+	end
+
+	def video_list
+		list = self.videos
+		list += ","
+		list += Feed.where(owner: self.code).map {|x| x.youtube_video_key}.join(",")
+		list.split(",").compact.reject { |c| c.empty? }.join(",")
 	end
 
 	def link_list

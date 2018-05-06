@@ -60,7 +60,7 @@ function setYouTubeVideo(id) {
 }
 
 function onPlaylistReady(event) {
-  if (keys.length >= 2) {
+  if (player.keys.length >= 2) {
     player.cuePlaylist(player.keys)
   }
 }

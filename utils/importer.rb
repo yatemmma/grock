@@ -15,6 +15,7 @@ class Importer
       clazz.delete_all
       records = YAML.load_file("db/yaml/#{model_sym}.yml")
       records.each do |record|
+        record.delete("published_at")
         item = clazz.create(record)
         item.save
       end

@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 4) do
   create_table "labels", id: false, force: :cascade do |t|
     t.string "code", null: false
     t.string "name"
+    t.string "founded"
     t.string "origin"
     t.string "images"
     t.string "videos"
@@ -38,7 +39,6 @@ ActiveRecord::Schema.define(version: 4) do
     t.string "facebook"
     t.string "links"
     t.text "body"
-    t.datetime "published_at"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["code"], name: "index_labels_on_code", unique: true

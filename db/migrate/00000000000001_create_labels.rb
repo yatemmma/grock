@@ -3,6 +3,7 @@ class CreateLabels < ActiveRecord::Migration[5.2]
     create_table :labels, id: false do |t|
         t.string :code, null: false
         t.string :name
+        t.string :founded
         t.string :origin
         t.string :images
         t.string :videos
@@ -13,7 +14,6 @@ class CreateLabels < ActiveRecord::Migration[5.2]
         t.string :facebook
         t.string :links
         t.text   :body
-        t.datetime :published_at
         t.datetime :created_at
         t.datetime :updated_at
     end

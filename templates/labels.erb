@@ -1,24 +1,26 @@
-<div id="items" class="items table">
-  <div class="table-row table-header hidden-on-mobile">
-    <%= partial :table_header, {key: "name", hint:"Label Name"}%>
-    <%= partial :table_header, {key: "country", hint:"Country"}%>
+<div class="contents">
+  <!-- contents -->
+  <div id="items" class="items table">
+    <div class="table-row table-header hidden-on-mobile">
+      <%= partial :table_header, {key: "name", hint:"Label Name"}%>
+      <%= partial :table_header, {key: "country", hint:"Country"}%>
+    </div>
+
+    <% @labels.each_with_index do |item, i| %>
+      <a id="<%= item.code %>" class="keep table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("label/#{item.code}.html") %>">
+        <div class="table-cell">
+          <%= item.name %>
+        </div>
+        <div class="table-cell">
+          <%= item.origin_full %>
+        </div>
+      </a>
+    <% end %>
   </div>
 
-  <% @labels.each_with_index do |item, i| %>
-    <a id="<%= item.code %>" class="table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("label/#{item.code}.html") %>">
-      <div class="table-cell">
-        <%= item.name %>
-      </div>
-      <div class="table-cell">
-        <%= item.origin_full %>
-      </div>
-    </a>
-  <% end %>
-</div>
-
-<script>
-
-
-searchData = <%= Label.search_json %>
-initTable()
-</script>
+  <script>
+  searchData = <%= Label.search_json %>
+  initTable()
+  </script>
+  <!-- contents -->
+<div>

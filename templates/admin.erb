@@ -1,90 +1,94 @@
-<style>
-  .admin h2 {
-    margin-top: 32px;
-    color: lightseagreen;
-    border-bottom: 1px #444 solid;}
-  .admin span a {
-    text-decoration: underline;
-    font-size: 1.5em;
-    margin: 0 16px;}
-  .admin textarea {
-    width: 50%;
-    height: 200px;}
-</style>
+<div class="contents">
+  <!-- contents -->
+  <style>
+    .admin h2 {
+      margin-top: 32px;
+      color: lightseagreen;
+      border-bottom: 1px #444 solid;}
+    .admin span a {
+      text-decoration: underline;
+      font-size: 1.5em;
+      margin: 0 16px;}
+    .admin textarea {
+      width: 50%;
+      height: 200px;}
+  </style>
 
-<script>
-function exportData(e, sender) {
-  e.preventDefault()
-  const model = sender.text
-  sender.text = "..."
-  ajaxRequest("./admin/api/export", {model: model}, function(result) {
-      sender.text = model
-      console.log(result)
-    })
-}
-
-function importData(e, sender) {
-  e.preventDefault()
-  if (!confirm("Import data?")) {
-    return
+  <script>
+  function exportData(e, sender) {
+    e.preventDefault()
+    const model = sender.text
+    sender.text = "..."
+    ajaxRequest("./admin/api/export", {model: model}, function(result) {
+        sender.text = model
+        console.log(result)
+      })
   }
-  const model = sender.text
-  sender.text = "..."
-  ajaxRequest("./admin/api/import", {model: model}, function(result) {
-      sender.text = model
-      console.log(result)
-    })
-}
 
-function updateSetting(e, sender, id) {
-  e.preventDefault()
-  const data = JSON.parse(document.querySelector("#"+id).value)
-  const model = sender.text
-  sender.text = "..."
-  ajaxPostRequest("./admin/api/settings", {code: id, json: JSON.stringify(data)}, function(result) {
-      sender.text = model
-      console.log(result)
-    })
-}
-</script>
+  function importData(e, sender) {
+    e.preventDefault()
+    if (!confirm("Import data?")) {
+      return
+    }
+    const model = sender.text
+    sender.text = "..."
+    ajaxRequest("./admin/api/import", {model: model}, function(result) {
+        sender.text = model
+        console.log(result)
+      })
+  }
 
-<div class="admin">
-  <h2>Create</h2>
-  <span><a href="./band/new">band</a></span>
-  <span><a href="./disc/new">disc</a></span>
-  <span><a href="./label/new">label</a></span>
-  <span><a href="./admin/work" target="_blank">(work)</a></span>
+  function updateSetting(e, sender, id) {
+    e.preventDefault()
+    const data = JSON.parse(document.querySelector("#"+id).value)
+    const model = sender.text
+    sender.text = "..."
+    ajaxPostRequest("./admin/api/settings", {code: id, json: JSON.stringify(data)}, function(result) {
+        sender.text = model
+        console.log(result)
+      })
+  }
+  </script>
 
-  <h2>YouTube Thumbnails</h2>
-  <input type="text" id="url" onchange="changed(this)" style="height:20px;width:600px;" />
+  <div class="admin">
+    <h2>Create</h2>
+    <span><a href="./band/new">band</a></span>
+    <span><a href="./disc/new">disc</a></span>
+    <span><a href="./label/new">label</a></span>
+    <span><a href="./admin/work" target="_blank">(work)</a></span>
 
-  <h2>Export</h2>
-  <span><a href="/" onclick="exportData(event, this)">band</a></span>
-  <span><a href="/" onclick="exportData(event, this)">disc</a></span>
-  <span><a href="/" onclick="exportData(event, this)">label</a></span>
-  <span><a href="/" onclick="exportData(event, this)">feed</a></span>
-  <span><a href="/" onclick="exportData(event, this)">setting</a></span>
+    <h2>YouTube Thumbnails</h2>
+    <input type="text" id="url" onchange="changed(this)" style="height:20px;width:600px;" />
 
-  <h2>Import</h2>
-  <span><a href="/" onclick="importData(event, this)">band</a></span>
-  <span><a href="/" onclick="importData(event, this)">disc</a></span>
-  <span><a href="/" onclick="importData(event, this)">label</a></span>
-  <span><a href="/" onclick="importData(event, this)">feed</a></span>
-  <span><a href="/" onclick="importData(event, this)">setting</a></span>
+    <h2>Export</h2>
+    <span><a href="/" onclick="exportData(event, this)">band</a></span>
+    <span><a href="/" onclick="exportData(event, this)">disc</a></span>
+    <span><a href="/" onclick="exportData(event, this)">label</a></span>
+    <span><a href="/" onclick="exportData(event, this)">feed</a></span>
+    <span><a href="/" onclick="exportData(event, this)">setting</a></span>
 
-  <h2>Genres</h2>
-  <textarea id="genres" spellcheck="false"><%= Setting.genres.to_json %></textarea>
-  <a href="/" onclick="updateSetting(event, this, 'genres')">update</a>
+    <h2>Import</h2>
+    <span><a href="/" onclick="importData(event, this)">band</a></span>
+    <span><a href="/" onclick="importData(event, this)">disc</a></span>
+    <span><a href="/" onclick="importData(event, this)">label</a></span>
+    <span><a href="/" onclick="importData(event, this)">feed</a></span>
+    <span><a href="/" onclick="importData(event, this)">setting</a></span>
 
-  <h2>Sites</h2>
-  <textarea id="sites" spellcheck="false"><%= Setting.sites.to_json %></textarea>
-  <a href="/" onclick="updateSetting(event, this, 'sites')">update</a>
+    <h2>Genres</h2>
+    <textarea id="genres" spellcheck="false"><%= Setting.genres.to_json %></textarea>
+    <a href="/" onclick="updateSetting(event, this, 'genres')">update</a>
 
-  <h2>Disc Types</h2>
-  <textarea id="disc_types" spellcheck="false"><%= Setting.disc_types.to_json %></textarea>
-  <a href="/" onclick="updateSetting(event, this, 'disc_types')">update</a>
+    <h2>Sites</h2>
+    <textarea id="sites" spellcheck="false"><%= Setting.sites.to_json %></textarea>
+    <a href="/" onclick="updateSetting(event, this, 'sites')">update</a>
 
-  <h2>Date Labels</h2>
-  <textarea id="date_labels" spellcheck="false"><%= Setting.date_labels.to_json %></textarea>
-  <a href="/" onclick="updateSetting(event, this, 'date_labels')">update</a>
+    <h2>Disc Types</h2>
+    <textarea id="disc_types" spellcheck="false"><%= Setting.disc_types.to_json %></textarea>
+    <a href="/" onclick="updateSetting(event, this, 'disc_types')">update</a>
+
+    <h2>Date Labels</h2>
+    <textarea id="date_labels" spellcheck="false"><%= Setting.date_labels.to_json %></textarea>
+    <a href="/" onclick="updateSetting(event, this, 'date_labels')">update</a>
+  </div>
+  <!-- contents -->
 </div>

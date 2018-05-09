@@ -1,24 +1,30 @@
 <%= partial :main, {item: @label} %>
 
 <div class="contents">
-  <%= partial :body, {item: @label} %>
-  <%= partial :sns, {item: @label} %>
+  <!-- contents -->
+  <h2><%= item.title %></h2>
 
-  <%= partial :band, {item: @label, text: ["", @label.name], class_names: ""} %>
+  <div class="main-contents">
+    <%= partial :body, {item: @label} %>
+    <%= partial :sns, {item: @label} %>
 
-  <%= partial :text, {text: @label.founded, class_names: "active"} %>
-  <%= partial :text, {text: @label.origin_full, class_names: "origin"} %>
+    <%= partial :band, {item: @label, text: ["", @label.name], class_names: ""} %>
 
-  <% Label.site_keys.each do |site| %>
-    <%= partial :site, {site: site, link_value: @label.send(site)} %>
-  <% end %>
-  <% @label.link_list.each do |site| %>
-    <%= partial :site, {site: "link", link_value: site} %>
-  <% end %>
+    <%= partial :text, {text: @label.founded, class_names: "active"} %>
+    <%= partial :text, {text: @label.origin_full, class_names: "origin"} %>
 
-  <%= partial :"admin/label" %>
-</div>
+    <% Label.site_keys.each do |site| %>
+      <%= partial :site, {site: site, link_value: @label.send(site)} %>
+    <% end %>
+    <% @label.link_list.each do |site| %>
+      <%= partial :site, {site: "link", link_value: site} %>
+    <% end %>
 
-<div class="sub-contents">
-  <%= partial :feeds, {item: @label} %>
+    <%= partial :"admin/label" %>
+  </div>
+
+  <div class="sub-contents">
+    <%= partial :feeds, {item: @label} %>
+  </div>
+  <!-- contents -->
 </div>

@@ -24,3 +24,9 @@
 
 .fa-sort:before {
   content: "\f0dc"; }
+
+.fa-times:before {
+  content: "\f057"; }
+
+.fa-clone:before {
+  content: "\f24d"; }

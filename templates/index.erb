@@ -1,35 +1,48 @@
+
+
 <%
   video_list = "NNHGABwme50,9uar92t7Fzw,sdnLavmbtUQ,_RRbVhobb9o"
 %>
-<div id="main-video" class="youtube" data-key="<%= video_list %>"></div>
-
-<div class="sub-contents">
-  <h3>Latest Updates</h3>
-  <div class="posts">
-  <%
-    items = Label.all.limit(30)
-    items = items.sort_by {|item| item.updated_at}.reverse[0, 30]
-    items.each_with_index do |item, i|
-      case item.class.to_s
-      when "Label"
-        type = "band"
-        args = ["", item.name, item.updated_date]
-      end
-      class_name = (i < 3) ? "" : "hidden-on-mobile"
-  %>
-    <%= partial type.to_sym, {item: item, text: args, class_names: class_name} %>
-  <% end %>
+<div id="main-video">
+  <div id="player-wrapper">
+    <!-- player-wrapper -->
+    <div class="toggle-player"><a href="/" onclick="popup(event, this)"><i class="fas fa-clone"></i></a></div>
+    <div id="main-player" class="youtube" data-key="<%= video_list %>"></div>
+    <!-- player-wrapper -->
   </div>
 </div>
 
-<div class="sub-contents">
-  <h3>Releases</h3>
-  <div class="releases">
-
+<div class="contents">
+  <!-- contents -->
+  <div class="sub-contents">
+    <h3>Latest Updates</h3>
+    <div class="posts">
+    <%
+      items = Label.all.limit(30)
+      items = items.sort_by {|item| item.updated_at}.reverse[0, 30]
+      items.each_with_index do |item, i|
+        case item.class.to_s
+        when "Label"
+          type = "band"
+          args = ["", item.name, item.updated_date]
+        end
+        class_name = (i < 3) ? "" : "hidden-on-mobile"
+    %>
+      <%= partial type.to_sym, {item: item, text: args, class_names: class_name} %>
+    <% end %>
+    </div>
   </div>
-</div>
 
-<div class="sub-contents">
-  <h3>News Feeds</h3>
-  <%= partial :feeds, {item: nil} %>
+  <div class="sub-contents">
+    <h3>Releases</h3>
+    <div class="releases">
+
+    </div>
+  </div>
+
+  <div class="sub-contents">
+    <h3>News Feeds</h3>
+    <%= partial :feeds, {item: nil} %>
+  </div>
+  <!-- contents -->
 </div>

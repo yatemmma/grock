@@ -3,6 +3,40 @@
     width: 100%;
   }
 
+  .no-height {
+    height: 0px !important;
+  }
+
+  #player-wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+
+  .toggle-player {
+    text-align: right;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+  }
+
+  #player-popup {
+    width: 40%;
+    height: 40%;
+    position: fixed;
+    z-index: 99;
+    bottom: 0;
+    padding: 16px;
+    background-color: $CLICK_BGA_COLOR;
+  }
+
+  @include screen-mobile {
+    #player-popup {
+      width: 300px;
+      height: 200px;
+    }
+  }
+
   @media screen and (min-width: 970px) {
     #main-video { height: 547px; }
     .sub-video { height: 364px; }

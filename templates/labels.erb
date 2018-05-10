@@ -4,6 +4,7 @@
     <div class="table-row table-header hidden-on-mobile">
       <%= partial :table_header, {key: "name", hint:"Label Name"}%>
       <%= partial :table_header, {key: "country", hint:"Country"}%>
+      <%= partial :table_header, {key: "updated", hint:"Updated at"}%>
     </div>
 
     <% @labels.each_with_index do |item, i| %>
@@ -13,6 +14,9 @@
         </div>
         <div class="table-cell">
           <%= item.origin_full %>
+        </div>
+        <div class="table-cell">
+          <%= item.updated_date %>
         </div>
       </a>
     <% end %>

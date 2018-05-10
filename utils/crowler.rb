@@ -37,5 +37,7 @@ class Crowler
         end
       end
     end
+    @item.touch if Feed.where(owner: @item.code).count > feed_ids.length
+    @item.save
   end
 end

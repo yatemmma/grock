@@ -16,8 +16,10 @@
 let firstContent = {}
 window.onload = ()=>{
   firstContent["header"] = document.querySelector("header").innerHTML
-  firstContent["player-wrapper"] = document.querySelector("#player-wrapper ").innerHTML
-  firstContent["player-wrapper"] = firstContent["player-wrapper"].replace(/main-player/, "main-player_" + new Date().getTime())
+  if (document.querySelector("#player-wrapper ")) {
+    firstContent["player-wrapper"] = document.querySelector("#player-wrapper ").innerHTML
+    firstContent["player-wrapper"] = firstContent["player-wrapper"].replace(/main-player/, "main-player_" + new Date().getTime())
+  }
   firstContent["contents"] = document.querySelector(".contents").innerHTML
   firstContent["footer"] = document.querySelector("footer").innerHTML
   init()

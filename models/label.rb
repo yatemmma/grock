@@ -17,7 +17,8 @@ class Label < ActiveRecord::Base
 				{
 					code: x.code,
 					name: x.name,
-					country: x.origin
+					country: x.origin,
+					updated: x.updated_date 
 				}
 			}.to_json
 		end

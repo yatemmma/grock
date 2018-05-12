@@ -28,8 +28,10 @@
 
 <script>
 function update() {
-  const code = document.querySelector("#form1").getAttribute("data-code")
-  document.form1.action = "<%= link("#{item.class.to_s.downcase}/") %>" + (code ? "update" : "create") + "/" + code
+  let code = document.querySelector("#form1").getAttribute("data-code")
+  const operation = code ? "update" : "create"
+  code = code || document.querySelector("[name=code]").value
+  document.form1.action = "<%= link("#{item.class.to_s.downcase}/") %>" + operation + "/" + code
   document.form1.submit()
 }
 
@@ -79,6 +81,14 @@ function onClickSite(e) {
         }
       })
     }
+  }
+}
+
+function onSelectValue(e, name) {
+  if (document.querySelector("[name=" + name + "]").value) {
+    document.querySelector("[name=" + name + "]").value += ("," + e.value)
+  } else {
+    document.querySelector("[name=" + name + "]").value = e.value
   }
 }
 </script>

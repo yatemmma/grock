@@ -244,7 +244,10 @@ function getAnchorElement(element) {
 
 function pjax(url) {
   console.log(url)
-  ajaxRequest(url, {}, (html)=>{
+  ajaxRequest(url, {}, (html, status)=>{
+    if (status !== 200) {
+      return;
+    }
     hoge = html
     // document.write(html)
     const matched = {}

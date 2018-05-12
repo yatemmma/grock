@@ -10,17 +10,17 @@
 
     <%= partial :band, {item: @item, text: ["", @item.name], class_names: ""} %>
 
-    <%= partial :text, {text: @item.founded, class_names: "active"} %>
+    <%= partial :text, {text: @item.active, class_names: "active"} %>
     <%= partial :text, {text: @item.origin_full, class_names: "origin"} %>
 
-    <% Label.site_keys.each do |site| %>
+    <% Band.site_keys.each do |site| %>
       <%= partial :site, {site: site, link_value: @item.send(site)} %>
     <% end %>
     <% @item.link_list.each do |site| %>
       <%= partial :site, {site: "link", link_value: site} %>
     <% end %>
 
-    <%= partial :"admin/label" %>
+    <%= partial :"admin/band" %>
   </div>
 
   <div class="sub-contents">

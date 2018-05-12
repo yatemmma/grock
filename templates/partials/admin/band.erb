@@ -4,14 +4,21 @@
 <div class="block admin">
   <%= partial :"admin/text_form", {item: @item, key: "code"} %>
   <%= partial :"admin/text_form", {item: @item, key: "name"} %>
-  <%= partial :"admin/text_form", {item: @item, key: "founded"} %>
+  <%= partial :"admin/text_form", {item: @item, key: "description"} %>
+  <%= partial :"admin/text_form", {item: @item, key: "active"} %>
   <%= partial :"admin/text_form", {item: @item, key: "origin"} %>
   <%= partial :"admin/text_form", {item: @item, key: "images"} %>
   <%= partial :"admin/text_form", {item: @item, key: "videos"} %>
-  <% Label.site_keys.each do |site| %>
+  <%= partial :"admin/select_form", {item: @item, key: "genres", list: Setting.genres.to_hash} %>
+  <% Band.site_keys.each do |site| %>
     <%= partial :"admin/link_form", {item: @item, site: site} %>
   <% end %>
   <%= partial :"admin/text_form", {item: @item, key: "links"} %>
+  <%
+    bands = Hash[*Band.all_items.map {|x| [x.code, x.name]}.flatten]
+  %>
+  <%= partial :"admin/select_form", {item: @item, key: "member_of", list: bands} %>
+  <%= partial :"admin/select_form", {item: @item, key: "ex_member_of", list: bands} %>
   <%= partial :"admin/text_form", {item: @item, key: "feeds"} %>
   <%= partial :"admin/text_block", {item: @item, key: "created_at"} %>
   <%= partial :"admin/text_block", {item: @item, key: "updated_at"} %>

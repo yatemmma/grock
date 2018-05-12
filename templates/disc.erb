@@ -8,23 +8,26 @@
     <%= partial :body, {item: @item} %>
     <%= partial :sns, {item: @item} %>
 
-    <%= partial :band, {item: @item, text: ["", @item.name], class_names: ""} %>
+    <%
+      band = @item.main_band
+      label = @item.main_label
+    %>
+    <%= partial :disc, {item: @item, text: [@item.name, (band.nil? ? "" : band.name)], class_names: ""} %>
+    <%= partial :band, {item: band, text: ["", band.name], class_names: ""} unless band.nil? %>
+    <%= partial :band, {item: label, text: ["", label.name], class_names: ""} unless label.nil? %>
 
-    <%= partial :text, {text: @item.founded, class_names: "active"} %>
-    <%= partial :text, {text: @item.origin_full, class_names: "origin"} %>
-
-    <% Label.site_keys.each do |site| %>
+    <% Disc.site_keys.each do |site| %>
       <%= partial :site, {site: site, link_value: @item.send(site)} %>
     <% end %>
     <% @item.link_list.each do |site| %>
       <%= partial :site, {site: "link", link_value: site} %>
     <% end %>
 
-    <%= partial :"admin/label" %>
+    <%= partial :"admin/disc" %>
   </div>
 
   <div class="sub-contents">
-    <%= partial :feeds, {item: @item} %>
+
   </div>
   <!-- contents -->
 </div>

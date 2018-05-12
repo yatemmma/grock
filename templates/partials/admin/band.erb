@@ -1,4 +1,8 @@
 <% if admin? %>
+<%
+  bands = Hash[*Band.all_items.map {|x| [x.code, x.name]}.flatten]
+%>
+
 <%= partial :"admin/common", {item: @item} %>
 
 <div class="block admin">
@@ -14,9 +18,6 @@
     <%= partial :"admin/link_form", {item: @item, site: site} %>
   <% end %>
   <%= partial :"admin/text_form", {item: @item, key: "links"} %>
-  <%
-    bands = Hash[*Band.all_items.map {|x| [x.code, x.name]}.flatten]
-  %>
   <%= partial :"admin/select_form", {item: @item, key: "member_of", list: bands} %>
   <%= partial :"admin/select_form", {item: @item, key: "ex_member_of", list: bands} %>
   <%= partial :"admin/text_form", {item: @item, key: "feeds"} %>

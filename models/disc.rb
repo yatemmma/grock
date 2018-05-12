@@ -5,7 +5,7 @@ class Disc < ActiveRecord::Base
 
 	class << self
 		def site_keys
-			%w(apple)
+			%w(apple play spotify soundcloud bandcamp amazon wikipedia lastfm discogs teaser playlist search)
 		end
 
 		def all_items

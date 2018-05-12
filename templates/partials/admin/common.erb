@@ -91,4 +91,17 @@ function onSelectValue(e, name) {
     document.querySelector("[name=" + name + "]").value = e.value
   }
 }
+
+function onSelectDate(e, name) {
+  const date = document.querySelector("[name=" + name + "]").value
+  if (date) {
+    const y = date.split("/")[0]
+    const m = date.split("/")[1]
+    if (e.value.startsWith("month")) {
+      document.querySelector("[name=" + name + "]").value = y + "/" + m + " " + e.value
+    } else {
+      document.querySelector("[name=" + name + "]").value = y + " " + e.value
+    }
+  }
+}
 </script>

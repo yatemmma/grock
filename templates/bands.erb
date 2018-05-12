@@ -1,5 +1,26 @@
 <div class="contents">
   <!-- contents -->
-  comming soon...
+  <div id="items" class="items table">
+    <div class="table-row table-header hidden-on-mobile">
+      <%= partial :table_header, {key: "name", hint:"Band Name"}%>
+      <%= partial :table_header, {key: "updated", hint:"Updated at"}%>
+    </div>
+
+    <% @items.each_with_index do |item, i| %>
+      <a id="<%= item.code %>" class="keep table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("band/#{item.code}.html") %>">
+        <div class="table-cell">
+          <%= item.name %>
+        </div>
+        <div class="table-cell">
+          <%= item.updated_date %>
+        </div>
+      </a>
+    <% end %>
+  </div>
+
+  <script>
+  searchData = <%= search_data %>
+  initTable()
+  </script>
   <!-- contents -->
-</div>
+<div>

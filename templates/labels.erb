@@ -7,7 +7,7 @@
       <%= partial :table_header, {key: "updated", hint:"Updated at"}%>
     </div>
 
-    <% @labels.each_with_index do |item, i| %>
+    <% @items.each_with_index do |item, i| %>
       <a id="<%= item.code %>" class="keep table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("label/#{item.code}.html") %>">
         <div class="table-cell">
           <%= item.name %>
@@ -23,7 +23,7 @@
   </div>
 
   <script>
-  searchData = <%= Label.search_json %>
+  searchData = <%= search_data %>
   initTable()
   </script>
   <!-- contents -->

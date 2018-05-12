@@ -2,7 +2,8 @@ class App < Sinatra::Base
 
   get "/:types.html" do |types|
     clazz = Object.const_get(types.singularize.capitalize)
-    erb :bands, {title: types.capitalize}
+    @items = clazz.all_items
+    erb types.to_sym, {title: types.capitalize, search_data: clazz.search_json}
   end
 
   # get "/bands.html" do
@@ -12,7 +13,7 @@ class App < Sinatra::Base
   get "/:type/new" do |type|
     clazz = Object.const_get(type.capitalize)
   	@item = clazz.new
-    erb type.to_sym, {title: "New #{type.capitalize}", label: @item}
+    erb type.to_sym, {title: "New #{type.capitalize}"}
   end
 
   # get "/band/new" do
@@ -23,7 +24,7 @@ class App < Sinatra::Base
   get "/:type/:id.html" do |type, id|
     clazz = Object.const_get(type.capitalize)
     @item = clazz.find_by(code: id)
-    erb type.to_sym, {title: @item.name, label: @item}
+    erb type.to_sym, {title: @item.name}
   end
 
   # get "/band/:id.html" do |id|

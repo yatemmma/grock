@@ -1,5 +1,3 @@
-
-
 <%
   video_list = "NNHGABwme50,9uar92t7Fzw,sdnLavmbtUQ,_RRbVhobb9o"
 %>
@@ -18,9 +16,10 @@
     <h3>Latest Updates</h3>
     <div class="posts">
     <%
-      items = Label.all.limit(30)
-      items += Band.all.limit(30)
-      items = items.sort_by {|item| item.updated_at}.reverse[0, 30]
+      items = Label.order(:updated_at).limit(50)
+      items += Band.order(:updated_at).limit(50)
+      items += Disc.order(:updated_at).limit(50)
+      items = items.sort_by {|item| item.updated_at}.reverse[0, 50]
       items.each_with_index do |item, i|
         case item.class.to_s
         when "Band"
@@ -28,7 +27,7 @@
           args = ["", item.name, item.updated_date]
         when "Disc"
           type = "disc"
-          args = [item.name, item.name, item.date]
+          args = [item.name, item.main_band.name, item.updated_date]
         when "Label"
           type = "band"
           args = ["", item.name, item.updated_date]
@@ -43,7 +42,9 @@
   <div class="sub-contents">
     <h3>Releases</h3>
     <div class="releases">
-
+      <% Disc.where.not(date: nil).where.not(date: "").order("date DESC").limit(50).each do |disc| %>
+        <%= partial :disc, {item: disc, text: [disc.name, disc.main_band.name, disc.date], class_names: ""} %>
+      <% end %>
     </div>
   </div>
 

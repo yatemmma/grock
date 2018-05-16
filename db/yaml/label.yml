@@ -14,7 +14,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.365881000 Z
-  updated_at: 2018-05-09 18:16:11.923893000 Z
+  updated_at: 2018-05-14 13:20:15.193598000 Z
 - code: uprising_records
   name: Uprising Records
   founded: '1994'
@@ -48,7 +48,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.373819000 Z
-  updated_at: 2018-05-06 14:06:45.286985000 Z
+  updated_at: 2018-05-15 11:57:13.519712000 Z
 - code: victory_records
   name: Victory Records
   founded: '1989'
@@ -204,3 +204,19 @@
   body: ''
   created_at: 2018-05-05 16:35:43.437010000 Z
   updated_at: 2018-05-06 14:48:45.644146000 Z
+- code: self-released
+  name: Self-released
+  founded: ''
+  origin: ''
+  images: ''
+  videos: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  links: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-13 16:08:50.926374000 Z
+  updated_at: 2018-05-13 16:08:50.926374000 Z

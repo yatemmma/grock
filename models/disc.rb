@@ -42,4 +42,28 @@ class Disc < ActiveRecord::Base
 	def main_label
 		Label.find_by(code: self.main_label_code)
 	end
+
+	def date_text
+		return nil if self.date.nil?
+		y, m, d = self.date.split("/")
+		if m == "99" && d == "99"
+			"#{y}"
+		elsif d == "99"
+			"#{y}/#{m}"
+		elsif m == "33"
+			"#{y} Early"
+		elsif m == "44"
+			"#{y} Spring"
+		elsif m == "55"
+			"#{y} Summer"
+		elsif m == "66"
+			"#{y} Fall"
+		elsif m == "77"
+			"#{y} Winter"
+		elsif m == "88"
+			"#{y} Late"
+		else
+			self.date
+		end
+	end
 end

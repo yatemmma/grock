@@ -59,9 +59,10 @@ function feed(e, sender) {
 }
 
 function onChangeText(key, e) {
-  if (key == "name" && !document.querySelector("#form1").getAttribute("data-code")) {
+  if ((key == "name" || key == "bands") && !document.querySelector("#form1").getAttribute("data-code")) {
+    const bands = document.querySelector(".disc [name=bands]")
     const code = e.value.toLowerCase().replace(/\s/g, "_")
-    document.querySelector("[name=code]").value = code
+    document.querySelector("[name=code]").value = (bands ? bands.value + "-" : "") + code
   }
 }
 

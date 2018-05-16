@@ -1,0 +1,19 @@
+<%
+  discs = code.nil? ? [] : Disc.where("bands LIKE :prefix", prefix: "#{code}%").order("date DESC")
+%>
+<% discs.select{|x| ["album", "ep", "single"].include? x.disc_type}.each_with_index do |disc, i| %>
+  <%= "<h3>Releases</h3>" if i == 0 %>
+  <%= partial :disc, {item: disc, text: [disc.name, disc.date], class_names: ""} %>
+<% end %>
+<% discs.select{|x| ["video", "lyric_video"].include? x.disc_type}.each_with_index do |disc, i| %>
+  <%= "<h3>Music Video</h3>" if i == 0 %>
+  <%= partial :disc, {item: disc, text: [disc.name], class_names: ""} %>
+<% end %>
+<% discs.select{|x| x.genres.split(",").include? "guest"}.each_with_index do |disc, i| %>
+  <%= "<h3>Guest Appearance</h3>" if i == 0 %>
+  <%= partial :disc, {item: disc, text: [disc.name, disc.description], class_names: ""} %>
+<% end %>
+<% discs.select{|x| x.genres.split(",").include? "cover"}.each_with_index do |disc, i| %>
+  <%= "<h3>Cover</h3>" if i == 0 %>
+  <%= partial :disc, {item: disc, text: [disc.name], class_names: ""} %>
+<% end %>

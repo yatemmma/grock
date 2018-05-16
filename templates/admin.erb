@@ -60,6 +60,18 @@
     <h2>YouTube Thumbnails</h2>
     <input type="text" id="url" onchange="changed(this)" style="height:20px;width:600px;" />
 
+    <h2>Playlist</h2>
+    <textarea>
+keys = []
+document.querySelectorAll("a.ytd-playlist-video-renderer").forEach((e)=>{
+  const param = new URL(e.href).searchParams.toString()
+  const v = param.split("&").find((x)=>{return x.split("=")[0] == "v"})
+  const key = v.split("=")[1]
+  keys.push(key)
+})
+keys.join(",")
+    </textarea>
+
     <h2>Export</h2>
     <span><a href="/" onclick="exportData(event, this)">band</a></span>
     <span><a href="/" onclick="exportData(event, this)">disc</a></span>

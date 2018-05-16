@@ -1,1 +1,306 @@
---- []
+---
+- code: broadway-kingdoms
+  name: Kingdoms
+  description: ''
+  date: 2009/07/07
+  bands: broadway
+  labels: uprising_records
+  images: https://images-na.ssl-images-amazon.com/images/I/61rbyYF8MzL.jpg
+  videos: XcQbMNKEk1s,g5P_AYwTr2A
+  genres: post-hardcore
+  disc_type: album
+  apple: https://itunes.apple.com/album/317488378 Kingdoms by Broadway
+  play: 'https://play.google.com/store/music/album/Broadway_Kingdoms?id=Bkny6gjfqkqlaexhfalyw3bsbyy
+    Broadway: Kingdoms - Google Play Music'
+  spotify: https://open.spotify.com/album/2qhMpQafyTBtpJ2oDJBgjj Kingdoms by Broadway
+    on Spotify
+  soundcloud: https://soundcloud.com/broadway-official/sets/kingdoms-2 Kingdoms by
+    Broadway | Free Listening on SoundCloud
+  bandcamp: ''
+  amazon: https://www.amazon.co.jp/Kingdoms-Broadway/dp/B002AOWXQS Amazon | Kingdoms
+    | Broadway
+  wikipedia: ''
+  lastfm: https://www.last.fm/music/Broadway/Kingdoms Kingdoms — Broadway | Last.fm
+  discogs: https://www.discogs.com/ja/Broadway-Kingdoms/release/3066558 Broadway (10)
+    - Kingdoms (CD, Album) at Discogs
+  teaser: ''
+  playlist: ''
+  search: https://www.youtube.com/results?search_query=broadway+kingdoms+full+album
+    broadway kingdoms - YouTube
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-13 13:53:24.838646000 Z
+  updated_at: 2018-05-13 15:37:29.855235000 Z
+- code: broadway-gentlemens_brawl
+  name: Gentlemen's Brawl
+  description: ''
+  date: 2012/06/19
+  bands: broadway
+  labels: uprising_records
+  images: https://images-na.ssl-images-amazon.com/images/I/61irgSt0ykL.jpg
+  videos: SxsmytBsucs,MxtCQ72qtDo,xMjhhhylnFE
+  genres: post-hardcore
+  disc_type: album
+  apple: https://itunes.apple.com/us/album/better-things/530367732 Gentlemen's Brawl
+    by Broadway on Apple Music
+  play: https://play.google.com/music/preview/Bqprxxogkgp4iyo6rs343ec2nzm Google Play
+    Music
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-13 15:57:45.493230000 Z
+  updated_at: 2018-05-13 15:59:08.329827000 Z
+- code: broadway-contexture_gods_men_and_the_infinite_cosmos
+  name: 'Contexture: Gods, Men, And the Infinite Cosmos'
+  description: ''
+  date: 2015/03/10
+  bands: broadway
+  labels: self-released
+  images: https://images-fe.ssl-images-amazon.com/images/I/51yNqy9mxrL._SS500.jpg
+  videos: rZ-3Ebno-Ks,5Wjos9Vsa6U
+  genres: post-hardcore
+  disc_type: album
+  apple: 'https://itunes.apple.com/us/album/artificial-love/967321482 Contexture:
+    Gods, Men, And the Infinite Cosmos by Broadway on Apple Music'
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: 'https://www.amazon.co.jp/Contexture-Gods-Infinite-Cosmos-Explicit/dp/B00TKU65PA
+    Amazon Music - Broadway | Contexture: Gods, Men, and the Infinite Cosmos [Explicit]
+    - Amazon.co.jp'
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-13 16:01:38.735718000 Z
+  updated_at: 2018-05-13 16:11:37.262210000 Z
+- code: broadway-dont_jump_the_shark_before_you_save_the_whale
+  name: Don’t Jump The Shark Before You Save The Whale
+  description: feat. Jonny Craig
+  date: ''
+  bands: broadway
+  labels: ''
+  images: https://images-na.ssl-images-amazon.com/images/I/61rbyYF8MzL.jpg
+  videos: 04_nrGdZ26k
+  genres: guest
+  disc_type: song
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: jonny_craig(Guest Vocals)
+  songs: ''
+  discs_of: broadway-kingdoms
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-13 16:31:01.703123000 Z
+  updated_at: 2018-05-13 16:31:01.703123000 Z
+- code: broadway-same_thing_we_do_everyday_pinky
+  name: Same Thing We Do Everyday Pinky
+  description: feat. Craig Owens
+  date: ''
+  bands: broadway
+  labels: ''
+  images: http://i.ytimg.com/vi/g5P_AYwTr2A/hq2.jpg
+  videos: g5P_AYwTr2A
+  genres: guest
+  disc_type: video
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: craig_owens(Guest Vocals)
+  songs: ''
+  discs_of: broadway-kingdoms
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-13 16:32:52.798821000 Z
+  updated_at: 2018-05-13 16:32:52.798821000 Z
+- code: broadway-im_on_a_boat_the_lonely_island_cover
+  name: I'm On A Boat (The Lonely Island Cover)
+  description: ''
+  date: 2009/99/99
+  bands: broadway
+  labels: ''
+  images: http://i.ytimg.com/vi/pSIWmP9yveg/maxresdefault.jpg
+  videos: pSIWmP9yveg
+  genres: cover
+  disc_type: song
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: avaSdC0QOUM
+  original_bands: the_lonely_island
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-13 16:38:49.316634000 Z
+  updated_at: 2018-05-16 15:20:32.839661000 Z
+- code: in_league-where_the_silence_is_easy
+  name: Where The Silence Is Easy
+  description: ''
+  date: 2011/01/11
+  bands: in_league
+  labels: invogue_records
+  images: https://www.spirit-of-metal.com/les%20goupes/I/In%20League/Where%20the%20Silence%20Is%20Easy/Where%20the%20Silence%20Is%20Easy.jpg
+  videos: AhrlxlBddlg,cUsuukSmztM,BLpFVyOVPQI,8hAzanhqtgY,hMOwvby1BMQ,RTxgzTx8GKU,Q8jxbbjdb9I,IPxFRnunZTM,-zSyVmfwWw8,tnNI5TMwpYk,XL1TjsR3-0s
+  genres: post-hardcore
+  disc_type: album
+  apple: ''
+  play: ''
+  spotify: https://open.spotify.com/album/3mcGB6bnHl5ictgQheIWC0 Where the Silence
+    Is Easy by In League on Spotify
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: https://www.discogs.com/ja/In-League-Where-The-Silence-Is-Easy/release/9902747
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=AhrlxlBddlg&list=PLF1669861A026A58D In
+    League - Tides - YouTube
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-15 12:04:25.672994000 Z
+  updated_at: 2018-05-15 12:27:37.051025000 Z
+- code: in_league-sleep_and_you_might_miss_this
+  name: Sleep and You Might Miss This
+  description: ''
+  date: 2012/09/30
+  bands: in_league
+  labels: invogue_records
+  images: https://is2-ssl.mzstatic.com/image/thumb/Music/v4/e5/ef/e7/e5efe7bb-26f4-7e5b-9a2e-e9e162ae93f8/700261944487.jpg/268x0w.jpg
+  videos: SEQbyTpe_iQ,ulmgPMTs2Dk,kmaLcl0Ieu8,5zI4-CHmds8,VvbWw4YsTx0,HO5xg1O-dno,2tfbBKvVPeo,RUbVLWNnmog,IAo_EVvhcC4,8BUL08Dddn8
+  genres: post-hardcore
+  disc_type: album
+  apple: ''
+  play: ''
+  spotify: https://open.spotify.com/album/2Iz95vmzXh17SCFruLi3KK Sleep and You Might
+    Miss This by In League on Spotify
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=SEQbyTpe_iQ&list=PL7ztMO7prrmunkNPVSTXfDBCf8DG0fpju
+    In League - We Came, We Saw, We Slept (New Album September 30th) - YouTube
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-15 12:25:59.461326000 Z
+  updated_at: 2018-05-15 12:27:08.003580000 Z
+- code: in_league-moving_for_words
+  name: Moving for Words
+  description: ''
+  date: 2015/07/06
+  bands: in_league
+  labels: self-released
+  images: https://is5-ssl.mzstatic.com/image/thumb/Music7/v4/3b/b4/44/3bb44470-85b9-1c1d-f25a-1a38142718b0/889211715596.jpg/268x0w.jpg
+  videos: MIViaiyAbZw
+  genres: post-hardcore
+  disc_type: single
+  apple: https://itunes.apple.com/au/album/moving-for-words-single/1015991020 Moving
+    for Words - Single by In League on Apple Music
+  play: ''
+  spotify: https://open.spotify.com/album/4LsSydO6GWb8EXhMYYkCHj Moving for Words
+    by In League on Spotify
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: https://killyourstereo.com/news/1067290/feature-in-league-moving-for-words-video
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-15 12:51:24.401444000 Z
+  updated_at: 2018-05-15 12:51:24.401444000 Z

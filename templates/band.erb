@@ -20,6 +20,23 @@
       <%= partial :site, {site: "link", link_value: site} %>
     <% end %>
 
+    <%= partial :releases, {code: @item.code} unless @item.code.nil? %>
+
+    <% Disc.where("name LIKE ?", "%#{@item.code}%").each do |disc| %>
+      <%= partial :disc, {item: disc, text: [disc.name, disc.main_band.name, disc.date_text], class_names: ""} %>
+    <% end %>
+
+    <% (@item.member_of || "").split(",").each do |band_code| %>
+      <% band = Band.find_by(code: band_code) %>
+      <%= partial :band, {item: band, text: ["Member", band.name], class_names: ""} %>
+    <% end %>
+
+    <% (@item.ex_member_of || "").split(",").each do |band_code| %>
+      <% band = Band.find_by(code: band_code) %>
+      <%= partial :band, {item: band, text: ["Ex Member", band.name], class_names: ""} %>
+    <% end %>
+
+
     <%= partial :"admin/band" %>
   </div>
 

@@ -1,5 +1,5 @@
 <%
-  video_list = "NNHGABwme50,9uar92t7Fzw,sdnLavmbtUQ,_RRbVhobb9o"
+  video_list = "NNHGABwme50,EICufmQ3Rhc,_RRbVhobb9o"
 %>
 <div id="main-video">
   <div id="player-wrapper">
@@ -16,9 +16,9 @@
     <h3>Latest Updates</h3>
     <div class="posts">
     <%
-      items = Label.order(:updated_at).limit(50)
-      items += Band.order(:updated_at).limit(50)
-      items += Disc.order(:updated_at).limit(50)
+      items = Label.order("updated_at DESC").limit(50)
+      items += Band.order("updated_at DESC").limit(50)
+      items += Disc.order("updated_at DESC").limit(50)
       items = items.sort_by {|item| item.updated_at}.reverse[0, 50]
       items.each_with_index do |item, i|
         case item.class.to_s

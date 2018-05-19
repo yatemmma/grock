@@ -59,6 +59,32 @@
 
     <h2>YouTube Thumbnails</h2>
     <input type="text" id="url" onchange="changed(this)" style="height:20px;width:600px;" />
+    <div id="wrapper" style="width:100%;"></div>
+    <style>
+      #wrapper img {
+        width: 22%;
+      }
+    </style>
+    <script>
+    function changed(e) {
+      const param = new URL(e.value).searchParams.toString()
+      const v = param.split("&").find((x)=>{return x.split("=")[0] == "v"})
+      const key = v.split("=")[1]
+
+      const wrapper = document.querySelector("#wrapper")
+      wrapper.innerHTML = ""
+      const sizelist = ["maxres", "hq", "mq"]
+      const numlist = ["default", "1", "2", "3"]
+      sizelist.forEach((size)=>{
+        numlist.forEach((num)=>{
+          let img = document.createElement("img")
+          img.src = "http://i.ytimg.com/vi/" + key + "/" + size + num + ".jpg"
+          img.className = size
+          wrapper.appendChild(img)
+        })
+      })
+    }
+    </script>
 
     <h2>Playlist</h2>
     <textarea>

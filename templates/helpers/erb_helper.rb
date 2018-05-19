@@ -33,6 +33,10 @@ module ERBHelper
     @is_admin
   end
 
+  def esc(text)
+    text.nil? ? text : text.gsub(/\"/, "\"")
+  end
+
   def link(path)
     "./#{"../"*@floor}#{path}"
   end

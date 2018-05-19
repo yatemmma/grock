@@ -160,3 +160,192 @@
   body: ''
   created_at: 2018-05-14 13:09:05.628576000 Z
   updated_at: 2018-05-14 13:14:20.621880000 Z
+- code: death_and_a_cure
+  name: Death and a Cure
+  description: ''
+  active: 2008-
+  origin: au Perth, Western Australia
+  images: https://f4.bcbits.com/img/0004925280_10.jpg
+  videos: P8A6pSUfSeg
+  genres: indie_rock,acoustic
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: https://deathandacure.bandcamp.com/ Music | Death and a Cure
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: https://www.youtube.com/user/Deathandacure Deathandacure - YouTube
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-16 15:48:31.935298000 Z
+  updated_at: 2018-05-16 15:48:55.454004000 Z
+- code: ben_blondel
+  name: Ben Blondel
+  description: ex. In League
+  active: ''
+  origin: au Brisbane, Queensland Australia
+  images: http://images.fasterlouder.com.au/1191/1191894.jpg
+  videos: ''
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: https://twitter.com/deathandacure Ben Blondel (@DeathandaCure) | Twitter
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: http://fasterlouder.junkee.com/ben-blondel/692545
+  member_of: death_and_a_cure
+  ex_member_of: in_league
+  feeds: ''
+  body: ''
+  created_at: 2018-05-16 15:50:21.596807000 Z
+  updated_at: 2018-05-17 13:17:24.974700000 Z
+- code: ricky_thomas
+  name: Ricky Thomas
+  description: ex. In League
+  active: ''
+  origin: au Australia
+  images: https://c1.staticflickr.com/8/7202/6812022816_d299fde045_b.jpg
+  videos: ''
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: in_league
+  feeds: ''
+  body: ''
+  created_at: 2018-05-19 01:40:51.741597000 Z
+  updated_at: 2018-05-19 01:40:51.741597000 Z
+- code: awaken_i_am
+  name: Awaken I Am
+  description: ''
+  active: 2011-
+  origin: au Brisbane, Queensland Australia
+  images: https://pbs.twimg.com/media/DZ06rxdVMAIS0vy.jpg
+  videos: WQxQOMdeshw
+  genres: post-hardcore
+  apple: https://itunes.apple.com/jp/artist/awaken-i-am/475768225 Awaken I Am - Apple
+    Music
+  play: ''
+  spotify: https://open.spotify.com/artist/3BwbgahlwovSpRfctWi8zY Awaken I Am on Spotify
+  soundcloud: https://soundcloud.com/awakeniam AwakenIAm | Awaken IAm | Free Listening
+    on SoundCloud
+  bandcamp: ''
+  amazon: ''
+  website: http://awakeniam.co/ Awaken I Am
+  wikipedia: ''
+  youtube: https://www.youtube.com/user/AwakenIAm AwakenIAm - YouTube
+  twitter: https://twitter.com/awakeniam Awaken I Am (@AwakenIAm) | Twitter
+  facebook: https://www.facebook.com/awakeniam/ Awaken I Am - Home | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: http://www.victoryrecords.com/awakeniam,https://gekirock.com/news/artist_index/awaken_i_am/
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-19 01:48:32.332421000 Z
+  updated_at: 2018-05-19 01:49:30.762320000 Z
+- code: closure_in_moscow
+  name: Closure in Moscow
+  description: ''
+  active: 2006-
+  origin: au Melbourne, Victoria, Australia
+  images: http://i.ytimg.com/vi/FyC4FAg06fw/maxresdefault.jpg
+  videos: W8FVIWPrEhw
+  genres: post-hardcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: http://www.closureinmoscow.com/ Closure in Moscow
+  wikipedia: https://en.wikipedia.org/wiki/Closure_in_Moscow Closure in Moscow - Wikipedia
+  youtube: https://www.youtube.com/user/closureinmoscow closureinmoscow - YouTube
+  twitter: https://twitter.com/closureinmoscow Closure In Moscow (@ClosureInMoscow)
+    | Twitter
+  facebook: https://www.facebook.com/closureinmoscow/ Closure In Moscow - Home | Facebook
+  instagram: ''
+  purevolume: http://www.purevolume.com/closureinmoscow Closure in Moscow on PureVolume
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-19 01:53:25.479872000 Z
+  updated_at: 2018-05-19 01:53:39.843596000 Z
+- code: mansur_zennelli
+  name: Mansur Zennelli
+  description: Closure in Moscow
+  active: ''
+  origin: au Newcastle, Australia
+  images: https://78.media.tumblr.com/5a6d90930b9cad56910195efc556ea39/tumblr_msrxohwyj21s289wco1_1280.jpg
+  videos: lx9tvSo1eBY
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: closure_in_moscow
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-19 01:57:53.892990000 Z
+  updated_at: 2018-05-19 01:59:21.162876000 Z

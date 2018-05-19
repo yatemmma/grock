@@ -48,6 +48,4 @@ class App < Sinatra::Base
 end
 
 require_relative "./admin_controller"
-require_relative "./label_controller"
 require_relative "./band_controller"
-require_relative "./disc_controller"

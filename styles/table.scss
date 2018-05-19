@@ -16,6 +16,12 @@
     text-overflow: ellipsis;
   }
 
+  @include screen-mobile {
+    .table-cell {
+      white-space: normal;
+    }
+  }
+
   .table-header {
 
     .table-cell {

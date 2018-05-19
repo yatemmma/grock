@@ -54,6 +54,12 @@ a {
   text-decoration: none;
 }
 
+@include screen-tablet {
+  .hidden-on-tablet {
+    display: none !important;
+  }
+}
+
 @include screen-mobile {
   .hidden-on-mobile {
     display: none !important;

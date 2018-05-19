@@ -1,17 +1,34 @@
+<div id="main-video" class="no-height">
+  <div id="player-wrapper">
+  </div>
+</div>
+
 <div class="contents">
   <!-- contents -->
   <div id="items" class="items table">
     <div class="table-row table-header hidden-on-mobile">
       <%= partial :table_header, {key: "name", hint:"Disc Title"}%>
-      <%= partial :table_header, {key: "updated", hint:"Updated at"}%>
+      <%= partial :table_header, {key: "bands", hint:"Band Name"}%>
+      <%= partial :table_header, {key: "date_text", hint:"Release Date"}%>
+      <%= partial :table_header, {key: "disc_type", hint:"Disc Type"}%>
+      <%= partial :table_header, {key: "updated", hint:"Updated At"}%>
     </div>
 
     <% @items.each_with_index do |item, i| %>
-      <a id="<%= item.code %>" class="keep table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("disc/#{item.code}.html") %>">
+      <a id="row-<%= item.code %>" class="keep table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("disc/#{item.code}.html") %>">
         <div class="table-cell">
           <%= item.name %>
         </div>
         <div class="table-cell">
+          <%= item.main_band.name %>
+        </div>
+        <div class="table-cell hidden-on-mobile">
+          <%= item.date_text %>
+        </div>
+        <div class="table-cell hidden-on-mobile">
+          <%= Setting.disc_types.to_hash[item.disc_type] %>
+        </div>
+        <div class="table-cell hidden-on-mobile">
           <%= item.updated_date %>
         </div>
       </a>
@@ -23,4 +40,4 @@
   initTable()
   </script>
   <!-- contents -->
-<div>
+</div>

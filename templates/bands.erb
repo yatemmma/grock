@@ -1,17 +1,31 @@
+<div id="main-video" class="no-height">
+  <div id="player-wrapper">
+  </div>
+</div>
+
 <div class="contents">
   <!-- contents -->
   <div id="items" class="items table">
     <div class="table-row table-header hidden-on-mobile">
       <%= partial :table_header, {key: "name", hint:"Band Name"}%>
+      <%= partial :table_header, {key: "country", hint:"Country"}%>
+      <%= partial :table_header, {key: "active", hint:"Active"}%>
       <%= partial :table_header, {key: "updated", hint:"Updated at"}%>
     </div>
 
     <% @items.each_with_index do |item, i| %>
-      <a id="<%= item.code %>" class="keep table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("band/#{item.code}.html") %>">
+      <a id="row-<%= item.code %>" class="keep table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("band/#{item.code}.html") %>">
         <div class="table-cell">
           <%= item.name %>
+          <%= "(#{item.description})" unless item.description.empty? %>
         </div>
         <div class="table-cell">
+          <%= item.country_emoji %>
+        </div>
+        <div class="table-cell">
+          <%= item.active %>
+        </div>
+        <div class="table-cell hidden-on-mobile">
           <%= item.updated_date %>
         </div>
       </a>
@@ -23,4 +37,4 @@
   initTable()
   </script>
   <!-- contents -->
-<div>
+</div>

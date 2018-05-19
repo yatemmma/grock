@@ -16,7 +16,7 @@
 let firstContent = {}
 window.onload = ()=>{
   firstContent["header"] = document.querySelector("header").innerHTML
-  if (document.querySelector("#player-wrapper ")) {
+  if (document.querySelector("#player-wrapper")) {
     firstContent["player-wrapper"] = document.querySelector("#player-wrapper ").innerHTML
     firstContent["player-wrapper"] = firstContent["player-wrapper"].replace(/main-player/, "main-player_" + new Date().getTime())
   }
@@ -148,7 +148,7 @@ function filtered(item, cond) {
 
 function initTable() {
   searchData.forEach((item)=>{
-    const row = document.querySelector("#"+item.code)
+    const row = document.querySelector("#row-"+item.code)
     item.element = row
   })
 }
@@ -182,9 +182,13 @@ function refresh() {
   let i = 0
   items.forEach((item)=>{
     if (filtered(item, filterConditions)) {
-      item.element.className = "table-row table-body " + (i%2 == 0 ? "" : "odd")
-      table.appendChild(item.element)
-      i++
+      if (item.element) {
+        item.element.className = "table-row table-body " + (i%2 == 0 ? "" : "odd")
+        table.appendChild(item.element)
+        i++
+      } else {
+        console.log(item)
+      }
     }
   })
 }
@@ -268,11 +272,13 @@ function pjax(url) {
 
 function refreshDom(html) {
   document.querySelector("header").innerHTML = html["header"]
-  document.querySelector("#player-wrapper").innerHTML = html["player-wrapper"]
-  if (document.querySelector("#player-wrapper").innerHTML) {
-    document.querySelector("#main-video").classList.remove("no-height")
-  } else {
-    document.querySelector("#main-video").classList.add("no-height")
+  if (document.querySelector("#player-wrapper")) {
+    document.querySelector("#player-wrapper").innerHTML = html["player-wrapper"]
+    if (document.querySelector("#player-wrapper").innerHTML) {
+      document.querySelector("#main-video").classList.remove("no-height")
+    } else {
+      document.querySelector("#main-video").classList.add("no-height")
+    }
   }
   document.querySelector(".contents").innerHTML = html["contents"]
   document.querySelector("footer").innerHTML = html["footer"]

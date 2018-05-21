@@ -4,6 +4,7 @@ require "sinatra/activerecord"
 
 require "./models/models"
 require "./templates/helpers/erb_helper"
+require "./utils/crowler"
 
 class App < Sinatra::Base
   configure :development do
@@ -35,10 +36,6 @@ class App < Sinatra::Base
 
   get "/" do
     redirect "/index.html"
-  end
-
-  get "/index.html" do
-    erb :index, {title: nil}
   end
 
   get "/admin/work" do

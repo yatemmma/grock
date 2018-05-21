@@ -65,7 +65,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.378230000 Z
-  updated_at: 2018-05-09 17:54:57.013717000 Z
+  updated_at: 2018-05-19 15:55:58.690784000 Z
 - code: artery_recordings
   name: Artery Recordings
   founded: '2010'
@@ -220,3 +220,52 @@
   body: ''
   created_at: 2018-05-13 16:08:50.926374000 Z
   updated_at: 2018-05-13 16:08:50.926374000 Z
+- code: unfd
+  name: UNFD
+  founded: '2011'
+  origin: au Australia
+  images: https://pbs.twimg.com/profile_images/887433161637941252/R9VfcjQZ_400x400.jpg
+  videos: ''
+  website: http://www.unfdcentral.com/ Home | UNFD Central
+  wikipedia: https://en.wikipedia.org/wiki/UNFD UNFD - Wikipedia
+  youtube: https://www.youtube.com/user/weareunified weareunified - YouTube
+  twitter: https://twitter.com/unfdcentral UNFD (@unfdcentral) | Twitter
+  facebook: https://www.facebook.com/unfdcentral/ UNFD - Home | Facebook
+  links: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 07:13:43.013118000 Z
+  updated_at: 2018-05-20 07:14:53.140208000 Z
+- code: redfield_records
+  name: Redfield Records
+  founded: '2001'
+  origin: ge Germany
+  images: https://f4.bcbits.com/img/0010774903_100.png
+  videos: ''
+  website: https://redfield-records.com/
+  wikipedia: https://en.wikipedia.org/wiki/Redfield_Records Redfield Records - Wikipedia
+  youtube: https://www.youtube.com/user/redfieldrecords redfieldrecords - YouTube
+  twitter: https://twitter.com/redfieldrecords
+  facebook: https://www.facebook.com/redfieldrecords/ Redfield Records - Home | Facebook
+  links: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 13:06:41.346176000 Z
+  updated_at: 2018-05-20 13:07:02.948970000 Z
+- code: hopeless_records
+  name: Hopeless Records
+  founded: '1993'
+  origin: us United States
+  images: https://imageservicestoreag.blob.core.windows.net/imagecatalog/70457de6a0e946b086857592761c8e80v1.jpeg
+  videos: ''
+  website: https://www.hopelessrecords.com/ Hopeless Records
+  wikipedia: https://en.wikipedia.org/wiki/Hopeless_Records Hopeless Records - Wikipedia
+  youtube: https://www.youtube.com/user/HopelessRecords HopelessRecords - YouTube
+  twitter: https://twitter.com/hopelessrecords Hopeless Records (@hopelessrecords)
+    | Twitter
+  facebook: https://www.facebook.com/hopelessrecords/ Hopeless Records - Home | Facebook
+  links: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-21 12:36:20.868347000 Z
+  updated_at: 2018-05-21 12:37:23.688927000 Z

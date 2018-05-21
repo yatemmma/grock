@@ -781,8 +781,9 @@
   wikipedia: https://en.wikipedia.org/wiki/Jamie%27s_Elsewhere Jamie's Elsewhere -
     Wikipedia
   youtube: https://www.youtube.com/user/JamiesElsewhereTV JamiesElsewhereTV - YouTube
-  twitter: ''
-  facebook: ''
+  twitter: https://twitter.com/jamieselsewhere Jamie's Elsewhere (@Jamieselsewhere)
+    | Twitter
+  facebook: https://www.facebook.com/jamieselsewhere/ Jamie's Elsewhere - Home | Facebook
   instagram: ''
   purevolume: ''
   myspace: ''
@@ -794,7 +795,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 08:23:42.453564000 Z
-  updated_at: 2018-05-19 08:23:50.634644000 Z
+  updated_at: 2018-05-20 14:52:07.315116000 Z
 - code: in_aviate
   name: In:Aviate
   description: ''
@@ -1349,7 +1350,7 @@
     - Wikipedia
   youtube: https://www.youtube.com/channel/UCh80bSM_dXYP8P9ll1LzrYw House vs. Hurricane
     - YouTube
-  twitter: ''
+  twitter: https://twitter.com/hvhofficial House Vs Hurricane (@Hvhofficial) | Twitter
   facebook: ''
   instagram: ''
   purevolume: ''
@@ -1363,7 +1364,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:22:07.552911000 Z
-  updated_at: 2018-05-19 11:22:13.237924000 Z
+  updated_at: 2018-05-21 12:10:41.441869000 Z
 - code: dream_on_dreamer
   name: Dream On, Dreamer
   description: ''
@@ -1531,7 +1532,8 @@
   genres: melodic_rock,post-hardcore
   apple: ''
   play: ''
-  spotify: ''
+  spotify: https://open.spotify.com/artist/6jfEmXKhBuSwjYzrqo0AtJ Kill Your Ex on
+    Spotify
   soundcloud: ''
   bandcamp: ''
   amazon: ''
@@ -1553,7 +1555,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:33:36.927088000 Z
-  updated_at: 2018-05-19 11:33:49.782629000 Z
+  updated_at: 2018-05-19 23:12:29.906166000 Z
 - code: story_of_hope
   name: "「Story of Hope」"
   description: ''
@@ -2119,3 +2121,380 @@
   body: ''
   created_at: 2018-05-19 13:54:43.402127000 Z
   updated_at: 2018-05-19 13:55:12.334654000 Z
+- code: thrice
+  name: Thrice
+  description: ''
+  active: 1999-2012, 2015-
+  origin: us Irvine, California, US
+  images: http://i.ytimg.com/vi/Q4oxlU8DSR0/hqdefault.jpg
+  videos: tghjkKiSCz4
+  genres: post-hardcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Thrice Thrice - Wikipedia
+  youtube: https://www.youtube.com/channel/UC_gH-AQqoOUZ4ykZBCLdvww Thrice - YouTube
+  twitter: https://twitter.com/thrice THRICE (@Thrice) | Twitter
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-19 16:55:33.191861000 Z
+  updated_at: 2018-05-19 16:55:59.092799000 Z
+- code: upon_this_dawning
+  name: Upon This Dawning
+  description: ''
+  active: 2006-
+  origin: it Brescia, Italy
+  images: http://i.ytimg.com/vi/3VKXUfW3aaE/hq1.jpg
+  videos: 6gDh_dFrMGw
+  genres: post-hardcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Upon_This_Dawning Upon This Dawning - Wikipedia
+  youtube: https://www.youtube.com/user/UponThisDawning UponThisDawning - YouTube
+  twitter: https://twitter.com/uponthisdawning Upon This Dawning (@UponThisDawning)
+    | Twitter
+  facebook: https://www.facebook.com/uponthisdawning/ Upon This Dawning - Home | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 03:10:16.657458000 Z
+  updated_at: 2018-05-20 03:10:52.282375000 Z
+- code: daniele_nelli
+  name: Daniele Nelli
+  description: Upon This Dawning / ex. Tasters
+  active: ''
+  origin: it Italy
+  images: http://i.ytimg.com/vi/ZgutVug_IOY/hq3.jpg
+  videos: 5tH_JbHK4sw
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: https://twitter.com/danitasters Dani Nelli (@DaniTasters) | Twitter
+  facebook: ''
+  instagram: https://www.instagram.com/daninelli/
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: upon_this_dawning
+  ex_member_of: tasters
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 03:17:12.300092000 Z
+  updated_at: 2018-05-20 14:49:12.117920000 Z
+- code: betraying_the_martyrs
+  name: Betraying the Martyrs
+  description: ''
+  active: 2008-
+  origin: fr Paris, France
+  images: http://i.ytimg.com/vi/fGRBD1rmKcs/hqdefault.jpg
+  videos: "-m7pZPE261M"
+  genres: metalcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Betraying_the_Martyrs Betraying the Martyrs
+    - Wikipedia
+  youtube: https://www.youtube.com/user/Betrayingthemartyrs Betrayingthemartyrs -
+    YouTube
+  twitter: https://twitter.com/martyrstweets
+  facebook: https://www.facebook.com/WeAreBetrayingTheMartyrs/
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 03:21:09.396338000 Z
+  updated_at: 2018-05-20 03:21:38.989539000 Z
+- code: aaron_matts
+  name: Aaron Matts
+  description: Betraying the Martyrs
+  active: ''
+  origin: fr France
+  images: http://i.ytimg.com/vi/kdtlfL-fOB8/maxres2.jpg
+  videos: ''
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: https://twitter.com/aaronmatts Aaron Matts (@aaronmatts) | Twitter
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: betraying_the_martyrs
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 03:33:31.642368000 Z
+  updated_at: 2018-05-20 14:49:37.495584000 Z
+- code: vanessa_carlton
+  name: Vanessa Carlton
+  description: ''
+  active: ''
+  origin: ''
+  images: http://i.ytimg.com/vi/jIagfv0s-ig/hq2.jpg
+  videos: Cwkej79U3ek
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Vanessa_Carlton Vanessa Carlton - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 07:48:49.368232000 Z
+  updated_at: 2018-05-20 07:48:49.368232000 Z
+- code: horizons
+  name: Horizons
+  description: ''
+  active: 2009-
+  origin: ca Mississauga, Ontario, Canada
+  images: http://i.ytimg.com/vi/1-w978bZBsQ/hqdefault.jpg
+  videos: 1_9AFFOOMc0
+  genres: post-hardcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: https://horizonsofficial.bandcamp.com/ HORIZONS
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: https://www.youtube.com/user/horizonsontarioTV horizonsontarioTV - YouTube
+  twitter: https://twitter.com/horizonsontario HORIZONS (@horizonsontario) | Twitter
+  facebook: https://www.facebook.com/horizonsofficial Horizons - Home | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: https://myspace.com/horizonsontario
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 12:16:29.997910000 Z
+  updated_at: 2018-05-20 12:36:34.383273000 Z
+- code: calvin_harris
+  name: Calvin Harris
+  description: ''
+  active: ''
+  origin: ''
+  images: http://i.ytimg.com/vi/ebXbLfLACGM/hqdefault.jpg
+  videos: AtKZKl7Bgu0
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 12:47:48.911757000 Z
+  updated_at: 2018-05-20 12:47:48.911757000 Z
+- code: ne-yo
+  name: Ne-Yo
+  description: ''
+  active: ''
+  origin: ''
+  images: http://i.ytimg.com/vi/sAYuOc7_TKg/hqdefault.jpg
+  videos: z_aC5xPQ2f4
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 13:14:28.737889000 Z
+  updated_at: 2018-05-20 13:14:28.737889000 Z
+- code: taking_back_sunday
+  name: Taking Back Sunday
+  description: ''
+  active: 1999-
+  origin: us Long Island, New York
+  images: http://i.ytimg.com/vi/a2B55XYShRs/hqdefault.jpg
+  videos: 4ldjbjwim4k
+  genres: post-hardcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Taking_Back_Sunday Taking Back Sunday -
+    Wikipedia
+  youtube: https://www.youtube.com/user/takingbacksunday takingbacksunday - YouTube
+  twitter: https://twitter.com/tbsofficial Taking Back Sunday (@TBSOfficial) | Twitter
+  facebook: https://www.facebook.com/TakingBackSunday/ Taking Back Sunday - Home |
+    Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-20 14:33:55.080381000 Z
+  updated_at: 2018-05-20 14:34:28.294970000 Z
+- code: natalie_imbruglia
+  name: Natalie Imbruglia
+  description: ''
+  active: ''
+  origin: au Australia
+  images: http://i.ytimg.com/vi/VV1XWJN3nJo/hqdefault.jpg
+  videos: VV1XWJN3nJo
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Natalie_Imbruglia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-21 12:45:34.410699000 Z
+  updated_at: 2018-05-21 12:45:34.410699000 Z
+- code: silverchair
+  name: Silverchair
+  description: ''
+  active: ''
+  origin: au Australia
+  images: http://i.ytimg.com/vi/zNK_r2QAXAo/hqdefault.jpg
+  videos: zNK_r2QAXAo
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Silverchair Silverchair - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-21 12:49:23.869476000 Z
+  updated_at: 2018-05-21 12:49:23.869476000 Z

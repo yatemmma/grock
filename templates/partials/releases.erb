@@ -17,3 +17,7 @@
   <%= "<h3>Cover</h3>" if i == 0 %>
   <%= partial :disc, {item: disc, text: [disc.name], class_names: ""} %>
 <% end %>
+<% discs.select{|x| x.genres.split(",").include? "acoustic_cover"}.each_with_index do |disc, i| %>
+  <%= "<h3>Acoustic</h3>" if i == 0 %>
+  <%= partial :disc, {item: disc, text: [disc.name], class_names: ""} %>
+<% end %>

@@ -1,11 +1,22 @@
 <%
-  video_list = "NNHGABwme50,EICufmQ3Rhc,_RRbVhobb9o"
+  video_list = %w(NNHGABwme50 1_9AFFOOMc0 EICufmQ3Rhc)
+  video_list += %w(
+    -BNY61i551k
+    LtTyGOG3BXs
+    d1rM5Vrfiso
+    g5P_AYwTr2A
+    W8FVIWPrEhw
+    wBMlk0UUW5k
+    0c8TdnSaw9I
+    AWrZRkycnyQ
+    IpvWSPBypIo
+  ).shuffle
 %>
 <div id="main-video">
   <div id="player-wrapper">
     <!-- player-wrapper -->
     <div class="toggle-player"><a href="/" onclick="popup(event, this)"><i class="fas fa-clone"></i></a></div>
-    <div id="main-player" class="youtube" data-key="<%= video_list %>"></div>
+    <div id="main-player" class="youtube" data-key="<%= video_list.join(",") %>"></div>
     <!-- player-wrapper -->
   </div>
 </div>

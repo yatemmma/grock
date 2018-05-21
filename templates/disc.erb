@@ -33,12 +33,12 @@
         code, title = guest_code.split("(")
         guest = Band.find_by(code: code)
       %>
-      <%= partial :band, {item: guest, text: [title[0..-2], guest.name], class_names: ""} %>
+      <%= partial :band, {item: guest, text: [(title || "Guest)")[0..-2], guest.name], class_names: ""} %>
     <% end %>
 
     <% (@item.discs_of || "").split(",").each do |disc_code| %>
       <% disc = Disc.find_by(code: disc_code) %>
-      <%= partial :disc, {item: disc, text: ["", disc.name], class_names: ""} %>
+      <%= partial :disc, {item: disc, text: ["Recorded in", disc.name], class_names: ""} %>
     <% end %>
 
     <% (@item.original_bands || "").split(",").each do |band_code| %>

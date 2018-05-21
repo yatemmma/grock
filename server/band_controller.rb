@@ -2,6 +2,8 @@ class App < Sinatra::Base
 
   get "/:types.html" do |types|
     case types
+    when "index"
+      erb :index, {title: nil}
     when "bands"
       @items = Band.all_items.select {|x| (x.member_of.empty? && x.ex_member_of.empty?)}
       erb :bands, {title: "Bands", search_data: Band.search_json}

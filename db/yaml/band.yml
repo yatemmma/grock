@@ -2498,3 +2498,65 @@
   body: ''
   created_at: 2018-05-21 12:49:23.869476000 Z
   updated_at: 2018-05-21 12:49:23.869476000 Z
+- code: coolio
+  name: Coolio
+  description: ''
+  active: ''
+  origin: us USA
+  images: http://i.ytimg.com/vi/fPO76Jlnz6c/hqdefault.jpg
+  videos: fPO76Jlnz6c
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Coolio Coolio - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-21 14:01:05.430230000 Z
+  updated_at: 2018-05-21 14:01:05.430230000 Z
+- code: michael_jackson
+  name: Michael Jackson
+  description: ''
+  active: ''
+  origin: us USA
+  images: http://i.ytimg.com/vi/oRdxUFDoQe0/hqdefault.jpg
+  videos: sOnqjkJTMaA
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Michael_Jackson Michael Jackson - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-22 14:10:58.903376000 Z
+  updated_at: 2018-05-22 14:10:58.903376000 Z

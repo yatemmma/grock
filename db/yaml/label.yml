@@ -14,7 +14,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.365881000 Z
-  updated_at: 2018-05-14 13:20:15.193598000 Z
+  updated_at: 2018-05-24 14:55:32.780285000 Z
 - code: uprising_records
   name: Uprising Records
   founded: '1994'
@@ -269,3 +269,38 @@
   body: ''
   created_at: 2018-05-21 12:36:20.868347000 Z
   updated_at: 2018-05-21 12:37:23.688927000 Z
+- code: vagrant_records
+  name: Vagrant Records
+  founded: '1996'
+  origin: us United States
+  images: http://vagrant.com/images/fb.jpg
+  videos: ''
+  website: http://www.vagrant.com/ VAGRANT | Home
+  wikipedia: https://en.wikipedia.org/wiki/Vagrant_Records Vagrant Records - Wikipedia
+  youtube: https://www.youtube.com/user/vagrantrecords vagrantrecords - YouTube
+  twitter: https://twitter.com/vagrantrecords Vagrant Records (@vagrantrecords) |
+    Twitter
+  facebook: https://www.facebook.com/vagrantrecords/ Vagrant Records - Home | Facebook
+  links: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-24 13:19:37.617007000 Z
+  updated_at: 2018-05-24 13:23:26.776917000 Z
+- code: standby_records
+  name: StandBy Records
+  founded: '2007'
+  origin: us United States
+  images: https://yt3.ggpht.com/a-/AJLlDp3HR5jnjrT7TxREDL-UOflzmDnvtINU4927ww=s900-mo-c-c0xffffffff-rj-k-no
+  videos: ''
+  website: http://standbyrecords.com/ Standby Records | New Look. New Bands. New Music.
+    New Era
+  wikipedia: https://en.wikipedia.org/wiki/StandBy_Records StandBy Records - Wikipedia
+  youtube: https://www.youtube.com/user/StandByTube StandByTube - YouTube
+  twitter: https://twitter.com/standbyrecords Standby Records (@StandbyRecords) |
+    Twitter
+  facebook: https://www.facebook.com/standbyrecords/ Standby Records - Home | Facebook
+  links: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-26 12:25:29.827787000 Z
+  updated_at: 2018-05-26 12:26:01.795924000 Z

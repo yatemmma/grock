@@ -285,7 +285,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 01:48:32.332421000 Z
-  updated_at: 2018-05-19 01:49:30.762320000 Z
+  updated_at: 2018-05-25 21:26:05.382840000 Z
 - code: closure_in_moscow
   name: Closure in Moscow
   description: ''
@@ -989,7 +989,7 @@
   active: 2015-
   origin: jp Japan
   images: https://spice.eplus.jp/images/k0PGpGdR8SebRENQhWOBv22C58Oji5YbUmzHGfwMRD3kcJj2W5ynBBAMBEqSkDa5
-  videos: z16C0WXUcZs
+  videos: z16C0WXUcZs,JPxNUx8ie8w,OaXiTwgkDAw
   genres: idle
   apple: ''
   play: ''
@@ -997,7 +997,7 @@
   soundcloud: ''
   bandcamp: ''
   amazon: ''
-  website: ''
+  website: http://www.bish.tokyo/ BiSH
   wikipedia: https://ja.wikipedia.org/wiki/BiSH BiSH - Wikipedia
   youtube: https://www.youtube.com/channel/UC6UZX3ax9mq-c1P4hh7oDyQ BiSHTUBE - YouTube
   twitter: https://twitter.com/bishidol BiSHオフィシャル (@BiSHidol) | Twitter
@@ -1013,7 +1013,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 08:50:35.299265000 Z
-  updated_at: 2018-05-19 08:51:09.864163000 Z
+  updated_at: 2018-05-23 12:39:39.221153000 Z
 - code: passcode
   name: PassCode
   description: ''
@@ -1468,7 +1468,7 @@
   images: http://i.ytimg.com/vi/TUgiY1kF9wo/hqdefault.jpg
   videos: GG8GqEFIWcc
   genres: indie_rock,indie_pop
-  apple: ''
+  apple: https://itunes.apple.com/jp/artist/1997/220355327 1997 - Apple Music
   play: ''
   spotify: ''
   soundcloud: ''
@@ -1481,16 +1481,17 @@
   facebook: ''
   instagram: ''
   purevolume: ''
-  myspace: ''
+  myspace: https://myspace.com/nineteenninetyseven 1997 | Listen and  Stream Free
+    Music, Albums, New Releases, Photos, Videos
   lastfm: ''
-  discogs: ''
+  discogs: https://www.discogs.com/artist/1083224-1997 1997 Discography at Discogs
   links: ''
   member_of: ''
   ex_member_of: ''
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:29:03.226896000 Z
-  updated_at: 2018-05-19 11:30:10.048542000 Z
+  updated_at: 2018-05-25 21:04:41.058558000 Z
 - code: icarus_the_owl
   name: Icarus the Owl
   description: ''
@@ -2560,3 +2561,251 @@
   body: ''
   created_at: 2018-05-22 14:10:58.903376000 Z
   updated_at: 2018-05-22 14:10:58.903376000 Z
+- code: akon
+  name: Akon
+  description: ''
+  active: ''
+  origin: us USA
+  images: http://i.ytimg.com/vi/rSOzN0eihsE/hqdefault.jpg
+  videos: rSOzN0eihsE
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Akon Akon - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-24 12:19:39.319155000 Z
+  updated_at: 2018-05-24 12:19:39.319155000 Z
+- code: usher
+  name: Usher
+  description: ''
+  active: ''
+  origin: us USA
+  images: http://i.ytimg.com/vi/cB5e0zHRzHc/hqdefault.jpg
+  videos: cB5e0zHRzHc
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Usher_(musician) Usher (musician) - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-24 12:22:07.070606000 Z
+  updated_at: 2018-05-24 12:22:40.321882000 Z
+- code: taylor_swift
+  name: Taylor Swift
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/8xg3vE8Ie_E/hq2.jpg
+  videos: 8xg3vE8Ie_E
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Taylor_Swift Taylor Swift - Wikipedia
+  youtube: https://www.youtube.com/user/taylorswift taylorswift - YouTube
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-24 13:56:46.484944000 Z
+  updated_at: 2018-05-24 13:56:46.484944000 Z
+- code: bryan_adams
+  name: Bryan Adams
+  description: ''
+  active: ''
+  origin: ca Canada
+  images: http://i.ytimg.com/vi/9EHAo6rEuas/mqdefault.jpg
+  videos: s6TtwR2Dbjg
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Bryan_Adams Bryan Adams - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-25 15:10:40.298134000 Z
+  updated_at: 2018-05-25 15:10:40.298134000 Z
+- code: alkaline_trio
+  name: Alkaline Trio
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/GNS4CR7vP4c/hqdefault.jpg
+  videos: GNS4CR7vP4c
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Alkaline_Trio Alkaline Trio - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-25 15:52:43.434079000 Z
+  updated_at: 2018-05-25 15:52:43.434079000 Z
+- code: benny_benassi
+  name: Benny Benassi
+  description: ''
+  active: ''
+  origin: it Italy
+  images: http://i.ytimg.com/vi/TLDF9bHlNx0/hqdefault.jpg
+  videos: Cw0nkxFhpoM
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Benny_Benassi Benny Benassi - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-26 12:08:59.636850000 Z
+  updated_at: 2018-05-26 12:08:59.636850000 Z
+- code: skrillex
+  name: Skrillex
+  description: Sonny Moore
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/eOofWzI3flA/hqdefault.jpg
+  videos: WSeNSzJ2-Jw
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-26 12:12:25.281667000 Z
+  updated_at: 2018-05-26 12:12:25.281667000 Z
+- code: nero
+  name: Nero
+  description: ''
+  active: ''
+  origin: gb UK
+  images: http://i.ytimg.com/vi/1DNXeWZSQKs/hqdefault.jpg
+  videos: llDikI2hTtk
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Nero_(band) Nero (band) - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-26 12:57:38.687767000 Z
+  updated_at: 2018-05-26 12:57:38.687767000 Z

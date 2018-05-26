@@ -22,19 +22,19 @@
     }
   }
 
+  .sns {
+    text-align: center;
+    padding: 48px 0 16px;
+  }
+
   .main-contents {
     .body {
-      min-height: 48px;
+      min-height: 8px;
       margin: 24px 8px;
 
       p {
         min-height: 1em;
       }
-    }
-
-    .sns {
-      text-align: center;
-      padding: 16px 0;
     }
 
     .block {

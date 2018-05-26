@@ -2,8 +2,8 @@
   DOMAIN = "https://scream.your.name"
 
   # https://dev.twitter.com/web/tweet-button/parameters
-  url = "#{DOMAIN}/#{item.class.to_s.downcase}/#{item.code}.html"
-  twitter = "https://twitter.com/share?url=#{URI.escape(url)}&hashtags=#{URI.escape("G-ROCK")}&text=#{URI.escape(item.title)}"
+  url = "#{DOMAIN}#{path}"
+  twitter = "https://twitter.com/share?url=#{URI.escape(url)}&hashtags=#{URI.escape("G-ROCK")}&text=#{URI.escape(sns_title)}"
 %>
 <div class="sns">
   <a href="<%= twitter %>" target="_blank">

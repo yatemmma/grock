@@ -5,7 +5,7 @@
   <div id="player-wrapper">
     <!-- player-wrapper -->
     <% unless (video_list.nil? || video_list.empty?) %>
-      <div class="toggle-player"><a href="/" onclick="popup(event, this)"><i class="fas fa-clone"></i></a></div>
+      <!-- <div class="toggle-player"><a href="/" onclick="popup(event, this)"><i class="fas fa-clone"></i></a></div> -->
       <div id="main-player" class="youtube" data-key="<%= video_list %>"></div>
     <% else %>
       <div class="image main-image" data-image="<%= item.main_image %>"><img></div>

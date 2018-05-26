@@ -30,7 +30,7 @@ function init() {
   inView(".image").on("enter", showImage)
   showImage(document.querySelector(".main-image"))
   addEventListenerForTable()
-  initPjax()
+  // initPjax()
 }
 
 function showImage(e) {

@@ -15,7 +15,7 @@
 <div id="main-video">
   <div id="player-wrapper">
     <!-- player-wrapper -->
-    <div class="toggle-player"><a href="/" onclick="popup(event, this)"><i class="fas fa-clone"></i></a></div>
+    <!-- <div class="toggle-player"><a href="/" onclick="popup(event, this)"><i class="fas fa-clone"></i></a></div> -->
     <div id="main-player" class="youtube" data-key="<%= video_list.join(",") %>"></div>
     <!-- player-wrapper -->
   </div>
@@ -23,25 +23,28 @@
 
 <div class="contents">
   <!-- contents -->
+  <%= partial :sns, {path: "", sns_title: "G-ROCK"} %>
+
   <div class="sub-contents">
     <h3>Latest Updates</h3>
     <div class="posts">
     <%
-      items = Label.order("updated_at DESC").limit(50)
-      items += Band.order("updated_at DESC").limit(50)
-      items += Disc.order("updated_at DESC").limit(50)
-      items = items.sort_by {|item| item.updated_at}.reverse[0, 50]
+      num = 50
+      items = Label.order("updated_at DESC").limit(num)
+      items += Band.order("updated_at DESC").limit(num)
+      items += Disc.order("updated_at DESC").limit(num)
+      items = items.sort_by {|item| item.updated_at}.reverse[0, num]
       items.each_with_index do |item, i|
         case item.class.to_s
         when "Band"
           type = "band"
-          args = ["", item.name, item.updated_date]
+          args = [item.name, item.updated_date]
         when "Disc"
           type = "disc"
           args = [item.name, item.main_band.name, item.updated_date]
         when "Label"
           type = "band"
-          args = ["", item.name, item.updated_date]
+          args = [item.name, item.updated_date]
         end
         class_name = (i < 3) ? "" : "hidden-on-mobile"
     %>
@@ -53,8 +56,11 @@
   <div class="sub-contents">
     <h3>Releases</h3>
     <div class="releases">
-      <% Disc.where.not(date: nil).where.not(date: "").order("date DESC").limit(50).each do |disc| %>
-        <%= partial :disc, {item: disc, text: [disc.name, disc.main_band.name, disc.date], class_names: ""} %>
+      <% Disc.where.not(date: nil).where.not(date: "").order("date DESC").limit(50).each_with_index do |disc, i| %>
+        <%
+          class_name = (i < 3) ? "" : "hidden-on-mobile"
+        %>
+        <%= partial :disc, {item: disc, text: [disc.name, disc.main_band.name, disc.date_text], class_names: class_name} %>
       <% end %>
     </div>
   </div>

@@ -11,7 +11,7 @@
       <div id="sub-video-<%= video_key.hash %>" class="youtube sub-video" data-key="<%= video_key %>"></div>
     <% end %>
 
-    <%= partial :sns, {item: @item} %>
+    <%= partial :sns, {path: @item.html_path, sns_title: @item.title} %>
 
     <%
       band = @item.main_band

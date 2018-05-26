@@ -1,6 +1,10 @@
 require "countries"
 
 module BaseModel
+	def html_path
+		"/#{self.class.to_s.downcase}/#{self.code}.html"
+	end
+
 	def country
 		self.origin.split(" ").first unless self.origin.nil?
 	end

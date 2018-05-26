@@ -18,7 +18,7 @@ class App < Sinatra::Base
   include ERBHelper
 
   def initialize(app = nil)
-    @is_admin = false
+    @is_admin = true
     super
 
     @labels = Label.all_items

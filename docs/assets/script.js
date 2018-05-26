@@ -99,41 +99,65 @@ function toggleMenu() {
 function addEventListenerForTable() {
   Array.from(document.querySelectorAll("#items input")).forEach((element)=>{
     element.addEventListener('change', function(event){
-      filter(event.target.id.split("-")[1], event.target.value)
+      event.target.filterValue = event.target.value
+      filter()
     })
     element.addEventListener('keypress', function(event){
-      filter(event.target.id.split("-")[1], event.target.value + event.key)
+      event.target.filterValue = event.target.value + event.key
+      filter()
     })
     element.addEventListener('keyup', function(event){
       if (event.keyCode == 46 || event.keyCode == 8) {
-        filter(event.target.id.split("-")[1], event.target.value)
+        event.target.filterValue = event.target.value
+        filter()
       }
     })
   })
 }
 
-let searchData = []
-let sortConditions = [{key: "name", reverse: false}]
-let filterConditions = {}
+function sort(sender, key) {
+  sender.reverse = !sender.reverse
 
-function sort(key) {
-  const newConditions = []
-  let reverse = false
-  sortConditions.forEach((cond)=>{
-    if (cond.key == key) {
-      reverse = !cond.reverse
-    } else {
-      newConditions.push(cond)
+  let items = Array.prototype.slice.call(document.querySelectorAll("#items .table-body"))
+  items = items.sort((a, b)=> {
+    const objA = (a.querySelector(".cell-"+key).getAttribute("data-value") || "").toString().toUpperCase()
+    const objB = (b.querySelector(".cell-"+key).getAttribute("data-value") || "").toString().toUpperCase()
+    if (objA < objB) {
+      return -1 * (sender.reverse ? -1 : 1)
     }
+    if (objA > objB) {
+      return 1 * (sender.reverse ? -1 : 1)
+    }
+    return 0
   })
-  newConditions.push({key: key, reverse: reverse})
-  sortConditions = newConditions
-  refresh()
+
+  filter(items)
 }
 
-function filter(key, value) {
-  filterConditions[key] = value
-  refresh()
+function filter(items) {
+  if (!items) {
+    items = Array.prototype.slice.call(document.querySelectorAll("#items .table-body"))
+  }
+  const table = document.querySelector("#items")
+  items.forEach((element)=>{
+    table.removeChild(element)
+  })
+
+  const filterConditions2 = {}
+  const inputs = document.querySelectorAll("#items .table-header input")
+  inputs.forEach((input)=>{
+    if (input.filterValue) {
+      filterConditions2[input.id.split("-")[1]] = input.filterValue
+    }
+  })
+
+  let i = 0
+  items.forEach((item)=>{
+    const filter = filtered(item, filterConditions2)
+    item.className = "table-row table-body" + (i%2 == 0 ? "" : " odd") + (filter ? "" : " hide")
+    table.appendChild(item)
+    i++
+  })
 }
 
 function filtered(item, cond) {
@@ -141,56 +165,10 @@ function filtered(item, cond) {
     if (!cond[key]) {
       return true
     }
-    return (item[key].toLowerCase().indexOf(cond[key].toLowerCase()) >= 0)
+    const value = (item.querySelector(".cell-"+key).getAttribute("data-value") || "")
+    return (value.toLowerCase().indexOf(cond[key].toLowerCase()) >= 0)
   })
   return contains
-}
-
-function initTable() {
-  searchData.forEach((item)=>{
-    const row = document.querySelector("#row-"+item.code)
-    item.element = row
-  })
-}
-
-function refresh() {
-  let items = [].concat(searchData)
-
-  sortConditions.forEach((cond)=>{
-    items = items.sort((a, b)=> {
-      const objA = (a[cond.key] || "").toString().toUpperCase()
-      const objB = (b[cond.key] || "").toString().toUpperCase()
-      if (objA < objB) {
-        return -1 * (cond.reverse ? -1 : 1)
-      }
-      if (objA > objB) {
-        return 1 * (cond.reverse ? -1 : 1)
-      }
-      return 0
-    })
-  })
-
-  const table = document.querySelector("#items")
-  searchData.forEach((item)=>{
-    try {
-      table.removeChild(item.element)
-    } catch (e) {
-      // nop
-    }
-  })
-
-  let i = 0
-  items.forEach((item)=>{
-    if (filtered(item, filterConditions)) {
-      if (item.element) {
-        item.element.className = "table-row table-body " + (i%2 == 0 ? "" : "odd")
-        table.appendChild(item.element)
-        i++
-      } else {
-        console.log(item)
-      }
-    }
-  })
 }
 
 function ajaxRequest(url, params, callback) {

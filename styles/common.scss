@@ -54,6 +54,10 @@ a {
   text-decoration: none;
 }
 
+.hide {
+  display: none !important;
+}
+
 @include screen-tablet {
   .hidden-on-tablet {
     display: none !important;

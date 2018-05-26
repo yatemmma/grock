@@ -16,28 +16,23 @@
 
     <% @items.each_with_index do |item, i| %>
       <a id="row-<%= item.code %>" class="keep table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("disc/#{item.code}.html") %>">
-        <div class="table-cell">
+        <div class="table-cell cell-name" data-value="<%= item.name %>">
           <%= item.name %>
         </div>
-        <div class="table-cell">
+        <div class="table-cell cell-bands" data-value="<%= item.main_band.name %>">
           <%= item.main_band.name %>
         </div>
-        <div class="table-cell hidden-on-mobile">
+        <div class="table-cell cell-date_text hidden-on-mobile" data-value="<%= item.date %>">
           <%= item.date_text %>
         </div>
-        <div class="table-cell hidden-on-mobile">
+        <div class="table-cell cell-disc_type hidden-on-mobile" data-value="<%= Setting.disc_types.to_hash[item.disc_type] %>">
           <%= Setting.disc_types.to_hash[item.disc_type] %>
         </div>
-        <div class="table-cell hidden-on-mobile">
+        <div class="table-cell cell-updated hidden-on-mobile" data-value="<%= item.updated_date %>">
           <%= item.updated_date %>
         </div>
       </a>
     <% end %>
   </div>
-
-  <script>
-  searchData = <%= search_data %>
-  initTable()
-  </script>
   <!-- contents -->
 </div>

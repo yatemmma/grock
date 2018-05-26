@@ -11,17 +11,6 @@ class Band < ActiveRecord::Base
 		def all_items
 			self.order("name")
 		end
-
-		def search_json
-			Band.all_items.map {|x|
-				{
-					code: x.code,
-					name: x.name,
-					country: x.origin,
-					updated: x.updated_date
-				}
-			}.to_json
-		end
 	end
 
 	def title

@@ -15,26 +15,21 @@
 
     <% @items.each_with_index do |item, i| %>
       <a id="row-<%= item.code %>" class="keep table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("band/#{item.code}.html") %>">
-        <div class="table-cell">
+        <div class="table-cell cell-name" data-value="<%= item.name %>">
           <%= item.name %>
           <%= "(#{item.description})" unless item.description.empty? %>
         </div>
-        <div class="table-cell">
+        <div class="table-cell cell-country" data-value="<%= item.country %>">
           <%= item.country_emoji %>
         </div>
-        <div class="table-cell">
+        <div class="table-cell cell-active" data-value="<%= item.active %>">
           <%= item.active %>
         </div>
-        <div class="table-cell hidden-on-mobile">
+        <div class="table-cell cell-updated hidden-on-mobile" data-value="<%= item.updated_date %>">
           <%= item.updated_date %>
         </div>
       </a>
     <% end %>
   </div>
-
-  <script>
-  searchData = <%= search_data %>
-  initTable()
-  </script>
   <!-- contents -->
 </div>

@@ -8,7 +8,7 @@
     <%= partial :body, {item: @item} %>
     <%= partial :sns, {path: @item.html_path, sns_title: @item.title} %>
 
-    <%= partial :band, {item: @item, text: ["", @item.name], class_names: ""} %>
+    <%= partial :band, {item: @item, text: [@item.name], class_names: ""} %>
 
     <%= partial :text, {text: @item.active_text, class_names: "active"} %>
     <%= partial :text, {text: @item.origin_full, class_names: "origin"} %>

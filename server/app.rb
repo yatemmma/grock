@@ -5,6 +5,7 @@ require "sinatra/activerecord"
 require "./models/models"
 require "./templates/helpers/erb_helper"
 require "./utils/crowler"
+require "./utils/generator"
 
 class App < Sinatra::Base
   configure :development do
@@ -40,7 +41,11 @@ class App < Sinatra::Base
 
   get "/admin/work" do
     puts "its works!"
-    # TODO feed
+
+    @is_admin = false
+    Generator.new.output_list_page
+    Generator.new.output_pages
+    @is_admin = true
     200
   end
 end

@@ -41,7 +41,7 @@
 
     <% Disc.where("original_bands LIKE ?", "%#{@item.code}%").each do |disc| %>
       <%= partial :disc, {item: disc, text: [disc.name, "Covered by", disc.main_band.name], class_names: ""} %>
-    <% end %>
+    <% end unless @item.code.nil? %>
 
     <%= partial :releases, {code: @item.code} unless @item.code.nil? %>
 

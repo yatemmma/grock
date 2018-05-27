@@ -5390,21 +5390,25 @@
   description: ''
   date: 2018/05/04
   bands: the_word_alive
-  labels: ''
+  labels: fearless_records
   images: https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/0a/2e/2e/0a2e2ee3-ad81-d911-2a67-ab847d95c8e8/00888072040823.rgb.jpg/268x0w.jpg
   videos: T9sjPryO160,EZgheqiPBr4,PS03emQuW90,wY88DU-xLwk,cxPAE0-zfe0,9nYiIgaShkA,Evr7bwV6kRk,dxaT0oqZSNg,IWjAnxTNzhQ,OFqQ8GgZjto,_0qRSFbJvoc,mv6rajR2DII
   genres: post-hardcore
   disc_type: album
-  apple: https://itunes.apple.com/jp/album/violent-noise/1362852732 The Word Aliveの「Violent
-    Noise」をApple Musicで
-  play: ''
-  spotify: ''
+  apple: https://itunes.apple.com/jp/album/violent-noise/1362852732 The Word Alive
+    - Violent Noise | Apple Music
+  play: 'https://play.google.com/store/music/album/The_Word_Alive_Violent_Noise?id=B2nlsox44qxl2rfjld5bhkimxyu
+    The Word Alive: Violent Noise - Google Play'
+  spotify: https://open.spotify.com/album/7J66HLhb0QYzZ5P19tHcZP Violent Noise by
+    The Word Alive on Spotify
   soundcloud: ''
   bandcamp: ''
-  amazon: ''
+  amazon: https://www.amazon.co.jp/Violent-Noise-Word-Alive/dp/B07BF2S4KD Amazon |
+    Violent Noise | The Word Alive
   wikipedia: https://en.wikipedia.org/wiki/Violent_Noise Violent Noise - Wikipedia
-  lastfm: ''
-  discogs: ''
+  lastfm: https://www.last.fm/ja/music/The+Word+Alive/Violent+Noise Violent Noise
+    — The Word Alive | Last.fm
+  discogs: https://www.discogs.com/The-Word-Alive-Violent-Noise/master/1360151
   teaser: ''
   playlist: https://www.youtube.com/watch?v=T9sjPryO160&list=PLsBWlr67U5NsonNvfm_6Gu-UTZozuoCPY
   search: ''
@@ -5417,4 +5421,300 @@
   original_discs: ''
   body: ''
   created_at: 2018-05-27 12:52:25.462321000 Z
-  updated_at: 2018-05-27 12:52:25.462321000 Z
+  updated_at: 2018-05-27 13:58:23.208378000 Z
+- code: the_word_alive-dark_matter
+  name: Dark Matter
+  description: ''
+  date: 2016/05/18
+  bands: the_word_alive
+  labels: fearless_records
+  images: https://images-na.ssl-images-amazon.com/images/I/51wS9PfvmdL._SY355_.jpg
+  videos: u6wCiNstXj8,YlQg7sU9RRM,gL-9hkE5DS4,e7eFZtUV2HY,7ikoQ3usbTw,C9GbDwZkm28,jVWOkB6Ep10,c6wZ0r6J1PI,LOtY3ZXRJRk,quwBApYB0iY,oVjlUpVG2Ts,zu9uBgrT7JE
+  genres: post-hardcore
+  disc_type: album
+  apple: https://itunes.apple.com/jp/album/sellout/1077829104 The Word Alive - Dark
+    Matter | Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: https://en.wikipedia.org/wiki/Dark_Matter_(The_Word_Alive_album) Dark
+    Matter (The Word Alive album) - Wikipedia
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=u6wCiNstXj8&list=PLsBWlr67U5NsgkrlIOQbHNJdsVFeFzxI8
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-27 13:05:07.283988000 Z
+  updated_at: 2018-05-27 13:06:27.249753000 Z
+- code: the_word_alive-real
+  name: Real
+  description: ''
+  date: 2014/06/10
+  bands: the_word_alive
+  labels: fearless_records
+  images: https://images-na.ssl-images-amazon.com/images/I/51VVUnBUZHL.jpg
+  videos: "-3imnKY1Qj8,fv1cPsPysyk,E3dMPig-Mxc,aE3ZF9oZg9A,0cjOn_SvKik,f0dUgr_A56w,_CJWEO7MDBc,-LpbAuXxbIw,qvtqCOtwyEo,W1sg_FSj5ww,sky0nltFpUQ,sDNZp1VoP40"
+  genres: post-hardcore
+  disc_type: album
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: https://www.amazon.co.jp/Real-WORD-ALIVE/dp/B00JV3VYCK Amazon | Real | THE
+    WORD ALIVE
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=-3imnKY1Qj8&list=PLsBWlr67U5NuYcU5JgmXwel3vwaxso3F8
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-27 13:09:17.761154000 Z
+  updated_at: 2018-05-27 13:09:17.761154000 Z
+- code: the_word_alive-life_cycles
+  name: Life Cycles
+  description: ''
+  date: 2012/07/03
+  bands: the_word_alive
+  labels: fearless_records
+  images: https://images-na.ssl-images-amazon.com/images/I/91EsQDcPs2L._SY355_.jpg
+  videos: j1kQEvg8WGQ,5E7oJoYBHt0,Eru8iy8B9X8,Y2IIpKbM7aU,_j2tkcqjMC0,t4WSGW_EPoE,5MagUQRx46w,xhXwoy2Ij3U,klC6aiPnZs8,3XsTVipaky8,NLFx1_dFZWk,HALvuOtBLhI,OeYIIqYI7Bg
+  genres: post-hardcore
+  disc_type: album
+  apple: https://itunes.apple.com/jp/album/life-cycles/1165420917 The Word Alive -
+    Life Cycles | Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: https://en.wikipedia.org/wiki/Life_Cycles_(The_Word_Alive_album) Life
+    Cycles (The Word Alive album) - Wikipedia
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=j1kQEvg8WGQ&list=PLBEBD573C9E85619A
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-27 13:12:24.451698000 Z
+  updated_at: 2018-05-27 13:12:24.451698000 Z
+- code: the_word_alive-deceiver
+  name: Deceiver
+  description: ''
+  date: 2010/08/31
+  bands: the_word_alive
+  labels: fearless_records
+  images: https://images-na.ssl-images-amazon.com/images/I/51AMQuzhCrL._SY450_.jpg
+  videos: UiRs0NH0j40,WUxivLcYIes
+  genres: post-hardcore
+  disc_type: album
+  apple: https://itunes.apple.com/jp/album/deceiver/1155254580 The Word Alive - Deceiver
+    | Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: https://en.wikipedia.org/wiki/Deceiver_(The_Word_Alive_album) Deceiver
+    (The Word Alive album) - Wikipedia
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: https://www.youtube.com/results?search_query=the+word+alive+Deceiver
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-27 13:17:01.778132000 Z
+  updated_at: 2018-05-27 13:17:01.778132000 Z
+- code: the_word_alive-empire
+  name: Empire
+  description: ''
+  date: 2009/07/21
+  bands: the_word_alive
+  labels: fearless_records
+  images: https://images-na.ssl-images-amazon.com/images/I/615F96JtuQL.jpg
+  videos: auFhWyZd93o
+  genres: post-hardcore
+  disc_type: ep
+  apple: https://itunes.apple.com/jp/album/empire-ep/1156268373 The Word Alive - Empire
+    - EP | Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: https://en.wikipedia.org/wiki/Empire_(EP) Empire (EP) - Wikipedia
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: https://www.youtube.com/results?search_query=the+word+alive+Empire
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-27 13:21:02.097732000 Z
+  updated_at: 2018-05-27 13:21:02.097732000 Z
+- code: the_word_alive-the_word_alive_ep
+  name: The Word Alive
+  description: ''
+  date: 2008/11/03
+  bands: the_word_alive
+  labels: self-released
+  images: https://images.genius.com/3a44138498da739fa1be761c5e44edd9.500x500x1.jpg
+  videos: ''
+  genres: post-hardcore
+  disc_type: ep
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: https://www.youtube.com/results?search_query=the+word+alive+ep
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-27 13:23:32.587788000 Z
+  updated_at: 2018-05-27 13:23:32.587788000 Z
+- code: the_word_alive-heartless_cover
+  name: Heartless (Kanye West Cover)
+  description: ''
+  date: ''
+  bands: the_word_alive
+  labels: ''
+  images: http://i.ytimg.com/vi/i1VBSi-y05A/hqdefault.jpg
+  videos: i1VBSi-y05A
+  genres: cover
+  disc_type: song
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: Co0tTeuUVhU
+  original_bands: kanye_west
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-27 13:53:40.819642000 Z
+  updated_at: 2018-05-27 13:53:40.819642000 Z
+- code: the_word_alive-mercy_cover
+  name: Mercy (Kanye West Cover)
+  description: ''
+  date: ''
+  bands: the_word_alive
+  labels: ''
+  images: http://i.ytimg.com/vi/91YfMmV6VB0/hqdefault.jpg
+  videos: 91YfMmV6VB0
+  genres: cover
+  disc_type: song
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: 7Dqgr0wNyPo
+  original_bands: kanye_west
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-27 13:55:26.276958000 Z
+  updated_at: 2018-05-27 13:55:26.276958000 Z
+- code: the_word_alive-over_the_mountain_cover
+  name: Over The Mountain (Ozzy Osbourne Cover)
+  description: ''
+  date: ''
+  bands: the_word_alive
+  labels: ''
+  images: http://i.ytimg.com/vi/1_DgJy24PGc/hqdefault.jpg
+  videos: 1_DgJy24PGc
+  genres: cover
+  disc_type: song
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: yWfSyhcJyHw
+  original_bands: ozzy_osbourne
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-27 13:57:44.780293000 Z
+  updated_at: 2018-05-27 13:57:44.780293000 Z

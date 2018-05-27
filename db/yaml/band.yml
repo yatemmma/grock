@@ -2901,3 +2901,65 @@
   body: ''
   created_at: 2018-05-27 06:32:20.972900000 Z
   updated_at: 2018-05-27 06:34:30.495280000 Z
+- code: ozzy_osbourne
+  name: Ozzy Osbourne
+  description: ''
+  active: ''
+  origin: gb UK
+  images: http://i.ytimg.com/vi/Rsa4HktvsU4/hqdefault.jpg
+  videos: tNB4nA8o5O0
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Ozzy_Osbourne Ozzy Osbourne - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-27 13:49:35.319273000 Z
+  updated_at: 2018-05-27 13:49:35.319273000 Z
+- code: kanye_west
+  name: Kanye West
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/PsO6ZnUZI0g/hqdefault.jpg
+  videos: Co0tTeuUVhU
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Kanye_West Kanye West - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-27 13:51:56.101367000 Z
+  updated_at: 2018-05-27 13:51:56.101367000 Z

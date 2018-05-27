@@ -50,8 +50,7 @@
   website: ''
   wikipedia: https://en.wikipedia.org/wiki/Jonny_Craig Jonny Craig - Wikipedia
   youtube: https://www.youtube.com/user/IamJonnyCraig IamJonnyCraig - YouTube
-  twitter: "https://twitter.com/jonnycraig4l \U0001F940.DADDY.\U0001F940 (@jonnycraig4L)
-    | Twitter"
+  twitter: ''
   facebook: ''
   instagram: ''
   purevolume: ''
@@ -64,7 +63,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-13 16:15:26.325299000 Z
-  updated_at: 2018-05-27 06:37:26.825774000 Z
+  updated_at: 2018-05-27 11:17:05.020772000 Z
 - code: craig_owens
   name: Craig Owens
   description: ex. Chiodos
@@ -96,7 +95,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-13 16:22:26.669700000 Z
-  updated_at: 2018-05-19 12:09:12.338852000 Z
+  updated_at: 2018-05-27 11:19:57.227598000 Z
 - code: the_lonely_island
   name: The Lonely Island
   description: ''
@@ -285,7 +284,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 01:48:32.332421000 Z
-  updated_at: 2018-05-25 21:26:05.382840000 Z
+  updated_at: 2018-05-27 11:20:10.910732000 Z
 - code: closure_in_moscow
   name: Closure in Moscow
   description: ''
@@ -412,7 +411,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:35:16.922944000 Z
-  updated_at: 2018-05-19 06:35:29.482630000 Z
+  updated_at: 2018-05-27 11:20:24.363108000 Z
 - code: trenton_woodley
   name: Trenton Woodley
   description: Hands Like Houses
@@ -443,7 +442,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:38:02.869446000 Z
-  updated_at: 2018-05-19 06:38:38.974550000 Z
+  updated_at: 2018-05-27 11:20:25.173173000 Z
 - code: the_virgin_wolves
   name: The Virgin Wolves
   description: ''
@@ -508,7 +507,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:17:41.270557000 Z
-  updated_at: 2018-05-19 07:18:18.301822000 Z
+  updated_at: 2018-05-27 11:20:30.643660000 Z
 - code: matty_mullins
   name: Matty Mullins
   description: Memphis May Fire
@@ -540,7 +539,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:21:54.129708000 Z
-  updated_at: 2018-05-19 07:22:11.698689000 Z
+  updated_at: 2018-05-27 11:20:33.778238000 Z
 - code: band_maid
   name: BAND-MAID
   description: ''
@@ -571,7 +570,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:25:25.068737000 Z
-  updated_at: 2018-05-19 07:25:33.944878000 Z
+  updated_at: 2018-05-27 11:20:35.418719000 Z
 - code: versions
   name: Versions
   description: ''
@@ -1000,7 +999,7 @@
   website: http://www.bish.tokyo/ BiSH
   wikipedia: https://ja.wikipedia.org/wiki/BiSH BiSH - Wikipedia
   youtube: https://www.youtube.com/channel/UC6UZX3ax9mq-c1P4hh7oDyQ BiSHTUBE - YouTube
-  twitter: https://twitter.com/bishidol BiSHオフィシャル (@BiSHidol) | Twitter
+  twitter: ''
   facebook: ''
   instagram: ''
   purevolume: ''
@@ -1013,7 +1012,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 08:50:35.299265000 Z
-  updated_at: 2018-05-23 12:39:39.221153000 Z
+  updated_at: 2018-05-27 11:25:42.264285000 Z
 - code: passcode
   name: PassCode
   description: ''
@@ -1044,7 +1043,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 08:53:49.256538000 Z
-  updated_at: 2018-05-19 08:53:49.256538000 Z
+  updated_at: 2018-05-27 11:20:51.152946000 Z
 - code: eskimo_callboy
   name: Eskimo Callboy
   description: ''
@@ -1364,7 +1363,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:22:07.552911000 Z
-  updated_at: 2018-05-21 12:10:41.441869000 Z
+  updated_at: 2018-05-27 11:21:10.500647000 Z
 - code: dream_on_dreamer
   name: Dream On, Dreamer
   description: ''
@@ -1396,7 +1395,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:23:39.153268000 Z
-  updated_at: 2018-05-19 11:24:42.203916000 Z
+  updated_at: 2018-05-27 11:21:13.402209000 Z
 - code: keep_your_hands_off_my_girl
   name: KEEP YOUR HANDs OFF MY GIRL
   description: ''
@@ -1744,7 +1743,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-05-19 12:56:18.122904000 Z
+  updated_at: 2018-05-27 11:21:29.199744000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1776,7 +1775,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-05-19 13:12:11.184774000 Z
+  updated_at: 2018-05-27 11:21:31.148999000 Z
 - code: issues
   name: Issues
   description: ''
@@ -1807,7 +1806,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:20:54.766119000 Z
-  updated_at: 2018-05-19 13:21:56.198729000 Z
+  updated_at: 2018-05-27 11:21:33.466412000 Z
 - code: tyler_carter
   name: Tyler Carter
   description: Issues
@@ -1870,7 +1869,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:28:23.917900000 Z
-  updated_at: 2018-05-19 13:28:54.796842000 Z
+  updated_at: 2018-05-27 11:21:36.851483000 Z
 - code: nick_martin
   name: Nick Martin
   description: Sleeping with Sirens
@@ -1995,7 +1994,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:40:09.007588000 Z
-  updated_at: 2018-05-19 13:40:33.596615000 Z
+  updated_at: 2018-05-27 11:21:43.520468000 Z
 - code: jeremy_mckinnon
   name: Jeremy McKinnon
   description: A Day To Remember
@@ -2090,7 +2089,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:52:27.289352000 Z
-  updated_at: 2018-05-19 13:53:03.425096000 Z
+  updated_at: 2018-05-27 11:21:49.544868000 Z
 - code: caleb_shomo
   name: Caleb Shomo
   description: Beartooth / ex. Attack Attack!
@@ -2152,7 +2151,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 16:55:33.191861000 Z
-  updated_at: 2018-05-19 16:55:59.092799000 Z
+  updated_at: 2018-05-27 11:21:53.463263000 Z
 - code: upon_this_dawning
   name: Upon This Dawning
   description: ''
@@ -2248,7 +2247,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:21:09.396338000 Z
-  updated_at: 2018-05-20 03:21:38.989539000 Z
+  updated_at: 2018-05-27 11:21:59.619628000 Z
 - code: aaron_matts
   name: Aaron Matts
   description: Betraying the Martyrs
@@ -2279,7 +2278,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:33:31.642368000 Z
-  updated_at: 2018-05-20 14:49:37.495584000 Z
+  updated_at: 2018-05-27 11:22:01.633746000 Z
 - code: vanessa_carlton
   name: Vanessa Carlton
   description: ''
@@ -2436,7 +2435,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-05-20 14:34:28.294970000 Z
+  updated_at: 2018-05-27 11:22:10.312497000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''
@@ -2653,7 +2652,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-24 13:56:46.484944000 Z
-  updated_at: 2018-05-24 13:56:46.484944000 Z
+  updated_at: 2018-05-27 11:22:10.984147000 Z
 - code: bryan_adams
   name: Bryan Adams
   description: ''

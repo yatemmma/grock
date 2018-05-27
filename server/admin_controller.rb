@@ -18,6 +18,18 @@ class App < Sinatra::Base
     200
   end
 
+  get "/admin/api/all_feed" do
+    Band.all.each do |item|
+      feed = Crowler.new("band", item.code)
+      feed.update
+    end
+    Label.all.each do |item|
+      feed = Crowler.new("label", item.code)
+      feed.update
+    end
+    200
+  end
+
   post "/admin/api/settings" do
     setting = Setting.find_by(code: params["code"])
     setting.json = params["json"]

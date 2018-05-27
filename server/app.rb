@@ -40,6 +40,7 @@ class App < Sinatra::Base
 
   get "/admin/work" do
     puts "its works!"
+    # TODO feed
     200
   end
 end

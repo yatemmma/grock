@@ -1,0 +1,63 @@
+<%= partial :main, {item: @item} %>
+
+<div class="contents">
+  <!-- contents -->
+  <h2><%= @item.title %></h2>
+
+  <div class="main-contents">
+    <%= partial :body, {item: @item} %>
+
+    <% (@item.original_videos || "").split(",").each do |video_key| %>
+      <div id="sub-video-<%= video_key.hash %>" class="youtube sub-video" data-key="<%= video_key %>"></div>
+    <% end %>
+
+    <%= partial :sns, {path: @item.html_path, sns_title: @item.title} %>
+
+    <%
+      band = @item.main_band
+      label = @item.main_label
+    %>
+    <%= partial :disc, {item: @item, text: [@item.name, (band.nil? ? "" : band.name), @item.date_text], class_names: ""} %>
+    <%= partial :band, {item: band, text: ["", band.name], class_names: ""} unless band.nil? %>
+    <%= partial :band, {item: label, text: ["", label.name], class_names: ""} unless label.nil? %>
+
+    <% Disc.site_keys.each do |site| %>
+      <%= partial :site, {site: site, link_value: @item.send(site)} %>
+    <% end %>
+    <% @item.link_list.each do |site| %>
+      <%= partial :site, {site: "link", link_value: site} %>
+    <% end %>
+
+    <% (@item.guests || "").split(",").each do |guest_code| %>
+      <%
+        code, title = guest_code.split("(")
+        guest = Band.find_by(code: code)
+      %>
+      <%= partial :band, {item: guest, text: [(title || "Guest)")[0..-2], guest.name], class_names: ""} %>
+    <% end %>
+
+    <% (@item.discs_of || "").split(",").each do |disc_code| %>
+      <% disc = Disc.find_by(code: disc_code) %>
+      <%= partial :disc, {item: disc, text: ["Recorded in", disc.name], class_names: ""} %>
+    <% end %>
+
+    <% (@item.original_bands || "").split(",").each do |band_code| %>
+      <% band = Band.find_by(code: band_code) %>
+      <%= partial :band, {item: band, text: ["", band.name], class_names: ""} %>
+    <% end %>
+
+    <% (@item.original_discs || "").split(",").each do |disc_code| %>
+      <% disc = Disc.find_by(code: disc_code) %>
+      <%= partial :disc, {item: disc, text: ["", disc.name], class_names: ""} %>
+    <% end %>
+
+    <%= partial :"admin/disc" %>
+  </div>
+
+  <div class="sub-contents">
+    <div class="releases">
+      <%= partial :releases, {code: @item.main_band_code} %>
+    </div>
+  </div>
+  <!-- contents -->
+</div>

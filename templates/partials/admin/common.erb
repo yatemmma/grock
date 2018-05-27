@@ -1,0 +1,108 @@
+<style>
+  .admin label span {
+    width: 18%;
+    display: inline-block;
+    text-align: right;
+    vertical-align: top;}
+
+  .admin label input,
+  .admin label select,
+  .admin label textarea {
+    width: 80%;
+    margin-bottom: 4px;}
+
+  .admin label textarea {
+    height: 200px;}
+
+  .admin button {
+    color: #333;
+    background: white;}
+
+  .admin form {
+    text-align: right;
+    margin: 16px 0;}
+
+  .admin label input[disabled] {
+    background: lightgray;}
+</style>
+
+<script>
+function update() {
+  let code = document.querySelector("#form1").getAttribute("data-code")
+  const operation = code ? "update" : "create"
+  code = code || document.querySelector("[name=code]").value
+  document.form1.action = "<%= link("#{item.class.to_s.downcase}/") %>" + operation + "/" + code
+  document.form1.submit()
+}
+
+function del() {
+  if (window.confirm("delete?")) {
+    const code = document.querySelector("#form1").getAttribute("data-code")
+    document.form1.action = "<%= link("#{item.class.to_s.downcase}/delete") %>" + code
+    document.form1.submit()
+	}
+}
+
+function feed(e, sender) {
+  e.preventDefault()
+  const code = document.querySelector("#form1").getAttribute("data-code")
+  if (code) {
+    const title = sender.innerText
+    sender.innerText = "..."
+    ajaxRequest("<%= link("admin/api/update_feed") %>", {model: "<%= item.class.to_s.downcase %>", code: code}, (result, status)=>{
+      sender.innerText = title
+      if (status == 200) {
+        console.log(result)
+      }
+    })
+  }
+}
+
+function onChangeText(key, e) {
+  if ((key == "name" || key == "bands") && !document.querySelector("#form1").getAttribute("data-code")) {
+    const bands = document.querySelector(".disc [name=bands]")
+    const code = e.value.toLowerCase().replace(/\s/g, "_")
+    document.querySelector("[name=code]").value = (bands ? bands.value + "-" : "") + code
+  }
+}
+
+function onClickSite(e) {
+  const input = e.parentElement.parentElement.lastElementChild
+  if (input.value) {
+    console.log(input.value)
+    const words = input.value.split(" ")
+    const url = encodeURIComponent(words.shift())
+    const title = words.join(" ")
+    if (!title) {
+      input.disabled = true
+      ajaxRequest("<%= link("admin/api/site_title") %>", {url: url}, (result, status)=>{
+        input.disabled = false
+        if (status == 200) {
+          input.value += " " + result
+        }
+      })
+    }
+  }
+}
+
+function onSelectValue(e, name) {
+  if (document.querySelector("[name=" + name + "]").value) {
+    document.querySelector("[name=" + name + "]").value += ("," + e.value)
+  } else {
+    document.querySelector("[name=" + name + "]").value = e.value
+  }
+}
+
+function onSelectDate(e, name) {
+  const date = document.querySelector("[name=" + name + "]").value
+  if (date) {
+    const y = date.split("/")[0]
+    const m = date.split("/")[1]
+    if (e.value.startsWith("month")) {
+      document.querySelector("[name=" + name + "]").value = y + "/" + m + " " + e.value
+    } else {
+      document.querySelector("[name=" + name + "]").value = y + " " + e.value
+    }
+  }
+}
+</script>

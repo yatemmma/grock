@@ -1,0 +1,73 @@
+<%
+  video_list = %w(NNHGABwme50 1_9AFFOOMc0 EICufmQ3Rhc)
+  video_list += %w(
+    -BNY61i551k
+    LtTyGOG3BXs
+    d1rM5Vrfiso
+    g5P_AYwTr2A
+    W8FVIWPrEhw
+    wBMlk0UUW5k
+    0c8TdnSaw9I
+    AWrZRkycnyQ
+    IpvWSPBypIo
+  ).shuffle
+%>
+<div id="main-video">
+  <div id="player-wrapper">
+    <!-- player-wrapper -->
+    <!-- <div class="toggle-player"><a href="/" onclick="popup(event, this)"><i class="fas fa-clone"></i></a></div> -->
+    <div id="main-player" class="youtube" data-key="<%= video_list.join(",") %>"></div>
+    <!-- player-wrapper -->
+  </div>
+</div>
+
+<div class="contents">
+  <!-- contents -->
+  <%= partial :sns, {path: "", sns_title: "G-ROCK"} %>
+
+  <div class="sub-contents">
+    <h3>Latest Updates</h3>
+    <div class="posts">
+    <%
+      num = 50
+      items = Label.order("updated_at DESC").limit(num)
+      items += Band.order("updated_at DESC").limit(num)
+      items += Disc.order("updated_at DESC").limit(num)
+      items = items.sort_by {|item| item.updated_at}.reverse[0, num]
+      items.each_with_index do |item, i|
+        case item.class.to_s
+        when "Band"
+          type = "band"
+          args = [item.name, item.updated_date]
+        when "Disc"
+          type = "disc"
+          args = [item.name, item.main_band.name, item.updated_date]
+        when "Label"
+          type = "band"
+          args = [item.name, item.updated_date]
+        end
+        class_name = (i < 3) ? "" : "hidden-on-mobile"
+    %>
+      <%= partial type.to_sym, {item: item, text: args, class_names: class_name} %>
+    <% end %>
+    </div>
+  </div>
+
+  <div class="sub-contents">
+    <h3>Releases</h3>
+    <div class="releases">
+      <% Disc.where.not(date: nil).where.not(date: "").order("date DESC").limit(50).each_with_index do |disc, i| %>
+        <%
+          class_name = (i < 3) ? "" : "hidden-on-mobile"
+        %>
+        <%= partial :disc, {item: disc, text: [disc.name, disc.main_band.name, disc.date_text], class_names: class_name} %>
+      <% end %>
+    </div>
+  </div>
+
+  <div class="sub-contents">
+    <h3>News Feeds</h3>
+    <%= partial :feeds, {item: nil} %>
+  </div>
+  <!-- contents -->
+</div>

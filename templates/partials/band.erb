@@ -1,0 +1,21 @@
+<%
+  list = text.reject {|x| (x.nil? || x.empty?)}
+  desc1, desc2, desc3 = text
+%>
+<% unless item.code == "self-released" %>
+<a class="keep block wide <%= class_names %>" href="<%= link("#{item.class.to_s.downcase}/#{item.code}.html") %>">
+  <div class="image" data-image="<%= item.main_image %>">
+    <img>
+  </div>
+  <% if list.size == 3 %>
+    <div class="desc"><%= desc1 %></div>
+    <div class="desc"><%= desc2 %></div>
+    <div class="desc"><%= desc3 %></div>
+  <% elsif list.size == 2 %>
+    <div class="desc2"><%= desc1 %></div>
+    <div class="desc2"><%= desc2 %></div>
+  <% else %>
+    <div class="desc1"><%= desc1 %></div>
+  <% end %>
+</a>
+<% end %>

@@ -1,0 +1,108 @@
+.contents-wrapper {
+
+  .sub-contents {
+    h3 {
+      margin: 32px 8px 16px;
+    }
+
+    .feeds {
+      .feed {
+        display: block;
+        margin-bottom: 40px;
+
+        a.title {
+          background-color: $CLICK_BGA_COLOR;
+          padding: 2px;
+          display: block;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          @include line-bottom;
+
+          .image {
+            width: 48px;
+            height: 48px;
+            display: inline-block;
+            vertical-align: middle;
+            background: inherit;
+
+            img {
+              border-radius: 50%;
+            }
+          }
+          .hidden {
+            width: 8px !important;
+          }
+        }
+
+        a:hover {
+          background-color: $SECONDARY_BG_COLOR;
+        }
+
+        .date {
+          font-size: 0.8em;
+          text-align: right;
+          padding: 8px 4px 16px;
+        }
+
+        .body {
+          text-align: center;
+          padding: 0 4px;
+          line-height: 1.4em;
+
+          * {
+            padding: 0;
+            margin: 0;
+          }
+
+          p {
+            text-align: left;
+            overflow: hidden;
+            padding-bottom: 16px;
+          }
+
+          .image {
+            height: 200px;
+            background-color: inherit;
+          }
+        }
+      }
+    }
+
+    .posts,
+    .releases {
+      .block {
+        display: block;
+        background-color: $CLICK_BGA_COLOR;
+        padding: 16px;
+        margin: 8px 0;
+        text-align: center;
+        @include clearfix;
+
+        .image {
+          width: 200px;
+          height: 200px;
+          background-color: $PRIMARY_BG_COLOR;
+          margin: 0 auto;
+        }
+
+        .desc, .desc2, .desc1 {
+          text-align: center;
+          margin-top: 8px;
+        }
+      }
+
+      a.block:hover {
+        background-color: $SECONDARY_BG_COLOR;
+      }
+
+      .wide {
+        .image {
+          width: 80%;
+          min-width: 206px;
+        }
+      }
+    }
+
+  }
+}

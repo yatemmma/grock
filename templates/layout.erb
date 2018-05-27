@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title><%= page_title(title) %></title>
+  <link rel="shortcut icon" type="image/x-icon" href="<%= link("assets/images/favicon.ico") %>" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link media="all" rel="stylesheet" href="<%= link("assets/style.css") %>" />
+  <script src="<%= link("assets/script.js") %>"></script>
+</head>
+<body>
+  <header>
+    <!-- header -->
+    <h1><a class="keep" href="<%= link("index.html") %>">G-ROCK</a></h1>
+    <span><a id="menu" onclick="toggleMenu()">Menu</a></span>
+    <nav>
+      <ul>
+        <% if admin? %>
+        <li><a href="<%= link("admin") %>">Admin：</a></li>
+        <% end %>
+        <li><a class="keep" href="<%= link("bands.html") %>">Band</a></li>
+        <li><a class="keep" href="<%= link("members.html") %>">Member</a></li>
+        <li><a class="keep" href="<%= link("discs.html") %>">Disc</a></li>
+        <li><a class="keep" href="<%= link("covers.html") %>">Cover</a></li>
+        <li><a class="keep" href="<%= link("labels.html") %>">Label</a></li>
+      </ul>
+    </nav>
+    <!-- header -->
+  </header>
+
+  <div class="contents-wrapper">
+    <%= context %>
+  </div>
+
+  <footer>
+    <!-- footer -->
+    <div class="link">
+      <a href="https://twitter.com/prettygereen" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="copy">&copy; 2009-<%= Date.today.strftime("%Y") %> <a class="keep" href="<%= link("index.html") %>">G-ROCK</a></div>
+    <!-- footer -->
+  </footer>
+</body>
+</html>

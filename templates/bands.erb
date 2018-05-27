@@ -1,0 +1,39 @@
+<div id="main-video" class="no-height">
+  <div id="player-wrapper">
+  </div>
+</div>
+
+<div class="contents">
+  <!-- contents -->
+  <div id="items" class="items table">
+    <div class="table-row table-header hidden-on-mobile">
+      <%= partial :table_header, {key: "name", hint:"Band Name"}%>
+      <%= partial :table_header, {key: "country", hint:"Country"}%>
+      <%= partial :table_header, {key: "active", hint:"Active"}%>
+      <%= partial :table_header, {key: "genres", hint:"Genre"}%>
+      <%= partial :table_header, {key: "updated", hint:"Updated at"}%>
+    </div>
+
+    <% @items.each_with_index do |item, i| %>
+      <a id="row-<%= item.code %>" class="keep table-row table-body <%= "odd" unless i%2 == 0 %>" href="<%= link("band/#{item.code}.html") %>">
+        <div class="table-cell cell-name" data-value="<%= item.name %>">
+          <%= item.name %>
+          <%= "(#{item.description})" unless item.description.empty? %>
+        </div>
+        <div class="table-cell cell-country" data-value="<%= item.country %>">
+          <%= item.country_emoji %>
+        </div>
+        <div class="table-cell cell-active" data-value="<%= item.active_short_text %>">
+          <%= item.active_short_text %>
+        </div>
+        <div class="table-cell cell-country" data-value="<%= item.main_genre_text %>">
+          <%= item.main_genre_text %>
+        </div>
+        <div class="table-cell cell-updated hidden-on-mobile" data-value="<%= item.updated_date %>">
+          <%= item.updated_date %>
+        </div>
+      </a>
+    <% end %>
+  </div>
+  <!-- contents -->
+</div>

@@ -1,0 +1,13 @@
+<label>
+  <span><%= key %>: </span>
+  <input form="form1" name="<%= key %>" type="text" onchange="onChangeText('<%= key %>', this)" value="<%= item.send(key.to_sym) %>" />
+</label>
+<label>
+  <span> </span>
+  <select onchange="onSelectValue(this, '<%= key %>')">
+    <option value="">----</option>
+    <% list.keys.each do |key| %>
+      <option value="<%= key %>"><%= list[key] %></option>
+    <% end %>
+  </select>
+</label>

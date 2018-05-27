@@ -1,0 +1,9 @@
+<% unless (link_value.nil? || link_value.empty?) %>
+  <%
+    url, title = link_value.divide
+  %>
+  <a class="block link" href="<%= url %>" target="_blank">
+    <div class="type"><%= Setting.sites.to_hash[site] %></div>
+    <div class="title"><%= title %></div>
+  </a>
+<% end %>

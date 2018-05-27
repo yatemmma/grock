@@ -1,0 +1,30 @@
+<%
+  if item.nil?
+    feeds = Feed.order("date DESC").limit(100)
+  else
+    feeds = Feed.where(owner: item.code).order("date DESC").limit(20)
+  end
+
+%>
+<div class="feeds">
+  <% feeds.each do |feed| %>
+    <div class="feed">
+      <a class="title" href="<%= feed.url %>" target="_blank">
+        <div class="image feed-icon <%= "hidden" if feed.icon.nil? %>" data-image="<%= feed.icon %>"><img></div>
+        <%
+          case feed.feed_type
+          when "twitter"
+            feed_label = "Tweet"
+          when "youtube"
+            feed_label = "YouTube"
+          when "site"
+            feed_label = "Website Update"
+          end
+        %>
+        <%= "#{feed_label} by #{feed.owner_name}" %>
+      </a>
+      <div class="date"><%= feed.feed_date %></div>
+      <div class="body"><%= feed.body %></div>
+    </div>
+  <% end %>
+</div>

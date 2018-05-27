@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Labels | G-ROCK</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link media="all" rel="stylesheet" href="./assets/style.css" />
+  <script src="./assets/script.js"></script>
+</head>
+<body>
+  <header>
+    <!-- header -->
+    <h1><a class="keep" href="./index.html">G-ROCK</a></h1>
+    <span><a id="menu" onclick="toggleMenu()">Menu</a></span>
+    <nav>
+      <ul>
+        
+        <li><a class="keep" href="./bands.html">Band</a></li>
+        <li><a class="keep" href="./members.html">Member</a></li>
+        <li><a class="keep" href="./discs.html">Disc</a></li>
+        <li><a class="keep" href="./covers.html">Cover</a></li>
+        <li><a class="keep" href="./labels.html">Label</a></li>
+      </ul>
+    </nav>
+    <!-- header -->
+  </header>
+
+  <div class="contents-wrapper">
+    <div id="main-video" class="no-height">
+  <div id="player-wrapper">
+  </div>
+</div>
+
+<div class="contents">
+  <!-- contents -->
+  <div id="items" class="items table">
+    <div class="table-row table-header hidden-on-mobile">
+      <div class="table-cell">
+  <input id="search-name" type="text" placeholder="Label Name"></input>
+  <a onclick="sort(this, 'name')"><i class="fas fa-sort"></i></a>
+</div>
+
+      <div class="table-cell">
+  <input id="search-country" type="text" placeholder="Country"></input>
+  <a onclick="sort(this, 'country')"><i class="fas fa-sort"></i></a>
+</div>
+
+      <div class="table-cell">
+  <input id="search-updated" type="text" placeholder="Updated At"></input>
+  <a onclick="sort(this, 'updated')"><i class="fas fa-sort"></i></a>
+</div>
+
+    </div>
+
+    
+      <a id="row-artery_recordings" class="keep table-row table-body " href="./label/artery_recordings.html">
+        <div class="table-cell cell-name" data-value="Artery Recordings">
+          Artery Recordings
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 Sacramento, California, United States">
+          🇺🇸 Sacramento, California, United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/10 02:54:33">
+          2018/05/10 02:54:33
+        </div>
+      </a>
+    
+      <a id="row-equal_vision_records" class="keep table-row table-body odd" href="./label/equal_vision_records.html">
+        <div class="table-cell cell-name" data-value="Equal Vision Records">
+          Equal Vision Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 Albany, New York, United States">
+          🇺🇸 Albany, New York, United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:13:44">
+          2018/05/27 20:13:44
+        </div>
+      </a>
+    
+      <a id="row-garimpeiro_records" class="keep table-row table-body " href="./label/garimpeiro_records.html">
+        <div class="table-cell cell-name" data-value="Garimpeiro Records">
+          Garimpeiro Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇯🇵 Japan">
+          🇯🇵 Japan
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇯🇵
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/06 23:23:07">
+          2018/05/06 23:23:07
+        </div>
+      </a>
+    
+      <a id="row-hopeless_records" class="keep table-row table-body odd" href="./label/hopeless_records.html">
+        <div class="table-cell cell-name" data-value="Hopeless Records">
+          Hopeless Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 United States">
+          🇺🇸 United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:13:57">
+          2018/05/27 20:13:57
+        </div>
+      </a>
+    
+      <a id="row-invogue_records" class="keep table-row table-body " href="./label/invogue_records.html">
+        <div class="table-cell cell-name" data-value="InVogue Records">
+          InVogue Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 Findlay, Ohio, United States">
+          🇺🇸 Findlay, Ohio, United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:13:28">
+          2018/05/27 20:13:28
+        </div>
+      </a>
+    
+      <a id="row-mediaskare_records" class="keep table-row table-body odd" href="./label/mediaskare_records.html">
+        <div class="table-cell cell-name" data-value="Mediaskare Records">
+          Mediaskare Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 United States">
+          🇺🇸 United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/06 23:32:31">
+          2018/05/06 23:32:31
+        </div>
+      </a>
+    
+      <a id="row-redfield_records" class="keep table-row table-body " href="./label/redfield_records.html">
+        <div class="table-cell cell-name" data-value="Redfield Records">
+          Redfield Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇬🇪 Germany">
+          🇬🇪 Germany
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇬🇪
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:13:55">
+          2018/05/27 20:13:55
+        </div>
+      </a>
+    
+      <a id="row-rise_records" class="keep table-row table-body odd" href="./label/rise_records.html">
+        <div class="table-cell cell-name" data-value="Rise Records">
+          Rise Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 United States">
+          🇺🇸 United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:13:24">
+          2018/05/27 20:13:24
+        </div>
+      </a>
+    
+      <a id="row-self-released" class="keep table-row table-body " href="./label/self-released.html">
+        <div class="table-cell cell-name" data-value="Self-released">
+          Self-released
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="">
+          
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/14 01:08:50">
+          2018/05/14 01:08:50
+        </div>
+      </a>
+    
+      <a id="row-solid_state_records" class="keep table-row table-body odd" href="./label/solid_state_records.html">
+        <div class="table-cell cell-name" data-value="Solid State Records">
+          Solid State Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 Seattle, Washington">
+          🇺🇸 Seattle, Washington
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:15:45">
+          2018/05/27 20:15:45
+        </div>
+      </a>
+    
+      <a id="row-standby_records" class="keep table-row table-body " href="./label/standby_records.html">
+        <div class="table-cell cell-name" data-value="StandBy Records">
+          StandBy Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 United States">
+          🇺🇸 United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:14:05">
+          2018/05/27 20:14:05
+        </div>
+      </a>
+    
+      <a id="row-taperjean_records" class="keep table-row table-body odd" href="./label/taperjean_records.html">
+        <div class="table-cell cell-name" data-value="Taperjean Records">
+          Taperjean Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="">
+          
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/06 23:42:54">
+          2018/05/06 23:42:54
+        </div>
+      </a>
+    
+      <a id="row-tooth_and_nail_records" class="keep table-row table-body " href="./label/tooth_and_nail_records.html">
+        <div class="table-cell cell-name" data-value="Tooth and Nail Records">
+          Tooth and Nail Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 Seattle, Washington, United States">
+          🇺🇸 Seattle, Washington, United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:13:49">
+          2018/05/27 20:13:49
+        </div>
+      </a>
+    
+      <a id="row-trustkill_records" class="keep table-row table-body odd" href="./label/trustkill_records.html">
+        <div class="table-cell cell-name" data-value="Trustkill Records">
+          Trustkill Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 United States">
+          🇺🇸 United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:14:07">
+          2018/05/27 20:14:07
+        </div>
+      </a>
+    
+      <a id="row-unfd" class="keep table-row table-body " href="./label/unfd.html">
+        <div class="table-cell cell-name" data-value="UNFD">
+          UNFD
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇦🇺 Australia">
+          🇦🇺 Australia
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇦🇺
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:13:52">
+          2018/05/27 20:13:52
+        </div>
+      </a>
+    
+      <a id="row-uprising_records" class="keep table-row table-body odd" href="./label/uprising_records.html">
+        <div class="table-cell cell-name" data-value="Uprising Records">
+          Uprising Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 United States">
+          🇺🇸 United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/06 22:19:25">
+          2018/05/06 22:19:25
+        </div>
+      </a>
+    
+      <a id="row-vagrant_records" class="keep table-row table-body " href="./label/vagrant_records.html">
+        <div class="table-cell cell-name" data-value="Vagrant Records">
+          Vagrant Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 United States">
+          🇺🇸 United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:13:59">
+          2018/05/27 20:13:59
+        </div>
+      </a>
+    
+      <a id="row-victory_records" class="keep table-row table-body odd" href="./label/victory_records.html">
+        <div class="table-cell cell-name" data-value="Victory Records">
+          Victory Records
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇺🇸 Chicago, Illinois, United States">
+          🇺🇸 Chicago, Illinois, United States
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇺🇸
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:13:30">
+          2018/05/27 20:13:30
+        </div>
+      </a>
+    
+      <a id="row-zestone_records" class="keep table-row table-body " href="./label/zestone_records.html">
+        <div class="table-cell cell-name" data-value="ZESTONE RECORDS">
+          ZESTONE RECORDS
+        </div>
+        <div class="table-cell cell-country hidden-on-mobile" data-value="🇯🇵 Japan">
+          🇯🇵 Japan
+        </div>
+        <div class="table-cell hidden-on-tablet">
+          🇯🇵
+        </div>
+        <div class="table-cell cell-updated" data-value="2018/05/27 20:13:40">
+          2018/05/27 20:13:40
+        </div>
+      </a>
+    
+  </div>
+  <!-- contents -->
+</div>
+
+  </div>
+
+  <footer>
+    <!-- footer -->
+    <div class="link">
+      <a href="https://twitter.com/prettygereen" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+    <div class="copy">&copy; 2009-2018 <a class="keep" href="./index.html">G-ROCK</a></div>
+    <!-- footer -->
+  </footer>
+</body>
+</html>

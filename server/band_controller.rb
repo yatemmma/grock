@@ -5,11 +5,17 @@ class App < Sinatra::Base
     when "index"
       erb :index, {title: nil}
     when "bands"
-      @items = Band.all_items.select {|x| (x.member_of.empty? && x.ex_member_of.empty?)}
+      @items = Band.all_items.select {|x| p x.genres;(x.member_of.empty? && x.ex_member_of.empty? && (x.genres != "covered"))}
       erb :bands, {title: "Bands"}
     when "members"
       @items = Band.all_items.select {|x| (not x.member_of.empty?) || (not x.ex_member_of.empty?)}
-      erb :bands, {title: "Members"}
+      erb :members, {title: "Members"}
+    when "discs"
+      @items = Disc.all_items.reject {|x| (x.genres.start_with? "cover")}
+      erb :discs, {title: "Discs"}
+    when "covers"
+      @items = Disc.all_items.select {|x| (x.genres.start_with? "cover")}
+      erb :covers, {title: "Covers"}
     else
       clazz = Object.const_get(types.singularize.capitalize)
       @items = clazz.all_items

@@ -62,6 +62,16 @@ module BaseModel
     list += Feed.where(owner: self.code).map {|x| x.youtube_video_key}.join(",")
     list.split(",").compact.reject { |c| c.empty? }.join(",")
   end
+
+	def genres_text
+		return "" if self.genres.nil?
+		genre_map = Setting.genres.to_hash
+		self.genres.split(",").map{|x| genre_map[x]}.join(", ")
+	end
+
+	def main_genre_text
+		self.genres_text.split(",").first
+	end
 end
 
 require_relative "./band"

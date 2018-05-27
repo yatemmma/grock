@@ -156,7 +156,9 @@ function filter(items) {
     const filter = filtered(item, filterConditions2)
     item.className = "table-row table-body" + (i%2 == 0 ? "" : " odd") + (filter ? "" : " hide")
     table.appendChild(item)
-    i++
+    if (filter) {
+      i++
+    }
   })
 }
 

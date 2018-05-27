@@ -18,15 +18,23 @@ class Disc < ActiveRecord::Base
 	end
 
 	def main_band_code
-		self.bands.split(" ").first unless self.bands.nil?
+		self.bands.split(",").first unless self.bands.nil?
 	end
 
 	def main_band
 		Band.find_by(code: self.main_band_code)
 	end
 
+	def main_original_band_code
+		self.original_bands.split(",").first unless self.original_bands.nil?
+	end
+
+	def main_original_band
+		Band.find_by(code: self.main_original_band_code) unless self.original_bands.nil?
+	end
+
 	def main_label_code
-		self.labels.split(" ").first unless self.labels.nil?
+		self.labels.split(",").first unless self.labels.nil?
 	end
 
 	def main_label

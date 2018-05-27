@@ -60,11 +60,11 @@
   discogs: ''
   links: ''
   member_of: ''
-  ex_member_of: ''
+  ex_member_of: emarosa
   feeds: ''
   body: ''
   created_at: 2018-05-13 16:15:26.325299000 Z
-  updated_at: 2018-05-13 16:19:25.721538000 Z
+  updated_at: 2018-05-27 06:37:26.825774000 Z
 - code: craig_owens
   name: Craig Owens
   description: ex. Chiodos
@@ -1657,8 +1657,8 @@
   description: The Virgin Wolves / ex. Memphis May Fire
   active: ''
   origin: us USA
-  images: http://i.ytimg.com/vi/4c1HQJ069N0/hqdefault.jpg
-  videos: 4c1HQJ069N0
+  images: http://i.ytimg.com/vi/_Pa0upOZKuk/hq3.jpg
+  videos: 2zJlSQ66Im4
   genres: ''
   apple: ''
   play: ''
@@ -1682,7 +1682,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:42:04.210333000 Z
-  updated_at: 2018-05-19 11:47:22.522529000 Z
+  updated_at: 2018-05-26 13:35:04.157351000 Z
 - code: chiodos
   name: Chiodos
   description: ''
@@ -2809,3 +2809,96 @@
   body: ''
   created_at: 2018-05-26 12:57:38.687767000 Z
   updated_at: 2018-05-26 12:57:38.687767000 Z
+- code: bruno_mars
+  name: Bruno Mars
+  description: ''
+  active: ''
+  origin: ''
+  images: http://i.ytimg.com/vi/LjhCEhWiKXk/hq2.jpg
+  videos: SR6iYWJxHqs
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-26 13:39:52.100211000 Z
+  updated_at: 2018-05-26 13:39:52.100211000 Z
+- code: stone_temple_pilots
+  name: Stone Temple Pilots
+  description: ''
+  active: ''
+  origin: ''
+  images: http://i.ytimg.com/vi/HVPzWkdhwrw/hq2.jpg
+  videos: yjJL9DGU7Gg
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-26 13:42:25.287020000 Z
+  updated_at: 2018-05-26 13:42:25.287020000 Z
+- code: emarosa
+  name: Emarosa
+  description: ''
+  active: 2006-
+  origin: us Lexington, Kentucky, United States
+  images: https://pbs.twimg.com/media/DKsNSmSXUAEmyBA.jpg
+  videos: pA-EiQPLDFI
+  genres: post-hardcore
+  apple: ''
+  play: ''
+  spotify: https://open.spotify.com/artist/68tKVjVvcqUfKFFLr2j0Ek Emarosa on Spotify
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Emarosa Emarosa - Wikipedia
+  youtube: ''
+  twitter: https://twitter.com/emarosa Emarosa (@Emarosa) | Twitter
+  facebook: https://www.facebook.com/emarosa/ Emarosa - Home | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-27 06:32:20.972900000 Z
+  updated_at: 2018-05-27 06:34:30.495280000 Z

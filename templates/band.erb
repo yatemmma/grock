@@ -10,8 +10,9 @@
 
     <%= partial :band, {item: @item, text: ["", @item.name], class_names: ""} %>
 
-    <%= partial :text, {text: @item.active, class_names: "active"} %>
+    <%= partial :text, {text: @item.active_text, class_names: "active"} %>
     <%= partial :text, {text: @item.origin_full, class_names: "origin"} %>
+    <%= partial :text, {text: @item.genres_text, class_names: "genres"} %>
 
     <% Band.site_keys.each do |site| %>
       <%= partial :site, {site: site, link_value: @item.send(site)} %>
@@ -19,10 +20,6 @@
     <% @item.link_list.each do |site| %>
       <%= partial :site, {site: "link", link_value: site} %>
     <% end %>
-
-    <% Disc.where("discs_of LIKE ?", "%#{@item.code}%").each do |disc| %>
-      <%= partial :disc, {item: disc, text: [disc.name, disc.main_band.name, disc.date_text], class_names: ""} %>
-    <% end unless @item.code.nil? %>
 
     <% (@item.member_of || "").split(",").each do |band_code| %>
       <% band = Band.find_by(code: band_code) %>
@@ -42,8 +39,11 @@
       <%= partial :band, {item: band, text: ["Ex Member", band.name], class_names: ""} %>
     <% end unless @item.code.nil? %>
 
-    <%= partial :releases, {code: @item.code} unless @item.code.nil? %>
+    <% Disc.where("original_bands LIKE ?", "%#{@item.code}%").each do |disc| %>
+      <%= partial :disc, {item: disc, text: [disc.name, "Covered by", disc.main_band.name], class_names: ""} %>
+    <% end %>
 
+    <%= partial :releases, {code: @item.code} unless @item.code.nil? %>
 
     <%= partial :"admin/band" %>
   </div>

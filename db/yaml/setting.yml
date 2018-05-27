@@ -2,8 +2,9 @@
 - code: genres
   json: '{"post-hardcore":"Post-Hardcore","acoustic":"Acoustic","acoustic_cover":"Acoustic
     Cover","blues_rock":"Blues Rock","cover":"Cover","covered":"Covered Artist","christian_hardcore":"Christian
-    Hardcore","xmas":"Christmas","electronica":"Electronica","guest":"Guest Appearance","idle":"Idle","indie_pop":"Indie
-    Pop","indie_rock":"Indie Rock","melodic_rock":"Melodic Rock","metalcore":"Metalcore","psychedelic_rock":"Psychedelic
+    Hardcore","xmas":"Christmas","electronica":"Electronica","electropop":"Electropop","emo":"Emo","guest":"Guest
+    Appearance","hard_rock":"Hard Rock","idle":"Idle","indie_pop":"Indie Pop","indie_rock":"Indie
+    Rock","melodic_rock":"Melodic Rock","metalcore":"Metalcore","psychedelic_rock":"Psychedelic
     Rock","techno":"Techno"}'
 - code: sites
   json: '{"apple":"Apple Music","play":"Google Play","spotify":"Spotify","soundcloud":"SoundCloud","bandcamp":"Bandcamp","amazon":"Amazon","youtube":"YouTube","website":"Website","wikipedia":"Wikipedia","twitter":"Twitter","facebook":"Facebook","instagram":"Instagram","purevolume":"PureVolume","myspace":"MySpace","lastfm":"Last.fm","discogs":"Discogs","teaser":"Teaser","playlist":"Playlist","search":"Search","link":"Link"}'

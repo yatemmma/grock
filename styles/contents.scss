@@ -58,7 +58,7 @@
         .image {
           margin: 0 auto 16px;
         }
-        .desc {
+        .desc, .desc2, .desc1 {
           text-align: center;
           margin-bottom: 8px;
         }
@@ -115,6 +115,14 @@
       .desc {
         height: 24px;
         margin-top: 32px;
+      }
+      .desc2 {
+        height: 36px;
+        margin-top: 43px;
+      }
+      .desc1 {
+        height: 72px;
+        margin-top: 90px;
       }
     }
   }

@@ -3274,7 +3274,7 @@
   images: http://i.ytimg.com/vi/BsiPDC-Xl6c/hqdefault.jpg
   videos: BsiPDC-Xl6c
   genres: cover
-  disc_type: ''
+  disc_type: song
   apple: ''
   play: ''
   spotify: ''
@@ -3296,7 +3296,7 @@
   original_discs: ''
   body: ''
   created_at: 2018-05-21 14:02:15.234236000 Z
-  updated_at: 2018-05-21 14:02:47.648462000 Z
+  updated_at: 2018-05-27 06:58:00.763407000 Z
 - code: in_fear_and_faith-the_road_to_hell_is_paved_with_good_intentions
   name: The Road to Hell Is Paved with Good Intentions
   description: ''
@@ -5056,3 +5056,332 @@
   body: ''
   created_at: 2018-05-26 12:59:21.390376000 Z
   updated_at: 2018-05-26 12:59:21.390376000 Z
+- code: memphis_may_fire-memphis_may_fire
+  name: Memphis May Fire
+  description: ''
+  date: 2007/12/04
+  bands: memphis_may_fire
+  labels: trustkill_records
+  images: https://images-na.ssl-images-amazon.com/images/I/61Ejf069AhL.jpg
+  videos: 2zJlSQ66Im4
+  genres: post-hardcore
+  disc_type: ep
+  apple: https://itunes.apple.com/us/album/memphis-may-fire-ep/715425614 Memphis May
+    Fire - EP by Memphis May Fire on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: https://www.youtube.com/results?search_query=Memphis+May+Fire+ep
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-26 13:11:12.496612000 Z
+  updated_at: 2018-05-26 13:25:47.337598000 Z
+- code: memphis_may_fire-sleepwalking
+  name: Sleepwalking
+  description: ''
+  date: 2009/07/21
+  bands: memphis_may_fire
+  labels: trustkill_records
+  images: https://is5-ssl.mzstatic.com/image/thumb/Music4/v4/b7/ca/3d/b7ca3d5f-9180-eb07-4724-2c7ca8ca1c87/00824953011520_Cover.jpg/268x0w.jpg
+  videos: 4c1HQJ069N0,aPKiKT-fxnA
+  genres: post-hardcore
+  disc_type: album
+  apple: https://itunes.apple.com/us/album/sleepwalking/322060528 Sleepwalking by
+    Memphis May Fire on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: https://www.youtube.com/results?search_query=Memphis+May+Fire+Sleepwalking
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-26 13:46:52.444770000 Z
+  updated_at: 2018-05-26 13:46:52.444770000 Z
+- code: memphis_may_fire-between_the_lies
+  name: Between the Lies
+  description: ''
+  date: 2010/11/02
+  bands: memphis_may_fire
+  labels: ''
+  images: https://is2-ssl.mzstatic.com/image/thumb/Music/9a/9d/81/mzi.ipplwvhc.jpg/1200x630bb.jpg
+  videos: 4PxNW1fqCCQ,J3OIw7oYOn0,q69WBQkRvx4,wZ63b5LJHF8,AIRDCF58nBU
+  genres: post-hardcore
+  disc_type: ep
+  apple: https://itunes.apple.com/us/album/between-the-lies-ep/397886167 Between the
+    Lies - EP by Memphis May Fire on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=4PxNW1fqCCQ&list=PLXa-QLWBuZUSFwFpP4iLkHF8J3UeCZMxP
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-26 13:51:30.513514000 Z
+  updated_at: 2018-05-26 13:51:30.513514000 Z
+- code: memphis_may_fire-the_hollow
+  name: The Hollow
+  description: ''
+  date: 2011/04/26
+  bands: memphis_may_fire
+  labels: rise_records
+  images: https://is4-ssl.mzstatic.com/image/thumb/Music/63/1b/8c/mzi.gtxrppov.jpg/1200x630bb.jpg
+  videos: rPLLXQDNoFI,Yo9GSiCFMDo,lI5p8pIWye4,yQxA5JO-QyI,J5ksGc7uK00,2nsZhXxes68,oos0YwJCPPE,qcRRX4aI7Zk,zoTeNktqYnM,nSRjcUlHZqU
+  genres: post-hardcore
+  disc_type: album
+  apple: https://itunes.apple.com/us/album/the-hollow/431523640 The Hollow by Memphis
+    May Fire on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=rPLLXQDNoFI&list=PL631BE3A21BD64794
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-26 13:54:46.070599000 Z
+  updated_at: 2018-05-26 13:54:46.070599000 Z
+- code: memphis_may_fire-challenger
+  name: Challenger
+  description: ''
+  date: 2012/06/26
+  bands: memphis_may_fire
+  labels: rise_records
+  images: http://www.cube-music.com/img/f-artists/band-group/memphis_may_fire/top.jpg
+  videos: XaavUDPpPLA,oPi_ifScn0w,_YEscK-H1t8,7nkvXMDZQUA,T_yCTsL3pOU,bprEMRiRgkQ,N3Qz5P-YMdk,26FDl2DoIws,kRwRlyzN4aI,rJyQFb4mc4U,T9RcK9-GaEA
+  genres: post-hardcore
+  disc_type: album
+  apple: https://itunes.apple.com/us/album/challenger/533904977 Challenger by Memphis
+    May Fire on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=XaavUDPpPLA&list=PL0AC64F4806B3FD62
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-26 13:57:36.021860000 Z
+  updated_at: 2018-05-26 13:57:36.021860000 Z
+- code: memphis_may_fire-unconditional
+  name: Unconditional
+  description: ''
+  date: 2014/05/25
+  bands: memphis_may_fire
+  labels: rise_records
+  images: https://is3-ssl.mzstatic.com/image/thumb/Music6/v4/66/1a/7f/661a7f7f-58e9-b736-5df7-d9f920cc5033/819531015250.jpg/1200x630bb.jpg
+  videos: hKqG2EVzUrg,_F7G8BqvYsU,XbawiMkUr58,VicP1LwN398,i_e9IKa8Nc8,O0BWRQCpUMg,YHFfkJF9BX8,acLwvt00Rck,ajao48o-Iuc,YDJCXuQ56So,SnlJFxwG16g,8xXOYmGzKCo,Wc_Fa6BoQrw,B8Mo_6KbDPw,eG27o0g_JPU
+  genres: post-hardcore
+  disc_type: album
+  apple: https://itunes.apple.com/us/album/unconditional/824498917 Unconditional by
+    Memphis May Fire on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=hKqG2EVzUrg&list=PLKcGEIO7V0rXHGOe2rv6LmsQgVOsROU0Q
+    Memphis May Fire - No Ordinary Love (Official Music Video) - YouTube
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-26 14:00:55.520614000 Z
+  updated_at: 2018-05-26 14:00:55.520614000 Z
+- code: memphis_may_fire-this_light_i_hold
+  name: This Light I Hold
+  description: ''
+  date: 2016/10/28
+  bands: memphis_may_fire
+  labels: rise_records
+  images: https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/ab/03/45/ab0345d4-fb4f-9792-600b-243bbd65094a/dj.wqjsqsvx.jpg/268x0w.jpg
+  videos: 1Jg0p7rznYE,4Oz7sLW9ZGU,AVv6wLupytU,rR7_tv9lTLk,WkdRB79nq_A,01BzeeoBXuI,9Sec2kOSDBU,y4oVPFscoKQ,B7dpGj-guQI,6C5cc4Ilv-g,xcNMVG5Vwp0,n83a6S5hFYQ,EUxEUWTXahk
+  genres: post-hardcore
+  disc_type: album
+  apple: https://itunes.apple.com/us/album/this-light-i-hold/1145610247 This Light
+    I Hold by Memphis May Fire on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: https://www.youtube.com/watch?v=1Jg0p7rznYE&list=PLKcGEIO7V0rVm8g-T_BJb-S7n7oCYUsmI
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-26 14:04:41.814319000 Z
+  updated_at: 2018-05-26 14:04:41.814319000 Z
+- code: memphis_may_fire-virus
+  name: Virus
+  description: ''
+  date: 2017/06/20
+  bands: memphis_may_fire
+  labels: rise_records
+  images: https://is3-ssl.mzstatic.com/image/thumb/Music117/v4/f6/78/6d/f6786d41-e5e9-45e7-7119-50e391cce2c8/4050538312027.jpg/200x0w.jpg
+  videos: 8BlP622J-L0
+  genres: post-hardcore
+  disc_type: single
+  apple: https://itunes.apple.com/us/album/virus-single/1249082307 Virus - Single
+    by Memphis May Fire on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-26 14:07:08.922428000 Z
+  updated_at: 2018-05-26 14:07:08.922428000 Z
+- code: memphis_may_fire-grenade_cover
+  name: Grenade (Bruno Mars Cover)
+  description: ''
+  date: ''
+  bands: memphis_may_fire
+  labels: ''
+  images: http://i.ytimg.com/vi/-Fg4JPORYWs/hq2.jpg
+  videos: "-Fg4JPORYWs"
+  genres: cover
+  disc_type: song
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: SR6iYWJxHqs
+  original_bands: bruno_mars
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-26 14:11:27.969416000 Z
+  updated_at: 2018-05-26 14:11:27.969416000 Z
+- code: memphis_may_fire-interstate_love_song_cover
+  name: Interstate Love Song (Stone Temple Pilots Cover)
+  description: ''
+  date: ''
+  bands: memphis_may_fire
+  labels: ''
+  images: http://i.ytimg.com/vi/wVG0IqhVzZI/hq3.jpg
+  videos: wVG0IqhVzZI
+  genres: cover
+  disc_type: song
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: yjJL9DGU7Gg
+  original_bands: stone_temple_pilots
+  original_discs: ''
+  body: ''
+  created_at: 2018-05-26 14:12:53.122784000 Z
+  updated_at: 2018-05-26 14:12:53.122784000 Z

@@ -18,8 +18,8 @@
       label = @item.main_label
     %>
     <%= partial :disc, {item: @item, text: [@item.name, (band.nil? ? "" : band.name), @item.date_text], class_names: ""} %>
-    <%= partial :band, {item: band, text: ["", band.name], class_names: ""} unless band.nil? %>
-    <%= partial :band, {item: label, text: ["", label.name], class_names: ""} unless label.nil? %>
+    <%= partial :band, {item: band, text: [band.name], class_names: ""} unless band.nil? %>
+    <%= partial :band, {item: label, text: [label.name], class_names: ""} unless label.nil? %>
 
     <% Disc.site_keys.each do |site| %>
       <%= partial :site, {site: site, link_value: @item.send(site)} %>
@@ -43,12 +43,12 @@
 
     <% (@item.original_bands || "").split(",").each do |band_code| %>
       <% band = Band.find_by(code: band_code) %>
-      <%= partial :band, {item: band, text: ["", band.name], class_names: ""} %>
+      <%= partial :band, {item: band, text: [band.name], class_names: ""} %>
     <% end %>
 
     <% (@item.original_discs || "").split(",").each do |disc_code| %>
       <% disc = Disc.find_by(code: disc_code) %>
-      <%= partial :disc, {item: disc, text: ["", disc.name], class_names: ""} %>
+      <%= partial :disc, {item: disc, text: [disc.name], class_names: ""} %>
     <% end %>
 
     <%= partial :"admin/disc" %>

@@ -1218,7 +1218,7 @@
   website: ''
   wikipedia: ''
   youtube: https://www.youtube.com/user/betraythesilence betraythesilence - YouTube
-  twitter: https://twitter.com/btsuy Betray The Silence (@btsuy) | Twitter
+  twitter: 'https://twitter.com/btsuy Betray The Silence (@btsuy) | Twitter '
   facebook: https://www.facebook.com/betraythesilence/ Betray the Silence - Home |
     Facebook
   instagram: ''
@@ -1232,7 +1232,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:13:10.186267000 Z
-  updated_at: 2018-05-19 11:13:21.571300000 Z
+  updated_at: 2018-05-27 12:16:51.026576000 Z
 - code: cry_of_the_afflicted
   name: Cry of the Afflicted
   description: ''

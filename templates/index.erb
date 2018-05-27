@@ -46,7 +46,7 @@
           type = "band"
           args = [item.name, item.updated_date]
         end
-        class_name = (i < 3) ? "" : "hidden-on-mobile"
+        class_name = (i < 6) ? "" : "hidden-on-mobile"
     %>
       <%= partial type.to_sym, {item: item, text: args, class_names: class_name} %>
     <% end %>
@@ -58,7 +58,7 @@
     <div class="releases">
       <% Disc.where.not(date: nil).where.not(date: "").order("date DESC").limit(50).each_with_index do |disc, i| %>
         <%
-          class_name = (i < 3) ? "" : "hidden-on-mobile"
+          class_name = (i < 6) ? "" : "hidden-on-mobile"
         %>
         <%= partial :disc, {item: disc, text: [disc.name, disc.main_band.name, disc.date_text], class_names: class_name} %>
       <% end %>

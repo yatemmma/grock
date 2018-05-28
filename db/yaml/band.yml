@@ -284,7 +284,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 01:48:32.332421000 Z
-  updated_at: 2018-05-27 11:20:10.910732000 Z
+  updated_at: 2018-05-28 11:42:55.157566000 Z
 - code: closure_in_moscow
   name: Closure in Moscow
   description: ''
@@ -570,7 +570,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:25:25.068737000 Z
-  updated_at: 2018-05-27 11:20:35.418719000 Z
+  updated_at: 2018-05-28 14:29:32.399090000 Z
 - code: versions
   name: Versions
   description: ''
@@ -1395,7 +1395,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:23:39.153268000 Z
-  updated_at: 2018-05-27 11:21:13.402209000 Z
+  updated_at: 2018-05-28 11:43:49.629864000 Z
 - code: keep_your_hands_off_my_girl
   name: KEEP YOUR HANDs OFF MY GIRL
   description: ''
@@ -1743,7 +1743,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-05-27 11:21:29.199744000 Z
+  updated_at: 2018-05-28 11:44:16.406933000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1775,7 +1775,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-05-27 11:21:31.148999000 Z
+  updated_at: 2018-05-28 11:44:18.431698000 Z
 - code: issues
   name: Issues
   description: ''
@@ -1869,7 +1869,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:28:23.917900000 Z
-  updated_at: 2018-05-27 11:21:36.851483000 Z
+  updated_at: 2018-05-28 14:31:07.513280000 Z
 - code: nick_martin
   name: Nick Martin
   description: Sleeping with Sirens
@@ -2089,7 +2089,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:52:27.289352000 Z
-  updated_at: 2018-05-27 11:21:49.544868000 Z
+  updated_at: 2018-05-28 11:44:34.462097000 Z
 - code: caleb_shomo
   name: Caleb Shomo
   description: Beartooth / ex. Attack Attack!
@@ -2247,7 +2247,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:21:09.396338000 Z
-  updated_at: 2018-05-27 11:21:59.619628000 Z
+  updated_at: 2018-05-28 11:44:44.925056000 Z
 - code: aaron_matts
   name: Aaron Matts
   description: Betraying the Martyrs
@@ -2278,7 +2278,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:33:31.642368000 Z
-  updated_at: 2018-05-27 11:22:01.633746000 Z
+  updated_at: 2018-05-28 14:31:44.212784000 Z
 - code: vanessa_carlton
   name: Vanessa Carlton
   description: ''
@@ -2435,7 +2435,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-05-27 11:22:10.312497000 Z
+  updated_at: 2018-05-28 11:44:52.073184000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''
@@ -2963,3 +2963,34 @@
   body: ''
   created_at: 2018-05-27 13:51:56.101367000 Z
   updated_at: 2018-05-27 13:51:56.101367000 Z
+- code: carly_rae_jepsen
+  name: Carly Rae Jepsen
+  description: ''
+  active: ''
+  origin: ca Canada
+  images: http://i.ytimg.com/vi/fWNaR-rxAic/hqdefault.jpg
+  videos: fWNaR-rxAic
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Carly_Rae_Jepsen Carly Rae Jepsen - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-28 13:14:10.051079000 Z
+  updated_at: 2018-05-28 13:14:10.051079000 Z

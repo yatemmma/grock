@@ -18,7 +18,7 @@ class App < Sinatra::Base
     200
   end
 
-  get "/admin/api/all_feed" do
+  get "/admin/all_feed" do
     Band.all.each do |item|
       feed = Crowler.new("band", item.code)
       feed.update

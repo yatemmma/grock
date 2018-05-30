@@ -30,6 +30,14 @@ class App < Sinatra::Base
     200
   end
 
+  get "/admin/gen_html" do
+    @is_admin = false
+    Generator.new.output_list_page
+    Generator.new.output_pages
+    @is_admin = true
+    200
+  end
+
   post "/admin/api/settings" do
     setting = Setting.find_by(code: params["code"])
     setting.json = params["json"]

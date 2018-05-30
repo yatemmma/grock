@@ -14,7 +14,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.365881000 Z
-  updated_at: 2018-05-29 12:42:32.994817000 Z
+  updated_at: 2018-05-30 14:41:27.779711000 Z
 - code: uprising_records
   name: Uprising Records
   founded: '1994'
@@ -48,7 +48,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.373819000 Z
-  updated_at: 2018-05-27 11:13:28.292559000 Z
+  updated_at: 2018-05-30 14:41:36.689801000 Z
 - code: victory_records
   name: Victory Records
   founded: '1989'
@@ -65,7 +65,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.378230000 Z
-  updated_at: 2018-05-27 11:13:30.646041000 Z
+  updated_at: 2018-05-30 14:41:38.960262000 Z
 - code: artery_recordings
   name: Artery Recordings
   founded: '2010'
@@ -134,7 +134,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.397717000 Z
-  updated_at: 2018-05-27 11:13:40.030519000 Z
+  updated_at: 2018-05-30 14:41:47.825219000 Z
 - code: taperjean_records
   name: Taperjean Records
   founded: ''
@@ -167,7 +167,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.408173000 Z
-  updated_at: 2018-05-29 12:43:02.553460000 Z
+  updated_at: 2018-05-30 14:41:52.500954000 Z
 - code: solid_state_records
   name: Solid State Records
   founded: '1997'
@@ -203,7 +203,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.437010000 Z
-  updated_at: 2018-05-27 11:13:49.763795000 Z
+  updated_at: 2018-05-30 14:41:57.129599000 Z
 - code: self-released
   name: Self-released
   founded: ''
@@ -235,7 +235,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 07:13:43.013118000 Z
-  updated_at: 2018-05-29 12:43:13.417422000 Z
+  updated_at: 2018-05-30 14:41:59.680892000 Z
 - code: redfield_records
   name: Redfield Records
   founded: '2001'
@@ -251,7 +251,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 13:06:41.346176000 Z
-  updated_at: 2018-05-29 12:43:15.875571000 Z
+  updated_at: 2018-05-30 14:42:06.925925000 Z
 - code: hopeless_records
   name: Hopeless Records
   founded: '1993'
@@ -268,7 +268,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-21 12:36:20.868347000 Z
-  updated_at: 2018-05-27 11:13:57.035587000 Z
+  updated_at: 2018-05-30 14:42:08.539371000 Z
 - code: vagrant_records
   name: Vagrant Records
   founded: '1996'
@@ -303,7 +303,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-26 12:25:29.827787000 Z
-  updated_at: 2018-05-27 11:14:05.235153000 Z
+  updated_at: 2018-05-30 14:42:13.483841000 Z
 - code: trustkill_records
   name: Trustkill Records
   founded: '1993'
@@ -336,4 +336,21 @@
   feeds: ''
   body: ''
   created_at: 2018-05-27 12:53:48.741603000 Z
-  updated_at: 2018-05-29 12:43:28.349478000 Z
+  updated_at: 2018-05-30 14:42:20.839536000 Z
+- code: epitaph_records
+  name: Epitaph Records
+  founded: '1980'
+  origin: us United States
+  images: https://yt3.ggpht.com/a-/ACSszfFddoLU91ZjSce8aH0Q-GCm8Wq7tPuHQqcc0A=s900-mo-c-c0xffffffff-rj-k-no
+  videos: ''
+  website: http://epitaph.com/ Epitaph Records
+  wikipedia: https://en.wikipedia.org/wiki/Epitaph_Records Epitaph Records - Wikipedia
+  youtube: https://www.youtube.com/user/EpitaphRecords EpitaphRecords - YouTube
+  twitter: https://twitter.com/epitaphrecords Epitaph Records (@epitaphrecords) |
+    Twitter
+  facebook: https://www.facebook.com/epitaphrecords/ Epitaph Records - Home | Facebook
+  links: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-05-30 12:05:14.639640000 Z
+  updated_at: 2018-05-30 12:06:02.658047000 Z

@@ -41,11 +41,6 @@ class App < Sinatra::Base
 
   get "/admin/work" do
     puts "its works!"
-
-    @is_admin = false
-    Generator.new.output_list_page
-    Generator.new.output_pages
-    @is_admin = true
     200
   end
 end

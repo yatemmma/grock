@@ -284,7 +284,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 01:48:32.332421000 Z
-  updated_at: 2018-05-30 14:38:00.909494000 Z
+  updated_at: 2018-06-01 13:07:16.531301000 Z
 - code: closure_in_moscow
   name: Closure in Moscow
   description: ''
@@ -442,7 +442,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:38:02.869446000 Z
-  updated_at: 2018-05-30 14:38:19.491544000 Z
+  updated_at: 2018-06-01 13:07:28.213580000 Z
 - code: the_virgin_wolves
   name: The Virgin Wolves
   description: ''
@@ -507,7 +507,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:17:41.270557000 Z
-  updated_at: 2018-05-30 14:38:29.846012000 Z
+  updated_at: 2018-06-01 13:07:34.100450000 Z
 - code: matty_mullins
   name: Matty Mullins
   description: Memphis May Fire
@@ -539,7 +539,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:21:54.129708000 Z
-  updated_at: 2018-05-27 11:20:33.778238000 Z
+  updated_at: 2018-06-01 13:07:38.053993000 Z
 - code: band_maid
   name: BAND-MAID
   description: ''
@@ -570,7 +570,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:25:25.068737000 Z
-  updated_at: 2018-05-30 14:38:36.664541000 Z
+  updated_at: 2018-06-01 13:07:43.111024000 Z
 - code: versions
   name: Versions
   description: ''
@@ -1043,7 +1043,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 08:53:49.256538000 Z
-  updated_at: 2018-05-27 11:20:51.152946000 Z
+  updated_at: 2018-06-01 13:07:57.921991000 Z
 - code: eskimo_callboy
   name: Eskimo Callboy
   description: ''
@@ -1074,7 +1074,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 10:56:25.036344000 Z
-  updated_at: 2018-05-19 10:56:36.426321000 Z
+  updated_at: 2018-06-01 13:08:00.410012000 Z
 - code: adept
   name: Adept
   description: ''
@@ -1395,7 +1395,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:23:39.153268000 Z
-  updated_at: 2018-05-28 11:43:49.629864000 Z
+  updated_at: 2018-06-01 13:08:27.173511000 Z
 - code: keep_your_hands_off_my_girl
   name: KEEP YOUR HANDs OFF MY GIRL
   description: ''
@@ -1449,7 +1449,7 @@
   facebook: ''
   instagram: ''
   purevolume: ''
-  myspace: https://twitter.com/attwn ANDTHENTHEREWERENONE (@attwn) | Twitter
+  myspace: ''
   lastfm: ''
   discogs: ''
   links: ''
@@ -1458,7 +1458,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:27:40.175485000 Z
-  updated_at: 2018-05-19 11:27:46.816730000 Z
+  updated_at: 2018-06-01 15:54:28.225200000 Z
 - code: '1997'
   name: '1997'
   description: ''
@@ -1743,7 +1743,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-05-30 14:39:49.789062000 Z
+  updated_at: 2018-06-01 13:08:55.489614000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1775,7 +1775,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-05-30 14:39:51.963562000 Z
+  updated_at: 2018-06-01 13:09:01.134623000 Z
 - code: issues
   name: Issues
   description: ''
@@ -1806,7 +1806,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:20:54.766119000 Z
-  updated_at: 2018-05-27 11:21:33.466412000 Z
+  updated_at: 2018-06-01 13:09:09.352139000 Z
 - code: tyler_carter
   name: Tyler Carter
   description: Issues
@@ -1994,7 +1994,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:40:09.007588000 Z
-  updated_at: 2018-05-30 14:40:14.898674000 Z
+  updated_at: 2018-06-01 13:09:33.690921000 Z
 - code: jeremy_mckinnon
   name: Jeremy McKinnon
   description: A Day To Remember
@@ -2089,7 +2089,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:52:27.289352000 Z
-  updated_at: 2018-05-30 14:40:32.776539000 Z
+  updated_at: 2018-06-01 13:09:46.754791000 Z
 - code: caleb_shomo
   name: Caleb Shomo
   description: Beartooth / ex. Attack Attack!
@@ -2151,7 +2151,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 16:55:33.191861000 Z
-  updated_at: 2018-05-27 11:21:53.463263000 Z
+  updated_at: 2018-06-01 13:09:55.335313000 Z
 - code: upon_this_dawning
   name: Upon This Dawning
   description: ''
@@ -2247,7 +2247,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:21:09.396338000 Z
-  updated_at: 2018-05-30 14:40:58.601958000 Z
+  updated_at: 2018-06-01 13:10:11.056836000 Z
 - code: aaron_matts
   name: Aaron Matts
   description: Betraying the Martyrs
@@ -2278,7 +2278,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:33:31.642368000 Z
-  updated_at: 2018-05-28 14:31:44.212784000 Z
+  updated_at: 2018-06-01 13:10:18.035099000 Z
 - code: vanessa_carlton
   name: Vanessa Carlton
   description: ''
@@ -2435,7 +2435,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-05-30 14:41:16.296538000 Z
+  updated_at: 2018-06-01 13:10:32.461178000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''

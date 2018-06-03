@@ -14,7 +14,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.365881000 Z
-  updated_at: 2018-06-02 09:28:28.253310000 Z
+  updated_at: 2018-06-03 16:12:44.674164000 Z
 - code: uprising_records
   name: Uprising Records
   founded: '1994'
@@ -48,7 +48,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.373819000 Z
-  updated_at: 2018-06-02 09:28:34.582971000 Z
+  updated_at: 2018-06-03 16:12:49.752352000 Z
 - code: victory_records
   name: Victory Records
   founded: '1989'
@@ -65,7 +65,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.378230000 Z
-  updated_at: 2018-06-01 13:10:59.113353000 Z
+  updated_at: 2018-06-03 16:12:52.978536000 Z
 - code: artery_recordings
   name: Artery Recordings
   founded: '2010'
@@ -134,7 +134,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.397717000 Z
-  updated_at: 2018-05-30 14:41:47.825219000 Z
+  updated_at: 2018-06-03 16:13:02.634777000 Z
 - code: taperjean_records
   name: Taperjean Records
   founded: ''
@@ -184,7 +184,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.414223000 Z
-  updated_at: 2018-06-02 09:28:57.889715000 Z
+  updated_at: 2018-06-03 16:13:12.431695000 Z
 - code: tooth_and_nail_records
   name: Tooth and Nail Records
   founded: '1993'
@@ -203,7 +203,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.437010000 Z
-  updated_at: 2018-06-01 13:11:34.630225000 Z
+  updated_at: 2018-06-03 16:13:16.556525000 Z
 - code: self-released
   name: Self-released
   founded: ''
@@ -235,7 +235,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 07:13:43.013118000 Z
-  updated_at: 2018-06-02 09:29:03.892436000 Z
+  updated_at: 2018-06-03 16:13:20.366511000 Z
 - code: redfield_records
   name: Redfield Records
   founded: '2001'
@@ -336,7 +336,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-27 12:53:48.741603000 Z
-  updated_at: 2018-06-02 09:29:23.144750000 Z
+  updated_at: 2018-06-03 16:13:37.051735000 Z
 - code: epitaph_records
   name: Epitaph Records
   founded: '1980'
@@ -353,7 +353,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-30 12:05:14.639640000 Z
-  updated_at: 2018-06-01 13:11:56.521453000 Z
+  updated_at: 2018-06-03 16:13:39.441328000 Z
 - code: sumerian_records
   name: Sumerian Records
   founded: '2006'
@@ -370,7 +370,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-01 19:19:03.458891000 Z
-  updated_at: 2018-06-02 09:29:27.373905000 Z
+  updated_at: 2018-06-03 16:13:43.063170000 Z
 - code: tragic_hero_records
   name: Tragic Hero Records
   founded: '2005'
@@ -390,3 +390,20 @@
   body: ''
   created_at: 2018-06-02 08:51:49.569323000 Z
   updated_at: 2018-06-02 08:53:50.362203000 Z
+- code: fueled_by_ramen
+  name: Fueled by Ramen
+  founded: '1996'
+  origin: us United States
+  images: https://yt3.ggpht.com/a-/ACSszfEiObZKxrM072b6bWxELxj8TGtFpwF_3FRJ1w=s900-mo-c-c0xffffffff-rj-k-no
+  videos: ''
+  website: 'http://www.fueledbyramen.com/ Fueled By Ramen Official Website: Music,
+    Videos, Photos, Lyrics, Tour Dates, Forums'
+  wikipedia: https://en.wikipedia.org/wiki/Fueled_by_Ramen Fueled by Ramen - Wikipedia
+  youtube: https://www.youtube.com/user/FueledByRamen FueledByRamen - YouTube
+  twitter: https://twitter.com/fueledbyramen Fueled By Ramen (@FueledByRamen) | Twitter
+  facebook: https://www.facebook.com/fueledbyramen/ Fueled By Ramen - Home | Facebook
+  links: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-02 14:27:21.579237000 Z
+  updated_at: 2018-06-02 14:28:13.898619000 Z

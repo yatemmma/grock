@@ -284,7 +284,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 01:48:32.332421000 Z
-  updated_at: 2018-06-03 16:10:50.466148000 Z
+  updated_at: 2018-06-04 16:13:22.465817000 Z
 - code: closure_in_moscow
   name: Closure in Moscow
   description: ''
@@ -570,7 +570,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:25:25.068737000 Z
-  updated_at: 2018-06-03 16:11:07.276012000 Z
+  updated_at: 2018-06-04 16:13:43.447270000 Z
 - code: versions
   name: Versions
   description: ''
@@ -1743,7 +1743,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-06-03 16:11:59.915228000 Z
+  updated_at: 2018-06-04 16:14:49.207564000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1775,7 +1775,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-06-03 16:12:04.856162000 Z
+  updated_at: 2018-06-04 16:14:50.853672000 Z
 - code: issues
   name: Issues
   description: ''
@@ -2247,7 +2247,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:21:09.396338000 Z
-  updated_at: 2018-06-03 16:12:32.785772000 Z
+  updated_at: 2018-06-04 16:15:35.164956000 Z
 - code: aaron_matts
   name: Aaron Matts
   description: Betraying the Martyrs
@@ -2435,7 +2435,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-06-03 16:12:37.556994000 Z
+  updated_at: 2018-06-04 16:15:39.960017000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''
@@ -3678,3 +3678,228 @@
   body: ''
   created_at: 2018-06-03 16:06:47.016137000 Z
   updated_at: 2018-06-03 16:06:47.016137000 Z
+- code: dead_girls_academy
+  name: Dead Girls Academy
+  description: ''
+  active: 2016-
+  origin: us United States
+  images: http://i.ytimg.com/vi/vutfraAEVk8/hqdefault.jpg
+  videos: IorDNcIpgI0
+  genres: post-hardcore
+  apple: https://itunes.apple.com/artist/dead-girls-academy/1258311953 Dead Girls
+    Academy on Apple Music
+  play: ''
+  spotify: https://open.spotify.com/artist/64VogBAhjjoKzkU3eZpybB Dead Girls Academy
+    on Spotify
+  soundcloud: ''
+  bandcamp: ''
+  amazon: https://www.amazon.co.jp/s/ref=dp_byline_sr_music_1?ie=UTF8&field-artist=Dead+Girls+Academy&search-alias=music-artist
+    Dead Girls Academy | Amazon
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: https://twitter.com/dgaband Dead Girls Academy (@DGAband) | Twitter
+  facebook: https://www.facebook.com/DeadGirlsAcademy/ Dead Girls Academy - Home |
+    Facebook
+  instagram: https://www.instagram.com/deadgirlsacademy/ @deadgirlsacademy • Instagram
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-04 14:44:22.127321000 Z
+  updated_at: 2018-06-04 14:49:59.439476000 Z
+- code: vampires_everywhere
+  name: Vampires Everywhere!
+  description: ''
+  active: 2009-2016
+  origin: us Los Angeles, California, US
+  images: http://i.ytimg.com/vi/v6yiWlxy3LQ/hqdefault.jpg
+  videos: hCbwCSBg2E8
+  genres: post-hardcore,gothic_metal
+  apple: https://itunes.apple.com/us/artist/vampires-everywhere/368091610 Vampires
+    Everywhere! on Apple Music
+  play: https://play.google.com/store/music/artist/Vampires_Everywhere?id=Au5voyheis6j5flfhyvylowcrfi
+    Vampires Everywhere! - Google Play Music
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Vampires_Everywhere! Vampires Everywhere!
+    - Wikipedia
+  youtube: https://www.youtube.com/channel/UCQDLzyE4vP5R_tJTsV9MDQA VAMPIRES EVERYWHERE
+    - YouTube
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-04 15:06:52.406157000 Z
+  updated_at: 2018-06-04 15:15:59.836141000 Z
+- code: michael_orlando
+  name: Michael Orlando
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/Pas01DTu1-8/hqdefault.jpg
+  videos: Pas01DTu1-8
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: dead_girls_academy
+  ex_member_of: vampires_everywhere
+  feeds: ''
+  body: ''
+  created_at: 2018-06-04 15:15:35.470673000 Z
+  updated_at: 2018-06-04 15:15:35.470673000 Z
+- code: nirvana
+  name: Nirvana
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/hTWKbfoikeg/hqdefault.jpg
+  videos: hTWKbfoikeg
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Nirvana_(band) Nirvana (band) - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-04 15:31:28.618617000 Z
+  updated_at: 2018-06-04 15:31:28.618617000 Z
+- code: hozier
+  name: Hozier
+  description: ''
+  active: ''
+  origin: ie Ireland
+  images: http://i.ytimg.com/vi/PVjiKRfKpPI/hqdefault.jpg
+  videos: PVjiKRfKpPI
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Hozier_(musician) Hozier (musician) - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-04 15:40:48.507408000 Z
+  updated_at: 2018-06-04 15:40:48.507408000 Z
+- code: chelsea_grin
+  name: Chelsea Grin
+  description: ''
+  active: 2007-
+  origin: us United States
+  images: http://i.ytimg.com/vi/awa50gXnOdw/hqdefault.jpg
+  videos: oAYw2vg9cGI
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Chelsea_Grin Chelsea Grin - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-04 16:00:26.558520000 Z
+  updated_at: 2018-06-04 16:00:26.558520000 Z
+- code: alex_koehler
+  name: Alex Koehler
+  description: ex. Chelsea Grin
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/vcrWrmq9lo8/hqdefault.jpg
+  videos: vcrWrmq9lo8
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: chelsea_grin
+  feeds: ''
+  body: ''
+  created_at: 2018-06-04 16:02:12.049439000 Z
+  updated_at: 2018-06-04 16:02:12.049439000 Z

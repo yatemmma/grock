@@ -14,7 +14,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.365881000 Z
-  updated_at: 2018-06-04 16:15:49.571423000 Z
+  updated_at: 2018-06-06 16:02:47.035279000 Z
 - code: uprising_records
   name: Uprising Records
   founded: '1994'
@@ -48,7 +48,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.373819000 Z
-  updated_at: 2018-06-04 16:15:56.333704000 Z
+  updated_at: 2018-06-06 16:02:58.390554000 Z
 - code: victory_records
   name: Victory Records
   founded: '1989'
@@ -65,7 +65,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.378230000 Z
-  updated_at: 2018-06-03 16:12:52.978536000 Z
+  updated_at: 2018-06-06 16:03:02.734245000 Z
 - code: artery_recordings
   name: Artery Recordings
   founded: '2010'
@@ -184,7 +184,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.414223000 Z
-  updated_at: 2018-06-03 16:13:12.431695000 Z
+  updated_at: 2018-06-06 16:03:38.778903000 Z
 - code: tooth_and_nail_records
   name: Tooth and Nail Records
   founded: '1993'
@@ -235,7 +235,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 07:13:43.013118000 Z
-  updated_at: 2018-06-04 16:16:26.206068000 Z
+  updated_at: 2018-06-06 16:03:48.231258000 Z
 - code: redfield_records
   name: Redfield Records
   founded: '2001'
@@ -251,7 +251,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 13:06:41.346176000 Z
-  updated_at: 2018-06-04 16:16:30.358903000 Z
+  updated_at: 2018-06-06 16:03:53.574557000 Z
 - code: hopeless_records
   name: Hopeless Records
   founded: '1993'
@@ -268,7 +268,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-21 12:36:20.868347000 Z
-  updated_at: 2018-06-04 16:16:31.989683000 Z
+  updated_at: 2018-06-06 16:03:58.332090000 Z
 - code: vagrant_records
   name: Vagrant Records
   founded: '1996'
@@ -303,7 +303,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-26 12:25:29.827787000 Z
-  updated_at: 2018-05-30 14:42:13.483841000 Z
+  updated_at: 2018-06-06 16:04:13.376757000 Z
 - code: trustkill_records
   name: Trustkill Records
   founded: '1993'
@@ -336,7 +336,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-27 12:53:48.741603000 Z
-  updated_at: 2018-06-04 16:16:43.369119000 Z
+  updated_at: 2018-06-06 16:04:27.027902000 Z
 - code: epitaph_records
   name: Epitaph Records
   founded: '1980'
@@ -353,7 +353,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-30 12:05:14.639640000 Z
-  updated_at: 2018-06-04 16:16:45.812688000 Z
+  updated_at: 2018-06-06 16:04:33.197935000 Z
 - code: sumerian_records
   name: Sumerian Records
   founded: '2006'
@@ -370,7 +370,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-01 19:19:03.458891000 Z
-  updated_at: 2018-06-03 16:13:43.063170000 Z
+  updated_at: 2018-06-06 16:04:38.795544000 Z
 - code: tragic_hero_records
   name: Tragic Hero Records
   founded: '2005'
@@ -389,7 +389,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-02 08:51:49.569323000 Z
-  updated_at: 2018-06-04 16:16:51.240293000 Z
+  updated_at: 2018-06-06 16:04:44.193557000 Z
 - code: fueled_by_ramen
   name: Fueled by Ramen
   founded: '1996'
@@ -406,4 +406,4 @@
   feeds: ''
   body: ''
   created_at: 2018-06-02 14:27:21.579237000 Z
-  updated_at: 2018-06-04 16:16:54.752502000 Z
+  updated_at: 2018-06-06 16:04:49.147176000 Z

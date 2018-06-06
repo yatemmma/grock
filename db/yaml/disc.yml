@@ -6470,11 +6470,11 @@
   songs: ''
   discs_of: ''
   original_videos: Pn-6eOxnEMI
-  original_bands: a_day_to_remember
+  original_bands: ''
   original_discs: ''
   body: ''
   created_at: 2018-05-30 13:12:30.239220000 Z
-  updated_at: 2018-05-30 13:13:59.286615000 Z
+  updated_at: 2018-06-05 11:11:30.674840000 Z
 - code: adept-hopeless_illusions
   name: Hopeless Illusions
   description: ''
@@ -10752,3 +10752,132 @@
   body: ''
   created_at: 2018-06-04 15:42:32.988463000 Z
   updated_at: 2018-06-04 16:04:25.403466000 Z
+- code: a_day_to_remember-im_made_of_wax_larry_what_are_you_made_of
+  name: I'm Made of Wax, Larry, What Are You Made Of?
+  description: ''
+  date: ''
+  bands: a_day_to_remember
+  labels: ''
+  images: http://i.ytimg.com/vi/xaKdRwCveEc/hq1.jpg
+  videos: xaKdRwCveEc
+  genres: guest
+  disc_type: song
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: mike_hranica(Guest Vocals)
+  songs: ''
+  discs_of: a_day_to_remember-homesick
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-06-05 11:50:09.356362000 Z
+  updated_at: 2018-06-05 11:50:09.356362000 Z
+- code: a_day_to_remember-welcome_to_the_family
+  name: Welcome to the Family
+  description: ''
+  date: ''
+  bands: a_day_to_remember
+  labels: ''
+  images: http://i.ytimg.com/vi/Yyok0ySk1Ro/hqdefault.jpg
+  videos: Yyok0ySk1Ro
+  genres: guest
+  disc_type: song
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: vincent_bennett(Guest Vocals)
+  songs: ''
+  discs_of: a_day_to_remember-homesick
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-06-05 11:55:04.423842000 Z
+  updated_at: 2018-06-05 11:55:04.423842000 Z
+- code: a_day_to_remember-if_it_means_a_lot_to_you
+  name: If It Means a Lot to You
+  description: ''
+  date: ''
+  bands: a_day_to_remember
+  labels: ''
+  images: http://i.ytimg.com/vi/bx7l7X7qy2g/hqdefault.jpg
+  videos: bx7l7X7qy2g
+  genres: guest
+  disc_type: song
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: sierra_kay(Guest Vocals)
+  songs: ''
+  discs_of: a_day_to_remember-homesick
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-06-05 11:56:49.108225000 Z
+  updated_at: 2018-06-05 11:56:49.108225000 Z
+- code: nothing_left-destroy_and_rebuild
+  name: Destroy and Rebuild
+  description: ''
+  date: 2017/04/21
+  bands: nothing_left
+  labels: ''
+  images: https://is5-ssl.mzstatic.com/image/thumb/Music111/v4/81/7d/0a/817d0a28-7a53-ff5a-d05c-66c910fa2f61/886446363523.jpg/626x0w.jpg
+  videos: 0BIckeoe6BU,Ci4S3qEB2cs
+  genres: metalcore
+  disc_type: ep
+  apple: https://itunes.apple.com/us/album/destroy-and-rebuild-ep/1204690686 Destroy
+    and Rebuild - EP by Nothing Left on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  wikipedia: ''
+  lastfm: ''
+  discogs: ''
+  teaser: ''
+  playlist: ''
+  search: ''
+  links: ''
+  guests: ''
+  songs: ''
+  discs_of: ''
+  original_videos: ''
+  original_bands: ''
+  original_discs: ''
+  body: ''
+  created_at: 2018-06-06 14:38:29.409566000 Z
+  updated_at: 2018-06-06 14:38:29.409566000 Z

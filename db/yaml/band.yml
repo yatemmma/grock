@@ -95,7 +95,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-13 16:22:26.669700000 Z
-  updated_at: 2018-05-27 11:19:57.227598000 Z
+  updated_at: 2018-06-06 15:57:54.811165000 Z
 - code: the_lonely_island
   name: The Lonely Island
   description: ''
@@ -442,7 +442,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:38:02.869446000 Z
-  updated_at: 2018-06-01 13:07:28.213580000 Z
+  updated_at: 2018-06-06 15:58:19.089314000 Z
 - code: the_virgin_wolves
   name: The Virgin Wolves
   description: ''
@@ -507,7 +507,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:17:41.270557000 Z
-  updated_at: 2018-06-02 09:25:46.229252000 Z
+  updated_at: 2018-06-06 15:58:29.204474000 Z
 - code: matty_mullins
   name: Matty Mullins
   description: Memphis May Fire
@@ -539,7 +539,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:21:54.129708000 Z
-  updated_at: 2018-06-03 16:11:04.921006000 Z
+  updated_at: 2018-06-06 15:58:34.054370000 Z
 - code: band_maid
   name: BAND-MAID
   description: ''
@@ -570,7 +570,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:25:25.068737000 Z
-  updated_at: 2018-06-04 16:13:43.447270000 Z
+  updated_at: 2018-06-06 15:58:39.926006000 Z
 - code: versions
   name: Versions
   description: ''
@@ -1083,29 +1083,32 @@
   images: http://i.ytimg.com/vi/DO_0y6LDllg/hqdefault.jpg
   videos: uvtH-UXpN58
   genres: post-hardcore,metalcore
-  apple: ''
-  play: ''
-  spotify: ''
-  soundcloud: ''
+  apple: https://itunes.apple.com/artist/adept/250636993 Adept on Apple Music
+  play: https://play.google.com/store/music/artist/Adept?id=Avfywm44sow32mwdzhbknsbzhdi
+    Adept - Google Play Music
+  spotify: https://open.spotify.com/artist/1TsgX8DlUvpk9mrUqxmOZu Adept on Spotify
+  soundcloud: https://soundcloud.com/adept-official Adept | Free Listening on SoundCloud
   bandcamp: ''
-  amazon: ''
-  website: ''
+  amazon: https://www.amazon.co.jp/Adept/e/B001LI6CWK Adept | Amazon Music
+  website: http://www.adeptofficial.com/ Adept Official
   wikipedia: https://en.wikipedia.org/wiki/Adept_(band) Adept (band) - Wikipedia
   youtube: https://www.youtube.com/user/adeptonroad adeptonroad - YouTube
   twitter: https://twitter.com/adeptonroad ADEPT (@AdeptOnRoad) | Twitter
-  facebook: ''
-  instagram: ''
-  purevolume: ''
-  myspace: ''
-  lastfm: ''
-  discogs: ''
+  facebook: https://www.facebook.com/adeptofficial Adept - Home | Facebook
+  instagram: https://www.instagram.com/adeptontour/ adeptontour - instagram
+  purevolume: http://www.purevolume.com/adept Adept on PureVolume
+  myspace: https://myspace.com/theadept Adept | Listen and  Stream Free Music, Albums,
+    New Releases, Photos, Videos
+  lastfm: https://www.last.fm/music/Adept Adept music, videos, stats, and photos |
+    Last.fm
+  discogs: https://www.discogs.com/artist/2206459-Adept-4 Discogs - Adept
   links: ''
   member_of: ''
   ex_member_of: ''
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:00:06.130320000 Z
-  updated_at: 2018-05-19 11:00:18.486893000 Z
+  updated_at: 2018-06-05 12:07:23.423305000 Z
 - code: intohimo
   name: Intohimo
   description: ''
@@ -1469,10 +1472,10 @@
   genres: indie_rock,indie_pop
   apple: https://itunes.apple.com/jp/artist/1997/220355327 1997 - Apple Music
   play: ''
-  spotify: ''
+  spotify: https://open.spotify.com/artist/0rt0FpmfaL7u9daGg03TF4 1997 on Spotify
   soundcloud: ''
   bandcamp: ''
-  amazon: ''
+  amazon: https://www.amazon.co.jp/1997/e/B00197EN1K 1997 Amazon Music
   website: ''
   wikipedia: https://en.wikipedia.org/wiki/1997_(band) 1997 (band) - Wikipedia
   youtube: https://www.youtube.com/user/1997OfficialVEVO 1997OfficialVEVO - YouTube
@@ -1490,7 +1493,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:29:03.226896000 Z
-  updated_at: 2018-05-25 21:04:41.058558000 Z
+  updated_at: 2018-06-05 11:00:39.050894000 Z
 - code: icarus_the_owl
   name: Icarus the Owl
   description: ''
@@ -1595,12 +1598,15 @@
   images: http://i.ytimg.com/vi/TS3OPr0CPr0/maxresdefault.jpg
   videos: "-BNY61i551k"
   genres: post-hardcore,christian_hardcore
-  apple: ''
+  apple: https://itunes.apple.com/artist/311816490 A Bullet for Pretty Boy on Apple
+    Music
   play: ''
-  spotify: ''
+  spotify: https://open.spotify.com/artist/3M7DNu4DnWSWeC60HEwkPn A Bullet for Pretty
+    Boy on Spotify
   soundcloud: ''
   bandcamp: ''
-  amazon: ''
+  amazon: https://www.amazon.co.jp/A-Bullet-For-Pretty-Boy/e/B004703U60 A Bullet For
+    Pretty Boy | Amazon Music
   website: ''
   wikipedia: https://en.wikipedia.org/wiki/A_Bullet_for_Pretty_Boy_(band) A Bullet
     for Pretty Boy (band) - Wikipedia
@@ -1611,15 +1617,17 @@
   instagram: ''
   purevolume: ''
   myspace: ''
-  lastfm: ''
-  discogs: ''
+  lastfm: https://www.last.fm/music/A+Bullet+For+Pretty+Boy A Bullet For Pretty Boy
+    music, videos, stats, and photos | Last.fm
+  discogs: https://www.discogs.com/artist/1319819 A Bullet For Pretty Boy Discography
+    at Discogs
   links: ''
   member_of: ''
   ex_member_of: ''
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:38:31.951627000 Z
-  updated_at: 2018-05-19 11:38:36.291494000 Z
+  updated_at: 2018-06-05 11:04:49.077590000 Z
 - code: joey_rubenstein
   name: Joey Rubenstein
   description: Icarus the Owl
@@ -1743,7 +1751,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-06-04 16:14:49.207564000 Z
+  updated_at: 2018-06-06 15:59:43.009149000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1775,7 +1783,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-06-04 16:14:50.853672000 Z
+  updated_at: 2018-06-06 15:59:45.006374000 Z
 - code: issues
   name: Issues
   description: ''
@@ -1869,7 +1877,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:28:23.917900000 Z
-  updated_at: 2018-06-03 16:12:11.092181000 Z
+  updated_at: 2018-06-06 15:59:50.491401000 Z
 - code: nick_martin
   name: Nick Martin
   description: Sleeping with Sirens
@@ -1963,7 +1971,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:36:31.689163000 Z
-  updated_at: 2018-05-19 13:36:49.073556000 Z
+  updated_at: 2018-06-06 15:59:54.121034000 Z
 - code: a_day_to_remember
   name: A Day To Remember
   description: ''
@@ -1972,29 +1980,36 @@
   images: http://i.ytimg.com/vi/xaKdRwCveEc/hqdefault.jpg
   videos: Pn-6eOxnEMI
   genres: metalcore
-  apple: ''
-  play: ''
-  spotify: ''
+  apple: https://itunes.apple.com/artist/a-day-to-remember/59925710 A Day to Remember
+    on Apple Music
+  play: https://play.google.com/store/music/artist/A_Day_to_Remember?id=Acccy7ybj3emdv2bt4l47lgorsy
+    A Day to Remember - Google Play Music
+  spotify: https://open.spotify.com/artist/4NiJW4q9ichVqL1aUsgGAN A Day To Remember
+    on Spotify
   soundcloud: ''
   bandcamp: ''
-  amazon: ''
-  website: ''
+  amazon: https://www.amazon.co.jp/A-Day-to-Remember/e/B00197KA3K A Day to Remember
+    | Amazon Music
+  website: http://site.adtr.com/ A Day To Remember | Official Site
   wikipedia: https://en.wikipedia.org/wiki/A_Day_to_Remember A Day to Remember - Wikipedia
   youtube: https://www.youtube.com/user/ADayToRemember ADayToRemember - YouTube
   twitter: https://twitter.com/adtr A Day To Remember (@adtr) | Twitter
-  facebook: ''
-  instagram: ''
-  purevolume: ''
-  myspace: ''
-  lastfm: ''
-  discogs: ''
+  facebook: https://www.facebook.com/adtr/ A Day To Remember - Home | Facebook
+  instagram: https://www.instagram.com/adtr/ adtr - instagram
+  purevolume: http://www.purevolume.com/new/adaytoremember A Day To Remember on PureVolume
+  myspace: https://myspace.com/adaytoremember A Day To Remember | Listen and  Stream
+    Free Music, Albums, New Releases, Photos, Videos
+  lastfm: https://www.last.fm/music/A+Day+to+Remember A Day to Remember music, videos,
+    stats, and photos | Last.fm
+  discogs: https://www.discogs.com/artist/746771-A-Day-To-Remember A Day To Remember
+    Discography at Discogs
   links: ''
   member_of: ''
   ex_member_of: ''
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:40:09.007588000 Z
-  updated_at: 2018-06-01 13:09:33.690921000 Z
+  updated_at: 2018-06-06 15:59:56.254181000 Z
 - code: jeremy_mckinnon
   name: Jeremy McKinnon
   description: A Day To Remember
@@ -2089,7 +2104,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:52:27.289352000 Z
-  updated_at: 2018-06-02 09:27:42.244435000 Z
+  updated_at: 2018-06-06 16:00:12.184016000 Z
 - code: caleb_shomo
   name: Caleb Shomo
   description: Beartooth / ex. Attack Attack!
@@ -2435,7 +2450,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-06-04 16:15:39.960017000 Z
+  updated_at: 2018-06-06 16:02:17.642660000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''
@@ -3149,7 +3164,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-02 07:47:27.551678000 Z
-  updated_at: 2018-06-02 15:42:26.566540000 Z
+  updated_at: 2018-06-06 16:02:29.895023000 Z
 - code: justin_bieber
   name: Justin Bieber
   description: ''
@@ -3214,7 +3229,7 @@
   updated_at: 2018-06-02 12:29:35.016954000 Z
 - code: hayley_williams
   name: Hayley Williams
-  description: ''
+  description: Paramore
   active: ''
   origin: us United States
   images: https://pbs.twimg.com/media/DedpBNZXUAAha9b.jpg
@@ -3242,7 +3257,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-02 14:36:11.956588000 Z
-  updated_at: 2018-06-02 14:36:11.956588000 Z
+  updated_at: 2018-06-05 11:40:29.220948000 Z
 - code: failure
   name: Failure
   description: ''
@@ -3712,7 +3727,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-04 14:44:22.127321000 Z
-  updated_at: 2018-06-04 14:49:59.439476000 Z
+  updated_at: 2018-06-06 16:02:34.825202000 Z
 - code: vampires_everywhere
   name: Vampires Everywhere!
   description: ''
@@ -3750,7 +3765,7 @@
   updated_at: 2018-06-04 15:15:59.836141000 Z
 - code: michael_orlando
   name: Michael Orlando
-  description: ''
+  description: Dead Girls Academy
   active: ''
   origin: us United States
   images: http://i.ytimg.com/vi/Pas01DTu1-8/hqdefault.jpg
@@ -3778,7 +3793,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-04 15:15:35.470673000 Z
-  updated_at: 2018-06-04 15:15:35.470673000 Z
+  updated_at: 2018-06-05 11:40:07.921243000 Z
 - code: nirvana
   name: Nirvana
   description: ''
@@ -3848,7 +3863,7 @@
   origin: us United States
   images: http://i.ytimg.com/vi/awa50gXnOdw/hqdefault.jpg
   videos: oAYw2vg9cGI
-  genres: covered
+  genres: group
   apple: ''
   play: ''
   spotify: ''
@@ -3871,7 +3886,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-04 16:00:26.558520000 Z
-  updated_at: 2018-06-04 16:00:26.558520000 Z
+  updated_at: 2018-06-05 11:22:32.518222000 Z
 - code: alex_koehler
   name: Alex Koehler
   description: ex. Chelsea Grin
@@ -3903,3 +3918,472 @@
   body: ''
   created_at: 2018-06-04 16:02:12.049439000 Z
   updated_at: 2018-06-04 16:02:12.049439000 Z
+- code: the_devil_wears_prada
+  name: The Devil Wears Prada
+  description: ''
+  active: us Dayton, Ohio, U.S.
+  origin: ''
+  images: http://i.ytimg.com/vi/HfiaUIYF4ds/hqdefault.jpg
+  videos: aCwAPhoX5sU
+  genres: group
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/The_Devil_Wears_Prada_(band) The Devil
+    Wears Prada (band) - Wikipedia
+  youtube: https://www.youtube.com/user/TDWP TDWP - YouTube
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-05 11:27:51.574008000 Z
+  updated_at: 2018-06-05 11:27:51.574008000 Z
+- code: mike_hranica
+  name: Mike Hranica
+  description: The Devil Wears Prada
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/yNoAzdhRhP0/hqdefault.jpg
+  videos: yNoAzdhRhP0
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: the_devil_wears_prada
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-05 11:29:24.050027000 Z
+  updated_at: 2018-06-05 11:29:39.255439000 Z
+- code: the_acacia_strain
+  name: The Acacia Strain
+  description: ''
+  active: 2001-
+  origin: us United States
+  images: http://i.ytimg.com/vi/6BUD0hzxkwk/hqdefault.jpg
+  videos: QGOoBT66lT4
+  genres: group
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/The_Acacia_Strain The Acacia Strain - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-05 11:32:13.148992000 Z
+  updated_at: 2018-06-05 11:32:13.148992000 Z
+- code: vincent_bennett
+  name: Vincent Bennett
+  description: The Acacia Strain
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/7cPfx8A9L-E/hqdefault.jpg
+  videos: 7cPfx8A9L-E
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Vincent_Bennett Vincent Bennett - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: the_acacia_strain
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-05 11:33:30.646464000 Z
+  updated_at: 2018-06-05 11:33:47.673811000 Z
+- code: versa
+  name: Versa
+  description: ''
+  active: 2006-2015
+  origin: us Port St. Lucie, Florida, U.S.
+  images: http://i.ytimg.com/vi/bRZGjQYZgcY/hqdefault.jpg
+  videos: eTlfGImDDtI
+  genres: group
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Versa_(band) Versa (band) - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-05 11:39:21.185524000 Z
+  updated_at: 2018-06-05 11:39:21.185524000 Z
+- code: sierra_kay
+  name: Sierra Kay
+  description: ex. VersaEmarge
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/QCRYxu7bMb0/hq3.jpg
+  videos: A0qJlTdWwds
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Sierra_Kay Sierra Kay - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: versa
+  feeds: ''
+  body: ''
+  created_at: 2018-06-05 11:43:54.667175000 Z
+  updated_at: 2018-06-05 11:43:54.667175000 Z
+- code: nothing_left
+  name: Nothing Left
+  description: ''
+  active: 2016-
+  origin: us United States
+  images: https://imageservicestoreag.blob.core.windows.net/imagecatalog/ea3ffa30f5784d4f9ef142c1145d495ev1.jpeg
+  videos: 0BIckeoe6BU,Ci4S3qEB2cs
+  genres: metalcore
+  apple: https://itunes.apple.com/artist/nothing-left/1203103152 Nothing Left on Apple
+    Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Nothing_Left_(band) Nothing Left (band)
+    - Wikipedia
+  youtube: ''
+  twitter: https://twitter.com/nothinglefthc Nothing Left (@nothinglefthc) | Twitter
+  facebook: https://www.facebook.com/nothingleftband/ Nothing Left - Home | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-06 14:35:18.602472000 Z
+  updated_at: 2018-06-06 14:39:33.832548000 Z
+- code: danon_saylor
+  name: Danon Saylor
+  description: Nothing Left / ex. A Bullet For Pretty Boy
+  active: ''
+  origin: us United States
+  images: https://c1.staticflickr.com/5/4148/5184745784_5db8d79648.jpg
+  videos: ''
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: https://www.facebook.com/danon.saylor Danon Saylor | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: nothing_left
+  ex_member_of: a_bullet_for_pretty_boy
+  feeds: ''
+  body: ''
+  created_at: 2018-06-06 14:42:22.343258000 Z
+  updated_at: 2018-06-06 14:44:00.329361000 Z
+- code: derrick_sechrist
+  name: Derrick Sechrist
+  description: ex. A Bullet For Pretty Boy
+  active: ''
+  origin: us United States
+  images: https://pbs.twimg.com/profile_images/831418349963923456/8L1sZamF_400x400.jpg
+  videos: ''
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: https://www.facebook.com/derrick.sechrist Derrick Sechrist | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: a_bullet_for_pretty_boy,the_plot_in_you
+  feeds: ''
+  body: ''
+  created_at: 2018-06-06 14:46:19.065477000 Z
+  updated_at: 2018-06-06 14:51:54.450705000 Z
+- code: the_plot_in_you
+  name: The Plot in You
+  description: ''
+  active: 2010-
+  origin: us Hancock County, Ohio US
+  images: http://i.ytimg.com/vi/8fhE2V_JCus/hq2.jpg
+  videos: 6-WKU7nkP9M
+  genres: group
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/The_Plot_in_You The Plot in You - Wikipedia
+  youtube: https://www.youtube.com/user/THEPLOTINYOU THEPLOTINYOU - YouTube
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-06 14:50:56.996557000 Z
+  updated_at: 2018-06-06 16:02:40.939029000 Z
+- code: young_london
+  name: Young London
+  description: ''
+  active: 2011-2014
+  origin: us United States
+  images: http://i.ytimg.com/vi/7rSB_573eoA/hqdefault.jpg
+  videos: 7rSB_573eoA
+  genres: group
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: https://www.youtube.com/channel/UCkfe0uEr79VZ34MXDzDiGFQ Young London -
+    YouTube
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-06 15:14:40.555570000 Z
+  updated_at: 2018-06-06 15:15:05.689023000 Z
+- code: contact
+  name: Contact
+  description: ''
+  active: 2014-
+  origin: us United States
+  images: http://i.ytimg.com/vi/AGD8V8VdCwA/hqdefault.jpg
+  videos: O5lOc-E5aAE
+  genres: group
+  apple: https://itunes.apple.com/us/artist/contact/611264 Contact on Apple Music
+  play: ''
+  spotify: https://open.spotify.com/artist/4KxqM4P9rYLxSKZRH2HXYN Contact on Spotify
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: https://www.youtube.com/user/YoungLondonmusic YoungLondonmusic - YouTube
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-06 15:18:08.581222000 Z
+  updated_at: 2018-06-06 15:21:00.852074000 Z
+- code: matt_rhoades
+  name: Matt Rhoades
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://www.themusicalsuite.com/Beta2014/wp-content/uploads/2016/11/m_rhoades700-491x304.jpg
+  videos: ''
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: contact
+  ex_member_of: and_then_there_were_none,young_london
+  feeds: ''
+  body: ''
+  created_at: 2018-06-06 15:20:40.213756000 Z
+  updated_at: 2018-06-06 15:20:40.213756000 Z
+- code: drudge
+  name: Drudge
+  description: ''
+  active: 2005-
+  origin: us United States
+  images: http://i.ytimg.com/vi/fh0VWDgMMpQ/hqdefault.jpg
+  videos: fh0VWDgMMpQ
+  genres: post-hardcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: https://twitter.com/drudgeband Drudge (@Drudgeband) | Twitter
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-06 15:45:46.355625000 Z
+  updated_at: 2018-06-06 15:46:01.580227000 Z
+- code: andrew_whiting
+  name: Andrew Whiting
+  description: ex. Attack Attack!
+  active: ''
+  origin: us United States
+  images: https://coubsecure-s.akamaihd.net/get/b62/p/coub/simple/cw_timeline_pic/93d07a1cf8f/3b3621ddc2c123262c124/big_1447446651_image.jpg
+  videos: KDzt6yI3Dw8
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: drudge
+  ex_member_of: attack_attack
+  feeds: ''
+  body: ''
+  created_at: 2018-06-06 15:52:01.204995000 Z
+  updated_at: 2018-06-06 15:52:01.204995000 Z

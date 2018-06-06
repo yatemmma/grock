@@ -43,6 +43,11 @@
       <%= partial :disc, {item: disc, text: [disc.name, "Covered by", disc.main_band.name], class_names: ""} %>
     <% end unless @item.code.nil? %>
 
+    <% Disc.where("guests LIKE ?", "%#{@item.code}%").each_with_index do |disc, i| %>
+      <%= "<h2>Guest Appearance</h2>" if i == 0 %>
+      <%= partial :disc, {item: disc, text: [disc.name, disc.main_band.name], class_names: ""} %>
+    <% end unless @item.code.nil? %>
+
     <%= partial :releases, {code: @item.code} unless @item.code.nil? %>
 
     <%= partial :"admin/band" %>

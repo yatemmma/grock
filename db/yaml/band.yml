@@ -59,11 +59,11 @@
   discogs: ''
   links: ''
   member_of: ''
-  ex_member_of: emarosa
+  ex_member_of: emarosa,dance_gavin_dance
   feeds: ''
   body: ''
   created_at: 2018-05-13 16:15:26.325299000 Z
-  updated_at: 2018-05-27 11:17:05.020772000 Z
+  updated_at: 2018-06-07 13:24:55.984442000 Z
 - code: craig_owens
   name: Craig Owens
   description: ex. Chiodos
@@ -442,7 +442,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:38:02.869446000 Z
-  updated_at: 2018-06-06 15:58:19.089314000 Z
+  updated_at: 2018-06-07 14:26:25.906846000 Z
 - code: the_virgin_wolves
   name: The Virgin Wolves
   description: ''
@@ -1074,7 +1074,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 10:56:25.036344000 Z
-  updated_at: 2018-06-01 13:08:00.410012000 Z
+  updated_at: 2018-06-07 14:27:03.603358000 Z
 - code: adept
   name: Adept
   description: ''
@@ -1751,7 +1751,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-06-06 15:59:43.009149000 Z
+  updated_at: 2018-06-07 14:27:45.037480000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1783,7 +1783,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-06-06 15:59:45.006374000 Z
+  updated_at: 2018-06-07 14:27:46.990170000 Z
 - code: issues
   name: Issues
   description: ''
@@ -1814,7 +1814,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:20:54.766119000 Z
-  updated_at: 2018-06-02 09:27:22.100167000 Z
+  updated_at: 2018-06-07 14:27:50.296085000 Z
 - code: tyler_carter
   name: Tyler Carter
   description: Issues
@@ -1877,7 +1877,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:28:23.917900000 Z
-  updated_at: 2018-06-06 15:59:50.491401000 Z
+  updated_at: 2018-06-07 14:27:55.752647000 Z
 - code: nick_martin
   name: Nick Martin
   description: Sleeping with Sirens
@@ -1971,7 +1971,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:36:31.689163000 Z
-  updated_at: 2018-06-06 15:59:54.121034000 Z
+  updated_at: 2018-06-07 14:27:59.503221000 Z
 - code: a_day_to_remember
   name: A Day To Remember
   description: ''
@@ -2166,7 +2166,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 16:55:33.191861000 Z
-  updated_at: 2018-06-03 16:12:25.865019000 Z
+  updated_at: 2018-06-07 14:28:30.660245000 Z
 - code: upon_this_dawning
   name: Upon This Dawning
   description: ''
@@ -2450,7 +2450,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-06-06 16:02:17.642660000 Z
+  updated_at: 2018-06-07 14:28:44.911103000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''
@@ -3164,7 +3164,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-02 07:47:27.551678000 Z
-  updated_at: 2018-06-06 16:02:29.895023000 Z
+  updated_at: 2018-06-07 14:28:49.490579000 Z
 - code: justin_bieber
   name: Justin Bieber
   description: ''
@@ -3727,7 +3727,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-04 14:44:22.127321000 Z
-  updated_at: 2018-06-06 16:02:34.825202000 Z
+  updated_at: 2018-06-07 14:28:51.732325000 Z
 - code: vampires_everywhere
   name: Vampires Everywhere!
   description: ''
@@ -4296,7 +4296,7 @@
   updated_at: 2018-06-06 15:21:00.852074000 Z
 - code: matt_rhoades
   name: Matt Rhoades
-  description: ''
+  description: ex. And Then There Were None
   active: ''
   origin: us United States
   images: http://www.themusicalsuite.com/Beta2014/wp-content/uploads/2016/11/m_rhoades700-491x304.jpg
@@ -4324,7 +4324,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-06 15:20:40.213756000 Z
-  updated_at: 2018-06-06 15:20:40.213756000 Z
+  updated_at: 2018-06-07 13:03:06.475270000 Z
 - code: drudge
   name: Drudge
   description: ''
@@ -4387,3 +4387,294 @@
   body: ''
   created_at: 2018-06-06 15:52:01.204995000 Z
   updated_at: 2018-06-06 15:52:01.204995000 Z
+- code: the_bad_chapter
+  name: The Bad Chapter
+  description: ''
+  active: 2014-
+  origin: us United States
+  images: http://i.ytimg.com/vi/SFF4FqN2lLE/hq3.jpg
+  videos: ltc-w6nyv9Y
+  genres: post-hardcore
+  apple: https://itunes.apple.com/us/artist/the-bad-chapter/960125712 The Bad Chapter
+    on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: https://www.youtube.com/channel/UCrh8Lsb6m5hqj6yMUjEwT-Q The Bad Chapter
+    - YouTube
+  twitter: https://twitter.com/thebadchapter The Bad Chapter (@TheBadChapter) | Twitter
+  facebook: https://www.facebook.com/TheBadChapterMusic/ The Bad Chapter - Home |
+    Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-07 11:32:03.967840000 Z
+  updated_at: 2018-06-07 11:40:04.315981000 Z
+- code: phil_druyor
+  name: Phil Druyor
+  description: The Bad Chapter / ex. Attack Attack!
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/_F0_TmDeFgs/hq1.jpg
+  videos: _F0_TmDeFgs
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: the_bad_chapter
+  ex_member_of: attack_attack
+  feeds: ''
+  body: ''
+  created_at: 2018-06-07 11:39:35.140673000 Z
+  updated_at: 2018-06-07 11:59:06.008751000 Z
+- code: adele
+  name: Adele
+  description: ''
+  active: ''
+  origin: gb London, England
+  images: http://i.ytimg.com/vi/YQHsXMglC9A/hq1.jpg
+  videos: YQHsXMglC9A
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Adele Adele - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-07 11:44:59.587123000 Z
+  updated_at: 2018-06-07 11:44:59.587123000 Z
+- code: austin_carlile
+  name: Austin Carlile
+  description: ex. Attack Attack!
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/RGUf2qvLpKI/hqdefault.jpg
+  videos: M1ijsh-uJ6o
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Austin_Carlile Austin Carlile - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: attack_attack
+  feeds: ''
+  body: ''
+  created_at: 2018-06-07 11:57:44.371686000 Z
+  updated_at: 2018-06-07 11:58:18.602053000 Z
+- code: jack_fowler
+  name: Jack Fowler
+  description: Sleeping with Sirens
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/IFnHyyJ4cn4/hq3.jpg
+  videos: h1MnqMxgnx4
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: sleeping_with_sirens
+  ex_member_of: broadway
+  feeds: ''
+  body: ''
+  created_at: 2018-06-07 12:27:47.500780000 Z
+  updated_at: 2018-06-07 12:27:47.500780000 Z
+- code: misha_camacho
+  name: Misha Camacho
+  description: ex. Broadway
+  active: ''
+  origin: us United States
+  images: https://a2-images.myspacecdn.com/images03/35/142eb0410d194d70a93a0469f21ded60/600x600.jpg
+  videos: HhtYsiMkVhs
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: broadway
+  feeds: ''
+  body: ''
+  created_at: 2018-06-07 12:47:43.512698000 Z
+  updated_at: 2018-06-07 12:47:43.512698000 Z
+- code: ascend_the_sky
+  name: Ascend the Sky
+  description: ''
+  active: 2008-2010
+  origin: us United States
+  images: http://i.ytimg.com/vi/rQHDUnc6zhM/hqdefault.jpg
+  videos: rQHDUnc6zhM
+  genres: post-hardcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: https://myspace.com/ascendtheskyfl Ascend The Sky(New Layout Up) | Listen
+    and  Stream Free Music, Albums, New Releases, Photos, Videos
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-07 12:49:04.841006000 Z
+  updated_at: 2018-06-07 12:49:04.841006000 Z
+- code: kellin_quinn
+  name: Kellin Quinn
+  description: Sleeping with Sirens
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/j_WQ2TKVDBk/hqdefault.jpg
+  videos: TbvhowAgZjI
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: sleeping_with_sirens
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-07 12:54:16.882016000 Z
+  updated_at: 2018-06-07 12:54:16.882016000 Z
+- code: dance_gavin_dance
+  name: Dance Gavin Dance
+  description: ''
+  active: 2005-
+  origin: us Sacramento, California, US
+  images: http://i.ytimg.com/vi/pCvSRfk2I0s/hq2.jpg
+  videos: wUL5lnd9iXI,0dbXnfl8ZcM,pCvSRfk2I0s
+  genres: post-hardcore
+  apple: https://itunes.apple.com/artist/dance-gavin-dance/204782507 Dance Gavin Dance
+    on Apple Music
+  play: https://play.google.com/store/music/artist/Dance_Gavin_Dance?id=Ag5rz3fpujs2wstmazhnssgabjy
+    Dance Gavin Dance - Google Play Music
+  spotify: https://open.spotify.com/artist/6guC9FqvlVboSKTI77NG2k Dance Gavin Dance
+    on Spotify
+  soundcloud: https://soundcloud.com/dance-gavin-dance Dance Gavin Dance | Free Listening
+    on SoundCloud
+  bandcamp: ''
+  amazon: https://www.amazon.co.jp/Dance-Gavin-Dance/e/B00197I6E0 Dance Gavin Dance
+    | Amazon Music
+  website: https://dgd.merchnow.com/   Dance Gavin Dance
+  wikipedia: https://en.wikipedia.org/wiki/Dance_Gavin_Dance Dance Gavin Dance - Wikipedia
+  youtube: ''
+  twitter: https://twitter.com/dgdtheband Dance Gavin Dance (@DGDtheband) | Twitter
+  facebook: https://www.facebook.com/DanceGavinDance/ Dance Gavin Dance - Home | Facebook
+  instagram: https://www.instagram.com/dancegavindance dancegavindance - instagram
+  purevolume: http://www.purevolume.com/new/dancegavindance Dance Gavin Dance on PureVolume
+  myspace: https://myspace.com/dancegavindance DANCE GAVIN DANCE | Listen and  Stream
+    Free Music, Albums, New Releases, Photos, Videos
+  lastfm: https://www.last.fm/music/Dance+Gavin+Dance Dance Gavin Dance music, videos,
+    stats, and photos | Last.fm
+  discogs: https://www.discogs.com/artist/1405649-Dance-Gavin-Dance Dance Gavin Dance
+    Discography at Discogs
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-07 13:19:44.420035000 Z
+  updated_at: 2018-06-07 13:41:58.988674000 Z

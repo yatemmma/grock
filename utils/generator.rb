@@ -30,7 +30,7 @@ class Generator
     when "index"
       erb :index, {title: nil}
     when "bands"
-      @items = Band.all_items.select {|x| p x.genres;(x.member_of.empty? && x.ex_member_of.empty? && (x.genres != "covered"))}
+      @items = Band.all_items.select {|x| p x.genres;(x.member_of.empty? && x.ex_member_of.empty? && (not ["covered", "group"].include?(x.genres)))}
       erb :bands, {title: "Bands"}
     when "members"
       @items = Band.all_items.select {|x| (not x.member_of.empty?) || (not x.ex_member_of.empty?)}

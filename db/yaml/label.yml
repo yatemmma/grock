@@ -14,7 +14,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.365881000 Z
-  updated_at: 2018-06-06 16:02:47.035279000 Z
+  updated_at: 2018-06-07 14:29:07.743684000 Z
 - code: uprising_records
   name: Uprising Records
   founded: '1994'
@@ -65,7 +65,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-05 16:35:43.378230000 Z
-  updated_at: 2018-06-06 16:03:02.734245000 Z
+  updated_at: 2018-06-07 14:29:24.079127000 Z
 - code: artery_recordings
   name: Artery Recordings
   founded: '2010'
@@ -235,7 +235,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 07:13:43.013118000 Z
-  updated_at: 2018-06-06 16:03:48.231258000 Z
+  updated_at: 2018-06-07 14:29:46.505944000 Z
 - code: redfield_records
   name: Redfield Records
   founded: '2001'
@@ -251,7 +251,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 13:06:41.346176000 Z
-  updated_at: 2018-06-06 16:03:53.574557000 Z
+  updated_at: 2018-06-07 14:29:49.276929000 Z
 - code: hopeless_records
   name: Hopeless Records
   founded: '1993'
@@ -268,7 +268,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-21 12:36:20.868347000 Z
-  updated_at: 2018-06-06 16:03:58.332090000 Z
+  updated_at: 2018-06-07 14:29:50.878942000 Z
 - code: vagrant_records
   name: Vagrant Records
   founded: '1996'
@@ -303,7 +303,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-26 12:25:29.827787000 Z
-  updated_at: 2018-06-06 16:04:13.376757000 Z
+  updated_at: 2018-06-07 14:29:56.498505000 Z
 - code: trustkill_records
   name: Trustkill Records
   founded: '1993'
@@ -319,7 +319,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-26 13:16:02.185413000 Z
-  updated_at: 2018-05-27 11:14:07.986897000 Z
+  updated_at: 2018-06-07 14:29:58.943720000 Z
 - code: fearless_records
   name: Fearless Records
   founded: '1994'
@@ -336,7 +336,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-27 12:53:48.741603000 Z
-  updated_at: 2018-06-06 16:04:27.027902000 Z
+  updated_at: 2018-06-07 14:30:01.531311000 Z
 - code: epitaph_records
   name: Epitaph Records
   founded: '1980'
@@ -353,7 +353,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-30 12:05:14.639640000 Z
-  updated_at: 2018-06-06 16:04:33.197935000 Z
+  updated_at: 2018-06-07 14:30:07.437064000 Z
 - code: sumerian_records
   name: Sumerian Records
   founded: '2006'

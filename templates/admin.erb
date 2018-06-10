@@ -90,6 +90,10 @@
 
     <h2>Playlist</h2>
     <textarea>
+document.querySelector(".product-artwork source").getAttribute("srcset").split(",")[1].split(" ")[0]
+    </textarea>
+
+    <textarea>
 keys = []
 document.querySelectorAll("a.ytd-playlist-video-renderer").forEach((e)=>{
   const param = new URL(e.href).searchParams.toString()

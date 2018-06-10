@@ -284,7 +284,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 01:48:32.332421000 Z
-  updated_at: 2018-06-04 16:13:22.465817000 Z
+  updated_at: 2018-06-10 01:42:51.900011000 Z
 - code: closure_in_moscow
   name: Closure in Moscow
   description: ''
@@ -442,7 +442,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:38:02.869446000 Z
-  updated_at: 2018-06-07 14:26:25.906846000 Z
+  updated_at: 2018-06-10 01:43:00.577475000 Z
 - code: the_virgin_wolves
   name: The Virgin Wolves
   description: ''
@@ -539,7 +539,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:21:54.129708000 Z
-  updated_at: 2018-06-06 15:58:34.054370000 Z
+  updated_at: 2018-06-10 01:43:08.194599000 Z
 - code: band_maid
   name: BAND-MAID
   description: ''
@@ -570,7 +570,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:25:25.068737000 Z
-  updated_at: 2018-06-06 15:58:39.926006000 Z
+  updated_at: 2018-06-10 01:43:11.261962000 Z
 - code: versions
   name: Versions
   description: ''
@@ -1074,7 +1074,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 10:56:25.036344000 Z
-  updated_at: 2018-06-07 14:27:03.603358000 Z
+  updated_at: 2018-06-10 01:43:26.864252000 Z
 - code: adept
   name: Adept
   description: ''
@@ -1751,7 +1751,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-06-07 14:27:45.037480000 Z
+  updated_at: 2018-06-10 01:44:04.232404000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1783,7 +1783,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-06-07 14:27:46.990170000 Z
+  updated_at: 2018-06-10 01:44:06.921945000 Z
 - code: issues
   name: Issues
   description: ''
@@ -1877,7 +1877,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:28:23.917900000 Z
-  updated_at: 2018-06-07 14:27:55.752647000 Z
+  updated_at: 2018-06-10 01:44:12.985851000 Z
 - code: nick_martin
   name: Nick Martin
   description: Sleeping with Sirens
@@ -1971,7 +1971,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:36:31.689163000 Z
-  updated_at: 2018-06-07 14:27:59.503221000 Z
+  updated_at: 2018-06-10 01:44:15.935340000 Z
 - code: a_day_to_remember
   name: A Day To Remember
   description: ''
@@ -2009,7 +2009,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:40:09.007588000 Z
-  updated_at: 2018-06-06 15:59:56.254181000 Z
+  updated_at: 2018-06-10 01:44:18.154438000 Z
 - code: jeremy_mckinnon
   name: Jeremy McKinnon
   description: A Day To Remember
@@ -2104,7 +2104,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:52:27.289352000 Z
-  updated_at: 2018-06-06 16:00:12.184016000 Z
+  updated_at: 2018-06-10 01:44:23.405024000 Z
 - code: caleb_shomo
   name: Caleb Shomo
   description: Beartooth / ex. Attack Attack!
@@ -2135,7 +2135,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:54:43.402127000 Z
-  updated_at: 2018-05-19 13:55:12.334654000 Z
+  updated_at: 2018-06-10 01:44:25.136289000 Z
 - code: thrice
   name: Thrice
   description: ''
@@ -2166,7 +2166,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 16:55:33.191861000 Z
-  updated_at: 2018-06-07 14:28:30.660245000 Z
+  updated_at: 2018-06-10 01:44:27.434278000 Z
 - code: upon_this_dawning
   name: Upon This Dawning
   description: ''
@@ -2262,7 +2262,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:21:09.396338000 Z
-  updated_at: 2018-06-04 16:15:35.164956000 Z
+  updated_at: 2018-06-10 01:44:35.853254000 Z
 - code: aaron_matts
   name: Aaron Matts
   description: Betraying the Martyrs
@@ -2450,7 +2450,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-06-07 14:28:44.911103000 Z
+  updated_at: 2018-06-10 01:44:40.756661000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''
@@ -3164,7 +3164,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-02 07:47:27.551678000 Z
-  updated_at: 2018-06-07 14:28:49.490579000 Z
+  updated_at: 2018-06-10 01:44:45.953703000 Z
 - code: justin_bieber
   name: Justin Bieber
   description: ''
@@ -3727,7 +3727,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-04 14:44:22.127321000 Z
-  updated_at: 2018-06-07 14:28:51.732325000 Z
+  updated_at: 2018-06-10 01:44:47.917572000 Z
 - code: vampires_everywhere
   name: Vampires Everywhere!
   description: ''
@@ -4207,18 +4207,21 @@
   origin: us Hancock County, Ohio US
   images: http://i.ytimg.com/vi/8fhE2V_JCus/hq2.jpg
   videos: 6-WKU7nkP9M
-  genres: group
-  apple: ''
-  play: ''
-  spotify: ''
+  genres: post-hardcore
+  apple: https://itunes.apple.com/us/artist/the-plot-in-you/378491136 The Plot In
+    You on Apple Music
+  play: https://play.google.com/store/music/artist/The_Plot_in_You?id=Ayjkkxi26xzrzty5bc53a5d3amq
+    The Plot In You - Google Play Music
+  spotify: https://open.spotify.com/artist/1cJ5tVoeAEFcZBAwSZ0CtF The Plot In You
+    on Spotify
   soundcloud: ''
   bandcamp: ''
   amazon: ''
   website: ''
   wikipedia: https://en.wikipedia.org/wiki/The_Plot_in_You The Plot in You - Wikipedia
   youtube: https://www.youtube.com/user/THEPLOTINYOU THEPLOTINYOU - YouTube
-  twitter: ''
-  facebook: ''
+  twitter: https://twitter.com/theplotinyou The Plot In You (@ThePlotInYou) | Twitter
+  facebook: https://www.facebook.com/theplotinyou/ THE PLOT IN YOU - Home | Facebook
   instagram: ''
   purevolume: ''
   myspace: ''
@@ -4230,7 +4233,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-06 14:50:56.996557000 Z
-  updated_at: 2018-06-06 16:02:40.939029000 Z
+  updated_at: 2018-06-09 10:41:19.716006000 Z
 - code: young_london
   name: Young London
   description: ''
@@ -4677,4 +4680,448 @@
   feeds: ''
   body: ''
   created_at: 2018-06-07 13:19:44.420035000 Z
-  updated_at: 2018-06-07 13:41:58.988674000 Z
+  updated_at: 2018-06-10 01:45:04.769697000 Z
+- code: james_bay
+  name: James Bay
+  description: ''
+  active: ''
+  origin: gb England
+  images: http://i.ytimg.com/vi/g756ro3hjM4/hqdefault.jpg
+  videos: GsPq9mzFNGY
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/James_Bay_(singer) James Bay (singer) -
+    Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 15:54:32.005464000 Z
+  updated_at: 2018-06-09 15:54:32.005464000 Z
+- code: landon_tewers
+  name: Landon Tewers
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/y0M_vSBweTg/hqdefault.jpg
+  videos: y0M_vSBweTg
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: https://www.youtube.com/user/Landontewers Landontewers - YouTube
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: the_plot_in_you
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 16:00:03.550616000 Z
+  updated_at: 2018-06-10 01:45:05.650006000 Z
+- code: damone
+  name: Damone
+  description: ''
+  active: 2001-2008
+  origin: us Waltham, Massachusetts, US
+  images: http://i.ytimg.com/vi/TBqoHfeRNaE/hqdefault.jpg
+  videos: TBqoHfeRNaE
+  genres: hard_rock
+  apple: https://itunes.apple.com/us/artist/damone/1116150 Damone on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Damone_(band) Damone (band) - Wikipedia
+  youtube: https://www.youtube.com/user/DamoneVEVO DamoneVEVO - YouTube
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: https://myspace.com/damone Damone | Listen and  Stream Free Music, Albums,
+    New Releases, Photos, Videos
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 16:08:52.429617000 Z
+  updated_at: 2018-06-09 16:10:29.554088000 Z
+- code: iron_maiden
+  name: Iron Maiden
+  description: ''
+  active: ''
+  origin: gb London, England
+  images: http://i.ytimg.com/vi/X4bgXH3sJ2Q/hq3.jpg
+  videos: X4bgXH3sJ2Q
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Iron_Maiden Iron Maiden - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 16:30:29.972397000 Z
+  updated_at: 2018-06-09 16:30:29.972397000 Z
+- code: billy_squier
+  name: Billy Squier
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/2KCdNMRcprs/hqdefault.jpg
+  videos: GK-v_YndGn4
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Billy_Squier Billy Squier - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 16:34:03.269692000 Z
+  updated_at: 2018-06-09 16:34:18.729772000 Z
+- code: the_cars
+  name: The Cars
+  description: ''
+  active: 1976-1988
+  origin: us United States
+  images: http://i.ytimg.com/vi/TsPh-EgH65M/hq2.jpg
+  videos: TsPh-EgH65M
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/The_Cars The Cars - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 16:40:43.541083000 Z
+  updated_at: 2018-06-09 16:40:43.541083000 Z
+- code: guns_n_roses
+  name: Guns N' Roses
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/_U5IhEAFGwQ/hq2.jpg
+  videos: _U5IhEAFGwQ
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Guns_N%27_Roses Guns N' Roses - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 16:46:37.330330000 Z
+  updated_at: 2018-06-09 16:46:37.330330000 Z
+- code: the_organ_beats
+  name: The Organ Beats
+  description: ''
+  active: 2009-
+  origin: us United States
+  images: http://i.ytimg.com/vi/ZjK0-QiaGQk/hq3.jpg
+  videos: A819jhvz7Tg
+  genres: power_pop
+  apple: https://itunes.apple.com/us/artist/the-organ-beats/id342833850 The Organ
+    Beats on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: http://theorganbeats.tumblr.com/ The Organ Beats
+  wikipedia: ''
+  youtube: https://www.youtube.com/user/TheOrganBeats TheOrganBeats - YouTube
+  twitter: ''
+  facebook: https://www.facebook.com/theorganbeats The Organ Beats - Home | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 17:41:39.582816000 Z
+  updated_at: 2018-06-09 17:46:10.926285000 Z
+- code: noelle_leblanc
+  name: Noelle LeBlanc
+  description: ex. Damone
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/A819jhvz7Tg/hqdefault.jpg
+  videos: WWrDRTWVPLg
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: the_organ_beats
+  ex_member_of: damone
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 17:44:23.648154000 Z
+  updated_at: 2018-06-09 17:44:23.648154000 Z
+- code: acdc
+  name: AC/DC
+  description: ''
+  active: ''
+  origin: au Sydney, New South Wales, Australia
+  images: http://i.ytimg.com/vi/whQQpwwvSh4/hq2.jpg
+  videos: gEPmA3USJdI
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/AC/DC AC/DC - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 18:05:08.646611000 Z
+  updated_at: 2018-06-09 18:05:08.646611000 Z
+- code: belinda_carlisle
+  name: Belinda Carlisle
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/iFdlfXcCir8/hqdefault.jpg
+  videos: P-WP6POdTgY
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Belinda_Carlisle Belinda Carlisle - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 23:35:58.789507000 Z
+  updated_at: 2018-06-09 23:35:58.789507000 Z
+- code: outline_in_color
+  name: Outline in Color
+  description: ''
+  active: 2009-
+  origin: us Tulsa, Oklahoma, United States
+  images: http://i.ytimg.com/vi/LUuOniK0J64/hq2.jpg
+  videos: oOp0Lc92Rt8,cCQ-1YH-dTs
+  genres: post-hardcore
+  apple: https://itunes.apple.com/us/artist/outline-in-color/394255188 Outline In
+    Color on Apple Music
+  play: ''
+  spotify: https://open.spotify.com/artist/6drAKOLWO1vzBrdmJmg5SE Outline In Color
+    on Spotify
+  soundcloud: https://soundcloud.com/outlineincolor OutlineInColor | Outline In Color
+    | Free Listening on SoundCloud
+  bandcamp: ''
+  amazon: ''
+  website: http://outlineincolor.com/ https://soundcloud.com/outlineincolor
+  wikipedia: https://en.wikipedia.org/wiki/Outline_in_Color Outline in Color - Wikipedia
+  youtube: https://www.youtube.com/user/OutlineInColor OutlineInColor - YouTube
+  twitter: https://twitter.com/outlineincolor Outline In Color (@OutlineInColor) |
+    Twitter
+  facebook: ''
+  instagram: https://www.instagram.com/outlineincolor/ outlineincolor - instagram
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-09 23:55:16.008559000 Z
+  updated_at: 2018-06-09 23:57:14.438487000 Z
+- code: here_i_come_falling
+  name: Here I Come Falling
+  description: ''
+  active: 2005-2008
+  origin: us Springfield, Missouri, US
+  images: https://lastfm-img2.akamaized.net/i/u/avatar300s/7aebeadbffbf4391aabb84c2638a6328.jpg
+  videos: ghSBs08rdfk
+  genres: post-hardcore
+  apple: https://itunes.apple.com/artist/here-i-come-falling/270434636 Here I Come
+    Falling on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Here_I_Come_Falling Here I Come Falling
+    - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-10 01:03:22.874491000 Z
+  updated_at: 2018-06-10 01:03:22.874491000 Z
+- code: invictus
+  name: Invictus
+  description: ''
+  active: 2006-2008
+  origin: us San Diego, California, US
+  images: http://i.ytimg.com/vi/rmCFON5YVQw/hq1.jpg
+  videos: rmCFON5YVQw
+  genres: post-hardcore,electronica
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: http://www.purevolume.com/invictusmusic Invictus music on PureVolume
+  myspace: https://myspace.com/invictus Invictus | Listen and  Stream Free Music,
+    Albums, New Releases, Photos, Videos
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-10 01:33:31.022201000 Z
+  updated_at: 2018-06-10 01:33:31.022201000 Z

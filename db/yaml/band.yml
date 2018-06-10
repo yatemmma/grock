@@ -1783,7 +1783,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-06-10 01:44:06.921945000 Z
+  updated_at: 2018-06-10 11:57:29.002640000 Z
 - code: issues
   name: Issues
   description: ''
@@ -5125,3 +5125,129 @@
   body: ''
   created_at: 2018-06-10 01:33:31.022201000 Z
   updated_at: 2018-06-10 01:33:31.022201000 Z
+- code: kady_danger
+  name: Kady! Danger
+  description: ''
+  active: 2011-2013
+  origin: us Fresno, CA, US
+  images: http://i.ytimg.com/vi/1YHhDXGhNeM/hqdefault.jpg
+  videos: 5RJsbe8Oses
+  genres: post-hardcore,electronica
+  apple: https://itunes.apple.com/us/artist/kady-danger/485321563 Kady! Danger on
+    Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: https://kadydanger.bandcamp.com/ Kady! Danger
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: https://www.youtube.com/user/Kadydanger Kadydanger - YouTube
+  twitter: ''
+  facebook: https://www.facebook.com/kadydanger/ Kady! Danger - Home | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: https://www.last.fm/music/Kady!+Danger Kady! Danger music, videos, stats,
+    and photos | Last.fm
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-10 11:04:06.787399000 Z
+  updated_at: 2018-06-10 11:19:55.232456000 Z
+- code: maroon_5
+  name: Maroon 5
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/mUYsp5baMXo/hqdefault.jpg
+  videos: XPpTgCho5ZA
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Maroon_5 Maroon 5 - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-10 11:25:03.393585000 Z
+  updated_at: 2018-06-10 11:25:03.393585000 Z
+- code: confide
+  name: Confide
+  description: ''
+  active: 2004-2013
+  origin: us Sunland, California, US
+  images: http://i.ytimg.com/vi/GncK6IuY8OA/hq2.jpg
+  videos: GncK6IuY8OA
+  genres: group
+  apple: https://itunes.apple.com/us/artist/confide/282083578 Confide on Apple Music
+  play: ''
+  spotify: https://open.spotify.com/artist/5AaqnHhrLz7lC1QBqG8i8p Confide on Spotify
+  soundcloud: ''
+  bandcamp: ''
+  amazon: https://www.amazon.co.jp/Confide/e/B002RCX6IC Confide - Amazon Music
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Confide_(band) Confide (band) - Wikipedia
+  youtube: ''
+  twitter: https://twitter.com/confideband Confide (@confideband) | Twitter
+  facebook: https://www.facebook.com/Confide/ Confide - Home | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-10 11:30:43.325058000 Z
+  updated_at: 2018-06-10 11:54:15.033219000 Z
+- code: joel_piper
+  name: Joel Piper
+  description: ex. Confide
+  active: ''
+  origin: mx Sonora, Mexico
+  images: http://i.ytimg.com/vi/6P9va4OPnRc/hqdefault.jpg
+  videos: 6P9va4OPnRc
+  genres: ''
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Joel_Piper Joel Piper - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: confide
+  feeds: ''
+  body: ''
+  created_at: 2018-06-10 11:48:01.776644000 Z
+  updated_at: 2018-06-10 11:48:01.776644000 Z

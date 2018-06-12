@@ -284,7 +284,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 01:48:32.332421000 Z
-  updated_at: 2018-06-10 01:42:51.900011000 Z
+  updated_at: 2018-06-12 14:16:25.268779000 Z
 - code: closure_in_moscow
   name: Closure in Moscow
   description: ''
@@ -442,7 +442,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:38:02.869446000 Z
-  updated_at: 2018-06-10 01:43:00.577475000 Z
+  updated_at: 2018-06-12 14:16:33.723739000 Z
 - code: the_virgin_wolves
   name: The Virgin Wolves
   description: ''
@@ -507,7 +507,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:17:41.270557000 Z
-  updated_at: 2018-06-06 15:58:29.204474000 Z
+  updated_at: 2018-06-12 14:16:39.728081000 Z
 - code: matty_mullins
   name: Matty Mullins
   description: Memphis May Fire
@@ -539,7 +539,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:21:54.129708000 Z
-  updated_at: 2018-06-10 01:43:08.194599000 Z
+  updated_at: 2018-06-12 14:16:41.875133000 Z
 - code: band_maid
   name: BAND-MAID
   description: ''
@@ -570,7 +570,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:25:25.068737000 Z
-  updated_at: 2018-06-10 01:43:11.261962000 Z
+  updated_at: 2018-06-12 14:16:44.743691000 Z
 - code: versions
   name: Versions
   description: ''
@@ -1751,7 +1751,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-06-10 01:44:04.232404000 Z
+  updated_at: 2018-06-12 14:17:54.380804000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1783,7 +1783,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-06-10 11:57:29.002640000 Z
+  updated_at: 2018-06-12 14:17:56.162531000 Z
 - code: issues
   name: Issues
   description: ''
@@ -1814,7 +1814,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:20:54.766119000 Z
-  updated_at: 2018-06-07 14:27:50.296085000 Z
+  updated_at: 2018-06-12 14:17:58.752182000 Z
 - code: tyler_carter
   name: Tyler Carter
   description: Issues
@@ -2009,7 +2009,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:40:09.007588000 Z
-  updated_at: 2018-06-10 01:44:18.154438000 Z
+  updated_at: 2018-06-12 14:18:15.799147000 Z
 - code: jeremy_mckinnon
   name: Jeremy McKinnon
   description: A Day To Remember
@@ -2166,7 +2166,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 16:55:33.191861000 Z
-  updated_at: 2018-06-10 01:44:27.434278000 Z
+  updated_at: 2018-06-12 14:18:27.479977000 Z
 - code: upon_this_dawning
   name: Upon This Dawning
   description: ''
@@ -2262,7 +2262,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:21:09.396338000 Z
-  updated_at: 2018-06-10 01:44:35.853254000 Z
+  updated_at: 2018-06-12 14:18:36.262241000 Z
 - code: aaron_matts
   name: Aaron Matts
   description: Betraying the Martyrs
@@ -2450,7 +2450,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-06-10 01:44:40.756661000 Z
+  updated_at: 2018-06-12 14:18:42.892156000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''
@@ -2667,7 +2667,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-24 13:56:46.484944000 Z
-  updated_at: 2018-05-27 11:22:10.984147000 Z
+  updated_at: 2018-06-12 14:18:43.560220000 Z
 - code: bryan_adams
   name: Bryan Adams
   description: ''
@@ -3164,7 +3164,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-02 07:47:27.551678000 Z
-  updated_at: 2018-06-10 01:44:45.953703000 Z
+  updated_at: 2018-06-12 14:18:46.363257000 Z
 - code: justin_bieber
   name: Justin Bieber
   description: ''
@@ -3727,7 +3727,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-04 14:44:22.127321000 Z
-  updated_at: 2018-06-10 01:44:47.917572000 Z
+  updated_at: 2018-06-12 14:18:48.082654000 Z
 - code: vampires_everywhere
   name: Vampires Everywhere!
   description: ''
@@ -3925,10 +3925,13 @@
   origin: ''
   images: http://i.ytimg.com/vi/HfiaUIYF4ds/hqdefault.jpg
   videos: aCwAPhoX5sU
-  genres: group
-  apple: ''
-  play: ''
-  spotify: ''
+  genres: metalcore
+  apple: https://itunes.apple.com/us/artist/the-devil-wears-prada/189224243 The Devil
+    Wears Prada on Apple Music
+  play: https://play.google.com/store/music/artist/The_Devil_Wears_Prada?id=Agh3lcvdd6l23b2tlxmaos57dsq
+    デヴィル・ウェアーズ・プラダ - Google Play の音楽
+  spotify: https://open.spotify.com/artist/0NbQe5CNgh4YApOCDuHSjb The Devil Wears
+    Prada on Spotify
   soundcloud: ''
   bandcamp: ''
   amazon: ''
@@ -3936,7 +3939,7 @@
   wikipedia: https://en.wikipedia.org/wiki/The_Devil_Wears_Prada_(band) The Devil
     Wears Prada (band) - Wikipedia
   youtube: https://www.youtube.com/user/TDWP TDWP - YouTube
-  twitter: ''
+  twitter: https://twitter.com/tdwpband TheDevilWearsPrada (@TDWPband) | Twitter
   facebook: ''
   instagram: ''
   purevolume: ''
@@ -3949,7 +3952,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-05 11:27:51.574008000 Z
-  updated_at: 2018-06-05 11:27:51.574008000 Z
+  updated_at: 2018-06-11 12:14:05.257129000 Z
 - code: mike_hranica
   name: Mike Hranica
   description: The Devil Wears Prada
@@ -4233,7 +4236,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-06 14:50:56.996557000 Z
-  updated_at: 2018-06-09 10:41:19.716006000 Z
+  updated_at: 2018-06-12 14:18:54.829631000 Z
 - code: young_london
   name: Young London
   description: ''
@@ -4680,7 +4683,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-07 13:19:44.420035000 Z
-  updated_at: 2018-06-10 01:45:04.769697000 Z
+  updated_at: 2018-06-12 14:19:02.333517000 Z
 - code: james_bay
   name: James Bay
   description: ''
@@ -4715,7 +4718,7 @@
   updated_at: 2018-06-09 15:54:32.005464000 Z
 - code: landon_tewers
   name: Landon Tewers
-  description: ''
+  description: The Plot in You
   active: ''
   origin: us United States
   images: http://i.ytimg.com/vi/y0M_vSBweTg/hqdefault.jpg
@@ -4743,7 +4746,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-09 16:00:03.550616000 Z
-  updated_at: 2018-06-10 01:45:05.650006000 Z
+  updated_at: 2018-06-10 13:53:56.799959000 Z
 - code: damone
   name: Damone
   description: ''
@@ -5196,7 +5199,7 @@
   origin: us Sunland, California, US
   images: http://i.ytimg.com/vi/GncK6IuY8OA/hq2.jpg
   videos: GncK6IuY8OA
-  genres: group
+  genres: post-hardcore
   apple: https://itunes.apple.com/us/artist/confide/282083578 Confide on Apple Music
   play: ''
   spotify: https://open.spotify.com/artist/5AaqnHhrLz7lC1QBqG8i8p Confide on Spotify
@@ -5219,7 +5222,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-10 11:30:43.325058000 Z
-  updated_at: 2018-06-10 11:54:15.033219000 Z
+  updated_at: 2018-06-10 13:56:54.462862000 Z
 - code: joel_piper
   name: Joel Piper
   description: ex. Confide
@@ -5251,3 +5254,327 @@
   body: ''
   created_at: 2018-06-10 11:48:01.776644000 Z
   updated_at: 2018-06-10 11:48:01.776644000 Z
+- code: the_postal_service
+  name: The Postal Service
+  description: ''
+  active: 2001-2005
+  origin: us United States
+  images: http://i.ytimg.com/vi/O5XtyYUTDBU/hqdefault.jpg
+  videos: 0wrsZog8qXg
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: https://en.wikipedia.org/wiki/The_Postal_Service The Postal Service - Wikipedia
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-10 14:02:19.145703000 Z
+  updated_at: 2018-06-10 14:02:19.145703000 Z
+- code: piano
+  name: Piano
+  description: ''
+  active: 2004-
+  origin: gb England
+  images: http://zestone.jp/wp/wp-content/uploads/2012/03/pino_top.jpg
+  videos: gBKVHpdeypk
+  genres: indie_rock
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: https://piano.bandcamp.com/ Music | Piano
+  amazon: ''
+  website: http://www.pianoband.com/ P I A N O
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: https://myspace.com/ukpiano PIANO | Listen and  Stream Free Music, Albums,
+    New Releases, Photos, Videos
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-10 14:31:05.857491000 Z
+  updated_at: 2018-06-10 14:31:05.857491000 Z
+- code: big_tymers
+  name: Big Tymers
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/PWTEImqfYsk/hqdefault.jpg
+  videos: 9iCd6UHR-3I
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Big_Tymers Big Tymers - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-11 12:42:14.833712000 Z
+  updated_at: 2018-06-11 12:42:14.833712000 Z
+- code: we_are_the_ocean
+  name: We Are the Ocean
+  description: ''
+  active: 2007-2017
+  origin: gb Loughton, Essex, England
+  images: http://i.ytimg.com/vi/3XA1fLr3YKA/hqdefault.jpg
+  videos: XTn8Sdt1cxc
+  genres: post-hardcore
+  apple: https://itunes.apple.com/us/artist/we-are-the-ocean/339016846 We Are the
+    Ocean on Apple Music
+  play: ''
+  spotify: https://open.spotify.com/artist/5RTzLFUNaRULfg2DPh5DPO We Are The Ocean
+    on Spotify
+  soundcloud: https://soundcloud.com/wearetheoceanband We Are The Ocean | Free Listening
+    on SoundCloud
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/We_Are_the_Ocean We Are the Ocean - Wikipedia
+  youtube: https://www.youtube.com/user/wearetheocean wearetheocean - YouTube
+  twitter: ''
+  facebook: https://www.facebook.com/wearetheocean/ We Are The Ocean - Home | Facebook
+  instagram: ''
+  purevolume: http://labels.purevolume.com/wearetheocean We Are The Ocean on PureVolume
+  myspace: https://myspace.com/wearetheoceanuk We Are The Ocean | Listen and  Stream
+    Free Music, Albums, New Releases, Photos, Videos
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-11 13:44:17.305862000 Z
+  updated_at: 2018-06-11 13:48:00.241845000 Z
+- code: bury_tomorrow
+  name: Bury Tomorrow
+  description: ''
+  active: 2006-
+  origin: gb Southampton, Hampshire, England, UK
+  images: https://images-na.ssl-images-amazon.com/images/I/81arX-6FylL.jpg
+  videos: 4MzEBroEZ9E
+  genres: metalcore
+  apple: https://itunes.apple.com/artist/bury-tomorrow/288273840 Bury Tomorrow on
+    Apple Music
+  play: https://play.google.com/store/music/artist/Bury_Tomorrow?id=A5wba26iqqxcgacpykzdxya5u4i
+    Bury Tomorrow - Google Play の音楽
+  spotify: https://open.spotify.com/artist/6BD4lgmnh4vy6kkCaZRDWt Bury Tomorrow on
+    Spotify
+  soundcloud: https://soundcloud.com/burytomorrowofficial Bury Tomorrow | Free Listening
+    on SoundCloud
+  bandcamp: ''
+  amazon: ''
+  website: https://www.bury-tomorrow.com/ Bury Tomorrow | Claim Your Flame
+  wikipedia: https://en.wikipedia.org/wiki/Bury_Tomorrow Bury Tomorrow - Wikipedia
+  youtube: https://www.youtube.com/user/burytomorrow burytomorrow - YouTube
+  twitter: https://twitter.com/burytomorrow Bury Tomorrow (@burytomorrow) | Twitter
+  facebook: https://www.facebook.com/BuryTomorrow/ Bury Tomorrow - Home | Facebook
+  instagram: https://www.instagram.com/burytomorrow/ burytomorrow - instagram
+  purevolume: ''
+  myspace: https://myspace.com/burytomorrowband Bury Tomorrow | Listen and  Stream
+    Free Music, Albums, New Releases, Photos, Videos
+  lastfm: https://www.last.fm/music/Bury+Tomorrow Bury Tomorrow music, videos, stats,
+    and photos | Last.fm
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-12 10:43:55.405829000 Z
+  updated_at: 2018-06-12 14:19:14.108341000 Z
+- code: ricky_martin
+  name: Ricky Martin
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/p47fEXGabaY/hq3.jpg
+  videos: p47fEXGabaY
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Ricky_Martin Ricky Martin - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-12 11:45:06.021708000 Z
+  updated_at: 2018-06-12 11:45:06.021708000 Z
+- code: burden_of_a_day
+  name: Burden of a Day
+  description: ''
+  active: 200-2010
+  origin: us Sarasota, Florida, United States
+  images: http://i.ytimg.com/vi/567c-LeINzs/hq2.jpg
+  videos: V7jrEv3hONw
+  genres: post-hardcore
+  apple: https://itunes.apple.com/us/artist/burden-of-a-day/142364167 Burden of a
+    Day on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Burden_of_a_Day Burden of a Day - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: https://myspace.com/burdenofaday BURDEN OF A DAY | Listen and  Stream Free
+    Music, Albums, New Releases, Photos, Videos
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-12 12:01:46.613040000 Z
+  updated_at: 2018-06-12 12:01:46.613040000 Z
+- code: camisado
+  name: Camisado
+  description: ''
+  active: 2008-
+  origin: us Baltimore, Maryland, US
+  images: http://i.ytimg.com/vi/18Qk1KuG49k/hqdefault.jpg
+  videos: smWRldYYh_U
+  genres: post-hardcore
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: https://www.youtube.com/user/CamisadoRock CamisadoRock - YouTube
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: http://www.purevolume.com/Camisadorock Camisado on PureVolume
+  myspace: https://myspace.com/camisadorock Camisado | Listen and  Stream Free Music,
+    Albums, New Releases, Photos, Videos
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-12 12:34:26.058511000 Z
+  updated_at: 2018-06-12 14:19:15.157585000 Z
+- code: justin_timberlake
+  name: Justin Timberlake
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/TSVHoHyErBQ/hqdefault.jpg
+  videos: xjpe7EGyiw8
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Justin_Timberlake Justin Timberlake - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-12 13:30:00.394955000 Z
+  updated_at: 2018-06-12 13:30:00.394955000 Z
+- code: band_aid
+  name: Band Aid
+  description: ''
+  active: ''
+  origin: gb UK
+  images: http://i.ytimg.com/vi/-w7jyVHocTk/hqdefault.jpg
+  videos: "-w7jyVHocTk"
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: ''
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-12 13:53:32.187470000 Z
+  updated_at: 2018-06-12 13:53:32.187470000 Z

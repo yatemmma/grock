@@ -95,7 +95,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-13 16:22:26.669700000 Z
-  updated_at: 2018-06-06 15:57:54.811165000 Z
+  updated_at: 2018-06-16 09:33:01.649229000 Z
 - code: the_lonely_island
   name: The Lonely Island
   description: ''
@@ -284,7 +284,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 01:48:32.332421000 Z
-  updated_at: 2018-06-12 14:16:25.268779000 Z
+  updated_at: 2018-06-16 09:33:11.979360000 Z
 - code: closure_in_moscow
   name: Closure in Moscow
   description: ''
@@ -411,7 +411,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:35:16.922944000 Z
-  updated_at: 2018-06-02 09:25:36.892124000 Z
+  updated_at: 2018-06-16 09:33:22.885967000 Z
 - code: trenton_woodley
   name: Trenton Woodley
   description: Hands Like Houses
@@ -539,7 +539,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:21:54.129708000 Z
-  updated_at: 2018-06-12 14:16:41.875133000 Z
+  updated_at: 2018-06-16 09:33:32.754476000 Z
 - code: band_maid
   name: BAND-MAID
   description: ''
@@ -570,7 +570,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:25:25.068737000 Z
-  updated_at: 2018-06-12 14:16:44.743691000 Z
+  updated_at: 2018-06-16 09:33:35.912519000 Z
 - code: versions
   name: Versions
   description: ''
@@ -1074,7 +1074,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 10:56:25.036344000 Z
-  updated_at: 2018-06-10 01:43:26.864252000 Z
+  updated_at: 2018-06-16 09:33:53.769944000 Z
 - code: adept
   name: Adept
   description: ''
@@ -1139,7 +1139,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:02:58.065426000 Z
-  updated_at: 2018-05-19 11:04:01.298542000 Z
+  updated_at: 2018-06-16 09:33:59.374608000 Z
 - code: tasters
   name: Tasters
   description: ''
@@ -1398,7 +1398,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:23:39.153268000 Z
-  updated_at: 2018-06-01 13:08:27.173511000 Z
+  updated_at: 2018-06-16 09:34:30.590577000 Z
 - code: keep_your_hands_off_my_girl
   name: KEEP YOUR HANDs OFF MY GIRL
   description: ''
@@ -1751,7 +1751,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-06-12 14:17:54.380804000 Z
+  updated_at: 2018-06-16 09:35:02.453646000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1783,7 +1783,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-06-12 14:17:56.162531000 Z
+  updated_at: 2018-06-16 09:35:04.527073000 Z
 - code: issues
   name: Issues
   description: ''
@@ -1814,7 +1814,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:20:54.766119000 Z
-  updated_at: 2018-06-12 14:17:58.752182000 Z
+  updated_at: 2018-06-16 09:35:07.438986000 Z
 - code: tyler_carter
   name: Tyler Carter
   description: Issues
@@ -2009,7 +2009,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:40:09.007588000 Z
-  updated_at: 2018-06-12 14:18:15.799147000 Z
+  updated_at: 2018-06-16 09:35:18.458199000 Z
 - code: jeremy_mckinnon
   name: Jeremy McKinnon
   description: A Day To Remember
@@ -2104,7 +2104,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:52:27.289352000 Z
-  updated_at: 2018-06-10 01:44:23.405024000 Z
+  updated_at: 2018-06-16 09:35:26.997797000 Z
 - code: caleb_shomo
   name: Caleb Shomo
   description: Beartooth / ex. Attack Attack!
@@ -2166,7 +2166,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 16:55:33.191861000 Z
-  updated_at: 2018-06-12 14:18:27.479977000 Z
+  updated_at: 2018-06-16 09:35:33.228163000 Z
 - code: upon_this_dawning
   name: Upon This Dawning
   description: ''
@@ -2262,7 +2262,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:21:09.396338000 Z
-  updated_at: 2018-06-12 14:18:36.262241000 Z
+  updated_at: 2018-06-16 09:35:41.353913000 Z
 - code: aaron_matts
   name: Aaron Matts
   description: Betraying the Martyrs
@@ -2450,7 +2450,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-06-12 14:18:42.892156000 Z
+  updated_at: 2018-06-16 09:35:47.459730000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''
@@ -3164,7 +3164,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-02 07:47:27.551678000 Z
-  updated_at: 2018-06-12 14:18:46.363257000 Z
+  updated_at: 2018-06-16 09:35:57.011361000 Z
 - code: justin_bieber
   name: Justin Bieber
   description: ''
@@ -3727,7 +3727,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-04 14:44:22.127321000 Z
-  updated_at: 2018-06-12 14:18:48.082654000 Z
+  updated_at: 2018-06-16 09:35:59.402321000 Z
 - code: vampires_everywhere
   name: Vampires Everywhere!
   description: ''
@@ -4047,14 +4047,15 @@
   created_at: 2018-06-05 11:33:30.646464000 Z
   updated_at: 2018-06-05 11:33:47.673811000 Z
 - code: versa
-  name: Versa
+  name: VersaEmerge
   description: ''
   active: 2006-2015
   origin: us Port St. Lucie, Florida, U.S.
   images: http://i.ytimg.com/vi/bRZGjQYZgcY/hqdefault.jpg
   videos: eTlfGImDDtI
   genres: group
-  apple: ''
+  apple: https://itunes.apple.com/us/artist/versaemerge/268839112 VersaEmerge on Apple
+    Music
   play: ''
   spotify: ''
   soundcloud: ''
@@ -4076,7 +4077,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-05 11:39:21.185524000 Z
-  updated_at: 2018-06-05 11:39:21.185524000 Z
+  updated_at: 2018-06-13 12:18:01.611602000 Z
 - code: sierra_kay
   name: Sierra Kay
   description: ex. VersaEmarge
@@ -4140,7 +4141,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-06 14:35:18.602472000 Z
-  updated_at: 2018-06-06 14:39:33.832548000 Z
+  updated_at: 2018-06-16 09:36:08.011630000 Z
 - code: danon_saylor
   name: Danon Saylor
   description: Nothing Left / ex. A Bullet For Pretty Boy
@@ -4236,7 +4237,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-06 14:50:56.996557000 Z
-  updated_at: 2018-06-12 14:18:54.829631000 Z
+  updated_at: 2018-06-16 09:36:10.925397000 Z
 - code: young_london
   name: Young London
   description: ''
@@ -4683,7 +4684,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-07 13:19:44.420035000 Z
-  updated_at: 2018-06-12 14:19:02.333517000 Z
+  updated_at: 2018-06-16 09:36:18.657498000 Z
 - code: james_bay
   name: James Bay
   description: ''
@@ -5419,7 +5420,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-12 10:43:55.405829000 Z
-  updated_at: 2018-06-12 14:19:14.108341000 Z
+  updated_at: 2018-06-16 09:36:37.346002000 Z
 - code: ricky_martin
   name: Ricky Martin
   description: ''
@@ -5578,3 +5579,129 @@
   body: ''
   created_at: 2018-06-12 13:53:32.187470000 Z
   updated_at: 2018-06-12 13:53:32.187470000 Z
+- code: britney_spears
+  name: Britney Spears
+  description: ''
+  active: ''
+  origin: us United States
+  images: http://i.ytimg.com/vi/LOZuxwVk7TU/hqdefault.jpg
+  videos: C-u5WLJ9Yk4
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Britney_Spears Britney Spears - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-13 13:07:10.854247000 Z
+  updated_at: 2018-06-13 13:07:10.854247000 Z
+- code: estelle
+  name: Estelle
+  description: ''
+  active: ''
+  origin: gb England
+  images: http://i.ytimg.com/vi/-vAJsJa3fWo/hqdefault.jpg
+  videos: Ic5vxw3eijY
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Estelle_(musician) Estelle (musician) -
+    Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-13 13:13:52.303559000 Z
+  updated_at: 2018-06-13 13:13:52.303559000 Z
+- code: drake
+  name: Drake
+  description: ''
+  active: ''
+  origin: ca Canada
+  images: http://i.ytimg.com/vi/6V-RXCyBoTQ/hqdefault.jpg
+  videos: Xyv4Bjja8yc
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Drake_(musician) Drake (musician) - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-13 13:34:22.359038000 Z
+  updated_at: 2018-06-13 13:34:22.359038000 Z
+- code: the_rolling_stones
+  name: The Rolling Stones
+  description: ''
+  active: ''
+  origin: gb London, England
+  images: http://i.ytimg.com/vi/SGyOaCXr8Lw/hqdefault.jpg
+  videos: 50u9bxRwBJI
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/The_Rolling_Stones The Rolling Stones -
+    Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-13 13:38:39.385832000 Z
+  updated_at: 2018-06-13 13:38:39.385832000 Z

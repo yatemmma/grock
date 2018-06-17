@@ -95,7 +95,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-13 16:22:26.669700000 Z
-  updated_at: 2018-06-16 09:33:01.649229000 Z
+  updated_at: 2018-06-17 16:54:23.050258000 Z
 - code: the_lonely_island
   name: The Lonely Island
   description: ''
@@ -284,7 +284,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 01:48:32.332421000 Z
-  updated_at: 2018-06-16 09:33:11.979360000 Z
+  updated_at: 2018-06-17 16:54:30.232172000 Z
 - code: closure_in_moscow
   name: Closure in Moscow
   description: ''
@@ -539,7 +539,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:21:54.129708000 Z
-  updated_at: 2018-06-16 09:33:32.754476000 Z
+  updated_at: 2018-06-17 16:54:48.434828000 Z
 - code: band_maid
   name: BAND-MAID
   description: ''
@@ -1074,7 +1074,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 10:56:25.036344000 Z
-  updated_at: 2018-06-16 09:33:53.769944000 Z
+  updated_at: 2018-06-17 16:55:06.295309000 Z
 - code: adept
   name: Adept
   description: ''
@@ -1751,7 +1751,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-06-16 09:35:02.453646000 Z
+  updated_at: 2018-06-17 16:55:55.897080000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1783,7 +1783,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-06-16 09:35:04.527073000 Z
+  updated_at: 2018-06-17 16:55:57.803263000 Z
 - code: issues
   name: Issues
   description: ''
@@ -1877,7 +1877,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:28:23.917900000 Z
-  updated_at: 2018-06-10 01:44:12.985851000 Z
+  updated_at: 2018-06-17 16:56:07.154974000 Z
 - code: nick_martin
   name: Nick Martin
   description: Sleeping with Sirens
@@ -2009,7 +2009,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:40:09.007588000 Z
-  updated_at: 2018-06-16 09:35:18.458199000 Z
+  updated_at: 2018-06-17 16:56:13.754729000 Z
 - code: jeremy_mckinnon
   name: Jeremy McKinnon
   description: A Day To Remember
@@ -2104,7 +2104,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:52:27.289352000 Z
-  updated_at: 2018-06-16 09:35:26.997797000 Z
+  updated_at: 2018-06-17 16:56:22.200920000 Z
 - code: caleb_shomo
   name: Caleb Shomo
   description: Beartooth / ex. Attack Attack!
@@ -2166,7 +2166,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 16:55:33.191861000 Z
-  updated_at: 2018-06-16 09:35:33.228163000 Z
+  updated_at: 2018-06-17 16:56:27.799351000 Z
 - code: upon_this_dawning
   name: Upon This Dawning
   description: ''
@@ -2262,7 +2262,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:21:09.396338000 Z
-  updated_at: 2018-06-16 09:35:41.353913000 Z
+  updated_at: 2018-06-17 16:56:36.256659000 Z
 - code: aaron_matts
   name: Aaron Matts
   description: Betraying the Martyrs
@@ -2450,7 +2450,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-06-16 09:35:47.459730000 Z
+  updated_at: 2018-06-17 16:56:41.562837000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''
@@ -2667,7 +2667,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-24 13:56:46.484944000 Z
-  updated_at: 2018-06-12 14:18:43.560220000 Z
+  updated_at: 2018-06-17 16:56:42.086551000 Z
 - code: bryan_adams
   name: Bryan Adams
   description: ''
@@ -3164,7 +3164,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-02 07:47:27.551678000 Z
-  updated_at: 2018-06-16 09:35:57.011361000 Z
+  updated_at: 2018-06-17 16:56:48.300956000 Z
 - code: justin_bieber
   name: Justin Bieber
   description: ''
@@ -3727,7 +3727,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-04 14:44:22.127321000 Z
-  updated_at: 2018-06-16 09:35:59.402321000 Z
+  updated_at: 2018-06-17 16:56:51.013801000 Z
 - code: vampires_everywhere
   name: Vampires Everywhere!
   description: ''
@@ -3921,15 +3921,15 @@
 - code: the_devil_wears_prada
   name: The Devil Wears Prada
   description: ''
-  active: us Dayton, Ohio, U.S.
-  origin: ''
+  active: 2005-
+  origin: us Dayton, Ohio, U.S.
   images: http://i.ytimg.com/vi/HfiaUIYF4ds/hqdefault.jpg
   videos: aCwAPhoX5sU
   genres: metalcore
   apple: https://itunes.apple.com/us/artist/the-devil-wears-prada/189224243 The Devil
     Wears Prada on Apple Music
   play: https://play.google.com/store/music/artist/The_Devil_Wears_Prada?id=Agh3lcvdd6l23b2tlxmaos57dsq
-    デヴィル・ウェアーズ・プラダ - Google Play の音楽
+    The Devil Wears Prada - Google Play Music
   spotify: https://open.spotify.com/artist/0NbQe5CNgh4YApOCDuHSjb The Devil Wears
     Prada on Spotify
   soundcloud: ''
@@ -3952,7 +3952,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-05 11:27:51.574008000 Z
-  updated_at: 2018-06-11 12:14:05.257129000 Z
+  updated_at: 2018-06-17 03:11:25.623180000 Z
 - code: mike_hranica
   name: Mike Hranica
   description: The Devil Wears Prada
@@ -4237,7 +4237,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-06 14:50:56.996557000 Z
-  updated_at: 2018-06-16 09:36:10.925397000 Z
+  updated_at: 2018-06-17 16:57:03.742299000 Z
 - code: young_london
   name: Young London
   description: ''
@@ -4684,7 +4684,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-07 13:19:44.420035000 Z
-  updated_at: 2018-06-16 09:36:18.657498000 Z
+  updated_at: 2018-06-17 16:57:16.523419000 Z
 - code: james_bay
   name: James Bay
   description: ''
@@ -5063,7 +5063,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-09 23:55:16.008559000 Z
-  updated_at: 2018-06-09 23:57:14.438487000 Z
+  updated_at: 2018-06-17 16:57:25.379460000 Z
 - code: here_i_come_falling
   name: Here I Come Falling
   description: ''
@@ -5705,3 +5705,103 @@
   body: ''
   created_at: 2018-06-13 13:38:39.385832000 Z
   updated_at: 2018-06-13 13:38:39.385832000 Z
+- code: yourhighwayhome
+  name: Your Highway Home
+  description: ''
+  active: 2010-
+  origin: us Kalamazoo, MI
+  images: http://i.ytimg.com/vi/OywPwTEaKms/hq1.jpg
+  videos: ciwKKX84k9k
+  genres: post-hardcore
+  apple: https://itunes.apple.com/us/artist/yourhighwayhome/400587302 Yourhighwayhome
+    on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: http://www.yourhighwayhome.net/ Your Highway Home (yourhighwayhome) Official
+    Merch Site
+  wikipedia: ''
+  youtube: https://www.youtube.com/user/YourHighwayHome YourHighwayHome - YouTube
+  twitter: https://twitter.com/yourhighwayhome Your Highway Home (@yourhighwayhome)
+    | Twitter
+  facebook: https://www.facebook.com/yourhighwayhome/ Your Highway Home - Home | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: https://myspace.com/yourhighwayhome yourhighwayhome | Listen and  Stream
+    Free Music, Albums, New Releases, Photos, Videos
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-17 16:11:39.799956000 Z
+  updated_at: 2018-06-17 16:11:52.906530000 Z
+- code: taio_cruz
+  name: Taio Cruz
+  description: ''
+  active: ''
+  origin: gb England
+  images: http://i.ytimg.com/vi/Vysgv7qVYTo/hqdefault.jpg
+  videos: Vysgv7qVYTo
+  genres: covered
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Taio_Cruz Taio Cruz - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-17 16:28:59.373408000 Z
+  updated_at: 2018-06-17 16:28:59.373408000 Z
+- code: city_and_colour
+  name: City and Colour
+  description: ''
+  active: ''
+  origin: ca St. Catharines, Ontario, Canada
+  images: http://i.ytimg.com/vi/8kKx8PneuR8/hqdefault.jpg
+  videos: 8kKx8PneuR8
+  genres: covered
+  apple: https://itunes.apple.com/artist/city-and-colour/81842534 City and Colour
+    on Apple Music
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: https://www.cityandcolour.com/ city and colour - City and Colour - Lover
+    Come Back
+  wikipedia: https://en.wikipedia.org/wiki/Dallas_Green_(musician) Dallas Green (musician)
+    - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-17 16:35:31.125474000 Z
+  updated_at: 2018-06-17 16:35:31.125474000 Z

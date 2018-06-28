@@ -95,7 +95,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-13 16:22:26.669700000 Z
-  updated_at: 2018-06-17 16:54:23.050258000 Z
+  updated_at: 2018-06-28 12:49:58.937242000 Z
 - code: the_lonely_island
   name: The Lonely Island
   description: ''
@@ -284,7 +284,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 01:48:32.332421000 Z
-  updated_at: 2018-06-17 16:54:30.232172000 Z
+  updated_at: 2018-06-28 12:50:30.416762000 Z
 - code: closure_in_moscow
   name: Closure in Moscow
   description: ''
@@ -411,7 +411,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:35:16.922944000 Z
-  updated_at: 2018-06-16 09:33:22.885967000 Z
+  updated_at: 2018-06-28 12:50:53.650719000 Z
 - code: trenton_woodley
   name: Trenton Woodley
   description: Hands Like Houses
@@ -442,7 +442,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:38:02.869446000 Z
-  updated_at: 2018-06-12 14:16:33.723739000 Z
+  updated_at: 2018-06-28 12:51:00.375041000 Z
 - code: the_virgin_wolves
   name: The Virgin Wolves
   description: ''
@@ -507,7 +507,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:17:41.270557000 Z
-  updated_at: 2018-06-12 14:16:39.728081000 Z
+  updated_at: 2018-06-28 12:51:14.910464000 Z
 - code: matty_mullins
   name: Matty Mullins
   description: Memphis May Fire
@@ -539,7 +539,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:21:54.129708000 Z
-  updated_at: 2018-06-17 16:54:48.434828000 Z
+  updated_at: 2018-06-28 12:51:21.952540000 Z
 - code: band_maid
   name: BAND-MAID
   description: ''
@@ -570,7 +570,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:25:25.068737000 Z
-  updated_at: 2018-06-16 09:33:35.912519000 Z
+  updated_at: 2018-06-28 12:51:23.603774000 Z
 - code: versions
   name: Versions
   description: ''
@@ -634,7 +634,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:30:50.887840000 Z
-  updated_at: 2018-05-19 07:32:12.473503000 Z
+  updated_at: 2018-06-28 12:51:29.438237000 Z
 - code: ready_set_fall
   name: Ready, Set, Fall!
   description: ''
@@ -1074,7 +1074,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 10:56:25.036344000 Z
-  updated_at: 2018-06-17 16:55:06.295309000 Z
+  updated_at: 2018-06-28 12:51:46.600021000 Z
 - code: adept
   name: Adept
   description: ''
@@ -1398,11 +1398,11 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:23:39.153268000 Z
-  updated_at: 2018-06-16 09:34:30.590577000 Z
+  updated_at: 2018-06-28 12:53:29.019676000 Z
 - code: keep_your_hands_off_my_girl
   name: KEEP YOUR HANDs OFF MY GIRL
   description: ''
-  active: 2008-2017
+  active: 2008-
   origin: jp Japan
   images: http://i.ytimg.com/vi/hC7u_v6l7Ak/maxresdefault.jpg
   videos: hC7u_v6l7Ak
@@ -1429,7 +1429,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:25:56.432284000 Z
-  updated_at: 2018-05-19 11:26:15.372218000 Z
+  updated_at: 2018-06-28 13:02:14.468651000 Z
 - code: and_then_there_were_none
   name: And Then There Were None
   description: ''
@@ -5805,3 +5805,68 @@
   body: ''
   created_at: 2018-06-17 16:35:31.125474000 Z
   updated_at: 2018-06-17 16:35:31.125474000 Z
+- code: shreddy_krueger
+  name: Shreddy Krueger
+  description: ''
+  active: 2011-
+  origin: ca Kelowna, British Columbia, Canada
+  images: http://i.ytimg.com/vi/ZEeWDwJFaGM/hq3.jpg
+  videos: ZEeWDwJFaGM,Y-MDhSW_85I,FRRrYwBArig
+  genres: post-hardcore
+  apple: https://itunes.apple.com/us/artist/shreddy-krueger/532232241 Shreddy Krueger
+    on Apple Music
+  play: https://play.google.com/store/music/artist/Shreddy_Krueger?id=Aon5ggwpywhg4r4vlr5yejogq6u
+    Shreddy Krueger - Google Play の音楽
+  spotify: https://open.spotify.com/artist/25HmOYd23qvZqyu309sQX0 Shreddy Krueger
+    on Spotify
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Shreddy_Krueger Shreddy Krueger - Wikipedia
+  youtube: https://www.youtube.com/user/ShreddyKruegerBand ShreddyKruegerBand - YouTube
+  twitter: https://twitter.com/shreddyk Shreddy Krueger (@ShreddyK) | Twitter
+  facebook: https://www.facebook.com/Shreddykruegerband Shreddy Krueger - Home | Facebook
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-24 14:27:13.749524000 Z
+  updated_at: 2018-06-28 12:25:18.544472000 Z
+- code: alexisonfire
+  name: Alexisonfire
+  description: ''
+  active: 2001-2012
+  origin: ca St. Catharines, Ontario, Canada
+  images: http://i.ytimg.com/vi/R4fzdM0Jm7A/hqdefault.jpg
+  videos: rHnhloqgDpI,tZ0Zncg7sLQ
+  genres: group
+  apple: ''
+  play: ''
+  spotify: ''
+  soundcloud: ''
+  bandcamp: ''
+  amazon: ''
+  website: ''
+  wikipedia: https://en.wikipedia.org/wiki/Alexisonfire Alexisonfire - Wikipedia
+  youtube: ''
+  twitter: ''
+  facebook: ''
+  instagram: ''
+  purevolume: ''
+  myspace: ''
+  lastfm: ''
+  discogs: ''
+  links: ''
+  member_of: ''
+  ex_member_of: ''
+  feeds: ''
+  body: ''
+  created_at: 2018-06-28 12:48:04.113930000 Z
+  updated_at: 2018-06-28 12:48:04.113930000 Z

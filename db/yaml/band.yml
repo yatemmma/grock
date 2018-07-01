@@ -442,7 +442,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 06:38:02.869446000 Z
-  updated_at: 2018-06-28 12:51:00.375041000 Z
+  updated_at: 2018-07-01 12:54:33.278724000 Z
 - code: the_virgin_wolves
   name: The Virgin Wolves
   description: ''
@@ -539,7 +539,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:21:54.129708000 Z
-  updated_at: 2018-06-28 12:51:21.952540000 Z
+  updated_at: 2018-07-01 12:54:47.216405000 Z
 - code: band_maid
   name: BAND-MAID
   description: ''
@@ -634,7 +634,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 07:30:50.887840000 Z
-  updated_at: 2018-06-28 12:51:29.438237000 Z
+  updated_at: 2018-07-01 12:54:54.453360000 Z
 - code: ready_set_fall
   name: Ready, Set, Fall!
   description: ''
@@ -1074,7 +1074,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 10:56:25.036344000 Z
-  updated_at: 2018-06-28 12:51:46.600021000 Z
+  updated_at: 2018-07-01 12:55:20.261977000 Z
 - code: adept
   name: Adept
   description: ''
@@ -1108,7 +1108,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:00:06.130320000 Z
-  updated_at: 2018-06-05 12:07:23.423305000 Z
+  updated_at: 2018-07-01 12:55:26.481670000 Z
 - code: intohimo
   name: Intohimo
   description: ''
@@ -1398,7 +1398,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 11:23:39.153268000 Z
-  updated_at: 2018-06-28 12:53:29.019676000 Z
+  updated_at: 2018-07-01 12:55:56.508121000 Z
 - code: keep_your_hands_off_my_girl
   name: KEEP YOUR HANDs OFF MY GIRL
   description: ''
@@ -1751,7 +1751,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 12:55:46.740391000 Z
-  updated_at: 2018-06-17 16:55:55.897080000 Z
+  updated_at: 2018-07-01 12:56:33.960514000 Z
 - code: tyler_telle_smith
   name: Tyler "Telle" Smith
   description: The Word Alive
@@ -1783,7 +1783,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:06:23.241608000 Z
-  updated_at: 2018-06-17 16:55:57.803263000 Z
+  updated_at: 2018-07-01 12:56:36.388219000 Z
 - code: issues
   name: Issues
   description: ''
@@ -1814,7 +1814,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:20:54.766119000 Z
-  updated_at: 2018-06-16 09:35:07.438986000 Z
+  updated_at: 2018-07-01 12:56:40.201301000 Z
 - code: tyler_carter
   name: Tyler Carter
   description: Issues
@@ -1845,7 +1845,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:24:37.630584000 Z
-  updated_at: 2018-05-19 13:25:45.356887000 Z
+  updated_at: 2018-07-01 12:56:40.961989000 Z
 - code: sleeping_with_sirens
   name: Sleeping with Sirens
   description: ''
@@ -1877,7 +1877,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:28:23.917900000 Z
-  updated_at: 2018-06-17 16:56:07.154974000 Z
+  updated_at: 2018-07-01 12:56:44.242779000 Z
 - code: nick_martin
   name: Nick Martin
   description: Sleeping with Sirens
@@ -1971,7 +1971,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:36:31.689163000 Z
-  updated_at: 2018-06-10 01:44:15.935340000 Z
+  updated_at: 2018-07-01 12:56:47.526007000 Z
 - code: a_day_to_remember
   name: A Day To Remember
   description: ''
@@ -2009,7 +2009,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:40:09.007588000 Z
-  updated_at: 2018-06-17 16:56:13.754729000 Z
+  updated_at: 2018-07-01 12:56:49.264725000 Z
 - code: jeremy_mckinnon
   name: Jeremy McKinnon
   description: A Day To Remember
@@ -2041,7 +2041,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:43:05.944436000 Z
-  updated_at: 2018-05-19 13:44:02.838698000 Z
+  updated_at: 2018-07-01 12:56:52.736741000 Z
 - code: attack_attack
   name: Attack Attack!
   description: ''
@@ -2104,7 +2104,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:52:27.289352000 Z
-  updated_at: 2018-06-17 16:56:22.200920000 Z
+  updated_at: 2018-07-01 12:57:01.573018000 Z
 - code: caleb_shomo
   name: Caleb Shomo
   description: Beartooth / ex. Attack Attack!
@@ -2135,7 +2135,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 13:54:43.402127000 Z
-  updated_at: 2018-06-10 01:44:25.136289000 Z
+  updated_at: 2018-07-01 12:57:04.523857000 Z
 - code: thrice
   name: Thrice
   description: ''
@@ -2166,7 +2166,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-19 16:55:33.191861000 Z
-  updated_at: 2018-06-17 16:56:27.799351000 Z
+  updated_at: 2018-07-01 12:57:07.714437000 Z
 - code: upon_this_dawning
   name: Upon This Dawning
   description: ''
@@ -2262,7 +2262,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 03:21:09.396338000 Z
-  updated_at: 2018-06-17 16:56:36.256659000 Z
+  updated_at: 2018-07-01 12:57:15.005052000 Z
 - code: aaron_matts
   name: Aaron Matts
   description: Betraying the Martyrs
@@ -2450,7 +2450,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-20 14:33:55.080381000 Z
-  updated_at: 2018-06-17 16:56:41.562837000 Z
+  updated_at: 2018-07-01 12:57:22.185237000 Z
 - code: natalie_imbruglia
   name: Natalie Imbruglia
   description: ''
@@ -2667,7 +2667,7 @@
   feeds: ''
   body: ''
   created_at: 2018-05-24 13:56:46.484944000 Z
-  updated_at: 2018-06-17 16:56:42.086551000 Z
+  updated_at: 2018-07-01 12:57:22.761953000 Z
 - code: bryan_adams
   name: Bryan Adams
   description: ''
@@ -3164,7 +3164,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-02 07:47:27.551678000 Z
-  updated_at: 2018-06-17 16:56:48.300956000 Z
+  updated_at: 2018-07-01 12:57:30.545963000 Z
 - code: justin_bieber
   name: Justin Bieber
   description: ''
@@ -3727,7 +3727,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-04 14:44:22.127321000 Z
-  updated_at: 2018-06-17 16:56:51.013801000 Z
+  updated_at: 2018-07-01 12:57:34.646504000 Z
 - code: vampires_everywhere
   name: Vampires Everywhere!
   description: ''
@@ -4237,7 +4237,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-06 14:50:56.996557000 Z
-  updated_at: 2018-06-17 16:57:03.742299000 Z
+  updated_at: 2018-07-01 12:57:44.968385000 Z
 - code: young_london
   name: Young London
   description: ''
@@ -4684,7 +4684,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-07 13:19:44.420035000 Z
-  updated_at: 2018-06-17 16:57:16.523419000 Z
+  updated_at: 2018-07-01 12:57:54.202892000 Z
 - code: james_bay
   name: James Bay
   description: ''
@@ -5063,7 +5063,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-09 23:55:16.008559000 Z
-  updated_at: 2018-06-17 16:57:25.379460000 Z
+  updated_at: 2018-07-01 12:58:00.375166000 Z
 - code: here_i_come_falling
   name: Here I Come Falling
   description: ''
@@ -5420,7 +5420,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-12 10:43:55.405829000 Z
-  updated_at: 2018-06-16 09:36:37.346002000 Z
+  updated_at: 2018-07-01 12:58:10.585652000 Z
 - code: ricky_martin
   name: Ricky Martin
   description: ''
@@ -5838,7 +5838,7 @@
   feeds: ''
   body: ''
   created_at: 2018-06-24 14:27:13.749524000 Z
-  updated_at: 2018-06-28 12:25:18.544472000 Z
+  updated_at: 2018-07-01 12:58:19.519698000 Z
 - code: alexisonfire
   name: Alexisonfire
   description: ''

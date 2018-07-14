@@ -6,6 +6,7 @@ config = YAML.load_file("db/database.yml")
 ActiveRecord::Base.establish_connection(config["development"])
 
 require_relative "./raw_feed"
+require_relative "./feed_url"
 
 module GROCK
   class Importer

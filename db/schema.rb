@@ -10,7 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 101) do
+ActiveRecord::Schema.define(version: 201) do
+
+  create_table "feed_urls", id: false, force: :cascade do |t|
+    t.string "url"
+    t.boolean "enabled", default: true
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["url"], name: "index_feed_urls_on_url", unique: true
+  end
 
   create_table "raw_feeds", force: :cascade do |t|
     t.string "url"

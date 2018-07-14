@@ -10,8 +10,16 @@ end
 
 task :export do
   GROCK::Importer.export(:raw_feed)
+  GROCK::Importer.export(:feed_url)
 end
 
 task :import do
   GROCK::Importer.import(:raw_feed)
+  GROCK::Importer.import(:feed_url)
+end
+
+task :hoge do
+  GROCK::FeedUrl.create(
+    url: "https://chorus.fm/feed/"
+  )
 end

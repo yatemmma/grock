@@ -7,6 +7,7 @@ ActiveRecord::Base.establish_connection(config["development"])
 
 require_relative "./raw_feed"
 require_relative "./feed_url"
+require_relative "./news_site"
 
 module GROCK
   class Importer

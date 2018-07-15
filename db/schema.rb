@@ -12,12 +12,51 @@
 
 ActiveRecord::Schema.define(version: 201) do
 
+  create_table "bands", id: false, force: :cascade do |t|
+    t.string "code", null: false
+    t.string "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["code"], name: "index_bands_on_code", unique: true
+  end
+
+  create_table "discs", id: false, force: :cascade do |t|
+    t.string "code", null: false
+    t.string "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["code"], name: "index_discs_on_code", unique: true
+  end
+
   create_table "feed_urls", id: false, force: :cascade do |t|
     t.string "url"
     t.boolean "enabled", default: true
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["url"], name: "index_feed_urls_on_url", unique: true
+  end
+
+  create_table "labels", id: false, force: :cascade do |t|
+    t.string "code", null: false
+    t.string "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["code"], name: "index_labels_on_code", unique: true
+  end
+
+  create_table "news_sites", id: false, force: :cascade do |t|
+    t.string "code", null: false
+    t.string "name"
+    t.string "description"
+    t.string "image_icon"
+    t.string "image_thumbnail"
+    t.string "image_large"
+    t.string "site_url"
+    t.string "feed_url"
+    t.string "genres"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["code"], name: "index_news_sites_on_code", unique: true
   end
 
   create_table "raw_feeds", force: :cascade do |t|
@@ -27,6 +66,7 @@ ActiveRecord::Schema.define(version: 201) do
     t.text "error"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.index ["url"], name: "index_raw_feeds_on_url"
   end
 
 end

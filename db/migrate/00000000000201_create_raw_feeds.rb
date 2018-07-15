@@ -8,5 +8,6 @@ class CreateRawFeeds < ActiveRecord::Migration[5.2]
       t.datetime :created_at
       t.datetime :updated_at
     end
+    add_index :raw_feeds, :url
   end
 end

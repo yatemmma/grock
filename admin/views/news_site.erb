@@ -1,0 +1,44 @@
+<%= erb :"partials/header" %>
+
+<main>
+  <form action="/news_site/<%= item.code || "new" %>" method="post">
+    <input name="_method" value="<%= method %>" type="hidden" />
+
+    <%= erb :"partials/form_text", locals: {item: item, key: "code"} %>
+    <%= erb :"partials/form_text", locals: {item: item, key: "name"} %>
+    <%= erb :"partials/form_text", locals: {item: item, key: "description"} %>
+
+    <%= erb :"partials/form_image", locals: {item: item, key: "image_icon"} %>
+    <%= erb :"partials/form_image", locals: {item: item, key: "image_thumbnail"} %>
+    <%= erb :"partials/form_image", locals: {item: item, key: "image_large"} %>
+
+    <%= erb :"partials/form_text", locals: {item: item, key: "site_url"} %>
+    <%= erb :"partials/form_text", locals: {item: item, key: "feed_url"} %>
+
+    <%= erb :"partials/form_select", locals: {item: item, key: "genres", select_items: []} %>
+
+    <input type="submit" name="commit" value="<%= method %>">
+  </form>
+
+  <div class="preview">
+    <img id="image_icon" src="<%= item.image_icon %>" />
+    <img id="image_thumbnail" src="<%= item.image_thumbnail %>" />
+    <img id="image_large" src="<%= item.image_large %>" />
+  </div>
+</main>
+
+<script>
+function onChangeText(element, key) {
+  console.log(element, key)
+  if (key == "name" && document.querySelector("input[name=_method]").value == "post") {
+    const code = element.value.toLowerCase()
+                              .replace(/\s/g, "_")
+                              .replace(/\./g, "_")
+    document.querySelector("input[name='entry[code]']").value = code
+  }
+}
+
+function onSelectValue(element, key) {
+  console.log(element, key)
+}
+</script>

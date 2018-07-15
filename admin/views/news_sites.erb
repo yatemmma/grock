@@ -1,0 +1,11 @@
+<%= erb :"partials/header" %>
+
+<main>
+  News Site List
+
+  <ul>
+  <% items.each do |item| %>
+    <li><a href="/news_site/<%= item.code %>/edit"><%= item.name %></li>
+  <% end %>
+  </li>
+</main>

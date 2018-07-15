@@ -2,20 +2,22 @@ require "sinatra/activerecord/rake"
 
 require "./models/models"
 require "./collectors/crawler"
+require "./admin/app"
 
+task :admin do
+  App.run!
+end
 
 task :crawl do
   GROCK::Crawler.new.get_rss "https://www.theprp.com/feed/"
 end
 
 task :export do
-  GROCK::Importer.export(:raw_feed)
-  GROCK::Importer.export(:feed_url)
+  GROCK::Importer.export(:news_site)
 end
 
 task :import do
-  GROCK::Importer.import(:raw_feed)
-  GROCK::Importer.import(:feed_url)
+  GROCK::Importer.import(:news_site)
 end
 
 task :hoge do

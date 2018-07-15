@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>G-ROCK Admin</title>
+  <style>
+    body {
+      margin: 0px;
+    }
+    header {
+      background-color: darkgoldenrod;
+      padding: 4px;
+      position: fixed;
+      width: 100%;
+    }
+    header a,
+    header a:visited {
+      color: white;
+    }
+    main {
+      padding-top: 40px;
+    }
+    label {
+      display: block;
+    }
+    label span {
+      display: inline-block;
+      width: 160px;
+    }
+    label input,
+    label select {
+      width: 400px;
+    }
+    .preview {
+      background-color: lightgray;
+      padding: 4px;
+    }
+    .preview img {
+      background-color: gray;
+      margin-right: 4px;
+      min-height: 50px;
+      min-width: 50px;
+      vertical-align: top;
+    }
+  </style>
+</head>
+<body>
+  <%= yield %>
+</body>
+</html>

@@ -1,6 +1,6 @@
 <label>
   <span><%= key %>: </span>
-  <input name="<%= key %>"
+  <input name="entry[<%= key %>]"
          type="text"
          onchange="onChangeText(this, '<%= key %>')"
          value="<%= item.send(key.to_sym) %>"

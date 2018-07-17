@@ -25,6 +25,4 @@ module GROCK
       end
     end
   end
-
-
 end

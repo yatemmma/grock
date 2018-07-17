@@ -15,7 +15,7 @@
     <%= erb :"partials/form_text", locals: {item: item, key: "site_url"} %>
     <%= erb :"partials/form_text", locals: {item: item, key: "feed_url"} %>
 
-    <%= erb :"partials/form_select", locals: {item: item, key: "genres", select_items: []} %>
+    <%= erb :"partials/form_select", locals: {item: item, key: "genres", select_items: GROCK::GENRES} %>
 
     <input type="submit" name="commit" value="<%= method %>">
   </form>
@@ -25,6 +25,20 @@
     <img id="image_thumbnail" src="<%= item.image_thumbnail %>" />
     <img id="image_large" src="<%= item.image_large %>" />
   </div>
+
+  <% if method == "put" %>
+    <a href="/news_site/<%= item.code %>/get_feed">feed</a>
+    <div class="clawler">
+      <% (raw_feeds || []).each do |raw_feed| %>
+        <div>
+          <span><%= raw_feed.url %></span>
+          <span><%= raw_feed.error %></span>
+          <span><%= raw_feed.parsed %></span>
+          <span><%= raw_feed.updated_at %></span>
+        </div>
+      <% end %>
+    </div>
+  <% end %>
 </main>
 
 <script>
@@ -35,10 +49,19 @@ function onChangeText(element, key) {
                               .replace(/\s/g, "_")
                               .replace(/\./g, "_")
     document.querySelector("input[name='entry[code]']").value = code
+  } else if (key.startsWith("image_")) {
+    document.querySelector("#"+key).src = document.querySelector("input[name='entry["+key+"]']").value
   }
 }
 
 function onSelectValue(element, key) {
-  console.log(element, key)
+  if (key == "genres" && element.value) {
+    let genres = (document.querySelector("input[name='entry["+key+"]']").value || "").split(",")
+    genres = genres.filter((item)=>{
+      if (item && item != " ") return item
+    })
+    genres.push(element.value)
+    document.querySelector("input[name='entry["+key+"]']").value = genres.join(",")
+  }
 }
 </script>

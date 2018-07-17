@@ -15,6 +15,11 @@ ActiveRecord::Schema.define(version: 201) do
   create_table "bands", id: false, force: :cascade do |t|
     t.string "code", null: false
     t.string "name"
+    t.string "description"
+    t.string "active"
+    t.string "origin"
+    t.string "youtube_keys"
+    t.text "body"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["code"], name: "index_bands_on_code", unique: true
@@ -23,50 +28,105 @@ ActiveRecord::Schema.define(version: 201) do
   create_table "discs", id: false, force: :cascade do |t|
     t.string "code", null: false
     t.string "name"
+    t.string "description"
+    t.string "date"
+    t.string "disc_type"
+    t.string "youtube_keys"
+    t.text "body"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["code"], name: "index_discs_on_code", unique: true
   end
 
-  create_table "feed_urls", id: false, force: :cascade do |t|
+  create_table "feeds", id: false, force: :cascade do |t|
+    t.string "kind", null: false
+    t.string "code", null: false
+    t.string "name"
+    t.string "feed_type"
+    t.string "icon"
     t.string "url"
-    t.boolean "enabled", default: true
+    t.datetime "date"
+    t.string "title"
+    t.text "body"
+    t.string "youtube_keys"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.index ["url"], name: "index_feed_urls_on_url", unique: true
+    t.index ["code"], name: "index_feeds_on_code", unique: true
+  end
+
+  create_table "images", id: false, force: :cascade do |t|
+    t.string "kind", null: false
+    t.string "code", null: false
+    t.string "icon_url"
+    t.string "icon_path"
+    t.string "thumbnail_url"
+    t.string "thumbnail_path"
+    t.string "large_url"
+    t.string "large_path"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index [nil, "code"], name: "images_index"
   end
 
   create_table "labels", id: false, force: :cascade do |t|
     t.string "code", null: false
     t.string "name"
+    t.string "description"
+    t.string "founded"
+    t.string "origin"
+    t.string "youtube_keys"
+    t.text "body"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.index ["code"], name: "index_labels_on_code", unique: true
   end
 
-  create_table "news_sites", id: false, force: :cascade do |t|
+  create_table "links", id: false, force: :cascade do |t|
+    t.string "kind", null: false
     t.string "code", null: false
-    t.string "name"
-    t.string "description"
-    t.string "image_icon"
-    t.string "image_thumbnail"
-    t.string "image_large"
-    t.string "site_url"
-    t.string "feed_url"
-    t.string "genres"
+    t.string "link_type"
+    t.string "label"
+    t.string "url"
+    t.string "title"
+    t.boolean "stream", default: false
+    t.boolean "purchase", default: false
+    t.boolean "feed", default: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.index ["code"], name: "index_news_sites_on_code", unique: true
+    t.index [nil, "code"], name: "links_index"
   end
 
   create_table "raw_feeds", force: :cascade do |t|
+    t.string "model_type"
+    t.string "code"
     t.string "url"
+    t.string "feed_type"
     t.text "source"
     t.boolean "parsed", default: false
     t.text "error"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.index ["url"], name: "index_raw_feeds_on_url"
+    t.index ["model_type", "code", "parsed"], name: "raw_feeds_index"
+  end
+
+  create_table "sites", id: false, force: :cascade do |t|
+    t.string "code", null: false
+    t.string "name"
+    t.string "description"
+    t.string "youtube_keys"
+    t.text "body"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["code"], name: "index_sites_on_code", unique: true
+  end
+
+  create_table "tags", id: false, force: :cascade do |t|
+    t.string "code"
+    t.string "name"
+    t.string "tag_type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["code"], name: "index_tags_on_code", unique: true
   end
 
 end

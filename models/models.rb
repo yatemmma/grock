@@ -2,14 +2,18 @@ require "active_support/core_ext/string/inflections"
 require "sinatra/activerecord"
 require "yaml"
 
-config = YAML.load_file("db/database.yml")
+config = YAML.load_file("db/config/database.yml")
 ActiveRecord::Base.establish_connection(config["development"])
 
-require_relative "./raw_feed"
-require_relative "./feed_url"
-require_relative "./news_site"
+require_relative "./link"
+require_relative "./band"
 
 module GROCK
+  GENRES = [
+    {value: "rock", display: "Rock"},
+    {value: "post_hardcore", display: "Post-Hardcore"},
+  ]
+
   class Importer
     class << self
       def export(model_sym)

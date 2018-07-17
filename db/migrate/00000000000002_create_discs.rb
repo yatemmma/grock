@@ -3,6 +3,11 @@ class CreateDiscs < ActiveRecord::Migration[5.2]
     create_table :discs, id: false do |t|
       t.string   :code, null: false
       t.string   :name
+      t.string   :description
+      t.string   :date
+      t.string   :disc_type
+      t.string   :youtube_keys
+      t.text     :body
       t.datetime :created_at
       t.datetime :updated_at
     end

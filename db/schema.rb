@@ -10,7 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 201) do
+ActiveRecord::Schema.define(version: 204) do
+
+  create_table "band_bands", id: false, force: :cascade do |t|
+    t.string "self_code"
+    t.string "other_code"
+    t.string "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["self_code", "other_code", "type"], name: "band_bands_index"
+  end
 
   create_table "bands", id: false, force: :cascade do |t|
     t.string "code", null: false
@@ -25,12 +34,39 @@ ActiveRecord::Schema.define(version: 201) do
     t.index ["code"], name: "index_bands_on_code", unique: true
   end
 
+  create_table "disc_bands", id: false, force: :cascade do |t|
+    t.string "disc_code"
+    t.string "band_code"
+    t.string "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["disc_code", "band_code", "type"], name: "disc_bands_index"
+  end
+
+  create_table "disc_discs", id: false, force: :cascade do |t|
+    t.string "self_code"
+    t.string "other_code"
+    t.string "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["self_code", "other_code", "type"], name: "disc_discs_index"
+  end
+
+  create_table "disc_labels", id: false, force: :cascade do |t|
+    t.string "disc_code"
+    t.string "label_code"
+    t.string "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["disc_code", "label_code", "type"], name: "disc_labels_index"
+  end
+
   create_table "discs", id: false, force: :cascade do |t|
     t.string "code", null: false
     t.string "name"
     t.string "description"
     t.string "date"
-    t.string "disc_type"
+    t.string "type"
     t.string "youtube_keys"
     t.text "body"
     t.datetime "created_at"
@@ -41,8 +77,7 @@ ActiveRecord::Schema.define(version: 201) do
   create_table "feeds", id: false, force: :cascade do |t|
     t.string "kind", null: false
     t.string "code", null: false
-    t.string "name"
-    t.string "feed_type"
+    t.string "type"
     t.string "icon"
     t.string "url"
     t.datetime "date"
@@ -51,7 +86,7 @@ ActiveRecord::Schema.define(version: 201) do
     t.string "youtube_keys"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.index ["code"], name: "index_feeds_on_code", unique: true
+    t.index ["kind", "code"], name: "feeds_index"
   end
 
   create_table "images", id: false, force: :cascade do |t|
@@ -65,7 +100,7 @@ ActiveRecord::Schema.define(version: 201) do
     t.string "large_path"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.index [nil, "code"], name: "images_index"
+    t.index ["kind", "code"], name: "images_index"
   end
 
   create_table "labels", id: false, force: :cascade do |t|
@@ -84,29 +119,13 @@ ActiveRecord::Schema.define(version: 201) do
   create_table "links", id: false, force: :cascade do |t|
     t.string "kind", null: false
     t.string "code", null: false
-    t.string "link_type"
+    t.string "type"
     t.string "label"
     t.string "url"
     t.string "title"
-    t.boolean "stream", default: false
-    t.boolean "purchase", default: false
-    t.boolean "feed", default: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.index [nil, "code"], name: "links_index"
-  end
-
-  create_table "raw_feeds", force: :cascade do |t|
-    t.string "model_type"
-    t.string "code"
-    t.string "url"
-    t.string "feed_type"
-    t.text "source"
-    t.boolean "parsed", default: false
-    t.text "error"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-    t.index ["model_type", "code", "parsed"], name: "raw_feeds_index"
+    t.index ["kind", "code"], name: "links_index"
   end
 
   create_table "sites", id: false, force: :cascade do |t|
@@ -120,13 +139,27 @@ ActiveRecord::Schema.define(version: 201) do
     t.index ["code"], name: "index_sites_on_code", unique: true
   end
 
-  create_table "tags", id: false, force: :cascade do |t|
-    t.string "code"
-    t.string "name"
-    t.string "tag_type"
+  create_table "sources", force: :cascade do |t|
+    t.string "kind", null: false
+    t.string "code", null: false
+    t.string "type"
+    t.string "url"
+    t.text "source"
+    t.text "error"
+    t.boolean "parsed", default: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.index ["code"], name: "index_tags_on_code", unique: true
+    t.index ["kind", "code"], name: "sources_index"
+  end
+
+  create_table "tags", id: false, force: :cascade do |t|
+    t.string "kind", null: false
+    t.string "code", null: false
+    t.string "type"
+    t.string "key"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.index ["kind", "code"], name: "tags_index"
   end
 
 end

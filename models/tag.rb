@@ -1,5 +1,5 @@
 module GROCK
-  class Link < ActiveRecord::Base
+  class Tag < ActiveRecord::Base
     self.inheritance_column = :_type_disabled
   end
 end

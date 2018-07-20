@@ -1,0 +1,12 @@
+<div>
+  <label>
+    <span>tag: </span>
+    <% keys = %w(post_hardcore) %>
+    <select name="tags[key][]">
+      <option value="">----</option>
+      <% keys.each do |key| %>
+        <option value="<%= key %>" <%= "selected" if tag.key == key %>><%= key %></option>
+      <% end %>
+    </select>
+  </label>
+</div>

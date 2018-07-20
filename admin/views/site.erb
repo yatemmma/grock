@@ -1,0 +1,124 @@
+<%= erb :"partials/header" %>
+
+<main>
+  <div class="col2">
+    <form action="/site/<%= item.code || "new" %>" method="post">
+      <input name="_method" value="<%= method %>" type="hidden" />
+
+      <%= erb :"partials/form_text", locals: {item: item, key: "code"} %>
+      <%= erb :"partials/form_text", locals: {item: item, key: "name"} %>
+      <%= erb :"partials/form_text", locals: {item: item, key: "description"} %>
+
+      <%= erb :"partials/form_image", locals: {item: item, key: "icon"} %>
+      <%= erb :"partials/form_image", locals: {item: item, key: "thumbnail"} %>
+      <%= erb :"partials/form_image", locals: {item: item, key: "large"} %>
+
+      <%= erb :"partials/form_text", locals: {item: item, key: "youtube_keys"} %>
+
+      <%= erb :"partials/form_body", locals: {item: item, key: "body"} %>
+
+      <% item.links.each do |link| %>
+        <%= erb :"partials/form_link", locals: {item: item, link: link} %>
+      <% end %>
+      <%= erb :"partials/form_link", locals: {item: item, link: GROCK::Link.new} %>
+      <label>
+        <span> </span>
+        <button type="button" onclick="onClickButton(this, 'link')">+</button>
+      </label>
+
+      <% item.tags.each do |tag| %>
+        <%= erb :"partials/form_tag", locals: {item: item, tag: tag} %>
+      <% end %>
+      <%= erb :"partials/form_tag", locals: {item: item, tag: GROCK::Tag.new} %>
+      <label>
+        <span> </span>
+        <button type="button" onclick="onClickButton(this, 'tag')">+</button>
+      </label>
+
+      <label>
+        <span> </span>
+        <input type="submit" name="commit" value="<%= method %>">
+      </label>
+    </form>
+  </div>
+
+  <div class="col1">
+    <div>
+      <div id="youtube" data-key="<%= item.youtube_keys %>"></div>
+    </div>
+    <div class="preview">
+      <img id="image_icon"      src="<%= item.image.icon %>" /><br />
+      <img id="image_thumbnail" src="<%= item.image.thumbnail %>" /><br />
+      <img id="image_large"     src="<%= item.image.large %>" />
+    </div>
+  </div>
+</main>
+
+<script>
+window.onload = ()=>{
+  loadYoutubeScript()
+}
+window.onYouTubeIframeAPIReady = () => {
+  const element = document.querySelector("input[name='entry[youtube_keys]']")
+  if (element.value) {
+    const video = document.querySelector("#youtube")
+    video.innerHTML = ""
+    video.setAttribute("data-key", element.value)
+    loadYoutubeVideo(video)
+  }
+}
+
+function loadYoutubeScript() {
+  const tag = document.createElement("script")
+  tag.src = "https://www.youtube.com/iframe_api"
+  const firstScriptTag = document.getElementsByTagName("script")[0]
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
+}
+
+function loadYoutubeVideo(element) {
+  const keys = element.getAttribute("data-key").split(",").map((x)=>{return x.trim()})
+  const video = document.createElement("div")
+  video.id = "xxx"
+  element.appendChild(video)
+  const player = new YT.Player(video.id, {
+    width: "100%",
+    height: "300px",
+    videoId: (keys.length >= 2) ? "" : keys[0],
+    playerVars: {
+      playsinline: 1
+    },
+    events: {
+      "onReady": function() {
+        if (keys.length >= 2) {
+          player.cuePlaylist(keys)
+        }
+      }
+    }
+  })
+  element.player = player
+}
+
+function onChangeText(element, key) {
+  console.log(element, key)
+  if (key == "name" && document.querySelector("input[name=_method]").value == "post") {
+    const code = element.value.toLowerCase()
+                              .replace(/\s/g, "_")
+                              .replace(/\./g, "_")
+    document.querySelector("input[name='entry[code]']").value = code
+  } else if (["icon", "thumbnail", "large"].includes(key)) {
+    document.querySelector("#image_"+key).src = document.querySelector("input[name='image["+key+"]']").value
+  } else if (key == "youtube_keys") {
+    const video = document.querySelector("#youtube")
+    video.innerHTML = ""
+    video.setAttribute("data-key", element.value)
+    loadYoutubeVideo(video)
+  }
+}
+function onClickButton(e, key) {
+  const clone = e.parentNode.previousElementSibling.cloneNode(true)
+  Array.prototype.slice.call(clone.querySelectorAll("input")).forEach((node)=>{
+    node.value = ""
+  })
+  e.parentNode.parentNode.insertBefore(clone, e.parentNode)
+}
+</script>

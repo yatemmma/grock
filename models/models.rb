@@ -5,8 +5,10 @@ require "yaml"
 config = YAML.load_file("db/config/database.yml")
 ActiveRecord::Base.establish_connection(config["development"])
 
+require_relative "./image"
 require_relative "./link"
-require_relative "./band"
+require_relative "./tag"
+require_relative "./site"
 
 module GROCK
   GENRES = [

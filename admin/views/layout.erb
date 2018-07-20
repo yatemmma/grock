@@ -26,10 +26,17 @@
     label span {
       display: inline-block;
       width: 160px;
+      vertical-align: top;
     }
     label input,
-    label select {
+    label select,
+    label textarea {
       width: 400px;
+    }
+    label textarea {
+      height: 200px;
+      border-color: lightgray;
+      margin-top: 6px;
     }
     .preview {
       background-color: lightgray;
@@ -37,10 +44,20 @@
     }
     .preview img {
       background-color: gray;
-      margin-right: 4px;
+      margin: 4px;
       min-height: 50px;
       min-width: 50px;
       vertical-align: top;
+    }
+    .col2 {
+      float: left;
+      width: 60%;
+    }
+    .col1 {
+      float: left;
+      width: 38%;
+      height: 800px;
+      overflow-x: scroll;
     }
   </style>
 </head>

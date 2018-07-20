@@ -5,7 +5,7 @@ class CreateDiscs < ActiveRecord::Migration[5.2]
       t.string   :name
       t.string   :description
       t.string   :date
-      t.string   :disc_type
+      t.string   :type
       t.string   :youtube_keys
       t.text     :body
       t.datetime :created_at

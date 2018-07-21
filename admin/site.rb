@@ -101,4 +101,13 @@ class App < Sinatra::Base
 
     redirect "/site/#{code}"
   end
+
+  post "/api/get_title" do
+    url = URI.unescape(params["url"])
+    p 111, url
+    source = open(url).read
+    title = source.match(/<title.*?>(.+)<\/title>/i)[1]
+    p 222, title
+    title
+  end
 end

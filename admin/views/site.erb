@@ -125,6 +125,16 @@ function onChangeText(element, key) {
     video.innerHTML = ""
     video.setAttribute("data-key", element.value)
     loadYoutubeVideo(video)
+  } else if (key == "link") {
+    element.parentNode.parentNode.querySelector(".anchor").href = element.value
+    const title = element.parentNode.parentNode.querySelector("input[name='links[title][]']")
+    if (element.value) {
+      ajaxPostRequest("/api/get_title", {url: element.value}, (result)=>{
+        title.value = result
+      })
+    } else {
+      title.value = ""
+    }
   }
 }
 function onClickButton(e, key) {

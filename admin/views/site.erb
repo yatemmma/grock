@@ -9,9 +9,9 @@
       <%= erb :"partials/form_text", locals: {item: item, key: "name"} %>
       <%= erb :"partials/form_text", locals: {item: item, key: "description"} %>
 
-      <%= erb :"partials/form_image", locals: {item: item, key: "icon"} %>
-      <%= erb :"partials/form_image", locals: {item: item, key: "thumbnail"} %>
-      <%= erb :"partials/form_image", locals: {item: item, key: "large"} %>
+      <%= erb :"partials/form_image", locals: {item: item, key: "icon_url"} %>
+      <%= erb :"partials/form_image", locals: {item: item, key: "thumbnail_url"} %>
+      <%= erb :"partials/form_image", locals: {item: item, key: "large_url"} %>
 
       <%= erb :"partials/form_text", locals: {item: item, key: "youtube_keys"} %>
 
@@ -40,6 +40,19 @@
         <input type="submit" name="commit" value="<%= method %>">
       </label>
     </form>
+
+    <label>
+      <span>feed </span>
+      <button type="button" onclick="location.href = '/site/<%= item.code %>/feed'">feed</button>
+    </label>
+    <% item.sources.each do |source| %>
+      <div>
+        <span><%= source.created_at %></span>
+        <span><%= source.url %></span>
+        <span><%= escape_html source.source[0, 15] + "..." %></span>
+        <span><%= source.error %></span>
+      </div>
+    <% end %>
   </div>
 
   <div class="col1">
@@ -47,9 +60,9 @@
       <div id="youtube" data-key="<%= item.youtube_keys %>"></div>
     </div>
     <div class="preview">
-      <img id="image_icon"      src="<%= item.image.icon %>" /><br />
-      <img id="image_thumbnail" src="<%= item.image.thumbnail %>" /><br />
-      <img id="image_large"     src="<%= item.image.large %>" />
+      <img id="image_icon_url"      src="<%= item.image.icon %>" /><br />
+      <img id="image_thumbnail_url" src="<%= item.image.thumbnail %>" /><br />
+      <img id="image_large_url"     src="<%= item.image.large %>" />
     </div>
   </div>
 </main>
@@ -105,7 +118,7 @@ function onChangeText(element, key) {
                               .replace(/\s/g, "_")
                               .replace(/\./g, "_")
     document.querySelector("input[name='entry[code]']").value = code
-  } else if (["icon", "thumbnail", "large"].includes(key)) {
+  } else if (["icon_url", "thumbnail_url", "large_url"].includes(key)) {
     document.querySelector("#image_"+key).src = document.querySelector("input[name='image["+key+"]']").value
   } else if (key == "youtube_keys") {
     const video = document.querySelector("#youtube")

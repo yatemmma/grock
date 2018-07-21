@@ -9,6 +9,8 @@ require_relative "./image"
 require_relative "./link"
 require_relative "./tag"
 require_relative "./site"
+require_relative "./source"
+require_relative "./feed"
 
 module GROCK
   GENRES = [

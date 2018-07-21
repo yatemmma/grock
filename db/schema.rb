@@ -139,7 +139,7 @@ ActiveRecord::Schema.define(version: 204) do
     t.index ["code"], name: "index_sites_on_code", unique: true
   end
 
-  create_table "sources", force: :cascade do |t|
+  create_table "sources", id: false, force: :cascade do |t|
     t.string "kind", null: false
     t.string "code", null: false
     t.string "type"
@@ -155,7 +155,6 @@ ActiveRecord::Schema.define(version: 204) do
   create_table "tags", id: false, force: :cascade do |t|
     t.string "kind", null: false
     t.string "code", null: false
-    t.string "type"
     t.string "key"
     t.datetime "created_at"
     t.datetime "updated_at"

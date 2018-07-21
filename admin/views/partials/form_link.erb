@@ -1,11 +1,28 @@
+<%
+  labels = %w(
+    website
+    wikipedia
+    amazon
+  )
+  types = %w(
+    stream
+    parchase
+    feed
+  )
+%>
 <div>
   <label>
-    <span>link </span>
-    <% labels = %w(amazon wikipedia) %>
+    <span>link: </span>
     <select name="links[label][]">
       <option value="">----</option>
       <% labels.each do |label| %>
         <option value="<%= label %>" <%= "selected" if link.label == label %>><%= label %></option>
+      <% end %>
+    </select>
+    <select name="links[type][]">
+      <option value="">----</option>
+      <% types.each do |type| %>
+        <option value="<%= type %>" <%= "selected" if link.type == type %>><%= type %></option>
       <% end %>
     </select>
   </label>
@@ -16,15 +33,5 @@
   <label>
     <span> </span>
     <input name="links[title][]" type="text" value="<%= link.title %>" /><br/>
-  </label>
-  <label>
-    <span> </span>
-    <% types = %w(stream parchase feed) %>
-    <select name="links[type][]">
-      <option value="">----</option>
-      <% types.each do |type| %>
-        <option value="<%= type %>" <%= "selected" if link.type == type %>><%= type %></option>
-      <% end %>
-    </select>
   </label>
 </div>

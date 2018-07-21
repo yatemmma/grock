@@ -2,38 +2,38 @@
 
 <main>
   <div class="col2">
-    <form action="/site/<%= item.code || "new" %>" method="post">
+    <form action="/admin/site/<%= item.code || "new" %>" method="post">
       <input name="_method" value="<%= method %>" type="hidden" />
 
-      <%= erb :"partials/form_text", locals: {item: item, key: "code"} %>
-      <%= erb :"partials/form_text", locals: {item: item, key: "name"} %>
-      <%= erb :"partials/form_text", locals: {item: item, key: "description"} %>
+      <%= erb :"admin/partials/form_text", locals: {item: item, key: "code"} %>
+      <%= erb :"admin/partials/form_text", locals: {item: item, key: "name"} %>
+      <%= erb :"admin/partials/form_text", locals: {item: item, key: "description"} %>
 
-      <%= erb :"partials/form_image", locals: {item: item, key: "icon_url"} %>
-      <%= erb :"partials/form_image", locals: {item: item, key: "thumbnail_url"} %>
-      <%= erb :"partials/form_image", locals: {item: item, key: "large_url"} %>
+      <%= erb :"admin/partials/form_image", locals: {item: item, key: "icon_url"} %>
+      <%= erb :"admin/partials/form_image", locals: {item: item, key: "thumbnail_url"} %>
+      <%= erb :"admin/partials/form_image", locals: {item: item, key: "large_url"} %>
 
-      <%= erb :"partials/form_text", locals: {item: item, key: "youtube_keys"} %>
+      <%= erb :"admin/partials/form_text", locals: {item: item, key: "youtube_keys"} %>
 
       <% item.tags.each do |tag| %>
-        <%= erb :"partials/form_tag", locals: {item: item, tag: tag} %>
+        <%= erb :"admin/partials/form_tag", locals: {item: item, tag: tag} %>
       <% end %>
-      <%= erb :"partials/form_tag", locals: {item: item, tag: GROCK::Tag.new} %>
+      <%= erb :"admin/partials/form_tag", locals: {item: item, tag: GROCK::Tag.new} %>
       <label>
         <span> </span>
         <button type="button" onclick="onClickButton(this, 'tag')">+</button>
       </label>
 
       <% item.links.each do |link| %>
-        <%= erb :"partials/form_link", locals: {item: item, link: link} %>
+        <%= erb :"admin/partials/form_link", locals: {item: item, link: link} %>
       <% end %>
-      <%= erb :"partials/form_link", locals: {item: item, link: GROCK::Link.new} %>
+      <%= erb :"admin/partials/form_link", locals: {item: item, link: GROCK::Link.new} %>
       <label>
         <span> </span>
         <button type="button" onclick="onClickButton(this, 'link')">+</button>
       </label>
 
-      <%= erb :"partials/form_body", locals: {item: item, key: "body"} %>
+      <%= erb :"admin/partials/form_body", locals: {item: item, key: "body"} %>
 
       <label>
         <span> </span>

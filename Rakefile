@@ -1,11 +1,16 @@
 require "sinatra/activerecord/rake"
 
-require "./models/models"
-require "./collectors/crawler"
-require "./admin/app"
-
-task :admin do
+task :app do
+  require "./controllers/app"
   App.run!
+end
+
+task :build do
+
+end
+
+task :gen do
+
 end
 
 task :crawl do

@@ -1,20 +1,20 @@
 class App < Sinatra::Base
-  get "/sites" do
+  get "/admin/sites" do
     sites = GROCK::Site.all
-    erb :sites, locals: {items: sites}
+    erb :"admin/sites", :layout => :"admin/layout", locals: {items: sites}
   end
 
-  get "/site/new" do
+  get "/admin/site/new" do
     site = GROCK::Site.new
-    erb :site, locals: {item: site, method: "post"}
+    erb :"admin/site", :layout => :"admin/layout", locals: {item: site, method: "post"}
   end
 
-  get "/site/:code" do |code|
+  get "/admin/site/:code" do |code|
     site = GROCK::Site.find_by(code: code)
-    erb :site, locals: {item: site, method: "put"}
+    erb :"admin/site", :layout => :"admin/layout", locals: {item: site, method: "put"}
   end
 
-  post "/site/new" do
+  post "/admin/site/new" do
     p params
     p 11111112
     p params[:entry]
@@ -41,7 +41,7 @@ class App < Sinatra::Base
     redirect "/site/#{params[:entry]["code"]}"
   end
 
-  put "/site/:code" do |code|
+  put "/admin/site/:code" do |code|
     p params
     ActiveRecord::Base.transaction do
       item = GROCK::Site.update(code, params[:entry])
@@ -68,7 +68,7 @@ class App < Sinatra::Base
     redirect "/site/#{code}"
   end
 
-  get "/site/:code/feed" do |code|
+  get "/admin/site/:code/feed" do |code|
     site = GROCK::Site.find_by(code: code)
 
     links = GROCK::Link.where(kind: "site", code: code, type: "feed")
@@ -102,7 +102,7 @@ class App < Sinatra::Base
     redirect "/site/#{code}"
   end
 
-  post "/api/get_title" do
+  post "/admin/api/get_title" do
     url = URI.unescape(params["url"])
     p 111, url
     source = open(url).read

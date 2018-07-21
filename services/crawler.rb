@@ -1,8 +1,6 @@
 require "simple-rss"
 require "open-uri"
 
-require "./models/models"
-
 module GROCK
   class Crawler
     def get_rss(url)

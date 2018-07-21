@@ -1,6 +1,6 @@
 class CreateDiscLabels < ActiveRecord::Migration[5.2]
   def change
-    create_table :disc_labels, id: false do |t|
+    create_table :disc_labels do |t|
       t.string   :disc_code
       t.string   :label_code
       t.string   :type

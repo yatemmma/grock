@@ -16,7 +16,7 @@ module GROCK
         File.write("db/yaml/#{model_sym}.yml", yaml)
       end
 
-      def inport_all
+      def import_all
         ActiveRecord::Base.connection.tables[2..-1].each do |table|
           self.import(table.singularize.to_sym)
         end

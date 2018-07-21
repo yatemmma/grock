@@ -1,6 +1,6 @@
 class CreateDiscBands < ActiveRecord::Migration[5.2]
   def change
-    create_table :disc_bands, id: false do |t|
+    create_table :disc_bands do |t|
       t.string   :disc_code
       t.string   :band_code
       t.string   :type

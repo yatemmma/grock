@@ -1,4 +1,5 @@
 require "sinatra/activerecord/rake"
+require "./models/_models"
 
 task :app do
   require "./controllers/app"
@@ -21,9 +22,9 @@ end
 task :export do
   require "./services/data_util"
   GROCK::DataUtil.export_all
-  # GROCK::Importer.export(:news_site)
 end
 
 task :import do
-  # GROCK::Importer.import(:news_site)
+  require "./services/data_util"
+  GROCK::DataUtil.import_all
 end

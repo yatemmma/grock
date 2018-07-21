@@ -1,0 +1,31 @@
+---
+- code: theprp_com
+  name: Theprp.com
+  description: Metal and Hardcore News plus Reviews and more
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-21 11:46:21.118440000 Z
+  updated_at: 2018-07-21 11:46:21.118440000 Z
+- code: chorus_fm
+  name: chorus.fm
+  description: Chorus.fm is a curated music destination for those looking for something
+    outside of the mainstream. News, reviews, forums, articles, and commentary. Founded
+    by Jason Tate.
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-21 12:36:30.385350000 Z
+  updated_at: 2018-07-21 12:36:30.385350000 Z
+- code: alternative_press
+  name: Alternative Press
+  description: ''
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-21 12:42:27.265059000 Z
+  updated_at: 2018-07-21 12:42:27.265059000 Z
+- code: rock_sound
+  name: Rock Sound
+  description: ''
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-21 12:49:36.479081000 Z
+  updated_at: 2018-07-21 12:49:36.479081000 Z

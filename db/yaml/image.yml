@@ -1,0 +1,41 @@
+---
+- kind: site
+  code: theprp_com
+  icon_url: https://www.theprp.com/wp-content/themes/theprp.v4.0.1/images/icons/favicon-32x32.png
+  icon_path: 
+  thumbnail_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx6TpoKFXXuvrctJlRkZXWzv7XbmZTEKR9S0MIhDdCXqXe4T1s
+  thumbnail_path: 
+  large_url: https://pbs.twimg.com/profile_images/1483083270/prp_logo.png
+  large_path: 
+  created_at: 2018-07-21 12:17:45.955271000 Z
+  updated_at: 2018-07-21 12:17:45.955271000 Z
+- kind: site
+  code: chorus_fm
+  icon_url: https://78.media.tumblr.com/avatar_0808a002a1c4_128.pnj
+  icon_path: 
+  thumbnail_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnKmoahbFcNJfw1J2UD0b1W8m0Uxm0VPRWZ7F6kcxPzcWKJIA
+  thumbnail_path: 
+  large_url: ''
+  large_path: 
+  created_at: 2018-07-21 12:36:30.390026000 Z
+  updated_at: 2018-07-21 12:36:30.390026000 Z
+- kind: site
+  code: rock_sound
+  icon_url: https://pbs.twimg.com/profile_images/1017800651945009153/3ynnfER0_400x400.jpg
+  icon_path: 
+  thumbnail_url: https://www.responsesource.com/content/uploads/2017/03/Rock-Sound.jpg
+  thumbnail_path: 
+  large_url: https://www.rocksound.tv/assets/uploads/rocksound_blacktwitter.jpg
+  large_path: 
+  created_at: 2018-07-21 12:49:36.484866000 Z
+  updated_at: 2018-07-21 12:49:36.484866000 Z
+- kind: site
+  code: alternative_press
+  icon_url: https://image.winudf.com/v2/image/Y29tLm1vYmlsZXJvYWRpZS5BbHRQcmVzc19pY29uXzBfZGQyNTgzNDM/icon.png?w=170&fakeurl=1&type=.png
+  icon_path: 
+  thumbnail_url: http://cdn.sixthman.net/sessions/images/press/alt-press-logo.jpg
+  thumbnail_path: 
+  large_url: http://turbo.vote/img/alternativepress.png
+  large_path: 
+  created_at: 2018-07-21 12:56:26.034119000 Z
+  updated_at: 2018-07-21 12:56:26.034119000 Z

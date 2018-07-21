@@ -1,0 +1,65 @@
+---
+- kind: site
+  code: theprp_com
+  type: ''
+  label: website
+  url: https://www.theprp.com/
+  title: Theprp.com | Metal And Hardcore News Plus Reviews And More
+  created_at: 2018-07-21 12:17:45.949958000 Z
+  updated_at: 2018-07-21 12:17:45.949958000 Z
+- kind: site
+  code: theprp_com
+  type: feed
+  label: ''
+  url: https://www.theprp.com/feed/
+  title: Theprp.com
+  created_at: 2018-07-21 12:17:45.951567000 Z
+  updated_at: 2018-07-21 12:17:45.951567000 Z
+- kind: site
+  code: chorus_fm
+  type: ''
+  label: website
+  url: https://chorus.fm/
+  title: chorus.fm
+  created_at: 2018-07-21 12:36:30.387505000 Z
+  updated_at: 2018-07-21 12:36:30.387505000 Z
+- kind: site
+  code: chorus_fm
+  type: feed
+  label: ''
+  url: https://chorus.fm/feed/
+  title: chorus.fm
+  created_at: 2018-07-21 12:36:30.388949000 Z
+  updated_at: 2018-07-21 12:36:30.388949000 Z
+- kind: site
+  code: rock_sound
+  type: ''
+  label: website
+  url: https://www.rocksound.tv/
+  title: Rock Music News and Reviews, Videos, Pictures and MP3s - Rock Sound
+  created_at: 2018-07-21 12:49:36.481968000 Z
+  updated_at: 2018-07-21 12:49:36.481968000 Z
+- kind: site
+  code: rock_sound
+  type: feed
+  label: ''
+  url: https://www.rocksound.tv/feeds/news/rss.xml
+  title: Rock Sound News
+  created_at: 2018-07-21 12:49:36.483670000 Z
+  updated_at: 2018-07-21 12:49:36.483670000 Z
+- kind: site
+  code: alternative_press
+  type: ''
+  label: website
+  url: https://www.altpress.com/
+  title: Home - Alternative Press
+  created_at: 2018-07-21 12:56:26.029209000 Z
+  updated_at: 2018-07-21 12:56:26.029209000 Z
+- kind: site
+  code: alternative_press
+  type: feed
+  label: ''
+  url: https://www.altpress.com/feed/
+  title: Alternative Press
+  created_at: 2018-07-21 12:56:26.030493000 Z
+  updated_at: 2018-07-21 12:56:26.030493000 Z

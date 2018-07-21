@@ -1,11 +1,11 @@
-<%= erb :"partials/header" %>
+<%= erb :"admin/partials/header" %>
 
 <main>
   News Site [<a href="/admin/site/new">new</a>]
 
   <ul>
   <% items.each do |item| %>
-    <li><a href="/admin/site/<%= item.code %>"><%= item.name %>:admin</li>
+    <li><a href="/admin/site/<%= item.code %>"><%= item.name %></a>: admin</li>
   <% end %>
   </li>
 </main>

@@ -86,14 +86,14 @@ class App < Sinatra::Base
         code: code,
         type: :rss,
         url: link.url,
-        source: source,
+        raw: source,
         error: error
       )
       unless m.valid?
         GROCK::Source.create(
           kind: "site",
           code: code,
-          url: url,
+          url: link.url,
           error: m.errors.messages.to_s
         )
       end

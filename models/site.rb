@@ -18,5 +18,9 @@ module GROCK
     def sources
       GROCK::Source.where(kind: :site, code: self.code).order(:created_at)
     end
+
+    def feeds
+      GROCK::Feed.where(kind: :site, code: self.code).order(:created_at)
+    end
   end
 end

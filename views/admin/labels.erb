@@ -1,0 +1,11 @@
+<%= erb :"admin/partials/header" %>
+
+<main>
+  News Label [<a href="/admin/label/new">new</a>]
+
+  <ul>
+  <% items.each do |item| %>
+    <li><a href="/admin/label/<%= item.code %>"><%= item.name %></a>: admin</li>
+  <% end %>
+  </li>
+</main>

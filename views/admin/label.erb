@@ -2,13 +2,14 @@
 
 <main>
   <div class="col2">
-    <form action="/admin/site/<%= item.code || "new" %>" method="post">
+    <form action="/admin/label/<%= item.code || "new" %>" method="post">
       <input name="_method" value="<%= method %>" type="hidden" />
 
       <%= erb :"admin/partials/form_text", locals: {item: item, key: "code"} %>
       <%= erb :"admin/partials/form_text", locals: {item: item, key: "name"} %>
       <%= erb :"admin/partials/form_text", locals: {item: item, key: "description"} %>
-
+      <%= erb :"admin/partials/form_text", locals: {item: item, key: "founded"} %>
+      
       <%= erb :"admin/partials/form_image", locals: {item: item, key: "icon_url"} %>
       <%= erb :"admin/partials/form_image", locals: {item: item, key: "thumbnail_url"} %>
       <%= erb :"admin/partials/form_image", locals: {item: item, key: "large_url"} %>
@@ -43,7 +44,7 @@
 
     <label>
       <span>feed </span>
-      <button type="button" onclick="location.href = '/admin/site/<%= item.code %>/feed'">feed</button>
+      <button type="button" onclick="location.href = '/admin/label/<%= item.code %>/feed'">feed</button>
     </label>
     <% item.sources.each do |source| %>
       <div>

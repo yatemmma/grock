@@ -9,15 +9,23 @@ class App < Sinatra::Base
     register Sinatra::Reloader
   end
 
+  helpers do
+    def erb_admin(template_name, options={})
+      options[:layout] = :"admin/layout" unless options.key? :layout
+      erb "admin/#{template_name}".to_sym, options
+    end
+  end
+
   enable :method_override
   set :views, "#{settings.root}/../views"
+  set :public_folder, "#{settings.root}/../public"
 
   get "/" do
-    erb :index, locals: {}
+    erb :index, locals: {title: "GROCK"}
   end
 
   get "/admin/" do
-    erb :"admin/index", :layout => :"admin/layout", locals: {}
+    erb_admin :index, locals: {title: "GROCK Admin"}
   end
 end
 

@@ -1,0 +1,11 @@
+<%= erb :"partials/header" %>
+
+<main>
+  News Label [<a href="/label/new">new</a>]
+
+  <ul>
+  <% items.each do |item| %>
+    <li><a href="/label/<%= item.code %>"><%= item.name %></li>
+  <% end %>
+  </li>
+</main>

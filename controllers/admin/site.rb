@@ -1,7 +1,7 @@
 class App < Sinatra::Base
   get "/admin/sites" do
     sites = GROCK::Site.all
-    erb_admin :sites, locals: {items: sites, title: "GROCK-Admin | Sites"}
+    erb_admin :sites, locals: {items: sites, title: "Admin | Sites"}
   end
 
   get "/admin/site/new" do

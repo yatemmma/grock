@@ -68,6 +68,43 @@
       width: 78%;
       margin-left: 10px;
     }
+    section.ope {
+      line-height: 32px;
+      margin: 4px;
+    }
+    .table .row {
+      border-top: 1px solid #aaa;
+    }
+    .table .row .cell {
+      height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      padding: 4px;
+      border-right: 1px solid #aaa;
+    }
+    .table .row .icon {
+      width: 60px;
+      height: 60px;
+      text-align: center;
+    }
+    .table .row .name {
+      width: 200px;
+    }
+    .table .row .tag {
+      width: 60px;
+    }
+    .table .row .genres,
+    .table .row .links {
+      width: 300px;
+    }
+    .table .row .genres div,
+    .table .row .links div {
+      display: inline-block;
+      margin: 2px 4px;
+      background-color: #eee;
+      padding: 1px 2px;
+      font-size: small;
+    }
   </style>
   <script>
     function ajaxPostRequest(url, params, callback) {

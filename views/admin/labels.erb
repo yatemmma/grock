@@ -1,11 +1,39 @@
 <%= erb :"admin/partials/header" %>
 
 <main>
-  News Label [<a href="/admin/label/new">new</a>]
+  <section class="ope">
+    <%= items.count %> items. [<a href="/admin/label/new">new</a>]
+  </section>
 
-  <ul>
-  <% items.each do |item| %>
-    <li><a href="/admin/label/<%= item.code %>"><%= item.name %></a>: admin</li>
-  <% end %>
-  </li>
+  <div class="table">
+    <% items.sort_by{|x| x.name}.each do |item| %>
+      <div class="row">
+        <div class="cell icon">
+          <img src="<%= item.image.icon_url %>" />
+        </div>
+        <div class="cell name link">
+          <a href="/admin/label/<%= item.code %>"><%= item.name %></a>
+        </div>
+        <div class="cell tag">
+          <%= "private" if item.tags.find {|x| x.key == "_private"} %>
+        </div>
+        <div class="cell genres">
+          <%=
+            item.tags.reject {|x| x.key == "_private"}
+                     .map {|x| "<div>#{x.key}</div>"}
+                     .join
+          %>
+        </div>
+        <div class="cell links">
+          <%=
+            item.links.map {|x| "<div><a target=\"_blank\" href=\"#{x.url}\">#{(x.label.empty?) ? x.type : x.label}</a></div>"}
+                     .join
+          %>
+        </div>
+        <div class="cell sources">
+          <%= item.sources.reject{|x| x.error}.first&.updated_at %>
+        </div>
+      </div>
+    <% end %>
+  </div>
 </main>

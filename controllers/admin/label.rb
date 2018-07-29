@@ -1,7 +1,7 @@
 class App < Sinatra::Base
   get "/admin/labels" do
     items = GROCK::Label.all
-    erb_admin :labels, locals: {items: items, title: "GROCK-Admin | Labels"}
+    erb_admin :labels, locals: {items: items, title: "Admin | Labels"}
   end
 
   get "/admin/label/new" do

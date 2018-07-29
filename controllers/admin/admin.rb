@@ -1,3 +1,10 @@
+require_relative "./band"
+require_relative "./disc"
+require_relative "./feed"
+require_relative "./label"
+require_relative "./site"
+require_relative "./source"
+
 class App < Sinatra::Base
   get "/admin/source/:id" do |id|
     x = GROCK::Source.find_by(id: id)

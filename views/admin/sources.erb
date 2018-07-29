@@ -1,0 +1,23 @@
+<%= erb :"admin/partials/header" %>
+
+<main>
+  [<a href="/admin/all_feed">all feed</a>]
+  <% items.reject{|x| x.error}.each do |source| %>
+    <div>
+      <span><a href="/admin/source/<%= source.id %>" target="_blank"><%= source.created_at %></a></span>
+      <span><%= source.kind %></span>
+      <span><%= source.code %></span>
+      <span><%= source.url %></span>
+      <span><a href="/admin/source2feed/<%= source.id %>" target="_blank"><%= escape_html (source.raw ? source.raw[0, 15] + "..." : "") %></a></span>
+    </div>
+  <% end %>
+  <% items.select{|x| x.error}.each do |source| %>
+    <div>
+      <span><a href="/admin/source/<%= source.id %>" target="_blank"><%= source.created_at %></a></span>
+      <span><%= source.kind %></span>
+      <span><%= source.code %></span>
+      <span><%= source.url %></span>
+      <span><%= source.error %></span>
+    </div>
+  <% end %>
+</main>

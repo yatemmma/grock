@@ -31,6 +31,4 @@ class App < Sinatra::Base
 end
 
 require_relative "./admin/admin"
-require_relative "./admin/site"
-require_relative "./admin/label"
 require_relative "./site"

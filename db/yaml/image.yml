@@ -10,16 +10,6 @@
   created_at: 2018-07-21 12:17:45.955271000 Z
   updated_at: 2018-07-21 12:17:45.955271000 Z
 - kind: site
-  code: chorus_fm
-  icon_url: https://78.media.tumblr.com/avatar_0808a002a1c4_128.pnj
-  icon_path: 
-  thumbnail_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnKmoahbFcNJfw1J2UD0b1W8m0Uxm0VPRWZ7F6kcxPzcWKJIA
-  thumbnail_path: 
-  large_url: ''
-  large_path: 
-  created_at: 2018-07-21 12:36:30.390026000 Z
-  updated_at: 2018-07-21 12:36:30.390026000 Z
-- kind: site
   code: rock_sound
   icon_url: https://pbs.twimg.com/profile_images/1017800651945009153/3ynnfER0_400x400.jpg
   icon_path: 
@@ -39,3 +29,253 @@
   large_path: 
   created_at: 2018-07-21 12:56:26.034119000 Z
   updated_at: 2018-07-21 12:56:26.034119000 Z
+- kind: label
+  code: sumerian_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/30222188_10156394124776908_3562323328251100386_n.jpg?_nc_cat=0&oh=682a5b5501263b7f2faff0dbf33d173b&oe=5BD71BA7
+  icon_path: 
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/en/5/58/Sumerian_Records.jpg
+  thumbnail_path: 
+  large_url: https://cdn.shopify.com/s/files/1/0737/5587/collections/sumerian-records-banner_2048x.png?v=148775376
+  large_path: 
+  created_at: 2018-07-27 14:28:59.196875000 Z
+  updated_at: 2018-07-27 14:28:59.196875000 Z
+- kind: site
+  code: chorus_fm
+  icon_url: https://78.media.tumblr.com/avatar_0808a002a1c4_128.pnj
+  icon_path: 
+  thumbnail_url: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnKmoahbFcNJfw1J2UD0b1W8m0Uxm0VPRWZ7F6kcxPzcWKJIA
+  thumbnail_path: 
+  large_url: ''
+  large_path: 
+  created_at: 2018-07-27 14:29:08.939098000 Z
+  updated_at: 2018-07-27 14:29:08.939098000 Z
+- kind: label
+  code: artery_recordings
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/12115424_10153341316438878_1938543534313715749_n.jpg?_nc_cat=0&oh=16d06cef0cd3e60e6821cf6a2fbb9e06&oe=5C125C60
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: https://yt3.ggpht.com/a-/AJLlDp1lpAHJswaRFUZcGckxEBUz6a0-7l1WvyIaUw=s900-mo-c-c0xffffffff-rj-k-no
+  large_path: 
+  created_at: 2018-07-28 13:48:10.125796000 Z
+  updated_at: 2018-07-28 13:48:10.125796000 Z
+- kind: label
+  code: epitaph_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/1374200_10152316516204208_1239934618_n.jpg?_nc_cat=0&oh=03cbf3b82c1bd77640417983e29b8390&oe=5BCFEBF0
+  icon_path: 
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Epitaph_Records_Logo.svg/180px-Epitaph_Records_Logo.svg.png
+  thumbnail_path: 
+  large_url: https://yt3.ggpht.com/a-/ACSszfFddoLU91ZjSce8aH0Q-GCm8Wq7tPuHQqcc0A=s900-mo-c-c0xffffffff-rj-k-no
+  large_path: 
+  created_at: 2018-07-28 14:17:17.745947000 Z
+  updated_at: 2018-07-28 14:17:17.745947000 Z
+- kind: label
+  code: equal_vision_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/12279177_10153754933663910_4929627557333051512_n.jpg?_nc_cat=0&oh=6cc86e565ac0502a129d18b3d146a9f6&oe=5C0F5E15
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: http://www.equalvision.com/wp-content/uploads/2015/11/equalvision-facebook.png
+  large_path: 
+  created_at: 2018-07-28 14:50:41.504065000 Z
+  updated_at: 2018-07-28 14:50:41.504065000 Z
+- kind: label
+  code: fearless_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/29101494_10155330244369080_656766889899744858_n.jpg?_nc_cat=0&oh=33f4da676a41238f6543b2098c4a65d7&oe=5BCDAF71
+  icon_path: 
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/en/4/4f/Fearless_Records_Logo_2014.jpg
+  thumbnail_path: 
+  large_url: https://pbs.twimg.com/profile_images/973234380943458304/rp-4M0D8_400x400.jpg
+  large_path: 
+  created_at: 2018-07-28 15:00:08.476001000 Z
+  updated_at: 2018-07-28 15:00:08.476001000 Z
+- kind: label
+  code: garimpeiro_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/c0.0.50.50/p50x50/1525688_763738306988781_407966299_n.jpg?_nc_cat=0&oh=319ac85adb9e13665bf4b26a9e36c22f&oe=5C11AE56
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: https://f4.bcbits.com/img/0003855158_100.png
+  large_path: 
+  created_at: 2018-07-28 15:06:30.938387000 Z
+  updated_at: 2018-07-28 15:06:30.938387000 Z
+- kind: label
+  code: hopeless_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/35844734_10156263911948070_7606676252774105088_n.jpg?_nc_cat=0&oh=87858ab1d6301a5cbcba0123e420fd3e&oe=5BC9D1E9
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: https://imageservicestoreag.blob.core.windows.net/imagecatalog/70457de6a0e946b086857592761c8e80v1.jpeg
+  large_path: 
+  created_at: 2018-07-28 15:12:27.414194000 Z
+  updated_at: 2018-07-28 15:12:27.414194000 Z
+- kind: label
+  code: invogue_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/31958142_2014457088595345_9070681968047292416_n.jpg?_nc_cat=0&oh=7dc93c128e5b83ce343a3e6d57b4292b&oe=5C0C255D
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: http://i.ytimg.com/vi/muPzzaELDaQ/maxresdefault.jpg
+  large_path: 
+  created_at: 2018-07-28 15:17:39.225298000 Z
+  updated_at: 2018-07-28 15:17:39.225298000 Z
+- kind: label
+  code: mediaskare_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/996720_616360928382359_681878111_n.jpg?_nc_cat=0&oh=7dc74c9386636c36c880e1cf7024fd03&oe=5BC91012
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: ''
+  large_path: 
+  created_at: 2018-07-28 16:10:06.887409000 Z
+  updated_at: 2018-07-28 16:10:06.887409000 Z
+- kind: label
+  code: redfield_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/529018_10151464447871425_1575752267_n.jpg?_nc_cat=0&oh=9c6506f8e1f5e354b5e75cd896d3e9f9&oe=5BCA562C
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: ''
+  large_path: 
+  created_at: 2018-07-28 16:16:50.732229000 Z
+  updated_at: 2018-07-28 16:16:50.732229000 Z
+- kind: label
+  code: rise_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/29066389_10156216550812495_8270489202977047480_n.jpg?_nc_cat=0&oh=c6df3a84d1d2a0f0e73d98e9bf5267ee&oe=5BD05838
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: https://www.creativeman.co.jp/wp-content/uploads/2016/07/riserecords-1.jpg
+  large_path: 
+  created_at: 2018-07-28 16:36:27.660618000 Z
+  updated_at: 2018-07-28 16:36:27.660618000 Z
+- kind: label
+  code: self_released
+  icon_url: ''
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: ''
+  large_path: 
+  created_at: 2018-07-28 17:08:05.326147000 Z
+  updated_at: 2018-07-28 17:08:05.326147000 Z
+- kind: label
+  code: solid_state_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/32835169_10155491039042592_3486067917273956352_n.jpg?_nc_cat=0&oh=b07d9da6a180d487cc3af551c6773883&oe=5BCBCF5F
+  icon_path: 
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/de/f/f8/Solid_state.jpg
+  thumbnail_path: 
+  large_url: ''
+  large_path: 
+  created_at: 2018-07-28 17:16:46.427410000 Z
+  updated_at: 2018-07-28 17:16:46.427410000 Z
+- kind: label
+  code: standby_records
+  icon_url: ''
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: https://yt3.ggpht.com/a-/AJLlDp3HR5jnjrT7TxREDL-UOflzmDnvtINU4927ww=s900-mo-c-c0xffffffff-rj-k-no
+  large_path: 
+  created_at: 2018-07-29 07:43:46.226045000 Z
+  updated_at: 2018-07-29 07:43:46.226045000 Z
+- kind: label
+  code: taperjean_records
+  icon_url: ''
+  icon_path: 
+  thumbnail_url: https://pbs.twimg.com/profile_images/471931775/taperjean_logo_400x400.jpg
+  thumbnail_path: 
+  large_url: ''
+  large_path: 
+  created_at: 2018-07-29 07:48:53.179467000 Z
+  updated_at: 2018-07-29 07:48:53.179467000 Z
+- kind: label
+  code: tooth_and_nail_records
+  icon_url: ''
+  icon_path: 
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/en/0/03/Tooth_and_Nail_Records_logo.png
+  thumbnail_path: 
+  large_url: https://static1.squarespace.com/static/59fa3d8f692ebedf97af7b3c/t/5aa9a31de2c4830ec1364d73/1524615163445/?format=1500w
+  large_path: 
+  created_at: 2018-07-29 08:11:47.679163000 Z
+  updated_at: 2018-07-29 08:11:47.679163000 Z
+- kind: label
+  code: tragic_hero_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/17155220_1338162276267349_4078506803354425996_n.jpg?_nc_cat=0&oh=301a5e47e45a00b1603fa2e1ea4ca68a&oe=5BCDC72C
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p480x480/17155220_1338162276267349_4078506803354425996_n.jpg?_nc_cat=0&oh=ade5f02e41570f38837fea7c0dc9898b&oe=5B7DA1B5
+  large_path: 
+  created_at: 2018-07-29 08:15:30.612486000 Z
+  updated_at: 2018-07-29 08:15:30.612486000 Z
+- kind: label
+  code: trustkill_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/c0.0.50.50/p50x50/1931166_44923761101_2814_n.jpg?_nc_cat=0&oh=d95c2d57182510229a350870d43f95c5&oe=5C125AA7
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: https://yt3.ggpht.com/a-/AJLlDp3H3JWaVKVzT4jEFQ3t_WE037uvDJoueDmUtw=s900-mo-c-c0xffffffff-rj-k-no
+  large_path: 
+  created_at: 2018-07-29 08:22:18.196173000 Z
+  updated_at: 2018-07-29 08:22:18.196173000 Z
+- kind: label
+  code: bullet_tooth_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/426621_332681976767116_1200919871_n.jpg?_nc_cat=0&oh=53aee0581606a37ece9c5ee596899608&oe=5BCB7C1E
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: https://f4.bcbits.com/img/0001500818_10.jpg
+  large_path: 
+  created_at: 2018-07-29 08:29:51.244833000 Z
+  updated_at: 2018-07-29 08:29:51.244833000 Z
+- kind: label
+  code: unfd
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/21371151_1173958972747859_5688984157537681431_n.png?_nc_cat=0&oh=a95f9c8bb51d5c7200a6d1392f639f48&oe=5BCE4EC4
+  icon_path: 
+  thumbnail_url: https://pbs.twimg.com/profile_images/887433161637941252/R9VfcjQZ_400x400.jpg
+  thumbnail_path: 
+  large_url: ''
+  large_path: 
+  created_at: 2018-07-29 12:05:46.555258000 Z
+  updated_at: 2018-07-29 12:05:46.555258000 Z
+- kind: label
+  code: uprising_records
+  icon_url: ''
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: ''
+  large_path: 
+  created_at: 2018-07-29 12:09:50.755997000 Z
+  updated_at: 2018-07-29 12:09:50.755997000 Z
+- kind: label
+  code: victory_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/11892149_10153528043804889_7054242963717303744_n.jpg?_nc_cat=0&oh=ddd0cb91df33f503617f565e5e14e345&oe=5BD3E532
+  icon_path: 
+  thumbnail_url: https://upload.wikimedia.org/wikipedia/en/c/c2/VictoryRecords.png
+  thumbnail_path: 
+  large_url: ''
+  large_path: 
+  created_at: 2018-07-29 12:19:15.830492000 Z
+  updated_at: 2018-07-29 12:19:15.830492000 Z
+- kind: label
+  code: zestone_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/10414377_770510139637440_8793427447578261324_n.jpg?_nc_cat=0&oh=dcacdf5ff2e8d3af7073b9ac9d57f12a&oe=5BC5D198
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: https://s3.amazonaws.com/bit-photos/large/6608294.jpeg
+  large_path: 
+  created_at: 2018-07-29 12:26:17.973755000 Z
+  updated_at: 2018-07-29 12:26:17.973755000 Z
+- kind: label
+  code: vagrant_records
+  icon_url: https://scontent-nrt1-1.xx.fbcdn.net/v/t1.0-1/p50x50/14572297_10154570219674120_7676182249427431214_n.png?_nc_cat=0&oh=225c446921088edf453bc22ba0064131&oe=5BD48963
+  icon_path: 
+  thumbnail_url: ''
+  thumbnail_path: 
+  large_url: http://vagrant.com/images/fb.jpg
+  large_path: 
+  created_at: 2018-07-29 12:33:23.681901000 Z
+  updated_at: 2018-07-29 12:33:23.681901000 Z

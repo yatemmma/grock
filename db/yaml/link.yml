@@ -16,22 +16,6 @@
   created_at: 2018-07-21 12:17:45.951567000 Z
   updated_at: 2018-07-21 12:17:45.951567000 Z
 - kind: site
-  code: chorus_fm
-  type: ''
-  label: website
-  url: https://chorus.fm/
-  title: chorus.fm
-  created_at: 2018-07-21 12:36:30.387505000 Z
-  updated_at: 2018-07-21 12:36:30.387505000 Z
-- kind: site
-  code: chorus_fm
-  type: feed
-  label: ''
-  url: https://chorus.fm/feed/
-  title: chorus.fm
-  created_at: 2018-07-21 12:36:30.388949000 Z
-  updated_at: 2018-07-21 12:36:30.388949000 Z
-- kind: site
   code: rock_sound
   type: ''
   label: website
@@ -63,3 +47,1181 @@
   title: Alternative Press
   created_at: 2018-07-21 12:56:26.030493000 Z
   updated_at: 2018-07-21 12:56:26.030493000 Z
+- kind: label
+  code: sumerian_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/SumerianRecords
+  title: Sumerian Records - YouTube
+  created_at: 2018-07-27 14:28:59.184510000 Z
+  updated_at: 2018-07-27 14:28:59.184510000 Z
+- kind: label
+  code: sumerian_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/sumerianrecords
+  title: Sumerian Records (@SumerianRecords) | Twitter
+  created_at: 2018-07-27 14:28:59.185760000 Z
+  updated_at: 2018-07-27 14:28:59.185760000 Z
+- kind: label
+  code: sumerian_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Sumerian_Records
+  title: Sumerian Records - Wikipedia
+  created_at: 2018-07-27 14:28:59.186821000 Z
+  updated_at: 2018-07-27 14:28:59.186821000 Z
+- kind: label
+  code: sumerian_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/SumerianRecords/
+  title: Sumerian Records - Home | Facebook
+  created_at: 2018-07-27 14:28:59.187871000 Z
+  updated_at: 2018-07-27 14:28:59.187871000 Z
+- kind: label
+  code: sumerian_records
+  type: ''
+  label: website
+  url: http://www.sumerianrecords.com/
+  title: Sumerian Records
+  created_at: 2018-07-27 14:28:59.188757000 Z
+  updated_at: 2018-07-27 14:28:59.188757000 Z
+- kind: site
+  code: chorus_fm
+  type: ''
+  label: website
+  url: https://chorus.fm/
+  title: chorus.fm
+  created_at: 2018-07-27 14:29:08.935966000 Z
+  updated_at: 2018-07-27 14:29:08.935966000 Z
+- kind: site
+  code: chorus_fm
+  type: feed
+  label: ''
+  url: https://chorus.fm/feed/
+  title: chorus.fm
+  created_at: 2018-07-27 14:29:08.937056000 Z
+  updated_at: 2018-07-27 14:29:08.937056000 Z
+- kind: label
+  code: artery_recordings
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Artery_Recordings
+  title: Artery Recordings - Wikipedia
+  created_at: 2018-07-28 13:48:10.114823000 Z
+  updated_at: 2018-07-28 13:48:10.114823000 Z
+- kind: label
+  code: artery_recordings
+  type: ''
+  label: website
+  url: http://arteryrecordings.com/
+  title: Artery Recordings | The official site of Artery Recordings
+  created_at: 2018-07-28 13:48:10.116001000 Z
+  updated_at: 2018-07-28 13:48:10.116001000 Z
+- kind: label
+  code: artery_recordings
+  type: feed
+  label: ''
+  url: http://arteryrecordings.com/feed/
+  title: Artery Recordings
+  created_at: 2018-07-28 13:48:10.117128000 Z
+  updated_at: 2018-07-28 13:48:10.117128000 Z
+- kind: label
+  code: artery_recordings
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/ArteryRecordings/
+  title: Artery Recordings - Home | Facebook
+  created_at: 2018-07-28 13:48:10.118130000 Z
+  updated_at: 2018-07-28 13:48:10.118130000 Z
+- kind: label
+  code: artery_recordings
+  type: feed
+  label: twitter
+  url: https://twitter.com/arteryrecording
+  title: Artery Recordings (@arteryrecording) | Twitter
+  created_at: 2018-07-28 13:48:10.119003000 Z
+  updated_at: 2018-07-28 13:48:10.119003000 Z
+- kind: label
+  code: artery_recordings
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/ArteryRecordings
+  title: ArteryRecordings - YouTube
+  created_at: 2018-07-28 13:48:10.119961000 Z
+  updated_at: 2018-07-28 13:48:10.119961000 Z
+- kind: label
+  code: epitaph_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Epitaph_Records
+  title: Epitaph Records - Wikipedia
+  created_at: 2018-07-28 14:17:17.732324000 Z
+  updated_at: 2018-07-28 14:17:17.732324000 Z
+- kind: label
+  code: epitaph_records
+  type: ''
+  label: website
+  url: http://epitaph.com/
+  title: Epitaph Records
+  created_at: 2018-07-28 14:17:17.733475000 Z
+  updated_at: 2018-07-28 14:17:17.733475000 Z
+- kind: label
+  code: epitaph_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/epitaphrecords
+  title: Epitaph Records - Home | Facebook
+  created_at: 2018-07-28 14:17:17.734656000 Z
+  updated_at: 2018-07-28 14:17:17.734656000 Z
+- kind: label
+  code: epitaph_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/epitaphrecords
+  title: Epitaph Records (@epitaphrecords) | Twitter
+  created_at: 2018-07-28 14:17:17.735563000 Z
+  updated_at: 2018-07-28 14:17:17.735563000 Z
+- kind: label
+  code: epitaph_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/EpitaphRecords
+  title: Epitaph Records - YouTube
+  created_at: 2018-07-28 14:17:17.736413000 Z
+  updated_at: 2018-07-28 14:17:17.736413000 Z
+- kind: label
+  code: epitaph_records
+  type: ''
+  label: spotify
+  url: https://open.spotify.com/user/epitaphrecords
+  title: Epitaph on Spotify
+  created_at: 2018-07-28 14:17:17.737594000 Z
+  updated_at: 2018-07-28 14:17:17.737594000 Z
+- kind: label
+  code: epitaph_records
+  type: ''
+  label: tumbler
+  url: https://epitaphrecords.tumblr.com/
+  title: Epitaph Records
+  created_at: 2018-07-28 14:17:17.738815000 Z
+  updated_at: 2018-07-28 14:17:17.738815000 Z
+- kind: label
+  code: epitaph_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/epitaphrecords/
+  title: Epitaph Records (@epitaphrecords) • Instagram photos and videos
+  created_at: 2018-07-28 14:17:17.739945000 Z
+  updated_at: 2018-07-28 14:17:17.739945000 Z
+- kind: label
+  code: equal_vision_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Equal_Vision_Records
+  title: Equal Vision Records - Wikipedia
+  created_at: 2018-07-28 14:50:41.489452000 Z
+  updated_at: 2018-07-28 14:50:41.489452000 Z
+- kind: label
+  code: equal_vision_records
+  type: ''
+  label: website
+  url: http://www.equalvision.com/
+  title: Equal Vision Records
+  created_at: 2018-07-28 14:50:41.490497000 Z
+  updated_at: 2018-07-28 14:50:41.490497000 Z
+- kind: label
+  code: equal_vision_records
+  type: feed
+  label: ''
+  url: http://www.equalvision.com/feed/
+  title: Equal Vision Records
+  created_at: 2018-07-28 14:50:41.491984000 Z
+  updated_at: 2018-07-28 14:50:41.491984000 Z
+- kind: label
+  code: equal_vision_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/equalvision
+  title: Equal Vision Records - YouTube
+  created_at: 2018-07-28 14:50:41.493092000 Z
+  updated_at: 2018-07-28 14:50:41.493092000 Z
+- kind: label
+  code: equal_vision_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/equalvision
+  title: Equal Vision Records (@equalvision) | Twitter
+  created_at: 2018-07-28 14:50:41.494003000 Z
+  updated_at: 2018-07-28 14:50:41.494003000 Z
+- kind: label
+  code: equal_vision_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/equalvision/
+  title: Equal Vision Records - Home | Facebook
+  created_at: 2018-07-28 14:50:41.494923000 Z
+  updated_at: 2018-07-28 14:50:41.494923000 Z
+- kind: label
+  code: equal_vision_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/equalvision/
+  title: Equal Vision Records (@equalvision) • Instagram photos and videos
+  created_at: 2018-07-28 14:50:41.495810000 Z
+  updated_at: 2018-07-28 14:50:41.495810000 Z
+- kind: label
+  code: equal_vision_records
+  type: ''
+  label: tumbler
+  url: http://blog.equalvision.com/
+  title: Equal Vision Records
+  created_at: 2018-07-28 14:50:41.496652000 Z
+  updated_at: 2018-07-28 14:50:41.496652000 Z
+- kind: label
+  code: equal_vision_records
+  type: ''
+  label: soundcloud
+  url: https://soundcloud.com/equalvision
+  title: Equal Vision Records | Free Listening on SoundCloud
+  created_at: 2018-07-28 14:50:41.497643000 Z
+  updated_at: 2018-07-28 14:50:41.497643000 Z
+- kind: label
+  code: fearless_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Fearless_Records
+  title: Fearless Records - Wikipedia
+  created_at: 2018-07-28 15:00:08.462851000 Z
+  updated_at: 2018-07-28 15:00:08.462851000 Z
+- kind: label
+  code: fearless_records
+  type: ''
+  label: website
+  url: http://www.fearlessrecords.com/
+  title: Fearless Records | Join The Fearless Family
+  created_at: 2018-07-28 15:00:08.464203000 Z
+  updated_at: 2018-07-28 15:00:08.464203000 Z
+- kind: label
+  code: fearless_records
+  type: feed
+  label: ''
+  url: http://www.fearlessrecords.com/feed/
+  title: Fearless Records
+  created_at: 2018-07-28 15:00:08.465314000 Z
+  updated_at: 2018-07-28 15:00:08.465314000 Z
+- kind: label
+  code: fearless_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/FearlessRecords
+  title: Fearless Records - YouTube
+  created_at: 2018-07-28 15:00:08.466342000 Z
+  updated_at: 2018-07-28 15:00:08.466342000 Z
+- kind: label
+  code: fearless_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/fearlessrecords
+  title: Fearless Records (@FearlessRecords) | Twitter
+  created_at: 2018-07-28 15:00:08.467291000 Z
+  updated_at: 2018-07-28 15:00:08.467291000 Z
+- kind: label
+  code: fearless_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/fearlessrecords/
+  title: Fearless Records - Home | Facebook
+  created_at: 2018-07-28 15:00:08.468368000 Z
+  updated_at: 2018-07-28 15:00:08.468368000 Z
+- kind: label
+  code: fearless_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/fearlessrecords/
+  title: Fearless Records (@fearlessrecords) • Instagram photos and videos
+  created_at: 2018-07-28 15:00:08.469595000 Z
+  updated_at: 2018-07-28 15:00:08.469595000 Z
+- kind: label
+  code: fearless_records
+  type: ''
+  label: spotify
+  url: https://open.spotify.com/user/fearlessrecords
+  title: Fearless Records on Spotify
+  created_at: 2018-07-28 15:00:08.470438000 Z
+  updated_at: 2018-07-28 15:00:08.470438000 Z
+- kind: label
+  code: garimpeiro_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/GarimpeiroRecords/
+  title: Garimpeiro Records - Home | Facebook
+  created_at: 2018-07-28 15:06:30.934095000 Z
+  updated_at: 2018-07-28 15:06:30.934095000 Z
+- kind: label
+  code: garimpeiro_records
+  type: ''
+  label: website
+  url: http://garimpeirorecords.wixsite.com/garimpeirorecords
+  title: Garimpeiro Records | ガリンペイロ・レコーズ
+  created_at: 2018-07-28 15:06:30.935320000 Z
+  updated_at: 2018-07-28 15:06:30.935320000 Z
+- kind: label
+  code: garimpeiro_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/garimpeiro_jp
+  title: Garimpeiro Records (@garimpeiro_jp) | Twitter
+  created_at: 2018-07-28 15:06:30.936248000 Z
+  updated_at: 2018-07-28 15:06:30.936248000 Z
+- kind: label
+  code: hopeless_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Hopeless_Records
+  title: Hopeless Records - Wikipedia
+  created_at: 2018-07-28 15:12:27.402835000 Z
+  updated_at: 2018-07-28 15:12:27.402835000 Z
+- kind: label
+  code: hopeless_records
+  type: ''
+  label: website
+  url: https://www.hopelessrecords.com/
+  title: Hopeless Records
+  created_at: 2018-07-28 15:12:27.404089000 Z
+  updated_at: 2018-07-28 15:12:27.404089000 Z
+- kind: label
+  code: hopeless_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/HopelessRecords
+  title: Hopeless Records - YouTube
+  created_at: 2018-07-28 15:12:27.405243000 Z
+  updated_at: 2018-07-28 15:12:27.405243000 Z
+- kind: label
+  code: hopeless_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/hopelessrecords
+  title: Hopeless Records (@hopelessrecords) | Twitter
+  created_at: 2018-07-28 15:12:27.406206000 Z
+  updated_at: 2018-07-28 15:12:27.406206000 Z
+- kind: label
+  code: hopeless_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/hopelessrecords/
+  title: Hopeless Records - Home | Facebook
+  created_at: 2018-07-28 15:12:27.407033000 Z
+  updated_at: 2018-07-28 15:12:27.407033000 Z
+- kind: label
+  code: hopeless_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/hopelessrecords/
+  title: Hopeless Records (@hopelessrecords) • Instagram photos and videos
+  created_at: 2018-07-28 15:12:27.407910000 Z
+  updated_at: 2018-07-28 15:12:27.407910000 Z
+- kind: label
+  code: hopeless_records
+  type: ''
+  label: spotify
+  url: https://open.spotify.com/user/hopelessrecords
+  title: Hopeless Records on Spotify
+  created_at: 2018-07-28 15:12:27.408718000 Z
+  updated_at: 2018-07-28 15:12:27.408718000 Z
+- kind: label
+  code: hopeless_records
+  type: ''
+  label: tumbler
+  url: http://hopelessrecords.tumblr.com/
+  title: Hopeless Records
+  created_at: 2018-07-28 15:12:27.409522000 Z
+  updated_at: 2018-07-28 15:12:27.409522000 Z
+- kind: label
+  code: invogue_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/InVogue_Records
+  title: InVogue Records - Wikipedia
+  created_at: 2018-07-28 15:17:39.208325000 Z
+  updated_at: 2018-07-28 15:17:39.208325000 Z
+- kind: label
+  code: invogue_records
+  type: ''
+  label: website
+  url: https://www.invoguerecords.com/
+  title: InVogue Records
+  created_at: 2018-07-28 15:17:39.209327000 Z
+  updated_at: 2018-07-28 15:17:39.209327000 Z
+- kind: label
+  code: invogue_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/invoguerecords
+  title: invoguerecords - YouTube
+  created_at: 2018-07-28 15:17:39.210498000 Z
+  updated_at: 2018-07-28 15:17:39.210498000 Z
+- kind: label
+  code: invogue_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/invoguerecords
+  title: InVogue Records (@invoguerecords) | Twitter
+  created_at: 2018-07-28 15:17:39.211481000 Z
+  updated_at: 2018-07-28 15:17:39.211481000 Z
+- kind: label
+  code: invogue_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/invoguerecords/
+  title: InVogue Records - Home | Facebook
+  created_at: 2018-07-28 15:17:39.212715000 Z
+  updated_at: 2018-07-28 15:17:39.212715000 Z
+- kind: label
+  code: invogue_records
+  type: ''
+  label: soundcloud
+  url: https://soundcloud.com/invoguerecords
+  title: InVogue Records | Free Listening on SoundCloud
+  created_at: 2018-07-28 15:17:39.214411000 Z
+  updated_at: 2018-07-28 15:17:39.214411000 Z
+- kind: label
+  code: invogue_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/invoguerecords/
+  title: InVogue Records (@invoguerecords) • Instagram photos and videos
+  created_at: 2018-07-28 15:17:39.215491000 Z
+  updated_at: 2018-07-28 15:17:39.215491000 Z
+- kind: label
+  code: invogue_records
+  type: ''
+  label: spotify
+  url: https://open.spotify.com/user/invoguerecords
+  title: InVogue Records on Spotify
+  created_at: 2018-07-28 15:17:39.216485000 Z
+  updated_at: 2018-07-28 15:17:39.216485000 Z
+- kind: label
+  code: mediaskare_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Mediaskare_Records
+  title: Mediaskare Records - Wikipedia
+  created_at: 2018-07-28 16:10:06.875960000 Z
+  updated_at: 2018-07-28 16:10:06.875960000 Z
+- kind: label
+  code: mediaskare_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/MediaskareTV
+  title: Mediaskare Records - YouTube
+  created_at: 2018-07-28 16:10:06.877513000 Z
+  updated_at: 2018-07-28 16:10:06.877513000 Z
+- kind: label
+  code: mediaskare_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/mediaskare
+  title: Mediaskare Records (@Mediaskare) | Twitter
+  created_at: 2018-07-28 16:10:06.879388000 Z
+  updated_at: 2018-07-28 16:10:06.879388000 Z
+- kind: label
+  code: mediaskare_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/mediaskare/
+  title: Mediaskare Records - Home | Facebook
+  created_at: 2018-07-28 16:10:06.880792000 Z
+  updated_at: 2018-07-28 16:10:06.880792000 Z
+- kind: label
+  code: redfield_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Redfield_Records
+  title: Redfield Records - Wikipedia
+  created_at: 2018-07-28 16:16:50.717092000 Z
+  updated_at: 2018-07-28 16:16:50.717092000 Z
+- kind: label
+  code: redfield_records
+  type: ''
+  label: website
+  url: https://redfield-records.com/
+  title: Redfield Records / Kursaal / Redfield Digital / Redfield Publishing
+  created_at: 2018-07-28 16:16:50.718790000 Z
+  updated_at: 2018-07-28 16:16:50.718790000 Z
+- kind: label
+  code: redfield_records
+  type: feed
+  label: facebook
+  url: https://www.youtube.com/user/redfieldrecords
+  title: Redfield Records - YouTube
+  created_at: 2018-07-28 16:16:50.719800000 Z
+  updated_at: 2018-07-28 16:16:50.719800000 Z
+- kind: label
+  code: redfield_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/redfieldrecords
+  title: Redfield Records (@redfieldrecords) | Twitter
+  created_at: 2018-07-28 16:16:50.720668000 Z
+  updated_at: 2018-07-28 16:16:50.720668000 Z
+- kind: label
+  code: redfield_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/redfieldrecords/
+  title: Redfield Records - Home | Facebook
+  created_at: 2018-07-28 16:16:50.721773000 Z
+  updated_at: 2018-07-28 16:16:50.721773000 Z
+- kind: label
+  code: redfield_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/redfieldrecords/
+  title: Redfield Records (@redfieldrecords) • Instagram photos and videos
+  created_at: 2018-07-28 16:16:50.722700000 Z
+  updated_at: 2018-07-28 16:16:50.722700000 Z
+- kind: label
+  code: redfield_records
+  type: ''
+  label: pinterest
+  url: https://pinterest.com/redfieldrecords
+  title: Redfield Records (redfieldrecords) on Pinterest
+  created_at: 2018-07-28 16:16:50.723831000 Z
+  updated_at: 2018-07-28 16:16:50.723831000 Z
+- kind: label
+  code: rise_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Rise_Records
+  title: Rise Records - Wikipedia
+  created_at: 2018-07-28 16:36:27.643776000 Z
+  updated_at: 2018-07-28 16:36:27.643776000 Z
+- kind: label
+  code: rise_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/RiseRecords/
+  title: Rise Records - Home | Facebook
+  created_at: 2018-07-28 16:36:27.644726000 Z
+  updated_at: 2018-07-28 16:36:27.644726000 Z
+- kind: label
+  code: rise_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/riserecords
+  title: Rise Records (@riserecords) | Twitter
+  created_at: 2018-07-28 16:36:27.645659000 Z
+  updated_at: 2018-07-28 16:36:27.645659000 Z
+- kind: label
+  code: rise_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/riserecords
+  title: riserecords - YouTube
+  created_at: 2018-07-28 16:36:27.646682000 Z
+  updated_at: 2018-07-28 16:36:27.646682000 Z
+- kind: label
+  code: rise_records
+  type: ''
+  label: website
+  url: http://www.riserecords.com/
+  title: Rise Records - Home
+  created_at: 2018-07-28 16:36:27.647679000 Z
+  updated_at: 2018-07-28 16:36:27.647679000 Z
+- kind: label
+  code: rise_records
+  type: ''
+  label: spotify
+  url: https://open.spotify.com/user/riserecords
+  title: Rise Records on Spotify
+  created_at: 2018-07-28 16:36:27.648580000 Z
+  updated_at: 2018-07-28 16:36:27.648580000 Z
+- kind: label
+  code: rise_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/riserecords/
+  title: Rise Records (@riserecords) • Instagram photos and videos
+  created_at: 2018-07-28 16:36:27.649472000 Z
+  updated_at: 2018-07-28 16:36:27.649472000 Z
+- kind: label
+  code: solid_state_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Solid_State_Records
+  title: Solid State Records - Wikipedia
+  created_at: 2018-07-28 17:16:46.413889000 Z
+  updated_at: 2018-07-28 17:16:46.413889000 Z
+- kind: label
+  code: solid_state_records
+  type: ''
+  label: website
+  url: https://www.solidstaterecords.com/
+  title: Solid State Records
+  created_at: 2018-07-28 17:16:46.415104000 Z
+  updated_at: 2018-07-28 17:16:46.415104000 Z
+- kind: label
+  code: solid_state_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/solidstaterecords
+  title: solidstaterecords - YouTube
+  created_at: 2018-07-28 17:16:46.416397000 Z
+  updated_at: 2018-07-28 17:16:46.416397000 Z
+- kind: label
+  code: solid_state_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/solidstate
+  title: Solid State Records (@solidstate) | Twitter
+  created_at: 2018-07-28 17:16:46.417593000 Z
+  updated_at: 2018-07-28 17:16:46.417593000 Z
+- kind: label
+  code: solid_state_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/solidstate
+  title: Solid State Records - Home | Facebook
+  created_at: 2018-07-28 17:16:46.418782000 Z
+  updated_at: 2018-07-28 17:16:46.418782000 Z
+- kind: label
+  code: solid_state_records
+  type: ''
+  label: spotify
+  url: https://open.spotify.com/user/solidstaterecords
+  title: Solid State Records on Spotify
+  created_at: 2018-07-28 17:16:46.420020000 Z
+  updated_at: 2018-07-28 17:16:46.420020000 Z
+- kind: label
+  code: solid_state_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/solidstaterecords/
+  title: Solid State Records (@solidstaterecords) • Instagram photos and videos
+  created_at: 2018-07-28 17:16:46.421118000 Z
+  updated_at: 2018-07-28 17:16:46.421118000 Z
+- kind: label
+  code: standby_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/StandBy_Records
+  title: StandBy Records - Wikipedia
+  created_at: 2018-07-29 07:43:46.220956000 Z
+  updated_at: 2018-07-29 07:43:46.220956000 Z
+- kind: label
+  code: standby_records
+  type: ''
+  label: website
+  url: http://standbyrecords.com/
+  title: Standby Records & New Look. New Bands. New Music. New Era
+  created_at: 2018-07-29 07:43:46.221973000 Z
+  updated_at: 2018-07-29 07:43:46.221973000 Z
+- kind: label
+  code: standby_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/StandByTube
+  title: Standby Records - YouTube
+  created_at: 2018-07-29 07:43:46.222709000 Z
+  updated_at: 2018-07-29 07:43:46.222709000 Z
+- kind: label
+  code: standby_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/standbyrecords
+  title: Standby Records (@StandbyRecords) | Twitter
+  created_at: 2018-07-29 07:43:46.223246000 Z
+  updated_at: 2018-07-29 07:43:46.223246000 Z
+- kind: label
+  code: standby_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/standbyrecords/
+  title: Standby Records - Home | Facebook
+  created_at: 2018-07-29 07:43:46.224015000 Z
+  updated_at: 2018-07-29 07:43:46.224015000 Z
+- kind: label
+  code: taperjean_records
+  type: ''
+  label: bandcamp
+  url: https://taperjean.bandcamp.com/
+  title: Taperjean Records
+  created_at: 2018-07-29 07:48:53.174824000 Z
+  updated_at: 2018-07-29 07:48:53.174824000 Z
+- kind: label
+  code: taperjean_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/taperjeanrec
+  title: Taperjean Records (@Taperjeanrec) | Twitter
+  created_at: 2018-07-29 07:48:53.175976000 Z
+  updated_at: 2018-07-29 07:48:53.175976000 Z
+- kind: label
+  code: taperjean_records
+  type: ''
+  label: soundcloud
+  url: https://soundcloud.com/taperjean-records
+  title: Taperjean Records | Free Listening on SoundCloud
+  created_at: 2018-07-29 07:48:53.177018000 Z
+  updated_at: 2018-07-29 07:48:53.177018000 Z
+- kind: label
+  code: tooth_and_nail_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Tooth_%26_Nail_Records
+  title: Tooth & Nail Records - Wikipedia
+  created_at: 2018-07-29 08:11:47.667700000 Z
+  updated_at: 2018-07-29 08:11:47.667700000 Z
+- kind: label
+  code: tooth_and_nail_records
+  type: ''
+  label: website
+  url: https://www.toothandnail.com/
+  title: Tooth & Nail Records
+  created_at: 2018-07-29 08:11:47.668747000 Z
+  updated_at: 2018-07-29 08:11:47.668747000 Z
+- kind: label
+  code: tooth_and_nail_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/toothandnail
+  title: toothandnail - YouTube
+  created_at: 2018-07-29 08:11:47.669716000 Z
+  updated_at: 2018-07-29 08:11:47.669716000 Z
+- kind: label
+  code: tooth_and_nail_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/toothandnail
+  title: Tooth & Nail Records (@toothandnail) | Twitter
+  created_at: 2018-07-29 08:11:47.670711000 Z
+  updated_at: 2018-07-29 08:11:47.670711000 Z
+- kind: label
+  code: tooth_and_nail_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/toothandnail
+  title: Tooth & Nail Records - Home | Facebook
+  created_at: 2018-07-29 08:11:47.671578000 Z
+  updated_at: 2018-07-29 08:11:47.671578000 Z
+- kind: label
+  code: tooth_and_nail_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/toothandnailrecords/
+  title: Tooth & Nail Records (@toothandnailrecords) • Instagram photos and videos
+  created_at: 2018-07-29 08:11:47.672282000 Z
+  updated_at: 2018-07-29 08:11:47.672282000 Z
+- kind: label
+  code: tooth_and_nail_records
+  type: ''
+  label: spotify
+  url: https://open.spotify.com/user/officialtoothandnail
+  title: Tooth & Nail Records on Spotify
+  created_at: 2018-07-29 08:11:47.673027000 Z
+  updated_at: 2018-07-29 08:11:47.673027000 Z
+- kind: label
+  code: tooth_and_nail_records
+  type: ''
+  label: soundcloud
+  url: https://soundcloud.com/tooth-and-nail-records
+  title: Tooth & Nail Records | Free Listening on SoundCloud
+  created_at: 2018-07-29 08:11:47.673785000 Z
+  updated_at: 2018-07-29 08:11:47.673785000 Z
+- kind: label
+  code: tragic_hero_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Tragic_Hero_Records
+  title: Tragic Hero Records - Wikipedia
+  created_at: 2018-07-29 08:15:30.596812000 Z
+  updated_at: 2018-07-29 08:15:30.596812000 Z
+- kind: label
+  code: tragic_hero_records
+  type: ''
+  label: website
+  url: http://www.tragicherorecords.co/
+  title: Home - Tragic Hero Records
+  created_at: 2018-07-29 08:15:30.598106000 Z
+  updated_at: 2018-07-29 08:15:30.598106000 Z
+- kind: label
+  code: tragic_hero_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/tragicherovideo
+  title: Tragic Hero Records - YouTube
+  created_at: 2018-07-29 08:15:30.600630000 Z
+  updated_at: 2018-07-29 08:15:30.600630000 Z
+- kind: label
+  code: tragic_hero_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/tragicherorec
+  title: Tragic Hero Records (@tragicherorec) | Twitter
+  created_at: 2018-07-29 08:15:30.601818000 Z
+  updated_at: 2018-07-29 08:15:30.601818000 Z
+- kind: label
+  code: tragic_hero_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/tragicherorecords/
+  title: Tragic Hero Records - Home | Facebook
+  created_at: 2018-07-29 08:15:30.603221000 Z
+  updated_at: 2018-07-29 08:15:30.603221000 Z
+- kind: label
+  code: tragic_hero_records
+  type: feed
+  label: ''
+  url: http://www.tragicherorecords.co/feed/
+  title: Tragic Hero Records
+  created_at: 2018-07-29 08:15:30.604659000 Z
+  updated_at: 2018-07-29 08:15:30.604659000 Z
+- kind: label
+  code: trustkill_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Trustkill_Records
+  title: Trustkill Records - Wikipedia
+  created_at: 2018-07-29 08:22:18.182511000 Z
+  updated_at: 2018-07-29 08:22:18.182511000 Z
+- kind: label
+  code: trustkill_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/Trustkill/
+  title: Trustkill - Home | Facebook
+  created_at: 2018-07-29 08:22:18.184313000 Z
+  updated_at: 2018-07-29 08:22:18.184313000 Z
+- kind: label
+  code: trustkill_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/TrustkillRecords
+  title: TrustkillRecords - YouTube
+  created_at: 2018-07-29 08:22:18.186090000 Z
+  updated_at: 2018-07-29 08:22:18.186090000 Z
+- kind: label
+  code: trustkill_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/trustkill
+  title: Trustkill (@Trustkill) | Twitter
+  created_at: 2018-07-29 08:22:18.188065000 Z
+  updated_at: 2018-07-29 08:22:18.188065000 Z
+- kind: label
+  code: trustkill_records
+  type: ''
+  label: spotify
+  url: https://open.spotify.com/user/trustkillrecords
+  title: Trustkill Records on Spotify
+  created_at: 2018-07-29 08:22:18.189409000 Z
+  updated_at: 2018-07-29 08:22:18.189409000 Z
+- kind: label
+  code: bullet_tooth_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/BulletToothHQ
+  title: Bullet Tooth (@BulletToothHQ) | Twitter
+  created_at: 2018-07-29 08:29:51.225695000 Z
+  updated_at: 2018-07-29 08:29:51.225695000 Z
+- kind: label
+  code: bullet_tooth_records
+  type: ''
+  label: website
+  url: http://bullettooth.com/
+  title: Bullet Tooth
+  created_at: 2018-07-29 08:29:51.226975000 Z
+  updated_at: 2018-07-29 08:29:51.226975000 Z
+- kind: label
+  code: bullet_tooth_records
+  type: feed
+  label: ''
+  url: http://bullettooth.com/feed/
+  title: Bullet Tooth
+  created_at: 2018-07-29 08:29:51.228133000 Z
+  updated_at: 2018-07-29 08:29:51.228133000 Z
+- kind: label
+  code: bullet_tooth_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/BulletToothHQ
+  title: Bullet Tooth - Home | Facebook
+  created_at: 2018-07-29 08:29:51.233764000 Z
+  updated_at: 2018-07-29 08:29:51.233764000 Z
+- kind: label
+  code: bullet_tooth_records
+  type: ''
+  label: tumbler
+  url: http://bullettoothhq.tumblr.com/
+  title: Bullet Tooth
+  created_at: 2018-07-29 08:29:51.234580000 Z
+  updated_at: 2018-07-29 08:29:51.234580000 Z
+- kind: label
+  code: bullet_tooth_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/BulletTooth
+  title: bullettooth - YouTube
+  created_at: 2018-07-29 08:29:51.235477000 Z
+  updated_at: 2018-07-29 08:29:51.235477000 Z
+- kind: label
+  code: bullet_tooth_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/bullettoothhq/
+  title: Bullet Tooth (@bullettoothhq) • Instagram photos and videos
+  created_at: 2018-07-29 08:29:51.236288000 Z
+  updated_at: 2018-07-29 08:29:51.236288000 Z
+- kind: label
+  code: bullet_tooth_records
+  type: ''
+  label: bandcamp
+  url: https://bullettoothhq.bandcamp.com/
+  title: Music | Bullet Tooth
+  created_at: 2018-07-29 08:29:51.237286000 Z
+  updated_at: 2018-07-29 08:29:51.237286000 Z
+- kind: label
+  code: bullet_tooth_records
+  type: ''
+  label: spotify
+  url: https://open.spotify.com/user/bullettoothhq/
+  title: Bullet Tooth on Spotify
+  created_at: 2018-07-29 08:29:51.238563000 Z
+  updated_at: 2018-07-29 08:29:51.238563000 Z
+- kind: label
+  code: unfd
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/UNFD
+  title: UNFD - Wikipedia
+  created_at: 2018-07-29 12:05:46.525933000 Z
+  updated_at: 2018-07-29 12:05:46.525933000 Z
+- kind: label
+  code: unfd
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/unfdcentral/
+  title: UNFD - Home | Facebook
+  created_at: 2018-07-29 12:05:46.527127000 Z
+  updated_at: 2018-07-29 12:05:46.527127000 Z
+- kind: label
+  code: unfd
+  type: ''
+  label: website
+  url: http://www.unfdcentral.com/
+  title: Home | UNFD Central
+  created_at: 2018-07-29 12:05:46.528261000 Z
+  updated_at: 2018-07-29 12:05:46.528261000 Z
+- kind: label
+  code: unfd
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/weareunified
+  title: UNFD - YouTube
+  created_at: 2018-07-29 12:05:46.529310000 Z
+  updated_at: 2018-07-29 12:05:46.529310000 Z
+- kind: label
+  code: unfd
+  type: feed
+  label: twitter
+  url: https://twitter.com/unfdcentral
+  title: UNFD (@unfdcentral) | Twitter
+  created_at: 2018-07-29 12:05:46.530977000 Z
+  updated_at: 2018-07-29 12:05:46.530977000 Z
+- kind: label
+  code: unfd
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/unfdcentral/
+  title: UNFD (@unfdcentral) • Instagram photos and videos
+  created_at: 2018-07-29 12:05:46.532187000 Z
+  updated_at: 2018-07-29 12:05:46.532187000 Z
+- kind: label
+  code: unfd
+  type: ''
+  label: spotify
+  url: https://open.spotify.com/user/unfdcentral
+  title: UNFD on Spotify
+  created_at: 2018-07-29 12:05:46.533117000 Z
+  updated_at: 2018-07-29 12:05:46.533117000 Z
+- kind: label
+  code: unfd
+  type: feed
+  label: ''
+  url: http://www.unfdcentral.com/feed/
+  title: UNFD Central
+  created_at: 2018-07-29 12:05:46.534055000 Z
+  updated_at: 2018-07-29 12:05:46.534055000 Z
+- kind: label
+  code: uprising_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Uprising_Records
+  title: Uprising Records - Wikipedia
+  created_at: 2018-07-29 12:09:50.747156000 Z
+  updated_at: 2018-07-29 12:09:50.747156000 Z
+- kind: label
+  code: uprising_records
+  type: ''
+  label: website
+  url: http://www.uprisingrecords.com/
+  title: Uprising Records, Laguna Beach, CA | Punk | Hardcore | Hip-Hop | Indie |
+    Reggae
+  created_at: 2018-07-29 12:09:50.748198000 Z
+  updated_at: 2018-07-29 12:09:50.748198000 Z
+- kind: label
+  code: uprising_records
+  type: ''
+  label: myspace
+  url: https://myspace.com/uprisingrecords
+  title: UPRISING RECORDS BROADWAY KINGDOMS out now | Listen and  Stream Free Music,
+    Albums, New Releases, Photos, Videos
+  created_at: 2018-07-29 12:09:50.749361000 Z
+  updated_at: 2018-07-29 12:09:50.749361000 Z
+- kind: label
+  code: victory_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Victory_Records
+  title: Victory Records - Wikipedia
+  created_at: 2018-07-29 12:19:15.817891000 Z
+  updated_at: 2018-07-29 12:19:15.817891000 Z
+- kind: label
+  code: victory_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/VictoryRecords/
+  title: Victory Records - Home | Facebook
+  created_at: 2018-07-29 12:19:15.819074000 Z
+  updated_at: 2018-07-29 12:19:15.819074000 Z
+- kind: label
+  code: victory_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/VictorVTV
+  title: Victory Records - YouTube
+  created_at: 2018-07-29 12:19:15.820084000 Z
+  updated_at: 2018-07-29 12:19:15.820084000 Z
+- kind: label
+  code: victory_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/victoryrecords
+  title: Victory Records (@victoryrecords) | Twitter
+  created_at: 2018-07-29 12:19:15.821684000 Z
+  updated_at: 2018-07-29 12:19:15.821684000 Z
+- kind: label
+  code: victory_records
+  type: ''
+  label: website
+  url: http://www.victoryrecords.com/
+  title: Victory Records
+  created_at: 2018-07-29 12:19:15.822720000 Z
+  updated_at: 2018-07-29 12:19:15.822720000 Z
+- kind: label
+  code: victory_records
+  type: ''
+  label: instagram
+  url: https://www.instagram.com/VictoryRecords/
+  title: Victory Records (@victoryrecords) • Instagram photos and videos
+  created_at: 2018-07-29 12:19:15.823600000 Z
+  updated_at: 2018-07-29 12:19:15.823600000 Z
+- kind: label
+  code: victory_records
+  type: ''
+  label: tumbler
+  url: http://victoryrecords.tumblr.com/
+  title: Victory Records
+  created_at: 2018-07-29 12:19:15.824455000 Z
+  updated_at: 2018-07-29 12:19:15.824455000 Z
+- kind: label
+  code: zestone_records
+  type: ''
+  label: website
+  url: http://zestone.jp/
+  title: ZESTONE RECORDS
+  created_at: 2018-07-29 12:26:17.963733000 Z
+  updated_at: 2018-07-29 12:26:17.963733000 Z
+- kind: label
+  code: zestone_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/ZESTONEofficial
+  title: ZESTONEofficial - YouTube
+  created_at: 2018-07-29 12:26:17.965916000 Z
+  updated_at: 2018-07-29 12:26:17.965916000 Z
+- kind: label
+  code: zestone_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/zestonethj
+  title: ZESTONE RECORDS (@zestonethj) | Twitter
+  created_at: 2018-07-29 12:26:17.967107000 Z
+  updated_at: 2018-07-29 12:26:17.967107000 Z
+- kind: label
+  code: zestone_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/zestonerecords/
+  title: ZESTONE RECORDS - Home | Facebook
+  created_at: 2018-07-29 12:26:17.968047000 Z
+  updated_at: 2018-07-29 12:26:17.968047000 Z
+- kind: label
+  code: zestone_records
+  type: feed
+  label: ''
+  url: http://zestone.jp/feed
+  title: ZESTONE RECORDS
+  created_at: 2018-07-29 12:26:17.971864000 Z
+  updated_at: 2018-07-29 12:26:17.971864000 Z
+- kind: label
+  code: vagrant_records
+  type: ''
+  label: wikipedia
+  url: https://en.wikipedia.org/wiki/Vagrant_Records
+  title: Vagrant Records - Wikipedia
+  created_at: 2018-07-29 12:33:23.672421000 Z
+  updated_at: 2018-07-29 12:33:23.672421000 Z
+- kind: label
+  code: vagrant_records
+  type: ''
+  label: website
+  url: http://www.vagrant.com/
+  title: VAGRANT | Home
+  created_at: 2018-07-29 12:33:23.673705000 Z
+  updated_at: 2018-07-29 12:33:23.673705000 Z
+- kind: label
+  code: vagrant_records
+  type: feed
+  label: youtube
+  url: https://www.youtube.com/user/vagrantrecords
+  title: Vagrant Records - YouTube
+  created_at: 2018-07-29 12:33:23.674854000 Z
+  updated_at: 2018-07-29 12:33:23.674854000 Z
+- kind: label
+  code: vagrant_records
+  type: feed
+  label: twitter
+  url: https://twitter.com/vagrantrecords
+  title: Vagrant Records (@vagrantrecords) | Twitter
+  created_at: 2018-07-29 12:33:23.675727000 Z
+  updated_at: 2018-07-29 12:33:23.675727000 Z
+- kind: label
+  code: vagrant_records
+  type: ''
+  label: facebook
+  url: https://www.facebook.com/vagrantrecords/
+  title: Vagrant Records - Home | Facebook
+  created_at: 2018-07-29 12:33:23.676552000 Z
+  updated_at: 2018-07-29 12:33:23.676552000 Z
+- kind: label
+  code: vagrant_records
+  type: feed
+  label: ''
+  url: http://feeds.feedburner.com/vagrantrecords
+  title: Vagrant Records News
+  created_at: 2018-07-29 12:33:23.677428000 Z
+  updated_at: 2018-07-29 12:33:23.677428000 Z

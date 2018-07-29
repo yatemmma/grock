@@ -25,9 +25,12 @@ class App < Sinatra::Base
   end
 
   get "/admin/" do
-    erb_admin :index, locals: {title: "GROCK Admin"}
+    sources = GROCK::Source.order("created_at DESC")
+    erb_admin :index, locals: {title: "GROCK Admin", sources: sources}
   end
 end
 
+require_relative "./admin/admin"
 require_relative "./admin/site"
+require_relative "./admin/label"
 require_relative "./site"

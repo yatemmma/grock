@@ -1,1 +1,396 @@
---- []
+---
+- kind: label
+  code: sumerian_records
+  key: alternative_rock
+  created_at: 2018-07-27 14:28:59.190578000 Z
+  updated_at: 2018-07-27 14:28:59.190578000 Z
+- kind: label
+  code: sumerian_records
+  key: heavy_metal
+  created_at: 2018-07-27 14:28:59.192377000 Z
+  updated_at: 2018-07-27 14:28:59.192377000 Z
+- kind: label
+  code: sumerian_records
+  key: metalcore
+  created_at: 2018-07-27 14:28:59.193537000 Z
+  updated_at: 2018-07-27 14:28:59.193537000 Z
+- kind: label
+  code: sumerian_records
+  key: progressive_rock
+  created_at: 2018-07-27 14:28:59.194757000 Z
+  updated_at: 2018-07-27 14:28:59.194757000 Z
+- kind: label
+  code: artery_recordings
+  key: metalcore
+  created_at: 2018-07-28 13:48:10.122132000 Z
+  updated_at: 2018-07-28 13:48:10.122132000 Z
+- kind: label
+  code: artery_recordings
+  key: post_hardcore
+  created_at: 2018-07-28 13:48:10.123195000 Z
+  updated_at: 2018-07-28 13:48:10.123195000 Z
+- kind: label
+  code: artery_recordings
+  key: hardcore_punk
+  created_at: 2018-07-28 13:48:10.123961000 Z
+  updated_at: 2018-07-28 13:48:10.123961000 Z
+- kind: label
+  code: epitaph_records
+  key: hardcore_punk
+  created_at: 2018-07-28 14:17:17.741992000 Z
+  updated_at: 2018-07-28 14:17:17.741992000 Z
+- kind: label
+  code: epitaph_records
+  key: alternative_rock
+  created_at: 2018-07-28 14:17:17.743135000 Z
+  updated_at: 2018-07-28 14:17:17.743135000 Z
+- kind: label
+  code: epitaph_records
+  key: metalcore
+  created_at: 2018-07-28 14:17:17.744067000 Z
+  updated_at: 2018-07-28 14:17:17.744067000 Z
+- kind: label
+  code: equal_vision_records
+  key: pop_rock
+  created_at: 2018-07-28 14:50:41.499567000 Z
+  updated_at: 2018-07-28 14:50:41.499567000 Z
+- kind: label
+  code: equal_vision_records
+  key: alternative_rock
+  created_at: 2018-07-28 14:50:41.500849000 Z
+  updated_at: 2018-07-28 14:50:41.500849000 Z
+- kind: label
+  code: equal_vision_records
+  key: hardcore_punk
+  created_at: 2018-07-28 14:50:41.502355000 Z
+  updated_at: 2018-07-28 14:50:41.502355000 Z
+- kind: label
+  code: fearless_records
+  key: alternative_rock
+  created_at: 2018-07-28 15:00:08.471299000 Z
+  updated_at: 2018-07-28 15:00:08.471299000 Z
+- kind: label
+  code: fearless_records
+  key: pop_rock
+  created_at: 2018-07-28 15:00:08.472856000 Z
+  updated_at: 2018-07-28 15:00:08.472856000 Z
+- kind: label
+  code: fearless_records
+  key: pop_rock
+  created_at: 2018-07-28 15:00:08.473648000 Z
+  updated_at: 2018-07-28 15:00:08.473648000 Z
+- kind: label
+  code: fearless_records
+  key: metalcore
+  created_at: 2018-07-28 15:00:08.474409000 Z
+  updated_at: 2018-07-28 15:00:08.474409000 Z
+- kind: label
+  code: fearless_records
+  key: post_hardcore
+  created_at: 2018-07-28 15:00:08.475088000 Z
+  updated_at: 2018-07-28 15:00:08.475088000 Z
+- kind: label
+  code: hopeless_records
+  key: alternative_rock
+  created_at: 2018-07-28 15:12:27.410390000 Z
+  updated_at: 2018-07-28 15:12:27.410390000 Z
+- kind: label
+  code: hopeless_records
+  key: pop_rock
+  created_at: 2018-07-28 15:12:27.411338000 Z
+  updated_at: 2018-07-28 15:12:27.411338000 Z
+- kind: label
+  code: hopeless_records
+  key: hardcore_punk
+  created_at: 2018-07-28 15:12:27.412010000 Z
+  updated_at: 2018-07-28 15:12:27.412010000 Z
+- kind: label
+  code: hopeless_records
+  key: heavy_metal
+  created_at: 2018-07-28 15:12:27.412625000 Z
+  updated_at: 2018-07-28 15:12:27.412625000 Z
+- kind: label
+  code: hopeless_records
+  key: pop_punk
+  created_at: 2018-07-28 15:12:27.413424000 Z
+  updated_at: 2018-07-28 15:12:27.413424000 Z
+- kind: label
+  code: invogue_records
+  key: post_hardcore
+  created_at: 2018-07-28 15:17:39.218333000 Z
+  updated_at: 2018-07-28 15:17:39.218333000 Z
+- kind: label
+  code: invogue_records
+  key: alternative_rock
+  created_at: 2018-07-28 15:17:39.219480000 Z
+  updated_at: 2018-07-28 15:17:39.219480000 Z
+- kind: label
+  code: invogue_records
+  key: metalcore
+  created_at: 2018-07-28 15:17:39.220489000 Z
+  updated_at: 2018-07-28 15:17:39.220489000 Z
+- kind: label
+  code: invogue_records
+  key: pop_punk
+  created_at: 2018-07-28 15:17:39.222389000 Z
+  updated_at: 2018-07-28 15:17:39.222389000 Z
+- kind: label
+  code: invogue_records
+  key: melodic_hardcore
+  created_at: 2018-07-28 15:17:39.223204000 Z
+  updated_at: 2018-07-28 15:17:39.223204000 Z
+- kind: label
+  code: mediaskare_records
+  key: heavy_metal
+  created_at: 2018-07-28 16:10:06.882769000 Z
+  updated_at: 2018-07-28 16:10:06.882769000 Z
+- kind: label
+  code: mediaskare_records
+  key: post_hardcore
+  created_at: 2018-07-28 16:10:06.883804000 Z
+  updated_at: 2018-07-28 16:10:06.883804000 Z
+- kind: label
+  code: mediaskare_records
+  key: hardcore_punk
+  created_at: 2018-07-28 16:10:06.884917000 Z
+  updated_at: 2018-07-28 16:10:06.884917000 Z
+- kind: label
+  code: mediaskare_records
+  key: experimental_metal
+  created_at: 2018-07-28 16:10:06.885644000 Z
+  updated_at: 2018-07-28 16:10:06.885644000 Z
+- kind: label
+  code: redfield_records
+  key: metalcore
+  created_at: 2018-07-28 16:16:50.725575000 Z
+  updated_at: 2018-07-28 16:16:50.725575000 Z
+- kind: label
+  code: redfield_records
+  key: pop_rock
+  created_at: 2018-07-28 16:16:50.726391000 Z
+  updated_at: 2018-07-28 16:16:50.726391000 Z
+- kind: label
+  code: redfield_records
+  key: deathcore
+  created_at: 2018-07-28 16:16:50.727895000 Z
+  updated_at: 2018-07-28 16:16:50.727895000 Z
+- kind: label
+  code: redfield_records
+  key: post_hardcore
+  created_at: 2018-07-28 16:16:50.729511000 Z
+  updated_at: 2018-07-28 16:16:50.729511000 Z
+- kind: label
+  code: redfield_records
+  key: emo
+  created_at: 2018-07-28 16:16:50.730342000 Z
+  updated_at: 2018-07-28 16:16:50.730342000 Z
+- kind: label
+  code: rise_records
+  key: post_hardcore
+  created_at: 2018-07-28 16:36:27.651301000 Z
+  updated_at: 2018-07-28 16:36:27.651301000 Z
+- kind: label
+  code: rise_records
+  key: metalcore
+  created_at: 2018-07-28 16:36:27.652130000 Z
+  updated_at: 2018-07-28 16:36:27.652130000 Z
+- kind: label
+  code: rise_records
+  key: pop_punk
+  created_at: 2018-07-28 16:36:27.652739000 Z
+  updated_at: 2018-07-28 16:36:27.652739000 Z
+- kind: label
+  code: rise_records
+  key: alternative_rock
+  created_at: 2018-07-28 16:36:27.653420000 Z
+  updated_at: 2018-07-28 16:36:27.653420000 Z
+- kind: label
+  code: rise_records
+  key: heavy_metal
+  created_at: 2018-07-28 16:36:27.655064000 Z
+  updated_at: 2018-07-28 16:36:27.655064000 Z
+- kind: label
+  code: rise_records
+  key: groove_metal
+  created_at: 2018-07-28 16:36:27.656550000 Z
+  updated_at: 2018-07-28 16:36:27.656550000 Z
+- kind: label
+  code: rise_records
+  key: thrash_metal
+  created_at: 2018-07-28 16:36:27.657197000 Z
+  updated_at: 2018-07-28 16:36:27.657197000 Z
+- kind: label
+  code: rise_records
+  key: alternative_metal
+  created_at: 2018-07-28 16:36:27.657944000 Z
+  updated_at: 2018-07-28 16:36:27.657944000 Z
+- kind: label
+  code: rise_records
+  key: hard_rock
+  created_at: 2018-07-28 16:36:27.658875000 Z
+  updated_at: 2018-07-28 16:36:27.658875000 Z
+- kind: label
+  code: self_released
+  key: _private
+  created_at: 2018-07-28 17:08:05.318007000 Z
+  updated_at: 2018-07-28 17:08:05.318007000 Z
+- kind: label
+  code: solid_state_records
+  key: metalcore
+  created_at: 2018-07-28 17:16:46.423245000 Z
+  updated_at: 2018-07-28 17:16:46.423245000 Z
+- kind: label
+  code: solid_state_records
+  key: christian_hardcore
+  created_at: 2018-07-28 17:16:46.424155000 Z
+  updated_at: 2018-07-28 17:16:46.424155000 Z
+- kind: label
+  code: solid_state_records
+  key: christian_metal
+  created_at: 2018-07-28 17:16:46.425115000 Z
+  updated_at: 2018-07-28 17:16:46.425115000 Z
+- kind: label
+  code: tooth_and_nail_records
+  key: christian_rock
+  created_at: 2018-07-29 08:11:47.675528000 Z
+  updated_at: 2018-07-29 08:11:47.675528000 Z
+- kind: label
+  code: tooth_and_nail_records
+  key: christian_alternative_rock
+  created_at: 2018-07-29 08:11:47.676371000 Z
+  updated_at: 2018-07-29 08:11:47.676371000 Z
+- kind: label
+  code: tooth_and_nail_records
+  key: christian_metal
+  created_at: 2018-07-29 08:11:47.677089000 Z
+  updated_at: 2018-07-29 08:11:47.677089000 Z
+- kind: label
+  code: tooth_and_nail_records
+  key: christian_punk
+  created_at: 2018-07-29 08:11:47.677717000 Z
+  updated_at: 2018-07-29 08:11:47.677717000 Z
+- kind: label
+  code: tragic_hero_records
+  key: metalcore
+  created_at: 2018-07-29 08:15:30.606158000 Z
+  updated_at: 2018-07-29 08:15:30.606158000 Z
+- kind: label
+  code: tragic_hero_records
+  key: post_hardcore
+  created_at: 2018-07-29 08:15:30.607561000 Z
+  updated_at: 2018-07-29 08:15:30.607561000 Z
+- kind: label
+  code: tragic_hero_records
+  key: rock
+  created_at: 2018-07-29 08:15:30.609011000 Z
+  updated_at: 2018-07-29 08:15:30.609011000 Z
+- kind: label
+  code: tragic_hero_records
+  key: heavy_metal
+  created_at: 2018-07-29 08:15:30.611164000 Z
+  updated_at: 2018-07-29 08:15:30.611164000 Z
+- kind: label
+  code: trustkill_records
+  key: hardcore_punk
+  created_at: 2018-07-29 08:22:18.191832000 Z
+  updated_at: 2018-07-29 08:22:18.191832000 Z
+- kind: label
+  code: trustkill_records
+  key: metalcore
+  created_at: 2018-07-29 08:22:18.192900000 Z
+  updated_at: 2018-07-29 08:22:18.192900000 Z
+- kind: label
+  code: trustkill_records
+  key: alternative_rock
+  created_at: 2018-07-29 08:22:18.193643000 Z
+  updated_at: 2018-07-29 08:22:18.193643000 Z
+- kind: label
+  code: bullet_tooth_records
+  key: hardcore
+  created_at: 2018-07-29 08:29:51.240402000 Z
+  updated_at: 2018-07-29 08:29:51.240402000 Z
+- kind: label
+  code: bullet_tooth_records
+  key: metal
+  created_at: 2018-07-29 08:29:51.241327000 Z
+  updated_at: 2018-07-29 08:29:51.241327000 Z
+- kind: label
+  code: bullet_tooth_records
+  key: rock
+  created_at: 2018-07-29 08:29:51.242401000 Z
+  updated_at: 2018-07-29 08:29:51.242401000 Z
+- kind: label
+  code: unfd
+  key: metalcore
+  created_at: 2018-07-29 12:05:46.537843000 Z
+  updated_at: 2018-07-29 12:05:46.537843000 Z
+- kind: label
+  code: unfd
+  key: pop_rock
+  created_at: 2018-07-29 12:05:46.539000000 Z
+  updated_at: 2018-07-29 12:05:46.539000000 Z
+- kind: label
+  code: unfd
+  key: alternative_rock
+  created_at: 2018-07-29 12:05:46.539956000 Z
+  updated_at: 2018-07-29 12:05:46.539956000 Z
+- kind: label
+  code: unfd
+  key: experimental_rock
+  created_at: 2018-07-29 12:05:46.540721000 Z
+  updated_at: 2018-07-29 12:05:46.540721000 Z
+- kind: label
+  code: uprising_records
+  key: hardcore_punk
+  created_at: 2018-07-29 12:09:50.751404000 Z
+  updated_at: 2018-07-29 12:09:50.751404000 Z
+- kind: label
+  code: uprising_records
+  key: pop_rock
+  created_at: 2018-07-29 12:09:50.752859000 Z
+  updated_at: 2018-07-29 12:09:50.752859000 Z
+- kind: label
+  code: uprising_records
+  key: pop_punk
+  created_at: 2018-07-29 12:09:50.753657000 Z
+  updated_at: 2018-07-29 12:09:50.753657000 Z
+- kind: label
+  code: uprising_records
+  key: hip_hop
+  created_at: 2018-07-29 12:09:50.754526000 Z
+  updated_at: 2018-07-29 12:09:50.754526000 Z
+- kind: label
+  code: victory_records
+  key: post_hardcore
+  created_at: 2018-07-29 12:19:15.826011000 Z
+  updated_at: 2018-07-29 12:19:15.826011000 Z
+- kind: label
+  code: victory_records
+  key: heavy_metal
+  created_at: 2018-07-29 12:19:15.826899000 Z
+  updated_at: 2018-07-29 12:19:15.826899000 Z
+- kind: label
+  code: victory_records
+  key: alternative_rock
+  created_at: 2018-07-29 12:19:15.827658000 Z
+  updated_at: 2018-07-29 12:19:15.827658000 Z
+- kind: label
+  code: victory_records
+  key: pop_punk
+  created_at: 2018-07-29 12:19:15.828491000 Z
+  updated_at: 2018-07-29 12:19:15.828491000 Z
+- kind: label
+  code: vagrant_records
+  key: alternative_rock
+  created_at: 2018-07-29 12:33:23.678999000 Z
+  updated_at: 2018-07-29 12:33:23.678999000 Z
+- kind: label
+  code: vagrant_records
+  key: rock
+  created_at: 2018-07-29 12:33:23.679792000 Z
+  updated_at: 2018-07-29 12:33:23.679792000 Z
+- kind: label
+  code: vagrant_records
+  key: indie_rock
+  created_at: 2018-07-29 12:33:23.680497000 Z
+  updated_at: 2018-07-29 12:33:23.680497000 Z

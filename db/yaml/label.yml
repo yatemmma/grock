@@ -1,1 +1,217 @@
---- []
+---
+- code: sumerian_records
+  name: Sumerian Records
+  description: ''
+  founded: '2006'
+  origin: us Los Angeles, California, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-26 11:28:41.806710000 Z
+  updated_at: 2018-07-26 14:52:36.209542000 Z
+- code: artery_recordings
+  name: Artery Recordings
+  description: ''
+  founded: '2010'
+  origin: us Sacramento, California, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 13:42:34.734258000 Z
+  updated_at: 2018-07-28 13:42:34.734258000 Z
+- code: epitaph_records
+  name: Epitaph Records
+  description: ''
+  founded: '1980'
+  origin: us Los Angeles, CA, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 13:54:57.883036000 Z
+  updated_at: 2018-07-28 13:54:57.883036000 Z
+- code: equal_vision_records
+  name: Equal Vision Records
+  description: ''
+  founded: '1990'
+  origin: us Albany, New York, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 14:22:40.605493000 Z
+  updated_at: 2018-07-28 14:22:40.605493000 Z
+- code: fearless_records
+  name: Fearless Records
+  description: ''
+  founded: '1994'
+  origin: us Culver City, California, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 15:00:08.459899000 Z
+  updated_at: 2018-07-28 15:00:08.459899000 Z
+- code: garimpeiro_records
+  name: Garimpeiro Records
+  description: ''
+  founded: ''
+  origin: ''
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 15:04:28.299187000 Z
+  updated_at: 2018-07-28 15:04:28.299187000 Z
+- code: hopeless_records
+  name: Hopeless Records
+  description: ''
+  founded: '1993'
+  origin: us Van Nuys, California, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 15:12:27.401146000 Z
+  updated_at: 2018-07-28 15:12:27.401146000 Z
+- code: invogue_records
+  name: InVogue Records
+  description: ''
+  founded: '2009'
+  origin: us Findlay, Ohio, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 15:16:10.180445000 Z
+  updated_at: 2018-07-28 15:16:10.180445000 Z
+- code: mediaskare_records
+  name: Mediaskare Records
+  description: ''
+  founded: '2005'
+  origin: us Los Angeles, California, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 16:09:49.749535000 Z
+  updated_at: 2018-07-28 16:09:49.749535000 Z
+- code: redfield_records
+  name: Redfield Records
+  description: ''
+  founded: '2001'
+  origin: ge Melle, Lower Saxony, Germany
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 16:14:45.476002000 Z
+  updated_at: 2018-07-28 16:14:45.476002000 Z
+- code: rise_records
+  name: Rise Records
+  description: ''
+  founded: '1991'
+  origin: us Portland, Oregon, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 16:29:16.338341000 Z
+  updated_at: 2018-07-28 16:29:16.338341000 Z
+- code: self_released
+  name: Self-Released
+  description: ''
+  founded: ''
+  origin: ''
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 17:02:24.693072000 Z
+  updated_at: 2018-07-28 17:02:24.693072000 Z
+- code: solid_state_records
+  name: Solid State Records
+  description: ''
+  founded: '1997'
+  origin: us Seattle, Washington, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 17:14:04.303260000 Z
+  updated_at: 2018-07-28 17:14:04.303260000 Z
+- code: standby_records
+  name: StandBy Records
+  description: ''
+  founded: '2007'
+  origin: us North Carolina, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-28 17:24:41.733021000 Z
+  updated_at: 2018-07-28 17:24:41.733021000 Z
+- code: taperjean_records
+  name: Taperjean Records
+  description: ''
+  founded: ''
+  origin: au  Sydney, Australia
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-29 07:47:14.790022000 Z
+  updated_at: 2018-07-29 07:47:14.790022000 Z
+- code: tooth_and_nail_records
+  name: Tooth & Nail Records
+  description: ''
+  founded: '1993'
+  origin: us Seattle, Washington, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-29 07:55:24.513720000 Z
+  updated_at: 2018-07-29 07:55:24.513720000 Z
+- code: tragic_hero_records
+  name: Tragic Hero Records
+  description: ''
+  founded: '2005'
+  origin: us Raleigh, North Carolina, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-29 08:15:30.595378000 Z
+  updated_at: 2018-07-29 08:15:30.595378000 Z
+- code: trustkill_records
+  name: Trustkill Records
+  description: ''
+  founded: 1993-2010
+  origin: us Tinton Falls, New Jersey, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-29 08:21:50.066252000 Z
+  updated_at: 2018-07-29 08:21:50.066252000 Z
+- code: bullet_tooth_records
+  name: Bullet Tooth Records
+  description: ''
+  founded: '2010'
+  origin: us New Jersey, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-29 08:26:32.139364000 Z
+  updated_at: 2018-07-29 08:26:32.139364000 Z
+- code: unfd
+  name: UNFD
+  description: ''
+  founded: '2011'
+  origin: au Melbourne, Victoria, Australia
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-29 12:03:36.476036000 Z
+  updated_at: 2018-07-29 12:03:36.476036000 Z
+- code: uprising_records
+  name: Uprising Records
+  description: ''
+  founded: '1994'
+  origin: us United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-29 12:08:59.236756000 Z
+  updated_at: 2018-07-29 12:08:59.236756000 Z
+- code: vagrant_records
+  name: Vagrant Records
+  description: ''
+  founded: '1996'
+  origin: us Santa Monica, California, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-29 12:14:27.015477000 Z
+  updated_at: 2018-07-29 12:14:27.015477000 Z
+- code: victory_records
+  name: Victory Records
+  description: ''
+  founded: '1989'
+  origin: us Chicago, Illinois, United States
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-29 12:18:58.984678000 Z
+  updated_at: 2018-07-29 12:18:58.984678000 Z
+- code: zestone_records
+  name: ZESTONE RECORDS
+  description: ''
+  founded: jp Japan
+  origin: ''
+  youtube_keys: ''
+  body: ''
+  created_at: 2018-07-29 12:25:20.192139000 Z
+  updated_at: 2018-07-29 12:25:20.192139000 Z

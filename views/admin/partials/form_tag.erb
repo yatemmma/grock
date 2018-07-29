@@ -1,7 +1,40 @@
+<%
+  keys = %w(
+    _private
+    alternative_metal
+    alternative_rock
+    christian_alternative_rock
+    christian_hardcore
+    christian_metal
+    christian_punk
+    christian_rock
+    deathcore
+    emo
+    experimental_metal
+    experimental_rock
+    groove_metal
+    hard_rock
+    hardcore
+    hardcore_punk
+    heavy_metal
+    hip_hop
+    indie_pop
+    indie_rock
+    melodic_hardcore
+    metal
+    metalcore
+    progressive_metal
+    progressive_rock
+    pop_punk
+    pop_rock
+    post_hardcore
+    rock
+    thrash_metal
+  )
+%>
 <div>
   <label>
     <span>tag: </span>
-    <% keys = %w(post_hardcore) %>
     <select name="tags[key][]">
       <option value="">----</option>
       <% keys.each do |key| %>

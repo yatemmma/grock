@@ -68,38 +68,4 @@ class App < Sinatra::Base
     end
     redirect "/site/#{code}"
   end
-
-  get "/admin/site/:code/feed" do |code|
-    site = GROCK::Site.find_by(code: code)
-
-    links = GROCK::Link.where(kind: "site", code: code, type: "feed")
-    p 1111
-    p links
-    links.each do |link|
-      begin
-        source = open(link.url).read
-      rescue => e
-        error = e.to_s
-      end
-
-      m = GROCK::Source.create(
-        kind: "site",
-        code: code,
-        type: :rss,
-        url: link.url,
-        raw: source,
-        error: error
-      )
-      unless m.valid?
-        GROCK::Source.create(
-          kind: "site",
-          code: code,
-          url: link.url,
-          error: m.errors.messages.to_s
-        )
-      end
-    end
-
-    redirect "/admin/site/#{code}"
-  end
 end

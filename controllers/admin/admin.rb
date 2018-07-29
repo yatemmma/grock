@@ -11,11 +11,47 @@ class App < Sinatra::Base
   post "/admin/api/get_title" do
     url = URI.unescape(params["url"])
     p 111, url
-    source = open(url).read
-    title = source.match(/<title.*?>(.+)<\/title>/i)[1]
-    p 222, title
-    title
+    source = open(url, "Accept-Language" => "en-US").read
+    title = source.match(/<title.*?>(.+)<\/title>/im)[1]
+    hash = {
+      title: URI.encode(title.gsub("\n", "").strip).gsub("&amp;", "&")
+    }
+    p hash
+    if url.start_with?("https://www.facebook.com/")
+      matches = source.scan(/src=\"([^\"]*)\" [^<]* aria-label=\"([^\"]*)\" role=\"img\"/im)
+      matches.each_with_index do |m, i|
+        icon_url, icon_title = m
+        hash["image_i#{i}"] = "#{icon_title} #{icon_url.gsub("&amp;", "&")}"
+      end
+      key = url.split("/").compact.reject(&:empty?).pop
+      url = "https://www.facebook.com/pg/#{key}/about/?ref=page_internal"
+      source = open(url, "Accept-Language" => "en-US").read
+      matched = source.match(/<div[^>]*>Genre<\/div><div[^>]*>([^<]*)<\/div>/im)
+      p 222, matched
+      hash[:genres] = matched[1].gsub("\n", "").strip unless matched.nil?
+      matched = source.match(/<div[^>]*>Hometown<\/div><div[^>]*>([^<]*)<\/div>/im)
+      p 333, matched
+      hash[:origin] = matched[1].gsub("\n", "").strip unless matched.nil?
+    end
+
+    if url.start_with?("https://en.wikipedia.org/")
+      matched = source.match(/<th[^>]*>Founded<\/th><td[^>]*>([^<]*)</im)
+      hash[:founded] = matched[1].gsub("\n", "").strip unless matched.nil?
+      matched = source.match(/<th[^>]*>Country of origin<\/th><td[^>]*>([^<]*)</im)
+      hash[:country] = matched[1].gsub("\n", "").strip unless matched.nil?
+      matched = source.match(/<th[^>]*>Location<\/th><td[^>]*>([^<]*)</im)
+      hash[:location] = matched[1].gsub("\n", "").strip unless matched.nil?
+      matched = source.match(/src=\"(\/\/upload[^\"]*)\"/im)
+      hash[:image1] = "https:" + matched[1].gsub("\n", "").strip unless matched.nil?
+      matched = source.match(/srcset=\"(\/\/upload[^\"]*)\"/im)
+      hash[:image2] = "https:" + matched[1].gsub("\n", "").strip unless matched.nil?
+      matched = source.match(/<th[^>]*>Genre<\/th><td[^>]*>(.*)<\/td>/im)
+      hash[:genres] = matched[1].gsub("\n", "").scan(/<a [^>]*>([^<]*)<\/a>/m).flatten.join("/") unless matched.nil?
+    end
+
+    hash.to_json
   end
+
 
   get "/admin/source2feed/:id" do |id|
     source = GROCK::Source.find_by(id: id)
@@ -38,5 +74,21 @@ class App < Sinatra::Base
     end
 
     200
+  end
+
+  get "/admin/all_feed" do
+    links = GROCK::Link.where(type: "feed")
+    links.each do |link|
+      GROCK::Crawler.get_source(link)
+    end
+    redirect "/admin/"
+  end
+
+  get "/admin/:kind/:code/feed" do |kind, code|
+    links = GROCK::Link.where(kind: kind, code: code, type: "feed")
+    links.each do |link|
+      GROCK::Crawler.get_source(link)
+    end
+    redirect "/admin/#{kind}/#{code}"
   end
 end

@@ -9,7 +9,8 @@
       <%= erb :"admin/partials/form_text", locals: {item: item, key: "name"} %>
       <%= erb :"admin/partials/form_text", locals: {item: item, key: "description"} %>
       <%= erb :"admin/partials/form_text", locals: {item: item, key: "founded"} %>
-      
+      <%= erb :"admin/partials/form_text", locals: {item: item, key: "origin"} %>
+
       <%= erb :"admin/partials/form_image", locals: {item: item, key: "icon_url"} %>
       <%= erb :"admin/partials/form_image", locals: {item: item, key: "thumbnail_url"} %>
       <%= erb :"admin/partials/form_image", locals: {item: item, key: "large_url"} %>
@@ -64,6 +65,8 @@
   </div>
 
   <div class="col1">
+    <div id="info">
+    </div>
     <div>
       <div id="youtube" data-key="<%= item.youtube_keys %>"></div>
     </div>
@@ -137,8 +140,25 @@ function onChangeText(element, key) {
     element.parentNode.parentNode.querySelector(".anchor").href = element.value
     const title = element.parentNode.parentNode.querySelector("input[name='links[title][]']")
     if (element.value) {
-      ajaxPostRequest("/api/get_title", {url: element.value}, (result)=>{
-        title.value = result
+      ajaxPostRequest("/admin/api/get_title", {url: element.value}, (result)=>{
+        const data = JSON.parse(result)
+        console.log(data)
+        title.value = decodeURIComponent(data.title)
+        const info = document.querySelector("#info")
+        for (var key in data) {
+          if (key != "title") {
+            const div = document.createElement("div")
+            const label = document.createElement("label")
+            label.innerText = key
+            const input = document.createElement("input")
+            input.type = "text"
+            input.addEventListener("focus", function(){this.select()})
+            input.value = data[key]
+            label.appendChild(input)
+            div.appendChild(label)
+            info.appendChild(div)
+          }
+        }
       })
     } else {
       title.value = ""

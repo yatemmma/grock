@@ -11,7 +11,7 @@ class App < Sinatra::Base
 
   get "/admin/label/:code" do |code|
     item = GROCK::Label.find_by(code: code)
-    erb_admin :label, locals: {item: item, method: "put", title: "GROCK-Admin | #{label.name}"}
+    erb_admin :label, locals: {item: item, method: "put", title: "GROCK-Admin | #{item.name}"}
   end
 
 
@@ -66,40 +66,6 @@ class App < Sinatra::Base
       h["code"] = item.code
       GROCK::Image.create(h)
     end
-    redirect "/admin/label/#{code}"
-  end
-
-  get "/admin/label/:code/feed" do |code|
-    item = GROCK::Label.find_by(code: code)
-
-    links = GROCK::Link.where(kind: "label", code: code, type: "feed")
-    p 1111
-    p links
-    links.each do |link|
-      begin
-        source = open(link.url).read
-      rescue => e
-        error = e.to_s
-      end
-
-      m = GROCK::Source.create(
-        kind: "label",
-        code: code,
-        type: :rss,
-        url: link.url,
-        raw: source,
-        error: error
-      )
-      unless m.valid?
-        GROCK::Source.create(
-          kind: "label",
-          code: code,
-          url: link.url,
-          error: m.errors.messages.to_s
-        )
-      end
-    end
-
     redirect "/admin/label/#{code}"
   end
 end

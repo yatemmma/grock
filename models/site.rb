@@ -16,11 +16,11 @@ module GROCK
     end
 
     def sources
-      GROCK::Source.where(kind: :site, code: self.code).order(:created_at)
+      GROCK::Source.where(kind: :site, code: self.code).order("created_at DESC")
     end
 
     def feeds
-      GROCK::Feed.where(kind: :site, code: self.code).order(:created_at)
+      GROCK::Feed.where(kind: :site, code: self.code).order("created_at DESC")
     end
   end
 end

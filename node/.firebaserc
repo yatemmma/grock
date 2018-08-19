@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "grock-db",
+    "staging": "grock-db"
+  }
+}

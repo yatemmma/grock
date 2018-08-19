@@ -63,21 +63,49 @@ class App < Sinatra::Base
   get "/admin/source2feed/:id" do |id|
     source = GROCK::Source.find_by(id: id)
     require 'active_support/core_ext/hash/conversions'
-    xml = Hash.from_xml(source.raw)["rss"]
-    items = xml["channel"]["item"].map do |item|
-      feed = GROCK::Feed.where(url: item["link"]+"xxx").first
-      feed = GROCK::Feed.new if feed.nil?
-      feed.update(
-        kind: source.kind,
-        code: source.code,
-        type: source.type,
-        icon: xml["channel"]["image"],
-        url:  item["link"],
-        date: item["pubDate"],
-        title: item["title"],
-        body: item["description"],
-        youtube_keys: nil
-      )
+
+    if source.url == "https://www.theprp.com/feed/"
+      xml = Hash.from_xml(source.raw)["rss"]
+      items = xml["channel"]["item"].map do |item|
+        feed = GROCK::Feed.where(url: item["link"])
+        if feed.nil?
+          feed = GROCK::Feed.new
+        end
+
+        body = item["description"].split("The post ").first
+        p 222, body
+        feed.update_all(
+          kind: source.kind,
+          code: source.code,
+          type: source.type,
+          icon: nil,
+          url:  item["link"],
+          date: item["pubDate"],
+          title: item["title"],
+          body: body,
+          categories: item["category"].reject{|x| ["Featured","Reviews","News"].include?(x)}.join(","),
+          youtube_keys: nil
+        )
+      end
+      source.update(parsed: true  )
+    else
+
+      xml = Hash.from_xml(source.raw)["rss"]
+      items = xml["channel"]["item"].map do |item|
+        feed = GROCK::Feed.where(url: item["link"]+"xxx").first
+        feed = GROCK::Feed.new if feed.nil?
+        feed.update(
+          kind: source.kind,
+          code: source.code,
+          type: source.type,
+          icon: xml["channel"]["image"],
+          url:  item["link"],
+          date: item["pubDate"],
+          title: item["title"],
+          body: item["description"],
+          youtube_keys: nil
+        )
+      end
     end
 
     200

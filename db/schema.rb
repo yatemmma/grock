@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 204) do
+ActiveRecord::Schema.define(version: 1001) do
 
   create_table "band_bands", force: :cascade do |t|
     t.string "self_code"
@@ -86,6 +86,7 @@ ActiveRecord::Schema.define(version: 204) do
     t.string "youtube_keys"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string "categories"
     t.index ["kind", "code"], name: "feeds_index"
   end
 

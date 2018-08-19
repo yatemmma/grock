@@ -1,0 +1,31 @@
+<html>
+<body>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBCGjnFEwNuVLGxypfpVu0oRE_ApDemH6w",
+    authDomain: "grock-db.firebaseapp.com",
+    databaseURL: "https://grock-db.firebaseio.com",
+    projectId: "grock-db",
+    storageBucket: "grock-db.appspot.com",
+    messagingSenderId: "621150600935"
+  };
+  firebase.initializeApp(config);
+  var db = firebase.database();
+  var commentsRef = db.ref('sites')
+  console.log(commentsRef)
+  commentsRef.once('value').then(function(snapshot) {
+    console.log(snapshot.val())
+    commentsRef.set({ chorus_fm: {name: "chorus.fm"} })
+  });
+
+
+  // commentsRef.on('value', function(snapshot) {
+  //   console.log(snapshot)
+  //   // updateComments(snapshot.val()); // 取得した際の処理
+  // });
+</script>
+hoge
+</body>
+</html>

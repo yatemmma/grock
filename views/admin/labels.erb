@@ -31,7 +31,8 @@
           %>
         </div>
         <div class="cell sources">
-          <%= item.sources.reject{|x| x.error}.first&.updated_at %>
+          <% date = item.sources.reject{|x| x.error}.first %>
+          <%= date.updated_at.strftime("%Y-%m-%d") unless date.nil? %>
         </div>
       </div>
     <% end %>

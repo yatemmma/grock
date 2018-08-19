@@ -1,23 +1,37 @@
 <%= erb :"admin/partials/header" %>
 
 <main>
-  [<a href="/admin/all_feed">all feed</a>]
-  <% items.reject{|x| x.error}.each do |source| %>
-    <div>
-      <span><a href="/admin/source/<%= source.id %>" target="_blank"><%= source.created_at %></a></span>
-      <span><%= source.kind %></span>
-      <span><%= source.code %></span>
-      <span><%= source.url %></span>
-      <span><a href="/admin/source2feed/<%= source.id %>" target="_blank"><%= escape_html (source.raw ? source.raw[0, 15] + "..." : "") %></a></span>
-    </div>
-  <% end %>
-  <% items.select{|x| x.error}.each do |source| %>
-    <div>
-      <span><a href="/admin/source/<%= source.id %>" target="_blank"><%= source.created_at %></a></span>
-      <span><%= source.kind %></span>
-      <span><%= source.code %></span>
-      <span><%= source.url %></span>
-      <span><%= source.error %></span>
-    </div>
-  <% end %>
+  <section class="ope">
+    <%= items.count %> items. [<a href="/admin/all_feed">all feed</a>]
+  </section>
+
+  <div class="table sources-table">
+    <% items.each do |item| %>
+      <div class="row">
+        <div class="cell date">
+          <a href="/admin/source/<%= item.id %>" target="_blank">
+            <%= item.created_at.strftime("%Y-%m-%d") %>
+          </a>
+        </div>
+        <div class="cell">
+          <%= item.kind %>
+        </div>
+        <div class="cell name">
+          <%= item.code %>
+        </div>
+        <div class="cell url">
+          <%= item.url %>
+        </div>
+        <div class="cell desc">
+          <a href="/admin/source2feed/<%= item.id %>" target="_blank"><%= escape_html (item.raw ? item.raw[0, 30] + "..." : "") %></a>
+        </div>
+        <div class="cell check">
+          <%= "✅" if item.parsed %>
+        </div>
+        <div class="cell desc">
+          <%= item.error %>
+        </div>
+      </div>
+    <% end %>
+  </div>
 </main>

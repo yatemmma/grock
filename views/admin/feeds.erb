@@ -1,4 +1,31 @@
 <%= erb :"admin/partials/header" %>
 
 <main>
+  <section class="ope">
+    <%= items.count %> items.
+  </section>
+
+  <div class="table">
+    <% items.each do |item| %>
+      <div class="row">
+        <div class="cell" style="width:400px;vertical-align:top;">
+
+          <div><%= item.kind %></div>
+          <div><%= item.code %></div>
+          <div><%= item.type %></div>
+          <div><img src="<%= item.icon %>" /></div>
+          <div><a target="_blank" href="<%= item.url %>"><%= item.date %></a></div>
+          <div><%= item.title %></div>
+          <div><%= item.youtube_keys %></div>
+        </div>
+        <div class="cell">
+          <%= item.body %>
+        </div>
+        <div class="cell">
+          <%= item.categories %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
 </main>

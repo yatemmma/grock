@@ -1,4 +1,4 @@
+require "./app/app"
 require "./admin/app"
 
-$stdout.sync = true
-run Sinatra::Application
+run Rack::URLMap.new("/" => App, "/admin" => Admin)

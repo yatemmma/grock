@@ -5,6 +5,7 @@ gem "sinatra"
 gem "sequel"
 
 group :development do
+  gem "sinatra-contrib"
   gem "sqlite3"
 end
 

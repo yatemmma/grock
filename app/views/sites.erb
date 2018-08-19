@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<body>
 <div><a href="/sites/new">new</a></div>
 <% items.each do |item| %>
   <div><a href="/sites/<%= item.id %>"><%= item.name %></a></div>
 <% end %>
-</body>
-</html>

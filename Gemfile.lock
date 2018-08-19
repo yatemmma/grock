@@ -17,6 +17,8 @@ GEM
     rack (2.0.5)
     rack-protection (2.0.3)
       rack
+    rack-test (1.1.0)
+      rack (>= 1.0, < 3)
     rake (12.3.1)
     sequel (5.11.0)
     sinatra (2.0.3)
@@ -43,11 +45,15 @@ PLATFORMS
 
 DEPENDENCIES
   pg
+  rack-test
   rake
   sequel
   sinatra
   sinatra-contrib
   sqlite3
+
+RUBY VERSION
+   ruby 2.5.1p57
 
 BUNDLED WITH
    1.16.2

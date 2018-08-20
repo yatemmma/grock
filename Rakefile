@@ -3,12 +3,17 @@ task :start do
 end
 
 task :migrate do
-  system "bundle exec sequel -m db/migrations sqlite://db/database.sqlite3"
+  database_url = ENV["DATABASE_URL"] || "sqlite://db/database.sqlite3"
+  system "bundle exec sequel -m db/migrations #{database_url}"
 end
 
 task :generate do
+  require "fileutils"
   require "./generator/generator"
-  p 123
+  Dir.glob("docs/*") do |dir|
+    p dir
+    FileUtils.rm_r (dir) unless dir == "docs/assets"
+  end
   File.write("docs/index.html", Hoge.new.foo("/"))
   File.write("docs/sites.html", Hoge.new.foo("/sites"))
 end

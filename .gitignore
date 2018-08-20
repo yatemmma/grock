@@ -2,3 +2,4 @@
 /vendor
 /tmp
 /db/*.sqlite3
+note.md

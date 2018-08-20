@@ -19,17 +19,7 @@ class App < Sinatra::Base
   end
 
   get "/sites/:id" do |id|
-    if id == "new"
-      item = Site.new
-    else
-      item = Site[id]
-    end
+    item = Site[id]
     erb :site, locals: {item: item}
-  end
-
-  post "/sites" do
-    item = Site.new(params["entry"])
-    item.save if item.valid?
-    redirect "/sites"
   end
 end

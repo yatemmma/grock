@@ -1,0 +1,131 @@
+body {
+  margin: 0px;
+  background-color: #1b010f;
+  color: #eee; }
+
+a,
+a *,
+a:visited,
+a:visited * {
+  color: #eee; }
+
+.center {
+  text-align: center; }
+
+.hidden {
+  display: none; }
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.debug {
+  color: sandybrown !important; }
+
+header {
+  display: flex;
+  justify-content: space-between; }
+  @media (min-width: 481px) {
+    header {
+      margin: auto 16px; } }
+  @media (max-width: 480px) {
+    header {
+      margin: auto 8px; } }
+header #menu {
+  display: flex;
+  padding-top: 20px; }
+
+header #menu li {
+  list-style: none;
+  margin-left: 8px; }
+
+header a {
+  text-decoration: none; }
+
+header a:hover {
+  text-decoration: underline; }
+
+footer {
+  margin: 40px 0px;
+  text-align: center; }
+
+footer a {
+  line-height: 2.0em; }
+
+.player {
+  width: 100%; }
+  @media (min-width: 481px) {
+    .player {
+      height: 400px; } }
+  @media (max-width: 480px) {
+    .player {
+      height: 300px; } }
+#player1 {
+  background-color: #373335; }
+
+#player2 {
+  background-color: #696366; }
+
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 1000; }
+
+#contents {
+  width: 98%;
+  margin: auto 1%;
+  display: flex; }
+  @media (max-width: 480px) {
+    #contents {
+      flex-flow: column; } }
+#contents .center-wide-block {
+  width: 100%;
+  margin: 16px auto; }
+
+@media (min-width: 481px) {
+  #contents .center-thin-block {
+    width: 60%;
+    margin: 16px 20%; } }
+
+@media (max-width: 480px) {
+  #contents .center-thin-block {
+    width: 100%;
+    margin: 16px 0px; } }
+
+#contents .left-block,
+#contents .right-block {
+  margin: 16px 0px; }
+  @media (min-width: 481px) {
+    #contents .left-block,
+    #contents .right-block {
+      width: 50%; } }
+  @media (max-width: 480px) {
+    #contents .left-block,
+    #contents .right-block {
+      width: 100%; } }
+.table .tr {
+  display: flex;
+  width: 100%;
+  line-height: 2.0em; }
+
+.table .thead .tr,
+.table .even-row {
+  background-color: #373335; }
+
+.detail .row {
+  display: flex;
+  line-height: 2.0em;
+  margin-bottom: 4px; }
+
+.detail .row .label {
+  flex: 0 0 100px;
+  min-width: 100px;
+  background-color: #373335;
+  padding-left: 4px;
+  margin-right: 4px; }
+
+.detail .row .value {
+  flex: 1 1 auto;
+  background-color: #373335;
+  padding-left: 4px; }

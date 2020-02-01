@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{% root %}assets/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{% root %}assets/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="{% root %}assets/images/favicon-16x16.png">
-    <link rel="manifest" href="{% root %}/manifest.json">
+    <link rel="manifest" href="{% root %}manifest.json">
 
     <meta property="og:site_name" content="G-ROCK">
     <meta property="og:title" content="{{ title }}">
@@ -30,7 +30,7 @@
 
 <body>
 <header>
-    <a href="{% root %}/"><h1>G-ROCK</h1></a>
+    <a href="{% root %}"><h1>G-ROCK</h1></a>
 
     <ul id="menu">
         <li><a href="{% root %}bands.html">band</a></li>
@@ -49,9 +49,9 @@
     <div class="link">
     <a href="https://twitter.com/_screamyourname" target="_blank">Twitter</a>
     </div>
-    <div class="copy">&copy; 2009-{% build_year %} <a href="{% root %}/">G-ROCK</a></div>
+    <div class="copy">&copy; 2009-{% build_year %} <a href="{% root %}">G-ROCK</a></div>
 </footer>
-<script src="{% root %}/assets/script.js?cc={% cc %}"></script>
+<script src="{% root %}assets/script.js?cc={% cc %}"></script>
 <script>
     function onYouTubeIframeAPIReady() {
         initPlaylist("player1", "{{ playlist.video_ids }}")

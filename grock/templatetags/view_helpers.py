@@ -22,7 +22,7 @@ def assets(path):
 @register.simple_tag(takes_context=True)
 def root(context):
     layer_num = len(context['request'].path.split('/'))
-    if layer_num == 1:
+    if layer_num <= 2:
         return './'
     else:
         return '../' * (layer_num-1)

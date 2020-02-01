@@ -1,9 +1,37 @@
 {% extends "_layout.html" %}
 {% load static %}
+{% load view_helpers %}
 {% block body %}
 
-{% for band in bands %}
-    <div>{{ band.name }}</div>
-{% endfor %}
+<div class="center-wide-block table">
+    <div class="thead">
+        <div class="tr">
+            <div class="th center" style="flex: 1 1 auto;">
+                name
+            </div>
+            <div class="th center" style="flex: 0 0 60px;">
+                origin
+            </div>
+            <div class="th center" style="flex: 0 0 100px;">
+                active
+            </div>
+        </div>
+    </div>
+    <div class="tbody">
+        {% for band in bands %}
+        <div class="tr {{ forloop.counter0 | even_row }}">
+            <div class="td ellipsis a-parent" style="flex: 1 0 auto;">
+                <a href="{{ root }}band/{{ band.key }}.html">{{ band.name }}</a>
+            </div>
+            <div class="td center" style="flex: 0 0 60px;">
+                {{ band.country_code | emoji }}
+            </div>
+            <div class="td ellipsis" style="flex: 0 0 100px;">
+                {{ band.active_term }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 
 {% endblock %}

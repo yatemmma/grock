@@ -1,5 +1,9 @@
 from django import template
 from datetime import datetime
+from django.utils.safestring import mark_safe
+from django.conf import settings
+import flag
+
 
 register = template.Library()
 
@@ -26,4 +30,31 @@ def root(context):
         return './'
     else:
         return '../' * (layer_num-1)
-    
+
+@register.filter("emoji")
+def to_emoji(value):
+    if value:
+        return flag.flagize(f':{value}:')
+    else:
+        return value
+
+@register.filter("even_row")
+def even_row(index):
+    if index % 2 == 0:
+        return "odd-row"
+    else:
+        return "even-row"
+
+@register.filter("external_link")
+def external_link(url):
+    if url:
+        return mark_safe( f'<a target="_blank" href="{url}">{url}</a>' )
+    else:
+        return ""
+
+@register.filter("none_to_empty")
+def none_to_empty(text):
+    if text is None:
+        return ""
+    else:
+        return text    

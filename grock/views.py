@@ -16,8 +16,9 @@ def bands(request):
     return render(request, 'bands.html', context)
     
 def band(request, key):
+    band = Band.objects.get(key=key)
     context = {
-        'title': 'G-ROCK',
-        'band': {}
+        'title': f'G-ROCK | {band.name}',
+        'band': band
     }
     return render(request, 'band.html', context)

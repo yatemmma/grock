@@ -1,7 +1,75 @@
 {% extends "_layout.html" %}
 {% load static %}
+{% load view_helpers %}
 {% block body %}
 
-band!
+<div class="left-block detail">
+    <div class="row">
+        <div class="label">name</div>
+        <div class="value ellipsis">{{ band.name }}</div>
+    </div>
+    <div class="row">
+        <div class="label">origin</div>
+        <div class="value ellipsis">{{ band.country_code | emoji }} {{ band.origin | none_to_empty }}</div>
+    </div>
+    <div class="row">
+        <div class="label">active</div>
+        <div class="value ellipsis">{{ band.active | none_to_empty }}</div>
+    </div>
+    <div class="row">
+        <div class="label">website</div>
+        <div class="value ellipsis">{{ band.website | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">twitter</div>
+        <div class="value ellipsis">{{ band.twitter | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">youtube</div>
+        <div class="value ellipsis">{{ band.youtube | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">facebook</div>
+        <div class="value ellipsis">{{ band.facebook | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">instagram</div>
+        <div class="value ellipsis">{{ band.facebook | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">apple</div>
+        <div class="value ellipsis">{{ band.apple | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">google</div>
+        <div class="value ellipsis">{{ band.google | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">amazon</div>
+        <div class="value ellipsis">{{ band.amazon | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">spotify</div>
+        <div class="value ellipsis">{{ band.spotify | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">soundcloud</div>
+        <div class="value ellipsis">{{ band.soundcloud | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">bandcamp</div>
+        <div class="value ellipsis">{{ band.bandcamp | external_link }}</div>
+    </div>
+    <div class="row">
+        <div class="label">wiki</div>
+        <div class="value ellipsis">{{ band.wiki | external_link }}</div>
+    </div>
+</div>
+
+<div class="right-block">
+    <div class="block">
+        <img src="{{ band.image }}" />
+    </div>
+</div>
 
 {% endblock %}

@@ -107,7 +107,8 @@ footer a {
 .table .tr {
   display: flex;
   width: 100%;
-  line-height: 2.0em; }
+  line-height: 2.0em;
+  min-height: 32px; }
 
 .table .thead .tr,
 .table .even-row {
@@ -144,4 +145,10 @@ footer a {
 }
 .a-parent a:hover {
   font-weight: bold;
+}
+
+.block {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }

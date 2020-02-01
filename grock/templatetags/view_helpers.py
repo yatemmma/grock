@@ -35,6 +35,8 @@ def root(context):
 def to_emoji(value):
     if value:
         return flag.flagize(f':{value}:')
+    elif value is None:
+        return ''
     else:
         return value
 

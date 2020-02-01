@@ -8,9 +8,9 @@
     <title>{{ title }}</title>
     <meta name="description" content="ongaku is music.">
     
-    <link rel="apple-touch-icon" sizes="180x180" href="{% root %}assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{% root %}assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{% root %}assets/images/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{% root %}static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% root %}static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{% root %}static/images/favicon-16x16.png">
     <link rel="manifest" href="{% root %}manifest.json">
 
     <meta property="og:site_name" content="G-ROCK">
@@ -18,13 +18,13 @@
     <meta property="og:description" content="ongaku is music.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://scream.your.name/{{ path }}">
-    <meta property="og:image" content="https://scream.your.name/assets/images/grock.jpg">
+    <meta property="og:image" content="https://scream.your.name/static/images/grock.jpg">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="https://scream.your.name/{{ path }}">
-    <meta name="twitter:image" content="https://scream.your.name/assets/images/grock.jpg">
+    <meta name="twitter:image" content="https://scream.your.name/static/images/grock.jpg">
 
     
-    <link rel="stylesheet" media="all" href="{% root %}assets/style.css?cc={% cc %}" />
+    <link rel="stylesheet" media="all" href="{% root %}static/style.css?cc={% cc %}" />
     <script src="https://www.youtube.com/iframe_api"></script>
 </head>
 
@@ -51,7 +51,7 @@
     </div>
     <div class="copy">&copy; 2009-{% build_year %} <a href="{% root %}">G-ROCK</a></div>
 </footer>
-<script src="{% root %}assets/script.js?cc={% cc %}"></script>
+<script src="{% root %}static/script.js?cc={% cc %}"></script>
 <script>
     function onYouTubeIframeAPIReady() {
         initPlaylist("player1", "{{ playlist.video_ids }}")

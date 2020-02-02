@@ -21,6 +21,13 @@ class Band(models.Model):
     bandcamp     = models.URLField(blank=True, null=True)
     note         = models.TextField(blank=True, null=True)
 
+    def get_playlist(self):
+        playlist = Disc.objects.get(key=f'band-{self.key}')
+        if playlist:
+            return playlist.videos()
+        else:
+            return ''
+
 class Disc (models.Model):
     key          = models.CharField(max_length=400, primary_key=True)
     title        = models.CharField(max_length=400)
@@ -37,3 +44,7 @@ class Disc (models.Model):
     soundcloud   = models.URLField(blank=True, null=True)
     bandcamp     = models.URLField(blank=True, null=True)
     note         = models.TextField(blank=True, null=True)
+
+    def videos(self):
+        return ','.join(self.youtube_ids.split('\r\n'))
+

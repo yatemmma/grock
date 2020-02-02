@@ -54,7 +54,7 @@
 <script src="{% root %}static/script.js?cc={% cc %}"></script>
 <script>
     function onYouTubeIframeAPIReady() {
-        initPlaylist("player1", "{{ playlist.video_ids }}")
+        initPlaylist("player1", "{{ videos }}")
     }
     window.addEventListener('load', () => {
         if (!player) {

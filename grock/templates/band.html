@@ -4,8 +4,9 @@
 {% block body %}
 
 <div class="left-block detail">
+    {{ band.key | admin_links | safe }}
     <div class="row">
-        <div class="label">name {{ band.key | admin_band_edit | safe}}</div>
+        <div class="label">name</div>
         <div class="value ellipsis">{{ band.name }}</div>
     </div>
     <div class="row">

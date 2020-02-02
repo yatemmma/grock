@@ -152,3 +152,7 @@ footer a {
   display: flex;
   justify-content: space-around;
 }
+.block img {
+  width: 96%;
+  padding: 2%;
+}

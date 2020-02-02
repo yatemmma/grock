@@ -59,4 +59,11 @@ def none_to_empty(text):
     if text is None:
         return ""
     else:
-        return text    
+        return text
+
+@register.filter("admin_band_edit")
+def admin_band_edit(key):
+    if settings.DEBUG:
+        return f'<a href="https://grock.herokuapp.com/admin/grock/band/{key}/change/" target="_blank">(edit)</a>'
+    else:
+        return ''

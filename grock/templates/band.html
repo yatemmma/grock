@@ -5,7 +5,7 @@
 
 <div class="left-block detail">
     <div class="row">
-        <div class="label">name</div>
+        <div class="label">name {{ band.key | admin_band_edit | safe}}</div>
         <div class="value ellipsis">{{ band.name }}</div>
     </div>
     <div class="row">
@@ -34,7 +34,7 @@
     </div>
     <div class="row">
         <div class="label">instagram</div>
-        <div class="value ellipsis">{{ band.facebook | external_link }}</div>
+        <div class="value ellipsis">{{ band.instagram | external_link }}</div>
     </div>
     <div class="row">
         <div class="label">apple</div>
@@ -68,7 +68,9 @@
 
 <div class="right-block">
     <div class="block">
+        {% if band.image %}
         <img src="{{ band.image }}" />
+        {% endif %}
     </div>
 </div>
 

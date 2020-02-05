@@ -156,3 +156,13 @@ footer a {
   width: 96%;
   padding: 2%;
 }
+
+.image {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.image img {
+  width: 98%;
+  padding: 0 1%;
+}

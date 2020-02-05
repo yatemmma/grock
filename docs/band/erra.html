@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>G-ROCK | Erra</title>
+    <meta name="description" content="ongaku is music.">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="../static/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../static/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../static/images/favicon-16x16.png">
+    <link rel="manifest" href="../manifest.json">
+
+    <meta property="og:site_name" content="G-ROCK">
+    <meta property="og:title" content="G-ROCK | Erra">
+    <meta property="og:description" content="ongaku is music.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://scream.your.name/">
+    <meta property="og:image" content="https://scream.your.name/static/images/grock.jpg">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="https://scream.your.name/">
+    <meta name="twitter:image" content="https://scream.your.name/static/images/grock.jpg">
+
+    
+    <link rel="stylesheet" media="all" href="../static/style.css?cc=20200205134650" />
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+
+<body>
+<header>
+    <a href="../"><h1>G-ROCK</h1></a>
+
+    <ul id="menu">
+        <li><a href="../bands.html">band</a></li>
+    </ul>
+</header>
+
+<div id="player1" class="player"></div>
+<div id="player-shadow" class="player hidden"></div>
+
+<section id="contents">
+    
+
+<div class="left-block detail">
+    
+            <div class="row">
+                <div class="label">edit</div>
+                <div class="value ellipsis">
+                    <a target="_blank" href="https://grock.herokuapp.com/admin/grock/band/erra/change/">band</a>
+                    <a target="_blank" href="https://grock.herokuapp.com/admin/grock/disc/band-erra/change/">playlist</a>
+                </div>
+            </div>
+        
+    <div class="row">
+        <div class="label">name</div>
+        <div class="value ellipsis">Erra</div>
+    </div>
+    <div class="row">
+        <div class="label">photo</div>
+        <div class="value image"><img src="https://i.ytimg.com/vi/vFUzsbHpwTY/hqdefault.jpg" /></div>
+    </div>
+    <div class="row">
+        <div class="label">origin</div>
+        <div class="value ellipsis">🇺🇸 Birmingham, Alabama, USA</div>
+    </div>
+    <div class="row">
+        <div class="label">active</div>
+        <div class="value ellipsis">2009-present</div>
+    </div>
+    <div class="row">
+        <div class="label">website</div>
+        <div class="value ellipsis"></div>
+    </div>
+    <div class="row">
+        <div class="label">twitter</div>
+        <div class="value ellipsis"><a target="_blank" href="https://twitter.com/erra_band">https://twitter.com/erra_band</a></div>
+    </div>
+    <div class="row">
+        <div class="label">youtube</div>
+        <div class="value ellipsis"></div>
+    </div>
+    <div class="row">
+        <div class="label">facebook</div>
+        <div class="value ellipsis"><a target="_blank" href="https://www.facebook.com/Erra.music/">https://www.facebook.com/Erra.music/</a></div>
+    </div>
+    <div class="row">
+        <div class="label">instagram</div>
+        <div class="value ellipsis"></div>
+    </div>
+    <div class="row">
+        <div class="label">apple</div>
+        <div class="value ellipsis"></div>
+    </div>
+    <div class="row">
+        <div class="label">google</div>
+        <div class="value ellipsis"></div>
+    </div>
+    <div class="row">
+        <div class="label">amazon</div>
+        <div class="value ellipsis"></div>
+    </div>
+    <div class="row">
+        <div class="label">spotify</div>
+        <div class="value ellipsis"></div>
+    </div>
+    <div class="row">
+        <div class="label">soundcloud</div>
+        <div class="value ellipsis"></div>
+    </div>
+    <div class="row">
+        <div class="label">bandcamp</div>
+        <div class="value ellipsis"></div>
+    </div>
+    <div class="row">
+        <div class="label">wiki</div>
+        <div class="value ellipsis"><a target="_blank" href="https://en.wikipedia.org/wiki/Erra_(band)">https://en.wikipedia.org/wiki/Erra_(band)</a></div>
+    </div>
+</div>
+
+<div class="right-block">
+    <div class="block">
+        
+        <img src="https://i.ytimg.com/vi/vFUzsbHpwTY/hqdefault.jpg" />
+        
+    </div>
+</div>
+
+
+</section>
+
+<footer>
+    <div class="link">
+    <a href="https://twitter.com/_screamyourname" target="_blank">Twitter</a>
+    </div>
+    <div class="copy">&copy; 2009-2020 <a href="../">G-ROCK</a></div>
+</footer>
+<script src="../static/script.js?cc=20200205134650"></script>
+<script>
+    function onYouTubeIframeAPIReady() {
+        initPlaylist("player1", "KxUHE6u9SDc,elsRu8yig2c,mOvJFW9dpJM")
+    }
+    window.addEventListener('load', () => {
+        if (!player) {
+            console.log("player: " + player)
+            onYouTubeIframeAPIReady()
+        }
+    })
+</script>
+
+<script>
+    if (location.href.indexOf("scream.your.name") >= 0) {
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-2868508-4', 'auto');
+        ga('send', 'pageview');
+    }
+</script>
+</body>
+</html>

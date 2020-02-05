@@ -44,7 +44,6 @@ class Disc (models.Model):
     soundcloud   = models.URLField(blank=True, null=True)
     bandcamp     = models.URLField(blank=True, null=True)
     note         = models.TextField(blank=True, null=True)
-    band = models.ForeignKey(Band, on_delete=models.DO_NOTHING, related_name='bands')
 
     def videos(self):
         return ','.join(self.youtube_ids.split('\r\n'))

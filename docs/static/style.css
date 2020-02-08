@@ -2,11 +2,11 @@ body {
   margin: 0px;
   background-color: #1b010f;
   color: #eee;
-  font-family: '-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;' }
+  font-family: 'Roboto, Noto, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;' }
 
 a,
 a *,
-a:visited,
+  a:visited,
 a:visited * {
   color: #eee; }
 

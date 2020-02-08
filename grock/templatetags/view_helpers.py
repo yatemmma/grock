@@ -70,9 +70,20 @@ def admin_links(key):
                 <div class="value ellipsis">
                     <a target="_blank" href="https://grock.herokuapp.com/admin/grock/band/{}/change/">band</a>
                     <a target="_blank" href="https://grock.herokuapp.com/admin/grock/disc/band-{}/change/">playlist</a>
+                    <a target="_blank" href="https://grock.herokuapp.com/admin/grock/disc/add/">add_disc</a>
                 </div>
             </div>
         """
-        return text.format(key, key)
+        return mark_safe(text.format(key, key))
+    else:
+        return ''
+
+@register.filter("disc_admin_links")
+def disc_admin_links(key):
+    if settings.DEBUG:
+        text = """
+            <a target="_blank" href="https://grock.herokuapp.com/admin/grock/disc/{}/change/">playlist</a>
+        """
+        return mark_safe(text.format(key))
     else:
         return ''

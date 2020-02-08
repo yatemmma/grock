@@ -4,7 +4,7 @@
 {% block body %}
 
 <div class="left-block detail">
-    {{ band.key | admin_links | safe }}
+    {{ band.key | admin_links }}
     <div class="row">
         <div class="label">name</div>
         <div class="value ellipsis">{{ band.name }}</div>
@@ -72,11 +72,19 @@
 </div>
 
 <div class="right-block">
-    <div class="block">
-        {% if band.image %}
-        <img src="{{ band.image }}" />
-        {% endif %}
+    {% for disc in band.get_discs %}
+    <div class="block disc">
+        <div class="image">
+            <img onclick="setPlaylist('{{ disc.videos }}')" src="{{ disc.image }}" />
+        </div>
+        <div class="detail">
+            <div class="detail-row">{{ disc.title }}</div>
+            <div class="detail-row">{{ disc.disc_type }} {{ disc.key | disc_admin_links }}</div>
+            <div class="detail-row">{{ disc.release_date }}</div>
+            <div class="detail-row">{{ disc.display_band_name }}</div>
+        </div>
     </div>
+    {% endfor %}
 </div>
 
 {% endblock %}

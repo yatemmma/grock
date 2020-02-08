@@ -153,17 +153,39 @@ footer a {
   display: flex;
   justify-content: space-around;
 }
-.block img {
-  width: 96%;
-  padding: 2%;
-}
 
-.image {
+.detail .image {
   text-align: center;
   padding-top: 10px;
+  padding-right: 4px;
 }
 
-.image img {
+.detail .image img {
   width: 98%;
   padding: 0 1%;
+}
+
+.disc {
+  padding: 4px 8px 0px;
+}
+
+.disc .image {
+  flex: 1;
+}
+
+.disc .detail {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.detail-row {
+  max-height: 72px;
+}
+
+.disc .image img {
+  width: 96%;
+  padding: 0 2%;
+  cursor: pointer;
 }

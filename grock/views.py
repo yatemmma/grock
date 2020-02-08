@@ -4,7 +4,7 @@ from grock.models import Band, Disc
 def index(request):
     context = {
         'title': 'G-ROCK',
-        'videos': Disc.objects.get(key='top').videos()
+        'videos': Disc.get_playlist('top')
     }
     return render(request, 'index.html', context)
 
@@ -13,7 +13,7 @@ def bands(request):
     context = {
         'title': 'G-ROCK | bands',
         'bands': bands,
-        'videos': Disc.objects.get(key='bands').videos()
+        'videos': Disc.get_playlist('bands')
     }
     return render(request, 'bands.html', context)
     

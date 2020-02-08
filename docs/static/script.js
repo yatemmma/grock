@@ -53,12 +53,14 @@ function onPlayerError(error) {
 
 const offsetTop = document.getElementById("player1").offsetTop
 window.addEventListener('scroll', () => {
-    const scroll = document.documentElement.scrollTop || document.body.scrollTop
-    if (scroll > offsetTop) {
-        document.getElementById("player1").classList.add("fixed")
-        document.getElementById("player-shadow").classList.remove("hidden")
-    } else {
-        document.getElementById("player1").classList.remove("fixed")
-        document.getElementById("player-shadow").classList.add("hidden")
+    if (window.innerWidth < 481) {
+        const scroll = document.documentElement.scrollTop || document.body.scrollTop
+        if (scroll > offsetTop) {
+            document.getElementById("player1").classList.add("fixed")
+            document.getElementById("player-shadow").classList.remove("hidden")
+        } else {
+            document.getElementById("player1").classList.remove("fixed")
+            document.getElementById("player-shadow").classList.add("hidden")
+        }
     }
 })

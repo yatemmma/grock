@@ -2,18 +2,21 @@ from django.test import Client, RequestFactory
 import os
 import shutil
 
-from grock.views import index, bands, band
+from grock.views import index, bands, covers, band, covers
 from grock.models import Band
 
 def clean():
+    print('clean dir')
     shutil.rmtree('docs/band/', ignore_errors=True)
     os.makedirs('docs/band/', exist_ok=True)
 
 def gen():
+    print('gen list page')
     save_request(lambda req: index(req), 'index.html')
     save_request(lambda req: bands(req), 'bands.html')
     save_request(lambda req: covers(req), 'covers.html')
-
+    
+    print('gen band page')
     for band_instance in Band.objects.all():
         save_request(lambda req: band(req, band_instance.key), f'band/{band_instance.key}.html')
 

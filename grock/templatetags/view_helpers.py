@@ -61,9 +61,20 @@ def none_to_empty(text):
     else:
         return text
 
+@register.filter("band_name_links")
+def band_name_links(key_name_list, root):
+    print(key_name_list)
+    links = []
+    for key, name in key_name_list:
+        if key is None:
+            links.append(name)
+        else:
+            links.append(f'<a href="{root}band/{key}.html">{name}</a>')
+    return mark_safe(','.join(links))
+
 @register.filter("admin_links")
 def admin_links(key):
-    if settings.DEBUG:
+    if settings.IS_ADMIN:
         text = """
             <div class="row">
                 <div class="label">edit</div>
@@ -80,7 +91,7 @@ def admin_links(key):
 
 @register.filter("disc_admin_links")
 def disc_admin_links(key):
-    if settings.DEBUG:
+    if settings.IS_ADMIN:
         text = """
             <a target="_blank" href="https://grock.herokuapp.com/admin/grock/disc/{}/change/">playlist</a>
         """
@@ -90,7 +101,7 @@ def disc_admin_links(key):
 
 @register.filter("add_admin_link")
 def add_admin_link(table):
-    if settings.DEBUG:
+    if settings.IS_ADMIN:
         text = """
             <a target="_blank" href="https://grock.herokuapp.com/admin/grock/{}/add/">{}</a>
         """

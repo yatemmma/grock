@@ -81,11 +81,11 @@ class Disc (models.Model):
     def videos(self):
         return ','.join(self.youtube_ids.split('\r\n'))
 
-    def display_band_name(self):
+    def bands_key_and_name(self):
         if self.release_band is None:
-            return ", ".join(list(map(lambda x: f'<a href="./{x.key}.html">{x.name}</a>', self.bands.all())))
+            return list(map(lambda x: (x.key, x.name), self.bands.all()))
         else:
-            return self.release_band
+            return [(self.bands.all().first().key, self.release_band)]
     
     @classmethod
     def get_playlist(cls, key):

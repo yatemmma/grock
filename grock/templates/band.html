@@ -85,7 +85,7 @@
             <div class="detail-row">{{ disc.title }}</div>
             <div class="detail-row">{{ disc.disc_type }} {{ disc.key | disc_admin_links }}</div>
             <div class="detail-row">{{ disc.release_date }}</div>
-            <div class="detail-row">{{ disc.display_band_name | safe }}</div>
+            <div class="detail-row">{{ disc.bands_key_and_name | band_name_links:'../' }}</div>
         </div>
     </div>
     {% endfor %}
@@ -100,7 +100,7 @@
             <div class="detail-row">{{ disc.title }}</div>
             <div class="detail-row">{{ disc.disc_type }} {{ disc.key | disc_admin_links }}</div>
             <div class="detail-row">{{ disc.release_date }}</div>
-            <div class="detail-row">{{ disc.display_band_name | safe }}</div>
+            <div class="detail-row">{{ disc.bands_key_and_name | band_name_links:'../' }}</div>
         </div>
     </div>
     {% endfor %}

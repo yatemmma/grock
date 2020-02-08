@@ -27,14 +27,17 @@ class Band(models.Model):
     genres       = models.ManyToManyField(Genre, related_name='bands', blank=True)
 
     def get_playlist(self):
-        playlist = Disc.objects.get(key=f'band-{self.key}')
-        if playlist:
-            return playlist.videos()
+        playlist = Disc.objects.filter(key=f'band-{self.key}')
+        if playlist.count() > 0:
+            return playlist.first().videos()
         else:
             return ''
     
     def get_discs(self):
         return self.discs.all().order_by('-release_date')
+
+    def get_covers(self):
+        return self.coverd_discs.all().order_by('-release_date')
 
     def active_term(self):
         if self.active is None:
@@ -46,7 +49,13 @@ class Band(models.Model):
             if len(years) == 1:
                 return years
             else:
-                return f'{years[0]-years[-1]}'        
+                return f'{years[0]}-{years[-1]}'  
+
+    def genres_with_comma(self):
+        return ",".join(list(map(lambda x: x.name, self.genres.all())))
+
+    def genres_with_newline(self):
+        return "<br>".join(list(map(lambda x: x.name, self.genres.all())))
 
 class Disc (models.Model):
     key          = models.CharField(max_length=400, primary_key=True)
@@ -74,7 +83,7 @@ class Disc (models.Model):
 
     def display_band_name(self):
         if self.release_band is None:
-            return ", ".join(list(map(lambda x: x.name, self.bands.all())))
+            return ", ".join(list(map(lambda x: f'<a href="./{x.key}.html">{x.name}</a>', self.bands.all())))
         else:
             return self.release_band
     

@@ -87,3 +87,13 @@ def disc_admin_links(key):
         return mark_safe(text.format(key))
     else:
         return ''
+
+@register.filter("add_admin_link")
+def add_admin_link(table):
+    if settings.DEBUG:
+        text = """
+            <a target="_blank" href="https://grock.herokuapp.com/admin/grock/{}/add/">{}</a>
+        """
+        return mark_safe(text.format(table, table))
+    else:
+        return ''

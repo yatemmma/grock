@@ -85,14 +85,17 @@ footer a {
   margin: 16px auto; }
 
 @media (min-width: 481px) {
-  #contents .center-thin-block {
+  #contents .thin-column {
     width: 60%;
     margin: 16px 20%; } }
 
 @media (max-width: 480px) {
-  #contents .center-thin-block {
+  #contents .thin-column {
     width: 100%;
-    margin: 16px 0px; } }
+    margin: 16px 0px; } 
+  .detail {
+    padding-left: 8px;
+    } }
 
 #contents .left-block,
 #contents .right-block {
@@ -165,6 +168,7 @@ footer a {
   padding: 0 1%;
 }
 
+h3.disc-title,
 .disc {
   padding: 4px 8px 0px;
 }
@@ -182,6 +186,7 @@ footer a {
 
 .detail-row {
   max-height: 72px;
+  overflow-y: hidden;
 }
 
 .disc .image img {

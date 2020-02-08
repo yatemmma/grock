@@ -12,6 +12,7 @@ def clean():
 def gen():
     save_request(lambda req: index(req), 'index.html')
     save_request(lambda req: bands(req), 'bands.html')
+    save_request(lambda req: covers(req), 'covers.html')
 
     for band_instance in Band.objects.all():
         save_request(lambda req: band(req, band_instance.key), f'band/{band_instance.key}.html')

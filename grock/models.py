@@ -44,7 +44,7 @@ class Disc (models.Model):
     soundcloud   = models.URLField(blank=True, null=True)
     bandcamp     = models.URLField(blank=True, null=True)
     note         = models.TextField(blank=True, null=True)
-    bands        = models.ManyToManyField(Band)
+    bands        = models.ManyToManyField(Band, related_name='discs', blank=True)
 
     def videos(self):
         return ','.join(self.youtube_ids.split('\r\n'))

@@ -87,6 +87,21 @@ class Disc (models.Model):
         else:
             return [(self.bands.all().first().key, self.release_band)]
     
+    def display_release_date(self):
+        if self.release_date is None:
+            return ''
+        else:
+            year, month, day = self.release_date.split('/')
+            date = [year]
+            if not (month == '99'):
+                date.append(month)
+            if not (day == '99'):
+                date.append(day)
+        return '/'.join(date)
+
+
+            
+
     @classmethod
     def get_playlist(cls, key):
         return cls.objects.get(key=key).videos()

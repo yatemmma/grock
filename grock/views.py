@@ -3,7 +3,7 @@ from grock.models import Band, Disc
 from django.db.models import Q
 
 def index(request):
-    discs = Disc.objects.filter(~Q(disc_type='playlist')).order_by('-release_date')[:8]
+    discs = Disc.objects.filter(~Q(disc_type='playlist')).order_by('-release_date')[:20]
     context = {
         'title': 'G-ROCK',
         'discs': discs,

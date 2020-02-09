@@ -64,3 +64,10 @@ window.addEventListener('scroll', () => {
         }
     }
 })
+
+function clickEffect(e) {
+    e.style.opacity = 0.5
+    setTimeout(()=>{
+        e.style.opacity = 1
+    }, 100)
+}

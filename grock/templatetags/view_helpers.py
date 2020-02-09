@@ -63,7 +63,6 @@ def none_to_empty(text):
 
 @register.filter("band_name_links")
 def band_name_links(key_name_list, root):
-    print(key_name_list)
     links = []
     for key, name in key_name_list:
         if key is None:

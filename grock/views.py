@@ -21,7 +21,7 @@ def bands(request):
     return render(request, 'bands.html', context)
 
 def covers(request):
-    bands = Band.objects.filter(discs__isnull=True, coverd_discs__isnull=False).distinct('key').order_by('key')
+    bands = Band.objects.filter(coverd_discs__isnull=False).distinct('key').order_by('key')
     context = {
         'title': 'G-ROCK | covers',
         'bands': bands,

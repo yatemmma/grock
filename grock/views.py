@@ -7,7 +7,9 @@ def index(request):
     context = {
         'title': 'G-ROCK',
         'discs': discs,
-        'videos': Disc.get_playlist('top')
+        'videos': Disc.get_playlist('top'),
+        'path': '',
+        'og_image': 'https://scream.your.name/static/images/grock.jpg'
     }
     return render(request, 'index.html', context)
 
@@ -16,7 +18,9 @@ def bands(request):
     context = {
         'title': 'G-ROCK | bands',
         'bands': bands,
-        'videos': Disc.get_playlist('bands')
+        'videos': Disc.get_playlist('bands'),
+        'path': 'bands.html',
+        'og_image': 'https://scream.your.name/static/images/grock.jpg'
     }
     return render(request, 'bands.html', context)
 
@@ -25,7 +29,9 @@ def covers(request):
     context = {
         'title': 'G-ROCK | covers',
         'bands': bands,
-        'videos': Disc.get_playlist('covers')
+        'videos': Disc.get_playlist('covers'),
+        'path': 'covers.html',
+        'og_image': 'https://scream.your.name/static/images/grock.jpg'
     }
     return render(request, 'bands.html', context)
     
@@ -34,6 +40,8 @@ def band(request, key):
     context = {
         'title': f'G-ROCK | {band.name}',
         'band': band,
-        'videos': band.get_playlist()
+        'videos': band.get_playlist(),
+        'path': f'band/{band.key}.html',
+        'og_image': band.image
     }
     return render(request, 'band.html', context)

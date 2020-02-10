@@ -11,17 +11,17 @@
     <link rel="apple-touch-icon" sizes="180x180" href="{% root %}static/images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="{% root %}static/images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="{% root %}static/images/favicon-16x16.png">
-    <link rel="manifest" href="{% root %}manifest.json">
+    <!-- <link rel="manifest" href="{% root %}manifest.json"> -->
 
     <meta property="og:site_name" content="G-ROCK">
     <meta property="og:title" content="{{ title }}">
-    <meta property="og:description" content="ongaku is music.">
+    <meta property="og:description" content="{{ title }}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://scream.your.name/{{ path }}">
-    <meta property="og:image" content="https://scream.your.name/static/images/grock.jpg">
+    <meta property="og:image" content="{{ og_image }}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:site" content="https://scream.your.name/{{ path }}">
-    <meta name="twitter:image" content="https://scream.your.name/static/images/grock.jpg">
+    <meta name="twitter:image" content="{{ og_image }}">
 
     
     <link rel="stylesheet" media="all" href="{% root %}static/style.css?cc={% cc %}" />

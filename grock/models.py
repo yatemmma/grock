@@ -24,6 +24,7 @@ class Band(models.Model):
     soundcloud   = models.URLField(blank=True, null=True)
     bandcamp     = models.URLField(blank=True, null=True)
     note         = models.TextField(blank=True, null=True)
+    genre        = models.ForeignKey(Genre, on_delete=models.DO_NOTHING, null=True, blank=True, default='pop_punk')
     genres       = models.ManyToManyField(Genre, related_name='bands', blank=True)
 
     def get_playlist(self):

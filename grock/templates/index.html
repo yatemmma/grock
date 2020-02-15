@@ -7,7 +7,7 @@
     {% for disc in discs %}
     <div class="block disc">
         <div class="image">
-            <img onclick="setPlaylist('{{ disc.videos }}');clickEffect(this);" src="{{ disc.image }}" />
+            <img onclick="setPlaylist('{{ disc.videos }}');clickEffect(this);" src="{{ disc.image_link }}" />
         </div>
         <div class="detail">
             <div class="detail-row">{{ disc.title }}</div>

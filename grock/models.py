@@ -58,6 +58,12 @@ class Band(models.Model):
     def genres_with_newline(self):
         return "<br>".join(list(map(lambda x: x.name, self.genres.all())))
 
+    def image_link(self):
+        if self.image.startswith('http'):
+            return self.image.replace('mqdefault', 'hqdefault')
+        else:
+            return f'https://i.ytimg.com/vi/{self.image}/hqdefault.jpg'
+
 class Disc (models.Model):
     key          = models.CharField(max_length=400, primary_key=True)
     title        = models.CharField(max_length=400)
@@ -100,8 +106,11 @@ class Disc (models.Model):
                 date.append(day)
         return '/'.join(date)
 
-
-            
+    def image_link(self):
+        if self.image.startswith('http'):
+            return self.image.replace('hqdefault', 'mqdefault')
+        else:
+            return f'https://i.ytimg.com/vi/{self.image}/mqdefault.jpg'
 
     @classmethod
     def get_playlist(cls, key):

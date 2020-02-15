@@ -11,7 +11,7 @@
     </div>
     <div class="row">
         <div class="label">photo</div>
-        <div class="value image"><img src="{{ band.image }}" /></div>
+        <div class="value image"><img src="{{ band.image_link }}" /></div>
     </div>
     <div class="row">
         <div class="label">origin</div>
@@ -79,7 +79,7 @@
     {% for disc in band.get_discs %}
     <div class="block disc">
         <div class="image">
-            <img onclick="setPlaylist('{{ disc.videos }}')" src="{{ disc.image }}" />
+            <img onclick="setPlaylist('{{ disc.videos }}')" src="{{ disc.image_link }}" />
         </div>
         <div class="detail">
             <div class="detail-row">{{ disc.title }}</div>
@@ -94,7 +94,7 @@
     {% if forloop.first %}<h3 class="disc-title">Covers</h3>{% endif %}
     <div class="block disc">
         <div class="image">
-            <img onclick="setPlaylist('{{ disc.videos }}')" src="{{ disc.image }}" />
+            <img onclick="setPlaylist('{{ disc.videos }}')" src="{{ disc.image_link }}" />
         </div>
         <div class="detail">
             <div class="detail-row">{{ disc.title }}</div>

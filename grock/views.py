@@ -42,7 +42,7 @@ def band(request, key):
     band = Band.objects.get(key=key)
     context = {
         'title': f'G-ROCK | {band.name}',
-        'description': f'{band.active_term} {band.origin}',
+        'description': f'{band.active_term()} {band.origin}',
         'band': band,
         'videos': band.get_playlist(),
         'path': f'band/{band.key}.html',

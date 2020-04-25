@@ -40,11 +40,13 @@ def covers(request):
     
 def band(request, key):
     band = Band.objects.get(key=key)
+    videos = [''] + list( map(lambda disc: disc.videos(), band.get_discs()) )
+    covers = [''] + list( map(lambda disc: disc.videos(), band.get_covers()) )
     context = {
         'title': f'G-ROCK | {band.name}',
         'description': f'{band.active_term()} {band.origin}',
         'band': band,
-        'videos': band.get_playlist(),
+        'videos': band.get_playlist() + ','.join(videos) + ','.join(covers),
         'path': f'band/{band.key}.html',
         'og_image': band.image
     }
